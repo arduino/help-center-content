@@ -1,0 +1,22 @@
+Arduino Help Center
+===================
+
+## What Is this Repository?
+
+This repository hosts the content for the [Arduino Help Center](https://support.arduino.cc/). The content is written in Markdown, which is converted to HTML automatically during the build process.
+
+## ✅ What belongs in this repo
+
+- General "how-to" articles
+- Troubleshooting articles
+- Answering common questions
+
+## ❌ What does not belong in this repo
+
+- Project tutorials (use the [Project Hub](https://create.arduino.cc/projecthub))
+- Reference material for code (see the [Arduino Reference repo](https://github.com/arduino/reference-en) instead)
+- Device specifications
+
+## Can I Contribute?
+
+Yes! Get started by reading the [wiki](https://github.com/arduino/help-center-content/wiki).

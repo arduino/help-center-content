@@ -1,0 +1,30 @@
+default: false
+headings: true
+MD001: false
+MD002: false
+MD003: false
+MD041: false
+MD024: false
+blank_lines: true
+hr: true
+indentation: true
+bullet: true
+MD029: true
+whitespace: true
+MD009:
+  strict: true
+links: true
+MDX001: true
+HC001:
+  heading_line_length: 60
+HC002: true
+HC003: true
+HC004:
+  attributes:
+  - title
+HC005:
+  attributes:
+  - title
+  - labels
+HC006:
+  title_line_length: 124

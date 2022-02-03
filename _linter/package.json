@@ -1,0 +1,27 @@
+{
+  "name": "help-center",
+  "version": "1.0.0",
+  "description": "Eh?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcmi-labs/help-center.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcmi-labs/help-center/issues"
+  },
+  "homepage": "https://github.com/bcmi-labs/help-center",
+  "dependencies": {
+    "glob": "^7.2.0",
+    "markdown-it": "^12.2.0",
+    "markdownlint": "^0.24.0",
+    "object-treeify": "^2.0.1",
+    "treeify": "^1.1.0",
+    "yaml": "^1.10.2"
+  }
+}
