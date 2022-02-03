@@ -13,9 +13,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bcmi-labs/help-center/issues"
+    "url": "https://github.com/arduino/help-center-content/issues"
   },
-  "homepage": "https://github.com/bcmi-labs/help-center",
+  "homepage": "https://github.com/arduino/help-center-content",
   "dependencies": {
     "glob": "^7.2.0",
     "markdown-it": "^12.2.0",
