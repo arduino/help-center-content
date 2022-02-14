@@ -1,4 +1,4 @@
-# Licence
+# License
 
 The Arduino Documentation is licensed under a [Creative Commons Attribution 4.0 International Licence](http://creativecommons.org/licenses/by-sa/4.0/).
 
