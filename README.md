@@ -20,3 +20,7 @@ This repository hosts the content for the [Arduino Help Center](https://support.
 ## Can I Contribute?
 
 Yes! Get started by reading the [wiki](https://github.com/arduino/help-center-content/wiki).
+
+## License
+
+The contents of this repository is licensed under a [Creative Commons Attribution 4.0 International Licence](http://creativecommons.org/licenses/by-sa/4.0/).
