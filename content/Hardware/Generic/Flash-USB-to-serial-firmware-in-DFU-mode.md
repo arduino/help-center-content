@@ -2,7 +2,17 @@
 title: "Flash USB-to-serial firmware in DFU mode"
 ---
 
-UNO and Mega boards use either an Atmega16U2 or Atmega8U2 chip as a USB-to-serial converter, with its own firmware. The firmware can be flashed by connecting it to a computer and setting the board to **DFU mode** (Device Firmware Update).
+The following boards use either an Atmega16U2 or Atmega8U2 chip as a USB-to-serial converter:
+
+* Arduino Uno
+* Arduino Uno Rev3
+* Arduino Mega
+* Arduino Mega2560 Rev3
+* Arduino MegaADK Rev3
+
+The converter chip firmware can be flashed with a computer by setting the board to **DFU mode** (Device Firmware Update).
+
+> Note that this article does _not_ apply to the Uno WiFi Rev2, which uses a different chip with closed source firmware.
 
 ## 1. Get the firmware
 
@@ -14,8 +24,8 @@ Within the platform directory, the usb to serial firmware is found in `firmwares
 |-----------------------|------------------------------------------------|
 | Arduino Mega2560 Rev3 | Arduino-usbserial-atmega16u2-Mega2560-Rev3.hex |
 | Arduino MegaADK Rev3  | Arduino-usbserial-atmega16u2-MegaADK-Rev3.hex  |
-| Arduino UNO Rev3      | Arduino-usbserial-atmega16u2-Uno-Rev3.hex      |
-| Arduino UNO           | Arduino-usbserial-uno.hex                      |
+| Arduino Uno Rev3      | Arduino-usbserial-atmega16u2-Uno-Rev3.hex      |
+| Arduino Uno           | Arduino-usbserial-uno.hex                      |
 | Arduino Mega          | Arduino-usbserial-mega.hex                     |
 
 ## 2. Program the chip with the firmware
