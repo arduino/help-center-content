@@ -5,7 +5,7 @@ on:
     types: deploy
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:

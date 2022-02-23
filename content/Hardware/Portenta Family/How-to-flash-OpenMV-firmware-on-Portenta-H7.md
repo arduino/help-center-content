@@ -4,6 +4,8 @@ title: "How to flash OpenMV firmware on Portenta H7"
 
 In order to program scripts for Portenta H7 with OpenMV it is necessary to flash the firmware that allows the board to load and run the programs from the OpenMV environment. This guide explains step-by-step how to set up the environment to get started with OpenMV.
 
+---
+
 1. Install/Update latest core version of **Arduino Mbed OS Portenta Boards**: In Arduino IDE go to *Tools > Board > Boards Manager* and search Portenta. Install/Update Arduino Mbed OS Portenta Boards.
 
 2. **Update Portenta H7 bootloader**: This can be easily done from Arduino IDE and _PortentaH7_updateBootloader_ sketch from Portenta examples. Find a detailed guide to do so [here](https://www.arduino.cc/pro/tutorials/portenta-h7/por-ard-bl).
