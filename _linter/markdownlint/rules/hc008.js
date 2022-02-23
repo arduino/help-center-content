@@ -28,7 +28,6 @@ module.exports = {
       .replace(/[^A-Za-z0-9]+/g, '-')
       .replace(/-$/, '') + '.md';
       if (filename != expectedFilename) {
-        console.log("Error! Filename is [" + filename + '], expected [' + expectedFilename + ']');
         addErrorDetailIf(onError, 1,
           filename, expectedFilename, null, "Expected: " + expectedFilename
           + "; Actual: " + filename);
