@@ -18,9 +18,6 @@ const customRules = require('./markdownlint/rules/rules.js');
 const configJSON = fs.readFileSync('./_linter/markdownlint.yml', 'utf8')
 const configYAML = YAML.parse(configJSON);
 
-// treeify
-const treeify = require("treeify");
-
 const options = {
   "config": configYAML,
   "files": files,

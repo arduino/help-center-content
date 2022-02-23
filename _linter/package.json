@@ -1,27 +1,25 @@
 {
-  "name": "help-center",
+  "name": "markdownlint",
   "version": "1.0.0",
-  "description": "Eh?",
-  "main": "index.js",
+  "description": "Linter for the Arduino Help Center repository",
+  "main": "markdownlint.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bcmi-labs/help-center.git"
+    "url": "git+https://github.com/arduino/help-center-content.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/arduino/help-center-content/issues"
   },
-  "homepage": "https://github.com/arduino/help-center-content",
+  "homepage": "https://github.com/arduino/help-center-content/blob/main/_linter",
   "dependencies": {
     "glob": "^7.2.0",
     "markdown-it": "^12.2.0",
     "markdownlint": "^0.24.0",
-    "object-treeify": "^2.0.1",
-    "treeify": "^1.1.0",
     "yaml": "^1.10.2"
   }
 }
