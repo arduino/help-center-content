@@ -134,3 +134,22 @@ title: "Example title"
 
 ### Level 3 heading
 ```
+
+<a name="hc008"></a>
+
+## HC008 - Filename should match title
+
+Tags: filenames
+
+Aliases: filename-match
+
+Enforces a filename standard based on the article title.
+
+Starting with the article title, the filename is determined by following these steps:
+
+1. Remove all single quotes `'` and double quotes `"`
+2. Convert all sequences (1 or more) of non-alphanumeric characters to a single dash `-`
+3. Remove any leading or trailing dash `-`
+4. Append the `.md` extension
+
+Resolve the error by renaming the file to the expected filename.
