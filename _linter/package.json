@@ -19,7 +19,7 @@
   "dependencies": {
     "glob": "^7.2.0",
     "markdown-it": "^12.2.0",
-    "markdownlint": "^0.24.0",
+    "markdownlint": "^0.25.1",
     "yaml": "^1.10.2"
   }
 }

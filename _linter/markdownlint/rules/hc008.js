@@ -5,7 +5,6 @@
 const markdownlintRulesDir = "../..//node_modules/markdownlint/lib/";
 const { addErrorDetailIf, filterTokens, frontMatterHasTitle } = require(markdownlintRulesDir + "../helpers");
 
-const sanitize = require("sanitize-filename");
 const path = require("path");
 
 module.exports = {
