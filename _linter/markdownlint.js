@@ -4,7 +4,7 @@ const fs = require('fs');
 const YAML = require('yaml');
 const ruleURLs = {
   'hc': 'https://github.com/arduino/help-center-content/blob/main/_linter/markdownlint/Rules.md',
-  'md': 'https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md'
+  'md': 'https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md'
 };
 
 // Get markdown file paths
