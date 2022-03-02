@@ -39,6 +39,7 @@ The capabilities of each board are dependent on its communications module, and a
 * MKR NB 1500
 
 **GSM/3G:**
+
 * MKR GSM 1400
 
 **Sigfox:**
