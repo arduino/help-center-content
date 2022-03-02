@@ -1,41 +1,18 @@
 ---
-title: "How do I change the name of the BLE boards"
+title: "Change the broadcast name for a Bluetooth<sup>®</sup> peripheral"
 ---
 
-By default, the name of the Arduino BLE board is always the same, this can cause confusion if you would have more than one BLE boards active at the same time, as it would be very hard to track which name depicts which BLE board around you.
+When using the [ArduinoBLE](https://www.arduino.cc/reference/en/libraries/arduinoble/) library to enable Bluetooth Low Energy communication on an Arduino board, the broadcasted name is set by the [setLocalName()](https://www.arduino.cc/reference/en/libraries/arduinoble/setlocalname/) function.
 
-We can manually change the name of the Arduino BLE boards from the sketches by defining the name according to your requirements.
+For example, you can set the name to _MyArduinoDevice_.<
 
-## Components required
+```
+BLE.setLocalName("MyArduinoDevice");
+```
 
-* Hardware:
-  * Arduino BLE board i.e. Nano 33 BLE, Arduino NANO 33 IoT, Uno WiFi Rev 2, MKR WiFi 1010
-  * USB 2.0 cable to Micro
-  * Device with Bluetooth (Android or iOS)
-* Software:
-  * Arduino IDE
-  * Arduino BLE library
-  * Arduino core for Nano 33 BLE(nRF528x, Nano 33 IoT(SAMD boards), UNO WiFi rev2(megaAVR boards), MKR 1010(SAMD boards))
-  * NRF connect app
+If using an example, first check if `BLE.setLocalName()` is already called somewhere. In this case, just replace the existing name. Otherwise, make sure to add the line after the device has been initialized with  `BLE.begin()`, but before it's advertised with `BLE.advertise();`.
 
-## Steps to follow
+## Further reading
 
-1. Open Arduino IDE.
-
-2. Connect the board to the computer and choose the correct board and port in `Tools > Board` and `Tools > Port`.
-
-3. Click on `File > Examples > Arduino BLE > Peripheral > LED`.
-
-4. In the `LED` example, make the following changes in line 42 of the code: change `BLE.setLocalName("LED");` to `BLE.setLocalName("MyNameForTheBoard");` ([code snippet](https://create.arduino.cc/example/library/arduinoble_1_1_3/arduinoble_1_1_3%5Cexamples%5CPeripheral%5CLED/LED/preview)).
-
-5. Upload the code.
-
-6. Open the serial monitor
-
-   ![](img/Ble_board_name.png)
-
-7. Open the NRF connect app from mobile
-
-   ![](img/Ble_board_name_2.png)
-
-For every board, you can run this example and change their BLE name, just make sure you set a different name for each!
+* [ArduinoBLE library](https://www.arduino.cc/reference/en/libraries/arduinoble/)
+* [Connecting Nano 33 BLE Devices over Bluetooth®](https://docs.arduino.cc/tutorials/nano-33-ble-sense/ble-device-to-device)
