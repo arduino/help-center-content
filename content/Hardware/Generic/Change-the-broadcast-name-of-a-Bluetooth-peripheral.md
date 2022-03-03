@@ -15,4 +15,4 @@ If using an example, first check if `BLE.setLocalName()` is already called somew
 ## Further reading
 
 * [ArduinoBLE library](https://www.arduino.cc/reference/en/libraries/arduinoble/)
-* [Connecting Nano 33 BLE Devices over Bluetooth®](https://docs.arduino.cc/tutorials/nano-33-ble-sense/ble-device-to-device)
+* [Connecting Nano 33 BLE Devices over Bluetooth<sup>®</sup>](https://docs.arduino.cc/tutorials/nano-33-ble-sense/ble-device-to-device)
