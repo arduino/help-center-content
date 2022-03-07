@@ -12,7 +12,8 @@ const rules = [
   require("./hc004"),
   require("./hc005"),
   require("./hc006"),
-  require("./hc007")
+  require("./hc007"),
+  require("./hc008")
 ];
 
 rules.forEach((rule) => {

@@ -2,6 +2,10 @@ const markdownlint = require("markdownlint");
 const glob = require("glob");
 const fs = require('fs');
 const YAML = require('yaml');
+const ruleURLs = {
+  'hc': 'https://github.com/arduino/help-center-content/blob/main/_linter/markdownlint/Rules.md',
+  'md': 'https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md'
+};
 
 // Get markdown file paths
 let files = glob.sync('content/**/*.md');
@@ -13,9 +17,6 @@ const customRules = require('./markdownlint/rules/rules.js');
 // get config
 const configJSON = fs.readFileSync('./_linter/markdownlint.yml', 'utf8')
 const configYAML = YAML.parse(configJSON);
-
-// treeify
-const treeify = require("treeify");
 
 const options = {
   "config": configYAML,
@@ -93,8 +94,10 @@ markdownlint(options, function callback(err, result) {
           errorLines += getErrorMessage(error) + '\n';
 
           // make rule violation row
+          const anchor = error.ruleNames[0].toLowerCase();
+          const URL = ruleURLs[anchor.substring(0,2)];
           violatedRules.add(
-            error.ruleNames[0] + ': ' + error.ruleInformation
+            error.ruleNames[0] + ': ' + URL + '#' + anchor
           );
 
           errorCount++;
