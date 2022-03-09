@@ -18,9 +18,9 @@ You can review your active subscriptions on the [My Plans](https://store.arduino
 
 Next to your current Cloud plan, press the 'Change Plan' button.
 
-[![Change plan button](img/change-plan-button.png)](https://store.arduino.cc/digital/create#plans)
+[![Change plan button](img/change-plan-button.png)](https://cloud.arduino.cc/plans)
 
-You will be taken to the [Digital Store](https://store.arduino.cc/digital/create#plans).
+You will be taken to the [Digital Store](https://cloud.arduino.cc/plans).
 
 ![Plan options](img/plans.png)
 

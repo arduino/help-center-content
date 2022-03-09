@@ -8,4 +8,4 @@ The Arduino Cloud requires a subscription plan. We provide four options – *Fre
 
 The different plans provide different limits for storage and the number of things you can configure. The advanced plans provide additional features such as APIs, 'Over the Air' updating of code, and more.
 
-To read more, and sign up for your plan, please [visit the Arduino Store](https://store.arduino.cc/digital/create#plans).
+To read more, and sign up for your plan, please [visit the Arduino Store](https://cloud.arduino.cc/plans).

@@ -8,7 +8,7 @@ The [Arduino Oplà IoT Kit](https://store.arduino.cc/opla-iot-kit) comes with 12
 
 ---
 
-1. Go to the [plan selection in the Arduino Digital Store](https://store.arduino.cc/digital/create#plans). Make sure the *Monthly* option is selected, and choose the Maker plan.
+1. Go to the [plan selection in the Arduino Digital Store](https://cloud.arduino.cc/plans). Make sure the *Monthly* option is selected, and choose the Maker plan.
 
 2. If you are not logged into your Arduino account, you will be taken to the login page. **Before proceeding, make sure you are logged into the account you want the code redeemed with.**
 
