@@ -63,7 +63,7 @@ avrdude: stk500_getsync() attempt 2 of 10: not in sync: resp=0x00
 ...
 ```
 
-This error can occur when the selected port has no board. For example, the Bluetooth port might be selected instead of the USB port where the Arduino board is connected.
+This error can occur when the selected port has no board. For example, the Bluetooth<sup>®</sup> port might be selected instead of the USB port where the Arduino board is connected.
 
 You can select your port in `Tools > Port: "..." > Serial Ports`. The correct port may be labeled with the board name, but not always. If you are unsure which port your board is connected to, try disconnecting it. Then reconnect it, and take note if a new port appears.
 
