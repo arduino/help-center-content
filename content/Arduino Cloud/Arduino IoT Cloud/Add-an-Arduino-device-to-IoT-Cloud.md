@@ -1,5 +1,5 @@
 ---
-title: "How to add Arduino devices to the Arduino IoT cloud"
+title: "Add an Arduino device to IoT Cloud"
 ---
 
 Learn how to connect Arduino devices to the Arduino IoT Cloud.
