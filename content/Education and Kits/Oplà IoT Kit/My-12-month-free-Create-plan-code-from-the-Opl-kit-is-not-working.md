@@ -8,7 +8,7 @@ The [Arduino Oplà IoT Kit](https://store.arduino.cc/opla-iot-kit) comes with 12
 
 ---
 
-1. Go to the [plan selection in the Arduino Digital Store](https://cloud.arduino.cc/plans).
+1. Go to the [Cloud store page](https://cloud.arduino.cc/plans).
 
 2. In the _For individuals_ tab, select the **BILLED MONTHLY** option.
 
@@ -36,5 +36,5 @@ The [Arduino Oplà IoT Kit](https://store.arduino.cc/opla-iot-kit) comes with 12
 
 If you're having trouble, please check the following.
 
-* Make sure the *Monthly* option is selected in step 1. The code is not valid for the yearly option.
+* Make sure the *Monthly* option is selected. The code is not valid for the yearly option.
 * Make sure you've typed in the discount code correctly. The code is a combination of uppercase letters and numerals.
