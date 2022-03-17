@@ -2,7 +2,7 @@
 title: "Select board and port in Arduino IDE"
 ---
 
-Learn how to find the name of the port your board is connected to.
+Learn how to select the right board and port in Arduino IDE.
 
 ---
 
