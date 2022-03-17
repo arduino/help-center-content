@@ -8,21 +8,33 @@ The [Arduino Oplà IoT Kit](https://store.arduino.cc/opla-iot-kit) comes with 12
 
 ---
 
-1. Go to the [plan selection in the Arduino Digital Store](https://store.arduino.cc/digital/create#plans). Make sure the *Monthly* option is selected, and choose the Maker plan.
+1. Go to the [Cloud store page](https://cloud.arduino.cc/plans).
 
-2. If you are not logged into your Arduino account, you will be taken to the login page. **Before proceeding, make sure you are logged into the account you want the code redeemed with.**
+2. In the _For individuals_ tab, select the **BILLED MONTHLY** option.
 
-3. Proceed with entering your billing information (no charges will be applied) until your order summary is displayed.
+   ![](img/opla-plan-select-monthly.png)
+
+3. In the Maker plan column, click PURCHASE.
+
+   ![](img/opla-plan-select-maker.png)
+
+4. If you are not logged into your Arduino account, you will be taken to the login page. **Before proceeding, make sure you are logged into the account you want the code redeemed with.**
+
+5. Add or update your billing information if needed, and click ADD PAYMENT INFORMATION.
+
+6. Click on **Add discount code**.
 
    ![Order summary before applying the discount code.](img/opla-plan-code-empty.png)
 
-4. In the **Discount Code** field, enter your discount code, and click on **APPLY CODE**. Your discount will be applied.
+7. Enter the code in the text field and click APPLY CODE if it is not automatically applied. Your discount will be applied in the purchase summary on the right.
 
    ![Order summary after applying the discount code.](img/opla-plan-code-valid.png)
+
+8. Continue to activate the plan by entering your card information and clicking PURCHASE PLAN.
 
 ---
 
 If you're having trouble, please check the following.
 
-* Make sure the *Monthly* option is selected in step 1. The code is not valid for the yearly option.
+* Make sure the *Monthly* option is selected. The code is not valid for the yearly option.
 * Make sure you've typed in the discount code correctly. The code is a combination of uppercase letters and numerals.
