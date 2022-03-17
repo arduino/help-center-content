@@ -33,7 +33,7 @@ Follow these steps if your device has an 'Offline' status in the Device tab.
 
 ## If the device is still offline
 
-* Rule out other problems by uploading the `Blink` sketch (Examples > Basics > Blink) in the [Web Editor](create.arduino.cc/editor).
+* Rule out other problems by uploading the `Blink` sketch (Examples > Basics > Blink) in the [Web Editor](https://create.arduino.cc/editor).
 * [Delete the device](https://support.arduino.cc/hc/en-us/articles/360018324700) and add the device again as a new device from the Device tab. Associate a new Thing with at least one variable and upload the sketch. For more help with setting up your device, see [Add an Arduino device to IoT Cloud](https://support.arduino.cc/hc/en-us/articles/360016495559).
 
 ## Still need help?
