@@ -12,7 +12,7 @@ Learn where sketches, libraries, board platforms, and application files used by 
 * Sketches have the `.ino` file extention.
 * By default they will have name based on the date, such as `sketch_nov17b.ino`.
 
-## Libraries
+<h2 id="libraries">Libraries</h2>
 
 Libraries installed with the Library Manager are stored inside the Sketchbook.
 
