@@ -1,5 +1,5 @@
 ---
-title: "How to add 3rd party devices to the Arduino IoT cloud"
+title: "Add a 3rd party device to IoT cloud"
 ---
 
 Supported third-party boards and other devices can be connected to the IoT Cloud. These devices are supported:
