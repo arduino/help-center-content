@@ -27,3 +27,7 @@ For further instructions on how to use the Web Editor, visit the [getting starte
 ## Educational use
 
 Since the app is now free, there is no longer a need to sign up for a subscription plan. Simply have the Create App installed on each computer, either by the students themselves or by an IT administrator.
+
+<!-- NOTE: The Chrome web store page links to this page!
+           https://chrome.google.com/webstore/detail/arduino-create-for-educat/elmgohdonjdampbcgefphnlchgocpaij
+           -->
