@@ -10,6 +10,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"strconv"
 	"time"
 )
 
@@ -440,17 +441,27 @@ func (z *Zendesk) DeleteAttachment(attachmentID int) (err error) {
 	return nil
 }
 
-type BasicAuthTransport struct {
+type ZendeskAuthTransport struct {
 	Username string
 	Password string
 }
 
-func (bat BasicAuthTransport) RoundTrip(req *http.Request) (*http.Response, error) {
-	req.SetBasicAuth(bat.Username, bat.Password)
+func (z ZendeskAuthTransport) RoundTrip(req *http.Request) (*http.Response, error) {
+	req.SetBasicAuth(z.Username, z.Password)
 
-	return http.DefaultTransport.RoundTrip(req)
+	res, err := http.DefaultTransport.RoundTrip(req)
+	if res.StatusCode == 429 {
+		// we hit the rate limit, wait for the suggested seconds and retry
+		if waitFor, castErr := strconv.Atoi(res.Header.Get("Retry-After")); castErr == nil {
+			Log.Warnf("Rate limited: wait for %d seconds", waitFor)
+
+			time.Sleep(time.Duration(waitFor) * time.Second)
+			return http.DefaultTransport.RoundTrip(req)
+		}
+	}
+	return res, err
 }
 
-func (bat *BasicAuthTransport) Client() *http.Client {
-	return &http.Client{Transport: bat}
+func (z *ZendeskAuthTransport) Client() *http.Client {
+	return &http.Client{Transport: z}
 }

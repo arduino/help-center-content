@@ -44,7 +44,7 @@ func main() {
 	must(err)
 
 	// Connect to zendesk
-	transport := BasicAuthTransport{
+	transport := ZendeskAuthTransport{
 		Username: Config.ZendeskUser + "/token",
 		Password: Config.ZendeskToken,
 	}
