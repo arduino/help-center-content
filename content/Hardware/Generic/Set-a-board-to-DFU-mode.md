@@ -6,7 +6,7 @@ Uno (except WiFi Rev2) and Mega boards use either an Atmega16U2 or Atmega8U2 chi
 
 1. Connect the board to your computer
 
-2. Find the RESET and GND pins for the ATmega USB-Serial Processor. They are the innermost two pins of the six located close to the Ethernet port.
+2. Find the RESET and GND pins for the ATmega USB-Serial Processor. They are the innermost two pins of the six located close to the USB port.
 
    ![Uno front DFU reset](img/UNO-DFU-reset-pins.png)
 
