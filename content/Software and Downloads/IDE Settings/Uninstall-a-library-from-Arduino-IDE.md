@@ -25,7 +25,7 @@ Learn how to remove IDE libraries from your computer.
 
 ---
 
-<h2 id="remove-manually">Uninstall using your file manager</h2>
+## Uninstall using your file manager
 
 Removing the library files directly is the most reliable method that will work for all IDE versions and library types.
 
