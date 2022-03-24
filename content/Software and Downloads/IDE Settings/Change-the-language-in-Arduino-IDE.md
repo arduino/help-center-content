@@ -2,17 +2,71 @@
 title: "Change the language in Arduino IDE"
 ---
 
-The Arduino IDE uses the system default language when you install and set up the IDE. If you like to work with a different language you can always change it to a language that you are comfortable working with.
+> **Note:** As of version 2.0.0-rc5, only English is included in the new IDE. [A translation project is in progress](https://www.transifex.com/arduino-1/ide2/). <!-- TIME: 22-03-21-->
+
+The original language for the Arduino IDE interface is English, but other languages are available.
 
 ---
 
-1. Open the Arduino IDE.
-2. Open preferences
-   * Windows/Linux: `File > Preferences`.
-   * macOS: `Arduino > Preferences`
-3. Under Preferences, look for the Editor language option.
+## Change the language in Preferences
 
-   ![The Editor language option in the IDE Preferences window.](img/language.png)
+1. Open Arduino IDE.
 
-4. In the dropdown menu, look for the language you would like to use and select it, then click ok.
-5. Close the IDE and reopen the IDE again to finalize the changes.
+2. Open preferences: Choose _File > Preferences_ in the menu bar for Windows/Linux or  _Arduino > Preferences_ for macOS.
+
+     ![](img/ide-preferences-multi-OS.png)
+
+   Alternatively, use keyboard shortcuts to open the window: `Ctrl + ,` for Windows/Linux and `CMD + ,` for macOS.
+
+3. Click the **Editor language** option and select your desired language.
+
+   ![The Editor language option in the IDE Preferences window.](img/highlighting-preferences-language.png)
+
+4. Click OK to confirm the changes.
+
+   ![Clicking OK to confirm the changes.](img/highlighting-preferences-OK.png)
+
+5. Restart the IDE for the changes to take effect.
+
+---
+
+## Change the language by editing preferences.txt
+
+Alternatively, you can edit the `preferences.txt` file directly.
+
+1. Close Arduino IDE.
+
+2. [Open the Arduino15 folder](https://support.arduino.cc/hc/en-us/articles/360018448279-Open-the-Arduino15-folder).
+
+3. Open `preferences.txt`.
+
+4. Find the `editor.languages.current` line.
+
+5. Edit the value to read `editor.languages.current=en`.
+
+6. Save the file.
+
+7. Open Arduino IDE to see the changes.
+
+---
+
+## Troubleshooting
+
+As of version 2.0.0-rc5, only English is included in the new IDE.
+
+[A translation project is in progress](https://www.transifex.com/arduino-1/ide2/).
+
+### Some text is not translated
+
+Arduino IDE translations have been made through community contributions, and not all of them are complete. You can see the status of each language at **Transifex**:
+
+* [Arduino IDE translation project](https://www.transifex.com/mbanzi/arduino-ide-15/)
+* [Arduino IDE 2.0 translation project](https://www.transifex.com/arduino-1/ide2/)
+
+### If the language isn't changing
+
+Make sure you fully restart Arduino IDE.
+
+On macOS, closing all windows will not automatically quit the application. If the Arduino IDE icon is in the Dock with a small dot below it, the app is still running. Right-click on the icon and select _Quit_ to quit the app.
+
+![Quitting Arduino IDE in the Dock on macOS.](img/macos-ide-quit.png)
