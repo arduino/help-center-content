@@ -1,7 +1,6 @@
 ---
 title: "Uninstall a library from Arduino IDE"
 ---
-<!-- https://forum.arduino.cc/t/removing-a-library-solved-it/285012/3 -->
 
 Learn how to remove IDE libraries from your computer.
 
