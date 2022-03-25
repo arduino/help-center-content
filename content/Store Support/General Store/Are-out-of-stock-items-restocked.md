@@ -5,6 +5,7 @@ title: "Get email notifications when sold out items are available again"
 Learn how to get email notifications when sold out items are available again.
 
 ---
+
 1. Go to the [Arduino Store](https://store.arduino.cc/) and find the item you need.
 2. If the item is sold out, click on the *NOTIFY ME WHEN AVAILABLE* button on the right side of the page.
 
