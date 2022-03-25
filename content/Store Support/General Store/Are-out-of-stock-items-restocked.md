@@ -1,9 +1,16 @@
 ---
-title: "Are out-of-stock items restocked?"
+title: "Get email notifications when sold out items are available again"
 ---
 
-If an item is out of stock or sold out, we will try to restock it as soon as possible.
+Learn how to get email notifications when sold out items are available again.
 
-We suggest using the "Add to Wishlist" feature, that will allow you to easily check if the item has been restored.
+---
+1. Go to the [Arduino Store](https://store.arduino.cc/) and find the item you need.
+2. If the item is sold out, click on the *NOTIFY ME WHEN AVAILABLE* button on the right side of the page.
 
-!["Add to Wishlist" button, next to the "sold out" label](img/wishlist.png)
+!["Add to Wishlist" button, next to the "sold out" label](img/Sold_out_item_notification.png)
+
+2. A popup will appear. Enter your email address in the text box.
+3. Click on the *NOTIFY ME* button at the bottom of the popup.
+
+!["Add to Wishlist" button, next to the "sold out" label](img/Sold_out_item_notification_popup.png)
