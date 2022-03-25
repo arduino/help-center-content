@@ -11,7 +11,7 @@ Learn how to get email notifications when sold out items are available again.
 
 !["Add to Wishlist" button, next to the "sold out" label](img/Sold_out_item_notification.png)
 
-2. A popup will appear. Enter your email address in the text box.
-3. Click on the *NOTIFY ME* button at the bottom of the popup.
+3. A popup will appear. Enter your email address in the text box.
+4. Click on the *NOTIFY ME* button at the bottom of the popup.
 
 !["Add to Wishlist" button, next to the "sold out" label](img/Sold_out_item_notification_popup.png)
