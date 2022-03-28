@@ -8,7 +8,7 @@ Arduino customer service will provide you with a prepaid shipping label and the 
 
 The returns are managed with a certain carrier and you do not have to pay any additional fee for it.
 
-You can drop off the parcels at the closest Access Points or simply ask the carrier to go and pick it up directly from your place by making contact with them. 
+You can drop off the parcels at the closest Access Points or simply ask the carrier to go and pick it up directly from your place by making contact with them.
 
 The conditions for accepted returns are:
 
