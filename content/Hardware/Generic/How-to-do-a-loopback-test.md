@@ -22,11 +22,11 @@ A **loopback test** is a troubleshooting procedure to test the serial communicat
 
 4. Connect a jumper cable from **Digital 0 (RX)** to **Digital 1 (TX)**.
 
-   ![](img/loopback-circuit-uno.png)
-   _Pin connections (orange) for Arduino UNO._
+   ![Arduino UNO with jumper cables connecting TX-RX and RESET-GND.](img/loopback-circuit-uno.png)
+   _Pin connections for Arduino UNO._
 
-   ![](img/loopback-circuit-nano.png)
-   _Pin connections (orange) for Arduino Nano._
+   ![Arduino Nano with jumper cables connecting TX-RX and RESET-GND.](img/loopback-circuit-nano.png)
+   _Pin connections for Arduino Nano._
 
 5. Connect the board to your computer and open the Arduino IDE or the [Arduino Cloud Web Editor](https://create.arduino.cc/editor).
 
