@@ -11,6 +11,7 @@ The best way to find out if the bootloader is present in the board is to double 
 ## Signs of a missing or corrupted bootloader
 
 Indications of a missing or corrupted bootloader can be:
+
 * Board not detected by the PC and serial port doesn't show up when the board is connected. Neither the device appears in device manager after double tap reset 
 * Double press reset button does not fade the green LED
 * Built-in LED blinks red when board connected. Port doesn't show up preventing sketch upload
@@ -36,9 +37,9 @@ If you have any of the problems above, or simply the serial port does not appear
 3. Connect the STLINK programmer to the PC via USB
 4. Connect the JTAG cable from the STLINK programmer to the JTAG on the Breakout
 5. Open Arduino IDE and select Portenta H7 (M7 Core) from the top menu _Tools > Board_
-6.  Select the corresponding programmer in the top menu _Tools > Programmer_
+6. Select the corresponding programmer in the top menu _Tools > Programmer_
 
-![Programmer selection](img\bootloader_IDE.png)
+![Programmer selection](img/bootloader_IDE.png)
 
 7. Burn Bootloader: In Arduino IDE top menu go to _Tools > Burn Bootloader_
 
