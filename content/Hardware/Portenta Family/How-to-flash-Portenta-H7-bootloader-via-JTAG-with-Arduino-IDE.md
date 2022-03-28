@@ -38,13 +38,8 @@ If you have any of the problems above, or simply the serial port does not appear
 4. Connect the JTAG cable from the STLINK programmer to the JTAG on the Breakout
 5. Open Arduino IDE and select Portenta H7 (M7 Core) from the top menu _Tools > Board_
 6. Select the corresponding programmer in the top menu _Tools > Programmer_
-
 ![Programmer selection](img/bootloader_IDE.png)
-
 7. Burn Bootloader: In Arduino IDE top menu go to _Tools > Burn Bootloader_
-
 ![Burn Bootloader](img/bootloader_IDE_2.png)
-
 8. Success message will appear in the Arduino IDE console
-
 ![Done burning bootloader](img/bootloader_IDE_3.png)
