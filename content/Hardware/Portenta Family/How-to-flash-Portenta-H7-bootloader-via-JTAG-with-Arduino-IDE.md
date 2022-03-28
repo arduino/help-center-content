@@ -12,7 +12,7 @@ The best way to find out if the bootloader is present in the board is to double 
 
 Indications of a missing or corrupted bootloader can be:
 
-* Board not detected by the PC and serial port doesn't show up when the board is connected. Neither the device appears in device manager after double tap reset 
+* Board not detected by the PC and serial port doesn't show up when the board is connected. Neither the device appears in device manager after double tap reset
 * Double press reset button does not fade the green LED
 * Built-in LED blinks red when board connected. Port doesn't show up preventing sketch upload
 * CHRG LED blinks orange every 10-15 seconds
