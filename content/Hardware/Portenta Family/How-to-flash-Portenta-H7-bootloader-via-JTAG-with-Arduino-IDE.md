@@ -4,7 +4,7 @@ title: "How to flash Portenta H7 bootloader via JTAG with Arduino IDE"
 
 The bootloader program that comes pre-installed in Portenta H7 microcontroller chip can get corrupted when attempting to reprogram the microchip with applications different than Arduino IDE. This kind of action involves a high risk of getting the board bricked thus we strongly not recommend to do this. Also, uploading incompatible code, supplying the wrong power to the board or a short-circuit can also corrupt the bootloader.
 
-## How do I know if the bootloader is present in Portenta H7?
+## How do I know if the bootloader is present?
 
 The best way to find out if the bootloader is present in the board is to double tap the reset button. After doing this, the built-in LED will fade in and out green. If your board's response to the double tap reset is the described previously then the bootloader is working properly.
 
