@@ -11,7 +11,6 @@ The best way to find out if the bootloader is present in the board is to double 
 ## Signs of a missing or corrupted bootloader
 
 Indications of a missing or corrupted bootloader can be:
-
 * Board not detected by the PC and serial port doesn't show up when the board is connected. Neither the device appears in device manager after double tap reset 
 * Double press reset button does not fade the green LED
 * Built-in LED blinks red when board connected. Port doesn't show up preventing sketch upload
@@ -41,10 +40,10 @@ If you have any of the problems above, or simply the serial port does not appear
 
 ![Programmer selection](img\bootloader_IDE.png)
 
-6. Burn Bootloader: In Arduino IDE top menu go to _Tools > Burn Bootloader_
+7. Burn Bootloader: In Arduino IDE top menu go to _Tools > Burn Bootloader_
 
 ![Burn Bootloader](img/bootloader_IDE_2.png)
 
-7. Success message will appear in the Arduino IDE console
+8. Success message will appear in the Arduino IDE console
 
 ![Done burning bootloader](img/bootloader_IDE_3.png)
