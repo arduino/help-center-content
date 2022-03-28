@@ -8,7 +8,7 @@ The bootloader program that comes pre-installed in Portenta H7 microcontroller c
 
 The best way to find out if the bootloader is present in the board is to double tap the reset button. After doing this, the built-in LED will fade in and out green. If your board's response to the double tap reset is the described previously then the bootloader is working properly.
 
-## How do I know if the bootloader is missing or corrupted in Portenta H7?
+## Signs of a missing or corrupted bootloader
 
 Indications of a missing or corrupted bootloader can be:
 
