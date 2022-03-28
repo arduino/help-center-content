@@ -31,7 +31,7 @@ Most Linux configurations have a `dialout` group for full and direct access to s
 
 ## Troubleshooting
 
-If the group wasn't found, or if you still get an error the `dialout` group may have a different name.
+If the group wasn't found, or if you still get an error, the `dialout` group may have a different name.
 
 1. In _Tools > Port_, note the name of the port your board is connected to, such as `dev/ttyACM0` or similar.
 
