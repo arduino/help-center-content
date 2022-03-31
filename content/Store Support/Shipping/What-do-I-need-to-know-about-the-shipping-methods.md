@@ -14,6 +14,8 @@ Arduino offers several different shipping methods that vary depending on the reg
 
 * **GLS Standard:** This shipping method is only available for customers inside Italy. The delivery usually takes 1 or 2 business days.
 
+* **FedEx International Economy**: This shipping method is available only in some countries in Europe and it offers delivery in 2 to 5 business days. Saturday delivery available in countries where Saturday is a regular business day.
+
 * **UPS Standard:** This service is available for every country inside Europe and Africa.
   * The delivery usually takes from 2 to 7 business days, depending on the destination country.
   * It is a door-to-door service.
@@ -55,4 +57,64 @@ With this shipping method, FedEx does not deliver the parcel directly to the cus
 ---
 
 * Orders entered before 5:30 am EDT (GMT-4) Mon-Fri ship on the same day.
+* Orders entered after 5:30 am EDT (GMT-4) Mon-Sun ship next business day.
+
+## International Shipments from the United States
+
+* **DHL Parcel International Standard**: This is a postal service, where DHL pickles up the parcel, but the final delivery will be made by the local post office.
+
+  * Unfortunately, this shipping method is really slow and hardly trackable.
+
+  * There is a smaller chance to be charged by customs fee by your country with this method.
+
+  * Smaller products are usually shipped out in an envelope.
+
+  * [Read more about this shipping method](https://support.arduino.cc/hc/en-us/articles/360016495719).
+
+* **FDX Intl Economy**: 2 or 3 business days delivery to Canada, Mexico, and Puerto Rico.
+
+  * Time-definite delivery from Mexico and key Asian and Latin American markets to the U.S. typically in 3 or 4 business days. It is available to more than 215 countries and territories.
+
+  * Smaller products are usually shipped out in an envelope.
+
+* **FDX Intl Priority**: 1–3 business days delivery by close of business. Available for more than 220 countries and territories. Smaller products are usually shipped out in an envelope.
+
+* **Asendia Country Tracked**: This is a postal service, where DHL pickles up the parcel, but the final delivery will be made by the local post office.
+
+  * Unfortunately, this shipping method is really slow and hardly trackable.
+
+  * There is a smaller chance to be charged by customs fee by your country with this method.
+
+  * Smaller products are usually shipped out in an envelope.
+
+  * [Read more about this shipping method](https://support.arduino.cc/hc/en-us/articles/360016495719).
+
+
+* **Asendia e-PAQ Select**: This is a postal service, where DHL pickles up the parcel, but the final delivery will be made by the local post office.
+
+  * Unfortunately, this shipping method is really slow and hardly trackable.
+
+  * There is a smaller chance to be charged by customs fee by your country with this method.
+
+  * Smaller products are usually shipped out in an envelope.
+
+  * [Read more about this shipping method](https://support.arduino.cc/hc/en-us/articles/360016495719).
+
+* **Asendia Fully Tracked**: This is a postal service, where DHL pickles up the parcel, but the final delivery will be made by the local post office.
+
+  * Unfortunately, this shipping method is really slow and hardly trackable.
+
+  * There is a smaller chance to be charged by customs fee by your country with this method.
+
+  * Smaller products are usually shipped out in an envelope.
+
+  * [Read more about this shipping method](https://support.arduino.cc/hc/en-us/articles/360016495719).
+
+* **USPS Express Mail International**: Express postal service, which delivers parcels to about 180 countries, including Canada, Mexico, and Australia soonest in 3-5 business days.
+
+* **USPS First Class Mail International**: The most affordable USPS service, which delivers parcels to about 180 countries, including Canada, Mexico, and Australia soonest in more than 10 business days.
+
+* **USPS Priority Mail International**: Priority postal service, which delivers parcels to about 180 countries, including Canada, Mexico, and Australia soonest in 6-10 business days.
+
+* Orders entered before 5:30 am EDT (GMT-4) Mon-Fri ship same day.
 * Orders entered after 5:30 am EDT (GMT-4) Mon-Sun ship next business day.
