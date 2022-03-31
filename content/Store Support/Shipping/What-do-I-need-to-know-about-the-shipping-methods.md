@@ -89,7 +89,6 @@ With this shipping method, FedEx does not deliver the parcel directly to the cus
 
   * [Read more about this shipping method](https://support.arduino.cc/hc/en-us/articles/360016495719).
 
-
 * **Asendia e-PAQ Select**: This is a postal service, where DHL pickles up the parcel, but the final delivery will be made by the local post office.
 
   * Unfortunately, this shipping method is really slow and hardly trackable.
