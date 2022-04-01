@@ -6,7 +6,7 @@ Yes, of course! Once the order is fulfilled and shipped, you’ll receive an ema
 
 Please note that orders shipped to **NON-US** or **NON-EU** countries may be subject to local import taxes (VAT and Duties), and that local courier companies may charge a service fee in addition to the original shipping costs.
 
-Please, notice that NON-US orders shipped via DHL Parcel International Standard or Asendia are going to be delivered by the local postal service. In this case, many countries create a **local tracking number** for these parcels. It can be found in the **right corner**  at the page of your international tracking number.
+Please note that non-US orders shipped via DHL Parcel International Standard or Asendia will be delivered by the local postal service. In this case, many countries create a **local tracking number** for these parcels. It can be found in the **right corner**  at the page of your international tracking number.
 
 ![Asendia order receipt with local tracking number highlighted](img/AsendiaLocalTrackingNumberHighlighted.png)
 
