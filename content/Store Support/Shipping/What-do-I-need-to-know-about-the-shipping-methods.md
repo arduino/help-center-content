@@ -46,7 +46,7 @@ With this shipping method, FedEx does not deliver the parcel directly to the cus
 
 * **FedEx Express Saver**: This is a 3-day shipping option. When you choose it, your packages are delivered within 3 business days from the moment of the pickup in all over the United States (except Alaska and Hawaii).
 
-* **FedEx 2Day**: This shipping method guarantees 2 business-days delivery, where the parcel arrives by noon for most shipments. Delivery times to and from select ZIP codes in Alaska and Hawaii may differ from delivery times in the contiguous U.S.
+* **FedEx 2Day**: This shipping method guarantees delivery in 2 business days, with the parcel arriving by noon for most shipments. Delivery times to and from select ZIP codes in Alaska and Hawaii may differ from delivery times in the contiguous U.S.
   * Available throughout all 50 states (Hawaii's service is to and from the island of Oahu only).
   * Smaller products are usually shipped out in an envelope.
 
