@@ -79,7 +79,7 @@ With this shipping method, FedEx does not deliver the parcel directly to the cus
 
 * **FDX Intl Priority**: 1–3 business days delivery by close of business. Available for more than 220 countries and territories. Smaller products are usually shipped out in an envelope.
 
-* **Asendia Country Tracked**: This is a postal service, where DHL pickles up the parcel, but the final delivery will be made by the local post office.
+* **Asendia Country Tracked**: This is a postal service, where DHL picks up the parcel, but the final delivery will be made by the local post office.
 
   * Unfortunately, this shipping method is really slow and hardly trackable.
 
