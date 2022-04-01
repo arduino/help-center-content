@@ -61,7 +61,7 @@ With this shipping method, FedEx does not deliver the parcel directly to the cus
 
 ## International Shipments from the United States
 
-* **DHL Parcel International Standard**: This is a postal service, where DHL pickles up the parcel, but the final delivery will be made by the local post office.
+* **DHL Parcel International Standard**: This is a postal service, where DHL picks up the parcel, but the final delivery will be made by the local post office.
 
   * Unfortunately, this shipping method is really slow and hardly trackable.
 
