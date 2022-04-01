@@ -50,7 +50,7 @@ With this shipping method, FedEx does not deliver the parcel directly to the cus
   * Available throughout all 50 states (Hawaii's service is to and from the island of Oahu only).
   * Smaller products are usually shipped out in an envelope.
 
-* **FedEx Overnight**: This shipping method guarantees next-business-day delivery from the moment of the pick-up. The parcel will be delivered by 9 a.m. to most areas. It is available throughout all 50 states. Smaller products are usually shipped out in an envelope.
+* **FedEx Overnight**: This shipping method guarantees next business day-delivery from the moment of the pick-up. The parcel will be delivered by 9 a.m. to most areas. It is available throughout all 50 states. Smaller products are usually shipped out in an envelope.
 
 * **FedEx Priority Overnight**: Next-business-day delivery by 10:30 a.m. to U.S. businesses, noon to most residences. Available throughout all 50 states. Smaller products are usually shipped out in an envelope.
 
