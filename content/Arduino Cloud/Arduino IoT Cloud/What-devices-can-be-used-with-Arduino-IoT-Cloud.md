@@ -37,7 +37,7 @@ Supported third-party boards can also be used:
 
 You can configure Linux devices with the IoT Cloud in [Manager for Linux](https://create.arduino.cc/getting-started/#cloud-devices).
 
-The following Linux devices are supported.
+The following Linux devices are supported:
 
 * Arduino Pro Gateway
 * Intel®-based platforms
