@@ -8,7 +8,7 @@ Please note that orders shipped to **NON-US** or **NON-EU** countries may be sub
 
 Please, notice that NON-US orders shipped via DHL Parcel International Standard or Asendia are going to be delivered by the local postal service. In this case, many countries create a **local tracking number** for these parcels. It can be found in the **right corner**  at the page of your international tracking number.
 
-![Ascendia order receipt with local tracking number highlighted](img/AsendiaLocalTrackingNumberHighlighted.png)
+![Asendia order receipt with local tracking number highlighted](img/AsendiaLocalTrackingNumberHighlighted.png)
 
 ![Order receipt with tracking number highlighted](img/ParcelTracking.png)
 
