@@ -2,7 +2,7 @@
 title: "About Asendia"
 ---
 
-Asendia is an available shipping method for the Arduino US store. You can choose this option for most orders inside and outside the United States.
+Asendia is an shipping method available in the Arduino US store. You can choose this option for most orders inside and outside the United States.
 
 Beware that even though this is the cheapest shipping option, it has the longest delivery time (similar to local post delivery times). For shipments outside the U.S., the delivery can take up to one month. Also, there can be issues tracking and locating your parcel.
 
