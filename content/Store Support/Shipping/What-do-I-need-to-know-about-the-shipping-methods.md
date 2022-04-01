@@ -40,7 +40,7 @@ Arduino offers several different shipping methods that vary depending on the reg
 * **FedEx Smartpost**: The delivery typically takes 2–7 business days based on the distance to your destination (longer time in transit outside the contiguous 48 states). Smaller products are usually shipped out in an envelope.
 With this shipping method, FedEx does not deliver the parcel directly to the customer. They deliver to the local post, who will manage the final delivery. [Read more about FedEx Smartpost](https://support.arduino.cc/hc/en-us/articles/360018392860-About-FedEx-Smartpost).
 
-* **FedEx Ground**: The shipping method available only inside the United States. The pick-up and the final delivery will be made by FedEx. The average delivery time is 1–5 business days in the contiguous 48 states and 3–7 to Alaska and Hawaii. Smaller products are usually shipped out in an envelope.
+* **FedEx Ground**: The shipping method is available only inside the United States. The pick-up and the final delivery will be made by FedEx. The average delivery time is 1–5 business days in the contiguous 48 states and 3–7 to Alaska and Hawaii. Smaller products are usually shipped out in an envelope.
 
 * **FedEx Home Delivery**: This is a residential delivery via FedEx Ground in 1−7 business days, based on the distance to the destination. Available throughout all 50 states. Smaller products are usually shipped out in an envelope.
 
