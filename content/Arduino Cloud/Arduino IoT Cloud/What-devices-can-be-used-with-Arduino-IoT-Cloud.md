@@ -8,7 +8,7 @@ title: "What devices can be used with Arduino IoT Cloud?"
 
 ## Arduino boards
 
-The following Arduino boards can be used with IoT Cloud.
+The following Arduino boards can be used with IoT Cloud:
 
 * [MKR 1000 WiFi](https://docs.arduino.cc/hardware/mkr-1000-wifi)
 * [MKR WiFi 1010](https://docs.arduino.cc/hardware/mkr-wifi-1010)
