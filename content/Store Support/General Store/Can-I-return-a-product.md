@@ -6,9 +6,9 @@ To initiate a return, you must inform us of your decision within the Cancellatio
 
 Arduino customer service will provide you with a prepaid shipping label and the needed transport documents, which must be included with your return shipment to Arduino. This way the parcel can be identified in our warehouse successfully.
 
-The returns are managed with a certain carrier and you do not have to pay any additional fee for it.
+The return is free of charge and managed by a carrier.
 
-You can drop off the parcels at the closest Access Points or simply ask the carrier to go and pick it up directly from your place by making contact with them.
+You can either drop off the package at the closest  pickup point, or contact the carrier and arrange for them to collect the package from you directly.
 
 The conditions for accepted returns are:
 
