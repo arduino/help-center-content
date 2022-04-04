@@ -4,7 +4,7 @@ title: "Can I return a product?"
 
 To initiate a return, you must inform us of your decision within the Cancellation Period by contacting [Arduino's customer support](https://store.arduino.cc/store-support) and clearly stating your desire to return the product.
 
-Arduino customer service will provide you with a prepaid shipping label and the needed transport documents, which must be included with your return shipment to Arduino, this way the parcel can be identified in our warehouse successfully.
+Arduino customer service will provide you with a prepaid shipping label and the needed transport documents, which must be included with your return shipment to Arduino. This way the parcel can be identified in our warehouse successfully.
 
 The returns are managed with a certain carrier and you do not have to pay any additional fee for it.
 
