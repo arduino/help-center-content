@@ -14,6 +14,45 @@ When there is an error the IDE will print relevant information in the console. L
 
 * Make sure you are clicking the ![Upload button](img/symbol_upload.png) **Upload** button and not the ![Verify button](img/symbol_verify.png) **Verify** button.
 
+## Errors
+
+<table>
+<tr>
+<td style="vertical-align: top;">
+<ul>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/360016955139-Error-exit-status-1">Error: exit status 1</a></li>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/360020843439-Error-2-UNKNOWN-no-FQBN-provided">Error: 2 UNKNOWN: no FQBN provided</a></li>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/4412950941074-Compilation-error-Missing-FQBN-Fully-Qualified-Board-Name-">Compilation error: Missing FQBN (Fully Qualified Board Name)</a></li>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/360020846379-Compilation-error-Error-2-UNKNOWN-platform-not-installed">Compilation error: Error: 2 UNKNOWN: platform not installed</a></li>
+</ul>
+</td>
+<td>
+<ul>
+<li><strong>stk500:</strong><ul>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/4401874331410#avrdude-stk500_recv-and-stk500_getsync">avrdude: stk500_recv(): programmer is not responding
+ avrdude: stk500_getsync() attempt X of 10: not in sync</a></li>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/4401874331410#avrdude-stk500_recv-and-stk500_getsync">avrdude: stk500v2_ReceiveMessage(): timeout
+avrdude: stk500v2_getsync(): timeout communicating with programmer</a></li>
+</ul>
+</li>
+<li><strong>ser_open():</strong><ul>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/4401874331410#avrdude-ser_open-cant-open-device-no-such-file-or-directory">avrdude: ser_open(): can&#39;t open device <port>: no such file or directory</a></li>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/4401874331410#ser_open-device-or-resource-busy">avrdude: ser_open(): can&#39;t open device &quot;/dev/ttyACM0&quot;: Device or resource busy</a></li>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/4401874331410#ser_open-resource-busy">avrdude: ser_open(): can&#39;t open device <port>: Resource busy</a></li>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/4401874331410#ser_open-permission-denied">avrdude: ser_open(): can&#39;t open device <port>: permission denied</a></li>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/4401874331410#ser_open-access-is-denied">avrdude: ser_open(): can&#39;t open device <port>: access is denied</a></li>
+</ul>
+</li>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/4401874331410#avrdude-butterfly_recv">avrdude: butterfly_recv(): programmer is not responding</a></li>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/4401874331410#usbhid_open_jtag3_open_common">avrdude: usbhid_open(): No device found
+avrdude: jtag3_open_common()</a></li>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/4401874331410#jtagmkII_getsync">avrdude: jtagmkII_getsync(): sign-on command: status -1</a></li>
+<li><strong><a href="https://support.arduino.cc/hc/en-us/articles/4401874331410#check-the-following">Other avrdude errors (general troubleshooting)</a></strong></li>
+</ul>
+</td>
+</tr>
+</table>
+
 ## Compilation errors
 
 Your sketch cannot be uploaded to the board unless it compiles. Many compilation errors will contain a line number where the error occurred.
