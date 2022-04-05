@@ -2,58 +2,64 @@
 title: "'Error: avrdude' when uploading"
 ---
 
-The tool **avrdude** is used to upload sketches to the Arduino boards which use microcontrollers of the AVR architecture. When uploading code to your board in the IDE, avrdude may give an error. Some of the most common errors are listed below.
+When uploading a sketch to your board you may get an error from the **avrdude** utlity:
 
-* [`avrdude: stk500_recv(): programmer is not responding`](#avrdude-stk500_recv-and-stk500_getsync)
-* [`avrdude: stk500_getsync() attempt X of 10: not in sync`](#avrdude-stk500_recv-and-stk500_getsync)
-* [`avrdude: stk500v2_getsync(): timeout communicating with programmer`](#avrdude-stk500_recv-and-stk500_getsync)
-* [`avrdude: butterfly_recv(): programmer is not responding`](#avrdude-butterfly_recv)
-* [`avrdude: ser_open(): can't open device "portName": no such file or directory`](#avrdude-ser_open-cant-open-device-no-such-file-or-directory)
-* [`avrdude: ser_open(): can't open device "portName": the system cannot find the file specified.`](#check-the-following)
-* [`avrdude: ser_open(): can't open device "portName": access is denied.`](#check-the-following)
-* [`avrdude: ser_open(): can't open device "portName": permission denied`](#check-the-following)
-* [`avrdude: ser_open(): can't open device "portName": the semaphore timeout period has expired.`](#check-the-following)
-* [`avrdude: ser_open(): can't set com-state for "portName"`](#check-the-following)
+* **stk500:**
+  * [avrdude: stk500_recv(): programmer is not responding
+     avrdude: stk500_getsync() attempt X of 10: not in sync](#avrdude-stk500_recv-and-stk500_getsync)
+  * [avrdude: stk500v2_ReceiveMessage(): timeout
+    avrdude: stk500v2_getsync(): timeout communicating with programmer](#avrdude-stk500_recv-and-stk500_getsync)
+* **ser_open():**
+  * [avrdude: ser_open(): can't open device \<port\>: no such file or directory](#avrdude-ser_open-cant-open-device-no-such-file-or-directory)
+  * [avrdude: ser_open(): can't open device "/dev/ttyACM0": Device or resource busy](#ser_open-device-or-resource-busy)
+  * [avrdude: ser_open(): can't open device \<port\>: Resource busy](#ser_open-resource-busy)
+  * [avrdude: ser_open(): can't open device \<port\>: permission denied](#ser_open-permission-denied)
+  * [avrdude: ser_open(): can't open device \<port\>: access is denied](#ser_open-access-is-denied)
+* [avrdude: butterfly_recv(): programmer is not responding](#avrdude-butterfly_recv)
+* [avrdude: usbhid_open(): No device found
+  avrdude: jtag3_open_common()](#usbhid_open_jtag3_open_common)
+* [avrdude: jtagmkII_getsync(): sign-on command: status -1](#jtagmkII_getsync)
+* **[Other avrdude errors (general troubleshooting)](#check-the-following)**
 
-> Text following `avrdude: ser_open():` can appear in a different language if your system language is not set to English.
-
-While these errors can be somewhat ambiguous, they are most often caused by failing or incorrectly configured hardware. It is likely that the error can be solved by following this troubleshooting procedure.
-
----
-
-<h2 id="check-the-following">Check the following</h2>
-
-1. Make sure you have selected the correct board under `Tools > Board`.
-
-2. Make sure to select the correct port under `Tools > Port`.
-
-3. Make sure the board is powered. Try disconnecting and reconnecting the board to the computer, and confirm that the power LED (usually labeled on the board "ON") is lit. On most boards, an orange LED will also blink when the board is plugged in.
-
-4. Make sure that you are using a USB data cable (a charge-only cable will not work). Also, check the cable for physical damage.
-
-5. Remove any connections to digital pins **0(RX)** and **1(TX)**. These pins are used for communication with your computer. Connecting anything to these pins can interfere with uploading. You can attach the components back to these pins once the program has been successfully uploaded.
-
-6. Make sure that you have closed the serial monitor.
-
-7. Press the reset button and see if the LED blinks. If the LED doesn't blink there is a high chance that the bootloader of your board is corrupted.
-
-8. Make sure you have updated and installed all the necessary drivers for the board. If you already have the drivers, try reinstalling them.
-
-9. Try a complete uninstall (including deleting the [Arduino15 folder](https://support.arduino.cc/hc/en-us/articles/360018448279) of the Arduino IDE. Then reinstall the IDE using the latest version.
-
-10. If your board is an Uno, Mega, or Nano board, you can do a [loopback test](https://support.arduino.cc/hc/en-us/articles/360020366520). This will rule out faulty hardware.
-
-11. If the loopback test passes, the problem may be due to a corrupted bootloader. In this case, burning a fresh bootloader may solve the issue. Keep in mind that this is an advanced procedure. Use the links below to get started.
-
-    * [General overview on bootloader burning](https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoISP)
-    * [Using two Arduino Mega boards](https://support.arduino.cc/hc/en-us/articles/360012048060)
-    * [Using two Arduino UNO boards](https://support.arduino.cc/hc/en-us/articles/360012048080)
+> **Note:** The error text may be different depending on your system language.
 
 ---
 
-## Learn more about specific errors
+<a id="check-the-following"></a>
 
-<h3 id="avrdude-stk500_recv-and-stk500_getsync">avrdude: stk500_recv() and stk500_getsync()</h3>
+## General troubleshooting checklist
+
+Most errors can be solved by following these steps. After each step, try uploading your sketch again.
+
+1. Make sure you have [selected the right board and port](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE) correct board under _Tools > Board_ and  _Tools > Port_.
+
+   * For instructions, see [Select board and port in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE)
+
+   * If your board is missing, see [If your board does not appear in the port menu](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-does-not-appear-in-the-port-menu)
+
+2. Close other instances of Arduino IDE, serial monitors, and other software that may be blocking the port. If this doesn't work, try restarting your computer.
+
+3. Reset your board by pressing the RESET button (a white or blue push button).
+
+   ![The reset button on Arduino UNO.](img/uno-reset-button.png)
+
+4. Check port and cable connections:
+
+   * Try disconnecting and reconnecting the board to the computer, and confirm that the power LED (often labeled "ON") is lit.
+
+   * If possible, connect the board directly to a USB port. Avoid using a USB hub if possible, or try a different hub.
+
+   * Make sure you are using a data transfer USB cable (charge-only cables will not work). Try connecting your board with a different cable, or testing your cable with a different device.
+
+   * Remove any unneeded USB devices that may be using the ports.
+
+5. Remove any connections to digital pins **0(RX)** and **1(TX)**. Anything connected to these pins can interfere with the upload transfer.
+
+---
+
+<a id="avrdude-stk500_recv-and-stk500_getsync"></a>
+
+## avrdude: stk500_recv(): programmer is not responding<br>avrdude: stk500_getsync() attempt \<n> of 10: not in sync
 
 ```
 avrdude: stk500_recv(): programmer is not responding
@@ -63,17 +69,111 @@ avrdude: stk500_getsync() attempt 2 of 10: not in sync: resp=0x00
 ...
 ```
 
-This error can occur when the selected port has no board. For example, the Bluetooth<sup>®</sup> port might be selected instead of the USB port where the Arduino board is connected.
+1. Make sure you have [selected the right board and port](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE) correct board under _Tools > Board_ and  _Tools > Port_.
 
-You can select your port in `Tools > Port: "..." > Serial Ports`. The correct port may be labeled with the board name, but not always. If you are unsure which port your board is connected to, try disconnecting it. Then reconnect it, and take note if a new port appears.
+   * For instructions, see [Select board and port in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE)
 
-> If you're using an Arduino Nano you also need to [select the correct processor](https://support.arduino.cc/hc/en-us/articles/4401874304274-Select-the-right-processor-for-Arduino-Nano).
+   * If your board is missing, see [If your board does not appear in the port menu](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-does-not-appear-in-the-port-menu)
 
-<!-- TODO: Update when dedicated article is deployed -->
+2. If using the classic Nano, try selecting a different processor in _Tools > Processor_.
 
-If the issue persists, [check these steps](#check-the-following).
+3. For some boards, a _loopback test_ can be performed, which will rule out problems with the serial chip. It can be done with the following boards:
 
-<h3 id="avrdude-butterfly_recv">avrdude: butterfly_recv()</h2>
+   * Arduino Uno (classic)
+   * Arduino Uno Rev3
+   * Arduino Uno Rev3 SMD
+   * Arduino Mega (classic)
+   * Arduino Mega2560 Rev3
+   * Arduino Mega ADK Rev3
+   * Arduino Nano (classic)
+
+   If the loopback test passes, or if you can't do a loopback test, reprogramming the bootloader may resolve the issue. [ArduinoISP](https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP) can be used for boards with AtMega chips. You can also search for [articles in the Help Center](https://support.arduino.cc/hc/en-us/search?utf8=%E2%9C%93&query=bootloader).
+
+---
+
+<a id="stk500v2_ReceiveMessage_getsync"></a>
+
+## avrdude: stk500v2_ReceiveMessage(): timeout<br>avrdude: stk500v2_getsync(): timeout communicating with programmer
+
+Make sure you have [selected the right board and port](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE) correct board under _Tools > Board_ and  _Tools > Port_.
+
+---
+
+<a id="avrdude-ser_open-cant-open-device-no-such-file-or-directory"></a>
+
+## avrdude: ser_open(): can't open device: No such file or directory
+
+```
+avrdude: ser_open(): can't open device "/dev/cu.usbmodem14101": No such file or directory
+Problem uploading to board. See http://www.arduino.cc/en/Guide/Troubleshooting#upload for suggestions.
+```
+
+This error can happen if the board on the selected port has been disconnected from the computer, or reassigned to a different port.
+
+1. Make sure the correct port is selected in _Tools > Port_.
+
+   * For step-by-step instructions, see [Select board and port in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE).
+   * If you can't find the port, see [If your board does not appear in the port menu](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-does-not-appear-in-the-port-menu).
+
+2. If using the classic Nano, try selecting a different processor in _Tools > Processor_.
+
+> On Windows, you can [manually set a port for the board](https://support.arduino.cc/hc/en-us/articles/360016420140#set-COM-port) to stop it from being reassigned.
+
+---
+
+<a id="ser_open-device-or-resource-busy"></a>
+
+## avrdude: ser_open(): can't open device \<port\>: Device or resource busy
+
+1. Make sure the correct port is selected in _Tools > Port_.
+
+2. Close other instances of Arduino IDE, serial monitors, and other software that may be blocking the port.
+
+3. Restart your computer.
+
+4. See [Find and stop process blocking a port](https://support.arduino.cc/hc/en-us/articles/4407830972050-Find-and-stop-process-blocking-a-port).
+
+---
+
+<a id="ser_open-resource-busy"></a>
+
+## avrdude: ser_open(): can't open device \<port\>: Resource busy
+
+1. Make sure the correct port is selected in _Tools > Port_.
+
+2. Close other instances of Arduino IDE, serial monitors, and other software that may be blocking the port.
+
+3. Restart your computer.
+
+4. See [Find and stop process blocking a port](https://support.arduino.cc/hc/en-us/articles/4407830972050-Find-and-stop-process-blocking-a-port).
+
+---
+
+<a id="ser_open-permission-denied"></a>
+
+## avrdude: ser_open(): can't open device \<port\>: Permission denied
+
+This error can occur on Linux if your user account is part of the `dialout` group. See  [Fix port access on Linux](https://support.arduino.cc/hc/en-us/articles/360016495679-Fix-port-access-on-Linux) to resolve the issue.
+
+---
+
+<a id="ser_open-access-is-denied"></a>
+
+## avrdude: ser_open(): can't open device \<port\>: access is denied
+
+1. Make sure the correct port is selected in _Tools > Port_.
+
+2. Close other instances of Arduino IDE, serial monitors, and other software that may be blocking the port.
+
+3. Restart your computer.
+
+4. See [Find and stop process blocking a port](https://support.arduino.cc/hc/en-us/articles/4407830972050-Find-and-stop-process-blocking-a-port).
+
+---
+
+<a id="avrdude-butterfly_recv"></a>
+
+## avrdude: butterfly_recv()
 
 ```
 avrdude: butterfly_recv(): programmer is not responding
@@ -89,29 +189,44 @@ avrdude: butterfly_recv(): programmer is not responding
 avrdude: error: programmer did not respond to command: exit bootloader
 ```
 
-Check that you have selected the correct board in `Tools > Board`.
+Make sure you have [selected the right board and port](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE) correct board under _Tools > Board_ and  _Tools > Port_.
 
-If the issue persists, [check these steps](#check-the-following).
+For instructions, see [Select board and port in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE).
 
-<h3 id="avrdude-ser_open-cant-open-device-no-such-file-or-directory">avrdude: ser_open(): can't open device: No such file or directory</h3>
+---
+
+<a id="usbhid_open_jtag3_open_common"></a>
+
+## avrdude: usbhid_open(): No device found<br>avrdude: jtag3_open_common()
 
 ```
-avrdude: ser_open(): can't open device "/dev/cu.usbmodem14101": No such file or directory
-Problem uploading to board. See http://www.arduino.cc/en/Guide/Troubleshooting#upload for suggestions.
+avrdude: usbhid_open(): No device found
+avrdude: jtag3_open_common(): Did not find any device matching VID 0x03eb and PID list: 0x2145
+An error occurred while uploading the sketch
 ```
 
-This error can occur when the board has been disconnected from a selected port. Make sure that the board is connected, and that the correct port is selected from the `Tools > Port` menu.
+Make sure you have [selected the right board and port](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE) correct board under _Tools > Board_ and  _Tools > Port_. In particular, this error can occur when uploading to an Arduino Uno Rev3 or classic, when having _megaAVR Boards > Arduino Uno WiFi Rev2_ as the selected board.
 
-If the issue persists, [check these steps](#check-the-following).
+---
+
+<a id="jtagmkII_getsync"></a>
+
+## avrdude: jtagmkII_getsync(): sign-on command: status -1
+
+Make sure you have [selected the right board and port](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE) correct board under _Tools > Board_ and  _Tools > Port_.
+
+---
 
 ## Still need help?
-
-You're welcome to ask in the forum, or contact us. Please include this information: Board name, Operation System, IDE or Create Agent version, and error output.
 
 * Visit the [Avrdude, stk500, Bootloader issues category](https://forum.arduino.cc/c/using-arduino/avrdude-stk500-bootloader-issues/81) in the Arduino forum.
 
 * [Contact us](https://www.arduino.cc/en/contact-us/).
 
+> **Please include this information:** A [verbose error output](https://support.arduino.cc/hc/en-us/articles/4407705216274), the name of your board, your operating system, and your Arduino IDE version.
+
 <p style="display:none;">
    Tags: \\.\com1, \\.\com2, \\.\com3, \\.\com4, \\.\com5, \\.\com6, \\.\com7, \\.\com8, \\.\com9
 </p>
+
+<!-- markdownlint-disable-file HC001 -->

@@ -16,6 +16,8 @@ Of course, the COM port number will be reflected on Arduino IDE but this is not 
 
 ![](img/COM_port_changes_1.png)
 
+<h2 id="set-COM-port">Manually set a COM port for the board</h2>
+
 It is possible to force the COM port to remain with the same number if that is what is required. All that needs to be done is:
 
 1. In the `Device manager`, right click on the specific COM port and select `port properties`.
