@@ -10,11 +10,11 @@ When uploading a sketch to your board you may get an error from the **avrdude** 
   * [avrdude: stk500v2_ReceiveMessage(): timeout
     avrdude: stk500v2_getsync(): timeout communicating with programmer](#avrdude-stk500_recv-and-stk500_getsync)
 * **ser_open():**
-  * [avrdude: ser_open(): can't open device <port>: no such file or directory](#avrdude-ser_open-cant-open-device-no-such-file-or-directory)
+  * [avrdude: ser_open(): can't open device \<port\>: no such file or directory](#avrdude-ser_open-cant-open-device-no-such-file-or-directory)
   * [avrdude: ser_open(): can't open device "/dev/ttyACM0": Device or resource busy](#ser_open-device-or-resource-busy)
-  * [avrdude: ser_open(): can't open device <port>: Resource busy](#ser_open-resource-busy)
-  * [avrdude: ser_open(): can't open device <port>: permission denied](#ser_open-permission-denied)
-  * [avrdude: ser_open(): can't open device <port>: access is denied](#ser_open-access-is-denied)
+  * [avrdude: ser_open(): can't open device \<port\>: Resource busy](#ser_open-resource-busy)
+  * [avrdude: ser_open(): can't open device \<port\>: permission denied](#ser_open-permission-denied)
+  * [avrdude: ser_open(): can't open device \<port\>: access is denied](#ser_open-access-is-denied)
 * [avrdude: butterfly_recv(): programmer is not responding](#avrdude-butterfly_recv)
 * [avrdude: usbhid_open(): No device found
   avrdude: jtag3_open_common()](#usbhid_open_jtag3_open_common)
@@ -123,7 +123,7 @@ This error can happen if the board on the selected port has been disconnected fr
 
 <a id="ser_open-device-or-resource-busy"></a>
 
-## avrdude: ser_open(): can't open device <port>: Device or resource busy
+## avrdude: ser_open(): can't open device \<port\>: Device or resource busy
 
 1. Make sure the correct port is selected in _Tools > Port_.
 
@@ -137,7 +137,7 @@ This error can happen if the board on the selected port has been disconnected fr
 
 <a id="ser_open-resource-busy"></a>
 
-## avrdude: ser_open(): can't open device <port>: Resource busy
+## avrdude: ser_open(): can't open device \<port\>: Resource busy
 
 1. Make sure the correct port is selected in _Tools > Port_.
 
@@ -151,7 +151,7 @@ This error can happen if the board on the selected port has been disconnected fr
 
 <a id="ser_open-permission-denied"></a>
 
-## avrdude: ser_open(): can't open device <port>: Permission denied
+## avrdude: ser_open(): can't open device \<port\>: Permission denied
 
 This error can occur on Linux if your user account is part of the `dialout` group. See  [Fix port access on Linux](https://support.arduino.cc/hc/en-us/articles/360016495679-Fix-port-access-on-Linux) to resolve the issue.
 
@@ -159,7 +159,7 @@ This error can occur on Linux if your user account is part of the `dialout` grou
 
 <a id="ser_open-access-is-denied"></a>
 
-## avrdude: ser_open(): can't open device <port>: access is denied
+## avrdude: ser_open(): can't open device \<port\>: access is denied
 
 1. Make sure the correct port is selected in _Tools > Port_.
 
