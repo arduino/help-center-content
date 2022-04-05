@@ -87,7 +87,7 @@ avrdude: stk500_getsync() attempt 2 of 10: not in sync: resp=0x00
    * Arduino Mega ADK Rev3
    * Arduino Nano (classic)
 
-   If the loopback test passes, or if you cant do a loopback test, reprogramming the bootloader may resolve the issue. [ArduinoISP](https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP) can be used for boards with AtMega chips. You can also search for [articles in the Help Center](https://support.arduino.cc/hc/en-us/search?utf8=%E2%9C%93&query=bootloader).
+   If the loopback test passes, or if you can't do a loopback test, reprogramming the bootloader may resolve the issue. [ArduinoISP](https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP) can be used for boards with AtMega chips. You can also search for [articles in the Help Center](https://support.arduino.cc/hc/en-us/search?utf8=%E2%9C%93&query=bootloader).
 
 ---
 
