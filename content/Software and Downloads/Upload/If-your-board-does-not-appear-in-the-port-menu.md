@@ -52,7 +52,7 @@ The board may be stuck in a state where it cannot communicate on the port.
 
 2. Click the button two times in succession.
 
-   ![The reset button on an Arduino UNO](img/UNO-reset-button.png)
+   ![The reset button on an Arduino UNO](img/uno-reset-button.png)
 
 3. Check the port menu again.
 
