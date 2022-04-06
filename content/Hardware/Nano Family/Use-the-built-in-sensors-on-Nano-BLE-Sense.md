@@ -1,11 +1,11 @@
 ---
-title: "Which are and how to use the NANO 33 BLE SENSE built-in sensors"
+title: "Use the built-in sensors on Nano 33 BLE Sense"
 ---
 
-The Nano BLE board has a set of sensors embedded on the top, which gives a lot of options to try ideas without having to generate the circuit to such sensors in a prototyping board.
+The Nano 33 BLE Sense has a set of sensors embedded on the top, which gives a lot of options to try ideas without having to generate the circuit to such sensors in a prototyping board.
 The sensor location can be checked in the following image, while the specific model and some other details are addressed later in this same article:
 
-<img src ="https://content.arduino.cc/assets/NANO-33-BLE-Sense_sensor-indentification.png" title="Nano BLE SENSE sensors">
+<img src ="https://content.arduino.cc/assets/NANO-33-BLE-Sense_sensor-indentification.png" title="Sensors on Nano 33 BLE Sense">
 
 ## Color, brightness, proximity and gesture sensor
 

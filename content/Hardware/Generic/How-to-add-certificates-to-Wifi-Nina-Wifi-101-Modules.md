@@ -24,7 +24,7 @@ You will learn how to add certificates to your Wi-Fi module on the Arduino using
 * Install the Wi-Fi module library according to the board you’re using:
   1. Open Arduino `IDE>Sketch>Include library>Manage libraries`
   2. Search for WifiNina or Wifi101 (depending on your board):
-     * WifiNina: Arduino UNO WiFi Rev.2, Arduino NANO 33 IoT, Arduino MKR 1010, and Arduino MKR VIDOR 4000 WiFi.
+     * WifiNina: Arduino UNO WiFi Rev.2, Arduino Nano 33 IoT, Arduino MKR 1010, and Arduino MKR VIDOR 4000 WiFi.
      * Wifi101: Arduino WiFi Shield 101, and MKR1000 board.
   3. Install
 

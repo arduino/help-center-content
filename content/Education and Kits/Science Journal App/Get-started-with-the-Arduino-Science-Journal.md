@@ -17,10 +17,10 @@ Read [Setting up Experiments](https://science-journal.arduino.cc/sj/module/getti
 
 ## Compatible boards
 
-The Science Journal can be used with **Arduino MKR WiFi 1010** or **Arduino Nano BLE Sense**.
+The Science Journal can be used with **Arduino MKR WiFi 1010** or **Arduino Nano 33 BLE Sense**.
 
 * The MKR WiFi 1010 included with the Science Kit comes pre-configured for use with Science Journal. It needs to be connected using the _Science carrier board_, which is only available in the [Arduino Science Kit Physics Lab](https://store.arduino.cc/products/arduino-science-kit-physics-lab).
-* [Follow these instructions](#firmware) if you are using an individually bought replacement, uploaded a different firmware, or are using the Nano BLE Sense.
+* [Follow these instructions](#firmware) if you are using an individually bought replacement, uploaded a different firmware, or are using the Nano 33 BLE Sense.
 
 ## Connect a board
 
