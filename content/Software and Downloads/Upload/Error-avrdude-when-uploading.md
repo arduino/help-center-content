@@ -41,7 +41,7 @@ Most errors can be solved by following these steps. After each step, try uploadi
 
 3. Reset your board by pressing the RESET button (a white or blue push button).
 
-   ![The reset button on Arduino UNO.](img/uno-reset-button.png)
+   ![The reset button on Arduino UNO.](img/uno-reset-button-small.png)
 
 4. Check port and cable connections:
 
