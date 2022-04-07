@@ -2,8 +2,6 @@
 title: "How can I get my invoice?"
 ---
 
-> **PayPal temporarily not available (Dec. 17th, 2021):** PayPal transfers may be unavailable due to a temporary service disruption. We are working on resolving the issue.
-
 Learn how to get your invoice after purchasing Arduino products from the Arduino Store or Amazon.
 
 ## Arduino Store Invoice

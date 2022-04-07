@@ -2,8 +2,6 @@
 title: "Accepted payment methods"
 ---
 
-> **PayPal temporarily not available (Dec. 17th, 2021):** PayPal transfers may be unavailable due to a temporary service disruption. We are working on resolving the issue.
-
 Accepted payment methods differ between products in the [Store](https://store.arduino.cc/), and subscriptions in the [Digital Store](https://store.arduino.cc/digital/), as well as whether you are purchasing as an individual or as a educational institution or a company.
 
 **Accepted credit and debit cards:** American Express, Discover, Mastercard, VISA, PayPal.
