@@ -8,7 +8,7 @@ In order to program scripts for Portenta H7 with OpenMV it is necessary to flash
 
 1. Install/Update latest core version of **Arduino Mbed OS Portenta Boards**: In Arduino IDE go to *Tools > Board > Boards Manager* and search Portenta. Install/Update Arduino Mbed OS Portenta Boards.
 
-2. **Update Portenta H7 bootloader**: This can be easily done from Arduino IDE and _PortentaH7_updateBootloader_ sketch from Portenta examples. Find a detailed guide to do so [here](https://www.arduino.cc/pro/tutorials/portenta-h7/por-ard-bl).
+2. **Update Portenta H7 bootloader**: This can be easily done from Arduino IDE and `STM32H747_updateBootloader` sketch from _File > Examples > STM32H747_System_. For step-by-step instructions, see [How to update the bootloader on Portenta H7](https://support.arduino.cc/hc/en-us/articles/4404067649554-How-to-update-the-bootloader-on-Portenta-H7).
 
 3. Download and install the [**OpenMV IDE**](https://openmv.io/pages/download).
 
