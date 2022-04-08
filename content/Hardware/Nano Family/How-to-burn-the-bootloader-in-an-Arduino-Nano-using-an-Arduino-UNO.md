@@ -20,7 +20,7 @@ Detailed instructions below:
 
    ![Connection](img/uno-to-nano_connection.png)
 
-   > Note that the connections are made between Arduino UNO I/O pins and Arduino Nano ICSP connector. This connector has 6 pins that are arranged as the diagram shows (placing the NANO board with ICSP connector facing up leaving the USB port on the right side).
+   > Note that the connections are made between Arduino UNO I/O pins and Arduino Nano ICSP connector. This connector has 6 pins that are arranged as the diagram shows (placing the Nano board with ICSP connector facing up leaving the USB port on the right side).
 
    ![ICSP connection](img/ICSP_names.png)
 
