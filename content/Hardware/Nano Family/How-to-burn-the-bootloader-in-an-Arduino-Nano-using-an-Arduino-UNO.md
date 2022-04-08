@@ -6,7 +6,7 @@ The bootloader is a piece of code that is stored in a reserved space of the memo
 
 It can happen that this piece of code gets corrupted when attempting to upload a bad sketch, applying too high/low voltage to I/O pins or power inputs. If this is the case, the board will not be detected by your PC any more and the port will show grayed out on Arduino IDE.
 
-If by chance you happen to have an Arduino UNO and 6 jumper wires you can easily reprogram your Arduino NANO using your UNO board as a programmer. Just need to upload ‘Arduino ISP’ sketch, connect the boards and click ‘Burn Bootloader’.
+If by chance you happen to have an Arduino UNO and 6 jumper wires you can easily reprogram your Arduino Nano using your UNO board as a programmer. Just need to upload ‘Arduino ISP’ sketch, connect the boards and click ‘Burn Bootloader’.
 
 All you need to perform this operation is: a programmer board (Arduino UNO), 6 jumper wires (please note jumpers need to be ‘male’ on one end and ‘female’ on the other end), PC with Arduino IDE installed, and your Arduino Nano.
 
