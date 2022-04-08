@@ -1,8 +1,8 @@
 ---
-title: "Test your Nano 33 BLE sense Sensors"
+title: "Test the sensors on Nano 33 BLE Sense"
 ---
 
-The Nano 33 BLE sense has multiple sensors available on it and requires individual libraries to activate and test each sensor. Below you can see the different sensors available on the board and the associated libraries for each sensors.
+The Nano 33 BLE Sense has multiple sensors available on it and requires individual libraries to activate and test each sensor. Below you can see the different sensors available on the board and the associated libraries for each sensors.
 
 * Temperature and Humidity - [ArduinoHTS221](https://www.arduino.cc/en/Reference/ArduinoHTS221)
 * Pressure - [ArduinoLPS22HB](https://www.arduino.cc/en/Reference/ArduinoLPS22HB)

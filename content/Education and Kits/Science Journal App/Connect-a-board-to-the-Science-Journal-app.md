@@ -6,7 +6,7 @@ title: "Connect a board to the Science Journal app"
 
 The Science Journal app supports the following boards:
 
-- Arduino Nano BLE Sense
+- Arduino Nano 33 BLE Sense
 - Arduino MKR WiFi 1010
 
 ## Set up your board
@@ -21,9 +21,9 @@ The MKR WiFi 1010 included with the Science Kit comes with the required firmware
 
 2. Power the setup, via a USB cable to the board or otherwise.
 
-### Set up the Arduino Nano BLE Sense
+### Set up the Arduino Nano 33 BLE Sense
 
-The Nano BLE Sense needs to be flashed with special firmware for use with the Science Journal app.
+The Nano 33 BLE Sense needs to be flashed with special firmware for use with the Science Journal app.
 
 1. [Flash the firmware](https://support.arduino.cc/hc/en-us/articles/4408029337746).
 
