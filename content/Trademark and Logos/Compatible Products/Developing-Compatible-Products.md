@@ -76,7 +76,7 @@ The Arduino name cannot be included in a company name even if the company uses t
           </ul>
       </li>
     </td>
-    <td  style="vertical-align: top;">      
+    <td  style="vertical-align: top;">
       Product menu:
           <li>Arduino<ul>
             <li>Butterfly boards</li>
