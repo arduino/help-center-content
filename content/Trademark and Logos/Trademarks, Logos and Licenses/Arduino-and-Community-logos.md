@@ -32,10 +32,9 @@ The Arduino Community Logo ([download here](https://www.arduino.cc/en/Trademark/
 
 > ![Infinity Arduino Community Logo](img/ArduinoCommunityLogo.png)
 
-
 The Arduino Community Logo can be used freely on, for example:
 
-*  Social media community pages and groups, and to identify not for profit activities such as free events
+* Social media community pages and groups, and to identify not for profit activities such as free events
 
 * Non commercial publications, courses and workshops. (e.g. when developing a not for profit video tutorial about Arduino, the Community Logo can be used in connection to it)
 
