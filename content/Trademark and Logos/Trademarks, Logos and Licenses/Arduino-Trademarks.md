@@ -1,5 +1,5 @@
 ---
-title: "Arduino's Trademarks"
+title: "Arduino Trademarks"
 ---
 
 A trademark is a word or symbol representing a company or product. It is used to identify a specific source of goods or service and protect that source from confusion with other sources. Trademarks are recognizable by the symbols ™ or ®.
