@@ -45,7 +45,7 @@ The Arduino Community Logo **cannot** be used on:
 
 * Electronic boards (also non commercial)
 
-**Note**: the Arduino Community Logo is shared with Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) license. It is designed to allow personalization in the lower-right part in order to provide a free space on which to add the name of your group or organization. Apart from that, the community logo should not be altered, cropped, shortened or modified in any way. It is not allowed to incorporate another logo, trademark or commercial company name into the Community Logo. 
+**Note**: the Arduino Community Logo is shared with Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) license. It is designed to allow personalization in the lower-right part in order to provide a free space on which to add the name of your group or organization. Apart from that, the community logo should not be altered, cropped, shortened or modified in any way. It is not allowed to incorporate another logo, trademark or commercial company name into the Community Logo.
 
 <h2 id="examples">Examples</h2>
 
@@ -79,5 +79,10 @@ The Arduino Community Logo **cannot** be used on:
     <td>Compatible boards </td>
     <td><img src="img/ButterflyBoardLogo.jpg" alt="Butterfly board Logo"></td>
     <td><img src="img/ArduinoLogos_table.png" alt="Blue Arduino logo above black Arduino and Community logos"></td>
+  </tr>
+  <tr>
+    <td>Customization </td>
+    <td><img src="img/ArduinoCommunity_example.jpg" alt="Arduino Community logo example with "Arduino Group Italy" written on the bottom right side"></td>
+    <td><img src="img/ArduinoCommunity_bad_example.jpg" alt="Arduino Board with Arduino Community logo printed on top "></td>
   </tr>
 </table>
