@@ -1,5 +1,5 @@
 ---
-title: "Developing Compatible Products"
+title: "Developing compatible products"
 ---
 
 This page covers the basic trademark rules you must follow when developing products based on, or compatible with, Arduino. By following these guidelines, you will be able to develop, share, and even commercialize your products without violating Arduino’s Intellectual Property. A compatible product is a product, such as a board, derived from an Arduino board and compatible with the Arduino IDE. A compatible product can be manufactured by a different company and have its own brand, or be unbranded. Compatible products are perfectly legal to make, use and sell, as long as they don’t violate any of Arduino’s trademarks.
