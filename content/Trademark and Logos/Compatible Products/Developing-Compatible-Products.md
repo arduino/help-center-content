@@ -2,7 +2,9 @@
 title: "Developing compatible products"
 ---
 
-This page covers the basic trademark rules you must follow when developing products based on, or compatible with, Arduino. By following these guidelines, you will be able to develop, share, and even commercialize your products without violating Arduino’s Intellectual Property. A compatible product is a product, such as a board, derived from an Arduino board and compatible with the Arduino IDE. A compatible product can be manufactured by a different company and have its own brand, or be unbranded. Compatible products are perfectly legal to make, use and sell, as long as they don’t violate any of Arduino’s trademarks.
+This article covers the basic trademark rules you must follow when developing products based on (or compatible with) Arduino. By following these guidelines, you will be able to develop, share, and even commercialize your products without violating Arduino’s Intellectual Property.
+
+> A compatible product is a product, such as a board, derived from an Arduino board and compatible with the Arduino IDE. A compatible product can be manufactured by a different company and have its own brand, or be unbranded. Compatible products are perfectly legal to make, use and sell, as long as they don’t violate any of Arduino’s trademarks.
 
 <table>
   <tr>
@@ -17,24 +19,45 @@ This page covers the basic trademark rules you must follow when developing produ
   <tr>
   </table>
 
+---
+
 ## Open source and compatible products
 
-Most hardware designs of Arduino are open source; this means that copying and further developing these designs is allowed. However:
+Most hardware designs of Arduino are open source. Copying and further developing these designs is allowed, however:
 
-* It is **not allowed** to print the word Arduino or the  Arduino logo on the board. Manufacturing and selling counterfeits is illegal.
-* It is **not allowed** to call your compatible product “Arduino”, even if you copied the design from Arduino. Your finished product is a product compatible with Arduino which should have its own name and brand.
+* It is **not allowed** to print the word *Arduino* or the  Arduino logo on the board. Manufacturing and selling counterfeits is illegal.
+
+* It is **not allowed** to call your compatible product *Arduino*, even if you copied the design from Arduino. Your finished product is a product compatible with Arduino and should have its own name and brand.
 
 ## Logo
 
-If you want your compatible product to carry a logotype, you should develop your own. Your logo should be clearly distinguishable from the Arduino logo, even if your product is derived from the Arduino technology. You are not allowed to use the Arduino logo in connection with the compatible product you have developed. This includes: printing the logo on the product, on the packaging, on any promotional material advertising your product including social media.
-Even modified versions of the Arduino logo are considered trademark violations.
+If you want your compatible product to carry a logotype, you should develop your own. Your logo should be clearly distinguishable from the Arduino logo, even if your product is derived from the Arduino technology.
+
+You are not allowed to use the Arduino logo in connection with the compatible product you have developed. This includes: printing the logo on the product, on the packaging, on any promotional material advertising your product (including social media).
+
+Modified versions of the Arduino logo are considered trademark violations.
 
 ## Name
 
 It is understandable that compatible brands want to make a reference to Arduino®, in order for their customers to easily identify what type of product it is.
-If you want to indicate that your product is compatible with Arduino, you should use the correct phrasing, such as : “Compatible with Arduino” “For Arduino” “Based on Arduino”. Always place the word Arduino last.
-The word Arduino is a brand name, not a category. Therefore, you should clearly separate original Arduino products and compatible products in your catalog or website.
+
+To indicate that your product is compatible with Arduino, you should use the correct phrasing. For example:
+
+* “Compatible with Arduino”
+* “For Arduino”
+* “Based on Arduino”.
+
+> Always place the word Arduino last.
+
+### Catalogue and websites
+
+The word Arduino is a brand name, not a category. Therefore, you should clearly separate original Arduino products and compatible products in your catalogue or website.
+
+### Company name
+
 The Arduino name cannot be included in a company name even if the company uses the same technology as Arduino. This includes domain names too.
+
+## Examples
 
 <table>
   <tr>
