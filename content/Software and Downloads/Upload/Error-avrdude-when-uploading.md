@@ -223,7 +223,12 @@ Make sure you have [selected the right board and port](https://support.arduino.c
 
 * [Contact us](https://www.arduino.cc/en/contact-us/).
 
-> **Please include this information:** A [verbose error output](https://support.arduino.cc/hc/en-us/articles/4407705216274), the name of your board, your operating system, and your Arduino IDE version.
+> **Please include this information:**
+>
+> * A [verbose error output](https://support.arduino.cc/hc/en-us/articles/4407705216274)
+> * The name of your board
+> * Your operating system
+> * Your Arduino IDE version
 
 <p style="display:none;">
    Tags: \\.\com1, \\.\com2, \\.\com3, \\.\com4, \\.\com5, \\.\com6, \\.\com7, \\.\com8, \\.\com9
