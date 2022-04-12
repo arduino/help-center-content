@@ -14,7 +14,7 @@ A bootloader is a small application that starts when an Arduino board gets power
 
 3. Compile and upload the sketch to the board. Make sure you have selected the right port before you upload.
 
-4. Open the Serial monitor and you will see the specifications of your current bootloader and your board. Tyoe `Y` in the text field and press enter to begin the update process.
+4. Open the Serial monitor and you will see the specifications of your current bootloader and your board. Type `Y` in the text field and press enter to begin the update process.
 
    ![Serial monitor output](img/update_bootloader_portenta_2.png)
 
