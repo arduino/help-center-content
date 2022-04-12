@@ -12,7 +12,7 @@ Learn how to open the Arduino15 folder on your system.
 
 1. Open your user folder in Explorer.
 
-2. Look for a folder with the name `AppData`. This folder is hidden by default. I newer versions of Windows, you can display hidden items by clicking the **View** tab, and checking _Hidden items_.
+2. Look for a folder with the name `AppData`. This folder is hidden by default. In newer versions of Windows, you can display hidden items by clicking the **View** tab, and checking _Hidden items_.
 
    ![Enabling hidden files in Explorer on Windows.](img/windows-hidden-files.png)
 
