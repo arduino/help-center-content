@@ -44,7 +44,7 @@ If you decide to open a website about Arduino, write a book, or develop a course
 
 You are allowed to use screenshots of Arduino IDE in your course content, provided that you mention its source. You are also free to use images of Arduino products in your course or publication.
 
-All content on our website, including text and images, is distributed under Creative Commons license. This means you can use them on your own derived works, in part or completely, as long as you also adopt the same license.
+All editorial content on our website, including text and images, is distributed under an [Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) license](https://creativecommons.org/licenses/by-nc-sa/3.0/). This means you can use them on your own derived works, in part or completely, as long as you also adopt the same license.
 
 * See [Software and Licensing based on Arduino](https://support.arduino.cc/hc/en-us/articles/4415094490770-Distributing-products-based-on-Arduino).
 
