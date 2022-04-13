@@ -18,10 +18,12 @@ Learn how to select the right board and port in Arduino IDE.
 
    | Package                                      | Boards                                                                      |
    |----------------------------------------------|-----------------------------------------------------------------------------|
-   | Arduino AVR boards                           | Arduino Uno, Arduino Mega, Arduino Nano                                     |
-   | Arduino SAMD (32-bits ARM Cortex-M0+) Boards | MKR Zero, MKR WiFi 1000, MKR WiFi 1010                                      |
+   | Arduino AVR boards                           | Arduino Uno, Arduino Mega, Arduino Nano (classic)                           |
+   | Arduino megaAVR boards                       | Arduino Uno WiFi Rev2, Arduino Nano Every                                   |
+   | Arduino SAMD (32-bits ARM Cortex-M0+) Boards | MKR Zero, MKR WiFi 1000, MKR WiFi 1010, and other MKR boards                |
    | Arduino SAM (32-bits ARM Cortex-M3) Boards   | Arduino Due                                                                 |
    | Mbed OS Nano boards                          | Arduino Nano 33 BLE, Arduino Nano 33 BLE Sense, Arduino Nano RP2040 Connect |
+   | Mbed OS Portenta boards                      | Portenta H7                                                                 |
 
    If you don't know which package to use, or if it's missing from the list, see [Find and install the board core in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360016119519-How-to-add-boards-in-the-board-manager).
 
