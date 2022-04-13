@@ -89,9 +89,9 @@ The Arduino name cannot be included in a company name even if the company uses t
     <td>Product Category</td>
     <td  style="vertical-align: top;">
       Product menu:
-      <li>Arduino®<ul>
-        <li>Arduino® boards</li>
-        <li>Arduino® Kits</li>
+      <li>Arduino<sup>®</sup><ul>
+        <li>Arduino<sup>®</sup> boards</li>
+        <li>Arduino<sup>®</sup> Kits</li>
         </ul>
         <li>Compatible with Arduino<ul>
           <li>Butterfly boards</li>
