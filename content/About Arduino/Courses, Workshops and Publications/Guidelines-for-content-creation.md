@@ -52,7 +52,7 @@ All content on our website, including text and images, is distributed under Crea
 
 ## Trademark Acknowledgments
 
-All uses of the trademarks of Arduino SA should include an acknowledgement (for example: “Arduino® is a trademark of Arduino SA”). Please note that you should also include the registered trademark symbol the first time Arduino is mentioned in text: ARDUINO® or Arduino®.
+All uses of the trademarks of Arduino SA should include an acknowledgment (for example: “Arduino<sup>®</sup> is a trademark of Arduino SA”). Please note that you should also include the registered trademark symbol the first time Arduino is mentioned in text: ARDUINO<sup>®</sup> or Arduino<sup>®</sup>.
 
 <table style="text-align: center;">
   <tr>
