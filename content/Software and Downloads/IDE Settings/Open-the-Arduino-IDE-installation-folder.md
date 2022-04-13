@@ -28,6 +28,8 @@ Full path: `/Applications/Arduino.app/Contents/Java`
 
 ---
 
+<a id="linux"></a>
+
 ## Linux
 
 The application files are located wherever they were extracted in the installation process.
