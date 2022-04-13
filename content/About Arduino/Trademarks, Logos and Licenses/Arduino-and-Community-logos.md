@@ -28,7 +28,7 @@ Please be aware that even modified/customized versions of the Arduino Logo are c
 
 <h2 id="community-logo">Community Logo</h2>
 
-The Arduino Community Logo ([download here](https://www.arduino.cc/en/Trademark/CommunityLogo)) has been developed by Arduino to give users the chance to identify non commercial pages, groups, events and initiatives connected to Arduino.
+The Arduino Community Logo ([download here](https://www.arduino.cc/en/Trademark/CommunityLogo)) has been developed by Arduino for users to identify non-commercial pages, groups, events, and initiatives related to Arduino.
 
 > ![Infinity Arduino Community Logo](img/ArduinoCommunityLogo.png)
 
