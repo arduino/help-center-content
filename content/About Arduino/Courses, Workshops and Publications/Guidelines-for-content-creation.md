@@ -50,7 +50,7 @@ All content on our website, including text and images, is distributed under Crea
 
 > If your content includes the use of components (for example, if you develop a video tutorial), you are free to use whichever brand you choose. In other words, you do not have to use original Arduino products. However, you must provide correct descriptions of the components you use. If you are using a compatible board, you may not call it “Arduino”.
 
-## Trademark Acknowledgments
+## Trademark acknowledgments
 
 All uses of the trademarks of Arduino SA should include an acknowledgment (for example: “Arduino<sup>®</sup> is a trademark of Arduino SA”). Please note that you should also include the registered trademark symbol the first time Arduino is mentioned in text: ARDUINO<sup>®</sup> or Arduino<sup>®</sup>.
 
