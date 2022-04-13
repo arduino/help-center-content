@@ -56,32 +56,32 @@ The Arduino Community Logo **cannot** be used on:
   </tr>
   <tr>
     <td>Facebook group for Arduino enthusiasts</td>
-    <td><img src="img/ArduinoCommunityLogo_table.png" alt="Arduino Community Logo"></td>
-    <td><img src="img/ArduinoLogo_Blue_table.jpg" alt="Blue Arduino Infinity Logo"></td>
+    <td><img src="https://content.arduino.cc/assets/ArduinoCommunityLogo_table.png" alt="Arduino Community Logo"></td>
+    <td><img src="https://content.arduino.cc/assets/ArduinoLogo_Blue_table.jpg" alt="Blue Arduino Infinity Logo"></td>
   </tr>
   <tr>
     <td>Free online tutorial </td>
-    <td><img src="img/ArduinoCommunityLogo_table.png" alt="Arduino Community Logo"></td>
-    <td><img src="img/ArduinoLogo_Blue_table.jpg" alt="Blue Arduino Infinity Logo"></td>
+    <td><img src="https://content.arduino.cc/assets/ArduinoCommunityLogo_table.png" alt="Arduino Community Logo"></td>
+    <td><img src="https://content.arduino.cc/assets/ArduinoLogo_Blue_table.jpg" alt="Blue Arduino Infinity Logo"></td>
   </tr>
   <tr>
     <td>Banner advertising a free maker convention </td>
-    <td><img src="img/ArduinoCommunityLogo_table.png" alt="Arduino Community Logo"></td>
-    <td><img src="img/ArduinoLogo_Blue_table.jpg" alt="Blue Arduino Infinity Logo"></td>
+    <td><img src="https://content.arduino.cc/assets/ArduinoCommunityLogo_table.png" alt="Arduino Community Logo"></td>
+    <td><img src="https://content.arduino.cc/assets/ArduinoLogo_Blue_table.jpg" alt="Blue Arduino Infinity Logo"></td>
   </tr>
   <tr>
     <td>Facebook Marketplace posts selling compatible products  </td>
-    <td><img src="img/ButterflyBoardLogo.jpg" alt="Butterfly board Logo"></td>
-    <td><img src="img/ArduinoLogo_Blue_table.jpg" alt="Blue Arduino Infinity Logo"></td>
+    <td><img src="https://content.arduino.cc/assets/ButterflyBoardLogo.jpg" alt="Butterfly board Logo"></td>
+    <td><img src="https://content.arduino.cc/assets/ArduinoLogo_Blue_table.jpg" alt="Blue Arduino Infinity Logo"></td>
   </tr>
   <tr>
     <td>Compatible boards </td>
-    <td><img src="img/ButterflyBoardLogo.jpg" alt="Butterfly board Logo"></td>
-    <td><img src="img/ArduinoLogos_table.png" alt="Blue Arduino logo above black Arduino and Community logos"></td>
+    <td><img src="https://content.arduino.cc/assets/ButterflyBoardLogo.jpg" alt="Butterfly board Logo"></td>
+    <td><img src="https://content.arduino.cc/assets/ArduinoLogos_table.png" alt="Blue Arduino logo above black Arduino and Community logos"></td>
   </tr>
   <tr>
     <td>Customization </td>
-    <td><img src="img/ArduinoCommunity_example.jpg" alt="Arduino Community logo example with "Arduino Group Italy" written on the bottom right side"></td>
-    <td><img src="img/ArduinoCommunity_bad_example.jpg" alt="Arduino Board with Arduino Community logo printed on top "></td>
+    <td><img src="https://content.arduino.cc/assets/ArduinoCommunity_example.jpg" alt="Arduino Community logo example with "Arduino Group Italy" written on the bottom right side"></td>
+    <td><img src="https://content.arduino.cc/assets/ArduinoCommunity_bad_example.jpg" alt="Arduino Board with Arduino Community logo printed on top "></td>
   </tr>
 </table>

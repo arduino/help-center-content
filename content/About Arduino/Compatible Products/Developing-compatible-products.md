@@ -13,8 +13,8 @@ This article covers the basic trademark rules you must follow when developing pr
 
   </tr>
   <tr>
-    <td><img src="img/ArduinoBoard_good_example.png" alt="Blue board with butterfly logo and "Butterfly BOARD" written on top"></td>
-    <td><img src="img/ArduinoBoard_bad_example.png" alt="Green board with butterfly logo and "Butterfly ARDUINO BOARD" written on top" and Arduino Infinity logo below"></td>
+    <td><img src="https://content.arduino.cc/assets/ArduinoBoard_good_example.png" alt="Blue board with butterfly logo and "Butterfly BOARD" written on top"></td>
+    <td><img src="https://content.arduino.cc/assets/ArduinoBoard_bad_example.png" alt="Green board with butterfly logo and "Butterfly ARDUINO BOARD" written on top" and Arduino Infinity logo below"></td>
   </tr>
   <tr>
   </table>
@@ -82,8 +82,8 @@ The Arduino name cannot be included in a company name even if the company uses t
   </tr>
   <tr>
     <td>Logo</td>
-    <td><img src="img/ButterflyBoard_good_example.png" alt="Gray butterfly logo with "Butterfly BOARD" written on the side"></td>
-    <td><img src="img/ButterflyBoard_bad_example.png" alt="Arduino Infinity logo with "Butterfly BOARD" written on the side"></td>
+    <td><img src="https://content.arduino.cc/assets/ButterflyBoard_good_example.png" alt="Gray butterfly logo with Butterfly BOARD written on the side"></td>
+    <td><img src="https://content.arduino.cc/assets/ButterflyBoard_bad_example.png" alt="Arduino Infinity logo with "Butterfly BOARD" written on the side"></td>
   </tr>
   <tr>
     <td>Product Category</td>
