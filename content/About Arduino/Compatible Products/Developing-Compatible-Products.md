@@ -39,7 +39,7 @@ Modified versions of the Arduino logo are considered trademark violations.
 
 ## Name
 
-It is understandable that compatible brands want to make a reference to Arduino®, in order for their customers to easily identify what type of product it is.
+It is understandable that compatible brands want to make a reference to Arduino<sup>®</sup>, in order for their customers to easily identify what type of product it is.
 
 To indicate that your product is compatible with Arduino, you should use the correct phrasing. For example:
 
