@@ -6,7 +6,7 @@ A trademark is a word or symbol representing a company or product. It is used to
 
 >![Arduino Pro logo with "TM" symbol highlighted](img/ArduinoTrademark_TM.jpg) ![infinity logo with "®" symbol highlighted](img/ArduinoTrademark_R.jpg)
 
-Most hardware designs of Arduino are open-source, but the company's name and logos are not. Copying and further developing Arduino's open-source products into their own thing is allowed, as long as the name Arduino, the infinity logotype and other trademarks are respected.
+Most hardware designs of Arduino are open-source, but the company's name and logos are not. Copying and further developing Arduino's open-source products into their own thing is allowed, as long as the name Arduino, the infinity logotype, and other trademarks are respected.
 
 Arduino's trademark portfolio includes other trademarks that may apply differently depending on geographic region.
 
