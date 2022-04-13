@@ -33,7 +33,7 @@ Most hardware designs of Arduino are open source. Copying and further developing
 
 If you want your compatible product to carry a logotype, you should develop your own. Your logo should be clearly distinguishable from the Arduino logo, even if your product is derived from the Arduino technology.
 
-You are not allowed to use the Arduino logo in connection with the compatible product you have developed. This includes: printing the logo on the product, on the packaging, on any promotional material advertising your product (including social media).
+You are not allowed to use the Arduino logo in connection with the compatible product you have developed. This includes: printing the logo on the product, on the packaging, or on any promotional material advertising your product (including social media).
 
 Modified versions of the Arduino logo are considered trademark violations.
 
