@@ -49,9 +49,9 @@ To indicate that your product is compatible with Arduino, you should use the cor
 
 > Always place the word Arduino last.
 
-### Catalogue and websites
+### Catalog and websites
 
-The word Arduino is a brand name, not a category. Therefore, you should clearly separate original Arduino products and compatible products in your catalogue or website.
+The word Arduino is a brand name, not a category. Therefore, you should clearly separate original Arduino products and compatible products in your catalog or website.
 
 ### Company name
 
