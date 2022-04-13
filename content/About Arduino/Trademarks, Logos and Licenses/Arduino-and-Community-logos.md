@@ -20,7 +20,7 @@ The Arduino logo is a registered trademark and cannot be used by third parties w
 * Publications <!-- link to Courses, workshops and publications section-->
 * Online content.
 
-> Exception when the Arduino Logo is used in a descriptive or explanatory way. For example, the Arduino Logo may be used within a text explaining what Arduino is.
+> There is an exception to this rule if the Arduino Logo is used in a descriptive or explanatory way. For example, the Arduino Logo may be used within a text explaining what Arduino is.
 
 Please be aware that even modified/customized versions of the Arduino Logo are considered trademark violations.
 
