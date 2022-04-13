@@ -42,7 +42,7 @@ The Arduino Community Logo **cannot** be used on:
 
 * Products or services that are sold commercially
 
-* Electronic boards (also non commercial)
+* Electronic boards (including non-commercial)
 
 **Note**: the Arduino Community Logo is shared with Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) license. It is designed to allow personalization in the lower-right part in order to provide a free space on which to add the name of your group or organization. Apart from that, the community logo should not be altered, cropped, shortened or modified in any way. It is not allowed to incorporate another logo, trademark or commercial company name into the Community Logo.
 
