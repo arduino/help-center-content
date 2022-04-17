@@ -44,11 +44,13 @@ The bootloader is a piece of code stored in a reserved space in your Arduino boa
 
 08. Connect the Arduino Uno to your PC again.
 
-09. Check the board and port selection like in step 2 and 3.
+09. Check the port selection like in step 2 and 3.
 
-10. Select `Tools > Programmer > Arduino as ISP`.
+10. Change the board to Arduino Mega or Mega 2560.
 
-11. Select `Tools > Burn Bootloader`.
+11. Select `Tools > Programmer > Arduino as ISP`.
+
+12. Select `Tools > Burn Bootloader`.
 
     The following confirmation message will show at the bottom of Arduino IDE if successful:
 
