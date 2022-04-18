@@ -6,6 +6,8 @@ Learn how to select the right board and port in Arduino IDE.
 
 ---
 
+<a id="board"></a>
+
 ## Select board
 
 1. Click on _Tools_ in the menu bar.
@@ -35,6 +37,8 @@ Learn how to select the right board and port in Arduino IDE.
 <!-- TODO: Add links to article -->
 
 ---
+
+<a id="port"></a>
 
 ## Select port
 
