@@ -4,7 +4,7 @@ title: "Upload the Science Journal firmware"
 
 Boards supported by the Science Journal App require special firmware to connect.
 
-- Arduino Nano BLE Sense
+- Arduino Nano 33 BLE Sense
 - Arduino MKR WiFi 1010
 
 ## Install the libraries
