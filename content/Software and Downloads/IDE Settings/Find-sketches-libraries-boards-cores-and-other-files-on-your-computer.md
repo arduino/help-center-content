@@ -42,7 +42,7 @@ When an Example is open, you can select _Sketch > Show Sketch Folder_ to reveal 
 
 ## Libraries
 
-Libraries installed with the Library Manager are stored inside a Sketchbook subfolder:
+**Libraries installed with the Library Manager** are stored inside a Sketchbook subfolder:
 
 1. Open the Sketchbook folder (detailed instructions [here](https://support.arduino.cc/hc/en-us/articles/4412950938514)).
    * **Windows:** `C:\Users\{username}\Documents\Arduino`
@@ -69,13 +69,16 @@ Libraries installed with the Library Manager are stored inside a Sketchbook subf
             └── src
     ```
 
+**Libraries included in board packages** are stored within the board package folder's `libraries` subfolder, see [Board platforms and cores](#boards).
+
 <!-- To add or remove libraries, use the [Library Manager](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries). -->
 
-If the library contains Examples, the library can be found quickly by opening one of them in _File > Examples_ and then selecting _Sketch > Show Sketch Folder_.
-
-1. Open a sketch for the library you want to remove.
-2. In the menu bar, select _Sketch > Show sketch folder_.
-3. Navigate up to the enclosing library or board package folder
+> **An easy way to find a library with examples:**
+>
+> 1. Open _File > Examples_ in the menu bar.
+> 2. Put your cursor over the name of the library you want to find.
+> 3. Select any of the library examples.
+> 4. Select _Sketch > Show Sketch Folder_ from the menu bar.
 
 ---
 
