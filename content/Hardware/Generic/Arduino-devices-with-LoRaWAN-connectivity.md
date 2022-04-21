@@ -22,4 +22,4 @@ Learn how to easily connect these boards to the Arduino Cloud and TTN in the fol
 
 ## LoRa® Pro Gateway
 
-The Arduino Pro Gateway interconnects your LoRa® devices with the Arduino Cloud via LoRa® Spread Spectrum, FSK, GFSK. This is optimized for the Arduino WAN 1310 and compatible with the MKR WAN 1300. This solution allows you to run multiple MKR WAN boards connected via LoRa® to the Pro Gateway. Then, all the information collected from the devices can be managed in the Arduino Cloud through the gateway. 
+The Arduino Pro Gateway interconnects your LoRa® devices with the Arduino Cloud via LoRa® Spread Spectrum, FSK, GFSK. This is optimized for the Arduino WAN 1310 and compatible with the MKR WAN 1300. This solution allows you to run multiple MKR WAN boards connected via LoRa® to the Pro Gateway. Then, all the information collected from the devices can be managed in the Arduino Cloud through the gateway.
