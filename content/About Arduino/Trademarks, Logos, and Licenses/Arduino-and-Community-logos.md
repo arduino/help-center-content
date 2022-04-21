@@ -16,8 +16,8 @@ The Arduino logo can be found in the following colors:
 
 The Arduino logo is a registered trademark and cannot be used by third parties without the trademark owner’s authorization. Generally speaking, you **cannot** use the Arduino Logo (with or without the word *Arduino*) to identify or advertise your products and/or services. This includes:
 
-* Compatible products <!-- link to Compatible products section-->
-* Publications <!-- link to Courses, workshops and publications section-->
+* [Compatible products](https://support.arduino.cc/hc/en-us/sections/360004749260-Compatible-Products)
+* [Publications](https://support.arduino.cc/hc/en-us/sections/360005977760-Courses-Workshops-and-Publications)
 * Online content.
 
 > There is an exception to this rule if the Arduino Logo is used in a descriptive or explanatory way. For example, the Arduino Logo may be used within a text explaining what Arduino is.
