@@ -1,21 +1,28 @@
 ---
-title: "Tips to reduce the size of a sketch if it's too big"
+title: "Reduce the size and memory usage of your sketch"
 ---
 
-> **Note:** The IDE will always check for storage and memory usage when verifying your code . You do not need to do anything if respective uses are below 100%.
+Learn how to reduce the size and memory usage of your sketch.
 
-Here are a few tips to cut down the size of the sketch:
+> [The IDE always checks for storage space and dynamic memory usage](https://support.arduino.cc/hc/en-us/articles/4405339237522-The-IDE-prints-a-message-about-sketch-size-and-memory-usage) when verifying your code. If the respective values are below 100%, you don't have to reduce the size of your sketch.
+
+---
+
+## Code optimization
+
+Arduino sketches are written in the Arduino language, which is based on standard C++ language. Therefore, using general C++ optimization techniques will help. For example:
 
 * If using arrays or string constants, try to shorten them.
-* Always put the repetitive code in functions or loops.
-* Try to replicate macros with functions if possible.
-* Try using variables of smallest data-types if possible
-* Avoid print statements used only for debugging.
-* By writing the sketch with integer math, which should save you about 2kb instead of writing your code in the floating-point math.
-* Don't include #include statements at the top of your sketch for libraries which are not necessary for the code requirement.
-* Moreover, you can upload your programs using the hardware programmer and bypass the Arduino bootloader. By doing this, you can save about the 2K of Flash memory. Check this link for the information on using the hardware programmer.
-* Also, try using the SD card when using the String or Arrays in your sketches as we know that multi dimensional arrays and strings occupy more storage space.
+* Use functions and loop functions instead of having repeated code.
+* Try to replicate macros with functions.
+* Try using variables of the [smallest data-types](https://www.arduino.cc/reference/en/) (e.g. use integer instead floating-point data-types if possible)
 
-If you still won't be able to resolve your issue, try using another board with more memory i.e Arduino Mega.
+Also, do not include any outside libraries that are not necessary for your sketch to run.  
 
-We're always engaged to reduce the size of the Arduino core to arrange free space for your sketches.
+> Outside libraries are called by using an [*#include*](https://www.arduino.cc/reference/tr/language/structure/further-syntax/include/) statement at the top of your sketch.
+
+## Still need help?
+
+* You can decrease memory usage by uploading your programs using the [hardware programmer](https://docs.arduino.cc/hacking/software/Programmer) and bypassing the Arduino bootloader.
+* Use an [SD card](https://docs.arduino.cc/learn/programming/sd-guide) to increase storage space.
+* Use a board with more storage and memory capacity.
