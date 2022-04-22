@@ -2,7 +2,7 @@
 title: "The IDE prints a message about sketch size and memory usage"
 ---
 
-After compiling a sketch the IDE will check for storage and memory usage, against the specifications of the selected board. **Note that the results are always printed to the console, even if successful.**. As long as the use of storage space and dynamic memory usage are both below 100%, the message does not indicate a problem.
+After compiling a sketch the IDE will check for storage and memory usage, against the specifications of the selected board. **Note that the results are always printed to the console, even if successful.** As long as the use of storage space and dynamic memory usage are both below 100%, the message does not indicate a problem.
 
 ## Example
 
