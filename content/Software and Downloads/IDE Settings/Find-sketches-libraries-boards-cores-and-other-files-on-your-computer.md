@@ -25,7 +25,7 @@ Learn where sketches, libraries, board platforms, and other files used by Arduin
 
 Example sketches can be found in the _File > Examples_ menu.
 
-![](img/ide-menu-file-examples.png)
+![Arduino IDE File menu with Examples section selected](img/ide-menu-file-examples.png)
 
 * **Built-in Examples:** Examples packaged with Arduino IDE. They are located inside the application folder.
   * In **Arduino IDE 2.0** they are stored in the `resources/app/node_modules/arduino-ide-extension/Examples` subfolder.
