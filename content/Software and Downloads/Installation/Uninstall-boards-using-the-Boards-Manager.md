@@ -2,7 +2,7 @@
 title: "Uninstall boards using the Boards Manager"
 ---
 
-The Boards Manager provides the most convenient way to remove unwanted or unused boards. The location of the installed cores can be found [here](https://support.arduino.cc/hc/en-us/articles/360012076960-Where-are-the-installed-cores-located-).
+The Boards Manager provides the most convenient way to remove unwanted or unused boards. The location of the installed cores can be found [here](https://support.arduino.cc/hc/en-us/articles/4415103213714#boards).
 
 The following instructions to uninstall is not limited to the core in this example; it equally would be applicable to both official Arduino and third party cores.
 

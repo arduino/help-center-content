@@ -6,6 +6,8 @@ Learn how to open the Arduino IDE installation folder on your system.
 
 ---
 
+<a id="windows"></a>
+
 ## Windows
 
 Arduino IDE is installed in `C:\Program Files (x86)\Arduino` by default.
@@ -15,6 +17,8 @@ Arduino IDE is installed in `C:\Program Files (x86)\Arduino` by default.
 2. Navigate to `C:\Program Files (x86)\Arduino`.
 
 ---
+
+<a id="macos"></a>
 
 ## macOS
 
