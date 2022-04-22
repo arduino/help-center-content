@@ -44,7 +44,7 @@ When an Example is open, you can select _Sketch > Show Sketch Folder_ to reveal 
 
 **Libraries installed with the Library Manager** are stored inside a Sketchbook subfolder:
 
-1. Open the Sketchbook folder (detailed instructions [here](https://support.arduino.cc/hc/en-us/articles/4412950938514)).
+1. Open the Sketchbook folder.
    * **Windows:** `C:\Users\{username}\Documents\Arduino`
    * **macOS:** `/Users/{username}/Documents/Arduino`
    * **Linux:** `/home/{username}/Arduino`
@@ -88,7 +88,7 @@ When an Example is open, you can select _Sketch > Show Sketch Folder_ to reveal 
 
 Board platforms installed with the Board Manager are stored inside the Arduino15 folder.
 
-1. Open the Arduino15 folder (detailed instructions [here](https://support.arduino.cc/hc/en-us/articles/360018448279)).
+1. Open the Arduino15 folder.
    * **Windows:** `C:\Users\{username}\AppData\Local\Arduino15`
    * **macOS:** `/Users/{username}/Library/Arduino15`
    * **Linux:** `home/{username}/.arduino15`
