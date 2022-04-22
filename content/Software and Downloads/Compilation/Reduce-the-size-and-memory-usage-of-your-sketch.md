@@ -17,7 +17,7 @@ Arduino sketches are written in the Arduino language, which is based on standard
 * Try to replicate macros with functions.
 * Try using variables of the [smallest data-types](https://www.arduino.cc/reference/en/) (e.g. use integer instead floating-point data-types if possible)
 
-Also, do not include any outside libraries that are not necessary for your sketch to run.  
+Also, do not include any outside libraries that are not necessary for your sketch to run.
 
 > Outside libraries are called by using an [*#include*](https://www.arduino.cc/reference/tr/language/structure/further-syntax/include/) statement at the top of your sketch.
 
