@@ -31,8 +31,7 @@ Learn how to select the right board and port in Arduino IDE.
 
    ![Selecting a board in Arduino IDE.](img/tools_menu_board_select.png)
 
-> **Note:** If you don't know which package to use, or if it's missing from the list, see Find and install the board core in Arduino IDE.
-<!-- TODO: Add links to article -->
+> **Note:** If you don't know which package to use, or if it's missing from the list, see [Add a board to Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-a-board-to-Arduino-IDE).
 
 ---
 
