@@ -27,7 +27,7 @@ Learn how to reduce the size and memory usage of your sketch.
     ```
 
   * Try to reduce the number of string literals in your code.
-* **Optimize variables.** Remove unused variables and be economical with the data types you use. Don't use `long` (4 bytes) if you only `int` (2 bytes) are needed. Don't use `float` if only whole numbers will be assigned.
+* **Optimize variables.** Remove unused variables and be economical with the data types you use. Don't use `long` (4 bytes) if only `int` (2 bytes) are needed. Don't use `float` if only whole numbers will be assigned.
 * **Declare variables as locally as possible** to save memory:
   * Anything declared at global scope will exist for the entire lifetime of the sketch.
   * Variables that are only used inside one function, can be declared within that function.
