@@ -2,17 +2,13 @@
 title: "How to change the GSM frequency band on the MKR GSM 1400"
 ---
 
-## Overview
-
 It is possible to change the frequencies that our GSM 1400 board uses to connect to the mobile network.
 Different options are available to configure the frequency bands on which the MKR GSM 1400 can operate.
 This tutorial will show all different possibilities to choose frequency band and how to change this setting.
 
-### What you’ll learn
+---
 
-* How to check and change the operating frequency band/s on our MKR GSM 1400
-
-### What you’ll need
+## What you’ll need
 
 * Arduino IDE
 * MKR GSM 1400
@@ -20,15 +16,13 @@ This tutorial will show all different possibilities to choose frequency band and
 
 ## Steps
 
-1. Check that you have the basics.
+1. Check that you have the required board package and library:
 
-   * Make sure you have latest SAMD core. If you don’t, go to Arduino `IDE > Tools > Board > Boards Manager: search for ‘Arduino SAMD Boards’ > Update/Install`
+   * Make sure you have latest SAMD core. If you don’t, go to Arduino _Tools > Board > Boards Manager_ and install the latest **Arduino SAMD Boards** package.
 
-   * Make sure you have the latest update of the MKRGSM’ library: Go to Arduino `IDE > Tools > Library Manager: search for ‘MKRGSM’ > Update/Install`
+   * Open _Tools > Library Manager_ and make sure the `MKRGSM` library is installed and up to date.
 
-2. Upload the Band Manager sketch.
-
-   Go to `Arduino > File > Examples > MKRGSM > Tools: ‘BandManagement’` and upload it.
+2. Open the `BandManagment` sketch (_File > Examples > MKRGSM > Tools > BandManagement_) and upload it.
 
    ![BandManagement Sketch location](img/change-GSM-1.png)
 
