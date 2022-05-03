@@ -19,7 +19,7 @@ The MKR Vidor 4000 [Camera enabling example](https://www.arduino.cc/en/Tutorial/
 
 1. Check that you have the required board package and library:
 
-   * Make sure you have latest SAMD Beta core. If you don’t, open _Tools > Board > Boards Manager_, and install the latest **Arduino SAMD Beta Boards** package.
+   * Make sure you have the latest SAMD Beta core. If you don’t, open _Tools > Board > Boards Manager_, and install the latest **Arduino SAMD Beta Boards** package.
 
    * Open _Tools > Library Manager_ and make sure the `VidorGraphics` library is installed and up to date.
 
