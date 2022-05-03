@@ -14,7 +14,7 @@ In order to [create a Junior Account](https://support.arduino.cc/hc/en-us/articl
 
 To complete the registration of a Junior Account, it is necessary to provide a parent's email. Arduino will process the [personal data](https://www.arduino.cc/en/privacy-policy/children-privacy-policy) of the person exercising parental authority.
 
-> If the parent's email is not provided the Junior Account will not be created and all data provided will be deleted within 30 days. 
+> If the parent's email is not provided the Junior Account will not be created and all data provided will be deleted within 30 days.
 
 **With a Junior Account, users are able to:**
 
