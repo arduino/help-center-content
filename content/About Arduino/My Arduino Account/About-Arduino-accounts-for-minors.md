@@ -42,7 +42,7 @@ This will transfer all their files, projects and data to the upgraded account, b
 
 As for the Junior Accounts, users between 14 and 16 years old will be asked to provide the email of the person exercising parental authority. Arduino will process the [personal data](https://www.arduino.cc/en/privacy-policy/children-privacy-policy) of the latter.
 
-Through the Adult Account for users between 14 and 16 years old, the user has access to all the services available on the Arduino website, except for those services/features expressly reserved for the person exercising parental authority. Only the person exercising parental authority may choose which services would be activated and which services the user between 14 and 16 years old can access.
+With an Adult Account for users between 14 and 16 years old, the user has access to all the services available on the Arduino website, except for those services and features expressly reserved for the person exercising parental authority. Only the person exercising parental authority may choose which services would be activated and which services the user between 14 and 16 years old can access.
 
 ## Further reading
 
