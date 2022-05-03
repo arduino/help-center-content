@@ -30,7 +30,7 @@ To complete the registration of a Junior Account, it is necessary to provide a p
 
 ### Upgrading to an Adult account
 
-After turning 14, users of Junior accounts will be prompt to upgrade to an <a href="#Adult-accounts">Adult account for users between 14 and 16 years old</a>.
+After turning 14, users of Junior accounts will be prompted to upgrade to an <a href="#Adult-accounts">Adult account for users between 14 and 16 years old</a>.
 
 ![Upgrading to regular account pop-up](img/Upgrade_to_regular_account.png)
 
