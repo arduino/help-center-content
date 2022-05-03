@@ -54,7 +54,7 @@ Alternatively, you can edit the `preferences.txt` file directly.
 
 ### If only English is available in 2.0
 
-Commnunity translations were added to Arduino IDE 2.0 in version **2.0.0-rc6**.
+Community translations were added to Arduino IDE 2.0 in version **2.0.0-rc6**.
 
 You can find the latest version on the [Software page](https://www.arduino.cc/en/software).
 
