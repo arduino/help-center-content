@@ -85,8 +85,6 @@ AVR boards are programmed with the SPI interface (MOSI, MISO and SCK signals). O
 </tbody>
 </table>
 
-<!-- TODO: Table with diagrams for each board (click for full size) -->
-
 <a id="icsp"></a>
 
 ## Option B: Using the ICSP header pins
@@ -131,11 +129,11 @@ Now that the board connections are set up, we can use Arduino IDE to burn the bo
 
 ## Examples
 
-<!-- TODO: Table with diagrams for each board (click for full size) -->
+![Pin diagram.](img/Nano_to_Uno_burn_bootloader.png)
+_Uno to Nano (digital and power pins)_
 
-| Uno to Nano (Digital pins)                           | Uno to Mega (ICSP)                            |
-|------------------------------------------------------|-----------------------------------------------|
-| ![Pin diagram.](img/Nano_to_Uno_burn_bootloader.png) | ![Pin diagram.](img/Connections-mega2Uno.png) |
+![Pin diagram.](img/Connections-mega2Uno.png)
+_Uno to Mega (ICSP)_
 
 ---
 
@@ -172,20 +170,9 @@ avrdude: Error: Could not find USBtiny device (0x2341/0x49)
 
 Make sure you've selected **Arduino as ISP** in _Tools > Programmer_, and **not** ArduinoISP or other similar options.
 
+---
+
 ## Further reading
 
 * [Bootloader (Arduino Docs)](https://docs.arduino.cc/hacking/software/Bootloader)
 * [Arduino as ISP and Arduino Bootloaders](https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP). Some information is not up to date (no capacitor is needed for the Mega 2560 Rev3).
-
-<!-- NOTE: Cool: https://docs.arduino.cc/hacking/hardware/PinMapping2560 -->
-
-<!-- NOTE: Additional info
-
-- Technically, there is also an ICSP header for the USB interface https://aws1.discourse-cdn.com/arduino/original/4X/4/e/a/4eaf98fa06e4b2dacb743e15f0e68ce3d0df0697.png.
-- On MKR family of boards, you can't use D10 for reset; we suggest D6 and you must remember to change the line 73 of the ArduinoISP sketch - #define RESET 10 - putting "6" insteat of 10. https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP
-- If the board isn't powered: Check your RESET pin connection. If No RESET pin should be used on the target board If you're using the ICSP header, make sure those RESET pins are not connected to each other.
-- https://docs.arduino.cc/hacking/hardware/PinMapping2560
-- "Error while burning bootloader. Expected signature for ATmega2560 is 1E 98 01". Error? Kommer inte ihåg vad jag gjorde för att få det. Låter som fel val av board.
-- You can burn the bootloader using a dedicated programmer such as an Atmel-ICE Programmer/Debugger or USBasp.
-
--->
