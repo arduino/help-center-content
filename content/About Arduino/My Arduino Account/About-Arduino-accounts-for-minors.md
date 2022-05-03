@@ -2,7 +2,12 @@
 title: "About Arduino accounts for minors"
 ---
 
-Arduino offers two types of accounts for minors: <a href="#Junior-accounts">Junior accounts</a> and <a href="#Adult-accounts">Adult accounts for users between 14 and 16 years old</a>. They differ in the features that users can access and the way that Arduino handles [personal data](https://www.arduino.cc/en/privacy-policy/children-privacy-policy). Both account types require the minor's account to be linked to a person exercising parental authority. Learn more about Arduino accounts for minors below.
+Arduino offers two types of accounts for minors:
+
+* [Junior accounts](#Junior-accounts). For users below 14 years old.
+* [Adult accounts with restrictions](#Adult-accounts). For users between 14 and 16 years old.
+
+They differ in the features that users can access and the way that Arduino handles [personal data](https://www.arduino.cc/en/privacy-policy/children-privacy-policy). Both account types require the minor's account to be linked to a person exercising parental authority. Learn more about Arduino accounts for minors below.
 
 <h2 id="Junior-accounts"></h2>
 
