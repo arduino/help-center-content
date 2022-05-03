@@ -34,7 +34,7 @@ After turning 14, users of Junior accounts will be prompt to upgrade to an <a hr
 
 ![Upgrading to regular account pop-up](img/Upgrade_to_regular_account.png)
 
-This process will move all their files, projects & data to the upgraded account, but the account will still require a person exercising parental authority.
+This will transfer all their files, projects and data to the upgraded account, but the account will still require a person exercising parental authority.
 
 <a id="Adult-accounts"></a>
 
