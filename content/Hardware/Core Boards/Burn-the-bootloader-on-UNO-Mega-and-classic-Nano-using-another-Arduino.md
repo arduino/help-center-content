@@ -23,64 +23,49 @@ AVR boards are programmed with the SPI interface (COPI, CIPO and SCK signals). O
 
 ### Option A: Using the digital and power pins
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-rr0h{background-color:#efefef;border-color:#000000;color:#fe0000;text-align:center;vertical-align:top}
-.tg .tg-ru72{background-color:#fe0000;border-color:#000000;color:#ffffff;text-align:center;vertical-align:top}
-.tg .tg-29y7{background-color:#ff0000;border-color:#000000;color:#ffffff;text-align:center;vertical-align:top}
-.tg .tg-5hz4{background-color:#330001;border-color:#000000;color:#ffffff;text-align:center;vertical-align:top}
-.tg .tg-ejxt{background-color:#ffc702;border-color:#000000;text-align:center;vertical-align:top}
-.tg .tg-mqa1{border-color:#000000;font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-yrcx{background-color:#ff6633;border-color:#000000;color:#ffffff;text-align:center;vertical-align:top}
-.tg .tg-xawf{background-color:#FFC702;border-color:#000000;text-align:center;vertical-align:top}
-</style>
-<table class="tg">
+<table class="tg" style="border-collapse: collapse;border-spacing: 0;">
 <thead>
   <tr>
-    <th class="tg-mqa1">PROGRAMMER BOARD</th>
-    <th class="tg-mqa1">TARGET BOARD</th>
+    <th class="tg-mqa1" style="border-color: #000000;border-style: solid;border-width: 1px;font-family: Arial, sans-serif;font-size: 14px;font-weight: bold;overflow: hidden;padding: 10px 5px;word-break: normal;text-align: center;vertical-align: top;">PROGRAMMER BOARD</th>
+    <th class="tg-mqa1" style="border-color: #000000;border-style: solid;border-width: 1px;font-family: Arial, sans-serif;font-size: 14px;font-weight: bold;overflow: hidden;padding: 10px 5px;word-break: normal;text-align: center;vertical-align: top;">TARGET BOARD</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-yrcx">PIN 10</td>
-    <td class="tg-rr0h">RESET</td>
+    <td class="tg-yrcx" style="border-color: #000000;border-style: solid;border-width: 1px;font-family: Arial, sans-serif;font-size: 14px;overflow: hidden;padding: 10px 5px;word-break: normal;background-color: #ff6633;color: #ffffff;text-align: center;vertical-align: top;">PIN 10</td>
+    <td class="tg-rr0h" style="border-color: #000000;border-style: solid;border-width: 1px;font-family: Arial, sans-serif;font-size: 14px;overflow: hidden;padding: 10px 5px;word-break: normal;background-color: #efefef;color: #fe0000;text-align: center;vertical-align: top;">RESET</td>
   </tr>
   <tr>
-    <td class="tg-ejxt" rowspan="3"><span style="font-weight:bold">COPI</span><br>UNO: PIN 11<br>Nano: PIN 11<br>Mega: PIN 51</td>
-    <td class="tg-ejxt" rowspan="3"><span style="font-weight:bold">COPI</span><br>UNO: PIN 11<br>Nano: PIN 11<br>Mega: PIN 51</td>
-  </tr>
-  <tr>
-  </tr>
-  <tr>
-  </tr>
-  <tr>
-    <td class="tg-xawf" rowspan="3"><span style="font-weight:bold">CIPO</span><br>UNO: PIN 12<br>Nano: PIN 12<br>Mega: PIN 50</td>
-    <td class="tg-ejxt" rowspan="3"><span style="font-weight:bold">CIPO</span><br>UNO: PIN 12<br>Nano: PIN 12<br>Mega: PIN 50</td>
+    <td class="tg-ejxt" rowspan="3" style="border-color: #000000;border-style: solid;border-width: 1px;font-family: Arial, sans-serif;font-size: 14px;overflow: hidden;padding: 10px 5px;word-break: normal;background-color: #ffc702;text-align: center;vertical-align: top;"><span style="font-weight:bold">COPI</span><br>UNO: PIN 11<br>Nano: PIN 11<br>Mega: PIN 51</td>
+    <td class="tg-ejxt" rowspan="3" style="border-color: #000000;border-style: solid;border-width: 1px;font-family: Arial, sans-serif;font-size: 14px;overflow: hidden;padding: 10px 5px;word-break: normal;background-color: #ffc702;text-align: center;vertical-align: top;"><span style="font-weight:bold">COPI</span><br>UNO: PIN 11<br>Nano: PIN 11<br>Mega: PIN 51</td>
   </tr>
   <tr>
   </tr>
   <tr>
   </tr>
   <tr>
-    <td class="tg-ejxt" rowspan="3"><span style="font-weight:bold">SCK</span><br>UNO: PIN 13<br>Nano: PIN 13<br>Mega: PIN 52</td>
-    <td class="tg-ejxt" rowspan="3"><span style="font-weight:bold">SCK</span><br>UNO: PIN 13<br>Nano: PIN 13<br>Mega: PIN 52</td>
+    <td class="tg-xawf" rowspan="3" style="border-color: #000000;border-style: solid;border-width: 1px;font-family: Arial, sans-serif;font-size: 14px;overflow: hidden;padding: 10px 5px;word-break: normal;background-color: #FFC702;text-align: center;vertical-align: top;"><span style="font-weight:bold">CIPO</span><br>UNO: PIN 12<br>Nano: PIN 12<br>Mega: PIN 50</td>
+    <td class="tg-ejxt" rowspan="3" style="border-color: #000000;border-style: solid;border-width: 1px;font-family: Arial, sans-serif;font-size: 14px;overflow: hidden;padding: 10px 5px;word-break: normal;background-color: #ffc702;text-align: center;vertical-align: top;"><span style="font-weight:bold">CIPO</span><br>UNO: PIN 12<br>Nano: PIN 12<br>Mega: PIN 50</td>
   </tr>
   <tr>
   </tr>
   <tr>
   </tr>
   <tr>
-    <td class="tg-29y7">5V</td>
-    <td class="tg-ru72"><span style="font-weight:400;font-style:normal">5V</span></td>
+    <td class="tg-ejxt" rowspan="3" style="border-color: #000000;border-style: solid;border-width: 1px;font-family: Arial, sans-serif;font-size: 14px;overflow: hidden;padding: 10px 5px;word-break: normal;background-color: #ffc702;text-align: center;vertical-align: top;"><span style="font-weight:bold">SCK</span><br>UNO: PIN 13<br>Nano: PIN 13<br>Mega: PIN 52</td>
+    <td class="tg-ejxt" rowspan="3" style="border-color: #000000;border-style: solid;border-width: 1px;font-family: Arial, sans-serif;font-size: 14px;overflow: hidden;padding: 10px 5px;word-break: normal;background-color: #ffc702;text-align: center;vertical-align: top;"><span style="font-weight:bold">SCK</span><br>UNO: PIN 13<br>Nano: PIN 13<br>Mega: PIN 52</td>
   </tr>
   <tr>
-    <td class="tg-5hz4">GND</td>
-    <td class="tg-5hz4"><span style="font-weight:400;font-style:normal">GND</span></td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+    <td class="tg-29y7" style="border-color: #000000;border-style: solid;border-width: 1px;font-family: Arial, sans-serif;font-size: 14px;overflow: hidden;padding: 10px 5px;word-break: normal;background-color: #ff0000;color: #ffffff;text-align: center;vertical-align: top;">5V</td>
+    <td class="tg-ru72" style="border-color: #000000;border-style: solid;border-width: 1px;font-family: Arial, sans-serif;font-size: 14px;overflow: hidden;padding: 10px 5px;word-break: normal;background-color: #fe0000;color: #ffffff;text-align: center;vertical-align: top;"><span style="font-weight:400;font-style:normal">5V</span></td>
+  </tr>
+  <tr>
+    <td class="tg-5hz4" style="border-color: #000000;border-style: solid;border-width: 1px;font-family: Arial, sans-serif;font-size: 14px;overflow: hidden;padding: 10px 5px;word-break: normal;background-color: #330001;color: #ffffff;text-align: center;vertical-align: top;">GND</td>
+    <td class="tg-5hz4" style="border-color: #000000;border-style: solid;border-width: 1px;font-family: Arial, sans-serif;font-size: 14px;overflow: hidden;padding: 10px 5px;word-break: normal;background-color: #330001;color: #ffffff;text-align: center;vertical-align: top;"><span style="font-weight:400;font-style:normal">GND</span></td>
   </tr>
 </tbody>
 </table>
