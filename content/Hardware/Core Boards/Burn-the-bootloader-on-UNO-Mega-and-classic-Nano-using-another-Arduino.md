@@ -72,12 +72,25 @@ AVR boards are programmed with the SPI interface (COPI, CIPO and SCK signals). O
 
 <a id="icsp"></a>
 
-## Option B: Using the ICSP header pins
+### Option B: Using the ICSP header pins
 
 ![The ICSP header on Uno R3, Nano and Mega.](img/icsp-headers.png)_Note that the orientation of the header relative to the USB port is different on the Nano._
 
 1. Connect every programmer ICSP pin except RESET to the equivalent ICSP pin on the target.
 2. Connect PIN 10 on the programmer board to any RESET pin on the target.
+
+### Examples
+
+<table class="img-captions">
+  <tr>
+     <td><img src="https://content.arduino.cc/assets/Nano_to_Uno_burn_bootloader.png" alt="Circuit Diagram. UNO and Nano connected with digital and power pins."></td>
+     <td><img src="https://content.arduino.cc/assets/Connections-mega2Uno.png" alt="Circuit Diagram. UNO and Mega connected with ICSP pins."></td>
+  </tr>
+  <tr>
+     <td>UNO to Nano (digital and power pins)</td>
+     <td>UNO to Mega (ICSP)</td>
+  </tr>
+</table>
 
 ---
 
@@ -119,6 +132,8 @@ _Uno to Nano (digital and power pins)_
 
 ![Pin diagram.](img/Connections-mega2Uno.png)
 _Uno to Mega (ICSP)_
+
+<div>
 
 ---
 
