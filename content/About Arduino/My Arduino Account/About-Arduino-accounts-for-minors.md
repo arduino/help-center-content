@@ -9,7 +9,7 @@ Arduino offers two types of accounts for minors:
 
 They differ in the features that users can access and the way that Arduino handles [personal data](https://www.arduino.cc/en/privacy-policy/children-privacy-policy). Both account types require the minor's account to be linked to a person exercising parental authority. Learn more about Arduino accounts for minors below.
 
-<h2 id="Junior-accounts"></h2>
+<a id="Junior-accounts"></a>
 
 ## Junior accounts
 
