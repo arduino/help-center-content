@@ -19,13 +19,9 @@ The bootloader is a piece of code stored in a reserved space in your Arduino boa
 
 02. Connect Arduino Nano to your PC.
 
-03. Select Arduino Nano in `Tools > Board > Arduino AVR Boards`.
+03. Select Arduino Nano in _Tools > Board > Arduino AVR Boards_.
 
-04. Open the `ArduinoISP` sketch from the menu bar:
-
-    **Windows/Linux:** `File > Examples > 11.Arduino ISP > ArduinoISP`
-
-    **macOS:** `Arduino > Examples > 11.Arduino ISP > ArduinoISP`
+04. Open the `ArduinoISP` sketch from the menu bar: _File > Examples > 11.ArduinoISP > ArduinoISP_
 
 05. ![Upload button](img/symbol_upload.png) **Upload** the sketch.
 
@@ -46,8 +42,8 @@ The bootloader is a piece of code stored in a reserved space in your Arduino boa
 
 08. Connect Arduino Nano to your PC again.
 
-09. Select `Arduino as ISP` in `Tools > Programmer`.
+09. Select _Arduino as ISP_ in _Tools > Programmer_.
 
-10. Select `Tools > Burn Bootloader`.
+10. Select _Tools > Burn Bootloader_.
 
 11. Wait for the process to finish. When it's complete, `avrdude done. Thank you.` will be printed to console.

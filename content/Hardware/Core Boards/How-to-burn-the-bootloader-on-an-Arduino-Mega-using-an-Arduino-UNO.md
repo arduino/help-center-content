@@ -16,14 +16,11 @@ The bootloader is a piece of code stored in a reserved space in your Arduino boa
 
 01. Connect the Arduino Uno to your computer.
 
-02. In Arduino IDE; select `Tools > Board > Arduino AVR Boards > Arduino Uno`.
+02. In Arduino IDE, select _Tools > Board > Arduino AVR Boards > Arduino Uno_.
 
-03. Select the port your board is connected to in `Tools > Port`.
+03. Select the port your board is connected to in _Tools > Port_.
 
-04. Open the `ArduinoISP` sketch:
-
-    * Windows/Linux: `File > Examples > 11.Arduino ISP > ArduinoISP`
-    * macOS: `Arduino > Examples > 11.Arduino ISP > ArduinoISP`
+04. Open the `ArduinoISP` sketch: _File > Examples > 11.ArduinoISP > ArduinoISP_.
 
 05. Click ![Upload button](img/symbol_upload.png) **Upload** to upload the sketch to the board.
 
@@ -46,9 +43,9 @@ The bootloader is a piece of code stored in a reserved space in your Arduino boa
 
 09. Check the board and port selection like in step 2 and 3.
 
-10. Select `Tools > Programmer > Arduino as ISP`.
+10. Select _Tools > Programmer > Arduino as ISP_.
 
-11. Select `Tools > Burn Bootloader`.
+11. Select _Tools > Burn Bootloader_.
 
     The following confirmation message will show at the bottom of Arduino IDE if successful:
 

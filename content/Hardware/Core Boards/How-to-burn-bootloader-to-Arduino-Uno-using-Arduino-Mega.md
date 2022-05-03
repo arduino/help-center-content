@@ -18,13 +18,9 @@ The bootloader is a piece of code stored in a reserved space in your Arduino boa
 
 01. Connect Arduino Mega to your PC. Open Arduino IDE.
 
-02. Select `Arduino Mega` in `Tools > Board > Arduino AVR Boards`.
+02. Select _Tools > Board > Arduino AVR Boards > Arduino Mega or Mega 2560_.
 
-03. Open the `ArduinoISP` sketch from the menu bar:
-
-    **Windows/Linux:** `File > Examples > 11.Arduino ISP > ArduinoISP`
-
-    **macOS:** `Arduino > Examples > 11.Arduino ISP > ArduinoISP`
+03. Open the `ArduinoISP` sketch from the menu bar: _File > Examples > 11.Arduino ISP > ArduinoISP_
 
 04. ![Upload button](img/symbol_upload.png) **Upload** the sketch.
 
@@ -47,10 +43,10 @@ The bootloader is a piece of code stored in a reserved space in your Arduino boa
 
 07. Connect Arduino Mega to your PC again.
 
-08. Select `Arduino Uno` in `Tools > Board > Arduino AVR Boards`.
+08. Select _Tools > Board > Arduino AVR Boards > Arduino Uno_.
 
-09. Select `Arduino as ISP` in `Tools > Programmer`.
+09. Select _Arduino as ISP_ in _Tools > Programmer_.
 
-10. Select `Tools > Burn Bootloader`.
+10. Select _Tools > Burn Bootloader_.
 
 11. Wait for the process to finish. When it's complete, `avrdude done. Thank you.` will be printed to console.
