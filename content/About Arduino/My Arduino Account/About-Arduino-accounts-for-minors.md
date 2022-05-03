@@ -36,7 +36,7 @@ After turning 14, users of Junior accounts will be prompt to upgrade to an <a hr
 
 This process will move all their files, projects & data to the upgraded account, but the account will still require a person exercising parental authority.
 
-<h2 id="Adult-accounts"></h2>
+<a id="Adult-accounts"></a>
 
 ## Adult accounts for users between 14 and 16 years old
 
