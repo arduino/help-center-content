@@ -18,7 +18,7 @@ This tutorial will show all different possibilities to choose frequency band and
 
 1. Check that you have the required board package and library:
 
-   * Make sure you have latest SAMD core. If you don’t, go to Arduino _Tools > Board > Boards Manager_ and install the latest **Arduino SAMD Boards** package.
+   * Make sure you have the latest SAMD core. If you don’t, go to Arduino _Tools > Board > Boards Manager_ and install the latest **Arduino SAMD Boards** package.
 
    * Open _Tools > Library Manager_ and make sure the `MKRGSM` library is installed and up to date.
 
