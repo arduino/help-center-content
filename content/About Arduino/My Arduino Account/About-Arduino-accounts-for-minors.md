@@ -39,7 +39,7 @@ As for the Junior Accounts, users between 14 and 16 years old will be asked to p
 
 Through the Adult Account for users between 14 and 16 years old, the user has access to all the services available on the Arduino website, except for those services/features expressly reserved for the person exercising parental authority. Only the person exercising parental authority may choose which services would be activated and which services the user between 14 and 16 years old can access.
 
-## Useful information
+## Further reading
 
 * [Create an Arduino account for juniors](https://support.arduino.cc/hc/en-us/articles/360022234360-Create-an-Arduino-account-for-juniors#junior-request)
 * [Delete an Arduino account](https://support.arduino.cc/hc/en-us/articles/360017090920)
