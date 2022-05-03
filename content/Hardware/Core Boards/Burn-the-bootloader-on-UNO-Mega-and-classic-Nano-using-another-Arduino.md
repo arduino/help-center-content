@@ -12,10 +12,10 @@ The easiest way to burn the bootloader to classic AVR boards (UNO, Mega, Nano, e
 
 ## Step 1: Connect the boards
 
-AVR boards are programmed with the SPI interface (MOSI, MISO and SCK signals). On many boards (including UNO, Mega, and Nano), these are available in two locations:
+AVR boards are programmed with the SPI interface (COPI, CIPO and SCK signals). On many boards (including UNO, Mega, and Nano), these are available in two locations:
 
 * [The digital and power pins](#common-pins). These are the most commonly used pins on Arduino, and you'll only need six standard male-to-male jumper wires.
-* [The ICSP header](#icsp). MISO, MOSI, and SCK are available in a consistent physical location on the ICSP header. You'll need female-to-female jumper cables for these pins.
+* [The ICSP header](#icsp). CIPO, COPI, and SCK are available in a consistent physical location on the ICSP header. You'll need female-to-female jumper cables for these pins.
 
 > **Note:** Although the “Arduino as ISP” only works for programming targets of the AVR architecture, you can use boards of any architecture as an “Arduino as ISP” programmer. Check the pinout diagrams in [Arduino Docs](https://docs.arduino.cc/) to find which pins to use for CIPO, COPI, and SCK. On some boards PIN 10 may not be available. In this case, change the line `#define RESET 10` to use a different pin.
 
@@ -51,8 +51,8 @@ AVR boards are programmed with the SPI interface (MOSI, MISO and SCK signals). O
     <td class="tg-rr0h">RESET</td>
   </tr>
   <tr>
-    <td class="tg-ejxt" rowspan="3"><span style="font-weight:bold">CIPO</span><br>UNO: PIN 12<br>Nano: PIN 12<br>Mega: PIN 50</td>
-    <td class="tg-ejxt" rowspan="3"><span style="font-weight:bold">CIPO</span><br>UNO: PIN 12<br>Nano: PIN 12<br>Mega: PIN 50</td>
+    <td class="tg-ejxt" rowspan="3"><span style="font-weight:bold">COPI</span><br>UNO: PIN 11<br>Nano: PIN 11<br>Mega: PIN 51</td>
+    <td class="tg-ejxt" rowspan="3"><span style="font-weight:bold">COPI</span><br>UNO: PIN 11<br>Nano: PIN 11<br>Mega: PIN 51</td>
   </tr>
   <tr>
   </tr>
