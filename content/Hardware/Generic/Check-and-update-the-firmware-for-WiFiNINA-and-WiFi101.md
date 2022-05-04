@@ -27,20 +27,18 @@ We can check the current firmware version by uploading a sketch to the board tha
 
 1. Connect the board to your computer and start Arduino IDE.
 
-2. The **WiFiNINA** or **WiFi101** library needs to be installed, depending on the module. Open the Library Manager (`Tools > Manage Libraries...` and make sure it's installed. For help with library installation, see [this guide](https://www.arduino.cc/en/guide/libraries).
+2. The **WiFiNINA** or **WiFi101** library needs to be installed, depending on the module. Open the Library Manager (_Tools > Manage Libraries..._) and make sure it's installed. For help with library installation, see [this guide](https://www.arduino.cc/en/guide/libraries).
 
 3. With the library installed, open the firmware checking sketch:
 
-   * **WiFiNINA (Windows):** `File > Example > WiFiNINA > Tools > Select ‘CheckFirmware Version’`
-   * **WiFiNINA (macOS/Linux):** `Arduino > Example > WiFiNINA > Tools > Select ‘CheckFirmware Version’`
-   * **WiFi101 (Windows):** `File > Example > WiFi101 > CheckWifi101FirmwareVersion`
-   * **WiFi101 (macOS/Linux):** `Arduino > Example > WiFi101 > CheckWifi101FirmwareVersion`
+   * **WiFiNINA::** _File > Examples > WiFiNINA > Tools > Select ‘CheckFirmwareVersion_.
+   * **WiFi101:** _File > Examples > WiFi101 > CheckWifi101FirmwareVersion_.
 
-4. Choose the port with your board in `Tools > Port > ...`
+4. Choose the port with your board in _Tools > Port_.
 
 5. Click ![Upload button](img/symbol_upload.png) **Upload** to upload the sketch to the board.
 
-6. Open the Serial Monitor (`Tools > Serial Monitor`) and observe the output.
+6. Open the Serial Monitor (_Tools > Serial Monitor_) and observe the output.
 
    ![Serial monitor](img/SerialMonitor_firmware_update.png)
 
