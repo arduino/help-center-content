@@ -81,16 +81,20 @@ AVR boards are programmed with the SPI interface (COPI, CIPO and SCK signals). O
 
 ### Examples
 
-<table class="img-captions">
-  <tr>
-     <td><img src="https://content.arduino.cc/assets/Nano_to_Uno_burn_bootloader.png" alt="Circuit Diagram. UNO and Nano connected with digital and power pins."></td>
-     <td><img src="https://content.arduino.cc/assets/Connections-mega2Uno.png" alt="Circuit Diagram. UNO and Mega connected with ICSP pins."></td>
-  </tr>
-  <tr>
-     <td>UNO to Nano (digital and power pins)</td>
-     <td>UNO to Mega (ICSP)</td>
-  </tr>
-</table>
+<div style="display: flex;">
+   <div>
+     <figure style="height: 300px; margin: 0;">
+         <img src="https://content.arduino.cc/assets/Nano_to_Uno_burn_bootloader.png" alt="Circuit Diagram. UNO and Nano connected with digital and power pins.">
+         <figcaption style="height: 300px; text-align: center">UNO to Nano (digital and power pins)</figcaption>
+     </figure>
+   </div>
+   <div>
+     <figure style="margin: 0; margin-left: 5px">
+         <img src="https://content.arduino.cc/assets/Nano_to_Uno_burn_bootloader.png" alt="Circuit Diagram. UNO and Nano connected with digital and power pins.">
+         <figcaption style="text-align: center">UNO to Nano (digital and power pins)</figcaption>
+     </figure>
+   </div>
+</div>
 
 ---
 
