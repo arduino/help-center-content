@@ -23,6 +23,8 @@ AVR boards are programmed with the SPI interface (COPI, CIPO and SCK signals). O
 
 ### Option A: Using the digital and power pins
 
+For each row in the table below, connect the programmer pin to the corresponding target pin.
+
 <table class="tg" style="border-collapse: collapse;border-spacing: 0;">
 <thead>
   <tr>
@@ -70,6 +72,13 @@ AVR boards are programmed with the SPI interface (COPI, CIPO and SCK signals). O
 </tbody>
 </table>
 
+When the boards are connected, you can proceed with [burning the bootloader in Arduino IDE](#ide).
+
+<figure style="width: 500px; margin: 0;">
+    <img src="https://content.arduino.cc/assets/Nano_to_Uno_burn_bootloader.png" alt="Circuit Diagram. UNO and Nano connected with digital and power pins.">
+    <figcaption style="text-align: center; font-style: italic;">Example: Using an UNO to program a Nano (digital and power pins).</figcaption>
+</figure>
+
 <a id="icsp"></a>
 
 ### Option B: Using the ICSP header pins
@@ -79,24 +88,14 @@ AVR boards are programmed with the SPI interface (COPI, CIPO and SCK signals). O
 1. Connect every programmer ICSP pin except RESET to the equivalent ICSP pin on the target.
 2. Connect PIN 10 on the programmer board to any RESET pin on the target.
 
-### Examples
-
-<div style="display: flex;">
-   <div>
-     <figure style="height: 300px; margin: 0;">
-         <img src="https://content.arduino.cc/assets/Nano_to_Uno_burn_bootloader.png" alt="Circuit Diagram. UNO and Nano connected with digital and power pins.">
-         <figcaption style="height: 300px; text-align: center">UNO to Nano (digital and power pins)</figcaption>
-     </figure>
-   </div>
-   <div>
-     <figure style="margin: 0; margin-left: 5px">
-         <img src="https://content.arduino.cc/assets/Nano_to_Uno_burn_bootloader.png" alt="Circuit Diagram. UNO and Nano connected with digital and power pins.">
-         <figcaption style="text-align: center">UNO to Nano (digital and power pins)</figcaption>
-     </figure>
-   </div>
-</div>
+<figure style="width: 400px; margin: 0;">
+    <img src="https://content.arduino.cc/assets/Connections-mega2Uno.png" alt="Circuit Diagram. UNO and Mega connected with ICSP pins.">
+    <figcaption style="text-align: center; font-style: italic;">Example: Using an UNO to program a Mega (ICSP pins).</figcaption>
+</figure>
 
 ---
+
+<a id="ide"></a>
 
 ## Step 2: Burn the bootloader in Arduino IDE
 
