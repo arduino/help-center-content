@@ -110,7 +110,7 @@ Now that the board connections are set up, we can use Arduino IDE to burn the bo
 04. Select the port the board is connecting to in _Tools > Port_.
 
 05. Open _File > Examples > 11.ArduinoISP > ArduinoISP_.
-    ![](img/ide1-windows-example-ArduinoISP.png)
+    ![IDE with ArduinoISP example selected in the menu](img/ide1-windows-example-ArduinoISP.png)
 
 06. Click ![Upload button](img/symbol_upload.png) **Upload** to upload the sketch to the board.
 
