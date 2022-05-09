@@ -120,7 +120,7 @@ Now that the board connections are set up, we can use Arduino IDE to burn the bo
 
 09. We can now start the burning process. It's a good idea to enable [verbose upload output](https://support.arduino.cc/hc/en-us/articles/4407705216274) in preferences since there will be no console output during the process otherwise. To start the process, select _Tools > Burn Bootloader_.
 
-    ![](img/ide1-windows-burn-bootloader.png)
+    ![IDE with Burn Bootloader selected in the menu](img/ide1-windows-burn-bootloader.png)
 
 10. Wait for the process to complete, which may take up to a minute. When it's finished, the message "Done burning bootloader" will appear on top of the console, or in a bottom-right notification pop-up, depending on your IDE version.
 
