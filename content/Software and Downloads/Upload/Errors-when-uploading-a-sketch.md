@@ -8,29 +8,21 @@ When there is an error the IDE will print relevant information in the console. L
 
 ## Check this first
 
-* [Select the right port and board](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port) in _Tools > Board_ and _Tools > Port_.
+These checks will resolve the most common errors:
 
-* Make sure your board is connected to your computer with a working data USB cable, inserted fully in the port on each end.
+* **Check your board and port selections**. In the top menu bar, make sure the correct board is selected in _Tools > Board_, and that you've selected the right port in _Tools > Port_. Try disconnecting and reconnecting your board if you're unsure which port is being used (close and reopen the Port menu to refresh the list). For more information, see [Select the right port and board](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port).
 
-* Remove any connections to the **0 (RX)** and **1 (TX)** digital pins.
+* **Check your sketch for errors**. Click the ![Verify button](img/symbol_verify.png) **Verify** button to compile your sketch without uploading it.  If you still get an error, see [Compilation errors when uploading](https://support.arduino.cc/hc/en-us/articles/4402764401554-Compilation-errors-when-uploading).
 
-* Make your sketch is free from errors by clicking the ![Verify button](img/symbol_verify.png) **Verify** button.
+* **Check your connections**. Your board needs to be connected with a data USB cable (charge-only cables will not work). Make sure the cable is fully inserted in the port on each end. Try a different USB cable, and avoid hubs and other adapters if possible. Remove connections to the board pins, especially the **0 (RX)** and **1 (TX)** digital pins.
 
-  If you still get an error, see [Compilation errors when uploading](https://support.arduino.cc/hc/en-us/articles/4402764401554-Compilation-errors-when-uploading).
-
-* Some errors (Exit status 1) only indicate that a process has failed:
-
-  * `Error: exit status 1`
-
-  * `Upload error: Failed uploading: uploading error: exit status 1`
-
-  Look for preceding lines in the error output for more specific information.
-
-* The [sketch storage and memory usage message](https://support.arduino.cc/hc/en-us/articles/4405339237522) does **not** indicate an error unless storage use exceeds 100%.
+If you still get an error, you'll find instructions for specific error messages below.
 
 <a id="errors"></a>
 
 ## Errors
+
+> **Note:** _Exit status 1_ only indicates that the process has failed. Look for preceding lines in the error output for more specific information.
 
 <table>
 <tr>
@@ -48,6 +40,10 @@ When there is an error the IDE will print relevant information in the console. L
 <ul>
 <li><a href="https://support.arduino.cc/hc/en-us/articles/4412950941074-Compilation-error-Missing-FQBN-Fully-Qualified-Board-Name-">Compilation error: Missing FQBN (Fully Qualified Board Name)</a></li>
 <li><a href="https://support.arduino.cc/hc/en-us/articles/360020846379-Compilation-error-Error-2-UNKNOWN-platform-not-installed">Compilation error: Error: 2 UNKNOWN: platform not installed</a></li>
+</ul>
+<h3>Other</h3>
+<ul>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/4405339237522-The-IDE-prints-a-message-about-sketch-size-and-memory-usage">The IDE prints a message about sketch size and memory usage</a></li>
 </ul>
 </td>
 <td>
