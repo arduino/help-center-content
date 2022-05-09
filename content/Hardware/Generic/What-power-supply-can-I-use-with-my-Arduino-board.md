@@ -6,6 +6,8 @@ All Arduino boards need electric power to function. A power supply is what is us
 
 There are different ways to power your Arduino board. The most common way is through the USB connector available on every board, but there are a few other possibilities to power your board. If you like to know more about this, the different ways to supply power to your board are listed below:
 
+> **Note**: Incorrect input voltage can damage your board. Never connect an external power supply before checking the input voltage limits. Look for technical specifications in [Arduino Docs](https://docs.arduino.cc/).
+
 ## USB
 
 Arduino boards can operate satisfactorily on power that is available from the USB port. It provides 5V DC voltage and can be sourced from the port from a PC, wall socket adapter or portable power bank.
