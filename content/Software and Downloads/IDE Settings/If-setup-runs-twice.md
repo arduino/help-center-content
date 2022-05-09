@@ -17,7 +17,7 @@ The repeated output can be avoided in two ways:
 1. If one simply wants to repeatedly run the sketch to observe the output, there’s no need to upload the (same) sketch multiple times. Just press the reset button with the Serial Monitor open.
 2. The board resets after approximately 100 milliseconds. By adding `delay(150)` at the start of the `setup()` function, the board will be reset before any of the following code is executed. Increase the delay if needed.
 
-## Useful information
+## Further reading
 
 * [Serial.read()](https://www.arduino.cc/reference/en/language/functions/communication/serial/read/) in Arduino reference
 * [Serial input basics](https://forum.arduino.cc/t/serial-input-basics-updated/382007) in the Arduino Forum
