@@ -2,9 +2,15 @@
 title: "If your board runs the sketch twice"
 ---
 
-The issue of the ```setup()``` function running twice when uploading a sketch has been reported in some boards.
+On some boards, uploading while the Serial Monitor is open causes the board to run once, before resetting and running the new sketch. This can cause `Serial.println()` output to display twice in the Serial Monitor.
 
-Since a port can only be connected to one application at a time, the Arduino IDE has to close and open the port a number of times to upload a sketch while the Serial Monitor is open. This process resets the board and the program runs again.
+This happens on boards without native USB capabilities (such as the UNO and Mega), which automatically reset when the port is opened. Since Arduino IDE needs to close the Serial Monitor for the upload tool to access the port, we get the following sequence of events:
+
+1. Upload is started in Arduino IDE.
+2. The Serial Monitor port is closed.
+3. The port is opened by the upload tool. The board resets, and runs briefly runs any sketch currently on the board. 
+4. After a short while (typically ~100 ms), upload finishes.
+5. Serial Monitor reopens the port. The board resets a second time, and starts running the new sketch.
 
 The repeated output can be avoided in two ways:
 
