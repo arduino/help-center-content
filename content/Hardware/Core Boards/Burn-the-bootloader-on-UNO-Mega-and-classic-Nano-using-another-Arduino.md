@@ -2,8 +2,6 @@
 title: "Burn the bootloader on UNO, Mega, and classic Nano using another Arduino"
 ---
 
-
-
 The bootloader is a small piece of software that allows uploading of sketches onto the Arduino board. It comes preprogrammed on the microcontrollers on Arduino boards. Whether the bootloader has been corrupted or intentionally has been removed, it can be restored by _burning_ (also called, _flashing_ or _programming_) a new bootloader to the board.
 
 The easiest way to burn the bootloader to classic AVR boards (UNO, Mega, Nano, etc.) is using **a second Arduino board** as a programmer, which is the method that will be covered below.
