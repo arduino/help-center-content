@@ -8,7 +8,7 @@ This happens on boards without native USB capabilities (such as the UNO and Mega
 
 1. Upload is started in Arduino IDE.
 2. The Serial Monitor port is closed.
-3. The port is opened by the upload tool. The board resets, and runs briefly runs any sketch currently on the board. 
+3. The port is opened by the upload tool. The board resets, and runs briefly runs any sketch currently on the board.
 4. After a short while (typically ~100 ms), upload finishes.
 5. Serial Monitor reopens the port. The board resets a second time, and starts running the new sketch.
 
