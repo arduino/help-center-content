@@ -124,7 +124,7 @@ Now that the board connections are set up, we can use Arduino IDE to burn the bo
 
 10. Wait for the process to complete, which may take up to a minute. When it's finished, the message "Done burning bootloader" will appear on top of the console, or in a bottom-right notification pop-up, depending on your IDE version.
 
-    ![](img/ide1-windows-burn-bootloader-done.png)
+    ![IDE with "Done burning bootloader" message](img/ide1-windows-burn-bootloader-done.png)
 
 ---
 
