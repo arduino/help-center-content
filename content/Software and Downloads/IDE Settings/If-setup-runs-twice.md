@@ -6,7 +6,7 @@ The issue of the ```setup()``` function running twice when uploading a sketch ha
 
 Since a port can only be connected to one application at a time, the Arduino IDE has to close and open the port a number of times to upload a sketch while the Serial Monitor is open. This process resets the board and the program runs again.
 
-The repeated output can be avoided in two ways
+The repeated output can be avoided in two ways:
 
 1. If one simply wants to repeatedly run the sketch to observe the output, there’s no need to upload the (same) sketch multiple times. Just press the reset button with the Serial Monitor open. This resets the board without closing the port, resulting in no repeated output.
 2. The board resets after  approximately 100 milliseconds. By adding ```delay(150)``` at the start of the ```setup()``` function, the board will be reset before any of the following code is executed, preventing the repeated output.
