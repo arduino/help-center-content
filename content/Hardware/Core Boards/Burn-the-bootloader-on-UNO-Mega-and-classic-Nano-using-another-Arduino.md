@@ -108,7 +108,7 @@ Now that the board connections are set up, we can use Arduino IDE to burn the bo
 04. Select the port the board is connecting to in _Tools > Port_.
 
 05. Open _File > Examples > 11.ArduinoISP > ArduinoISP_.
- 
+
     ![IDE with ArduinoISP example selected in the menu](img/ide1-windows-example-ArduinoISP.png)
 
 06. Click ![Upload button](img/symbol_upload.png) **Upload** to upload the sketch to the board.
@@ -124,18 +124,6 @@ Now that the board connections are set up, we can use Arduino IDE to burn the bo
 10. Wait for the process to complete, which may take up to a minute. When it's finished, the message "Done burning bootloader" will appear on top of the console, or in a bottom-right notification pop-up, depending on your IDE version.
 
     ![IDE with "Done burning bootloader" message](img/ide1-windows-burn-bootloader-done.png)
-
----
-
-## Examples
-
-![Pin diagram.](img/Nano_to_Uno_burn_bootloader.png)
-_Uno to Nano (digital and power pins)_
-
-![Pin diagram.](img/Connections-mega2Uno.png)
-_Uno to Mega (ICSP)_
-
-<div>
 
 ---
 
