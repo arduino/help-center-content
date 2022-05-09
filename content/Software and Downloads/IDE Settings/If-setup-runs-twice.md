@@ -1,5 +1,5 @@
 ---
-title: "If setup() runs twice"
+title: "If your board runs the sketch twice"
 ---
 
 The issue of the ```setup()``` function running twice when uploading a sketch has been reported in some boards.
