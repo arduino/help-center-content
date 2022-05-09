@@ -38,7 +38,7 @@ This will transfer all their files, projects and data to the upgraded account, b
 
 <a id="Regular-accounts"></a>
 
-## Regular accounts with restrictions (for users between 14 and 16 years old)
+## Regular accounts with restrictions
 
 As for the Junior Accounts, users between 14 and 16 years old will be asked to provide the email of the person exercising parental authority. Arduino will process the [personal data](https://www.arduino.cc/en/privacy-policy/children-privacy-policy) of the latter.
 
