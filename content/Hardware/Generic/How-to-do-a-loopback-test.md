@@ -4,9 +4,9 @@ title: "How to do a loopback test"
 
 A **loopback test** is a troubleshooting procedure to test the serial communication between the PC and Arduino board with a dedicated USB to Serial converter chip. It can be performed with the following boards:
 
-* Arduino Uno (classic)
-* Arduino Uno Rev3 <!-- [X] Tested 2022-03-24 -->
-* Arduino Uno Rev3 SMD <!-- [X] Tested 2022-03-24 -->
+* Arduino UNO (classic)
+* Arduino UNO Rev3 <!-- [X] Tested 2022-03-24 -->
+* Arduino UNO Rev3 SMD <!-- [X] Tested 2022-03-24 -->
 * Arduino Mega (classic)
 * Arduino Mega2560 Rev3
 * Arduino Mega ADK Rev3

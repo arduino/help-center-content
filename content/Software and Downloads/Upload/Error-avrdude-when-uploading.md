@@ -77,9 +77,9 @@ avrdude: stk500_getsync() attempt 2 of 10: not in sync: resp=0x00
 
 3. For some boards, a _loopback test_ can be performed, which will rule out problems with the serial chip. It can be done with the following boards:
 
-   * Arduino Uno (classic)
-   * Arduino Uno Rev3
-   * Arduino Uno Rev3 SMD
+   * Arduino UNO (classic)
+   * Arduino UNO Rev3
+   * Arduino UNO Rev3 SMD
    * Arduino Mega (classic)
    * Arduino Mega2560 Rev3
    * Arduino Mega ADK Rev3
@@ -203,7 +203,7 @@ avrdude: jtag3_open_common(): Did not find any device matching VID 0x03eb and PI
 An error occurred while uploading the sketch
 ```
 
-Make sure you have [selected the right board and port](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE) correct board under _Tools > Board_ and  _Tools > Port_. In particular, this error can occur when uploading to an Arduino Uno Rev3 or classic, when having _megaAVR Boards > Arduino Uno WiFi Rev2_ as the selected board.
+Make sure you have [selected the right board and port](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE) correct board under _Tools > Board_ and  _Tools > Port_. In particular, this error can occur when uploading to an Arduino UNO Rev3 or classic, when having _megaAVR Boards > Arduino Uno WiFi Rev2_ as the selected board.
 
 ---
 

@@ -16,7 +16,7 @@ Note that a board needs to be selected even if you're not uploading any code.
 
 Since the code cannot compile without a board selected, we'll start by ensuring just that.
 
-![The Arduino IDE. The board dropdown displays Arduino Uno, with a red cross.](img/Arduino-Uno_no-port.png)
+![The Arduino IDE. The board dropdown displays Arduino UNO, with a red cross.](img/Arduino-Uno_no-port.png)
 
 It should be looking somewhat like the above. The name of your board should be visible in the board dropdown bar. There may also be a red cross. This indicates that the board isn't available on any port but this will not prevent the code from compiling.
 

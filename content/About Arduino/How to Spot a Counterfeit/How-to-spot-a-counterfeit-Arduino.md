@@ -18,7 +18,7 @@ Individually sold Arduino boards come packaged in a compact, well-made cardboard
 * The top side should have a graphic of the board.
 * The bottom side should list specifications for the board.
 
-![Arduino Uno Rev3 box in three different angels.](img/counterfeit/uno-r3-box-in-three-angles.png)
+![Arduino UNO Rev3 box in three different angels.](img/counterfeit/uno-r3-box-in-three-angles.png)
 
 Counterfeits may come packaged in cheaper and generic packaging, like a plastic antistatic bag or zipper bag.
 
@@ -26,16 +26,16 @@ Counterfeits may come packaged in cheaper and generic packaging, like a plastic 
 
 <!-- TODO: See word doc changes -->
 
-The silkscreen is a layer of ink trace that contains logos, symbols, and text used to identify components. It also provides the board with a background color. Many of our most popular boards, particularly the [Arduino Uno Rev3](https://store.arduino.cc/arduino-uno-rev3) (which has the most counterfeits) are today produced with our new teal color. Virtually all counterfeits still use the blue color, and this can be a straightforward way of identifying a counterfeit.
+The silkscreen is a layer of ink trace that contains logos, symbols, and text used to identify components. It also provides the board with a background color. Many of our most popular boards, particularly the [Arduino UNO Rev3](https://store.arduino.cc/arduino-uno-rev3) (which has the most counterfeits) are today produced with our new teal color. Virtually all counterfeits still use the blue color, and this can be a straightforward way of identifying a counterfeit.
 
 <table class="img-captions">
   <tr>
-     <td><img src="https://content.arduino.cc/assets/Arduino_UNO_Rev3_Ok.jpg" alt="Original Uno Rev 3 (front)"></td>
-     <td><img src="https://content.arduino.cc/assets/Arduino_UNO_Rev3_back_Ok.jpg" alt="Counterfeit Uno Rev 3 (back)"></td>
+     <td><img src="https://content.arduino.cc/assets/Arduino_UNO_Rev3_Ok.jpg" alt="Original UNO Rev 3 (front)"></td>
+     <td><img src="https://content.arduino.cc/assets/Arduino_UNO_Rev3_back_Ok.jpg" alt="Counterfeit UNO Rev 3 (back)"></td>
   </tr>
   <tr>
-     <td>"Original Uno Rev 3 (front)</td>
-     <td>"Original Uno Rev 3 (back)</td>
+     <td>"Original UNO Rev 3 (front)</td>
+     <td>"Original UNO Rev 3 (back)</td>
   </tr>
   <tr>
      <td><img src="https://content.arduino.cc/assets/Arduino_Due_front_OK.jpg" alt="Original Due (front)"></td>

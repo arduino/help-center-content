@@ -2,7 +2,7 @@
 title: "If a sketch is in the INCOMPATIBLE category"
 ---
 
-If a library sketch example appears in `File > Examples > INCOMPATIBLE` the currently selected board is not compatible with the library. For example, the Arduino Uno is incompatible with the `ArduinoMotorCarrier` library, and sketches from that library will appear in the `INCOMPATIBLE` category.
+If a library sketch example appears in `File > Examples > INCOMPATIBLE` the currently selected board is not compatible with the library. For example, the Arduino UNO is incompatible with the `ArduinoMotorCarrier` library, and sketches from that library will appear in the `INCOMPATIBLE` category.
 
 ![Example of sketches from a library inside INCOMPATIBLE](img/INCOMPATIBLE_example_sketch_example.png)
 

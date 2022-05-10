@@ -8,5 +8,5 @@ Several of the Arduino boards have Inertial Measurement Units (IMUs) embedded in
 
 2. Install & include the corresponding library oin the IDE & sketch respectively:
 
-* `Arduino_ LSM6DS3` is the one to use in boards like the Arduino Uno WiFi Rev2 and Nano 33 IoT boards
+* `Arduino_ LSM6DS3` is the one to use in boards like the Arduino UNO WiFi Rev2 and Nano 33 IoT boards
 * `Arduino_LSM9DS1`is the one to use in boards like the Arduino Nano 33 BLE.
