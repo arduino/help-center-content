@@ -56,7 +56,7 @@ Next, you need to tell Arduino IDE which board your sketch is for.
 
 3. Click on a board to select it.
 
-   ![Selecting a board in Arduino IDE.](img/tools_menu_board_select@0.8.png)
+   ![Selecting a board in Arduino IDE.](img/tools_menu_board_select_x_0.8.png)
 
 ## 4. Select port
 
