@@ -4,9 +4,9 @@ title: "How to do a loopback test"
 
 A **loopback test** is a troubleshooting procedure to test the serial communication between the PC and Arduino board with a dedicated USB to Serial converter chip. It can be performed with the following boards:
 
-* Arduino Uno (classic)
-* Arduino Uno Rev3 <!-- [X] Tested 2022-03-24 -->
-* Arduino Uno Rev3 SMD <!-- [X] Tested 2022-03-24 -->
+* Arduino UNO (classic)
+* Arduino UNO Rev3 <!-- [X] Tested 2022-03-24 -->
+* Arduino UNO Rev3 SMD <!-- [X] Tested 2022-03-24 -->
 * Arduino Mega (classic)
 * Arduino Mega2560 Rev3
 * Arduino Mega ADK Rev3
@@ -52,16 +52,4 @@ A failed loopback test failed indicates that the USB to TTL serial adapter is da
 
 ## If the loopback test passes
 
-A successful loopback test means that the board is able to communicate with the computer but is unable to upload or run the sketch. This can be the result of a missing or corrupted bootloader. If you have a second board, you can use one of these guides:
-
-* [How to burn the bootloader between two Arduino UNO](https://support.arduino.cc/hc/en-us/articles/360012048080-How-to-burn-the-bootloader-between-two-Arduino-UNO)
-* [How to burn the bootloader between two Arduino Mega](https://support.arduino.cc/hc/en-us/articles/360012048060-How-to-burn-the-bootloader-between-two-Arduino-Mega)
-* [How to burn the bootloader on an Arduino UNO using an Arduino Nano](https://support.arduino.cc/hc/en-us/articles/4411327104402-How-to-burn-the-bootloader-on-an-Arduino-UNO-using-an-Arduino-Nano)
-* [How to burn the bootloader in an Arduino Nano using an Arduino UNO](https://support.arduino.cc/hc/en-us/articles/360012048100-How-to-burn-the-bootloader-in-an-Arduino-Nano-using-an-Arduino-UNO)
-* [How to burn the bootloader on an Arduino Uno using an Arduino Nano](https://support.arduino.cc/hc/en-us/articles/4412950859666-How-to-burn-the-bootloader-on-an-Arduino-Uno-using-an-Arduino-Nano)
-* [How to burn the bootloader on an Arduino Mega using an Arduino UNO](https://support.arduino.cc/hc/en-us/articles/4408893470610-How-to-burn-the-bootloader-on-an-Arduino-Mega-using-an-Arduino-UNO)
-* [How to burn bootloader to Arduino Uno using Arduino Mega](https://support.arduino.cc/hc/en-us/articles/4412950855442-How-to-burn-bootloader-to-Arduino-Uno-using-Arduino-Mega)
-
-Additional resources:
-
-* [How do I burn the bootloader to my AVR board?](https://per1234.github.io/ino-troubleshooting/burn-bootloader.html#burn-bootloader)
+A successful loopback test means that the board can communicate with the computer but is unable to upload or run the sketch. This can be the result of a missing or corrupted bootloader. You can burn a new bootloader using another Arduino board as an ISP programmer, see [Burn the bootloader on UNO, Mega, and classic Nano using another Arduino](https://support.arduino.cc/hc/en-us/articles/4841602539164-Burn-the-bootloader-on-UNO-Mega-and-classic-Nano-using-another-Arduino).

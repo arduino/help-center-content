@@ -15,7 +15,7 @@ Boards with the **WiFiNINA** module:
 * [Arduino MKR WiFi 1010](https://store.arduino.cc/arduino-mkr-wifi-1010)
 * [Arduino MKR Vidor 4000](https://store.arduino.cc/arduino-mkr-vidor-4000)
 * [Arduino Nano 33 IoT](https://store.arduino.cc/arduino-nano-33-iot)
-* [Arduino Uno WiFi Rev2](https://store.arduino.cc/arduino-uno-wifi-rev2)
+* [Arduino UNO WiFi Rev2](https://store.arduino.cc/arduino-uno-wifi-rev2)
 
 Boards with the **WiFi101** module:
 

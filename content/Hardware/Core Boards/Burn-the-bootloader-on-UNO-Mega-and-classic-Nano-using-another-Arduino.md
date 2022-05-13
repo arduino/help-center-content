@@ -81,7 +81,7 @@ When the boards are connected, you can proceed with [burning the bootloader in A
 
 ### Option B: Using the ICSP header pins
 
-![The ICSP header on Uno R3, Nano and Mega.](img/icsp-headers.png)_Note that the orientation of the header relative to the USB port is different on the Nano._
+![The ICSP header on UNO R3, Nano and Mega.](img/icsp-headers.png)_Note that the orientation of the header relative to the USB port is different on the Nano._
 
 1. Connect every programmer ICSP pin except RESET to the equivalent ICSP pin on the target.
 2. Connect PIN 10 on the programmer board to any RESET pin on the target.

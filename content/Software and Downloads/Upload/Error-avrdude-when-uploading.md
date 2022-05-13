@@ -5,10 +5,8 @@ title: "'Error: avrdude' when uploading"
 When uploading a sketch to your board you may get an error from the **avrdude** utlity:
 
 * **stk500:**
-  * [avrdude: stk500_recv(): programmer is not responding
-     avrdude: stk500_getsync() attempt X of 10: not in sync](#avrdude-stk500_recv-and-stk500_getsync)
-  * [avrdude: stk500v2_ReceiveMessage(): timeout
-    avrdude: stk500v2_getsync(): timeout communicating with programmer](#avrdude-stk500_recv-and-stk500_getsync)
+  * [avrdude: stk500_recv(): programmer is not responding<br>avrdude: stk500_getsync() attempt X of 10: not in sync](#avrdude-stk500_recv-and-stk500_getsync)
+  * [avrdude: stk500v2_ReceiveMessage(): timeout<br>avrdude: stk500v2_getsync(): timeout communicating with programmer](#avrdude-stk500_recv-and-stk500_getsync)
 * **ser_open():**
   * [avrdude: ser_open(): can't open device \<port\>: no such file or directory](#avrdude-ser_open-cant-open-device-no-such-file-or-directory)
   * [avrdude: ser_open(): can't open device "/dev/ttyACM0": Device or resource busy](#ser_open-device-or-resource-busy)
@@ -79,9 +77,9 @@ avrdude: stk500_getsync() attempt 2 of 10: not in sync: resp=0x00
 
 3. For some boards, a _loopback test_ can be performed, which will rule out problems with the serial chip. It can be done with the following boards:
 
-   * Arduino Uno (classic)
-   * Arduino Uno Rev3
-   * Arduino Uno Rev3 SMD
+   * Arduino UNO (classic)
+   * Arduino UNO Rev3
+   * Arduino UNO Rev3 SMD
    * Arduino Mega (classic)
    * Arduino Mega2560 Rev3
    * Arduino Mega ADK Rev3
@@ -205,7 +203,7 @@ avrdude: jtag3_open_common(): Did not find any device matching VID 0x03eb and PI
 An error occurred while uploading the sketch
 ```
 
-Make sure you have [selected the right board and port](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE) correct board under _Tools > Board_ and  _Tools > Port_. In particular, this error can occur when uploading to an Arduino Uno Rev3 or classic, when having _megaAVR Boards > Arduino Uno WiFi Rev2_ as the selected board.
+Make sure you have [selected the right board and port](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE) correct board under _Tools > Board_ and  _Tools > Port_. In particular, this error can occur when uploading to an Arduino UNO Rev3 or classic, when having _megaAVR Boards > Arduino Uno WiFi Rev2_ as the selected board.
 
 ---
 

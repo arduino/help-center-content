@@ -11,9 +11,9 @@ Instructions for the project board can be found in the projects book, pages 12-1
 1. Take the plastic sheet and carefully separate the pieces.
 2. Go on until you've separated all the parts.
 3. Place the pieces marked with an "A" into the holes in the corners, in order to create the feet of the base.
-4. Secure your Arduino Uno to the base using 3 screws (included in the silver pack in this kit). Be careful not to overtighten.
+4. Secure your Arduino UNO to the base using 3 screws (included in the silver pack in this kit). Be careful not to overtighten.
 5. Carefully peel the backing from the breadboard.
-6. Stick the breadboard on the plastic sheet, next to the Arduino Uno.
+6. Stick the breadboard on the plastic sheet, next to the Arduino UNO.
 
 > Early prints of the projects book have an image where the base is mirrored. The instructions above are correct.
 
