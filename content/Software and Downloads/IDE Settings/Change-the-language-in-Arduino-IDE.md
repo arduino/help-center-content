@@ -72,3 +72,7 @@ Make sure you fully restart Arduino IDE.
 On macOS, closing all windows will not automatically quit the application. If the Arduino IDE icon is in the Dock with a small dot below it, the app is still running. Right-click on the icon and select _Quit_ to quit the app.
 
 ![Quitting Arduino IDE in the Dock on macOS.](img/macos-ide-quit.png)
+
+<p style="display:none;">
+  Tags: Español, Deutsch, Italiano, Português, Arabic, Basque, Chinese , Czech, Dutch, Persian, Turkish, Armenian, Bulgarian , English, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian Bokmål, Polish, Portuguese, Romanian, Russian, Slovak, Slovenian ,Spanish ,Ukrainian ,Vietnamese
+</p>
