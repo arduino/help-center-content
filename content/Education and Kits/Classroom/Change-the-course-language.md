@@ -20,3 +20,7 @@ The online platforms of our educational kits are available in different language
 3. Click to select language.
 
 ![Selecting language in the Science Kit course.](img/course-language-science-kit.png)
+
+<p style="display:none;">
+  Tags: español, deutsch, português, italiano, magyar, greek, thai, croatian
+</p>
