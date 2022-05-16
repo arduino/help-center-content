@@ -74,5 +74,5 @@ On macOS, closing all windows will not automatically quit the application. If th
 ![Quitting Arduino IDE in the Dock on macOS.](img/macos-ide-quit.png)
 
 <p style="display:none;">
-  Tags: Español, Deutsch, Italiano, Português, Arabic, Basque, Chinese , Czech, Dutch, Persian, Turkish, Armenian, Bulgarian , English, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian Bokmål, Polish, Portuguese, Romanian, Russian, Slovak, Slovenian ,Spanish ,Ukrainian ,Vietnamese
+  Tags: sprache, idioma, Español, Deutsch, Italiano  (Italian), Português, Arabic, Euskara (Basque), Chinese (汉语/漢語), Čeština (Czech), Dutch, Persian, Turkish, Armenian, Bulgarian , English, French, German, Greek, Hungarian, Italian, 日本語 (Japanese), 한국어 (Korean), Norwegian Bokmål, Polish, Portuguese, Limba română (Romanian), Russian, Slovenčina (Slovak), Slovenian ,Spanish ,Ukrainian ,Vietnamese, Eesti keel (Estonian)
 </p>
