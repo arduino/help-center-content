@@ -2,7 +2,7 @@
 title: "The IDE prints a message about sketch size and memory usage"
 ---
 
-The IDE always checks for storage space and dynamic memory usage when compiling your code and prints the results to the console. For example:
+The IDE always checks for storage space and dynamic memory usage when compiling your code, and then prints the results to the console. For example:
 
 ```
 Sketch uses 4316 bytes (15%) of program storage space. Maximum is 28672 bytes.
