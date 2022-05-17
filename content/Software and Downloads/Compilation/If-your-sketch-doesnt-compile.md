@@ -17,7 +17,7 @@ Learn about compilation errors in your sketch and how to resolve them.
   Global variables use 2980 bytes (9%) of dynamic memory, leaving 29788 bytes for local variables. Maximum is 32768 bytes.
   ```
 
-* A sketch always needs to include a `setup()` and `loop()` function, even if they're not being used. You can use _File > Examples > 1.Basics > BareMinium_ as a template.
+* A sketch always needs to include a `setup()` and `loop()` function, even if they're not being used. You can use _File > Examples > 1.Basics > BareMinimum_ as a template.
 
 * Libraries added with `#include` need to be installed. Try searching for the library name in the Library Manager (_Tools > Manage Libraries..._).
 
