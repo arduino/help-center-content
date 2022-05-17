@@ -43,8 +43,8 @@ Arduino IDE displays compilation messages differently depending on the version:
 
    <table class="img-captions">
      <tr>
-        <td><img src="img/ide1-syntax-error-output-highlighted.png" alt="Compilation error in IDE 1.8.13, due to a missing semicolon."></td>
-        <td><img src="img/ide2-syntax-error-output-highlighted.png" alt="Compilation error in IDE 2.0.0-3c6, due to a missing semicolon."></td>
+        <td><img src="https://content.arduino.cc/assets/ide1-syntax-error-output-highlighted.png" alt="Compilation error in IDE 1.8.13, due to a missing semicolon."></td>
+        <td><img src="https://content.arduino.cc/assets/ide2-syntax-error-output-highlighted.png" alt="Compilation error in IDE 2.0.0-3c6, due to a missing semicolon."></td>
      </tr>
      <tr>
         <td>Error output in IDE 1.x.</td>
