@@ -10,7 +10,7 @@ Learn about compilation errors in your sketch and how to resolve them.
 
 * Make sure your error occurs during compilation by clicking ![Verify button](img/symbol_verify.png) **Verify** instead of ![Upload button](img/symbol_upload.png) **Upload**. This will compile the sketch without attempting to upload it. If your error only occurs when uploading, see [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch).
 
-* A successful compilation will always finish with this message:
+* A successful compilation will always finish with this message (the storage space and memory values might differ depending on the board used):
 
   ```
   Sketch uses 11604 bytes (4%) of program storage space. Maximum is 262144 bytes.
