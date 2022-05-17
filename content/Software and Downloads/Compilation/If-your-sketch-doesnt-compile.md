@@ -111,7 +111,7 @@ This error occurs when the required *board core* is not installed. Please ensure
 
 ### undefined reference to 'setup' or 'loop'<br>collect2: error: ld returned 1 exit status
 
-Occurs when the `setup()` or `loop()` functions are missing. Your sketch _must_ include these functions, even if they're not being used. You can use _File > Examples > 1.Basics > BareMinium_ as a template. Note that function names are case-sensitive and that the compiler will something like `Setup()` (with a capital S) as a completely different function.
+Occurs when the `setup()` or `loop()` functions are missing. Your sketch _must_ include these functions, even if they're not being used. You can use _File > Examples > 1.Basics > BareMinimum_ as a template. Note that function names are case-sensitive and that the compiler will handle something like `Setup()` (with a capital S) as a completely different function.
 
 <!-- LIBRARIES -->
 
