@@ -77,13 +77,10 @@ Arduino IDE displays compilation messages differently depending on the version:
 <td style="vertical-align: top;">
 <h3>Syntax errors</h3>
 <ul>
-<li><a href="#">variable was not declared in this scope</a></li>
-<li><a href="#">expected unqualified-id before numeric constant</a></li>
-<li><a href="#">expected ',' or ';' before ':' token</a></li>
-<li><a href="#"></a></li>
-<li><a href="#"></a></li>
-<li><a href="#"></a></li>
-<li><a href="#"></a></li>
+<li><a href="#variable-not-declared">variable was not declared in this scope</a></li>
+<li><a href="#expected-unqualified-id">expected unqualified-id before numeric constant</a></li>
+<li><a href="#expected-before-colon">expected ',' or ';' before ':' token</a></li>
+<li><a href="#expected-bracket">'expected declaration before '}' token', or 'expected '}' at end of input'</a></li>
 </ul>
 </td>
 </tr>
@@ -103,7 +100,7 @@ A board needs to be selected even if you're not uploading any code.
 
 ### Compilation error: Error: 2 UNKNOWN: platform not installed
 
-This error occurs when the required *board core* is not installed. Please ensure the core is installed using [this guide](https://www.arduino.cc/en/Tutorial/getting-started-with-ide-v2/ide-v2-board-manager#installing-a-core).
+This error occurs when the required *board core* is not installed. Please ensure the core is installed using [this guide](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-a-board-to-Arduino-IDE).
 
 <!-- REQUIRED FUNCTIONS -->
 
@@ -134,6 +131,8 @@ KeyboardController.h: No such file or directory
 2. Make sure to import the `.h` file.
 
 <!-- SYNTAX -->
+
+<a id="variable-not-declared"></a>
 
 ### variable was not declared in this scope
 
@@ -178,6 +177,8 @@ void loop() {
 }
 ```
 
+<a id="expected-unqualified-id"></a>
+
 ### expected unqualified-id before numeric constant
 
 Will occur if a comma (`,`) is used as a decimal separator instead of period (`.`).
@@ -203,6 +204,8 @@ Instead, use a decimal point (`.`):
 float f = 1.1;
 ```
 
+<a id="expected-before-colon"></a>
+
 ### expected ',' or ';' before ':' token
 
 ```
@@ -218,6 +221,8 @@ instead of a semicolon. (`;`). The line should look like this:
 ```
 int i = 1;
 ```
+
+<a id="expected-bracket"></a>
 
 ### 'expected declaration before '}' token', or 'expected '}' at end of input'
 
