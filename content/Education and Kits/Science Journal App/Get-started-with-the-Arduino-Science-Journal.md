@@ -24,8 +24,6 @@ The Science Journal can be used with **Arduino MKR WiFi 1010** or **Arduino Nano
 
 ## Connect a board
 
-> **Firmware upload (Dec. 10th, 2021):** Some information about firmware upload on the _Getting Started > External Sensors_ page may be out of date. Use the resources below instead.
-
 You can find [instructions on how to connect a board here](https://support.arduino.cc/hc/en-us/articles/4407749620370-Connect-a-board-to-the-Science-Journal-app).
 
 ## Access lessons and activities
