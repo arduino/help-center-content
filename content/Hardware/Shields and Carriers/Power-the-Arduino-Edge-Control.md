@@ -10,7 +10,7 @@ Learn about the power supply requirements for the Arduino Edge Control.
 
 Connecting a micro USB cable provides sufficient power to upload and run a sketch on the nRF52840 microcontroller. However, this configuration does not provide enough power to operate other modules of the board, so the main Edge Control features will not be available.
 
-See the [Getting Started guide](https://docs.arduino.cc/tutorials/edge-control/ec-ard-gs) for more help with programming the Edge Control.
+See the [Getting Started guide](https://docs.arduino.cc/tutorials/edge-control/getting-started-edge-control) for more help with programming the Edge Control.
 
 ## Connect a power supply
 
