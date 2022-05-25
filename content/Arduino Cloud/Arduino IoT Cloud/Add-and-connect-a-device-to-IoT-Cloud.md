@@ -62,7 +62,7 @@ Connecting a new device to Arduino IoT Cloud consists of three steps:
 
    ![](img/thing-setup-before.png)
 
-   1. Click the **Device selection** button and select your device.
+   1. Click the **Select Device** button and select your device.
 
    2. Click the **Network configure** button and enter the network credentials.
 
