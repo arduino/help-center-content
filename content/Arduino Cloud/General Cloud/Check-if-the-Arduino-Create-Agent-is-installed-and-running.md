@@ -8,7 +8,7 @@ Learn how to check if the **Arduino Create Agent** is installed and running on y
 
 1. _Make sure the agent is not paused._ Look for the ![Arduino Create Agent icon](img/create-agent-logo-mac.png) icon in the top-right of the menu bar (macOS and Linux) or bottom-right of the taskbar (Windows), usually within the system tray:
 
-   ![](img/create-agent-system-tray.png)
+   ![The Create Agent in the system tray on Windows.](img/create-agent-system-tray.png)
 
    If you find it, click it. If a _Resume Agent_ option is available, the agent is currently paused. Click _Resume Agent_ to resume.
 

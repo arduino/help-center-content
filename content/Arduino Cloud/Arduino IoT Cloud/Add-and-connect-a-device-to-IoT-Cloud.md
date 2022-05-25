@@ -6,15 +6,9 @@ title: "Add and connect a device to IoT Cloud"
 
 Connecting a new device to Arduino IoT Cloud consists of three steps:
 
-<!--
 1. [Add the device to IoT Cloud](#add-the-device).
 2. [Configure a Thing sketch](#create-thing)
 3. [Upload the sketch to the device](#upload-sketch)
--->
-
-1. Add the device to IoT Cloud
-2. Configure a Thing sketch
-3. Upload the sketch to the device
 
 ---
 
@@ -28,7 +22,7 @@ Connecting a new device to Arduino IoT Cloud consists of three steps:
 
 2. Click the **Add Device** button in the top-right or middle of the page.
 
-   ![Adding devices options in the IoT Cloud Devices tab](img/device-add-button.png)
+   ![The two location that the "Add Device" button can appear.](img/device-add-button.png)
 
 3. Select your device type:
 
@@ -44,7 +38,7 @@ Connecting a new device to Arduino IoT Cloud consists of three steps:
 
 5. When finished, your new device will be added to your list of devices.
 
-   ![Device added to IoT Cloud Devices tab](img/iot-device-added.png)
+   ![A MKR WiFi 1010 in the Device tab.](img/iot-device-added.png)
 
 <a id="create-thing"></a>
 
@@ -54,15 +48,15 @@ Connecting a new device to Arduino IoT Cloud consists of three steps:
 
 1. Open the [Things tab](https://create.arduino.cc/iot/things).
 
-2. Click  the **Create Thing** button in the top-right or middle of the page.
+2. Click **Create Thing**.
 
-   ![](img/iot-thing-create.png)
+   ![The two location that the "Create Thing" button can appear.](img/iot-thing-create.png)
 
 3. Configure **Variables**, **Device**, and **Network** for the new Thing:
 
-   ![](img/thing-setup-before.png)
+   ![A new, unconfigured Thing.](img/thing-setup-before.png)
 
-   1. Click the **Select Device** button and select your device.
+   1. Click the **Device selection** button and select your device.
 
    2. Click the **Network configure** button and enter the network credentials.
 
@@ -73,8 +67,7 @@ Connecting a new device to Arduino IoT Cloud consists of three steps:
 
    3. Click **Add variable** and add one variable with any settings.
 
-   ![](img/thing-setup-after.png)
-   <!-- TODO: Fix image -->
+   ![A Thing with an asociated device, network configuration, and added variable.](img/thing-setup-after.png)
 
 4. Your sketch will now be generated and can be viewed in the Sketch tab.
 
@@ -86,13 +79,13 @@ Connecting a new device to Arduino IoT Cloud consists of three steps:
 
 2. Click the **Upload button** and wait for the process to complete.
 
-   ![](img/iot-sketch-upload.png)
+   ![Uploading the Thing sketch.](img/iot-sketch-upload.png)
 
 3. When the upload is finished, go back to the Thing setup tab.
 
 4. After a short while, your device should come online. You may have to refresh the page.
 
-   ![](img/iot-device-online.png)
+   ![A thing in IoT Cloud. The associated device is online.](img/iot-device-online.png)
 
    > **Note:** Device status is not supported by the LoRa protocol, see [About device status in IoT Cloud](https://support.arduino.cc/hc/en-us/articles/4407169649682-About-device-status-in-IoT-Cloud).
 
@@ -100,4 +93,4 @@ Connecting a new device to Arduino IoT Cloud consists of three steps:
 
 ## Troubleshooting
 
-*
+See [If your device can't be added or won't connect to IoT Cloud](https://support.arduino.cc/hc/en-us/articles/360019355679-If-your-device-is-not-connecting-to-IoT-Cloud).
