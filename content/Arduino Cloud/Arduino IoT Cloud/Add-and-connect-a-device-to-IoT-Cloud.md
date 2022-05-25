@@ -44,7 +44,7 @@ Connecting a new device to Arduino IoT Cloud consists of three steps:
 
 5. When finished, your new device will be added to your list of devices.
 
-   ![](img/iot-device-added.png)
+   ![Device added to IoT Cloud Devices tab](img/iot-device-added.png)
 
 <a id="create-thing"></a>
 
