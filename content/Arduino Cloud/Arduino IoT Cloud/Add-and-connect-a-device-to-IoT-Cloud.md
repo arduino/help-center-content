@@ -54,7 +54,7 @@ Connecting a new device to Arduino IoT Cloud consists of three steps:
 
 1. Open the [Things tab](https://create.arduino.cc/iot/things).
 
-2. Click **Create Thing**.
+2. Click  the **Create Thing** button in the top-right or middle of the page.
 
    ![](img/iot-thing-create.png)
 
