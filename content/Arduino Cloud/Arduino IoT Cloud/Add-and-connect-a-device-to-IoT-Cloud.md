@@ -6,9 +6,11 @@ title: "Add and connect a device to IoT Cloud"
 
 Connecting a new device to Arduino IoT Cloud consists of three steps:
 
-1. [Add the device to IoT Cloud](#add-the-device).
-2. [Configure a Thing sketch](#create-thing)
-3. [Upload the sketch to the device](#upload-sketch)
+1. [Add the device to IoT Cloud](#add-the-device). Enables the device for use with Iot Cloud.
+2. [Configure the device as a Thing](#create-thing). This will generate a sketch that can be uploaded to the device, allowing it to connect to IoT Cloud.
+3. [Upload the sketch to the device](#upload-sketch). Upload the Thing sketch to the device.
+
+You'll need an Arduino account and the [Arduino Create Agent](https://support.arduino.cc/hc/en-us/articles/360014869820) installed and running on your computer.
 
 ---
 
@@ -18,7 +20,7 @@ Connecting a new device to Arduino IoT Cloud consists of three steps:
 
 ### Step 1: Add the device
 
-1. Open Arduino IoT Cloud and open the [Devices tab](https://create.arduino.cc/iot/devices).
+1. Go to Arduino IoT Cloud and open the [Devices tab](https://create.arduino.cc/iot/devices).
 
 2. Click the **Add Device** button in the top-right or middle of the page.
 
@@ -33,18 +35,16 @@ Connecting a new device to Arduino IoT Cloud consists of three steps:
 
 4. **Proceed with the instructions to add your device.**
 
-   * _ESP32 and ESP8266_: Make sure to save any Device ID and Secret key that's provided.
+   * _ESP32 and ESP8266:_ Make sure to save any Device ID and Secret key that's provided.
    * _LoRaWAN<sup>®</sup>:_ Make sure you select the [right frequency band for your region](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country/). When completing the setup you'll receive a registration email for your [The Things Stack Network Account](https://docs.arduino.cc/cloud/iot-cloud/tutorials/cloud-lora-getting-started#step-2-registering-the-things-stack-network-account).
 
-5. When finished, your new device will be added to your list of devices.
+5. When finished, your new device will be added to your list of devices. Note that it will have an _offline_ status at this point.
 
    ![A MKR WiFi 1010 in the Device tab.](img/iot-device-added.png)
 
 <a id="create-thing"></a>
 
 ### Step 2: Create and configure a Thing
-
-<!-- The network parameters will be written to the `thingProperties.h` and `Secret` sketch files. But a sketch is only generated when a variable is added, so we'll do that first. -->
 
 1. Open the [Things tab](https://create.arduino.cc/iot/things).
 
@@ -56,16 +56,16 @@ Connecting a new device to Arduino IoT Cloud consists of three steps:
 
    ![A new, unconfigured Thing.](img/thing-setup-before.png)
 
-   1. Click the **Device selection** button and select your device.
+   1. Click **Add variable** and add one variable with any settings.
 
-   2. Click the **Network configure** button and enter the network credentials.
+   2. Click the **Device selection** button and select your device.
+
+   3. Click the **Network configure** button and enter the network credentials.
 
       * _Wi-Fi:_ Enter your Wi-Fi name (SSID) and password (encryption key).
-      * _Arduino SIM_: [Use these credentials](https://support.arduino.cc/hc/en-us/articles/360013825159-What-are-the-credentials-for-the-Arduino-SIM-card).
+      * _Arduino SIM:_ [Use these credentials](https://support.arduino.cc/hc/en-us/articles/360013825159-What-are-the-credentials-for-the-Arduino-SIM-card).
       * _Arduino with LoRa<sup>®</sup>:_ The credentials are added automatically.
-      * _ESP32 and ESP8266_: Enter the secret key that was provided when adding the device.
-
-   3. Click **Add variable** and add one variable with any settings.
+      * _ESP32 and ESP8266:_ Enter the secret key that was provided when adding the device.
 
    ![A Thing with an asociated device, network configuration, and added variable.](img/thing-setup-after.png)
 
