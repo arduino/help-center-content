@@ -6,7 +6,7 @@ title: "What devices can be used with Arduino IoT Cloud?"
 
 ---
 
-## Arduino boards
+## Arduino devices
 
 The following Arduino boards can be used with IoT Cloud:
 
@@ -24,12 +24,12 @@ The following Arduino boards can be used with IoT Cloud:
 
 ---
 
-## Third-party boards
+## Third-party devices
 
-Supported third-party boards can also be used:
+Supported third-party devices can also be used:
 
-* A wide range of Wi-fi enabled ESP32 and ESP8266 based devices. You'll get a full list of options when [adding a third party device](https://support.arduino.cc/hc/en-us/articles/360016466180).
-* LoRa® devices
+* A wide range of Wi-fi enabled ESP32 and ESP8266 based devices. For a list of supported models, go to the [Devices tab in IoT Cloud](https://create.arduino.cc/iot/devices) and click **"Add"**. Then click **Set up a 3rd Party device** and open the **Select model** dropdown for ESP32 or ESP8266.
+* LoRaWAN® devices
 
 ---
 
