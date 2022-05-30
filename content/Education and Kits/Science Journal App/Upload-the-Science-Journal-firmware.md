@@ -37,7 +37,7 @@ Boards supported by the Science Journal App require special firmware to connect.
 
 > Compilation for the Nano 33 BLE Sense may take several minutes, and the console will not print any messages during this time.
 
-When the upload is completed you can [connect your board to the Science Journal app](https://arduino.zendesk.com/knowledge/articles/4407749620370).
+When the upload is completed you can [connect your board to the Science Journal app](https://support.arduino.cc/hc/en-us/articles/4407749620370).
 
 ---
 
