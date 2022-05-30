@@ -76,7 +76,7 @@ Find and install the libraries by using the Library Manager (`Tools > Manage Lib
 
 > Compilation for the Nano 33 BLE Sense may take several minutes, and the console will not print any messages during this time. In IDE 1.8, you can monitor the progress bar in the console's top-right corner.
 
-When the upload is completed you can [connect your board to the Science Journal app](https://arduino.zendesk.com/knowledge/articles/4407749620370).
+When the upload is completed you can [connect your board to the Science Journal app](https://support.arduino.cc/hc/en-us/articles/4407749620370).
 
 ### Troubleshooting
 
