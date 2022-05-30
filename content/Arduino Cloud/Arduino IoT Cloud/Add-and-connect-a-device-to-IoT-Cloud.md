@@ -6,7 +6,7 @@ title: "Add and connect a device to IoT Cloud"
 
 Connecting a new device to Arduino IoT Cloud consists of three steps:
 
-1. [Add the device to IoT Cloud](#add-the-device). Enables the device for use with Iot Cloud.
+1. [Add the device to IoT Cloud](#add-the-device). Enables the device for use with IoT Cloud.
 2. [Configure the device as a Thing](#create-thing). This will generate a sketch that can be uploaded to the device, allowing it to connect to IoT Cloud.
 3. [Upload the sketch to the device](#upload-sketch). Upload the Thing sketch to the device.
 
