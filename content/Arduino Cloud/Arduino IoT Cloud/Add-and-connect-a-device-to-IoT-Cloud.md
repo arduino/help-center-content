@@ -58,16 +58,16 @@ Connecting a new device to Arduino IoT Cloud consists of three steps:
 
    1. Click the **Device selection** button and select your device.
 
-   2. Click the **Network configure** button and enter the network credentials.
+   2. Click **Add variable** and add one variable with any settings.
+
+   ![A Thing with an asociated device, network configuration, and added variable.](img/thing-setup-after.png)
+
+   3. Click the **Network configure** button and enter the network credentials.
 
       * _Wi-Fi:_ Enter your Wi-Fi name (SSID) and password (encryption key).
       * _Arduino SIM_: [Use these credentials](https://support.arduino.cc/hc/en-us/articles/360013825159-What-are-the-credentials-for-the-Arduino-SIM-card).
       _Arduino with LoRa<sup>®</sup>:_ The credentials are added automatically.
       * _ESP32 and ESP8266_: Enter the secret key that was provided when adding the device.
-
-   3. Click **Add variable** and add one variable with any settings.
-
-   ![A Thing with an asociated device, network configuration, and added variable.](img/thing-setup-after.png)
 
 4. Your sketch will now be generated and can be viewed in the Sketch tab.
 
