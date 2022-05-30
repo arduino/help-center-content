@@ -30,7 +30,7 @@ Use the included uninstaller to remove the Create Agent from your computer.
 
 ## Linux
 
-1. Open the `home/ubuntu/ArduinoCreateAgent`.
+1. Open the `home/{username}/ArduinoCreateAgent`.
 
 2. Double-click on the `uninstall` file and follow the instructions.
 
