@@ -6,9 +6,11 @@ jobs:
   check-external-links:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+    - uses: actions/checkout@v3
 
-      - name: Check links
-        uses: lycheeverse/lychee-action@v1.5.0
-        with:
-          fail: true
+    - name: Check external links
+      run: |
+          curl -LO 'https://github.com/lycheeverse/lychee/releases/download/v0.10.0/lychee-v0.10.0-x86_64-unknown-linux-gnu.tar.gz'
+          tar -xvzf lychee-v0.10.0-x86_64-unknown-linux-gnu.tar.gz
+          chmod +x lychee
+          ./lychee "content/*/*/*.md" --no-progress --verbose --require-https --exclude "img/*"
