@@ -1,0 +1,14 @@
+name: Maintenance
+
+on: workflow_dispatch
+
+jobs:
+  check-external-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v1.5.0
+        with:
+          args: './content/*/*/*.md' --no-progress --verbose --require-https --exclude './*/*/img/*'
