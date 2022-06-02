@@ -13,4 +13,4 @@ jobs:
           curl -LO 'https://github.com/lycheeverse/lychee/releases/download/v0.10.0/lychee-v0.10.0-x86_64-unknown-linux-gnu.tar.gz'
           tar -xvzf lychee-v0.10.0-x86_64-unknown-linux-gnu.tar.gz
           chmod +x lychee
-          ./lychee "content/*/*/*.md" --no-progress --verbose --require-https --exclude "img/*" --format markdown --output $GITHUB_STEP_SUMMARY
+          ./lychee "content/*/*/*.md" --no-progress --verbose --require-https --exclude "img/*" "https://support.arduino.cc/hc/en-us/articles/*" --format markdown --output $GITHUB_STEP_SUMMARY
