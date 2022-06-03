@@ -12,7 +12,7 @@ Key points to check before performing the Sara Module test:
 * Please double check that your sim card is not locked with PUK number. To verify it, insert the sim card in your mobile and unlock it with a PUK number provided by an operator.
 * Keep the 4 digit PIN number of your NB-IoT sim card.
 * Connect the LiPo battery and an antenna to the NB 1500 board.
-* Make sure you have selected the **preferred RAT of the SIM card you are using**. You can check how to do it [here](https://github.com/charlesbones/HC/blob/master/Hardware/Boards/How_to_change_the_Radio_Access_Technology_-RAT-_on_MKR_NB_1500.md#how-to-change-the-radio-access-technology-rat-on-mkr-nb-1500).
+* Make sure you have selected the **preferred RAT of the SIM card you are using**. You can check how to do it [here](https://support.arduino.cc/hc/en-us/articles/360014776540-How-to-change-the-Radio-Access-Technology-RAT-on-MKR-NB-1500s).
 
 ## Steps
 

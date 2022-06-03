@@ -26,7 +26,7 @@ Now you have to execute the **passwd** command to change the password. Type `pas
 
 #### Checkpoint
 
-Login to Arduino Yún webpanel and test the new password. Remember that when you first power on the Yún, it will create a Wi-Fi network called ArduinoYun-XXXXXXXXXXXX. Connect your computer to this network, open a web browser, and enter <http://arduino.local> or 192.168.240.1 and login with your new credentials.
+Login to Arduino Yún webpanel and test the new password. Remember that when you first power on the Yún, it will create a Wi-Fi network called ArduinoYun-XXXXXXXXXXXX. Connect your computer to this network, open a web browser, and enter `http://arduino.local` or 192.168.240.1 and login with your new credentials.
 
 ![](img/how_to_reset_a_yun_password_3.png)
 
