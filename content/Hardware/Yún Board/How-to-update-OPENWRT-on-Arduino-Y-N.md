@@ -14,7 +14,7 @@ Updating the OpenWrt-Yun image will cause the loss of all files and configuratio
 
 ### Step 1: Upgrading Using the Web Panel
 
-Make sure the Yún and your computer are on the same network, and open a browser. Connect to the Yún's web panel page by entering the IP address or the name you gave to the board in the browser. With the default name you reach the Yún at <http://arduino.local>.
+Make sure the Yún and your computer are on the same network, and open a browser. Connect to the Yún's web panel page by entering the IP address or the name you gave to the board in the browser. With the default name you reach the Yún at `http://arduino.local`.
 
 Once logged in, on the first page with the network information, scroll to the bottom, where you should see a notification informing you that a file containing an upgrade image has been found.
 

@@ -8,7 +8,7 @@ The [Arduino Oplà IoT Kit](https://store.arduino.cc/opla-iot-kit) comes with 12
 
 ---
 
-1. Go to the [Cloud store page](https://cloud.arduino.cc/plans).
+1. Go to the [Cloud store page](https://www.arduino.cc/cloud/plans).
 
 2. In the _For individuals_ tab, select the **BILLED MONTHLY** option.
 

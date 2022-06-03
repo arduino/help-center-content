@@ -18,4 +18,4 @@ If you have exceeded the limit on Cloud-enabled Linux devices, you will be unabl
 
 ## Other features
 
-For a feature comparison, visit the [Digital Store](https://cloud.arduino.cc/plans).
+For a feature comparison, visit the [Digital Store](https://www.arduino.cc/cloud/plans).

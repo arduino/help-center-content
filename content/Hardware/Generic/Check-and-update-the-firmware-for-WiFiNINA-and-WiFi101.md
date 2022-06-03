@@ -27,7 +27,7 @@ We can check the current firmware version by uploading a sketch to the board tha
 
 1. Connect the board to your computer and start Arduino IDE.
 
-2. The **WiFiNINA** or **WiFi101** library needs to be installed, depending on the module. Open the Library Manager (_Tools > Manage Libraries..._) and make sure it's installed. For help with library installation, see [this guide](https://www.arduino.cc/en/guide/libraries).
+2. The **WiFiNINA** or **WiFi101** library needs to be installed, depending on the module. Open the Library Manager (_Tools > Manage Libraries..._) and make sure it's installed. For help with library installation, see [this guide](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries).
 
 3. With the library installed, open the firmware checking sketch:
 

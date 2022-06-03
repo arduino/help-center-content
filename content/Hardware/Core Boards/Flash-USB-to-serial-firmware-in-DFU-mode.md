@@ -32,7 +32,7 @@ Within the platform directory, the usb to serial firmware is found in `firmwares
 
 ### Using dfu-programmer (macOS/Linux)
 
-1. Download **dfu-programmer** from the [project website](https://dfu-programmer.sourceforge.io/) or install the `dfu-programmer` package using a package manager like [homebrew](https://brew.sh/index) (macOS) or [apt-get](http://manpages.ubuntu.com/manpages/cosmic/man8/apt-get.8.html) (Ubuntu).
+1. Download **dfu-programmer** from the [project website](https://dfu-programmer.sourceforge.io/) or install the `dfu-programmer` package using a package manager like [homebrew](https://brew.sh/index) (macOS) or [apt-get](https://manpages.ubuntu.com/manpages/kinetic/en/man8/apt-get.8.html) (Ubuntu).
 
 2. Connect the board to your computer.
 

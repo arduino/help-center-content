@@ -5,7 +5,7 @@ title: "What boards can use the Arduino low power library?"
 The [Arduino low power library](https://www.arduino.cc/en/Reference/ArduinoLowPower) is compatible with NRF52 and SAMD21 architecture boards, so it can be used by the following:
 
 * [MKR ZERO](https://store.arduino.cc/arduino-mkr-zero-i2s-bus-sd-for-sound-music-digital-audio-data)
-* [MKR1000 WIFI](https://store.arduino.cc/arduino-mkr1000-wifi-with-headers-mounted)
+* [MKR1000 WIFI](https://docs.arduino.cc/hardware/mkr-1000-wifi)
 * [MKR FOX 1200](https://store.arduino.cc/arduino-mkr-fox-1200-1408)
 * [MKR WAN 1300](https://store.arduino.cc/arduino-mkr-wan-1300-lora-connectivity-1414)
 * [MKR WAN 1310](https://store.arduino.cc/mkr-wan-1310)
