@@ -10,9 +10,14 @@ To mitigate potentially phishing campaigns and to protect our community and user
 * Make sure that you have not black listed the emails outside from your organization.
 * In **Apple log-in**'s case, we advise to use the `share my email` option to be able to receive important communication in your inbox folder (order confirmation & tracking, account activation, etc).
 
-If you still don't get our emails, please escalate your case to the Arduino [support](https://www.arduino.cc/en/contact-us) team, providing the type of log in you use (username-password, Apple log-in or Google log-in) and listing the topics of the emails you believe are missing so we can re-send them to you or provide you with your missing information.
+---
 
-> Follow the steps below to check the status of your order(s):
-> 1. Sign in to the [Arduino Store](https://store.arduino.cc/)
-> 2. Go to you profile in the top-right corner
-> 3. Click on Order History in the left menu
+## Still need help?
+
+* If you still don't get our emails, please escalate your case to the Arduino [support](https://www.arduino.cc/en/contact-us) team, providing the type of log in you use (username-password, Apple log-in or Google log-in) and listing the topics of the emails you believe are missing so we can re-send them to you or provide you with your missing information.
+
+* Follow the steps below to check the status of your order(s):
+
+  1. Sign in to the [Arduino Store](https://store.arduino.cc/)
+  2. Go to you profile in the top-right corner
+  3. Click on Order History in the left menu
