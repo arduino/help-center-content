@@ -21,7 +21,7 @@ Arduino Cloud uses its own agent to be the middle man between Arduino's Web Edit
 
    ![](img/create-agent-install-correctly.png)
 
-4. Start using the [Web Editor](https://create.arduino.cc/editor) and [IoT Cloud](https://create.arduino.cc/iot/things)!
+4. Start using the [Web Editor](https://create.arduino.cc/editor) and [IoT Cloud](https://cloud.arduino.cc/iot/things)!
 
 ## Troubleshooting
 
