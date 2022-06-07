@@ -19,7 +19,7 @@ There are two ways to sign up for an account:
 
    ![The sign in button on arduino.cc](img/arduino-cc-sign-in-button.png)
 
-   > If another account is signed in, click the ![](img/symbol_profile.png) profile button and select 'Sign Out' first.
+   > If another account is signed in, click the ![Profile icon](img/symbol_profile.png) profile button and select 'Sign Out' first.
 
 2. Below the **Sign In** button, find the text "Don't have an account yet?", and click on **Create one** to proceed.
 
@@ -61,9 +61,9 @@ Alternatively, you can sign in using an identity provider such as Google or Face
 
 1. Go to [arduino.cc](https://www.arduino.cc/) and click Sign In in the top-right to open the [sign-in page](https://login.arduino.cc/login).
 
-   > If another account is signed in, click the ![](img/symbol_profile.png) profile button and select 'Sign Out'.
+   > If another account is signed in, click the ![Profile icon](img/symbol_profile.png) profile button and select 'Sign Out'.
 
-   ![](img/arduino-cc-sign-in-button.png)
+   ![Sign-in button highlighted](img/arduino-cc-sign-in-button.png)
 
 2. Select one of the SSO options.
 

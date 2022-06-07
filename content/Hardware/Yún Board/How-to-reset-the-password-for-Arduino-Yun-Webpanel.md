@@ -12,13 +12,13 @@ This quick tutorial will show you how to reset the **Webpanel** password of your
 
 Find **YunSerialTerminal** sketch in the Arduino IDE under _File > Examples > Bridge > YunSerialTerminal_.
 
-![](img/how_to_reset_a_yun_password_2.png)
+![IDE with Examples > Bridge > YunSerialTerminal selected in the File menu](img/how_to_reset_a_yun_password_2.png)
 
 ### Step 1: Open the serial monitor
 
 Once upload is complete open the serial monitor, select **Newline** and **115200** baud in the dropdown menu at the bottom of the serial window. Press _Enter_ to activate the console and `root@YUN:/#` should appear in your serial monitor:
 
-![](img/how_to_reset_arduino_yun_password_1.png)
+![Serial Monitor with input box highlighted](img/how_to_reset_arduino_yun_password_1.png)
 
 ### Step 2: Execute the 'passwd' command
 
@@ -28,11 +28,11 @@ Now you have to execute the **passwd** command to change the password. Type `pas
 
 Login to Arduino Yún webpanel and test the new password. Remember that when you first power on the Yún, it will create a Wi-Fi network called ArduinoYun-XXXXXXXXXXXX. Connect your computer to this network, open a web browser, and enter `http://arduino.local` or 192.168.240.1 and login with your new credentials.
 
-![](img/how_to_reset_a_yun_password_3.png)
+![Arduino Yún web portal log-in page](img/how_to_reset_a_yun_password_3.png)
 
 Once logged in, the Webpanel also allows you to set a new password, but this way requires the previous password and to connect the Yún to the same network as your PC.
 
-![](img/how_to_reset_a_yun_password_4.png)
+![Yún Board and wireless configuration section in the Yún web portal](img/how_to_reset_a_yun_password_4.png)
 
 ## Alternative way
 

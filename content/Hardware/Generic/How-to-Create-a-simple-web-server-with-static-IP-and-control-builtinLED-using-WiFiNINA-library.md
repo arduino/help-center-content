@@ -49,4 +49,4 @@ This tutorial is about making a web server with static IP, using the web server 
 
 10. Once you paste the link in the browser you will get a page that looks like the one in the image, where you can control the state of the built-in LED.
 
-    ![](img/NinaStaticIP.png)
+    ![Page with hypertext for controlling the state of the built-in LED](img/NinaStaticIP.png)

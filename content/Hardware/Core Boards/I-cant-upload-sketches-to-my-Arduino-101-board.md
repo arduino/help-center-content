@@ -20,15 +20,15 @@ To solve this issue, press the HARD RESET button when asked to in the bottom con
 
 1. Upload the sketch and read the output bottom console area (If the port is grayed out, upload the sketch without selecting the port).
 
-    ![](img/101_hard_reset.png)
+    !["Try pressing MASTER_RESET button" message written in the console](img/101_hard_reset.png)
 
 2. Locate the HARD RESET button between the USB outlet and the power outlet. Press when asked to in the console area.
 
-    ![](img/101_hard_reset_button.png)
+    ![Arduino 101 board with reset button highlighted](img/101_hard_reset_button.png)
 
 3. The sketch should upload successfully and "Done uploading" will be shown in the teal area above the output console.
 
-    ![](img/101_hard_reset_success.png)
+    !["SUCCESS: Sketch will execute in about 5 seconds" message written in the console](img/101_hard_reset_success.png)
 
 ### Solution 2: Install the drivers manually
 
@@ -47,7 +47,7 @@ To check this, install the drivers manually again after installing it from the b
 
    When finished, the Installation Wizard should say *The drivers were successfully installed on this computer* followed by three green checks.
 
-   ![](img/101_installation_success.png)
+   ![Driver Installation Wizard](img/101_installation_success.png)
 
    After successfully installing the drivers manually, you still might have to go through the HARD RESET procedure above for the first upload.
 

@@ -28,7 +28,7 @@ Flash the Arduino Pro Gateway image to a microSD card using balenaEtcher.
 
 6. Finally, select **Flash** and wait for the process to complete.
 
-   ![](img/balenaEtcher_flash-from-URL_complete.png)
+   ![Flash complete message in balenaEtcher](img/balenaEtcher_flash-from-URL_complete.png)
 
 If your Pro Gateway was already activated in Manager for Linux, follow these steps to reactivate the gateway:
 

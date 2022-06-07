@@ -118,14 +118,14 @@ Next we'll flash the drivers using FLIP.
 
 2. Right-click and select **Update driver**.
 
-   ![](img/atmel-device-manager-update-driver-1.png)
+   ![Device manager window with "Update driver" selected in menu](img/atmel-device-manager-update-driver-1.png)
 
 3. Point to `C:\Program Files (x86)\Atmel\Flip 3.4.7`
 
 4. Click 'Install' and wait for the installation to complete.
 
-   ![](img/atmel-device-manager-update-driver-2.png)
+   ![Windows Security pop-up](img/atmel-device-manager-update-driver-2.png)
 
 5. The device should now be recognized, under 'libusb-win32-devices'
 
-   ![](img/atmel-device-manager-update-driver-3.png)
+   ![Device manager with "ATmega16U2" selected](img/atmel-device-manager-update-driver-3.png)

@@ -18,7 +18,7 @@ Key points to check before performing the Sara Module test:
 
 1. Go to `File > Examples > MKRNB > Tools > SerialSarapassThrough` and upload the sketch.
 
-   ![](img/MKRNB_SerialSaraPassthroughExample.png)
+   ![IDE with Examples > MKRNB > Tools > SerialSarapassThrough selected in File menu](img/MKRNB_SerialSaraPassthroughExample.png)
 
 2. Open the Serial monitor and send the following AT commands in the input box and press SEND.
    * AT
@@ -27,4 +27,4 @@ Key points to check before performing the Sara Module test:
 
    The output will show an “OK” confirmation which depicts that the “Sara module” is working properly. For the LTE CAT M1 network, set +URAT=7 whereas +URAT=8 for the NB-IoT network only.
 
-   ![](img/SaraTest4.png)
+   ![Serial Monitor with input box and Send button highlighted](img/SaraTest4.png)

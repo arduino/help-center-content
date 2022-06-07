@@ -12,11 +12,11 @@ The [Arduino Oplà IoT Kit](https://store.arduino.cc/opla-iot-kit) comes with 12
 
 2. In the _For individuals_ tab, select the **BILLED MONTHLY** option.
 
-   ![](img/opla-plan-select-monthly.png)
+   ![Cloud store page showing "For individuals" tab selected and "Billed Monthly" option highlighted](img/opla-plan-select-monthly.png)
 
 3. In the Maker plan column, click PURCHASE.
 
-   ![](img/opla-plan-select-maker.png)
+   ![Cloud store page showing "Purchase" button highlighted in the "Maker" column](img/opla-plan-select-maker.png)
 
 4. If you are not logged into your Arduino account, you will be taken to the login page. **Before proceeding, make sure you are logged into the account you want the code redeemed with.**
 

@@ -4,13 +4,13 @@ title: "Upload a sketch in Arduino IDE"
 
 > Board-specific quickstart guides are available in [Arduino Docs](https://docs.arduino.cc/).
 >
-> [![](img/arduino-docs-quickstart.png)](https://docs.arduino.cc/)
+> [![Arduino Docs welcome page](img/arduino-docs-quickstart.png)](https://docs.arduino.cc/)
 
 ## 1. Open Arduino IDE
 
 If you haven't done so already, download Arduino IDE from the [software page](https://www.arduino.cc/en/software). You can find [installation instructions here](https://support.arduino.cc/hc/en-us/articles/360019833020).
 
-![](img/ide1.png)
+![Arduino IDE](img/ide1.png)
 
 ## 2. Connect the board to your computer
 
@@ -29,11 +29,11 @@ The most common USB connector is USB-A, but newer laptop computers may only have
 >
 > In IDE 1, click _Install this package_:
 >
-> ![](img/ide1-board-install-prompt.png)
+> !["Install this package" hypertext message highlighted](img/ide1-board-install-prompt.png)
 >
 > In IDE 2, click _Yes_.
 >
-> ![](img/ide2-board-install-prompt.png)
+> !["Yes" button highlighted in pop-up](img/ide2-board-install-prompt.png)
 
 ## 3. Select board
 

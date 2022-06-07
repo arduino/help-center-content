@@ -46,7 +46,7 @@ You can review, change or cancel your Arduino Cloud plan at any time:
 
 4. Select your plan and billing frequency. You can switch to any plan you like, except the one that's currently active with your account.
 
-   ![](img/modify-plan.png)
+   !["Monthly" and "Maker Plus" options selected in the "Modify plan" page](img/modify-plan.png)
 
 5. Click REVIEW PAYMENT INFORMATION to continue.
 

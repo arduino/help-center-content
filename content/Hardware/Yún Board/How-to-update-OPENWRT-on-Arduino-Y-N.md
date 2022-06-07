@@ -20,10 +20,10 @@ Once logged in, on the first page with the network information, scroll to the bo
 
 If you want to proceed resetting the Yún, click the red RESET button at the very bottom of the page.
 
-![](img/How_to_update_openwrt_on_yun_0.png)
+![Arduino Yún web portal](img/How_to_update_openwrt_on_yun_0.png)
 
 The process of upgrading the Yún will take around 3 minutes. During this time the WLAN led will flash until the process has been completed.
 
-![](img/How_to_update_openwrt_on_yun_1.png)
+!["Wait until the WLAN led stops blinking" message in Arduino's Yún web portal](img/How_to_update_openwrt_on_yun_1.png)
 
 While you are upgrading the image you can't use the Yún

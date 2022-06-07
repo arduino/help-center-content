@@ -42,7 +42,7 @@ The junior account will be created and added to the Junior Accounts section.
 
    ![The sign in button on arduino.cc](img/arduino-cc-sign-in-button.png)
 
-   > If another account is signed in, click the ![](img/symbol_profile.png) profile button and select 'Sign Out' first.
+   > If another account is signed in, click the ![Profile icon](img/symbol_profile.png) profile button and select 'Sign Out' first.
 
 2. Below the **Sign In** button, find the text "Don't have an account yet?", and click on **Create one** to proceed.
 

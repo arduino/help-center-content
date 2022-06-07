@@ -4,7 +4,7 @@ title: "The Arduino board shows a red cross"
 
 If you are trying to connect your Arduino board to the Arduino Web Editor and you find a red cross near your device, it means that the Web Editor is not detecting the board as connected to your computer.
 
-![](img/Chrome_App_Red_Cross.png)
+![Arduino Web Editor showing "Serial port unavailable" message](img/Chrome_App_Red_Cross.png)
 
 First of all, please check that the board chosen corresponds with the one connected and the port selected.
 
