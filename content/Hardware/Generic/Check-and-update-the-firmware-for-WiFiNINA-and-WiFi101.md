@@ -90,7 +90,7 @@ The firmware can also be managed in Arduino IoT Cloud.
 
 ### Check the firmware version
 
-1. Open the [Device tab](https://create.arduino.cc/iot/devices).
+1. Open the [Device tab](https://cloud.arduino.cc/iot/devices).
 
 2. Click the row with your device.
 
@@ -102,7 +102,7 @@ The firmware can also be managed in Arduino IoT Cloud.
 
 If a new firmware is released for a device added to IoT Cloud:
 
-1. Open the [Device tab](https://create.arduino.cc/iot/devices).
+1. Open the [Device tab](https://cloud.arduino.cc/iot/devices).
 
 2. Click the row with your device.
 
@@ -114,7 +114,7 @@ Alternatively, you can remove and add the device again. When adding the device t
 
 1. Connect the board to your computer and make sure the Serial Monitor is not open.
 
-2. Open the [Device tab in Arduino IoT Cloud](https://create.arduino.cc/iot/devices).
+2. Open the [Device tab in Arduino IoT Cloud](https://cloud.arduino.cc/iot/devices).
 
 3. Remove the device if it's been previously added by clicking the three dots, then _Remove_.
 

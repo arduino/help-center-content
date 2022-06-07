@@ -1,0 +1,18 @@
+name: Maintenance
+
+on: workflow_dispatch
+
+jobs:
+  check-external-links:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Check external links
+      run: |
+          curl -LO 'https://github.com/lycheeverse/lychee/releases/download/v0.10.0/lychee-v0.10.0-x86_64-unknown-linux-gnu.tar.gz'
+          tar -xvzf lychee-v0.10.0-x86_64-unknown-linux-gnu.tar.gz
+          chmod +x lychee
+          ./lychee "content/*/*/*.md" --no-progress --verbose --require-https --exclude "https://cloud.arduino.cc/iot/*" "https://www.arduino.cc/cloud/plans"
+      env:
+        CLICOLOR_FORCE: 1
