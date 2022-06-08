@@ -6,7 +6,7 @@ This quick guide will show you different ways to modify your Arduino SIM card su
 
 ## Steps
 
-1. Go to [arduino.cc](arduino.cc) website and click 'SIGN IN' on the top right corner icon if you haven't done so yet. Make sure you login with the same Arduino credentials you used to register the subscription.
+1. Go to [arduino.cc](https://www.arduino.cc/) and click 'SIGN IN' on the top right corner icon if you haven't done so yet. Make sure you login with the same Arduino credentials you used to register the subscription.
 
 2. Once logged in, go to your [Arduino Cloud Subscription Plans](https://store.arduino.cc/digital/subscriptions/plans). There you will find all different plans you are subscribed to. Scroll down until you find you *SIM Plan*.
 

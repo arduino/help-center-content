@@ -19,7 +19,7 @@ Boards with the **WiFiNINA** module:
 
 Boards with the **WiFi101** module:
 
-* [Arduino MKR1000](https://store.arduino.cc/arduino-mkr1000-wifi)
+* [Arduino MKR1000](https://docs.arduino.cc/hardware/mkr-1000-wifi)
 
 ### Check the firmware version
 

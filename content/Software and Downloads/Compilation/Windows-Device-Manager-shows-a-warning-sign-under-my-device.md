@@ -42,4 +42,4 @@ Make sure your USB cable is suitable for data communication. Some USB cables onl
 
 Check that your Arduino IDE version is the latest. You can download it here in case you need it: [Arduino IDE](https://www.arduino.cc/en/Main/Software).
 
-If you have gone through all this checks and the warning sign on device manager remains preventing the board to be recognized by the PC we advice you to contact [Technical Support](https://store.arduino.cc/usa/store-support).
+If you have gone through all this checks and the warning sign on device manager remains preventing the board to be recognized by the PC we advice you to contact [Technical Support](https://www.arduino.cc/en/contact-us/).

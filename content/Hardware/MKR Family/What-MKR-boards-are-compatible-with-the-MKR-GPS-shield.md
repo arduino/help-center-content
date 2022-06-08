@@ -6,7 +6,7 @@ The [MKR GPS shield](https://store.arduino.cc/arduino-mkr-gps-shield) adds GPS c
 
 * [MKR ZERO](https://store.arduino.cc/arduino-mkr-zero-i2s-bus-sd-for-sound-music-digital-audio-data)
 * [MKR1000 WIFI](https://store.arduino.cc/arduino-mkr-wifi-1010)
-* [MKR FOX 1200](https://store.arduino.cc/arduino-mkr-fox-1200-1408)
+* [MKR FOX 1200](https://docs.arduino.cc/hardware/mkr-fox-1200)
 * [MKR WAN 1300](https://store.arduino.cc/arduino-mkr-wan-1300-lora-connectivity-1414)
 * [MKR WAN 1310](https://store.arduino.cc/mkr-wan-1310)
 * [MKR NB 1500](https://store.arduino.cc/arduino-mkr-nb-1500-1413)
