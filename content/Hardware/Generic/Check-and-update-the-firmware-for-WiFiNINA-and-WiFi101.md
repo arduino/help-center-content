@@ -19,7 +19,7 @@ Boards with the **WiFiNINA** module:
 
 Boards with the **WiFi101** module:
 
-* [Arduino MKR1000](https://store.arduino.cc/arduino-mkr1000-wifi)
+* [Arduino MKR1000](https://docs.arduino.cc/hardware/mkr-1000-wifi)
 
 ### Check the firmware version
 
@@ -27,7 +27,7 @@ We can check the current firmware version by uploading a sketch to the board tha
 
 1. Connect the board to your computer and start Arduino IDE.
 
-2. The **WiFiNINA** or **WiFi101** library needs to be installed, depending on the module. Open the Library Manager (_Tools > Manage Libraries..._) and make sure it's installed. For help with library installation, see [this guide](https://www.arduino.cc/en/guide/libraries).
+2. The **WiFiNINA** or **WiFi101** library needs to be installed, depending on the module. Open the Library Manager (_Tools > Manage Libraries..._) and make sure it's installed. For help with library installation, see [this guide](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries).
 
 3. With the library installed, open the firmware checking sketch:
 
@@ -90,7 +90,7 @@ The firmware can also be managed in Arduino IoT Cloud.
 
 ### Check the firmware version
 
-1. Open the [Device tab](https://create.arduino.cc/iot/devices).
+1. Open the [Device tab](https://cloud.arduino.cc/iot/devices).
 
 2. Click the row with your device.
 
@@ -102,7 +102,7 @@ The firmware can also be managed in Arduino IoT Cloud.
 
 If a new firmware is released for a device added to IoT Cloud:
 
-1. Open the [Device tab](https://create.arduino.cc/iot/devices).
+1. Open the [Device tab](https://cloud.arduino.cc/iot/devices).
 
 2. Click the row with your device.
 
@@ -114,7 +114,7 @@ Alternatively, you can remove and add the device again. When adding the device t
 
 1. Connect the board to your computer and make sure the Serial Monitor is not open.
 
-2. Open the [Device tab in Arduino IoT Cloud](https://create.arduino.cc/iot/devices).
+2. Open the [Device tab in Arduino IoT Cloud](https://cloud.arduino.cc/iot/devices).
 
 3. Remove the device if it's been previously added by clicking the three dots, then _Remove_.
 

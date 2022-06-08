@@ -22,10 +22,10 @@ Connect the 12 V output to the **B (Battery)** and **GND (Ground)** pins of the 
 
 You can use a 12 V power supply/adaptor or a 12 V lead-acid battery.
 
-![](img/how_to_power_edge1.png)
+![Schematic with B (Battery) and GND (Ground) pins highlighted](img/how_to_power_edge1.png)
 
 ### Using a solar panel
 
 An 18 V solar panel can be connected to power the board and/or charge the lead-acid battery. Use the **S (Solar)** and **GND (Ground)** pins to connect the solar panel to the board.
 
-![](img/how_to_power_edge2.png)
+![Schematic with S (Solar) and GND (Ground) pins highlighted](img/how_to_power_edge2.png)

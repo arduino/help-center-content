@@ -12,16 +12,16 @@ It is always recommended to save your one-time recovery code while activating th
 
 2. Once you are signed in, click on the top right of the signed-in account icon and select the `PROFILE` tab.
 
-   ![](img/arduino-cc-profile-button.png)
+   ![Profile icon](img/arduino-cc-profile-button.png)
 
 3. Click on `DISABLE` to deactivate your 2 step authentication security from the Arduino account.
 
-   ![](img/2factorAuth1.png)
+   ![Security section highlighted in the profile page](img/2factorAuth1.png)
 
 4. For the security confirmation, we will send you a email with the Arduino two factor authentication deactivation link.
 
-   ![](img/2factorAuth2.png)
+   !["Disable Arduino 2-step verification" email containing deactivation link](img/2factorAuth2.png)
 
 5. After clicking on this link, your Arduino account 2 factor authentication security is disabled.
 
-   ![](img/2factorAuth3.png)
+   !["The Two Factor authentication has been successfully disabled" written in profile page](img/2factorAuth3.png)

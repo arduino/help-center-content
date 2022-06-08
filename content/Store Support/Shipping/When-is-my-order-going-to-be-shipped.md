@@ -7,5 +7,5 @@ At the checkout, the exact delivery date does not include the extra processing d
 
 You can see the our order processing method:
 
-* [For the US store](https://store.arduino.cc/usa/shipping-policy)
-* [For the EU store](https://store.arduino.cc/shipping-policy)
+* [For the US store](https://store-usa.arduino.cc/pages/shipping-policy)
+* [For the EU store](https://store.arduino.cc/pages/shipping-policy)

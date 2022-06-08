@@ -25,8 +25,8 @@ To check whether the board is being recognized as a device, follow these steps:
 
 Continue with the following steps depending on the result:
 
-* [No device was detected](no-device-recognized)
-* [Incorrect device detected](device-recognized)
+* [No device was detected](#no-device-recognized)
+* [Incorrect device detected](#device-recognized)
 
 ---
 
