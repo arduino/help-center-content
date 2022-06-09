@@ -20,7 +20,7 @@ You'll need an Arduino account and the [Arduino Create Agent](https://support.ar
 
 ### Step 1: Add the device
 
-1. Go to Arduino IoT Cloud and open the [Devices tab](https://create.arduino.cc/iot/devices).
+1. Go to Arduino IoT Cloud and open the [Devices tab](https://cloud.arduino.cc/iot/devices).
 
 2. Click the **Add Device** button in the top-right or middle of the page.
 
@@ -46,7 +46,7 @@ You'll need an Arduino account and the [Arduino Create Agent](https://support.ar
 
 ### Step 2: Create and configure a Thing
 
-1. Open the [Things tab](https://create.arduino.cc/iot/things).
+1. Open the [Things tab](https://cloud.arduino.cc/iot/things).
 
 2. Click **Create Thing**.
 

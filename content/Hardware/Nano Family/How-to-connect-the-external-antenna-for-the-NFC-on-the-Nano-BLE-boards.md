@@ -16,7 +16,7 @@ The antenna can be connected in two different ways:
 
 The first is connecting the antenna to the Nano 33 BLE's `P0.09/NFC1` and `P0.10/NFC2` pins. These pins are exposed on the bottom side of the board as shown in the image. Solder the antenna to the pads on the right side only. The left side corresponds to D7 and D8 I/O pins.
 
-![](img/BLE_NFC.png)
+![Schematic showing pins and pads to solder](img/BLE_NFC.png)
 
 The second way is to use a solder to short these pads (NFC1 with D7 and NFC2 with D8), then connect the antenna to the pins marked `D7` and `D8` on the Nano 33 BLE, but then you won't be able to use those pins as normal Arduino pins while the antenna is in use.
 

@@ -10,7 +10,7 @@ Learn about the power supply requirements for the Arduino Edge Control.
 
 Connecting a micro USB cable provides sufficient power to upload and run a sketch on the nRF52840 microcontroller. However, this configuration does not provide enough power to operate other modules of the board, so the main Edge Control features will not be available.
 
-See the [Getting Started guide](https://docs.arduino.cc/tutorials/edge-control/ec-ard-gs) for more help with programming the Edge Control.
+See the [Getting Started guide](https://docs.arduino.cc/tutorials/edge-control/getting-started-edge-control) for more help with programming the Edge Control.
 
 ## Connect a power supply
 
@@ -22,10 +22,10 @@ Connect the 12 V output to the **B (Battery)** and **GND (Ground)** pins of the 
 
 You can use a 12 V power supply/adaptor or a 12 V lead-acid battery.
 
-![](img/how_to_power_edge1.png)
+![Schematic with B (Battery) and GND (Ground) pins highlighted](img/how_to_power_edge1.png)
 
 ### Using a solar panel
 
 An 18 V solar panel can be connected to power the board and/or charge the lead-acid battery. Use the **S (Solar)** and **GND (Ground)** pins to connect the solar panel to the board.
 
-![](img/how_to_power_edge2.png)
+![Schematic with S (Solar) and GND (Ground) pins highlighted](img/how_to_power_edge2.png)

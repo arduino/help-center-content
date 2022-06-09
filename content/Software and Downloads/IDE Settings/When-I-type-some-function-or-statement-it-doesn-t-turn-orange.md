@@ -8,4 +8,4 @@ The IDE recognizes the keywords defined in the different libraries through the d
 
 Some library authors do not define their keywords in said document, which leads to the IDE not highlighting the special words.
 
-For more information as how to include this document and, in general, write a library for Arduino, you can check [our library tutorial](https://www.arduino.cc/en/Hacking/LibraryTutorial), and the [library style guide](https://www.arduino.cc/en/Reference/APIStyleGuide).
+For more information as how to include this document and, in general, write a library for Arduino, you can check the [ExampleLibrary](https://www.arduino.cc/reference/en/libraries/examplelibrary/), and the [library style guide](https://docs.arduino.cc/learn/contributions/arduino-library-style-guide).

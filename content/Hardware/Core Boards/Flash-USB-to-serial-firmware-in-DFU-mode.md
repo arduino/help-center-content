@@ -32,7 +32,7 @@ Within the platform directory, the usb to serial firmware is found in `firmwares
 
 ### Using dfu-programmer (macOS/Linux)
 
-1. Download **dfu-programmer** from the [project website](https://dfu-programmer.sourceforge.io/) or install the `dfu-programmer` package using a package manager like [homebrew](https://brew.sh/index) (macOS) or [apt-get](http://manpages.ubuntu.com/manpages/cosmic/man8/apt-get.8.html) (Ubuntu).
+1. Download **dfu-programmer** from the [project website](https://dfu-programmer.sourceforge.io/) or install the `dfu-programmer` package using a package manager like [homebrew](https://brew.sh/index) (macOS) or [apt-get](https://manpages.ubuntu.com/manpages/kinetic/en/man8/apt-get.8.html) (Ubuntu).
 
 2. Connect the board to your computer.
 
@@ -118,14 +118,14 @@ Next we'll flash the drivers using FLIP.
 
 2. Right-click and select **Update driver**.
 
-   ![](img/atmel-device-manager-update-driver-1.png)
+   ![Device manager window with "Update driver" selected in menu](img/atmel-device-manager-update-driver-1.png)
 
 3. Point to `C:\Program Files (x86)\Atmel\Flip 3.4.7`
 
 4. Click 'Install' and wait for the installation to complete.
 
-   ![](img/atmel-device-manager-update-driver-2.png)
+   ![Windows Security pop-up](img/atmel-device-manager-update-driver-2.png)
 
 5. The device should now be recognized, under 'libusb-win32-devices'
 
-   ![](img/atmel-device-manager-update-driver-3.png)
+   ![Device manager with "ATmega16U2" selected](img/atmel-device-manager-update-driver-3.png)

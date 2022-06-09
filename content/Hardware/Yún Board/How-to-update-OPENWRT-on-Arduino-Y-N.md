@@ -14,16 +14,16 @@ Updating the OpenWrt-Yun image will cause the loss of all files and configuratio
 
 ### Step 1: Upgrading Using the Web Panel
 
-Make sure the Yún and your computer are on the same network, and open a browser. Connect to the Yún's web panel page by entering the IP address or the name you gave to the board in the browser. With the default name you reach the Yún at <http://arduino.local>.
+Make sure the Yún and your computer are on the same network, and open a browser. Connect to the Yún's web panel page by entering the IP address or the name you gave to the board in the browser. With the default name you reach the Yún at `http://arduino.local`.
 
 Once logged in, on the first page with the network information, scroll to the bottom, where you should see a notification informing you that a file containing an upgrade image has been found.
 
 If you want to proceed resetting the Yún, click the red RESET button at the very bottom of the page.
 
-![](img/How_to_update_openwrt_on_yun_0.png)
+![Arduino Yún web portal](img/How_to_update_openwrt_on_yun_0.png)
 
 The process of upgrading the Yún will take around 3 minutes. During this time the WLAN led will flash until the process has been completed.
 
-![](img/How_to_update_openwrt_on_yun_1.png)
+!["Wait until the WLAN led stops blinking" message in Arduino's Yún web portal](img/How_to_update_openwrt_on_yun_1.png)
 
 While you are upgrading the image you can't use the Yún

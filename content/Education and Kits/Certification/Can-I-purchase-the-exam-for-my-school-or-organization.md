@@ -6,15 +6,11 @@ Yes. Pricing varies depending on the number of exam codes purchased:
 
 | Codes purchased | Price per code (USD) |
 |----------------:|----------------------|
-| 1–99            | 30.00                |
-| 100–249         | 28.50                |
-| 250–500         | 27.00                |
-| 500–999         | 25.50                |
-| ≥1000           | 24.00                |
+| 1–99            | $30                  |
+| 100–249         | $28.50               |
+| 250+            | $27                  |
 
-You can purchase exam codes in the [Digital Store](https://store.arduino.cc/digital/certification).
-
-[Please contact us](https://www.arduino.cc/en/contact-us) for orders of more than 500 codes.
+You can purchase exam codes on the [Arduino Certification page](https://www.arduino.cc/education/certification).
 
 ## Further reading
 

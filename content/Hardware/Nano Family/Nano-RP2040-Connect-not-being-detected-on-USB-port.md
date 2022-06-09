@@ -8,7 +8,7 @@ If the Nano RP2040 Connect is not recognized when connected to your computer, or
 
 ## Make sure board core and Create Agent is installed
 
-If you're using the Desktop IDE, the core (Arduino Mbed OS RP2040 Boards) needs to be installed via the Board Manager. To install the core, follow the steps [here](https://www.arduino.cc/en/guide/cores). We recommend installing the latest version of the core. For the Web Editor, the Arduino Create Agent has to be installed for the board to be recognized. [Install the Arduino Create Agent here](https://create.arduino.cc/getting-started/plugin/welcome).
+If you're using the Desktop IDE, the core (Arduino Mbed OS RP2040 Boards) needs to be installed via the Board Manager. To install the core, follow the steps [here](https://docs.arduino.cc/software/ide-v1/tutorials/getting-started/cores/arduino-mbed_nano). We recommend installing the latest version of the core. For the Web Editor, the Arduino Create Agent has to be installed for the board to be recognized. [Install the Arduino Create Agent here](https://create.arduino.cc/getting-started/plugin/welcome).
 
 ## Try the bootloader mode
 

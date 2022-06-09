@@ -6,6 +6,6 @@ In the firsts prints of the book, the code shown had a typo where the “knock c
 
 ## Code
 
-![](img/numberOfKnoks.png)
+![Code example with "numberOfKnoks = 0" highlighted](img/numberOfKnoks.png)
 
 This issue is fixed in the IDE example, but it’s worth to check before uploading to your board.

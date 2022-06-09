@@ -7,7 +7,7 @@ title: "Connect a board to the Science Journal app"
 The Science Journal app supports the following boards:
 
 - Arduino Nano 33 BLE Sense
-- Arduino MKR WiFi 1010
+- Arduino MKR WiFi 1010 (with the Science carrier board)
 
 ## Set up your board
 
@@ -35,17 +35,19 @@ The Nano 33 BLE Sense needs to be flashed with special firmware for use with the
 
 2. Open or create a new experiment.
 
-3. Tap **Sensors**.
+3. Tap the **Edit** button in the bottom-right.
+
+4. Tap **Sensors**.
 
    ![The Sensors button in Science Journal.](img/sj-button-sensors.png)
 
-4. Open settings by pressing the cogwheel button in the top right.
+5. Open settings by tapping the cogwheel button in the top right.
 
    ![The settings button in Science Journal.](img/sj-button-cogwheel.png)
 
-5. Scroll down to the Arduino Boards' category and tap to expand it (you may have to scroll additionally for the revealed items to show).
+6. Scroll down to **Available devices** and find the "Arduino Boards" category. Tap to to expand it (you may have to scroll down for the revealed items to show).
 
-6. Tap your device name.
+7. Tap your device name to connect.
 
 ## Troubleshooting
 

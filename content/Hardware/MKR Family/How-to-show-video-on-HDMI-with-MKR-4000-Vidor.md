@@ -27,7 +27,7 @@ The MKR Vidor 4000 [Camera enabling example](https://www.arduino.cc/en/Tutorial/
 
    Open _File > Examples > VidorGraphics > VidorEnableCam_ and upload it.
 
-   ![](img/cam_vidor.png)
+   ![IDE with Examples > VidorGraphics > VidorEnableCam selected in File menu](img/cam_vidor.png)
 
 3. In our example, we create the object **vcam** and then we simply enable I2C communication and initialize the camera with the `vcam.begin()` function. Please note that this function returns a value and we use it to print out an error message if initialization fails.
 

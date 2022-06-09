@@ -2,7 +2,7 @@
 title: "'We were not able to upload the template sketch' in IoT Cloud"
 ---
 
-With [IoT Cloud templates](https://create.arduino.cc/iot/templates) you can quickly create a project for a compatible board (such as the MKR WiFi 1010). When importing a template you may experience this error:
+With [IoT Cloud templates](https://cloud.arduino.cc/iot/templates) you can quickly create a project for a compatible board (such as the MKR WiFi 1010). When importing a template you may experience this error:
 
 !['We were not able to upload the template sketch' error in IoT Cloud. The file ThingsProperties.h is missing, throwing a 'No such file or directory' error.](img/IoT_Cloud_Template_Import_Error.PNG)
 

@@ -12,9 +12,9 @@ Follow the instructions below to access Arduino Yún web portal:
 
    > If the Yún's Wi-Fi access point does not appear, press and hold the button WLAN-RST for 5 seconds. This will reset the Wi-Fi configuration and the Yún's access point will show up.
 
-2. Once connected to the access point, open a web browser and enter <http://arduino.local> or 192.168.240.1 in the address bar. After a few moments, a web page will appear asking for a password. Enter "arduino" and click the Log In button.
+2. Once connected to the access point, open a web browser and enter `http://arduino.local` or 192.168.240.1 in the address bar. After a few moments, a web page will appear asking for a password. Enter "arduino" and click the Log In button.
 
-   ![](img/Yun_web_portal_2.png)
+   ![Log-in page to Yún web portal](img/Yun_web_portal_2.png)
 
 3. Now you are in Yún's Web Portal.
 
@@ -22,8 +22,8 @@ Follow the instructions below to access Arduino Yún web portal:
 
 4. If you press the `Configure` button you will start with the Wi-Fi configuration.
 
-   ![](img/Yun_web_portal_0.png)
+   !["Configure" button highlighted in the Yún web portal](img/Yun_web_portal_0.png)
 
    There you can configure all different wireless parameters of the network your Yún will be connecting to. It is also possible to rename your board and to update the password.
 
-   ![](img/Yun_web_portal_1.png)
+   ![Yún Board and wireless configuration section in the Yún web portal](img/Yun_web_portal_1.png)

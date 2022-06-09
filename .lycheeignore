@@ -1,0 +1,9 @@
+# Ignore relative links to img folder
+img/*
+
+# Ignore links to Help Center (these will be checked by the linter)
+https://support.arduino.cc/hc/*
+
+# Returns 404 for some reason
+https://cloud.arduino.cc/iot/*
+https://www.arduino.cc/cloud/plans

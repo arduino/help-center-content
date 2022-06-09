@@ -10,12 +10,12 @@ This quick guide will show you to check the data usage on the Arduino Sim card. 
 
 2. Once you are signed in, click on the top right of the signed-in account icon and select the 'MY PLANS' tab.
 
-   ![](img/SimData1.png)
+   !["My Plans" highlighted in profile menu](img/SimData1.png)
 
 3. Select the 'My PLANS' tab and you will find your Arduino Sim card subscription.
 
-   ![](img/SimData2.png)
+   !["My Plans" and "Show all" highlighted in Arduino Digital Store](img/SimData2.png)
 
 4. Finally, click on the 'SHOW ALL' option to check the data usage of the Sim card.
 
-   ![](img/SimData3.png)
+   ![Sim info and usage](img/SimData3.png)

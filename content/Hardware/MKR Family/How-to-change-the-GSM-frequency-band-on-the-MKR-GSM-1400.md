@@ -47,7 +47,7 @@ This tutorial will show all different possibilities to choose frequency band and
 
    ![Band options](img/change-GSM-3.png)
 
-   You can check [here](http://www.worldtimezone.com/gsm.html) which band each zone works with.
+   You can check [here](https://www.worldtimezone.com/gsm.html) which band each zone works with.
 
    Usual configurations:
    * Europe, Africa, Middle East: E-GSM(900)+DCS(1800)

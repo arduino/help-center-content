@@ -33,4 +33,4 @@ These are the steps:
 
    ![Training section location](img/CTC101_Start5.png)
 
-For more information about the webinars, you can check [this article](How_to_book_a_webinar.md).
+For more information about the webinars, you can check [this article](https://support.arduino.cc/hc/en-us/articles/360013051879).
