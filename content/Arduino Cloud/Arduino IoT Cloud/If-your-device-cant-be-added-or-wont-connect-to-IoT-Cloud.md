@@ -86,6 +86,7 @@ The sketch cannot be generated until a device has been associated and at least o
 ### No associated device found
 
 1. Open the [Things tab](https://cloud.arduino.cc/iot/things) to see which device is associated with the Thing.
+
 2. Make sure the associated device is connected to your computer. To associate a different device, open the Thing and click the **Device selection** button.
 
 ### Executing command: exit status 1
