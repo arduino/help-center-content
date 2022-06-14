@@ -14,7 +14,7 @@ School Spaces in Arduino Cloud have three member roles: _Students_, _Teachers_, 
 ## Teachers
 
 * Everything allowed for the student role.
-* Add new Students and Taechers to the Space.
+* Add new Students and Teachers to the Space.
 * Remove Students from the Space.
 
 ## Admin
