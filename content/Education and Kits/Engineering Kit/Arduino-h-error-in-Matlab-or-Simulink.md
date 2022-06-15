@@ -1,5 +1,6 @@
 ---
 title: "Arduino.h error in Matlab or Simulink"
+id: 360013895359
 ---
 
 Firstly, you will need to install five Add-ons which are used in the Arduino engineering kit projects.

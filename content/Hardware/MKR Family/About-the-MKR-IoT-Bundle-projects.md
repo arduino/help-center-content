@@ -1,5 +1,6 @@
 ---
 title: "About the MKR IoT Bundle projects"
+id: 4407181791762
 ---
 
 The [Arduino MKR IoT Bundle](https://store.arduino.cc/products/arduino-mkr-iot-bundle) includes components for five projects available in the **Arduino Project Hub:**

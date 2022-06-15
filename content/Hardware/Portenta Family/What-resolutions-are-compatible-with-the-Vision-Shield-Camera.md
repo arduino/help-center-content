@@ -1,5 +1,6 @@
 ---
 title: "What resolutions are compatible with the Vision Shield Camera?"
+id: 360019867419
 ---
 
 The camera module captures 324 x 324 pixels images. However, this image is cropped down to support OpenMV standard resolutions.

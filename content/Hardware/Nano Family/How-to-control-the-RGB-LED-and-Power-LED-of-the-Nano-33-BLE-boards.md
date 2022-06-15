@@ -1,5 +1,6 @@
 ---
 title: "How to control the RGB LED and Power LED of the Nano 33 BLE boards?"
+id: 360016724140
 ---
 
 The [Nano 33 BLE Sense](https://store.arduino.cc/products/arduino-nano-33-ble-sense) board has an inbuilt RGB LED which is connected to pin 22, 23, 24.

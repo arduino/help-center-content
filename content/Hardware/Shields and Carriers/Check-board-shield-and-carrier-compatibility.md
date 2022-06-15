@@ -1,5 +1,6 @@
 ---
 title: "Check board, shield, and carrier compatibility"
+id: 4410110092818
 ---
 
 Shields and carriers can extend the functionality of your Arduino board. Learn how to find boards, shields, and carriers that are compatible.

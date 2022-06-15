@@ -1,5 +1,6 @@
 ---
 title: "Errors when uploading a sketch"
+id: 4403365313810
 ---
 
 When there is an error the IDE will print relevant information in the console. Learn how to resolve common errors.

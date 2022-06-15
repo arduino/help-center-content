@@ -1,5 +1,6 @@
 ---
 title: "What will happen to my Arduino Cloud subscription after the 12 months trial period?"
+id: 4404393707922
 ---
 
 When a plan downgrade goes into effect, new plan limits will apply to your account. If these limits are exceeded, certain features may be disabled. [Learn more here](https://support.arduino.cc/hc/en-us/articles/4401874212370).

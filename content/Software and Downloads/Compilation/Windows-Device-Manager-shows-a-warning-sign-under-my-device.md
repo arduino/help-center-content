@@ -1,5 +1,6 @@
 ---
 title: "Windows Device Manager shows a 'warning sign' under my device"
+id: 360016420100
 ---
 
 This section will show you what to do if you notice a yellow warning sign next to the Arduino board in Windows 'Device Manager'. This error means that the drivers for the device are missing and the board did not install properly in your PC. The corresponding port for the board in Arduino IDE will not show or it will be grayed out making uploading sketches to the board not possible.

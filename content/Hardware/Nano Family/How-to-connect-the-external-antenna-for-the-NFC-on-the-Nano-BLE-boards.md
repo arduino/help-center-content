@@ -1,5 +1,6 @@
 ---
 title: "How to connect the external antenna for the NFC on the Nano BLE boards?"
+id: 360019737359
 ---
 
 This article explains how to connect the external RFID antenna for the NFC(Near Field Communication) on the Nano BLE boards.

@@ -1,5 +1,6 @@
 ---
 title: "COM port number changes when connecting board on different ports or in bootloader mode"
+id: 360016420140
 ---
 
 The serial number of an Arduino board differs depending to the mode the board is functioning on. For example, on bootloader mode the serial number presented to Windows' `Device Manager` is different to the serial number of the board when it is on application mode.

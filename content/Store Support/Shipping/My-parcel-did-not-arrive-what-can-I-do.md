@@ -1,5 +1,6 @@
 ---
 title: "My parcel did not arrive, what can I do?"
+id: 360016495739
 ---
 
 Unfortunately, there are some cases when, even if the tracking number shows that the parcel has been delivered, it has not been delivered to the hands of the customer. This mostly happens with the parcels, where a signature is not required.

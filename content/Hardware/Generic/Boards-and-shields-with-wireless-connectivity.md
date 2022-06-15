@@ -1,5 +1,6 @@
 ---
 title: "Boards and shields with wireless connectivity"
+id: 4407129094546
 ---
 
 The following is meant for an overview **only** and does not take precedence over specifications in [Arduino Store](https://store.arduino.cc/) or [Arduino Docs](https://docs.arduino.cc/).

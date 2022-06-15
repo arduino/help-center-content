@@ -1,5 +1,6 @@
 ---
 title: "Check and update the firmware for WiFiNINA and WiFi101"
+id: 360013896579
 ---
 
 Learn how to check the firmware for WiFiNINA and WiFi101 modules, and update it using the Firmware Updater tool.

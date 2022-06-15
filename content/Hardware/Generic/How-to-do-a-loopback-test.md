@@ -1,5 +1,6 @@
 ---
 title: "How to do a loopback test"
+id: 360020366520
 ---
 
 A **loopback test** is a troubleshooting procedure to test the serial communication between the PC and Arduino board with a dedicated USB to Serial converter chip. It can be performed with the following boards:

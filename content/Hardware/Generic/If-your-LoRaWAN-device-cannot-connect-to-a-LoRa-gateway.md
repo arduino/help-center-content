@@ -1,5 +1,6 @@
 ---
 title: "If your LoRaWAN® device cannot connect to a LoRa® gateway"
+id: 4403361201298
 ---
 
 Check the following if you experience issues connecting your LoRaWAN device to a LoRa® Gateway.

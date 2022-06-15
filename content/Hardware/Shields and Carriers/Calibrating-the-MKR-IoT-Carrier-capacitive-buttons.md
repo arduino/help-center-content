@@ -1,5 +1,6 @@
 ---
 title: "Calibrating the MKR IoT Carrier capacitive buttons"
+id: 360021221980
 ---
 
 The MKR IoT Carrier has five capacitive touch buttons labeled 00, 01, 02, 03, and 04 on the carrier board. These buttons respond to touch when pressed either when the carrier is placed inside the plastic casing or when the carrier is used without the plastic casing.

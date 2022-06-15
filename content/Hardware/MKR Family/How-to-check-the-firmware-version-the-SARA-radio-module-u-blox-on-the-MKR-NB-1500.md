@@ -1,5 +1,6 @@
 ---
 title: "How to check the firmware version the SARA radio module, u-blox, on the MKR NB 1500"
+id: 360016119159
 ---
 
 In case you need to know the firmware version of the u-blox SARA radio module of your MKR NB 1500, here is how to find it:

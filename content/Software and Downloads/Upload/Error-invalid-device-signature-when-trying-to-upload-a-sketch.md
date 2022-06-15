@@ -1,5 +1,6 @@
 ---
 title: 'Error "invalid device signature" when trying to upload a sketch'
+id: 360016759999
 ---
 
 If you get this error:

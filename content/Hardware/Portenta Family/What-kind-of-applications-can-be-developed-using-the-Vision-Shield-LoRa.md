@@ -1,5 +1,6 @@
 ---
 title: "What kind of applications can be developed using the Vision Shield LoRa?"
+id: 4402095504018
 ---
 
 The Vision Shield LoRa® lets you run low-cost sound and vision MicroPython applications on your Portenta H7. Enable long-range and low-power wireless connections for your projects with LoRa®, upload data to the Arduino Cloud or your own infrastructure, and activate your system upon detection of images or sound events.

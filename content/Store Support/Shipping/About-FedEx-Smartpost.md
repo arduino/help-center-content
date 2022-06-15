@@ -1,5 +1,6 @@
 ---
 title: "About FedEx Smartpost"
+id: 360018392860
 ---
 
 FedEx Smartpost is an available shipping method for our US store.

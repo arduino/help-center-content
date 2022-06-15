@@ -1,5 +1,6 @@
 ---
 title: "If Arduino Science Journal is not working"
+id: 4409561973010
 ---
 
 > **Blank screen on iPhone, iPod Touch, and iPad (Jan. 24th, 2022):** In some cases, the Science Journal app displays only a blank screen on iOS 15.02 or iPadOS 15.02. [Update your device](https://support.apple.com/en-us/HT204204) to resolve the issue.

@@ -1,5 +1,6 @@
 ---
 title: "Test the sensors on Nano 33 BLE Sense"
+id: 4407057391506
 ---
 
 The Nano 33 BLE Sense has multiple sensors available on it and requires individual libraries to activate and test each sensor. Below you can see the different sensors available on the board and the associated libraries for each sensors.

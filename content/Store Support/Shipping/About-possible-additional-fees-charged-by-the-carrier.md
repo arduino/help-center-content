@@ -1,5 +1,6 @@
 ---
 title: "About possible additional fees charged by the carrier"
+id: 4409581005458
 ---
 
 Occasionally, your carrier might request the payment of additional fees due to the customs clearance process performed at the parcel's destination country.

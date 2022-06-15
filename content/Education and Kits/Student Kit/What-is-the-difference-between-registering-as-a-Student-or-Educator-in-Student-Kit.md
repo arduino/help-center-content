@@ -1,5 +1,6 @@
 ---
 title: "What is the difference between registering as a Student or Educator in Student Kit?"
+id: 360016445879
 ---
 
 During registration of your Student Kit you will be asked to select your role: Student or Educator/Parent. Since the differences are not obvious, here you can see the main differences.

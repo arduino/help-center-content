@@ -1,5 +1,6 @@
 ---
 title: "My sketch uploads but does not work as expected"
+id: 360013825259
 ---
 
 Learn what to do if your sketch uploads but the board is unresponsive or does not produce expected behavior.

@@ -1,5 +1,6 @@
 ---
 title: "My board PWR Led does not turn on"
+id: 360018922219
 ---
 
 If you experience that the ON LED (green light) on the board does not turn on when your board is connected and you are concerned about it, read the following. Depending on the board you have this can be a normal behavior. It could also mean that the board is not receiving power and it is faulty or got damaged.

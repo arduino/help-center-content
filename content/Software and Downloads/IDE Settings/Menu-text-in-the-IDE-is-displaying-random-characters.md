@@ -1,5 +1,6 @@
 ---
 title: "Menu text in the IDE is displaying random characters"
+id: 360021632819
 ---
 
 Using certain non-standard fonts with the Windows ClearType feature can result in unexpected characters in the text of the Arduino IDE's menus. It can be described as "gibberish", or a "garbled" appearance.

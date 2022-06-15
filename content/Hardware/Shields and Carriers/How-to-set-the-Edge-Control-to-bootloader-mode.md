@@ -1,5 +1,6 @@
 ---
 title: "How to set the Edge Control to bootloader mode"
+id: 360021532700
 ---
 
 Like many other Arduino boards, the Arduino Edge Control can be set to bootloader mode by double tapping the reset button. This is often used to re-enable the COM port when it's not showing in the Arduino IDE, allowing us to load a new sketch onto the board.

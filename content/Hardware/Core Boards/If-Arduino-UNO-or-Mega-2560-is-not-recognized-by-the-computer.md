@@ -1,5 +1,6 @@
 ---
 title: "If Arduino UNO or Mega 2560 is not recognized by the computer"
+id: 4411209176722
 ---
 
 Missing or corrupted **USB-to-Serial** firmware can cause UNO (except WiFi Rev2) and Mega boards to be recognized as any of the following:

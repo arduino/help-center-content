@@ -1,5 +1,6 @@
 ---
 title: "How to change the GSM frequency band on the MKR GSM 1400"
+id: 360013825239
 ---
 
 It is possible to change the frequencies that our GSM 1400 board uses to connect to the mobile network.

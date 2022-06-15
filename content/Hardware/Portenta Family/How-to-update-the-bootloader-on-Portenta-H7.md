@@ -1,5 +1,6 @@
 ---
 title: "How to update the bootloader on Portenta H7"
+id: 4404067649554
 ---
 
 A bootloader is a small application that starts when an Arduino board gets powered. Official Arduino boards come pre-flashed with a bootloader, but to guarantee the best performance and stability it needs to be updated with the latest firmware releases.

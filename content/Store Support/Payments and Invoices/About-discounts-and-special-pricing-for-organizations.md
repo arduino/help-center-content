@@ -1,5 +1,6 @@
 ---
 title: "About discounts and special pricing for organizations"
+id: 4409759302290
 ---
 
 Arduino offers discounts for educational institutions, and special pricing for business customers and distributors, depending on quantities and types of products ordered. Learn about the different options below.

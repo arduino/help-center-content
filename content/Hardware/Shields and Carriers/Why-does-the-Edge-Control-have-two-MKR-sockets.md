@@ -1,5 +1,6 @@
 ---
 title: "Why does the Edge Control have two MKR sockets?"
+id: 360021569080
 ---
 
 The Arduino Edge Control is a great choice to control sensors in outdoor scenarios with no mains power available. The Nordic nRF52840 microcontroller features built-in Bluetooth<sup>®</sup> support, but on its own the board doesn't support additional wireless connectivity.

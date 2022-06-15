@@ -1,5 +1,6 @@
 ---
 title: "About Asendia"
+id: 4617792381468
 ---
 
 Asendia is an shipping method available in the Arduino US store. You can choose this option for most orders inside and outside the United States.

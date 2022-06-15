@@ -1,5 +1,6 @@
 ---
 title: "Change your username in the Arduino Forum"
+id: 4407116497170
 ---
 
 By default, your forum username will be the same as your Arduino account. If you prefer to use a different username in the forum, this can be configured in the forum preferences. Follow the steps below to change your forum username.

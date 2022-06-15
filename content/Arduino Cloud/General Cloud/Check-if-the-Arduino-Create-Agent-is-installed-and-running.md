@@ -1,5 +1,6 @@
 ---
 title: "Check if the Arduino Create Agent is installed and running"
+id: 4980687506844
 ---
 
 Learn how to check if the **Arduino Create Agent** is installed and running on your computer.

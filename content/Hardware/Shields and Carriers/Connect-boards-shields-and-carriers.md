@@ -1,5 +1,6 @@
 ---
 title: "Connect boards, shields, and carriers"
+id: 4410110093586
 ---
 
 Extend the functionality of your Arduino board by connecting compatible shields and carriers.

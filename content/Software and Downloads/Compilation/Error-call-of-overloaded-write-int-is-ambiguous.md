@@ -1,5 +1,6 @@
 ---
 title: "Error: call of overloaded 'write(int)' is ambiguous"
+id: 360021722399
 ---
 
 When compiling your code, you may come across this error:

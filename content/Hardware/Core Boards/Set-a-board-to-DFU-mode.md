@@ -1,5 +1,6 @@
 ---
 title: "Set a board to DFU mode"
+id: 4410804625682
 ---
 
 UNO (except WiFi Rev2) and Mega boards use either an Atmega16U2 or Atmega8U2 chip as a USB-to-serial converter. By setting a board to **DFU mode** you can [upload USB-to-Serial firmware to the chip](https://support.arduino.cc/hc/en-us/articles/4408887452434-Flash-USB-to-serial-firmware-in-DFU-mode).

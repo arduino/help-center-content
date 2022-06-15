@@ -1,5 +1,6 @@
 ---
 title: "Licensing for software based on Arduino"
+id: 4415094490770
 ---
 
 This article describes the rules under which you can distribute a product based on Arduino. These rules apply to all derived products regardless of them being commercial or not, open-source or not.

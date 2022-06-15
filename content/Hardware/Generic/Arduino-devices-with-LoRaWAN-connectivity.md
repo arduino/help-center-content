@@ -1,5 +1,6 @@
 ---
 title: "Arduino devices with LoRaWAN® connectivity"
+id: 4403398854418
 ---
 
 There are several Arduino products that incorporate LoRaWAN® connectivity capabilities, allowing your devices to connect directly to a LoRaWAN® network or the Arduino IoT Cloud. This is a great solution for your Arduino microcontroller to interact wirelessly with the internet via TTN or Arduino IoT Cloud. All different Arduino devices incorporating LoRa® connectivity are listed and explained below.

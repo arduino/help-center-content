@@ -1,5 +1,6 @@
 ---
 title: 'Error "undeclared function" or "undeclared type"'
+id: 360016759959
 ---
 
 The Arduino environment attempts to automatically generate prototypes for your functions, so that you can order them as you like in your sketch. This process however, is not perfect, and sometimes leads to error messages.

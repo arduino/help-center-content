@@ -1,5 +1,6 @@
 ---
 title: "The RGB LED on Portenta H7 does not turn on"
+id: 360016961639
 ---
 
 Perhaps you just obtained a Portenta H7 Arduino board and when you test the RGB LED by `digitalWrite(LED_BUILTIN, HIGH);` you notice that it doesn't work.

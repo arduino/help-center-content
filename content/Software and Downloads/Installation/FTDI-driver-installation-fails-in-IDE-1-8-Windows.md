@@ -1,5 +1,6 @@
 ---
 title: "FTDI driver installation fails in IDE 1.8 (Windows)"
+id: 4404383907474
 ---
 
 Installing the drivers for an FTDI FT232R-based board, such as an official Classic Arduino Nano, involves pointing the driver installation wizard to the Arduino IDE installation driver subfolder. In some cases, the installation may fail with the below error message.

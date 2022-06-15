@@ -1,5 +1,6 @@
 ---
 title: "How to update the Arduino Yún's firmware"
+id: 360016420080
 ---
 
 The following procedure updates your Yún board to the latest firmware.

@@ -1,5 +1,6 @@
 ---
 title: "Can I be refunded?"
+id: 360016120419
 ---
 
 From the date of the customer’s receipt of merchandise, you have 30 days to contact [Arduino customer support](https://www.arduino.cc/en/contact-us/) and inform that you want to return any or all products from your order. After our colleagues replied, you have 14 days to return your product (and any promotional merchandise supplied with it). If you have purchased the product from somewhere other than the Arduino Store, please contact that reseller.

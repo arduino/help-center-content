@@ -1,5 +1,6 @@
 ---
 title: "What Radio technologies are compatible with the MKR NB 1500?"
+id: 360013051959
 ---
 
 MKR NB 1500 supports connectivity through: **LTE Cat M1 / NB1: Class 3 (23 dBm)**.

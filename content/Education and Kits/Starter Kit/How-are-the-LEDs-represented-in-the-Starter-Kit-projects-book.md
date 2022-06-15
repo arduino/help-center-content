@@ -1,5 +1,6 @@
 ---
 title: "How are the LEDs represented in the Starter Kit projects book?"
+id: 360021532580
 ---
 
 LEDs can be represented graphically in different ways depending on which circuit simulation software is used.

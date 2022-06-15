@@ -1,5 +1,6 @@
 ---
 title: "How to connect the MKR GSM 1400 to Arduino IoT Cloud"
+id: 360021568419
 ---
 
 The [Arduino MKR GSM 1400](https://store.arduino.cc/arduino-mkr-gsm-1400-1415) has SIM connectivity and can be connected to the Arduino IoT Cloud remotely. Here you'll learn how to configure a cellular connection and test it with an example sketch.

@@ -1,5 +1,6 @@
 ---
 title: "My Arduino Nano RP2040 Connect provides weird ADC readings in pins A0 to A3"
+id: 4402994141330
 ---
 
 For analog inputs, the Nano RP2040 Connect device has a 10-bit ADC on a fixed set of pins (A0, A1, A2 and A3) with a fixed analog reference voltage of +3.3V. As such, standard Arduino calls can be used to read their values which returns a value from 0 to 1023, corresponding to the ADC reading of the specific pin.

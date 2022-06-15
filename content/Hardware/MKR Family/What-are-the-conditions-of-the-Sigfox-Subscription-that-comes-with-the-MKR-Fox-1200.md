@@ -1,5 +1,6 @@
 ---
 title: "What are the conditions of the Sigfox Subscription that comes with the MKR Fox 1200?"
+id: 360017522520
 ---
 
 Every MKR FOX 1200 comes with a **free one-year subscription** to Sigfox data plan which is useful for testing the Sigfox network.

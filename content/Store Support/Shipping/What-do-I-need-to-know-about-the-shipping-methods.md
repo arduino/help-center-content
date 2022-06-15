@@ -1,5 +1,6 @@
 ---
 title: "What do I need to know about the shipping methods?"
+id: 360021365020
 ---
 
 Arduino offers several different shipping methods that vary depending on the region.

@@ -1,5 +1,6 @@
 ---
 title: "Use Arduino with Chromebook"
+id: 360016495639
 ---
 
 You can write and upload sketches on Chrome OS with the Web Editor in Arduino Cloud. The Web Editor has an extensive feature set similar to the desktop IDE. While many popular boards are compatible, you should check [the list of compatible boards here](https://support.arduino.cc/hc/en-us/articles/360014779899).

@@ -1,5 +1,6 @@
 ---
 title: "Install the Arduino Create Agent"
+id: 360014869820
 ---
 
 Arduino Cloud uses its own agent to be the middle man between Arduino's Web Editor and IoT Cloud and your computer. In this article we'll explain how to install it in your system (Windows, Mac, and Linux Ubuntu).

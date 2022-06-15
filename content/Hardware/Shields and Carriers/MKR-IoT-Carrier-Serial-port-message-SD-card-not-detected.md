@@ -1,5 +1,6 @@
 ---
 title: "MKR IoT Carrier Serial port message: SD card not detected"
+id: 360018131300
 ---
 
 Even if there is no specific line in the main code stating to write this message in the serial port, this message will appear whenever there is no card or an issue with the attached cart in the carrier.

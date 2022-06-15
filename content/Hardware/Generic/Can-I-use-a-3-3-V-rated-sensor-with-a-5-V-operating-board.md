@@ -1,5 +1,6 @@
 ---
 title: "Can I use a 3.3 V rated sensor with a 5 V operating board?"
+id: 4405245694738
 ---
 
 For some projects, sensors with small voltage outputs (less than 5 V) can be used. However, this makes the Arduino board's sensor readings less accurate, if the sensor is used as a typical 5 V output rated sensor. For example, the Arduino UNO has 10 bits ADC resolution which means that it can read 0-5 V with 1023 steps. That is, 5000 mV/1024 = 4,88 mV, meaning that it can only measure a signal change in the ADC if the voltage increases or decreases with about 5 mV.

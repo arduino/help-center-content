@@ -1,5 +1,6 @@
 ---
 title: "About Arduino accounts for minors"
+id: 4839080453148
 ---
 
 Arduino offers two types of accounts for minors:

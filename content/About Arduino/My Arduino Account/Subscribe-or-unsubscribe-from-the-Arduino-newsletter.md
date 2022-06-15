@@ -1,5 +1,6 @@
 ---
 title: "Subscribe or unsubscribe from the Arduino newsletter"
+id: 4405005271964
 ---
 
 Learn how to subscribe or unsubscribe from the Arduino newsletter.

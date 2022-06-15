@@ -1,5 +1,6 @@
 ---
 title: "About DHL Global Mail Packet Plus Priority International"
+id: 360016495719
 ---
 
 DHL Global Mail Packet Plus Priority International is an available shipping method for our US store. You can see this option for most of the orders inside and outside the United States.

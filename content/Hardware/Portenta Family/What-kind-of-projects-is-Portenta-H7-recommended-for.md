@@ -1,5 +1,6 @@
 ---
 title: "What kind of projects is Portenta H7 recommended for?"
+id: 360018131280
 ---
 
 Arduino Portenta H7 is the newest Arduino board that belongs to the Arduino Pro line of products. Many users wonder what type of projects is this board recommended for, so find below a list of possible applications:

@@ -1,5 +1,6 @@
 ---
 title: "Find replacement components for your Arduino Education kit"
+id: 4409205367186
 ---
 
 Most components for the Arduino Education kits can be found in the [Arduino Store](https://store.arduino.cc/). Learn more about specific options below.

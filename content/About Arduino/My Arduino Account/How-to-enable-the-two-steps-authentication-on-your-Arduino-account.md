@@ -1,5 +1,6 @@
 ---
 title: "How to enable the two steps authentication on your Arduino account"
+id: 360018131120
 ---
 
 Arduino supports two-factor authentication via authenticator software as *Authy*, *Google Authenticator*, *Microsoft Authenticator* or similar. To enable 2FA on your account:

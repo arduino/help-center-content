@@ -1,5 +1,6 @@
 ---
 title: "avrdude: jtagmkII_initialize(): Cannot locate 'flash' and 'boot' memories in description"
+id: 4405239282578
 ---
 
 > This error has mostly been reported for the _Arduino Nano Every_

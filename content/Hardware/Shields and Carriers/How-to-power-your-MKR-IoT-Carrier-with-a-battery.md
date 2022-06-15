@@ -1,5 +1,6 @@
 ---
 title: "How to power your MKR IoT Carrier with a battery"
+id: 360020407519
 ---
 
 The MKR IoT Carrier is equipped with a battery holder that allows us to have portable projects. If you want to power your project with a battery, you will need one **18650 Li-Ion 3.7V battery**, which can be purchased from most electronic vendors.

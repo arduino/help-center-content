@@ -1,5 +1,6 @@
 ---
 title: "If you get unexpected zeroes using Serial.parseInt() or Serial.parseFloat()"
+id: 4407876044434
 ---
 
 The `Serial.parseInt()` and `Serial.parseFloat()` functions will return the next valid number in the incoming serial, or return zero if a valid number was not found.

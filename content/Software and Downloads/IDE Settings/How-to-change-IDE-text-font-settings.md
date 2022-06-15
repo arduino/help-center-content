@@ -1,5 +1,6 @@
 ---
 title: "How to change IDE text font settings"
+id: 4402771781522
 ---
 
 This article will instruct you in how to change the font type and size, as well as interface scaling, in the Arduino IDE. This will be helpful if you find the text and buttons hard to read, or otherwise want to change the display settings.

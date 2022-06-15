@@ -1,5 +1,6 @@
 ---
 title: "Assemble the Student Kit project board"
+id: 360021532660
 ---
 
 ## Projects book instructions

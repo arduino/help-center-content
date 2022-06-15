@@ -1,5 +1,6 @@
 ---
 title: "How to connect the servo motors from the Starter Kit"
+id: 360021532600
 ---
 
 Different servo manufacturers may have different ways to order the wires to the connectors. The key are always the wire colors:

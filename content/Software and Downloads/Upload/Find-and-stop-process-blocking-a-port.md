@@ -1,5 +1,6 @@
 ---
 title: "Find and stop process blocking a port"
+id: 4407830972050
 ---
 
 Learn how to find and stop a process blocking a port for your system (Windows, macOS and, Linux).

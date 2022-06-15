@@ -1,5 +1,6 @@
 ---
 title: "How to activate your Arduino SIM"
+id: 360021543440
 ---
 
 1. Go to [https://arduino.cc/sim/activate](https://arduino.cc/sim/activate).

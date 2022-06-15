@@ -1,5 +1,6 @@
 ---
 title: "Add or remove third-party boards in Boards Manager"
+id: 360016466340
 ---
 
 Third-party board platforms can be added to the Board Manager in Preferences.

@@ -1,7 +1,7 @@
 ---
 title: "When I create an access point with WiFi Nina, it fails"
+id: 360014654860
 ---
-
 
 `AP_SimpleWebServer` is a simple web server to manage a LED with AP features. The boards which support the WiFi Nina library are:
 

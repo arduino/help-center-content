@@ -1,5 +1,6 @@
 ---
 title: "'Error: avrdude' when uploading"
+id: 4401874331410
 ---
 
 When uploading a sketch to your board you may get an error from the **avrdude** utlity:

@@ -1,5 +1,6 @@
 ---
 title: "What devices can be used with Arduino IoT Cloud?"
+id: 360016077320
 ---
 
 [Arduino IoT Cloud](https://cloud.arduino.cc/iot/) supports many Arduino and third-party boards, as well as a number of Linux devices.

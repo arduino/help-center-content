@@ -1,5 +1,6 @@
 ---
 title: "Can I purchase the exam for my school or organization?"
+id: 360012001880
 ---
 
 Yes. Pricing varies depending on the number of exam codes purchased:

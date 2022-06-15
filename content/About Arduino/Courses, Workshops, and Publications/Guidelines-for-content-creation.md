@@ -1,5 +1,6 @@
 ---
 title: "Guidelines for content creation"
+id: 4678810384540
 ---
 
 This article covers the basic trademark rules that must be followed when developing a course, workshop, or publication based on Arduino. By following these guidelines, you will be able to develop, share, and commercialize your content without violating Arduino’s Intellectual Property.

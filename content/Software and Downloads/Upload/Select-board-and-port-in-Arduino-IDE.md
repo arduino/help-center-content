@@ -1,5 +1,6 @@
 ---
 title: "Select board and port in Arduino IDE"
+id: 4406856349970
 ---
 
 Learn how to select the right board and port in Arduino IDE.

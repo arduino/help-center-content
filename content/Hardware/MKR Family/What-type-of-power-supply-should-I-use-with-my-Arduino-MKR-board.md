@@ -1,5 +1,6 @@
 ---
 title: "What type of power supply should I use with my Arduino MKR board?"
+id: 360014653660
 ---
 
 Typically, the Arduino board can operate successfully powered through the USB port of the computer, but in case that you need to operate the Arduino board disconnected from a USB port you need then to acquire a power supply or battery.

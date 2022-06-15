@@ -1,5 +1,6 @@
 ---
 title: "How to spot a counterfeit Arduino"
+id: 360020652100
 ---
 
 This article covers the issue of counterfeit boards – how to identify them and warning signs to look out for in stores. Let us first differentiate between compatible and counterfeit boards.

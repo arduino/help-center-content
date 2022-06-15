@@ -1,5 +1,6 @@
 ---
 title: "The MKR GPS shield does not fetch any data"
+id: 360018628960
 ---
 
 If you have trouble fetching GPS data with your MKR GPS Shield it is recommended to review the below advice.

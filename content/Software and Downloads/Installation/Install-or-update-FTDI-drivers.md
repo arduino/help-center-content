@@ -1,5 +1,6 @@
 ---
 title: "Install or update FTDI drivers"
+id: 4411305694610
 ---
 
 Often FTDI drivers will be automatically installed by your system when using Arduino. But if this does not happen, or if you believe the drivers are outdated or corrupted, you can follow the instructions below.

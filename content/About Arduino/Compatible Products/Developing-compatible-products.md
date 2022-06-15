@@ -1,5 +1,6 @@
 ---
 title: "Developing compatible products"
+id: 4677964202908
 ---
 
 This article covers the basic trademark rules you must follow when developing products based on (or compatible with) Arduino. By following these guidelines, you will be able to develop, share, and even commercialize your products without violating Arduino’s Intellectual Property.

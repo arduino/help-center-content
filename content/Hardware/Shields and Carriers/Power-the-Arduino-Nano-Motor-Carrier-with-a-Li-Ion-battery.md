@@ -1,5 +1,6 @@
 ---
 title: "Power the Arduino Nano Motor Carrier with a Li-Ion battery"
+id: 4405022782482
 ---
 
 The Nano Motor Carrier requires external power to operate properly. Learn how to power the carrier by connecting a Li-Ion battery to the XT-30 power connector.

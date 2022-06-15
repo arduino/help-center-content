@@ -1,5 +1,6 @@
 ---
 title: "Where is the activation code for my kit?"
+id: 4402999992850
 ---
 
 Some, but not all, Arduino kits include a activation code for online content access, or software licenses such as Matlab for the Engineering kit, or the 12 months free Cloud Maker plan included with the Oplà IoT kit.

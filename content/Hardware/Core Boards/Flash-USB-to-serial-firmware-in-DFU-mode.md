@@ -1,5 +1,6 @@
 ---
 title: "Flash USB-to-serial firmware in DFU mode"
+id: 4408887452434
 ---
 
 The following boards use either an Atmega16U2 or Atmega8U2 chip as a USB-to-serial converter:

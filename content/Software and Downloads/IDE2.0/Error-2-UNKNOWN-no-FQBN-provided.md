@@ -1,5 +1,6 @@
 ---
 title: "Error: 2 UNKNOWN: no FQBN provided"
+id: 360020843439
 ---
 
 When compiling or uploading, the following error appears in the output panel.
