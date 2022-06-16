@@ -24,7 +24,7 @@ You can write and upload sketches on Chrome OS with the Web Editor in Arduino Cl
 
 5. Start writing a new sketch in the editor, or use a sketch from the _Examples_ sidebar.
 
-Learn more about the Web Editor:
+## Learn more about the Web Editor:
 
 * [Uploading a simple example](https://docs.arduino.cc/cloud/web-editor/tutorials/getting-started/getting-started-web-editor#uploading-a-simple-example)
 * [Web Editor in Arduino Docs](https://docs.arduino.cc/cloud/web-editor)
