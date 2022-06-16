@@ -2,7 +2,7 @@
 title: "How to show video on HDMI with MKR 4000 Vidor"
 ---
 
-The MKR Vidor 4000 [Camera enabling example](https://www.arduino.cc/en/Tutorial/LibraryExamples/VidorEnableCam) activates a compatible camera connected to the MIPI Camera Connector and routes the image in real time to the microHDMI connector. It is a very basic example that shows how simple may be the usage of the advanced features of the Arduino MKR Vidor 4000 board. FPGA requires clock from SAM D21 in order to work and this is initialized with `FPGA.begin()`.
+The MKR Vidor 4000 [Camera enabling example](https://docs.arduino.cc/tutorials/mkr-vidor-4000/vidor-enable-cam) activates a compatible camera connected to the MIPI Camera Connector and routes the image in real time to the microHDMI connector. It is a very basic example that shows how simple may be the usage of the advanced features of the Arduino MKR Vidor 4000 board. FPGA requires clock from SAM D21 in order to work and this is initialized with `FPGA.begin()`.
 
 ---
 
