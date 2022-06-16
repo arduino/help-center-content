@@ -53,4 +53,4 @@ In **Arduino IDE 2.x**, libraries available in the Library Manager can also be u
 
 ## Further reading
 
-For a complete overview of files used by Arduino IDE, see [Find sketches, libraries, cores and other files on your computer](https://support.arduino.cc/hc/en-us/articles/4415103213714-Find-sketches-libraries-cores-and-other-files-on-your-computer).
+For a complete overview of files used by Arduino IDE, see [Find sketches, libraries, board cores, and other files on your computer](https://support.arduino.cc/hc/en-us/articles/4415103213714-Find-sketches-libraries-cores-and-other-files-on-your-computer).
