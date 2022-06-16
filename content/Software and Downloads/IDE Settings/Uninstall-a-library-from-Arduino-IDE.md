@@ -6,24 +6,6 @@ Learn how to remove IDE libraries from your computer.
 
 ---
 
-## Uninstall in Library manager
-
-**In Arduino IDE 2.0**, libraries available in the Library Manager can also be uninstalled there.
-
-1. In the menu bar, click on _Tools > Manage Libraries..._
-
-2. Search for the library you want to uninstall.
-
-3. Find the library in the search results, which are listed alphabetically.
-
-   ![Finding the 'ArduinoBLE' library in the Library Manager.](img/library-manager-2.x-search.png)
-
-4. Put your mouse cursor over the INSTALLED label and click UNINSTALL to uninstall the library.
-
-   ![Uninstalling the 'ArduinoBLE' library in the Library Manager.](img/library-manager-2.x-uninstall.png)
-
----
-
 ## Uninstall using your file manager
 
 Removing the library files directly is the most reliable method that will work for all IDE versions and library types.
@@ -48,6 +30,24 @@ Follow these steps to remove these libraries.
 Some board platforms are packaged with libraries, that are saved within the [Arduino15 folder](https://support.arduino.cc/hc/en-us/articles/360018448279), inside the `Arduino15/packages/<vendor>/hardware/<board platform>/<version>/libraries` subfolder.
 
 They are written specifically for the boards of that platform and are only accessible when one of those boards is selected in the _Tools > Board_ menu. They will be removed when [uninstalling the board platform](https://support.arduino.cc/hc/en-us/articles/4407225360018). Removing them is not recommended. If doing so, included examples may stop functioning. The libraries will be reinstalled if the package is updated by the Board Manager.
+
+---
+
+## Uninstall in Library manager (2.x only)
+
+In **Arduino IDE 2.x**, libraries available in the Library Manager can also be uninstalled there.
+
+1. In the menu bar, click on _Tools > Manage Libraries..._
+
+2. Search for the library you want to uninstall.
+
+3. Find the library in the search results, which are listed alphabetically.
+
+   ![Finding the 'ArduinoBLE' library in the Library Manager.](img/library-manager-2.x-search.png)
+
+4. Put your mouse cursor over the INSTALLED label and click UNINSTALL to uninstall the library.
+
+   ![Uninstalling the 'ArduinoBLE' library in the Library Manager.](img/library-manager-2.x-uninstall.png)
 
 ---
 
