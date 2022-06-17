@@ -16,9 +16,9 @@ Libraries are a collection of code that makes it easy to connect sensors, RTCs, 
 
 4. Click on the INSTALL button.
 
- ![IDE 1 Library Manager with search box and Install button highlighted](img/LibraryManager_InstallingLibrary_IDE1.png)
+  ![IDE 1 Library Manager with search box and Install button highlighted](img/LibraryManager_InstallingLibrary_IDE1.png)
 
- ![IDE 2 Library Manager Icon, search box, and Install button highlighted](img/LibraryManager_InstallingLibrary_IDE2.png)
+  ![IDE 2 Library Manager Icon, search box, and Install button highlighted](img/LibraryManager_InstallingLibrary_IDE2.png)
 
 5. Wait for the installation to complete.
 
@@ -46,7 +46,7 @@ Libraries are a collection of code that makes it easy to connect sensors, RTCs, 
 
 4. The library will automatically be installed and ready to be [included in a sketch](https://www.arduino.cc/reference/en/language/structure/further-syntax/include/).
 
->  Note that adding a library to the "libraries" folder in the sketchbook will override other previously installed library versions.
+> Note that adding a library to the "libraries" folder in the sketchbook will override other previously installed library versions.
 
 ---
 
