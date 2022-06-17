@@ -6,24 +6,6 @@ Learn how to remove IDE libraries from your computer.
 
 ---
 
-## Uninstall in Library manager
-
-**In Arduino IDE 2.0**, libraries available in the Library Manager can also be uninstalled there.
-
-1. In the menu bar, click on _Tools > Manage Libraries..._
-
-2. Search for the library you want to uninstall.
-
-3. Find the library in the search results, which are listed alphabetically.
-
-   ![Finding the 'ArduinoBLE' library in the Library Manager.](img/library-manager-2.x-search.png)
-
-4. Put your mouse cursor over the INSTALLED label and click UNINSTALL to uninstall the library.
-
-   ![Uninstalling the 'ArduinoBLE' library in the Library Manager.](img/library-manager-2.x-uninstall.png)
-
----
-
 ## Uninstall using your file manager
 
 Removing the library files directly is the most reliable method that will work for all IDE versions and library types.
@@ -51,6 +33,24 @@ They are written specifically for the boards of that platform and are only acces
 
 ---
 
+## Uninstall in Library manager (2.x only)
+
+In **Arduino IDE 2.x**, libraries available in the Library Manager can also be uninstalled there.
+
+1. In the menu bar, click on _Tools > Manage Libraries..._
+
+2. Search for the library you want to uninstall.
+
+3. Find the library in the search results, which are listed alphabetically.
+
+   ![Finding the 'ArduinoBLE' library in the Library Manager.](img/library-manager-2.x-search.png)
+
+4. Put your mouse cursor over the INSTALLED label and click UNINSTALL to uninstall the library.
+
+   ![Uninstalling the 'ArduinoBLE' library in the Library Manager.](img/library-manager-2.x-uninstall.png)
+
+---
+
 ## Further reading
 
-For a complete overview of files used by Arduino IDE, see [Find sketches, libraries, cores and other files on your computer](https://support.arduino.cc/hc/en-us/articles/4415103213714-Find-sketches-libraries-cores-and-other-files-on-your-computer).
+For a complete overview of files used by Arduino IDE, see [Find sketches, libraries, board cores, and other files on your computer](https://support.arduino.cc/hc/en-us/articles/4415103213714-Find-sketches-libraries-cores-and-other-files-on-your-computer).
