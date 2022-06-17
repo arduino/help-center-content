@@ -16,9 +16,9 @@ Libraries are a collection of code that makes it easy to connect sensors, RTCs, 
 
 4. Click on the INSTALL button.
 
-   >![IDE 1 Library Manager with search box and Install button highlighted](img/LibraryManager_InstallingLibrary_IDE1.png)
+   ![IDE 1 Library Manager with search box and Install button highlighted](img/LibraryManager_InstallingLibrary_IDE1.png)
 
-   >![IDE 2 Library Manager Icon, search box, and Install button highlighted](img/LibraryManager_InstallingLibrary_IDE2.png)
+   ![IDE 2 Library Manager Icon, search box, and Install button highlighted](img/LibraryManager_InstallingLibrary_IDE2.png)
 
 5. Wait for the installation to complete.
 
