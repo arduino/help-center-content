@@ -2,11 +2,13 @@
 title: "Add a library to Arduino IDE"
 ---
 
-Libraries are a collection of code that makes it easy to connect sensors, RTCs, Wi-Fi modules, RGB matrices and other components to your board.
+Libraries are a collection of code that provide extra functionality for use in sketches, for example when working with hardware or manipulating data.
+
+Learn how to add a library to Arduino IDE.
 
 ---
 
-## Add a library in Library manager
+## Using the Library manager
 
 1. In the menu bar, go to `Tools > Manage Libraries...` (In IDE 2, you can also click on the Library Manager icon on the left).
 
@@ -22,8 +24,6 @@ Libraries are a collection of code that makes it easy to connect sensors, RTCs, 
 
 5. Wait for the installation to complete.
 
-6. After the installation is complete, the library will be labelled as INSTALLED, and it is ready to be [included in a sketch](https://www.arduino.cc/reference/en/language/structure/further-syntax/include/).
-
 ---
 
 ## Importing a .zip Library
@@ -32,11 +32,11 @@ Libraries are a collection of code that makes it easy to connect sensors, RTCs, 
 
 2. You will be prompted to select the library you want to add. Navigate to the .zip file's location and open it.
 
-3. The library will automatically be installed and ready to be [included in a sketch](https://www.arduino.cc/reference/en/language/structure/further-syntax/include/).
-
-## Manual Installation
+3. The library will automatically be installed.
 
 ---
+
+## Manual Installation
 
 1. Go to the directory where you have downloaded the .zip library file.
 
@@ -44,7 +44,7 @@ Libraries are a collection of code that makes it easy to connect sensors, RTCs, 
 
 3. Select the main folder (it should have the library's name) and move it to the "libraries" folder [inside your sketchbook](https://support.arduino.cc/hc/en-us/articles/4412950938514-Open-the-Sketchbook).
 
-4. The library will automatically be installed and ready to be [included in a sketch](https://www.arduino.cc/reference/en/language/structure/further-syntax/include/).
+4. Restart Arduino IDE.
 
 > Note that adding a library to the "libraries" folder in the sketchbook will override other previously installed library versions.
 
