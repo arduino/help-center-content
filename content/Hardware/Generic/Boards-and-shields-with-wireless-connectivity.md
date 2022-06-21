@@ -15,9 +15,7 @@ The following is meant for an overview **only** and does not take precedence ove
 
 ## Boards with Bluetooth<sup>®</sup> connectivity
 
-These boards support Bluetooth Low Energy **and/or** what's now known as Bluetooth _Classic_.
-
-The capabilities of each board are dependent on its communications module, and available libraries. Check [Arduino Docs](https://docs.arduino.cc/) for more information.
+The following boards have Bluetooth Low Energy connectivity:
 
 * MKR Vidor 4000
 * MKR WiFi 1010
@@ -30,7 +28,9 @@ The capabilities of each board are dependent on its communications module, and a
 * Portenta H7 Lite Connected
 * UNO WiFi Rev 2
 
-[Read about the ArduinoBLE library here](https://www.arduino.cc/reference/en/libraries/arduinoble/).
+Enable it with the [ArduinoBLE library](https://www.arduino.cc/reference/en/libraries/arduinoble/).
+
+Although the communication modules on these boards can also use Bluetooth _Classic_, it is not currently supported by official firmware or libraries.
 
 ## Boards with other connectivity types
 
