@@ -32,7 +32,9 @@ Learn how to add a library to Arduino IDE.
 
 2. You will be prompted to select the library you want to add. Navigate to the .zip file's location and open it.
 
-3. The library will automatically be installed.
+3. If you're using Arduino IDE 2.x, you may need to restart it for the library to be available[^1].
+
+[^1]: https://github.com/arduino/arduino-ide/issues/659
 
 ---
 
