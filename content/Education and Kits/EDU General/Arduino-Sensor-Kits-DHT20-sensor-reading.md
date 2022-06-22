@@ -4,7 +4,7 @@ title: "Arduino Sensor Kit's DHT20 sensor reading"
 
 Currently, the DHT20 sensor is not compatible with the Arduino Sensor Kit library. Learn how to get readings from the DHT 20 sensor using a 3rd party library.
 
-![DHT20 sensor.](img/DHT20_sensor.png)
+![DHT 20 sensor.](img/DHT20_Sensor.png)
 
 ---
 
