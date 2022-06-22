@@ -12,17 +12,17 @@ Currently, the DHT20 sensor is not compatible with the Arduino Sensor Kit librar
 
 2. [Manually install](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-a-library-to-Arduino-IDE#manual-installation) the library.
 
-3. [Uninstall](https://support.arduino.cc/hc/en-us/articles/360016077340-Uninstall-a-library-from-Arduino-IDE) any competing libraries. (e.g. previous versions of the Grove Temperature And Humidity Sensor library)
+3. [Uninstall](https://support.arduino.cc/hc/en-us/articles/360016077340-Uninstall-a-library-from-Arduino-IDE) any competing libraries. (e.g. previous versions of the Grove Temperature And Humidity Sensor library).
 
-4. Make sure that only one DHT.h file is in your libraries folder. (The only DHT.h file available should be the one inside the "Grove_Temperature_And_Humidity_Sensor-master" folder)
+4. Make sure that only one DHT.h file is in your libraries folder. (The only DHT.h file available should be the one inside the "Grove_Temperature_And_Humidity_Sensor-master" folder).
 
 5. Open the Arduino IDE and create a new sketch.
 
-5. Copy [this example](https://wiki.seeedstudio.com/Grove-Temperature-Humidity-Sensor-DH20/#__code_0) to the sketch.
+6. Copy [this example](https://wiki.seeedstudio.com/Grove-Temperature-Humidity-Sensor-DH20/#__code_0) to the sketch.
 
-6. Change the serial speed to 9600 by writing `debug.begin(9600)` in line 21.
+7. Change the serial speed to 9600 by writing `debug.begin(9600)` in line 21.
 
-7. Upload the sketch.
+8. Upload the sketch.
 
 ## Further reading
 
