@@ -40,7 +40,7 @@ Learn how to add a library to Arduino IDE.
 
 <a id="manual-installation"></a>
 
-## Manual Installation
+## Manual installation
 
 1. Go to the directory where you have downloaded the .zip library file.
 
