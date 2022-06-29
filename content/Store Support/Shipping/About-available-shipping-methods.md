@@ -16,6 +16,8 @@ Learn more about the different shipping methods available in the Arduino Store.
 
 ## Europe and Africa
 
+All orders addressed to Europe and Africa are shipped from Arduino's EU warehouse located in Parma (IT).
+
 <table>
   <tr>
     <th>Service</th>
@@ -66,6 +68,9 @@ Learn more about the different shipping methods available in the Arduino Store.
 <a id="usa"></a>
 
 ## USA
+
+All orders addressed to the USA are shipped from Arduino's US warehouse located in Lakewood (NJ).
+
 
 ### Order processing
 
@@ -182,6 +187,8 @@ Learn more about the different shipping methods available in the Arduino Store.
 <a id="america-asia-oceania"></a>
 
 ## America (excl. USA), Asia and Oceania
+
+All orders addressed to America, Asia and Oceania are shipped from Arduino's US warehouse located in Lakewood (NJ).
 
 ### Order processing
 
