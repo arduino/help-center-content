@@ -4,9 +4,14 @@ title: "About available shipping methods"
 
 Learn more about the different shipping methods available in the Arduino Store.
 
+* <a href="#europe-and-africa">Europe and Africa</a>
+* <a href="usa">USA</a>
+* <a href="america-asia-oceania">America (excl. USA), Asia and Oceania</a>
 
 <!---The information provided in this article is for informational purposes only. These are estimated and the carrier might change them.  --->
 ---
+
+<a id="europe-and-africa"></a>
 
 ## Europe and Africa
 
@@ -56,6 +61,8 @@ Learn more about the different shipping methods available in the Arduino Store.
 </table>
 
 ---
+
+<a id="usa"></a>
 
 ## USA
 
@@ -164,6 +171,8 @@ Learn more about the different shipping methods available in the Arduino Store.
 </table>
 
 ---
+
+<a id="america-asia-oceania"></a>
 
 ## America (excl. USA), Asia and Oceania
 
