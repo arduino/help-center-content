@@ -8,7 +8,8 @@ Learn more about the different shipping methods available in the Arduino Store.
 * <a href="usa">USA</a>
 * <a href="america-asia-oceania">America (excl. USA), Asia and Oceania</a>
 
-<!---The information provided in this article is for informational purposes only. These are estimated and the carrier might change them.  --->
+> Delivery time changes depending on the selected carrier and destination country as indicated in the checkout phase. Carrier delivery time does not include the order processing period. Arduino Srl and Arduino LLC cannot be held responsible for the carrier's late deliveries.
+
 ---
 
 <a id="europe-and-africa"></a>
@@ -65,6 +66,12 @@ Learn more about the different shipping methods available in the Arduino Store.
 <a id="usa"></a>
 
 ## USA
+
+### Order processing
+
+* Orders entered before 2PM ET (GMT-5) Mon-Thu will be shipped on the same day.
+* Orders entered before 12PM ET (GMT-5) Fri will be shipped on the same day.
+* Orders entered after 12PM ET (GMT-5) Fri will be shipped on the next business day.
 
 <table>
   <tr>
@@ -176,6 +183,12 @@ Learn more about the different shipping methods available in the Arduino Store.
 
 ## America (excl. USA), Asia and Oceania
 
+### Order processing
+
+* Orders entered before 2PM ET (GMT-5) Mon-Thu will be shipped on the same day.
+* Orders entered before 12PM ET (GMT-5) Fri will be shipped on the same day.
+* Orders entered after 12PM ET (GMT-5) Fri will be shipped on the next business day.
+
 <table>
   <tr>
     <th>Service</th>
@@ -257,3 +270,8 @@ Learn more about the different shipping methods available in the Arduino Store.
     <td><a href="https://www.usps.com/help/contact-us.htm">USPS contact page</a></a></td>
   </tr>
 </table>
+
+## Further reading
+
+* [Shipping policy](https://store.arduino.cc/pages/shipping-policy?selectedStore=eu) Europe and Africa store.
+* [Shipping policy](https://store-usa.arduino.cc/pages/shipping-policy) America, Asia and Oceania store.
