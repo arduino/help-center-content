@@ -275,3 +275,5 @@ Learn more about the different shipping methods available in the Arduino Store.
 
 * [Shipping policy](https://store.arduino.cc/pages/shipping-policy?selectedStore=eu) Europe and Africa store.
 * [Shipping policy](https://store-usa.arduino.cc/pages/shipping-policy) America, Asia and Oceania store.
+
+<!--- TODO: add link to "About the delivery process"--->
