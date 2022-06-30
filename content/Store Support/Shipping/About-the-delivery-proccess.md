@@ -2,88 +2,103 @@
 title: "About the delivery process"
 ---
 
-<!---When the order is confirmed a email will be sent to the customer:
+After an order is placed in the Arduino Store, the package is picked up by and delivered by a 3rd party carrier. Once the goods have been shipped, you will receive a shipping confirmation email, that includes a tracking number and information about the shipping method selected. Account users can also see some information about their orders from https://store.arduino.cc/account. Read about:
 
-Subject: Order <OrderNumber> confirmed
-
-From: Arduino Official Store support@arduino.cc
-
-Once the goods have been shipped, the customer will receive a shipping confirmation email, including the tracking number.
-
-Account users can see some information about their orders from https://store.arduino.cc/account, but it’s much more limited:--->
-
----
-title: "When is my order going to be shipped?"
+* <a href="#delivery-time">Delivery time</a>.
+* <a href="#cancel-or-modify-an-order">Cancel or modify an order</a>.
+* <a href="#track-an-order">Track an order</a>.
+* Possible additional fees charged by the carrier
+* If the parcel did not arrive
 ---
 
-It is important to note that our warehouses are closed on the weekends.
-At the checkout, the exact delivery date does not include the extra processing day, which you need to count with as not all orders can be processed and shipped out on the same day they have been placed.
+<a id="delivery-time"></a>
 
-You can see the our order processing method:
+## Delivery time
 
-* [For the US store](https://store-usa.arduino.cc/pages/shipping-policy)
-* [For the EU store](https://store.arduino.cc/pages/shipping-policy)
+Delivery time changes depending on the selected carrier and destination country as indicated in the checkout phase. Carrier delivery time does not include the order processing period. Arduino Srl and Arduino LLC cannot be held responsible for the carrier's late deliveries. See the available shipping methods and the estimated delivery time. <!--- TODO add link to Available shipping methods article--->
+
+### Order processing time
+
+#### Europe and Africa
+
+All orders addressed to Europe and Africa are shipped from Arduino's EU warehouse located in Parma (IT). Note that the warehouse is closed on the weekends.
+
+* Orders entered before 11:00 am CET (GMT+1) Mon-Fri ship the same day.
+* Orders entered after 11:00 am CET (GMT+1 Mon-Fri ship the next business day.
+
+#### America (incl. USA), Asia and Oceania
+
+All orders addressed to America, Asia and Oceania are shipped from Arduino's US warehouse located in Lakewood (NJ). Note that the warehouse is closed on the weekends.
+
+* Orders entered before 2PM ET (GMT-5) Mon-Thu will be shipped on the same day.
+* Orders entered before 12PM ET (GMT-5) Fri will be shipped on the same day.
+* Orders entered after 12PM ET (GMT-5) Fri will be shipped on the next business day.
 
 ---
-title: "How long does delivery take?"
----
 
-Delivery time changes depending on the selected carrier and destination country as indicated in the checkout phase. Carrier delivery time does not include the order processing period as mentioned in the next section. Arduino SRL cannot be held responsible for the Carrier's late deliveries. Once the goods have been shipped, the customer will receive a shipping confirmation email, including the tracking number.
+<a id="cancel-or-modify-an-order"></a>
 
----
-title: "Can I track my order?"
----
+## Cancel or modify an order
 
-Yes, of course! Once the order is fulfilled and shipped, you’ll receive an email with the tracking number in order to follow your shipment.
+After an order is placed it is processed and sent to a carrier. If the order information clears and the items are in stock, it is impossible to change the order. This includes adding or removing items, changing the shipping information, or cancelling the order.
 
-Please note that orders shipped to **NON-US** or **NON-EU** countries may be subject to local import taxes (VAT and Duties), and that local courier companies may charge a service fee in addition to the original shipping costs.
+If you want to return your order and receive a refund, you can reject to receive the delivery from the shipping carrier. The shipment will be returned free of charge, and we will process your refund. Please [contact us](https://www.arduino.cc/en/contact-us/) for additional questions.
 
-Please note that non-US orders shipped via DHL Parcel International Standard or Asendia will be delivered by the local postal service. In this case, many countries create a **local tracking number** for these parcels. It can be found in the **right corner**  at the page of your international tracking number.
+## Track an order
 
-![Asendia order receipt with local tracking number highlighted](img/AsendiaLocalTrackingNumberHighlighted.png)
+<a id="track-an-order"></a>
 
-![Order receipt with tracking number highlighted](img/ParcelTracking.png)
+Most carriers provide a tracking page where you can track your order. To do so:
 
-If the received link does not work or gives any error, you can easily track your parcel on the internet, too.
-Go, for example, to any of these webpages:
+1. Go to the shipping confirmation email and copy the tracking number.
+2. Search for the selected carrier's tracking page.
+3. Paste the tracking number into the text field.
+
+Alternatively, you can use one of the following websites to track your order:
 
 * [https://www.trackingmore.com/](https://www.trackingmore.com/)
 * [https://www.aftership.com/](https://www.aftership.com/)
 * [https://www.track-trace.com/](https://www.track-trace.com/)
 * [https://www.17track.net/](https://www.17track.net/)
 
-Then write or paste your tracking number into the field.
-If you are shown several options, you can choose your carrier (FedEx, UPS, DHL, GLS etc.) and this will give you more information.
-The page will open a pop-up window, which includes the tracking details of your parcel.
+### Deliveries by the local post
 
+For orders addressed to America, Asia and Oceania, the [FedEx Ground® Economy](https://www.fedex.com/en-us/shipping/ground/economy.html), [DHL Parcel International Standard](https://www.dhl.com/us-en/home/ecommerce-solutions/shipping-services.html) and Asendia shipping methods utilize the local postal service for the final delivery. These shipping methods might have longer delivery times (up to a month for orders outside the USA), and are more difficult to track.
 
----
-title: "About possible additional fees charged by the carrier"
----
+For the FedEx Ground® Economy shipping method, the tracking number provided works in both FedEx's and USPS’s tracking systems.
 
-Occasionally, your carrier might request the payment of additional fees due to the customs clearance process performed at the parcel's destination country.
+Some countries create a local tracking number for orders outside the USA. This number can be found on the right side of the carrier's order receipt:
 
-For orders placed on Arduino's EU store, customs fees might occur for parcels shipped to countries outside the European Union. Similarly, the same might happen for orders placed on Arduino's US store and delivered to an area outside the USA.
+![Asendia order receipt with local tracking number highlighted](img/AsendiaLocalTrackingNumberHighlighted.png)
 
-The customs fees are regulated by the local authorities in the destination country. That fact makes it impossible to predict if you will be charged customs fees when ordering a product from the Arduino store.
-
-Beware that the ordered parcel will be returned to Arduino's warehouse if this fee is not paid to the carrier.
-
->Note: Even though it is impossible to predict if additional fees will occur, in some cases, although being slower, deliveries made by postal services are less likely to be charged customs fees.
-
+![Order receipt with tracking number highlighted](img/ParcelTracking.png)
 
 ---
-title: "My parcel did not arrive, what can I do?"
+
+## Possible additional fees charged by the carrier
+
+Orders shipped to territories outside the USA and EU may be subject to local import taxes (VAT and Duties), and local courier companies may charge a service fee in addition to the original shipping costs.
+
+Also, your carrier might request the payment of additional fees due to the customs clearance process performed at the parcel's destination country. The customs fees are regulated by the local authorities in the destination country. That fact makes it impossible to predict if you will be charged customs fees when ordering a product from the Arduino store. Ordered parcels will be returned to the Arduino's warehouses if this fee is not paid to the carrier.
+
+>Even though it is impossible to predict if additional fees will occur, in some cases, albeit slower, deliveries made by the local postal services are less likely to be charged customs fees.
+
 ---
 
-Unfortunately, there are some cases when, even if the tracking number shows that the parcel has been delivered, it has not been delivered to the hands of the customer. This mostly happens with the parcels, where a signature is not required.
+## If the parcel did not arrive
 
-If this happened to you, please check the following before you make contact with Arduino Customer Support:
+In some rare cases, an order might not be delivered to the customer even if it appears as delivered when tracking the parcel. This mostly happens when using shipping methods that don't have proof of delivery.
 
-* Check with other people living in your same address, or perhaps a neighbor, to make sure that nobody picked up your package.
-* Check around the entrance(s) of your residence for the package, particularly on back porches, bushes, garages, grills, or other places that might protect your package from theft or weather.
+If the parcel did not arrive, please check the following before contacting [Arduino's customer support](https://store.arduino.cc/store-support):
 
-> Note that drivers may also use plastic bags to protect your package from the weather.
+* Check if other people living in the same delivery address or a neighbour have picked up the parcel.
+* Check around the entrance(s) of your residence, particularly on back porches, bushes, garages, grills, or other places that might protect your package from theft or weather.
 
-If you have tried all this and your parcel has still not been found, you can
-make contact with Arduino Customer Support to find a solution for your problem.
+> Note that carriers may also use plastic bags to protect your package from the weather.
+
+## Further reading
+
+* [Shipping policy](https://store.arduino.cc/pages/shipping-policy?selectedStore=eu) Europe and Africa store.
+* [Shipping policy](https://store-usa.arduino.cc/pages/shipping-policy) America, Asia and Oceania store.
+
+<!--- TODO: add link to "Available shipping methods"--->
