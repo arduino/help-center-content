@@ -45,7 +45,7 @@ All orders addressed to America, Asia and Oceania are shipped from Arduino's US 
 
 After an order is placed it is processed and sent to a carrier. If the order information clears and the items are in stock, it is impossible to change the order. This includes adding or removing items, changing the shipping information, or cancelling the order.
 
-If you want to return your order and receive a refund, you can reject to receive the delivery from the shipping carrier. The shipment will be returned free of charge, and we will process your refund. Please [contact us](https://www.arduino.cc/en/contact-us/) for additional questions.
+If you want to return your order and receive a refund you can reject to receive the delivery from the shipping carrier. The shipment will be returned free of charge, and we will process your refund. Please [contact us](https://www.arduino.cc/en/contact-us/) for additional questions.
 
 ## Track an order
 
