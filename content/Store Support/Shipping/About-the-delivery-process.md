@@ -2,20 +2,23 @@
 title: "About the delivery process"
 ---
 
-After an order is placed in the Arduino Store, the package is picked up by and delivered by a 3rd party carrier. Once the goods have been shipped, you will receive a shipping confirmation email, that includes a tracking number and information about the shipping method selected. Account users can also see some information about their orders from https://store.arduino.cc/account. Read about:
+After an order is placed in the Arduino Store, the package is picked up and delivered by a 3rd party carrier. Once the goods have been shipped, you will receive a shipping confirmation email, that includes a tracking number and information about the shipping method selected. Account users can also see a summary of the orders in the [account section](https://store.arduino.cc/account) of the Arduino Store.
+
+Learn more about the delivery process:
 
 * <a href="#delivery-time">Delivery time</a>.
 * <a href="#cancel-or-modify-an-order">Cancel or modify an order</a>.
 * <a href="#track-an-order">Track an order</a>.
-* Possible additional fees charged by the carrier
-* If the parcel did not arrive
+* <a href="#possible-fees">Possible additional fees charged by the carrier</a>.
+* <a href="#if-a-parcel-did-not-arrive">If a parcel did not arrive</a>.
+
 ---
 
 <a id="delivery-time"></a>
 
 ## Delivery time
 
-Delivery time changes depending on the selected carrier and destination country as indicated in the checkout phase. Carrier delivery time does not include the order processing period. Arduino Srl and Arduino LLC cannot be held responsible for the carrier's late deliveries. See the available shipping methods and the estimated delivery time. <!--- TODO add link to Available shipping methods article--->
+Delivery time changes depending on the selected carrier and destination country as indicated in the checkout phase. Carrier delivery time does not include the order processing period. Arduino Srl and Arduino LLC cannot be held responsible for the carrier's late deliveries. See the [available shipping methods]() and their estimated delivery times. <!--- TODO add link to Available shipping methods article--->
 
 ### Order processing time
 
@@ -75,6 +78,8 @@ Some countries create a local tracking number for orders outside the USA. This n
 
 ---
 
+<a id="possible-fees"></a>
+
 ## Possible additional fees charged by the carrier
 
 Orders shipped to territories outside the USA and EU may be subject to local import taxes (VAT and Duties), and local courier companies may charge a service fee in addition to the original shipping costs.
@@ -85,7 +90,9 @@ Also, your carrier might request the payment of additional fees due to the custo
 
 ---
 
-## If the parcel did not arrive
+<a id="if-a-parcel-did-not-arrive"></a>
+
+## If a parcel did not arrive
 
 In some rare cases, an order might not be delivered to the customer even if it appears as delivered when tracking the parcel. This mostly happens when using shipping methods that don't have proof of delivery.
 
