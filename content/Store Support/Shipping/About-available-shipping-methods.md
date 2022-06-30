@@ -4,9 +4,9 @@ title: "About available shipping methods"
 
 Learn more about the different shipping methods available in the Arduino Store.
 
-* <a href="#europe-and-africa">Europe and Africa</a>
-* <a href="usa">USA</a>
-* <a href="america-asia-oceania">America (excl. USA), Asia and Oceania</a>
+* Shipments to <a href="#europe-and-africa">Europe and Africa</a>.
+* Shipments to the <a href="usa">USA</a>.
+* Shipments to <a href="america-asia-oceania">America (excl. USA), Asia and Oceania</a>.
 
 > Delivery time changes depending on the selected carrier and destination country as indicated in the checkout phase. Carrier delivery time does not include the order processing period. Arduino Srl and Arduino LLC cannot be held responsible for the carrier's late deliveries.
 
@@ -118,6 +118,7 @@ All orders addressed to the USA are shipped from Arduino's US warehouse located 
       <li>Longer delivery time for deliveries outside the contiguous U.S. states</li>
       <li>Smaller products are usually shipped out in an envelope</li>
       <li>Final delivery by a postal carrier</li>
+      <li>No proof of delivery</li>
       <li><a href="https://support.arduino.cc/hc/en-us/articles/360018392860-About-FedEx-Smartpost">Read more about this shipping method</a></li>
     </td>
     <td>2-7 business days</td>
