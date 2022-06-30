@@ -76,7 +76,6 @@ All orders addressed to Europe and Africa are shipped from Arduino's EU warehous
 
 All orders addressed to the USA are shipped from Arduino's US warehouse located in Lakewood (NJ).
 
-
 ### Order processing
 
 * Orders entered before 2PM ET (GMT-5) Mon-Thu will be shipped on the same day.
