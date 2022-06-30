@@ -18,7 +18,7 @@ Learn more about the delivery process:
 
 ## Delivery time
 
-Delivery time changes depending on the selected carrier and destination country as indicated in the checkout phase. Carrier delivery time does not include the order processing period. Arduino Srl and Arduino LLC cannot be held responsible for the carrier's late deliveries. See the available shipping methods and their estimated delivery times. <!--- TODO add link to Available shipping methods article--->
+Delivery time changes depending on the selected carrier and destination country as indicated in the checkout phase. Carrier delivery time does not include the order processing period. Arduino Srl and Arduino LLC cannot be held responsible for the carrier's late deliveries. See the [available shipping methods]() and their estimated delivery times. <!--- TODO add link to Available shipping methods article--->
 
 ### Order processing time
 
