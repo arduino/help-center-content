@@ -18,12 +18,17 @@ Learn more about the different shipping methods available in the Arduino Store.
 
 All orders addressed to Europe and Africa are shipped from Arduino's EU warehouse located in Parma (IT).
 
-<table>
+### Order processing
+
+* Orders entered before 11:00 am CET (GMT+1) Mon-Fri ship the same day.
+* Orders entered after 11:00 am CET (GMT+1 Mon-Fri ship the next business day.
+
+<table >
   <tr>
-    <th>Service</th>
-    <th>Description</th>
-    <th>Delivery Time</th>
-    <th>Contact</th>
+    <th style="width:auto;text-align:center">Service</th>
+    <th style="width:auto;text-align:center">Description</th>
+    <th style="width:auto;text-align:center">Delivery Time</th>
+    <th style="width:auto;text-align:center">Contact</th>
   </tr>
   <tr>
     <td><a href="https://gls-group.com/IT/en/send-receive/choose-right-service/national-shipping">GLS Standard</a></td>
@@ -80,10 +85,10 @@ All orders addressed to the USA are shipped from Arduino's US warehouse located 
 
 <table>
   <tr>
-    <th>Service</th>
-    <th>Description</th>
-    <th>Delivery Time</th>
-    <th>Contact</th>
+    <th style="width:auto;text-align:center">Service</th>
+    <th style="width:auto;text-align:center">Description</th>
+    <th style="width:auto;text-align:center">Delivery Time</th>
+    <th style="width:auto;text-align:center">Contact</th>
   </tr>
   <tr>
     <td><a href="https://www.usps.com/ship/priority-mail-express.htm#4">USPS Express Mail</a></td>
@@ -198,10 +203,10 @@ All orders addressed to America, Asia and Oceania are shipped from Arduino's US 
 
 <table>
   <tr>
-    <th>Service</th>
-    <th>Description</th>
-    <th>Delivery Time</th>
-    <th>Contact</th>
+    <th style="width:auto;text-align:center">Service</th>
+    <th style="width:auto;text-align:center">Description</th>
+    <th style="width:auto;text-align:center">Delivery Time</th>
+    <th style="width:auto;text-align:center">Contact</th>
   </tr>
   <tr>
     <td><a href="https://www.dhl.com/us-en/home/ecommerce-solutions/shipping-services.html">DHL Parcel International Standard</a></td>
