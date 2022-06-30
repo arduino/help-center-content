@@ -1,5 +1,5 @@
 ---
-title: "About available shipping methods"
+title: "Available shipping methods"
 ---
 
 Learn more about the different shipping methods available in the Arduino Store.
@@ -119,7 +119,8 @@ All orders addressed to the USA are shipped from Arduino's US warehouse located 
       <li>Smaller products are usually shipped out in an envelope</li>
       <li>Final delivery by a postal carrier</li>
       <li>No proof of delivery</li>
-      <li><a href="https://support.arduino.cc/hc/en-us/articles/360018392860-About-FedEx-Smartpost">Read more about this shipping method</a></li>
+      <li><a href="">Read more about this shipping method</a></li>
+      <!---TODO add link to ### Deliveries by the local post in "About the delivery process"--->
     </td>
     <td>2-7 business days</td>
     <td><a href="https://www.fedex.com/en-us/customer-support/contact-us.html">FedEx contact page</a></td>
@@ -215,7 +216,8 @@ All orders addressed to America, Asia and Oceania are shipped from Arduino's US 
       <li>Final delivery done by the local post</li>
       <li>Higher chances of customs charges</li>
       <li>Smaller products are usually shipped out in an envelope</li>
-      <li><a href="https://support.arduino.cc/hc/en-us/articles/360016495719">Read more about this shipping method</a></li>
+      <li><a href="">Read more about this shipping method</a></li>
+            <!---TODO add link to ### Deliveries by the local post in "About the delivery process"--->
     </td>
     <td>Up to one month</td>
     <td><a href="https://www.dhl.com/us-en/home/customer-service.html">DHL contact page</a></td>
@@ -231,7 +233,8 @@ All orders addressed to America, Asia and Oceania are shipped from Arduino's US 
       <li>Slow and hard to track shipping method</li>
       <li>Higher chances of customs charges</li>
       <li>Smaller products are usually shipped out in an envelope</li>
-      <li><a href="https://support.arduino.cc/hc/en-us/articles/4617792381468-About-Asendia">Read more about these shipping methods</a></li>
+      <li><a href="">Read more about these shipping methods</a></li>
+            <!---TODO add link to ### Deliveries by the local post in "About the delivery process"--->
     </td>
     <td>Up to one month</td>
     <td><a href="https://www.asendia.com/contact/customer-support">Asendia contact page</a></td>
@@ -287,5 +290,4 @@ All orders addressed to America, Asia and Oceania are shipped from Arduino's US 
 
 * [Shipping policy](https://store.arduino.cc/pages/shipping-policy?selectedStore=eu) Europe and Africa store.
 * [Shipping policy](https://store-usa.arduino.cc/pages/shipping-policy) America, Asia and Oceania store.
-
 <!--- TODO: add link to "About the delivery process"--->
