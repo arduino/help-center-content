@@ -47,9 +47,11 @@ After an order is placed it is processed and sent to a carrier. If the order inf
 
 If you want to return your order and receive a refund you can reject to receive the delivery from the shipping carrier. The shipment will be returned free of charge, and we will process your refund. Please [contact us](https://www.arduino.cc/en/contact-us/) for additional questions.
 
-## Track an order
+---
 
 <a id="track-an-order"></a>
+
+## Track an order
 
 Most carriers provide a tracking page where you can track your order. To do so:
 
@@ -102,6 +104,8 @@ If the parcel did not arrive, please check the following before contacting [Ardu
 * Check around the entrance(s) of your residence, particularly on back porches, bushes, garages, grills, or other places that might protect your package from theft or weather.
 
 > Note that carriers may also use plastic bags to protect your package from the weather.
+
+---
 
 ## Further reading
 
