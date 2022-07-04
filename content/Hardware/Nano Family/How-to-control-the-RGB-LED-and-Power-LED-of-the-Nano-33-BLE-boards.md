@@ -7,12 +7,50 @@ The [Nano 33 BLE Sense](https://store.arduino.cc/products/arduino-nano-33-ble-se
 
 This information is available on the Nano 33 BLE's boards [variant file](https://github.com/arduino/ArduinoCore-nRF528x-mbedos/blob/master/variants/ARDUINO_NANO33BLE/pins_arduino.h#L54).
 
-<iframe src=https://create.arduino.cc/editor/arduino_support/b128a04b-ae92-40b3-be19-18bb0cdf3194/preview?embed&snippet=L3-L7 style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
-
-[Code snippet](https://create.arduino.cc/editor/arduino_support/b128a04b-ae92-40b3-be19-18bb0cdf3194/preview?embed&snippet=L3-L7)
+```arduino
+#define RED 22     
+#define BLUE 24     
+#define GREEN 23
+#define LED_PWR 25
+```
 
 Below is the general sketch to play around with the RGB led on the Nano 33 BLE boards and user can modify the sketch according to the requirements.
 
-[Code snippet](https://create.arduino.cc/editor/arduino_support/b128a04b-ae92-40b3-be19-18bb0cdf3194/preview?embed)
+```arduino
+// How to control the RGB Led and Power Led of the Nano 33 BLE boards.  
 
-<iframe src=https://create.arduino.cc/editor/arduino_support/b128a04b-ae92-40b3-be19-18bb0cdf3194/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+ #define RED 22     
+ #define BLUE 24     
+ #define GREEN 23
+ #define LED_PWR 25
+
+void setup() {
+
+ // intitialize the digital Pin as an output
+  pinMode(RED, OUTPUT);
+  pinMode(BLUE, OUTPUT);
+  pinMode(GREEN, OUTPUT);
+  pinMode(LED_PWR, OUTPUT);
+
+}
+
+// the loop function runs over and over again
+void loop() {
+  digitalWrite(RED, LOW); // turn the LED off by making the voltage LOW
+  delay(1000);            // wait for a second
+  digitalWrite(GREEN, LOW);
+  delay(1000);  
+  digitalWrite(BLUE, LOW);
+  delay(1000);  
+  digitalWrite(RED, HIGH); // turn the LED on (HIGH is the voltage level)
+  delay(1000);                         
+  digitalWrite(GREEN, HIGH);
+  delay(1000);  
+  digitalWrite(BLUE, HIGH);
+  delay(1000);  
+  digitalWrite(LED_PWR, HIGH);
+  delay(1000);  
+  digitalWrite(LED_PWR, LOW);
+  delay(1000);  
+}
+```
