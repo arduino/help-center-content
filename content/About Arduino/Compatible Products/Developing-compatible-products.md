@@ -2,7 +2,6 @@
 title: "Developing compatible products"
 id: 4677964202908
 ---
-
 This article covers the basic trademark rules you must follow when developing products based on (or compatible with) Arduino. By following these guidelines, you will be able to develop, share, and even commercialize your products without violating Arduino’s Intellectual Property.
 
 > A compatible product is a product, such as a board, derived from an Arduino board and compatible with the Arduino IDE. A compatible product can be manufactured by a different company and have its own brand, or be unbranded. Compatible products are perfectly legal to make, use and sell, as long as they don’t violate any of Arduino’s trademarks.
@@ -11,14 +10,12 @@ This article covers the basic trademark rules you must follow when developing pr
   <tr>
     <th>Do</th>
     <th>Don't</th>
-
   </tr>
   <tr>
-    <td><img src="https://content.arduino.cc/assets/ArduinoBoard_good_example.png" alt="Blue board with butterfly logo and "Butterfly BOARD" written on top"></td>
-    <td><img src="https://content.arduino.cc/assets/ArduinoBoard_bad_example.png" alt="Green board with butterfly logo and "Butterfly ARDUINO BOARD" written on top" and Arduino Infinity logo below"></td>
+    <td><img src="https://content.arduino.cc/assets/ArduinoBoard_good_example.png" alt="Blue board with butterfly logo and 'Butterfly BOARD' written on top"></td>
+    <td><img src="https://content.arduino.cc/assets/ArduinoBoard_bad_example.png" alt="Green board with butterfly logo and 'Butterfly ARDUINO BOARD' written on top and Arduino Infinity logo below"></td>
   </tr>
-  <tr>
-  </table>
+</table>
 
 ---
 
@@ -83,37 +80,42 @@ The Arduino name cannot be included in a company name even if the company uses t
   </tr>
   <tr>
     <td>Logo</td>
-    <td><img src="https://content.arduino.cc/assets/ButterflyBoard_good_example.png" alt="Gray butterfly logo with Butterfly BOARD written on the side"></td>
-    <td><img src="https://content.arduino.cc/assets/ButterflyBoard_bad_example.png" alt="Arduino Infinity logo with "Butterfly BOARD" written on the side"></td>
+    <td><img src="https://content.arduino.cc/assets/ButterflyBoard_good_example.png" alt="Gray butterfly logo with 'Butterfly BOARD' written on the side"></td>
+    <td><img src="https://content.arduino.cc/assets/ButterflyBoard_bad_example.png" alt="Arduino Infinity logo with 'Butterfly BOARD' written on the side"></td>
   </tr>
   <tr>
     <td>Product Category</td>
     <td  style="vertical-align: top;">
       Product menu:
-      <li>Arduino<sup>®</sup><ul>
-        <li>Arduino<sup>®</sup> boards</li>
-        <li>Arduino<sup>®</sup> Kits</li>
-        </ul>
-        <li>Compatible with Arduino<ul>
-          <li>Butterfly boards</li>
-          <li>Grasshopper kits</li>
+      <ul>
+        <li>Arduino<sup>®</sup>
+          <ul>
+            <li>Arduino<sup>®</sup> boards</li>
+            <li>Arduino<sup>®</sup> Kits</li>
           </ul>
-      </li>
+        <li>Compatible with Arduino
+          <ul>
+            <li>Butterfly boards</li>
+            <li>Grasshopper kits</li>
+          </ul>
+        </li>
+      </ul>
     </td>
     <td  style="vertical-align: top;">
       Product menu:
-          <li>Arduino<ul>
-            <li>Butterfly boards</li>
-            <li>Grasshopper kits</li>
-            <li>Generic UNO boards</li>
+      <ul>
+        <li>Arduino
+            <ul>
+              <li>Butterfly boards</li>
+              <li>Grasshopper kits</li>
+              <li>Generic UNO boards</li>
             </ul>
-       </li>
-     </td>
-     </tr>
+        </li>
+      </ul>
+    </td>
   <tr>
     <td>Website name</td>
     <td>www.butterfly.com</td>
     <td>www.butterflyarduino.com</td>
   </tr>
-  <tr>
-  </table>
+</table>

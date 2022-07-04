@@ -35,16 +35,16 @@ The silkscreen is a layer of ink trace that contains logos, symbols, and text us
      <td><img src="https://content.arduino.cc/assets/Arduino_UNO_Rev3_back_Ok.jpg" alt="Counterfeit UNO Rev 3 (back)"></td>
   </tr>
   <tr>
-     <td>"Original UNO Rev 3 (front)</td>
-     <td>"Original UNO Rev 3 (back)</td>
+     <td>Original UNO Rev 3 (front)</td>
+     <td>Original UNO Rev 3 (back)</td>
   </tr>
   <tr>
      <td><img src="https://content.arduino.cc/assets/Arduino_Due_front_OK.jpg" alt="Original Due (front)"></td>
      <td><img src="https://content.arduino.cc/assets/Arduino_Due_back_OK.jpg" alt="Original Due (back)"></td>
   </tr>
   <tr>
-     <td>"Original Due (front)</td>
-     <td>"Original Due (back)</td>
+     <td>Original Due (front)</td>
+     <td>Original Due (back)</td>
   </tr>
 </table>
 
@@ -120,7 +120,7 @@ A board using a red LED for power or signaling indicates a counterfeit.
 <table class="img-captions">
   <tr>
     <td><img src="https://content.arduino.cc/assets/Arduino_UNO_Rev3_Ok.jpg" alt="Original Arduino UNO Rev3"></td>
-    <td><img src="https://content.arduino.cc/assets/Arduino_UNO_Fake.jpg" alt="Counterfeit Arduino UNO Rev3""></td>
+    <td><img src="https://content.arduino.cc/assets/Arduino_UNO_Fake.jpg" alt="Counterfeit Arduino UNO Rev3"></td>
   </tr>
   <tr>
     <td>Arduino UNO Rev3</td>

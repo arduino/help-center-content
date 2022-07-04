@@ -17,11 +17,11 @@ The activation code consists of 24 alphanumeric characters (0–9, A–Z). It do
 
 <table class="img-captions">
   <tr>
-    <td><img src="https://content.arduino.cc/assets/activation_code_char_zero_trim.png" alt="Zero (crossed)."></td>
+    <td><img src="https://content.arduino.cc/assets/activation_code_char_zero_trim.png" alt="Zero (crossed)"></td>
     <td><img src="https://content.arduino.cc/assets/activation_code_char_O_trim.png" alt="Capital O"></td>
     <td><img src="https://content.arduino.cc/assets/activation_code_char_one.png" alt="One"></td>
-    <td><img src="https://content.arduino.cc/assets/activation_code_char_L.png" alt="Counterfeit Arduino UNO Rev3""></td>
-    <td><img src="https://content.arduino.cc/assets/activation_code_char_I.png" alt="Zero (crossed)."></td>
+    <td><img src="https://content.arduino.cc/assets/activation_code_char_L.png" alt="Capital L"></td>
+    <td><img src="https://content.arduino.cc/assets/activation_code_char_I.png" alt="Capital I"></td>
   </tr>
   <tr>
     <td>Zero</td>

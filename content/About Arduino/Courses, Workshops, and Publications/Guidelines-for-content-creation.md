@@ -28,13 +28,11 @@ To avoid violating Arduino trademarks, you must name your course in a way that d
   <tr>
     <th style="text-align: center;">Do</th>
     <th style="text-align: center;">Don't</th>
-
   </tr>
   <tr>
     <td>Basic tutorial for Arduino</td>
     <td>Arduino basic tutorial</td>
   </tr>
-  <tr>
 </table>
 
 ## Licenses and fees
@@ -78,12 +76,12 @@ All uses of the trademarks of Arduino SA should include an acknowledgment (for e
   </tr>
   <tr>
     <td >Logo</td>
-    <td ><img src="https://content.arduino.cc/assets/LearnArduino_good_example.png" alt="Grey butterfly logo with "Butterfly Education" written below, surrounded by a blue square with "Learn Arduino" written at the bottom"></td>
-    <td><img src="https://content.arduino.cc/assets/LearnArduino_bad_example.png" alt="Arduino Infinity logo with "Butterfly Education" written below, surrounded by a blue square with "Learn Arduino" written at the bottom"></td>
+    <td ><img src="https://content.arduino.cc/assets/LearnArduino_good_example.png" alt="Grey butterfly logo with 'Butterfly Education' written below, surrounded by a blue square with Learn Arduino written at the bottom"></td>
+    <td><img src="https://content.arduino.cc/assets/LearnArduino_bad_example.png" alt="Arduino Infinity logo with 'Butterfly Education' written below, surrounded by a blue square with Learn Arduino written at the bottom"></td>
   </tr>
   <tr>
     <td>Community Logo</td>
-    <td> <img src="https://content.arduino.cc/assets/CommunityLogo_good_example.png" alt="Arduino Community infinity logo with "Free workshop for Arduino" written at the bottom right side"></td>
-    <td><img src="https://content.arduino.cc/assets/CommunityLogo_bad_example.png" alt="Arduino Community infinity logo with "Arduino Workshop" written at the bottom right side, and 50% Discount sticker at the top"></td>
+    <td> <img src="https://content.arduino.cc/assets/CommunityLogo_good_example.png" alt="Arduino Community infinity logo with 'Free workshop for Arduino' written at the bottom right side"></td>
+    <td><img src="https://content.arduino.cc/assets/CommunityLogo_bad_example.png" alt="Arduino Community infinity logo with 'Arduino Workshop' written at the bottom right side, with a 50% discount sticker graphic"></td>
   </tr>
-  </table>
+</table>
