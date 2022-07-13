@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ZENDESK_USER: ${{ secrets.ZENDESK_USER }}
-      ZENDESK_TOKEN: ${{ secrets.ZENDESK_TOKEN }}
+      ZENDESK_PASS: ${{ secrets.ZENDESK_TOKEN }}
 
     steps:
       - uses: actions/checkout@v1
