@@ -24,7 +24,7 @@ Delivery time changes depending on the selected carrier and destination country 
 
 #### Europe and Africa
 
-All orders addressed to Europe and Africa are shipped from Arduino's EU warehouse located in Parma (IT). Note that the warehouse is closed on the weekends.
+All orders addressed to Europe and Africa are shipped from Arduino's EU warehouse located in Parma (Italy). Note that the warehouse is closed on the weekends.
 
 * Orders entered before 11 AM CET (GMT+1) Mon-Fri ship the same day.
 * Orders entered after 11 AM CET (GMT+1) Mon-Fri ship the next business day.
