@@ -1,5 +1,6 @@
 ---
 title: "Use verbose output in the Arduino IDE"
+id: 4407705216274
 ---
 
 Enabling verbose output will output more detailed information in the console. This is useful for troubleshooting errors during compilation or upload.

@@ -1,5 +1,6 @@
 ---
 title: "Debugging the MKR IoT Carrier capacitive buttons"
+id: 360021222000
 ---
 
 The MKR IoT Carrier has five buttons with capacitive sensors labeled 00, 01, 02, 03, and 04 on the carrier board. By measuring capacitance they can respond when pressed, both with and without the plastic casing.

@@ -1,5 +1,6 @@
 ---
 title: "'We were not able to upload the template sketch' in IoT Cloud"
+id: 4408887422994
 ---
 
 With [IoT Cloud templates](https://cloud.arduino.cc/iot/templates) you can quickly create a project for a compatible board (such as the MKR WiFi 1010). When importing a template you may experience this error:

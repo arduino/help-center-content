@@ -1,5 +1,6 @@
 ---
 title: "Upload the Science Journal firmware"
+id: 4408029337746
 ---
 
 Boards supported by the Science Journal App require special firmware to connect.

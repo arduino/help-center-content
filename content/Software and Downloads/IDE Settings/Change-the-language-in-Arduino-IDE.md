@@ -1,5 +1,6 @@
 ---
 title: "Change the language in Arduino IDE"
+id: 4403365287826
 ---
 
 > **Note:** Community translations were added to Arduino IDE 2.0 in version **2.0.0-rc6**. You can find the latest version on the [Software page](https://www.arduino.cc/en/software). <!-- TEMP_NOTICE: 22-04-27 -->

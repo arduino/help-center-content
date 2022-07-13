@@ -1,5 +1,6 @@
 ---
 title: "Configure your network for Arduino IoT Cloud"
+id: 360017279260
 ---
 
 The Arduino IoT Cloud uses the following domains and ports, which need to be whitelisted in your firewall.

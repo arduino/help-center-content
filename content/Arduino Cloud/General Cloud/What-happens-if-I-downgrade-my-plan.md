@@ -1,5 +1,6 @@
 ---
 title: "What happens if I downgrade my plan?"
+id: 360019706820
 ---
 
 These are some things to keep in mind if you change your Arduino Cloud plan from a paid plan to a free or cheaper plan.

@@ -1,5 +1,6 @@
 ---
 title: "Warning: Invalid DFU suffix signature"
+id: 4411327110674
 ---
 
 When uploading a sketch to Portenta H7 you may receive this warning in the console:

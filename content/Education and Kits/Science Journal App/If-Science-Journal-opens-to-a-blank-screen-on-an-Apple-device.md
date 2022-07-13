@@ -1,5 +1,6 @@
 ---
 title: "If Science Journal opens to a blank screen on an Apple device"
+id: 4405005243932
 ---
 
 Follow these steps if Science Journal opens to a blank screen on iPhone, iPod Touch, or iPad.

@@ -1,5 +1,6 @@
 ---
 title: "How to delete Forum posts"
+id: 4405329847698
 ---
 
 The posts can be deleted by pressing the Trash button which appears below the post.

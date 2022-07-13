@@ -1,5 +1,6 @@
 ---
 title: "What URLs do schools need to whitelist, to download new libraries and board cores to the IDE?"
+id: 4401874272658
 ---
 
 Depending on the system's security, you might need to add some URLs or websites to the security "whitelist" (a list of URLs that are safe to access by installed programs).

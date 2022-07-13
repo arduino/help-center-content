@@ -1,5 +1,6 @@
 ---
 title: "Review and change privacy settings for your Arduino account"
+id: 360016070060
 ---
 
 1. Go to [id.arduino.cc](https://id.arduino.cc/) and sign in.

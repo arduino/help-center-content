@@ -1,5 +1,6 @@
 ---
 title: "What is the difference between Arduino UNO SMD and the standard UNO"
+id: 360018161639
 ---
 
 If you have noticed two different types of Arduino UNO available in our store and you wonder what is the difference between those two, keep reading to find out!

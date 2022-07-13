@@ -1,5 +1,6 @@
 ---
 title: "If your device can't be added or won't connect to IoT Cloud"
+id: 360019355679
 ---
 
 Learn how to resolve problems adding and connecting devices to IoT Cloud.

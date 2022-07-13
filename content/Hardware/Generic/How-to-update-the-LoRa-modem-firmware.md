@@ -1,5 +1,6 @@
 ---
 title: "How to update the LoRa modem firmware"
+id: 4405107258130
 ---
 
 When using the LoRa® functionality in Arduino devices, it is recommended to keep the LoRa® modem firmware updated. This can be done through the Arduino IDE by running a sketch included in the examples from the MKRWAN library (guide valid for MKR WAN 1300, MKRWAN 1310, and Portenta H7 with LoRa Vision Shield).

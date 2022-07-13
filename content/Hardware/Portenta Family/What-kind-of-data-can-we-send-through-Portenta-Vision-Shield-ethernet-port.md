@@ -1,5 +1,6 @@
 ---
 title: "What kind of data can we send through Portenta Vision Shield ethernet port?"
+id: 4410804633874
 ---
 
 The ethernet connection featured on the Vision Shield for Portenta H7 allows you to connect your Portenta H7 board to a local network or the Internet.

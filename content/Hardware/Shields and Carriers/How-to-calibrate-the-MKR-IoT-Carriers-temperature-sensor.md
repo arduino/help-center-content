@@ -1,5 +1,6 @@
 ---
 title: "How to calibrate the MKR IoT Carrier's temperature sensor"
+id: 4411202645778
 ---
 
 The MKR IoT Carrier is equipped with a [HTS221](https://www.arduino.cc/en/Reference/ArduinoHTS221); which is a digital humidity and temperature sensor. However, when your temperature reading is inaccurate then a recalibration would assist in displaying a more accurate temperature. This can be easily adjusted by making small modifications to your code.

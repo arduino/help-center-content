@@ -1,5 +1,6 @@
 ---
 title: "Nano RP2040 Connect not being detected on USB port"
+id: 4404168794514
 ---
 
 If the Nano RP2040 Connect is not recognized when connected to your computer, or fails to power up after a firmware or sketch upload, the steps outlined below can be taken to solve the issue.

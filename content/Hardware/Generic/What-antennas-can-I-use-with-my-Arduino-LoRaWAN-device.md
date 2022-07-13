@@ -1,5 +1,6 @@
 ---
 title: "What antennas can I use with my Arduino LoRaWAN® device?"
+id: 4402394619410
 ---
 
 The specifications for the antenna are:

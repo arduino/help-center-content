@@ -1,5 +1,6 @@
 ---
 title: "Power the Arduino Edge Control"
+id: 360021571500
 ---
 
 Learn about the power supply requirements for the Arduino Edge Control.

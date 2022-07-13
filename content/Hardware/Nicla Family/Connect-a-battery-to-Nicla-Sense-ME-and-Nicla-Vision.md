@@ -1,5 +1,6 @@
 ---
 title: "Connect a battery to Nicla Sense ME and Nicla Vision"
+id: 4408893476498
 ---
 
 The Nicla Sense ME and the Nicla Vision are compatible with a single cell 3.7 V Li-Po or Li-Ion battery which connects to a 3-pin BM03B-ACHSS-GAN-TF connector.

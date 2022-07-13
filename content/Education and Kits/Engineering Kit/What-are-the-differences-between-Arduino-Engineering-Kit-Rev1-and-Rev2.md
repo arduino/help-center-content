@@ -1,5 +1,6 @@
 ---
 title: "What are the differences between Arduino Engineering Kit Rev1 and Rev2?"
+id: 360016734760
 ---
 
 The [Arduino Engineering Kit Rev2](https://store.arduino.cc/engineering-kit-r2) introduces several improvements over the original:

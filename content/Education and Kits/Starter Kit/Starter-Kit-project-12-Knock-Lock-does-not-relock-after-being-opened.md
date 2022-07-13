@@ -1,5 +1,6 @@
 ---
 title: "Starter Kit project 12 Knock Lock does not 'relock' after being opened"
+id: 360021532620
 ---
 
 In the firsts prints of the book, the code shown had a typo where the “knock counter” variable was not reset to 0 after the first “unlock”, hence this issue would happen.

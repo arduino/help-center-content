@@ -1,5 +1,6 @@
 ---
 title: "What is the currency in the Arduino online Store?"
+id: 360016120459
 ---
 
 The Arduino online store manages two different currencies depending on your location.

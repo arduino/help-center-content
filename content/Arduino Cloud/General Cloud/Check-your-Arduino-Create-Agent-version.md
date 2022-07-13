@@ -1,5 +1,6 @@
 ---
 title: "Check your Arduino Create Agent version"
+id: 4407002993426
 ---
 
 By default, the Arduino Create Agent updates automatically. To ensure you have the latest version, or for any other purpose, you can check which version is installed by following the steps for your system below.

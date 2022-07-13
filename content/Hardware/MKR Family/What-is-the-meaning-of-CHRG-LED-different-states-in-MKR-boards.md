@@ -1,5 +1,6 @@
 ---
 title: "What is the meaning of CHRG LED different states in MKR boards?"
+id: 360016119199
 ---
 
 The following MKR boards listed below have a JST battery connector that allows powering the board through a Li-Po battery. The chip responsible of managing the supply and charge of the battery on these boards is the BQ24195L. This chip has one of its outputs directly connected to an LED labeled as **CHRG** indicating different battery charge states.

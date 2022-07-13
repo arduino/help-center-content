@@ -1,5 +1,6 @@
 ---
 title: "If the Arduino IDE freezes or is unresponsive"
+id: 4410177782418
 ---
 
 Learn what to do if the Arduino IDE hangs, freezes, or otherwise becomes unresponsive.

@@ -1,5 +1,6 @@
 ---
 title: "Connect a battery to Portenta H7"
+id: 4405015055762
 ---
 
 The Portenta H7 is compatible with a single cell 3.7 V Li-Po or Li-Ion battery (700 mAh minimum) which connects to a 3-pin BM03B-ACHSS-GAN-TF connector.

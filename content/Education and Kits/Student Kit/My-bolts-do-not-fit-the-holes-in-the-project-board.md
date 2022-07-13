@@ -1,5 +1,6 @@
 ---
 title: "My bolts do not fit the holes in the project board"
+id: 360017884679
 ---
 
 If the bolts/screws that came with the kit doesn't fit inside the holes in the project board it is probably because the plastic base that came with the Arduino UNO board has not been removed or is used instead of the orange project board.

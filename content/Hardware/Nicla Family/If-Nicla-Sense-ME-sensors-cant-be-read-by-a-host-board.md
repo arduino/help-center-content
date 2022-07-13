@@ -1,5 +1,6 @@
 ---
 title: "If Nicla Sense ME sensors can't be read by a host board"
+id: 4411202632466
 ---
 
 One way of configuring the Nicla Sense ME is connecting it to a compatible host board. Try the following if you experience issues:

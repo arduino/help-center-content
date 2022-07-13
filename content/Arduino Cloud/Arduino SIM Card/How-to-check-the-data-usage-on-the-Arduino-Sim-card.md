@@ -1,5 +1,6 @@
 ---
 title: "How to check the data usage on the Arduino Sim card"
+id: 360016724060
 ---
 
 This quick guide will show you to check the data usage on the Arduino Sim card. Please follow the instructions step by step:

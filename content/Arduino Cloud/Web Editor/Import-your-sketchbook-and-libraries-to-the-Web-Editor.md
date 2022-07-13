@@ -1,5 +1,6 @@
 ---
 title: "Import your sketchbook and libraries to the Web Editor"
+id: 360011890519
 ---
 
 It is possible to import easily all your sketches and libraries from Arduino IDE (desktop Arduino software) to Arduino Web Editor (online version of Arduino IDE) in just a few clicks. This comes very handy as all your projects will be saved in the cloud and are accessible from any computer.

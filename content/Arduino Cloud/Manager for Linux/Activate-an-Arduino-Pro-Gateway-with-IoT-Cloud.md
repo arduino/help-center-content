@@ -1,5 +1,6 @@
 ---
 title: "Activate an Arduino Pro Gateway with IoT Cloud"
+id: 4407770369042
 ---
 
 ## Activate a gateway

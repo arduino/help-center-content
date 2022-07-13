@@ -1,5 +1,6 @@
 ---
 title: "Do products' prices include applicable taxes?"
+id: 360016120399
 ---
 
 All Prices displayed **exclude** VAT.

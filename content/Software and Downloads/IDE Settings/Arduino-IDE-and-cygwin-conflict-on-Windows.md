@@ -1,5 +1,6 @@
 ---
 title: "Arduino IDE and cygwin conflict on Windows"
+id: 360018448199
 ---
 
 If you already have cygwin installed on your computer, you might get an error like this when you try to compile a sketch in Arduino:

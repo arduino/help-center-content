@@ -1,5 +1,6 @@
 ---
 title: "Use a custom theme for Arduino IDE 1.8"
+id: 4408893497362
 ---
 
 > Custom themes are currently not supported for Arduino IDE 2.0.x.

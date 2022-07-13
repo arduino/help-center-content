@@ -1,5 +1,6 @@
 ---
 title: "Add a board to Arduino IDE"
+id: 360016119519
 ---
 
 A **board core** (or just _board_ for short) is a collection of files needed to compile and upload sketches for a board. Cores are contained in _packages_, and can be installed using the Board Manager.

@@ -1,5 +1,6 @@
 ---
 title: "Use an LCD with Arduino"
+id: 4894711239708
 ---
 
 You can easily connect a liquid crystal display (LCD) with an Arduino to display data.

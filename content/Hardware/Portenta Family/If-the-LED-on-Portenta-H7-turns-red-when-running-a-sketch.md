@@ -1,5 +1,6 @@
 ---
 title: "If the LED on Portenta H7 turns red when running a sketch"
+id: 4409207313042
 ---
 
 Whenever there is a runtime error on Portenta H7, the LED on the board will flash RED. Most times the cause of the error is that the code uploaded on the board attempts to perform a task which the Portenta H7 hardware is unable to complete or that specific function or feature has not been developed in the Mbed core. Hardware damage can be another cause of this error. Try the following to resolve the issue:

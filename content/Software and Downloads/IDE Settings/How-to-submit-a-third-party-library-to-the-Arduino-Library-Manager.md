@@ -1,5 +1,6 @@
 ---
 title: "How to submit a third-party library to the Arduino Library Manager"
+id: 360012175419
 ---
 
 The [Arduino Library Manager](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries#using-the-library-manager) is a feature of the Arduino IDE, which makes it easy for users to find, install, and update both official and 3rd party libraries.

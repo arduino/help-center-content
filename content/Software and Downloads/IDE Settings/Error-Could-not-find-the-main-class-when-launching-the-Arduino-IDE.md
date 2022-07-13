@@ -1,5 +1,6 @@
 ---
 title: 'Error "Could not find the main class." when launching the Arduino IDE'
+id: 360018448239
 ---
 
 If you get this error when launching Arduino:

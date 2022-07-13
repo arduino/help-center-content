@@ -1,5 +1,6 @@
 ---
 title: "What is LoRaWAN and what are its use cases?"
+id: 4402394268562
 ---
 
 ## What is LoRaWAN?

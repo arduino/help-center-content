@@ -1,5 +1,6 @@
 ---
 title: "When I type some function or statement, it doesn’t turn orange"
+id: 360014704279
 ---
 
 Keywords are highlighted in the Arduino IDE in several colors. This highlighting does not make any difference to the functioning of the code, as it is merely cosmetic.

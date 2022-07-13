@@ -1,5 +1,6 @@
 ---
 title: "Detach and replace the camera module on the Vision Shield"
+id: 4402450965138
 ---
 
 The camera module can be easily detached from the shield thus it can be replaced with another camera module of the same characteristics if necessary.

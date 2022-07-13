@@ -1,5 +1,6 @@
 ---
 title: "Bypass the DC regulator on Nano 33 BLE Sense"
+id: 360014735580
 ---
 
 It is possible to power the board bypassing the DC-DC regulator cutting the link between the 3.3 V pads. Read below for a detailed explanation:

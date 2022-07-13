@@ -1,5 +1,6 @@
 ---
 title: "Accessing the Serial Monitor for the Arduino CLI on Windows"
+id: 4410162560018
 ---
 
 The Arduino CLI on Windows does not have a built-in serial monitor already installed such as Linux and macOS. Therefore, if one wants to access the feature for debugging purposes, some extra steps will need to be taken. Learn how to use alternative methods to view serial communication.

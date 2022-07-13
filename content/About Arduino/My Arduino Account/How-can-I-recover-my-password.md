@@ -1,5 +1,6 @@
 ---
 title: "How can I recover my password?"
+id: 360011787880
 ---
 
 Losing your password or forgetting your username are common situations but are also easy to solve. In the following instruction we will guide you on how to recover the password or your username in case you have used an Arduino username to log in before.

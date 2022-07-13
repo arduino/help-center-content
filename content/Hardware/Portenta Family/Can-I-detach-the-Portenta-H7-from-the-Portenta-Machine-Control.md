@@ -1,5 +1,6 @@
 ---
 title: "Can I detach the Portenta H7 from the Portenta Machine Control?"
+id: 4406326268818
 ---
 
 Arduino Portenta Machine Control (PMC) is an industrial control unit powered by an Arduino Portenta H7 microcontroller included inside the enclosure.

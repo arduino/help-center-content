@@ -1,5 +1,6 @@
 ---
 title: "Error: Symbol not found environ"
+id: 360021135074
 ---
 
 Arduino AVR Boards 1.6.12 and newer require macOS 10.8 Mountain Lion or newer. If you want to use an older version of macOS, you will need to roll back to the last compatible version of Arduino AVR Boards:

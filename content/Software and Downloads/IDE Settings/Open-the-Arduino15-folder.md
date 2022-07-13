@@ -1,5 +1,6 @@
 ---
 title: "Open the Arduino15 folder"
+id: 360018448279
 ---
 
 Learn how to open the Arduino15 folder on your system.

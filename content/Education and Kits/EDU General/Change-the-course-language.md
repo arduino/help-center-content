@@ -1,5 +1,6 @@
 ---
 title: "Change the course language"
+id: 4406650346642
 ---
 
 The online platforms of our educational kits are available in different languages. Learn how to select the language for your course.

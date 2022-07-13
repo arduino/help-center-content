@@ -1,5 +1,6 @@
 ---
 title: "If an Arduino Education kit component is missing or not working"
+id: 4406561528210
 ---
 
 In this article, you can find a quick troubleshooting guide to help you when a board or component is not working or when the projects are not coming along as expected.

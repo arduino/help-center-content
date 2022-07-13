@@ -1,5 +1,6 @@
 ---
 title: "What is the difference between the Oplà IoT Kit and the Explore IoT Kit?"
+id: 360017363539
 ---
 
 ## The Oplà IoT Kit

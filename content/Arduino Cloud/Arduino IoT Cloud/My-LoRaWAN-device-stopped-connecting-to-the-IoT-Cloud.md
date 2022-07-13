@@ -1,5 +1,6 @@
 ---
 title: "My LoRaWAN device stopped connecting to the IoT Cloud"
+id: 4409281859986
 ---
 
 Learn what to do if you have an Arduino device equipped with LoRaWAN connectivity and you are experiencing connectivity issues with the Arduino IoT Cloud.

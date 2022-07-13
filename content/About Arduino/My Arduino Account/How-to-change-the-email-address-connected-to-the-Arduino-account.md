@@ -1,5 +1,6 @@
 ---
 title: "How to change the email address connected to the Arduino account"
+id: 360016466160
 ---
 
 The Arduino email account can be changed from one email address to the another email address. Please make sure that, you are not logged-in with a *Sign in with Google* option from the Arduino [log in](https://id.arduino.cc) page.

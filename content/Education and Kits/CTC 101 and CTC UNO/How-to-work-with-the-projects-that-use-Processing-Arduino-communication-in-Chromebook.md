@@ -1,5 +1,6 @@
 ---
 title: "How to work with the projects that use Processing-Arduino communication in Chromebook"
+id: 360017098619
 ---
 
 When using Chromebooks, not being able to install programs in the laptop means that it is not possible for the Arduino Web editor's Serial port to communicate with the processing code.

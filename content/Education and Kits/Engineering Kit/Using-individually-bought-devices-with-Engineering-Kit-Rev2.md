@@ -1,5 +1,6 @@
 ---
 title: "Using individually bought devices with Engineering Kit Rev2"
+id: 4407178007954
 ---
 
 Devices included in the [Arduino Engineering Kit Rev2](https://store.arduino.cc/products/arduino-engineering-kit-rev2) can be replaced with devices bought individually from the Arduino Store, but some modification may be necessary.

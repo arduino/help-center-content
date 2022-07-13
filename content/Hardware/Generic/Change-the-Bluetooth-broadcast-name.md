@@ -1,5 +1,6 @@
 ---
 title: "Change the Bluetooth® broadcast name"
+id: 360018922199
 ---
 
 When using the [ArduinoBLE](https://www.arduino.cc/reference/en/libraries/arduinoble/) library to enable Bluetooth Low Energy communication on an Arduino board, the broadcasted name is set by the [setLocalName()](https://www.arduino.cc/reference/en/libraries/arduinoble/ble.setlocalname/) function.

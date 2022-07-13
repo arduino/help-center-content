@@ -1,5 +1,6 @@
 ---
 title: "How to update the MKR Motor Carrier Firmware"
+id: 360012963760
 ---
 
 If the red led besides the power led is 'ON' while uploading the Motor_test example (_File > Examples > Motor_test_), it means that the firmware of the MKRMotor carrier has to be updated and in order to update the firmware on the MKRMotor carrier, we recommend you to follow the instructions below:

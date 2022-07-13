@@ -1,5 +1,6 @@
 ---
 title: "What Cloud plan is needed for the Oplà kit activities?"
+id: 360021767939
 ---
 
 > The Oplà IoT Kit comes with a 12-month discount code for the Maker plan. Read more about [how to activate your discount here](https://support.arduino.cc/hc/en-us/articles/360018709079).

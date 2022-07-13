@@ -1,7 +1,7 @@
 ---
 title: "How to access the RGB LED of MKR 1010?"
+id: 4401881385618
 ---
-
 
 The MKR 1010 board comes with an RGB LED which can be accessed using the WiFi Nina library. This way the LED can be integrated into your sketch for example a successful WiFi connection or indications.
 

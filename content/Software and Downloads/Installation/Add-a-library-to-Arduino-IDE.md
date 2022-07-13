@@ -1,5 +1,6 @@
 ---
 title: "Add a library to Arduino IDE"
+id: 5145457742236
 ---
 
 Libraries are a collection of code that provide extra functionality for use in sketches, for example when working with hardware or manipulating data.

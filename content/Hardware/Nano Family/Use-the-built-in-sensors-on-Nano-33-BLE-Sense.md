@@ -1,5 +1,6 @@
 ---
 title: "Use the built-in sensors on Nano 33 BLE Sense"
+id: 360014654820
 ---
 
 The Nano 33 BLE Sense has a set of sensors embedded on the top, which gives a lot of options to try ideas without having to generate the circuit to such sensors in a prototyping board.

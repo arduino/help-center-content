@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting PIR Sensor and sensitivity adjustment"
+id: 4403050020114
 ---
 
 A PIR sensors allows us to sense motion by measuring infrared (IR) light radiating from the object in its field of view. When it fails to do this, the following steps can be taken to troubleshoot it and adjust it's sensitivity:

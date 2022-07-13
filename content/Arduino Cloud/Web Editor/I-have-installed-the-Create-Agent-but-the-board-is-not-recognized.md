@@ -1,5 +1,6 @@
 ---
 title: "I have installed the Create Agent, but the board is not recognized..."
+id: 360019545980
 ---
 
 These are general approaches to take if you are experiencing problems with the board recognition in the [Web Editor](https://create.arduino.cc/editor).

@@ -1,5 +1,6 @@
 ---
 title: "Error: LegacyInvite When trying to create the Arduino Account"
+id: 4403004728466
 ---
 
 Sometimes when resetting the password for your account, after yo add your recovery mail address, you will get this error: `LegacyInvite`.

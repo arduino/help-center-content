@@ -1,5 +1,6 @@
 ---
 title: "How to reset the password for Arduino Yun Webpanel"
+id: 360016076940
 ---
 
 ## Overview

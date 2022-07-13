@@ -1,5 +1,6 @@
 ---
 title: "Remove members from a space"
+id: 4406710694930
 ---
 
 You can remove members from space depending on your role:

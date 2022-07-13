@@ -1,5 +1,6 @@
 ---
 title: "How to update OPENWRT on Arduino YÚN"
+id: 360016076960
 ---
 
 The Yún Rev 2 runs a distribution of Linux called OpenWrt-Yun, based on OpenWrt. Due to continuous improvements and suggestions coming from both the OpenWrt and the Arduino communities, version of OpenWrt-Yun installed on your Yún Rev 2 may be out of date. Please check this upgrade tutorial and be sure you're running the latest version available.

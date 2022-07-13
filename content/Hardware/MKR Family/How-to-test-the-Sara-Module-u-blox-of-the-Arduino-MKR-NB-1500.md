@@ -1,5 +1,6 @@
 ---
 title: "How to test the Sara Module, u-blox, of the Arduino MKR NB 1500"
+id: 360013051939
 ---
 
 The Narrowband connectivity is performed with a module from u-blox, the SARA-R410M-02B, a low power chipset operating in the different bands of the IoT LTE cellular range.

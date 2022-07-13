@@ -1,5 +1,6 @@
 ---
 title: "Register an Arduino Education Kit"
+id: 4407393580818
 ---
 
 Learn how to activate your kit and access the online learning content for your Arduino Education kit.
