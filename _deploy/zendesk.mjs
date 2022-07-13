@@ -10,8 +10,8 @@ if (!ZENDESK_USER) {
     throw new Error('Missing environment variable: ZENDESK_PASS')
 }
 const AlgoliaID = process.env.AGOLIA_APPLICATION_ID;
-const AlgoliaSecret = process.env.ALGOLIA_DEV_INDEXER_KEY;
-const AlgoliaIndex = process.env.ALGOLIA_DEV_INDEX;
+const AlgoliaSecret = process.env.ALGOLIA_INDEXER_KEY;
+const AlgoliaIndex = process.env.ALGOLIA_INDEX;
 
 /* Define and parse command-line options */
 import { Command } from 'commander';
