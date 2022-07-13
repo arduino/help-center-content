@@ -31,7 +31,7 @@ All orders addressed to Europe and Africa are shipped from Arduino's EU warehous
 
 #### Americas, Asia, and Oceania
 
-All orders addressed to Americas, Asia and Oceania are shipped from Arduino's US warehouse located in Lakewood (NJ). Note that the warehouse is closed on the weekends.
+All orders addressed to Americas, Asia and Oceania are shipped from Arduino's US warehouse located in Lakewood, NJ (USA). Note that the warehouse is closed on the weekends.
 
 * Orders entered before 2 PM ET (GMT-5) Mon-Thu will be shipped on the same day.
 * Orders entered before 12 PM ET (GMT-5) Fri will be shipped on the same day.
