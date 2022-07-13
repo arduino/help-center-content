@@ -11,6 +11,7 @@
   "dependencies": {
     "algoliasearch": "^4.13.1",
     "cli-color": "^2.0.3",
+    "columnify": "^1.6.0",
     "commander": "^9.3.0",
     "dom-serializer": "^2.0.0",
     "domutils": "^3.0.1",
