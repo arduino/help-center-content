@@ -21,7 +21,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-
       - name: Deploy
         run: |
           cd _deploy
@@ -29,7 +28,7 @@ jobs:
           cd ..
           node _deploy/zendesk.mjs content '*/*/*.md' https://arduino.zendesk.com/api/v2/help_center --wait 60 --deploy
       - name: Commit any/all changes
-      - run: |
+        run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
