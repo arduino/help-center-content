@@ -1,5 +1,6 @@
 ---
-title: "Available shipping methods"
+title: Available shipping methods
+id: 5340856700188
 ---
 
 Learn more about the different shipping methods available in the Arduino Store.

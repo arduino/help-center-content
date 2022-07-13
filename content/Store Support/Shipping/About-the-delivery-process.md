@@ -1,5 +1,6 @@
 ---
-title: "About the delivery process"
+title: About the delivery process
+id: 5340909969948
 ---
 
 After an order is placed in the Arduino Store, the package is picked up and delivered by a 3rd party carrier. Once the goods have been shipped, you will receive a shipping confirmation email, that includes a tracking number and information about the shipping method selected. Account users can also see a summary of the orders in the [account section](https://store.arduino.cc/account) of the Arduino Store.
@@ -66,8 +67,8 @@ The tracking number for the local delivery can be different:
 
 <table class="img-captions">
   <tr>
-    <td style="vertical-align: bottom;"><img src="https://content.arduino.cc/assets/asendia-local-tracking-number.png" style="height:75%;" alt="Linked carrier "tracking number" on Asendia tracking page."></td>
-    <td><img src="https://content.arduino.cc/assets/dhl-local-tracking-number.png" style="height:75%;" alt="DHL tracking page linking to Australia Post"></td>
+    <td style="vertical-align: bottom;"><img src="https://content.arduino.cc/assets/asendia-local-tracking-number.png" style="height:75%;width:auto;" alt="Linked carrier "tracking number" on Asendia tracking page."></td>
+    <td><img src="https://content.arduino.cc/assets/dhl-local-tracking-number.png" style="height:75%;width:auto;" alt="DHL tracking page linking to Australia Post"></td>
   </tr>
 </table>
 
