@@ -1,5 +1,6 @@
 ---
 title: "Add members to a space"
+id: 360011787820
 ---
 
 Learn how to invite new members to a shared space in Arduino Cloud.

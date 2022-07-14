@@ -1,5 +1,6 @@
 ---
 title: "How to reduce power consumption on the Nano 33 BLE"
+id: 4402394378770
 ---
 
 The power consumption on the Nano 33 BLE boards can be reduced down to 0.9 mA (approximate value on standby). Follow these tips to achieve the lowest possible power consumption:

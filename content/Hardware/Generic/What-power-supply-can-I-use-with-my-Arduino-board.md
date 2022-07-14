@@ -1,5 +1,6 @@
 ---
 title: "What power supply can I use with my Arduino board?"
+id: 360018922259
 ---
 
 All Arduino boards need electric power to function. A power supply is what is used to provide electric power to the boards and typically can be a battery, USB cable, AC adapter or a regulated power source device.

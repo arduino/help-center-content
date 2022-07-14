@@ -1,5 +1,6 @@
 ---
 title: "Upload a sketch in Arduino IDE"
+id: 4733418441116
 ---
 
 > Board-specific quickstart guides are available in [Arduino Docs](https://docs.arduino.cc/).

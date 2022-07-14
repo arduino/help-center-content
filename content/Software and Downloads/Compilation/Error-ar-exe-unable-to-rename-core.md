@@ -1,5 +1,6 @@
 ---
 title: "Error: ar.exe: unable to rename 'core'"
+id: 360018412800
 ---
 
 The text below explains two common causes for this compilation error and provides solutions for each of them.

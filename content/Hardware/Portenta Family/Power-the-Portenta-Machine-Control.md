@@ -1,5 +1,6 @@
 ---
 title: "Power the Portenta Machine Control"
+id: 4410804632594
 ---
 
 Learn about the power supply requirements for the Portenta Machine Control.

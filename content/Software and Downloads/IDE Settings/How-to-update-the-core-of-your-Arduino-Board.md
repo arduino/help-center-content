@@ -1,5 +1,6 @@
 ---
 title: "How to update the core of your Arduino Board"
+id: 4404691106066
 ---
 
 The Arduino IDE installation package comes with some cores by default. Periodically, updated versions of cores are released, with new features and bug fixes. Keeping your core updated will improve stability, performance, and compatibility.

@@ -1,5 +1,6 @@
 ---
 title: "What are the names of the Portenta high-density connectors?"
+id: 4402087857682
 ---
 
 The Portenta family incorporates **two 80 pin high-density connectors** on the bottom of the board. This ensures scalability for a wide range of applications, offering more features and increasing connectivity.

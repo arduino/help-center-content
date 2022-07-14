@@ -1,5 +1,6 @@
 ---
 title: "The sine function might be too advanced for my students, is there an easier option?"
+id: 360017053720
 ---
 
 For an easier version, instead of the sine function, it’s possible to use a counter that counts up and down between 0 and 255. Example:

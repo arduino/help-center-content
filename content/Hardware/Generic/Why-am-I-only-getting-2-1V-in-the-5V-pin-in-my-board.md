@@ -1,5 +1,6 @@
 ---
 title: "Why am I only getting 2.1V in the 5V pin in my board? "
+id: 4405339320210
 ---
 
 Low power boards, like MKR WAN 1310 and MKR NB 1500, when powered with battery alone will have only 2.1V on the pin marked as 5V.

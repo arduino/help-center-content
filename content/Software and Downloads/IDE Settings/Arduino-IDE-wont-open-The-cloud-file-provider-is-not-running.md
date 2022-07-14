@@ -1,5 +1,6 @@
 ---
 title: "Arduino IDE won't open; The cloud file provider is not running"
+id: 360021557299
 ---
 
 If the Arduino IDE doesn't start on Windows (the initialization window appears and disappears without showing any error message or warning), try running `arduino_debug.exe` from the Command Prompt. The `arduino_debug.exe` is located in the Arduino installation folder, which is in C:\Program Files (x86)\Arduino\ by default.

@@ -1,5 +1,6 @@
 ---
 title: "What type of SIM does MKR NB 1500 use?"
+id: 360012179859
 ---
 
 The MKR NB 1500 is the only board with **Narrowband communication** so it is the perfect choice for devices in remote locations without an Internet connection. This board communicates via Narrow Band IoT (NB-IoT) which is a subsection of the LTE standard with a limited bandwidth (200KHz).

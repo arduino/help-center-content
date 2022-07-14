@@ -1,0 +1,28 @@
+{
+  "name": "zendesk",
+  "version": "1.0.0",
+  "description": "Git integration for Zendesk Help Center",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebastian Wikström",
+  "license": "ISC",
+  "dependencies": {
+    "algoliasearch": "^4.13.1",
+    "cli-color": "^2.0.3",
+    "columnify": "^1.6.0",
+    "commander": "^9.3.0",
+    "dom-serializer": "^2.0.0",
+    "domutils": "^3.0.1",
+    "fast-glob": "^3.2.11",
+    "form-data": "^4.0.0",
+    "front-matter": "^4.0.2",
+    "highlight.js": "^11.5.1",
+    "html-minifier": "^4.0.0",
+    "htmlparser2": "^8.0.1",
+    "markdown-it": "^13.0.1",
+    "node-fetch": "^2.6.7",
+    "node-zendesk": "^2.2.0"
+  }
+}

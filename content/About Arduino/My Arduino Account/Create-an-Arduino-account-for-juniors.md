@@ -1,5 +1,6 @@
 ---
 title: "Create an Arduino account for juniors"
+id: 360022234360
 ---
 
 Minors under the age of 14 need parental consent to sign up for an Arduino account. This is called a **junior account**.

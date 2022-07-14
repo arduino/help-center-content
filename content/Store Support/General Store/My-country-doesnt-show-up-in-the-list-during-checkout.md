@@ -1,5 +1,6 @@
 ---
 title: "My country doesn't show up in the list during checkout"
+id: 360014704339
 ---
 
 During the checkout process you will need to select your country for shipping purposes however in case you can't find it, it is due to the fact that you need to change the location of the store.

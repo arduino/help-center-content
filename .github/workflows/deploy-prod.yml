@@ -14,18 +14,22 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ZENDESK_USER: ${{ secrets.ZENDESK_USER }}
-      ZENDESK_TOKEN: ${{ secrets.ZENDESK_TOKEN }}
+      ZENDESK_PASS: ${{ secrets.ZENDESK_TOKEN }}
       ALGOLIA_APPLICATION_ID: ${{ secrets.ALGOLIA_APPLICATION_ID }}
-      ALGOLIA_INDEXER_KEY: ${{ secrets.ALGOLIA_INDEXER_KEY }}
-      ALGOLIA_INDEX: ${{ secrets.ALGOLIA_INDEX }}
+      ALGOLIA_INDEXER_KEY: ${{ secrets.ALGOLIA_DEV_INDEXER_KEY }}
+      ALGOLIA_INDEX: ${{ secrets.ALGOLIA_DEV_INDEX }}
 
     steps:
-      - uses: actions/checkout@master
-      - uses: actions/setup-go@v2
-        with:
-          go-version: "1.17"
-
+      - uses: actions/checkout@v3
       - name: Deploy
         run: |
           cd _deploy
-          go run *.go
+          npm install
+          cd ..
+          node _deploy/zendesk.mjs content '*/*/*.md' https://arduino.zendesk.com/api/v2/help_center --wait 60 --deploy
+      - name: Commit any/all changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Update frontmatter" && git push

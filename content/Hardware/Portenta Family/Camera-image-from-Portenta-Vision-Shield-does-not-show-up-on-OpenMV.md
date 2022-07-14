@@ -1,5 +1,6 @@
 ---
 title: "Camera image from Portenta Vision Shield does not show up on OpenMV"
+id: 4402386864146
 ---
 
 This help center entry is a quick troubleshooting guide to solve no image issue on OpenMV with Portenta H7 and Vision Shield. Please verify and confirm the following checks:

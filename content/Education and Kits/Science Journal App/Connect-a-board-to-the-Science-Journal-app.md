@@ -1,5 +1,6 @@
 ---
 title: "Connect a board to the Science Journal app"
+id: 4407749620370
 ---
 
 ## Supported boards

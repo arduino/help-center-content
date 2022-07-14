@@ -1,5 +1,6 @@
 ---
 title: "How to flash Portenta H7 bootloader via JTAG with Arduino IDE"
+id: 4604692818076
 ---
 
 The bootloader is a small program that runs when you turn the Arduino on or press the reset button. Its main function is to receive and write a new sketch to memory. Unsafe code, improper power supply, and short circuits may result in the bootloader being corrupted. Restore the bootloader by following this guide.

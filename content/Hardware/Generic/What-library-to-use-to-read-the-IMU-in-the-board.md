@@ -1,5 +1,6 @@
 ---
 title: "What library to use to read the IMU in the board?"
+id: 360019235159
 ---
 
 Several of the Arduino boards have Inertial Measurement Units (IMUs) embedded in them. In order to access the readings of these sensors you can use one of our libraries. since there are several of them, this can be confusing, so in order to use the right one, please follow this instructions:

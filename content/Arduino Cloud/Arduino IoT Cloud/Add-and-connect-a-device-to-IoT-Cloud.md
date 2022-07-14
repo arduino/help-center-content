@@ -1,5 +1,6 @@
 ---
 title: "Add and connect a device to IoT Cloud"
+id: 360016495559
 ---
 
 > Also see [Getting Started With the Arduino IoT Cloud](https://docs.arduino.cc/cloud/iot-cloud/tutorials/iot-cloud-getting-started) in Arduino Docs.

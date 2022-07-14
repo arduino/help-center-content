@@ -1,5 +1,6 @@
 ---
 title: "Uninstall the Arduino Create Agent"
+id: 360014869840
 ---
 
 Use the included uninstaller to remove the Create Agent from your computer.

@@ -1,5 +1,6 @@
 ---
 title: "Compilation error: Error: 2 UNKNOWN: platform not installed"
+id: 360020846379
 ---
 
 When compiling or uploading, the following error appears in the output panel.

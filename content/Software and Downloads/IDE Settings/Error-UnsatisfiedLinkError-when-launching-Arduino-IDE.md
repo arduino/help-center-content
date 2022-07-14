@@ -1,5 +1,6 @@
 ---
 title: "Error UnsatisfiedLinkError when launching Arduino IDE"
+id: 360018412860
 ---
 
 If you get this error when launching Arduino:

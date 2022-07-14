@@ -1,5 +1,6 @@
 ---
 title: "Error: Java.lang.StackOverflowError"
+id: 360016724180
 ---
 
 The Arduino environment does some preliminary processing on your sketch by manipulating the code using regular expressions. This sometimes gets confused by certain strings of text. If you see an error like:

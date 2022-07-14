@@ -1,5 +1,6 @@
 ---
 title: "The IDE prints a message about sketch size and memory usage"
+id: 4405339237522
 ---
 
 The IDE always checks for storage space and dynamic memory usage when compiling your code, and then prints the results to the console. For example:

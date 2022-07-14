@@ -1,5 +1,6 @@
 ---
 title: "My sketch compiles but does not upload or the upload button is grayed out"
+id: 360019546000
 ---
 
 If you have this issue, please take a look at this common easy fixes:

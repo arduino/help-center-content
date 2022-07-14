@@ -1,5 +1,6 @@
 ---
 title: "What is the difference between Portenta H7, Lite and Lite Connected?"
+id: 4406704850834
 ---
 
 The Portenta H7 is specially designed for high performance in industrial environments. While the hardware is highly customizable, we provide three ready-made solutions:

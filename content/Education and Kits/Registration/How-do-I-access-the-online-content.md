@@ -1,5 +1,6 @@
 ---
 title: "How do I access the online content?"
+id: 360021587259
 ---
 
 * The online content and activities for Arduino Education kits are accessed by registering the kit in Arduino Cloud.

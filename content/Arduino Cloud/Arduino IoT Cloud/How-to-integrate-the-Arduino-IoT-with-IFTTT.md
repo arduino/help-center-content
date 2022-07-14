@@ -1,5 +1,6 @@
 ---
 title: "How to integrate the Arduino IoT with IFTTT"
+id: 360013896199
 ---
 
 This article will show you how to connect your Arduino IoT Cloud to an IFTTT webhook. As an example, we'll configure a webhook to send data to an email address when a variable is changed.

@@ -1,5 +1,6 @@
 ---
 title: "How to access Portenta’s high-density pins"
+id: 4402095242258
 ---
 
 The Portenta family incorporates **two 80 pin high-density connectors** at the bottom of the board. This ensures scalability for a wide range of applications offering more features and increasing connectivity. In order to access the pins located in the high-density connectors easily during prototyping Arduino has developed the [Portenta Breakout](https://store.arduino.cc/portenta-breakout) board. ![Picture of Portenta Breakout board](img/breakout.jpg)

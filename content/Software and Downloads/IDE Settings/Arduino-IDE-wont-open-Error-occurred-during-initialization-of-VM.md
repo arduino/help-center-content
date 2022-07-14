@@ -1,5 +1,6 @@
 ---
 title: "Arduino IDE won't open; Error occurred during initialization of VM"
+id: 360021218899
 ---
 
 If the Arduino IDE won't start on Windows (the initialization window appears and disappears without showing any error message or warning), try running `arduino_debug.exe` from within the Arduino root folder, which is in `C:\Program Files (x86)\Arduino\` by default.

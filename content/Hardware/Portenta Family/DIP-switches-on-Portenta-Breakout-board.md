@@ -1,5 +1,6 @@
 ---
 title: "DIP switches on Portenta Breakout board"
+id: 4402095376402
 ---
 
 The Arduino Portenta Breakout board makes all high-density connectors individually accessible, making it quick and easy to connect external components and devices to your Portenta family board. The Breakout board comes with 2 DIP switches located on the top side of the board.

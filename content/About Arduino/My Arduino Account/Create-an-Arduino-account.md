@@ -1,5 +1,6 @@
 ---
 title: "Create an Arduino account"
+id: 360016724040
 ---
 
 An Arduino account gives you full access to all Arduino websites, apps, and services.

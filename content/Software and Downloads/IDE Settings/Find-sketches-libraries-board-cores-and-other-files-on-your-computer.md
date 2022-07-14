@@ -1,5 +1,6 @@
 ---
 title: "Find sketches, libraries, board cores, and other files on your computer"
+id: 4415103213714
 ---
 
 Learn where sketches, libraries, board platforms, and other files used by Arduino IDE are stored on your computer.

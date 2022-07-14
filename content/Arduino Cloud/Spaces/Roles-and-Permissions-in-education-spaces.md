@@ -1,5 +1,6 @@
 ---
 title: "Roles and Permissions in education spaces"
+id: 4405753330706
 ---
 
 School Spaces in Arduino Cloud have three member roles: _Students_, _Teachers_, and _Admins_.

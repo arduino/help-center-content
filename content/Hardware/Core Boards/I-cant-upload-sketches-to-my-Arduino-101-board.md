@@ -1,7 +1,7 @@
 ---
 title: "I can't upload sketches to my Arduino 101 board"
+id: 360018408720
 ---
-
 
 Before continuing troubleshooting with this article, make sure you have installed the 101 board with the latest version of the Intel Curie drivers according to the instructions on the [CTC 101 Platform](https://create.arduino.cc/ctc/101/course/view.php?id=250&section=15) (Log in is required).
 

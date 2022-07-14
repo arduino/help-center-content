@@ -1,5 +1,6 @@
 ---
 title: "Uninstall Arduino IDE"
+id: 360021325733
 ---
 
 Learn how to uninstall Arduino IDE.

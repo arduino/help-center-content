@@ -1,5 +1,6 @@
 ---
 title: "Select the right processor for Arduino Nano"
+id: 4401874304274
 ---
 
 Learn how to select the processor for the Arduino Nano in the Arduino IDE.

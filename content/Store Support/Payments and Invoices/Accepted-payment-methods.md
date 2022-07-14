@@ -1,5 +1,6 @@
 ---
 title: "Accepted payment methods"
+id: 360016121879
 ---
 
 Accepted payment methods differ between products in the [Store](https://store.arduino.cc/), and subscriptions in the [Digital Store](https://store.arduino.cc/digital/), as well as whether you are purchasing as an individual or as a educational institution or a company.

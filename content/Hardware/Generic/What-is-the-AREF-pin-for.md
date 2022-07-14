@@ -1,5 +1,6 @@
 ---
 title: "What is the AREF pin for?"
+id: 360018922239
 ---
 
 AREF means Analog REFerence. It allows us to feed the Arduino a reference voltage from an external power supply in order to configure the reference voltage used for analog input (i.e. the value used as the top of the input range).

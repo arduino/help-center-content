@@ -1,5 +1,6 @@
 ---
 title: "The Arduino board shows a red cross"
+id: 360018131160
 ---
 
 If you are trying to connect your Arduino board to the Arduino Web Editor and you find a red cross near your device, it means that the Web Editor is not detecting the board as connected to your computer.

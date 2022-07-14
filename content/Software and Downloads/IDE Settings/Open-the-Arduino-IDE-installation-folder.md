@@ -1,5 +1,6 @@
 ---
 title: "Open the Arduino IDE installation folder"
+id: 4412943340178
 ---
 
 Learn how to open the Arduino IDE installation folder on your system.

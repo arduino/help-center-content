@@ -1,5 +1,6 @@
 ---
 title: "Classic Nano is detected as unknown FT232R USB UART (Windows)"
+id: 4405107443986
 ---
 
 When connecting an FTDI FT232R-based device such as a classic official Arduino Nano to a Windows computer, it may show as a generic "FT232R USB UART" device with a warning sign in the Device Manager.

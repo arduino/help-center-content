@@ -1,5 +1,6 @@
 ---
 title: "Create a bootable microSD card for Arduino Pro Gateway"
+id: 4409774456082
 ---
 
 Flash the Arduino Pro Gateway image to a microSD card using balenaEtcher.

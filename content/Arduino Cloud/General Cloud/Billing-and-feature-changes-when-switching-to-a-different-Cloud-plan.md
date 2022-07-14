@@ -1,5 +1,6 @@
 ---
 title: "Billing and feature changes when switching to a different Cloud plan"
+id: 4401874211730
 ---
 
 If you [switch plans](https://support.arduino.cc/hc/en-us/articles/360013751060) (regardless of monthly or yearly billing):

@@ -1,5 +1,6 @@
 ---
 title: "If your board runs the sketch twice"
+id: 4839084114460
 ---
 
 On some boards, uploading while the Serial Monitor is open causes the board to run once, before resetting and running the new sketch. This can cause `Serial.println()` output to display twice in the Serial Monitor.

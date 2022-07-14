@@ -1,5 +1,6 @@
 ---
 title: "Uninstall a library from Arduino IDE"
+id: 360016077340
 ---
 
 Learn how to remove IDE libraries from your computer.

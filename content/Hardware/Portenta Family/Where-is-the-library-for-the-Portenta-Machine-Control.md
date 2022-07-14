@@ -1,5 +1,6 @@
 ---
 title: "Where is the library for the Portenta Machine Control?"
+id: 4404060840338
 ---
 
 The library that has been developed for the Portenta Machine Control can be found in Arduino IDE Library Manager. To install it simply open Arduino IDE and click on `Tools > Manage Libraries`. Then search for "Arduino_MachineControl" and click on the install button.

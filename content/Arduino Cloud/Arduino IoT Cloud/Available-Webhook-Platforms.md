@@ -1,5 +1,6 @@
 ---
 title: "Available Webhook Platforms"
+id: 360016119339
 ---
 
 Webhooks allow you to send and receive automated messages to other services. For example you could use a webhook to receive a notification when a property of your Thing changes. To do this, there are third party platforms that link the properties from your Arduino Cloud projects to the desired trigger action.

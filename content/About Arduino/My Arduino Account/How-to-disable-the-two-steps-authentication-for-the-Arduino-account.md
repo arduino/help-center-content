@@ -1,5 +1,6 @@
 ---
 title: "How to disable the two steps authentication for the Arduino account"
+id: 360016759779
 ---
 
 If you come up with a situation where you have the necessity to change your mobile or doing a factory reset on mobile etc., then you can disable your 2 step authentication for the Arduino account.

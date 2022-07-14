@@ -1,5 +1,6 @@
 ---
 title: "About device status in IoT Cloud"
+id: 4407169649682
 ---
 
 In Arduino IoT Cloud, the **device status** describes the connection between your device and the Cloud.

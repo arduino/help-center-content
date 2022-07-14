@@ -1,5 +1,6 @@
 ---
 title: "About Nano boards with disabled 5 V pins"
+id: 360014779679
 ---
 
 ## Why the 5 V pin is disabled

@@ -1,5 +1,6 @@
 ---
 title: "How to install and use a custom core version in the IDE"
+id: 360021232160
 ---
 
 The IDE allows for multiple versions of the same core to be installed simultaneously. This can be useful for testing purposes, or for solving compatibility issues with a specific core version.

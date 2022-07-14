@@ -1,5 +1,6 @@
 ---
 title: "Arduino and Community logos"
+id: 4679102084892
 ---
 
 This article covers the basic trademark rules that must be followed when using the [Arduino Logo](#arduino-logo) and the [Community Logo](#community-logo).
@@ -81,7 +82,7 @@ The Arduino Community Logo **cannot** be used on:
   </tr>
   <tr>
     <td>Customization </td>
-    <td><img src="https://content.arduino.cc/assets/ArduinoCommunity_example.jpg" alt="Arduino Community logo example with "Arduino Group Italy" written on the bottom right side"></td>
+    <td><img src="https://content.arduino.cc/assets/ArduinoCommunity_example.jpg" alt="Arduino Community logo example with 'Arduino Group Italy' written on the bottom right side"></td>
     <td><img src="https://content.arduino.cc/assets/ArduinoCommunity_bad_example.jpg" alt="Arduino Board with Arduino Community logo printed on top "></td>
   </tr>
 </table>

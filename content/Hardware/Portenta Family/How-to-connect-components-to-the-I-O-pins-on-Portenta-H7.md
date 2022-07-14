@@ -1,5 +1,6 @@
 ---
 title: "How to connect components to the I/O pins on Portenta H7"
+id: 4402394320914
 ---
 
 Portenta H7 does not come with soldered pin headers therefore connecting additional components can be challenging if you are a beginner level user. There are different options to connect components directly to Portenta's I/O pins:

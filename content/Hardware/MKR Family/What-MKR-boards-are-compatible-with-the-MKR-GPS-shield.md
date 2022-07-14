@@ -1,5 +1,6 @@
 ---
 title: "What MKR boards are compatible with the MKR GPS shield?"
+id: 4405337087634
 ---
 
 The [MKR GPS shield](https://store.arduino.cc/arduino-mkr-gps-shield) adds GPS capabilities in a MKR form factor. It can be easily used with the following MKR boards:

@@ -1,5 +1,6 @@
 ---
 title: "I created an account but I never received the confirmation email, how can I confirm my account?"
+id: 360016822039
 ---
 
 If you come up with a situation where you created an Arduino account, and doesn't get an confirmation email to activate your account. Then, please check the instructions below:

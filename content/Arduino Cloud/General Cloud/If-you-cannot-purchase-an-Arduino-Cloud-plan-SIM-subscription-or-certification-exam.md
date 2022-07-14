@@ -1,5 +1,6 @@
 ---
 title: "If you cannot purchase an Arduino Cloud plan, SIM subscription, or certification exam"
+id: 4409540316178
 ---
 
 We are currently unable to provide Arduino services in some countries or regions. Notable examples include _Serbia, and Montenegro_.

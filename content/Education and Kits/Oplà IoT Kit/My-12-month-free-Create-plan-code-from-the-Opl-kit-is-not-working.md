@@ -1,5 +1,6 @@
 ---
 title: "My 12 month free Create plan code from the Oplá kit is not working"
+id: 4412950847506
 ---
 
 The [Arduino Oplà IoT Kit](https://store.arduino.cc/opla-iot-kit) comes with 12 free months of the Arduino Cloud Maker Plan. Follow the steps below to activate your discounted plan.

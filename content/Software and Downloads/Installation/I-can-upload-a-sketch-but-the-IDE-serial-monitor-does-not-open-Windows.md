@@ -1,5 +1,6 @@
 ---
 title: "I can upload a sketch but the IDE serial monitor does not open (Windows)"
+id: 4403361259538
 ---
 
 The Serial Monitor is an important tool in the Arduino IDE. It can be used as a debugging tool, for testing out concepts or to communicate directly with the Arduino board. If the serial monitor window cannot be opened, try these steps:

@@ -1,5 +1,6 @@
 ---
 title: "My sketch does not start when I power up or reset the Arduino board"
+id: 360018865560
 ---
 
 this is most likely happening because you are sending serial data to the board when it firsts turns on.

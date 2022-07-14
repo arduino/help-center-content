@@ -1,5 +1,6 @@
 ---
 title: "What are the credentials for the Arduino SIM card"
+id: 360013825159
 ---
 
 Here are the credentials for the Arduino Sim:

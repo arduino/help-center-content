@@ -1,5 +1,6 @@
 ---
 title: "Reduce the size and memory usage of your sketch"
+id: 360013825179
 ---
 
 Learn how to reduce the size and memory usage of your sketch.

@@ -1,5 +1,6 @@
 ---
 title: "What boards can use the Arduino low power library?"
+id: 4403361182866
 ---
 
 The [Arduino low power library](https://www.arduino.cc/en/Reference/ArduinoLowPower) is compatible with NRF52 and SAMD21 architecture boards, so it can be used by the following:

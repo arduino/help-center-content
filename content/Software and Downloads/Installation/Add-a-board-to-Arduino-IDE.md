@@ -1,5 +1,6 @@
 ---
 title: "Add a board to Arduino IDE"
+id: 360016119519
 ---
 
 A **board core** (or just _board_ for short) is a collection of files needed to compile and upload sketches for a board. Cores are contained in _packages_, and can be installed using the Board Manager.
@@ -30,7 +31,7 @@ You can now select boards from the installed packages in the _Tools > Board_ men
 
 ---
 
-## Further reaing
+## Further reading
 
 * [Add or remove third-party boards in Boards Manager](https://support.arduino.cc/hc/en-us/articles/360016466340-Add-or-remove-third-party-boards-in-Boards-Manager)
 * [Uninstall boards using the Boards Manager](https://support.arduino.cc/hc/en-us/articles/4407225360018-Uninstall-boards-using-the-Boards-Manager)

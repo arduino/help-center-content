@@ -1,5 +1,6 @@
 ---
 title: "Arduino-Processing communication problem with ports"
+id: 360017053580
 ---
 
 If you are having problems using the webcam, or communicating Arduino and Processing, please check that:

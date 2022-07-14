@@ -1,5 +1,6 @@
 ---
 title: "The Diecimila takes a long time to start the sketch"
+id: 360016759919
 ---
 
 Some of the Arduino Diecimila boards were accidently burned with the Arduino NG bootloader. It should work fine, but has a longer delay (6-8 seconds) when the board is reset because the NG doesn't have an automatic reset, so uploads need to be timed manually. If your Diecimila has the NG bootloader on it, you may need to physically press the reset button on the board before uploading your sketch.

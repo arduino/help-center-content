@@ -1,5 +1,6 @@
 ---
 title: "What Operating Systems are supported by the Web Editor?"
+id: 4402082543378
 ---
 
 The Arduino Web Editor can be accessed through any web browser, allowing you to easily read, edit, and verify your code anywhere.

@@ -1,5 +1,6 @@
 ---
 title: "How to access Arduino Yún Web Portal"
+id: 360016449179
 ---
 
 These instructions walk you through connecting your Yún to its web portal. Yún Rev 2 can also connect to an existing network, so once connected you will be able to upload sketches in Hex format as well as configure the Wi-Fi network you want your Yún to connect to. Arduino Yún can connect to unencrypted networks, as well as networks that support WEP, WPA, and WPA2 encryption.

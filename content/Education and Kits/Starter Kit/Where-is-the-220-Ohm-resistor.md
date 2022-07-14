@@ -1,6 +1,8 @@
 ---
 title: "Where is the 220 Ohm resistor?"
+id: 360012963800
 ---
+
 As mentioned in the Documentation, resistors can be coded in 4 or 5 bands.
 
 ![Resistor values & bands](img/StK_220R_1.png)

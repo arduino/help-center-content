@@ -1,5 +1,6 @@
 ---
 title: "How to receive a quote from us: Individuals, Companies and Schools"
+id: 360022125620
 ---
 
 In order to receive your estimate, you should enter our store with your account, then add desired products to your cart. You can then go to checkout, complete with shipping/billing address and preferred shipping method.

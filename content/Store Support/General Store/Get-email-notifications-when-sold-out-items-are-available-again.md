@@ -1,5 +1,6 @@
 ---
 title: "Get email notifications when sold out items are available again"
+id: 360016078320
 ---
 
 Learn how to get email notifications when sold out items are available again.

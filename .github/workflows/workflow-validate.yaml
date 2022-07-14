@@ -12,16 +12,23 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node_version: [12]
+    env:
+      ZENDESK_USER: ${{ secrets.ZENDESK_USER }}
+      ZENDESK_PASS: ${{ secrets.ZENDESK_TOKEN }}
 
     steps:
       - uses: actions/checkout@v1
 
-      - name: Validate
+      - name: Lint
         run: |
           cd _linter
           npm install
           cd ..
           node _linter/markdownlint.js
+
+      - name: Preview changes
+        run: |
+          cd _deploy
+          npm install
+          cd ..
+          node _deploy/zendesk.mjs content '*/*/*.md' https://arduino.zendesk.com/api/v2/help_center --wait 60

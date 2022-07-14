@@ -1,5 +1,6 @@
 ---
 title: "My MKR IoT Carrier makes clicking noises when plugged in"
+id: 360022120620
 ---
 
 The clicking sound that appears when you power the carrier via the USB of an Arduino board (e.g. MKR WIFI 1010), is an expected behavior. Continue reading if you want to know more about how to avoid it and the reasons behind it!

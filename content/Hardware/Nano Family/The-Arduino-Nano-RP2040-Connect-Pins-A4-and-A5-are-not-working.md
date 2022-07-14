@@ -1,5 +1,6 @@
 ---
 title: "The Arduino Nano RP2040 Connect Pins A4 and A5 are not working"
+id: 4402998613394
 ---
 
 Nano RP2040 Connect has eight analog input pins A0 to A7 and a fixed analog reference voltage of +3.3V. It has a 12-bit ADC on a fixed set of pins A4 to A7. As a result, standard Arduino calls can be used to read their values with a resolution that can go from 0 to 4095, corresponding to the ADC reading of the specific pin.

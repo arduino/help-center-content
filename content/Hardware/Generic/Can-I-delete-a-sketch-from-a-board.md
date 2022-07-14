@@ -1,5 +1,6 @@
 ---
 title: "Can I delete a sketch from a board?"
+id: 4403004512786
 ---
 
 Uploading any sketch will delete any previous sketch stored in the memory. A sketch must always include the functions `setup()` and `loop()`, but they can be left empty in this case.

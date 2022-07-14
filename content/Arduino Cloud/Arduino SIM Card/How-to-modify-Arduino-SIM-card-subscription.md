@@ -1,5 +1,6 @@
 ---
 title: "How to modify Arduino SIM card subscription"
+id: 360016077300
 ---
 
 This quick guide will show you different ways to modify your Arduino SIM card subscription. It is possible to cancel your subscription at any time but it is also possible to pause the subscription. Read below to learn what these terms mean and how to do apply the changes.

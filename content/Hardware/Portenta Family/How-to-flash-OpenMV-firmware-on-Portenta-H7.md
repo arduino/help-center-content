@@ -1,5 +1,6 @@
 ---
 title: "How to flash OpenMV firmware on Portenta H7"
+id: 4402145375250
 ---
 
 In order to program scripts for Portenta H7 with OpenMV it is necessary to flash the firmware that allows the board to load and run the programs from the OpenMV environment. This guide explains step-by-step how to set up the environment to get started with OpenMV.

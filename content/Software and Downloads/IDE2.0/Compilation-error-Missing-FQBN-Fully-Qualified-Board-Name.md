@@ -1,5 +1,6 @@
 ---
 title: "Compilation error: Missing FQBN (Fully Qualified Board Name)"
+id: 4412950941074
 ---
 
 When compiling or uploading, the following error appears in the output panel.

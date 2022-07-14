@@ -1,5 +1,6 @@
 ---
 title: "I am not receiving any Arduino emails"
+id: 360018415520
 ---
 
 To mitigate potentially phishing campaigns and to protect our community and users from phishing attacks, Arduino has set the DMARC policy to validate the sent emails.

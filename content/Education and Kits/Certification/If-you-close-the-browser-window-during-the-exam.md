@@ -1,5 +1,6 @@
 ---
 title: "If you close the browser window during the exam"
+id: 4405239741842
 ---
 
 If you accidentally close the browser window while answering the exam, please go to the [Arduino Certification page](https://www.arduino.cc/education/certification) to re-open it.

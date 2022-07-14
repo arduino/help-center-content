@@ -1,5 +1,6 @@
 ---
 title: "Errors when uploading a sketch"
+id: 4403365313810
 ---
 
 When there is an error the IDE will print relevant information in the console. Learn how to resolve common errors.
@@ -169,7 +170,7 @@ This error can happen if the IDE could not find the selected board on the port, 
 > * Your Arduino IDE version
 
 <p style="display:none;">
-   Tags: problem uploading to board, problema subiendo a la placa, <pre>https://www.arduino.cc/en/Guide/Troubleshooting</pre>, 360003198300, 上传失败, 上传出错, 업로드, problème de téléversement vers la carte, téléverser, проблема загрузки в плату, マイコンボードに書き込めない, マイコンボードに書き込もうとしましたが、エラーが発生しました, problem beim hochladen auf das board, problema di caricamento sulla scheda, 업로딩
+   Tags: problem uploading to board, problema subiendo a la placa, https://www.arduino.cc/en/Guide/Troubleshooting, 360003198300, 上传失败, 上传出错, 업로드, problème de téléversement vers la carte, téléverser, проблема загрузки в плату, マイコンボードに書き込めない, マイコンボードに書き込もうとしましたが、エラーが発生しました, problem beim hochladen auf das board, problema di caricamento sulla scheda, 업로딩
 </p>
 
 <!-- markdownlint-disable-file HC001 -->

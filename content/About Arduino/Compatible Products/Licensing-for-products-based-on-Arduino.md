@@ -1,5 +1,6 @@
 ---
 title: "Licensing for products based on Arduino"
+id: 4415094490770
 ---
 
 This article describes the rules under which you can distribute a product based on Arduino. These rules apply to all derived products regardless of them being commercial or not, open-source or not.
@@ -86,8 +87,8 @@ The [source code](https://github.com/arduino/Arduino) for **Arduino IDE** is ope
 
 #### Cores
 
-* The AVR core can be found in the [Arduino github repository](https://github.com/arduino/ArduinoCore-avr).
-* Other cores are not included by default but installed through the board manager. Their repositories can also be found in the [Arduino github repository](https://github.com/arduino/).
+* The AVR core can be found in the [Arduino GitHub repository](https://github.com/arduino/ArduinoCore-avr).
+* Other cores are not included by default but installed through the board manager. Their repositories can also be found in the [Arduino GitHub repository](https://github.com/arduino/).
 
 ## Still need help?
 

@@ -1,5 +1,6 @@
 ---
 title: "How can I renew my Sigfox subscription?"
+id: 360017614459
 ---
 
 Every MKR FOX 1200 comes with a **free one-year subscription** to Sigfox data plan which is useful for testing the Sigfox network. If you want to renew your Sigfox subscription after a year, we recommend you to follow the below instructions:

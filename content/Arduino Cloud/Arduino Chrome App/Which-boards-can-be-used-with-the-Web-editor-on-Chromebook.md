@@ -1,5 +1,6 @@
 ---
 title: "Which boards can be used with the Web editor on Chromebook?"
+id: 360014779899
 ---
 
 For Chrome OS on Chromebook, you can use the following boards with the Web Editor:

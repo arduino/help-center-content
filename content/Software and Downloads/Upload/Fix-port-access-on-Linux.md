@@ -1,5 +1,6 @@
 ---
 title: "Fix port access on Linux"
+id: 360016495679
 ---
 
 Arduino IDE will not be able to open a port if your user account lacks the required permissions.

@@ -1,5 +1,6 @@
 ---
 title: "Deactivate an Arduino Pro Gateway with IoT Cloud"
+id: 4407770459410
 ---
 
 Deactivate an Arduino Pro Gateway with IoT Cloud using Manager for Linux.

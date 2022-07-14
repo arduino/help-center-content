@@ -1,5 +1,6 @@
 ---
 title: "How to delete a device from Arduino IoT cloud"
+id: 360018324700
 ---
 
 Configured devices can be deleted if you're no longer using them or if you've reached the maximum number of devices with your plan.

@@ -1,5 +1,6 @@
 ---
 title: "Check member roles in a space"
+id: 4406386358290
 ---
 
 If you are part of a space, you can find your educator role by following the steps below.

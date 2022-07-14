@@ -1,5 +1,6 @@
 ---
 title: "What is the operating temperature range for Arduino boards?"
+id: 360016076980
 ---
 
 Very often users ask what is the operating temperature range for your Arduino boards. It is important to explain what this means before mentioning any temperature values.
