@@ -67,8 +67,8 @@ The tracking number for the local delivery can be different:
 
 <table class="img-captions">
   <tr>
-    <td style="vertical-align: bottom;"><img src="https://content.arduino.cc/assets/asendia-local-tracking-number.png" style="height:75%;width:auto;" alt="Linked carrier "tracking number" on Asendia tracking page."></td>
-    <td><img src="https://content.arduino.cc/assets/dhl-local-tracking-number.png" style="height:75%;width:auto;" alt="DHL tracking page linking to Australia Post"></td>
+    <td style="vertical-align: bottom;"><img src="https://content.arduino.cc/assets/asendia-local-tracking-number.png" alt="Linked carrier "tracking number" on Asendia tracking page."></td>
+    <td><img src="https://content.arduino.cc/assets/dhl-local-tracking-number.png" alt="DHL tracking page linking to Australia Post"></td>
   </tr>
 </table>
 
