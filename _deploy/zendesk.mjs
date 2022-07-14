@@ -888,8 +888,8 @@ async function createArticleAttachment(articleID, filepath) {
 }
 
 async function saveAllSearchObjects(zendeskSections, articles) {
-    var objects = articles.map(a => {
-        var sectionName = zendeskSections.find(s => s.id == a.md.section_id).name;
+    var objects = articles.filter(a => a.zd).map(a => {
+        var sectionName = zendeskSections.find(s => s.id == a.zd.section_id).name;
         return {
             "objectID":               a.zd.url,
             "title":                  a.zd.title,
