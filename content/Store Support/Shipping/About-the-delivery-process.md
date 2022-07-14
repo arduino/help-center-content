@@ -60,7 +60,7 @@ All orders addressed to Americas, Asia and Oceania are shipped from Arduino's US
 
 ### Deliveries by the local post
 
-For orders addressed to America, Asia, and Oceania, the [FedEx Ground® Economy](https://www.fedex.com/en-us/shipping/ground/economy.html), [DHL Parcel International Standard](https://www.dhl.com/us-en/home/ecommerce-solutions/shipping-services.html), and Asendia shipping methods utilize the local postal service for the final delivery. These shipping methods might have longer delivery times (up to a month for orders outside the USA) and are more difficult to track.
+For orders addressed to America, Asia, and Oceania, the [FedEx Ground® Economy](https://www.fedex.com/en-us/shipping/ground/economy.html), [DHL Parcel International Standard](https://www.dhl.com/us-en/home/ecommerce-solutions/shipping-services.html), and [Asendia](https://www.asendia.com/) shipping methods utilize the local postal service for the final delivery. These shipping methods might have longer delivery times (up to a month for orders outside the USA) and are more difficult to track.
 
 The tracking number for the local delivery can be different:
 
