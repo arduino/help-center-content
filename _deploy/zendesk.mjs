@@ -11,7 +11,7 @@ if (!ZENDESK_USER) {
 }
 const AlgoliaID = process.env.ALGOLIA_APPLICATION_ID;
 const AlgoliaSecret = process.env.ALGOLIA_INDEXER_KEY;
-const AlgoliaIndex = process.env.ALGOLIA_INDEX;
+const AlgoliaIndexName = process.env.ALGOLIA_INDEX;
 
 /* Define and parse command-line options */
 import { Command } from 'commander';
@@ -58,7 +58,7 @@ const client = createClient({
 // Algolia
 import algoliasearch from 'algoliasearch';
 const algoliaClient = algoliasearch(AlgoliaID, AlgoliaSecret);
-const algoliaIndex = algoliaClient.initIndex(AlgoliaIndex); // TODO: Aaaaa
+const algoliaIndex = algoliaClient.initIndex(AlgoliaIndexName);
 
 // HTML
 import * as htmlparser2 from "htmlparser2";
