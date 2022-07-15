@@ -194,7 +194,7 @@ All orders addressed to the USA are shipped from Arduino's US warehouse located 
 
 ## America (excl. USA), Asia and Oceania
 
-All orders addressed to America, Asia and Oceania are shipped from Arduino's US warehouse located in Lakewood (NJ).
+All orders addressed to America, Asia and Oceania are shipped from Arduino's US warehouse located in Lakewood, NJ (USA).
 
 ### Order processing
 
