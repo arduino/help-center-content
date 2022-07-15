@@ -117,8 +117,7 @@ async function main() {
         console.log('Done.\n');
     }
 
-    console.log(clc.underline('Fetching and reading data...'));
-
+    console.log(clc.underline('Reading and parsing local content...'));
     await Promise.all([
         exTime(fg('**', {
             onlyDirectories: true,
@@ -142,19 +141,20 @@ async function main() {
     ]).then(results => {
         localDirPaths = results[0];
         localArticles = results[1];
+    });
 
-        var promises = [];
-        if (cacheRead) {
-            // Read Zendesk data from cache
-            promises.push(
-                readCache(path.join(__dirname, '/.cache/categories')),
-                readCache(path.join(__dirname, '/.cache/sections')),
-                readCache(path.join(__dirname, '/.cache/articles')),
-                readCache(path.join(__dirname, '/.cache/attachments'))
-            );
-        } else {
-            // Fetch Zendesk data
-            promises.push(
+    if (cacheRead) {
+        console.log(clc.underline('\nReading cached data...'));
+        var data = await readCache(path.join(__dirname, '/.cache'));
+        zendeskCategories = data.categories;
+        zendeskSections = data.sections;
+        zendeskArticles = data.articles;
+        zendeskAttachments = data.attachments;
+        console.log('Done reading cache.')
+    } else {
+        console.log(clc.underline('\nFetching data from Zendesk...'));
+        try {
+            await Promise.all([
                 exTime(client.categories.list()).then(result => {
                     console.log(`Fetched ${result.data.length} categories in ${result.exTime} ms.`);
                     return result.data;
@@ -171,19 +171,21 @@ async function main() {
                     console.log(`Fetched ${result.data.length} article attachment lists in ${result.exTime} ms.`);
                     return result.data;
                 })
-            );
+            ]).then(results => {
+                zendeskCategories = results[0];
+                zendeskSections = results[1];
+                zendeskArticles = results[2];
+                zendeskAttachments = results[3];
+            });
+        } catch (error) {
+            console.error('Error occured fetching data from Zendesk.')
+            throw error;
         }
-        return Promise.all(promises);
-    }).then(results => {
-        zendeskCategories = results[0];
-        zendeskSections = results[1];
-        zendeskArticles = results[2];
-        zendeskAttachments = results[3];
-        console.log(); // End section with newline
-    })
+
+    }
 
     // VALIDATION: Directory structure should match Zendesk categories and sections
-    console.log(clc.underline('Verifying categories and sections...'));
+    console.log(clc.underline('\nVerifying categories and sections...'));
     const positionRows = getPositionRows(zendeskCategories, zendeskSections, localDirPaths);
 
     // Print results
@@ -214,11 +216,13 @@ async function main() {
     // Save cache
     if (cacheSave) {
         console.log('\n' + clc.underline('Saving cache...'));
-        saveCacheSync(path.join(__dirname, '/.cache/categories'), zendeskCategories);
-        saveCacheSync(path.join(__dirname, '/.cache/sections'), zendeskSections);
-        saveCacheSync(path.join(__dirname, '/.cache/articles'), zendeskArticles);
-        saveCacheSync(path.join(__dirname, '/.cache/attachments'), zendeskAttachments);
-        console.log('Done.');
+        var data = {
+            "categories": zendeskCategories,
+            "sections": zendeskSections,
+            "articles": zendeskArticles,
+            "attachments": zendeskAttachments
+        }
+        saveCacheSync(path.join(__dirname, '/.cache'), data);
     }
 }
 
