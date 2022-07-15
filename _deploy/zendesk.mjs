@@ -867,7 +867,7 @@ function saveArticle(article) {
 // Not implemented in node-zendesk library
 // Problem: not taken into account by throttler
 async function createArticleAttachment(articleID, filepath) {
-    var myHeaders = new Headers();
+    var myHeaders = new fetch.Headers();
     myHeaders.append("Authorization", "Basic " + Buffer.from(ZENDESK_USER + ":" + ZENDESK_PASS).toString('base64'));
     var file = fs.readFileSync(filepath)
     var formData = new FormData();
