@@ -13,7 +13,7 @@ const AlgoliaID = process.env.ALGOLIA_APPLICATION_ID;
 const AlgoliaSecret = process.env.ALGOLIA_INDEXER_KEY;
 const AlgoliaIndexName = process.env.ALGOLIA_INDEX;
 
-/* Define and parse command-line options */
+// Define and parse command-line options
 import { Command } from 'commander';
 const program = new Command();
 program
@@ -42,8 +42,8 @@ const wait = program.opts().wait;
 const syncIndex = program.opts().syncIndex;
 
 // Set up Zendesk client
-import { createClient } from 'node-zendesk';
-const client = createClient({
+import { createClient as createZendeskClient } from 'node-zendesk';
+const client = createZendeskClient({
     username: ZENDESK_USER,
     password: ZENDESK_PASS,
     remoteUri: target_url,
@@ -52,38 +52,40 @@ const client = createClient({
     throttle: {
         window: 60,
         limit: 400
-      }
-  });
+    }
+});
 
 // Algolia
 import algoliasearch from 'algoliasearch';
-const algoliaClient = algoliasearch(AlgoliaID, AlgoliaSecret);
-const algoliaIndex = algoliaClient.initIndex(AlgoliaIndexName);
+const algoliaIndex = algoliasearch(AlgoliaID, AlgoliaSecret)
+    .initIndex(AlgoliaIndexName);
 
 // HTML
 import * as htmlparser2 from "htmlparser2";
 import { render } from 'dom-serializer';
-import {minify} from 'html-minifier';
+import { minify } from 'html-minifier';
 
 // Markdown
-import hljs  from 'highlight.js'; // https://highlightjs.org/
+import hljs from 'highlight.js'; // https://highlightjs.org/
 import markdownItFootnotes from 'markdown-it-footnote';
 import MarkdownIt from 'markdown-it';
 const md = new MarkdownIt({
-    html: true,
-    smartquotes: true,
-    typographer: true,
-    quotes: '“”‘’',
-    highlight: function (str, lang) {
-        if (lang && hljs.getLanguage(lang)) {
-            try {
-            return hljs.highlight(str, { language: lang }).value;
-            } catch (__) {}
+        html: true,
+        smartquotes: true,
+        typographer: true,
+        quotes: '“”‘’',
+        highlight: function (str, lang) {
+            if (lang && hljs.getLanguage(lang)) {
+                try {
+                    return hljs.highlight(str, {
+                        language: lang
+                    }).value;
+                } catch (__) {}
+            }
+            return ''; // use external default escaping
         }
-        return ''; // use external default escaping
-        }
-})
-.use(markdownItFootnotes);
+    })
+    .use(markdownItFootnotes);
 import fm from 'front-matter';
 
 // Other imports
@@ -118,11 +120,26 @@ async function main() {
     console.log(clc.underline('Fetching and reading data...'));
 
     await Promise.all([
-        exTime(fg('**', { onlyDirectories: true, cwd: root, deep: 2 })).then(result => { console.log(`Read ${result.data.length} directory paths in ${result.exTime} ms.`); return result.data; }),
-        exTime(fg(articlePattern, { cwd: root }))
-        .then(result => { console.log(`Found ${result.data.length} Markdown files in ${result.exTime} ms.`); return exTime(Promise.all(parseMarkdown(root, result.data))); })
-        .then(result => { console.log(`Parsed ${result.data.length} Markdown files in ${result.exTime} ms.`); return result.data; })]
-    ).then(results => {
+        exTime(fg('**', {
+            onlyDirectories: true,
+            cwd: root,
+            deep: 2
+        })).then(result => {
+            console.log(`Read ${result.data.length} directory paths in ${result.exTime} ms.`);
+            return result.data;
+        }),
+        exTime(fg(articlePattern, {
+            cwd: root
+        }))
+        .then(result => {
+            console.log(`Found ${result.data.length} Markdown files in ${result.exTime} ms.`);
+            return exTime(Promise.all(parseMarkdown(root, result.data)));
+        })
+        .then(result => {
+            console.log(`Parsed ${result.data.length} Markdown files in ${result.exTime} ms.`);
+            return result.data;
+        })
+    ]).then(results => {
         localDirPaths = results[0];
         localArticles = results[1];
 
@@ -138,10 +155,22 @@ async function main() {
         } else {
             // Fetch Zendesk data
             promises.push(
-                exTime(client.categories.list()).then(result => { console.log(`Fetched ${result.data.length} categories in ${result.exTime} ms.`); return result.data; }),
-                exTime(client.sections.list()).then(result => { console.log(`Fetched ${result.data.length} sections in ${result.exTime} ms.`); return result.data; }),
-                exTime(client.articles.list()).then(result => { console.log(`Fetched ${result.data.length} articles in ${result.exTime} ms.`); return result.data; }),
-                exTime(getAllAttachments(localArticles)).then(result => { console.log(`Fetched ${result.data.length} article attachment lists in ${result.exTime} ms.`); return result.data; })
+                exTime(client.categories.list()).then(result => {
+                    console.log(`Fetched ${result.data.length} categories in ${result.exTime} ms.`);
+                    return result.data;
+                }),
+                exTime(client.sections.list()).then(result => {
+                    console.log(`Fetched ${result.data.length} sections in ${result.exTime} ms.`);
+                    return result.data;
+                }),
+                exTime(client.articles.list()).then(result => {
+                    console.log(`Fetched ${result.data.length} articles in ${result.exTime} ms.`);
+                    return result.data;
+                }),
+                exTime(getAllAttachments(localArticles)).then(result => {
+                    console.log(`Fetched ${result.data.length} article attachment lists in ${result.exTime} ms.`);
+                    return result.data;
+                })
             );
         }
         return Promise.all(promises);
@@ -199,7 +228,7 @@ async function main() {
 function getArticles(zendeskCategories, zendeskSections, zendeskArticles, localArticles, zendeskAttachments) {
     var articles = [];
     for (const localArticle of localArticles) {
-        const levelNames =  getLevelsFromPath(localArticle.filepath);
+        const levelNames = getLevelsFromPath(localArticle.filepath);
         const sectionID = getPositionID(zendeskCategories, zendeskSections, ...levelNames);
 
         var md = localArticle;
@@ -297,8 +326,12 @@ function printChanges(zendeskCategories, zendeskSections, articles) {
         } else {
             // Check body
 
-            const local = htmlparser2.parseDocument(md.render(a.md.body), { decodeEntities: true });
-            const remote = htmlparser2.parseDocument(a.zd.body, { decodeEntities: true });
+            const local = htmlparser2.parseDocument(md.render(a.md.body), {
+                decodeEntities: true
+            });
+            const remote = htmlparser2.parseDocument(a.zd.body, {
+                decodeEntities: true
+            });
 
             for (const imgElement of htmlparser2.DomUtils.filter(e => e.name == 'img', local)) {
                 var replacement = attachmentReplacements.find(ar => ar.src == imgElement.attribs.src);
@@ -307,8 +340,18 @@ function printChanges(zendeskCategories, zendeskSections, articles) {
                 }
             }
 
-            const localRender = minify(render(local, { encodeEntities: true }), { continueOnParseError: true, collapseWhitespace: true});
-            const remoteRender = minify(render(remote, { encodeEntities: true }), { continueOnParseError: true, collapseWhitespace: true});
+            const localRender = minify(render(local, {
+                encodeEntities: true
+            }), {
+                continueOnParseError: true,
+                collapseWhitespace: true
+            });
+            const remoteRender = minify(render(remote, {
+                encodeEntities: true
+            }), {
+                continueOnParseError: true,
+                collapseWhitespace: true
+            });
 
             if (localRender != remoteRender) {
                 console.log(offset + 'Article body will be updated.')
@@ -335,7 +378,6 @@ function printChanges(zendeskCategories, zendeskSections, articles) {
     console.log(summary);
 }
 
-// TODO: Hmmm.
 function createArticle(article) {
     var section_id = article.md.section_id;
     // Create article draft without body
@@ -346,7 +388,7 @@ function createArticle(article) {
         "permission_group_id": 1127974,
         "title": article.md.attributes.title,
         "user_segment_id": null
-        };
+    };
 
     return client.articles.create(section_id, {
         "article": articleData,
@@ -370,32 +412,24 @@ function createAttachments(article) {
     return Promise.all(newAttachments.map(newAttachment => {
         var attachmentPath = `content/${path.dirname(article.md.filepath)}/${newAttachment.src}`;
         return createArticleAttachment(article.md.attributes.id, attachmentPath) // returns json
-        .then(result => {
-            console.log('[OK] Uploading:' + result.display_file_name + ' => ' + result.content_url);
-            console.log(result);
-            article.attachments.push(result);
-        })
-        .catch(error => {
-            if (error.statusCode) {
-                console.log(`[${error.statusCode}] ${attachmentPath}`);
-            } else {
-                console.log(`[ER] ${attachmentPath}`);
-                throw error;
-            }
-        });
+            .then(result => {
+                console.log('[OK] Uploading:' + result.display_file_name + ' => ' + result.content_url);
+                console.log(result);
+                article.attachments.push(result);
+            })
+            .catch(error => {
+                if (error.statusCode) {
+                    console.log(`[${error.statusCode}] ${attachmentPath}`);
+                } else {
+                    console.log(`[ER] ${attachmentPath}`);
+                    throw error;
+                }
+            });
     }))
 }
 
 function getArticleUpdates(a) {
-    // Check translation
     var updates = {};
-
-    /*
-    if (!a.zd) {
-        // New article, add all attributes
-        updates.
-    }
-    */
 
     // Check position
     if (a.md.section_id != a.zd.section_id) {
@@ -410,19 +444,7 @@ function getArticleUpdates(a) {
 }
 
 function getTranslationUpdates(a) {
-    // Check translation
-
     var updates = {};
-
-    /*
-    if (!a.zd) {
-        // New article, add all attributes
-        updates.title = a.md.attributes.title;
-        updates.draft = false;
-        updates.body = makeHTML(a.md.body, attachmentReplacements, true);
-        return updates;
-    }
-    */
 
     // Check title
     if (a.md.attributes.title != a.zd.title) {
@@ -513,15 +535,15 @@ async function deploy(zendeskSections, articles) {
             var sectionName = zendeskSections.find(s => s.id == a.md.sectionID);
             try {
                 algoliaIndex.saveObject({
-                    "objectID":               a.zd.url,
-                    "title":                  a.zd.title,
-                    "documentation_type":     "Help Center",
+                    "objectID": a.zd.url,
+                    "title": a.zd.title,
+                    "documentation_type": "Help Center",
                     "category_of_helpcenter": sectionName,
-                    "environment":            "support.arduino.cc",
-                    "language":               "en",
-                    "language_pretty":        "English",
-                    "content":                a.zd.body,
-                    "url":                    a.zd.url,
+                    "environment": "support.arduino.cc",
+                    "language": "en",
+                    "language_pretty": "English",
+                    "content": a.zd.body,
+                    "url": a.zd.url,
                 }).wait();
             } catch (error) {
                 console.error("Couldn't save object in Algolia");
@@ -535,12 +557,15 @@ async function deploy(zendeskSections, articles) {
         const articleAttachments = article.attachments;
         const articleReplacements = getAttachmentReplacements(article);
         for (const articleAttachment of articleAttachments) {
-            if(!articleReplacements.some(ar => ar.target == articleAttachment.content_url && ar.src != null)) {
+            if (!articleReplacements.some(ar => ar.target == articleAttachment.content_url && ar.src != null)) {
                 console.log(`Attachment ${articleAttachment.id} will be deleted from ${articleAttachment.content_url}`)
                 client.articleattachments.delete(articleAttachment.id)
-                .then(result => { console.log('Deleted attachment:' + articleAttachment.content_url)})
-                .catch(error => { console.log(`[${error.statusCode}] Deleting attachment (id: ${articleAttachment.id}) ${articleAttachment.content_url}`);
-                })
+                    .then(result => {
+                        console.log('Deleted attachment:' + articleAttachment.content_url)
+                    })
+                    .catch(error => {
+                        console.log(`[${error.statusCode}] Deleting attachment (id: ${articleAttachment.id}) ${articleAttachment.content_url}`);
+                    })
             }
         }
     }
@@ -594,11 +619,25 @@ function hasChanges(article) {
 }
 
 function compareHTML(a, b) {
-    const local = htmlparser2.parseDocument(a, { decodeEntities: true });
-    const remote = htmlparser2.parseDocument(b, { decodeEntities: true });
+    const local = htmlparser2.parseDocument(a, {
+        decodeEntities: true
+    });
+    const remote = htmlparser2.parseDocument(b, {
+        decodeEntities: true
+    });
 
-    const localRender = minify(render(local, { encodeEntities: true }), { continueOnParseError: true, collapseWhitespace: true});
-    const remoteRender = minify(render(remote, { encodeEntities: true }), { continueOnParseError: true, collapseWhitespace: true});
+    const localRender = minify(render(local, {
+        encodeEntities: true
+    }), {
+        continueOnParseError: true,
+        collapseWhitespace: true
+    });
+    const remoteRender = minify(render(remote, {
+        encodeEntities: true
+    }), {
+        continueOnParseError: true,
+        collapseWhitespace: true
+    });
 
     return (localRender == remoteRender);
 }
@@ -611,7 +650,10 @@ function makeHTML(markdown, attachmentReplacements, encodeEntities) {
             imgElement.attribs.src = replacement.target;
         }
     }
-    return render(html, { xmlMode: false, encodeEntities: encodeEntities })
+    return render(html, {
+        xmlMode: false,
+        encodeEntities: encodeEntities
+    })
 }
 
 function getAttachmentReplacements(article) {
@@ -669,7 +711,7 @@ function getPositionRow(zendeskCategories, zendeskSections, dirPath) {
             source: clc.yellow(dirPath),
             target: clc.red('Not found.')
         };
-    } else if  (positionLevels.length == 1) { // Category found, no section in path
+    } else if (positionLevels.length == 1) { // Category found, no section in path
         return {
             category: positionLevels[0],
             section: '',
@@ -734,7 +776,7 @@ function getPositionRows(zendeskCategories, zendeskSections, localDirPaths) {
 
 function parseMarkdown(base, filePaths) {
     var promises = filePaths.map(filePath => fsPromises.readFile(path.join(base, filePath), 'utf8')
-        .then( data => {
+        .then(data => {
             var article = fm(data);
             article.filepath = filePath;
             return article;
@@ -788,26 +830,30 @@ function getPositionNames(zendeskCategories, zendeskSections, id) {
 
 function delay(ms) {
     return new Promise(resolve => {
-      setTimeout(resolve, ms);
+        setTimeout(resolve, ms);
     });
 }
 
 function getAllAttachments(localArticles) {
     var attachment_promises = [];
-        for (const localArticle of localArticles) {
-            const id = localArticle.attributes.id;
-            if (id) {
-                attachment_promises.push(client.articleattachments.list(id)
+    for (const localArticle of localArticles) {
+        const id = localArticle.attributes.id;
+        if (id) {
+            attachment_promises.push(client.articleattachments.list(id)
                 .then(result => {
                     return {
                         "article_id": id,
                         "attachments": result.article_attachments
                     };
-                    })
-                .catch((error) => { if (error.statusCode != 404) { console.error(error); } }));
-            }
+                })
+                .catch((error) => {
+                    if (error.statusCode != 404) {
+                        console.error(error);
+                    }
+                }));
         }
-        return Promise.all(attachment_promises);
+    }
+    return Promise.all(attachment_promises);
 }
 
 function saveCacheSync(filePath, data) {
@@ -816,7 +862,7 @@ function saveCacheSync(filePath, data) {
             return console.log(err);
         }
     });
-  }
+}
 
 function readCache(filePath) {
     return new Promise(function (resolve, reject) {
@@ -884,24 +930,26 @@ async function createArticleAttachment(articleID, filepath) {
     };
 
     return fetch(`https://arduino.zendesk.com/api/v2/help_center/articles/${articleID}/attachments.json`, requestOptions)
-    .then(response => response.json())
-    .then(json => { return json.article_attachment; } )
-    .catch(error => console.log('error', error));
+        .then(response => response.json())
+        .then(json => {
+            return json.article_attachment;
+        })
+        .catch(error => console.log('error', error));
 }
 
 async function saveAllSearchObjects(zendeskSections, articles) {
     var objects = articles.filter(a => a.zd).map(a => {
         var sectionName = zendeskSections.find(s => s.id == a.zd.section_id).name;
         return {
-            "objectID":               a.zd.url,
-            "title":                  a.zd.title,
-            "documentation_type":     "Help Center",
+            "objectID": a.zd.url,
+            "title": a.zd.title,
+            "documentation_type": "Help Center",
             "category_of_helpcenter": sectionName,
-            "environment":            "support.arduino.cc",
-            "language":               "en",
-            "language_pretty":        "English",
-            "content":                a.zd.body,
-            "url":                    a.zd.url,
+            "environment": "support.arduino.cc",
+            "language": "en",
+            "language_pretty": "English",
+            "content": a.zd.body,
+            "url": a.zd.url,
         };
     });
     const saveResult = await algoliaIndex.saveObjects(objects);
@@ -913,9 +961,9 @@ async function deleteOrphanedSearchObjects(articles) {
     const searchResult = await algoliaIndex.search("", {
         hitsPerPage: hitsPerPage,
         "facetFilters": [
-         [
-          "documentation_type:Help Center"
-         ]
+            [
+                "documentation_type:Help Center"
+            ]
         ]
     });
 
@@ -926,7 +974,7 @@ async function deleteOrphanedSearchObjects(articles) {
     const removeTheseObjectIDs = searchResult.hits.filter(
         object => !articles.some(
             a => a.zd.url == object.url)).map(
-                o => o.objectID);
+        o => o.objectID);
     const deleteResult = await algoliaIndex.deleteObjects(removeTheseObjectIDs)
     console.log(`Deleted ${deleteResult.objectIDs.length} objects.`);
 }
