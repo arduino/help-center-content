@@ -19,20 +19,20 @@ Learn more about the delivery process:
 
 ## Delivery time
 
-Delivery time changes depending on the selected carrier and destination country as indicated in the checkout phase. Carrier delivery time does not include the order processing period. Arduino Srl and Arduino LLC cannot be held responsible for the carrier's late deliveries. See the available shipping methods<!-- TODO: Add link to Available shipping methods article --> and their estimated delivery times.
+Delivery time changes depending on the selected carrier and destination country as indicated in the checkout phase. Carrier delivery time does not include the order processing period. Arduino Srl and Arduino LLC cannot be held responsible for the carrier's late deliveries. See the [available shipping methods](https://support.arduino.cc/hc/en-us/articles/5340856700188) and their estimated delivery times.
 
 ### Order processing time
 
 #### Europe and Africa
 
-All orders addressed to Europe and Africa are shipped from Arduino's EU warehouse located in Parma (IT). Note that the warehouse is closed on the weekends.
+All orders addressed to Europe and Africa are shipped from Arduino's EU warehouse located in Parma (Italy). Note that the warehouse is closed on the weekends.
 
 * Orders entered before 11 AM CET (GMT+1) Mon-Fri ship the same day.
 * Orders entered after 11 AM CET (GMT+1) Mon-Fri ship the next business day.
 
 #### Americas, Asia, and Oceania
 
-All orders addressed to Americas, Asia and Oceania are shipped from Arduino's US warehouse located in Lakewood (NJ). Note that the warehouse is closed on the weekends.
+All orders addressed to Americas, Asia and Oceania are shipped from Arduino's US warehouse located in Lakewood, NJ (USA). Note that the warehouse is closed on the weekends.
 
 * Orders entered before 2 PM ET (GMT-5) Mon-Thu will be shipped on the same day.
 * Orders entered before 12 PM ET (GMT-5) Fri will be shipped on the same day.
@@ -59,16 +59,18 @@ All orders addressed to Americas, Asia and Oceania are shipped from Arduino's US
      * [https://www.track-trace.com/](https://www.track-trace.com/)
      * [https://www.17track.net/](https://www.17track.net/)
 
+<a id="devliveries-by-the-local-post"></a>
+
 ### Deliveries by the local post
 
-For orders addressed to America, Asia, and Oceania, the [FedEx Ground® Economy](https://www.fedex.com/en-us/shipping/ground/economy.html), [DHL Parcel International Standard](https://www.dhl.com/us-en/home/ecommerce-solutions/shipping-services.html), and Asendia shipping methods utilize the local postal service for the final delivery. These shipping methods might have longer delivery times (up to a month for orders outside the USA) and are more difficult to track.
+For orders addressed to America, Asia, and Oceania, the [FedEx Ground® Economy](https://www.fedex.com/en-us/shipping/ground/economy.html), [DHL Parcel International Standard](https://www.dhl.com/us-en/home/ecommerce-solutions/shipping-services.html), and [Asendia](https://www.asendia.com/) shipping methods utilize the local postal service for the final delivery. These shipping methods might have longer delivery times (up to a month for orders outside the USA) and are more difficult to track.
 
 The tracking number for the local delivery can be different:
 
 <table class="img-captions">
   <tr>
-    <td style="vertical-align: bottom;"><img src="https://content.arduino.cc/assets/asendia-local-tracking-number.png" style="height:75%;width:auto;" alt="Linked carrier "tracking number" on Asendia tracking page."></td>
-    <td><img src="https://content.arduino.cc/assets/dhl-local-tracking-number.png" style="height:75%;width:auto;" alt="DHL tracking page linking to Australia Post"></td>
+    <td style="vertical-align: bottom;"><img src="https://content.arduino.cc/assets/asendia-local-tracking-number.png" alt="Linked carrier "tracking number" on Asendia tracking page."></td>
+    <td><img src="https://content.arduino.cc/assets/dhl-local-tracking-number.png" alt="DHL tracking page linking to Australia Post"></td>
   </tr>
 </table>
 
@@ -118,5 +120,4 @@ If the parcel did not arrive, please check the following before contacting [Ardu
 * **Shipping policies:**
   * [Europe and Africa](https://store.arduino.cc/pages/shipping-policy?selectedStore=eu)
   * [America, Asia and Oceania](https://store-usa.arduino.cc/pages/shipping-policy?selectedStore=us)
-
-<!--- TODO: add link to "Available shipping methods"--->
+* [Available shipping methods](https://support.arduino.cc/hc/en-us/articles/5340856700188-Available-shipping-methods)

@@ -9,9 +9,9 @@ const ZENDESK_PASS = process.env.ZENDESK_PASS;
 if (!ZENDESK_USER) {
     throw new Error('Missing environment variable: ZENDESK_PASS')
 }
-const AlgoliaID = process.env.AGOLIA_APPLICATION_ID;
+const AlgoliaID = process.env.ALGOLIA_APPLICATION_ID;
 const AlgoliaSecret = process.env.ALGOLIA_INDEXER_KEY;
-const AlgoliaIndex = process.env.ALGOLIA_INDEX;
+const AlgoliaIndexName = process.env.ALGOLIA_INDEX;
 
 /* Define and parse command-line options */
 import { Command } from 'commander';
@@ -58,7 +58,7 @@ const client = createClient({
 // Algolia
 import algoliasearch from 'algoliasearch';
 const algoliaClient = algoliasearch(AlgoliaID, AlgoliaSecret);
-const algoliaIndex = algoliaClient.initIndex(AlgoliaIndex); // TODO: Aaaaa
+const algoliaIndex = algoliaClient.initIndex(AlgoliaIndexName);
 
 // HTML
 import * as htmlparser2 from "htmlparser2";
@@ -112,7 +112,7 @@ async function main() {
         await delay(wait * 1000);
         console.log('Done.\n');
     }
-    
+
     console.log(clc.underline('Fetching and reading data...'));
 
     await Promise.all([
@@ -178,7 +178,7 @@ async function main() {
         await saveAllSearchObjects(zendeskSections, articles);
         await deleteOrphanedSearchObjects(articles);
     }
-    
+
 
     // Save cache
     if (cacheSave) {
@@ -199,7 +199,7 @@ function getArticles(zendeskCategories, zendeskSections, zendeskArticles, localA
     for (const localArticle of localArticles) {
         const levelNames =  getLevelsFromPath(localArticle.filepath);
         const sectionID = getPositionID(zendeskCategories, zendeskSections, ...levelNames);
-        
+
         var md = localArticle;
         md.section_id = sectionID;
         var zd = zendeskArticles.find(a => a.id == localArticle.attributes.id);
@@ -368,7 +368,7 @@ function createAttachments(article) {
     return Promise.all(newAttachments.map(newAttachment => {
         var attachmentPath = `content/${path.dirname(article.md.filepath)}/${newAttachment.src}`;
         return createArticleAttachment(article.md.attributes.id, attachmentPath) // returns json
-        .then(result => { 
+        .then(result => {
             console.log('[OK] Uploading:' + result.display_file_name + ' => ' + result.content_url);
             console.log(result);
             article.attachments.push(result);
@@ -432,7 +432,7 @@ function getTranslationUpdates(a) {
     if (draft != a.zd.draft) {
         updates.draft = draft;
     }
-    
+
     // Check attachments and article body
     const attachmentReplacements = getAttachmentReplacements(a);
     var renderedHTML = makeHTML(a.md.body, attachmentReplacements, false);
@@ -465,16 +465,16 @@ async function deploy(zendeskSections, articles) {
         }
     }
 
-    // Create any new articles as empty drafts (update them with the others) 
+    // Create any new articles as empty drafts (update them with the others)
     const createdArticles = await Promise.all(newArticles.map(a => createArticle(a)));
     updatedArticles = updatedArticles.concat(createdArticles);
-    
+
     // For every article in Zendesk with changes...
     await Promise.all(updatedArticles.map(async a => {
 
         // Create any new attachments
         await createAttachments(a);
-        
+
         // Make any updates to translation
         // https://developer.zendesk.com/api-reference/help_center/help-center-api/translations/
         const translationUpdates = getTranslationUpdates(a);
@@ -492,7 +492,7 @@ async function deploy(zendeskSections, articles) {
 
         // Make any updates to article
         // https://developer.zendesk.com/api-reference/help_center/help-center-api/articles/
-        const articleUpdates = getArticleUpdates(a); 
+        const articleUpdates = getArticleUpdates(a);
         if (articleUpdates) {
             // console.log(`Updating article ${a.zd.title}...`);
             try {
@@ -527,7 +527,7 @@ async function deploy(zendeskSections, articles) {
             }
         }
     }));
-    
+
     // Delete unused attachments
     for (const article of updatedArticles) {
         const articleAttachments = article.attachments;
@@ -630,7 +630,7 @@ function getAttachmentReplacements(article) {
                     "src": src,
                     "target": zdAttachment.content_url
                 });
-                // Remove processed 
+                // Remove processed
                 zdAttachment.used = true;
             } else {
                 // Not found
@@ -658,7 +658,7 @@ function getAttachmentReplacements(article) {
 function getPositionRow(zendeskCategories, zendeskSections, dirPath) {
     var positionLevels = dirPath.split('/');
     var zendeskCategory = zendeskCategories.find(c => c.name == positionLevels[0]);
-    
+
     // If no category is found
     if (!zendeskCategory) {
         return {
@@ -815,7 +815,7 @@ function saveCacheSync(filePath, data) {
         }
     });
   }
-  
+
 function readCache(filePath) {
     return new Promise(function (resolve, reject) {
         fs.readFile(filePath, 'utf8', function (err, data) {
@@ -867,7 +867,7 @@ function saveArticle(article) {
 // Not implemented in node-zendesk library
 // Problem: not taken into account by throttler
 async function createArticleAttachment(articleID, filepath) {
-    var myHeaders = new Headers();
+    var myHeaders = new fetch.Headers();
     myHeaders.append("Authorization", "Basic " + Buffer.from(ZENDESK_USER + ":" + ZENDESK_PASS).toString('base64'));
     var file = fs.readFileSync(filepath)
     var formData = new FormData();
@@ -888,8 +888,8 @@ async function createArticleAttachment(articleID, filepath) {
 }
 
 async function saveAllSearchObjects(zendeskSections, articles) {
-    var objects = articles.map(a => {
-        var sectionName = zendeskSections.find(s => s.id == a.md.section_id).name;
+    var objects = articles.filter(a => a.zd).map(a => {
+        var sectionName = zendeskSections.find(s => s.id == a.zd.section_id).name;
         return {
             "objectID":               a.zd.url,
             "title":                  a.zd.title,
