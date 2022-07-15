@@ -67,6 +67,7 @@ import {minify} from 'html-minifier';
 
 // Markdown
 import hljs  from 'highlight.js'; // https://highlightjs.org/
+import markdownItFootnotes from 'markdown-it-footnote';
 import MarkdownIt from 'markdown-it';
 const md = new MarkdownIt({
     html: true,
@@ -81,7 +82,8 @@ const md = new MarkdownIt({
         }
         return ''; // use external default escaping
         }
-});
+})
+.use(markdownItFootnotes);
 import fm from 'front-matter';
 
 // Other imports
