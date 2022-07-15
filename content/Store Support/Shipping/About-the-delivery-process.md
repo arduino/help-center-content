@@ -19,7 +19,7 @@ Learn more about the delivery process:
 
 ## Delivery time
 
-Delivery time changes depending on the selected carrier and destination country as indicated in the checkout phase. Carrier delivery time does not include the order processing period. Arduino Srl and Arduino LLC cannot be held responsible for the carrier's late deliveries. See the available shipping methods<!-- TODO: Add link to Available shipping methods article --> and their estimated delivery times.
+Delivery time changes depending on the selected carrier and destination country as indicated in the checkout phase. Carrier delivery time does not include the order processing period. Arduino Srl and Arduino LLC cannot be held responsible for the carrier's late deliveries. See the [available shipping methods](https://support.arduino.cc/hc/en-us/articles/5340856700188) and their estimated delivery times.
 
 ### Order processing time
 
@@ -58,6 +58,8 @@ All orders addressed to Americas, Asia and Oceania are shipped from Arduino's US
      * [https://www.aftership.com/](https://www.aftership.com/)
      * [https://www.track-trace.com/](https://www.track-trace.com/)
      * [https://www.17track.net/](https://www.17track.net/)
+
+<a id="devliveries-by-the-local-post"></a>
 
 ### Deliveries by the local post
 
@@ -118,5 +120,4 @@ If the parcel did not arrive, please check the following before contacting [Ardu
 * **Shipping policies:**
   * [Europe and Africa](https://store.arduino.cc/pages/shipping-policy?selectedStore=eu)
   * [America, Asia and Oceania](https://store-usa.arduino.cc/pages/shipping-policy?selectedStore=us)
-
-<!--- TODO: add link to "Available shipping methods"--->
+* [Available shipping methods](https://support.arduino.cc/hc/en-us/articles/5340856700188-Available-shipping-methods)
