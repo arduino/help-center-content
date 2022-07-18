@@ -35,7 +35,7 @@ Learn how to add a library to Arduino IDE.
 
 3. If you're using Arduino IDE 2.x, you may need to restart it for the library to be available[^1].
 
-[^1]: [[https://github.com/arduino/arduino-ide/issues/659]]
+[^1]: <https://github.com/arduino/arduino-ide/issues/659>
 
 ---
 
