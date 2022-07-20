@@ -55,4 +55,4 @@ If you need help finding it you can follow these steps:
 
 ## Further reading
 
-* [Find sketches, libraries, cores and other files on your computer](https://support.arduino.cc/hc/en-us/articles/4411202655634)
+* [Find sketches, libraries, board cores, and other files on your computer](https://support.arduino.cc/hc/en-us/articles/4415103213714-Find-sketches-libraries-board-cores-and-other-files-on-your-computer)

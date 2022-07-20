@@ -21,7 +21,7 @@ If you haven't done so, [make sure the device is configured correctly](https://s
 
 1. Make sure you're using a [compatible device](https://support.arduino.cc/hc/en-us/articles/360016077320-What-devices-can-be-used-with-Arduino-IoT-Cloud-).
 
-2. [Check that the Arduino Create Agent is installed and running](https://support.arduino.cc/hc/en-us/articles/4919247060124), then click **Try again**.
+2. [Check if the Arduino Create Agent is installed and running](https://support.arduino.cc/hc/en-us/articles/4980687506844-Check-if-the-Arduino-Create-Agent-is-installed-and-running), then click **Try again**.
 
 3. Double-press the reset button on the board, then click **Try Again**.
 
@@ -35,14 +35,14 @@ If you haven't done so, [make sure the device is configured correctly](https://s
 
 1. Close any instances Arduino IDE and other applications that may be using the port.
 
-2. [Check if the Arduino Create Agent is installed and running](https://support.arduino.cc/hc/en-us/articles/4919247060124).
+2. [Check if the Arduino Create Agent is installed and running](https://support.arduino.cc/hc/en-us/articles/4980687506844-Check-if-the-Arduino-Create-Agent-is-installed-and-running).
 
 3. Reconnect the device to the computer and make sure the power LED lights up.
 
 ### Arduino Create Agent not found
 
 1. If you haven't done so already, [install the agent](https://create.arduino.cc/getting-started/plugin/welcome).
-2. [Check if the Arduino Create Agent is installed and running](https://support.arduino.cc/hc/en-us/articles/4919247060124).
+2. [Check if the Arduino Create Agent is installed and running](https://support.arduino.cc/hc/en-us/articles/4980687506844-Check-if-the-Arduino-Create-Agent-is-installed-and-running).
 
 ### If you don't know the DevEUI for your Arduino board
 

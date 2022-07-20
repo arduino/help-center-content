@@ -16,7 +16,7 @@ The Science Journal app supports the following boards:
 
 > The MKR WiFi 1010 can't be connected without the _Science carrier board_, which is only available in the [Arduino Science Kit Physics Lab](https://store.arduino.cc/products/arduino-science-kit-physics-lab).
 
-The MKR WiFi 1010 included with the Science Kit comes with the required firmware out-of-the-box. [Follow these instructions](https://support.arduino.cc/hc/en-us/articles/4406227372818) if you are using an individually bought replacement or have flashed the board with different firmware.
+The MKR WiFi 1010 included with the Science Kit comes with the required firmware out-of-the-box. [Follow these instructions](https://support.arduino.cc/hc/en-us/articles/4408029337746) if you are using an individually bought replacement or have flashed the board with different firmware.
 
 1. Connect the board to the carrier, making sure that the pins (e.g. A1, A2) line up.
 

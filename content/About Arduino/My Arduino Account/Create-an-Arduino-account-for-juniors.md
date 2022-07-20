@@ -12,7 +12,7 @@ Minors under the age of 14 need parental consent to sign up for an Arduino accou
 
 <h2 id="adult-create">Sign up your junior from an adult account</h2>
 
-1. Go to the [Profile page](https://id.arduino.cc/). Sign in if prompted or, if you haven't done so, [create an Arduino account](https://support.arduino.cc/hc/en-us/articles/4414706777106).
+1. Go to the [Profile page](https://id.arduino.cc/). Sign in if prompted or, if you haven't done so, [create an Arduino account](https://support.arduino.cc/hc/en-us/articles/360016724040).
 
 2. Under _Junior Accounts_, click on **Set Up Junior Account**.
 

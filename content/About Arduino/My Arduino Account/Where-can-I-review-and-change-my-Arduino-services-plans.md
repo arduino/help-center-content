@@ -7,7 +7,7 @@ You can review your active subscriptions on the [My Plans](https://store.arduino
 
 Here you can also:
 
-* [Change your Arduino Cloud plan](https://support.arduino.cc/hc/en-us/articles/360013751060)
+* [Review, change or cancel your Arduino Cloud plan](https://support.arduino.cc/hc/en-us/articles/4401881299090-Review-change-or-cancel-your-Arduino-Cloud-plan)
 * Change or cancel other plans
 * Change the payment method for a plan
 * View and change your billing information (in the *Billing* tab)

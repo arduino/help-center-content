@@ -144,7 +144,6 @@ Generally, the contents of this folder should not be changed.
 
 ## Further reading
 
-* [Where are the installed cores located?](https://support.arduino.cc/hc/en-us/articles/360012076960-Where-are-the-installed-cores-located-)
 * [Where can I find the Arduino15 folder?](https://support.arduino.cc/hc/en-us/articles/360018448279-Where-can-I-find-the-Arduino15-folder-)
 * [How to do a complete uninstall of the Arduino IDE?](https://support.arduino.cc/hc/en-us/articles/360021325733-How-to-do-a-complete-uninstall-of-the-Arduino-IDE)
 * [How do I delete or uninstall a library from the IDE?](https://support.arduino.cc/hc/en-us/articles/360016077340-How-do-I-delete-or-uninstall-a-library-from-the-IDE-)
