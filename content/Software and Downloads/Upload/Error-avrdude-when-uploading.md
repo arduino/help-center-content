@@ -76,7 +76,7 @@ avrdude: stk500_getsync() attempt 2 of 10: not in sync: resp=0x00
 
 2. If using the classic Nano, try selecting a different processor in _Tools > Processor_.
 
-3. For some boards, a _loopback test_ can be performed, which will rule out problems with the serial chip. It can be done with the following boards:
+3. For some boards, a [loopback test](https://support.arduino.cc/hc/en-us/articles/360020366520-How-to-do-a-loopback-test) can be performed, which will rule out problems with the serial chip. It can be done with the following boards:
 
    * Arduino UNO (classic)
    * Arduino UNO Rev3
@@ -86,7 +86,7 @@ avrdude: stk500_getsync() attempt 2 of 10: not in sync: resp=0x00
    * Arduino Mega ADK Rev3
    * Arduino Nano (classic)
 
-   If the loopback test passes, or if you can't do a loopback test, reprogramming the bootloader may resolve the issue. [ArduinoISP](https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP) can be used for boards with AtMega chips. You can also search for [articles in the Help Center](https://support.arduino.cc/hc/en-us/search?utf8=%E2%9C%93&query=bootloader).
+   If the loopback test passes, or if you can't do a loopback test, reprogramming the bootloader may resolve the issue. See [Burn the bootloader on UNO, Mega, and classic Nano using another Arduino](https://support.arduino.cc/hc/en-us/articles/4841602539164-Burn-the-bootloader-on-UNO-Mega-and-classic-Nano-using-another-Arduino) or look for [other articles in the Help Center](https://support.arduino.cc/hc/en-us/search?utf8=%E2%9C%93&query=bootloader).
 
 ---
 
