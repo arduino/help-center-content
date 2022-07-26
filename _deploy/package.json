@@ -22,6 +22,7 @@
     "html-minifier": "^4.0.0",
     "htmlparser2": "^8.0.1",
     "markdown-it": "^13.0.1",
+    "markdown-it-footnote": "^3.0.3",
     "node-fetch": "^2.6.7",
     "node-zendesk": "^2.2.0"
   }
