@@ -11,7 +11,7 @@ Learn how to find and stop a process blocking a port for your system (Windows, m
 
 ### Get the Process Explorer tool
 
-Download and install the [Process Explorer tool](https://docs.microsoft.com/sv-se/sysinternals/downloads/process-explorer) from Microsoft.
+Download and install the [Process Explorer tool](https://docs.microsoft.com/sysinternals/downloads/process-explorer) from Microsoft.
 
 ### 1. Find the port 'Service' value
 
