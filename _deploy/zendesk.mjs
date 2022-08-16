@@ -547,7 +547,7 @@ async function deploy(zendeskSections, articles) {
                     "language": "en",
                     "language_pretty": "English",
                     "content": a.zd.body,
-                    "url": a.zd.url,
+                    "url": a.zd.html_url,
                 }).wait();
             } catch (error) {
                 console.error("Couldn't save object in Algolia");
@@ -953,7 +953,7 @@ async function saveAllSearchObjects(zendeskSections, articles) {
             "language": "en",
             "language_pretty": "English",
             "content": a.zd.body,
-            "url": a.zd.url,
+            "url": a.zd.html_url,
         };
     });
     const saveResult = await algoliaIndex.saveObjects(objects);
