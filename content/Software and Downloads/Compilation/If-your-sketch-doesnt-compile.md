@@ -58,33 +58,35 @@ Arduino IDE displays compilation messages differently depending on the version:
 ## Troubleshoot a specific error
 
 <table>
-<tr>
-<td style="vertical-align: top;">
-<h3>Common</h3>
-<li><a href="#error-compiling-for-board">Error compiling for board</a></li>
-<li><a href="#missing-FQBN">Compilation error: Missing FQBN (Fully Qualified Board Name)</a></li>
-<li><a href="#platform-not-installed">Compilation error: Error: 2 UNKNOWN: platform not installed</a></li>
-<h3>Required functions</h3>
-<ul>
-<li><a href="#required-functions">undefined reference to 'setup'</a></li>
-<li><a href="#required-functions">undefined reference to 'loop'</a></li>
-<li><a href="#required-functions">collect2: error: ld returned 1 exit status</a></li>
-</ul>
-<h3>Libraries</h3>
-<ul>
-<li><a href="#fatal-error-no-such-file-or-directory">fatal error: : No such file or directory</a></li>
-</ul>
-</td>
-<td style="vertical-align: top;">
-<h3>Syntax errors</h3>
-<ul>
-<li><a href="#variable-not-declared">variable was not declared in this scope</a></li>
-<li><a href="#expected-unqualified-id">expected unqualified-id before numeric constant</a></li>
-<li><a href="#expected-before-colon">expected ',' or ';' before ':' token</a></li>
-<li><a href="#expected-bracket">'expected declaration before '}' token', or 'expected '}' at end of input'</a></li>
-</ul>
-</td>
-</tr>
+   <tr>
+      <td style="vertical-align: top;">
+         <h3>Common</h3>
+         <ul>
+            <li><a href="#missing-FQBN">Compilation error: Missing FQBN (Fully Qualified Board Name)</a></li>
+            <li><a href="#platform-not-installed">Compilation error: Error: 2 UNKNOWN: platform not installed</a></li>
+         </ul>
+         <h3>Required functions</h3>
+         <ul>
+            <li><a href="#required-functions">undefined reference to 'setup'</a></li>
+            <li><a href="#required-functions">undefined reference to 'loop'</a></li>
+            <li><a href="#required-functions">collect2: error: ld returned 1 exit status</a></li>
+         </ul>
+         <h3>Libraries</h3>
+         <ul>
+            <li><a href="#fatal-error-no-such-file-or-directory">fatal error: : No such file or directory</a></li>
+         </ul>
+      </td>
+      <td style="vertical-align: top;">
+         <h3>Syntax errors</h3>
+         <ul>
+            <li><a href="#variable-not-declared">variable was not declared in this scope</a></li>
+            <li><a href="#expected-unqualified-id">expected unqualified-id before numeric constant</a></li>
+            <li><a href="#expected-before-colon">expected ',' or ';' before ':' token</a></li>
+            <li><a href="#expected-bracket">'expected declaration before '}' token', or 'expected '}' at end of
+                  input'</a></li>
+         </ul>
+      </td>
+   </tr>
 </table>
 
 <!-- COMMON -->
