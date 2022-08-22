@@ -1,5 +1,5 @@
 ---
-title: "Uninstall a library from Arduino IDE"
+title: "Uninstall libraries from Arduino IDE"
 id: 360016077340
 ---
 
@@ -9,7 +9,7 @@ Learn how to remove IDE libraries from your computer.
 
 ## Uninstall using your file manager
 
-Removing the library files directly is the most reliable method that will work for all IDE versions and library types.
+Removing the library files directly is the most reliable method that will work for versions of Arduino IDE and library types.
 
 ### Library Manager, "Add .ZIP Library", and manual installs
 
