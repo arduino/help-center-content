@@ -42,7 +42,9 @@ When uploading a sketch it will overwrite any sketch currently saved to the boar
 
 ## Reset EPROM Memory
 
-The **EEPROM** memory on some boards can be reset using the `EEPROM.write()` function to set all the bytes to 0.
+AVR-based boards have an EEPROM, a non-volatile type of memory whose values are kept when the board is turned off.
+
+The EEPROM can be reset using the `EEPROM.write()` function to set all the bytes to 0.
 
 ```arduino
 /*
