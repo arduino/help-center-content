@@ -9,7 +9,7 @@ Arduino supports two-factor authentication via authenticator software as *Authy*
 
    ![Security section highlighted in the profile page](img/Profile_Security.png)
 
-2. In the window, you will be shown a QR code to be sed to configure your account log-in in your authentication app.
+2. In the window, you will be shown a QR code for configuring your account with an authenticator app.
 
    ![QR code for configuration of Authenticator app](img/2FA_QRcode.png)
 

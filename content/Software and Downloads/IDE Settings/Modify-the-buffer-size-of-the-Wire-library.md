@@ -15,7 +15,7 @@ To locate the `Wire.h` library in the Arduino installation path and modify its b
    * **macOS:** `~/Library/Arduino15/hardware/arduino/avr/libraries/Wire/src/Wire.h`
    * **Linux:** `~/sketchbook/hardware/arduino/avr/libraries/Wire/src/Wire.h`
 
-3. Opem the file `Wire.h` with a text editor.
+3. Open the file `Wire.h` with a text editor.
 
    ![wire header file location](img/wire.h_header_file.png)
 

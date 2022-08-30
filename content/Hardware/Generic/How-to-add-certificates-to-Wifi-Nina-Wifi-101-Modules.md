@@ -33,7 +33,7 @@ You will learn how to add certificates to your Wi-Fi module on the Arduino using
 
 1. Connect your board to the PC via USB cable and select the right port and board in `Tools > Port` and `Tools > Board`.
 
-2. Open the Arduino IDE and search for "Firmware updater" sketch that is in `Example > Wifi101/WiFiNINA > Firmware updater` and uploadt it to the board.
+2. Open the Arduino IDE and search for "Firmware updater" sketch that is in `Example > Wifi101/WiFiNINA > Firmware updater` and upload it to the board.
 
    ![Example location](img/FirmwareExampleLocation.png)
 
@@ -55,7 +55,7 @@ You will learn how to add certificates to your Wi-Fi module on the Arduino using
 
    ![click upload ](img/FirmwareUpdaterUpdateDomain.png)
 
-8. A small success dialogue box opens and your certificate is now uploaded to the board.Click on `OK`.
+8. A small success dialogue box opens and your certificate is now uploaded to the board. Click on `OK`.
 
    ![uploaded ](img/FirmwareUpdaterSuccess.png)
 

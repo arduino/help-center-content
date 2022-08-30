@@ -41,7 +41,7 @@ Several techniques can be used to make the Arduino Web Editor pick a specific li
 
     ![Import Library](img/Import_Library.png)
 
-12. If you get a popup about importing your sketchbook, click the "Import" button.
+12. If you get a pop-up about importing your sketchbook, click the "Import" button.
 
 13. Select the downloaded library (DS18B20-1.0.0.zip).
 

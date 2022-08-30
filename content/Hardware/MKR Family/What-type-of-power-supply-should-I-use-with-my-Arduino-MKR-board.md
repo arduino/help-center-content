@@ -19,7 +19,7 @@ Please make sure the battery connector suits your battery: connector type on bat
 
 ## Screw terminal (only MKR FOX and WAN 1300)
 
-The board comes with a screw terminal for a pair of either AA or AAA batteries where to plug a 3V battery pack (not included). Make sure you respect the polarity of the connector as labelled on the board.
+The board comes with a screw terminal for a pair of either AA or AAA batteries where to plug a 3V battery pack (not included). Make sure you respect the polarity of the connector as labeled on the board.
 
 ## VIN
 
