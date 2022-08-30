@@ -41,7 +41,7 @@ When uploading a sketch it will overwrite any sketch currently saved to the boar
 
 ---
 
-## Reset EPROM Memory
+## Reset EEPROM Memory
 
 AVR-based boards have an EEPROM, a non-volatile type of memory whose values are kept when the board is turned off.
 
