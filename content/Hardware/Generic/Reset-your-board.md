@@ -1,5 +1,6 @@
 ---
-title: "Reset your board"
+title: Reset your board
+id: 5779192727068
 ---
 
 Learn about the different ways you can reset an Arduino.
