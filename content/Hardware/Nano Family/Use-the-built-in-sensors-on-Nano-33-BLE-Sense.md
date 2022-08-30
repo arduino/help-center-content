@@ -10,7 +10,7 @@ The sensor location can be checked in the following image, while the specific mo
 
 ## Color, brightness, proximity and gesture sensor
 
-The Gesture sensor is the APDS9960 module, [here](https://docs.broadcom.com/docs/AV02-4191EN) you can check its datasheet. It senses gesture, color, ambience illumination and proximity. This chip, made by Broadcom is supported by our [ArduinoAPDS9960 library](https://www.arduino.cc/en/Reference/ArduinoAPDS9960) which includes functions and example sketches.
+The Gesture sensor is the APDS9960 module, [here](https://docs.broadcom.com/docs/AV02-4191EN) you can check its datasheet. It senses gesture, color, ambience illumination and proximity. This chip, made by Broadcom, is supported by our [ArduinoAPDS9960 library](https://www.arduino.cc/en/Reference/ArduinoAPDS9960) which includes functions and example sketches.
 
 ## Digital microphone
 
@@ -19,7 +19,7 @@ The digital microphone is a [MP34DT05](https://www.st.com/resource/en/datasheet/
 ## Motion, vibration and orientation
 
 The Inertial Measurement Unit (IMU) is a [LSM9DS1](https://www.st.com/resource/en/datasheet/lsm9ds1.pdf) chip that comes integrated in the board. It features a 3-axis accelerometer, 3-axis gyroscope and 3-axis magnetometer. This chip, made by ST Microelectronics, is a standard component supported by our library [ArduinoLSM9DS1](https://www.arduino.cc/en/Reference/ArduinoLSM9DS1) which contains example sketches to use the sensor.
-The library takes care of the sensor initialisation and sets its values as follows:
+The library takes care of the sensor initialization and sets its values as follows:
 
 - Accelerometer range is set at [-4,+4]g -/+0.122 mg
 - Gyroscope range is set at [-2000, +2000] dps +/-70 mdps

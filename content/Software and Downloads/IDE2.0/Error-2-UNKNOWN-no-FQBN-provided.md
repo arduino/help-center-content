@@ -33,7 +33,7 @@ Choose the intended board. You do not have to select a port. Click 'OK'.
 
 If you do not have the associated board core installed, you may receive the following pop-up.
 
-![The board core installation pop-up.](img/board-core-install-popup.png)
+![The board core installation pop-up.](img/board-core-install-pop-up.png)
 
 In this case, choose 'Yes' to have the required core installed.
 

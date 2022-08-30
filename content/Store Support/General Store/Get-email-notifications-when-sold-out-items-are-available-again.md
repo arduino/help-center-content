@@ -13,8 +13,8 @@ Learn how to get email notifications when sold out items are available again.
 
    !["Notify me when available" button, next to the "sold out" label](img/Sold_out_item_notification.png)
 
-3. A popup will appear. Enter your email address in the text box.
+3. A pop-up will appear. Enter your email address in the text box.
 
-4. Click on the *NOTIFY ME* button at the bottom of the popup.
+4. Click on the *NOTIFY ME* button at the bottom of the pop-up.
 
-   ![Email address field and "Notify me" button.l](img/Sold_out_item_notification_popup.png)
+   ![Email address field and "Notify me" button.l](img/Sold_out_item_notification_pop_up.png)
