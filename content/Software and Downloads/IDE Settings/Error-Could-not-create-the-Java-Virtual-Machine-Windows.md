@@ -3,7 +3,7 @@ title: "Error: Could not create the Java Virtual Machine (Windows)"
 id: 360021218899
 ---
 
-When launching Arduino IDE, you may get this error:
+When launching Arduino IDE on Windows, you may get this error:
 
 ```
 Error: Could not create the Java Virtual Machine.
@@ -16,7 +16,7 @@ Arduino IDE comes bundled with its own Java Runtime Environment, located within 
 
 ## Check `arduino.l4j.ini`
 
-One reason for the error can be an inproper option set in the `arduino.l4j.ini` file:
+One reason for the error can be an improper option set in the `arduino.l4j.ini` file:
 
 1. Open the Arduino IDE application folder, by default `C:\Program Files (x86)\Arduino`.
 
@@ -30,21 +30,21 @@ One reason for the error can be an inproper option set in the `arduino.l4j.ini` 
 
 ## Run `arduino_debug.exe` and check environmental variables
 
+If the `_JAVA_OPTIONS` environmental variable has been set, it can interfer with Arduino IDE. You can check this by running `arduino_debug.exe`:
+
 1. Open the Arduino IDE application folder, located in `C:\Program Files (x86)\Arduino` by default.
 
 2. Launch `arduino_debug.exe` and observe the output.
 
-If the `_JAVA_OPTIONS` environmental variable has been set, it can interfer with Arduino IDE. You can check this by running `arduino_debug.exe`, which will notify you:
+If the `_JAVA_OPTIONS` has been set, you will get an output like this:
 
 ```
 Picked up _JAVA_OPTIONS: -Xmx2G
 Error occured during initialization of VM
-Could not reserve enouch space for object heap
+Could not reserve enough space for object heap
 ```
 
-If the `-Xmx` option is set, you have two options:
-
-**Temporary fix:**
+In this case, consider editing or removing it:
 
 > **Note:** Since changing or removing environment variables can affect other applications on your computer, it's recommended to save the value incase you want to restore it later.
 
