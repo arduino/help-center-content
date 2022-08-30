@@ -1,5 +1,5 @@
 ---
-title: "Is there a limitation on the amount of PWMs to use in MBED OS?"
+title: "Is there a limitation on the amount of PWMs to use in Mbed OS?"
 id: 4404124588690
 ---
 

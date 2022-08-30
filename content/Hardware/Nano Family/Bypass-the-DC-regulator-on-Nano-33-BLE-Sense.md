@@ -11,4 +11,4 @@ There are two connector plates or pads on the back of your Nano 33 BLE Sense. Th
 
 This configuration is recommended for low power consumption projects on which the board will be inactive for long periods of time. While on this mod, the board shall be powered from its 3.3 V and GND input pins.
 
-Please be aware that the board can't be programmed using the USB standard procedure while on this configuration. To recover this functionality you need to restore the connection between the two pads with a drop of solder. We therefore suggest that you cut the connection when you have finalised your sketch and the board has been programmed with the final version.
+Please be aware that the board can't be programmed using the USB standard procedure while on this configuration. To recover this functionality you need to restore the connection between the two pads with a drop of solder. We therefore suggest that you cut the connection when you have finalized your sketch and the board has been programmed with the final version.

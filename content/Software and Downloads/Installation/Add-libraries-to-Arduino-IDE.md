@@ -1,29 +1,37 @@
 ---
-title: "Add a library to Arduino IDE"
+title: "Add libraries to Arduino IDE"
 id: 5145457742236
 ---
 
 Libraries are a collection of code that provide extra functionality for use in sketches, for example when working with hardware or manipulating data.
 
-Learn how to add a library to Arduino IDE.
+Learn how to add libraries to Arduino IDE.
 
 ---
 
 ## Using the Library manager
 
-1. In the menu bar, go to `Tools > Manage Libraries...` (In IDE 2, you can also click on the Library Manager icon on the left).
+1. **Open the Library Manager:**
 
-2. Search for the library you want to install.
+   * In the menu bar, select _Tools > Manage Libraries..._
+   * In IDE 2.x, you can also click on the ![Library Manager icon](img/symbol_library.png) button in the sidebar.
 
-3. Find the library in the search results.
+2. Filter the available libraries by typing something (such as a library name) in the text field above the listed libraries.
 
-4. Click on the INSTALL button.
+   > IDE 1.x also has options to filter by _Type_ and _Topic_.
 
-   ![IDE 1 Library Manager with search box and Install button highlighted](img/LibraryManager_InstallingLibrary_IDE1.png)
+3. Find the library in the search results. The results are listed alphabetically, so you may need to scroll down the list.
 
-   ![IDE 2 Library Manager Icon, search box, and Install button highlighted](img/LibraryManager_InstallingLibrary_IDE2.png)
+   > To find more information about the library, click **More info**. This will usually take you to a reference page or repository for the library
+
+4. Find a library you want to install. You can review the description and author. When you've found a library you want to install, click **Install**. The latest version is selected by default.
+
+   ![Installing libraries in the Library Manager for IDE 1.x and 2.x.](img/add-library.png)
+   _The Library Manager looks slightly different depending on what version of the IDE you are using._
 
 5. Wait for the installation to complete.
+
+> To find more information about the library, click **More info**. This will usually take you to a reference page or repository for the library
 
 ---
 
@@ -52,6 +60,15 @@ Learn how to add a library to Arduino IDE.
 4. Restart Arduino IDE.
 
 > Note that adding a library to the "libraries" folder in the sketchbook will override other previously installed library versions.
+
+---
+
+## Using installed libraries
+
+When the library has been installed you can do the following:
+
+* Open any included example sketches from _File > Examples > \<Library Name\>_ in the top menu bar. Note that all libraries do not come with examples.
+* Include the library in your sketch by selecting _Sketch > Include Library > \<Library Name\>_.
 
 ---
 

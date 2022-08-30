@@ -108,7 +108,7 @@ In some rare cases, an order might not be delivered to the customer even if it a
 
 If the parcel did not arrive, please check the following before contacting [Arduino's customer support](https://store.arduino.cc/store-support):
 
-* Check if other people living in the same delivery address or a neighbour have picked up the parcel.
+* Check if other people living in the same delivery address or a neighbor have picked up the parcel.
 * Check around the entrance(s) of your residence, particularly on back porches, bushes, garages, grills, or other places that might protect your package from theft or weather.
 
 > Note that carriers may also use plastic bags to protect your package from the weather.

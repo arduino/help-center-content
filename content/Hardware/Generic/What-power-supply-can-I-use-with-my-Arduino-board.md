@@ -37,7 +37,7 @@ VIN pin is an INPUT only.
 
 ## Screw terminal (only MKR FOX and WAN 1300)
 
-These boards come with a screw terminal for a pair of either AA or AAA batteries where to plug a 3V battery pack (not included). Make sure you respect the polarity of the connector as labelled on the board.
+These boards come with a screw terminal for a pair of either AA or AAA batteries where to plug a 3V battery pack (not included). Make sure you respect the polarity of the connector as labeled on the board.
 
 For most applications, 1A (Amp) of current supply capacity is sufficient, but you may find that you’ll need more if you have a specific Shield module that needs it, or a stack of several Shield modules that along with the Arduino board draws a higher total current.
 
