@@ -22,7 +22,6 @@ HC003: true
 HC004:
   attributes:
   - title
-  - id
 HC005:
   attributes:
   - title
