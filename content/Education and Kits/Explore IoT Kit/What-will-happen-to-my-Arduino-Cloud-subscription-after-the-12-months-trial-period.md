@@ -5,4 +5,4 @@ id: 4404393707922
 
 When a plan downgrade goes into effect, new plan limits will apply to your account. If these limits are exceeded, certain features may be disabled. [Learn more here](https://support.arduino.cc/hc/en-us/articles/4401874212370).
 
-To keep full access to your dashboards and data you can renew your Arduino Cloud Maker Plan. Visit the [Digital Store](https://www.arduino.cc/cloud/plans) for pricing details.
+To keep full access to your dashboards and data you can renew your Arduino Cloud Maker Plan. Visit the [Digital Store](https://cloud.arduino.cc/plans) for pricing details.

@@ -3,7 +3,7 @@ title: "How long is variable data retained in the IoT Cloud?"
 id: 360021693840
 ---
 
-The number of days your variables' historical data will be retained in the Cloud varies depending on your [Arduino Cloud plan](https://www.arduino.cc/cloud/plans).
+The number of days your variables' historical data will be retained in the Cloud varies depending on your [Arduino Cloud plan](https://cloud.arduino.cc/plans).
 
 | Free  | Entry   | Maker    | Maker Plus |
 |-------|---------|----------|------------|
