@@ -7,7 +7,7 @@ When launching Arduino IDE on Windows, you may get this error:
 
 ```
 Error: Could not create the Java Virtual Machine.
-Error: A fatal exception has occured. Program will exit.
+Error: A fatal exception has occurred. Program will exit.
 ```
 
 Arduino IDE comes bundled with its own Java Runtime Environment, located within the application folder. You are **not** required to install Java yourself on your system. The error indicates that the Java Virtual Machine (JVM) could not be started, which can be caused by corrupted or incorrectly configured files in the Arduino IDE application folder, or conflicting system-level configuration for the Java environment.
@@ -40,7 +40,7 @@ If the `_JAVA_OPTIONS` has been set, you will get an output like this:
 
 ```
 Picked up _JAVA_OPTIONS: -Xmx2G
-Error occured during initialization of VM
+Error occurred during initialization of VM
 Could not reserve enough space for object heap
 ```
 

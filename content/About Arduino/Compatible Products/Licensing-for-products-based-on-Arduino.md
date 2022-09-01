@@ -25,7 +25,7 @@ If you’re designing your own board based on the open-source Arduino designs, t
 
 ## Software products
 
-If you are distributing the Arduino tools (IDE, CLI) inside your product or you are using them within a cloud-based product, make sure to [review their licenses](#find-licence-information) to understand possible restrictions.
+If you are distributing the Arduino tools (IDE, CLI) inside your product or you are using them within a cloud-based product, make sure to [review their licenses](#find-license-information) to understand possible restrictions.
 
 Certain rules apply if you use the Arduino tools (IDE, CLI or Cloud) and/or the Arduino software stack (cores, libraries) to create the software for a product that you distribute to third parties. In this context, by “derived product” or “product based on Arduino” we refer to any of the following:
 
