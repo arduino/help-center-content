@@ -3,7 +3,7 @@ title: "'Error: avrdude' when uploading"
 id: 4401874331410
 ---
 
-When uploading a sketch to your board you may get an error from the **avrdude** utlity:
+When uploading a sketch to your board you may get an error from the **avrdude** utility:
 
 * **stk500:**
   * [avrdude: stk500_recv(): programmer is not responding<br>avrdude: stk500_getsync() attempt X of 10: not in sync](#avrdude-stk500_recv-and-stk500_getsync)

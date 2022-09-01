@@ -68,7 +68,7 @@ You'll need an Arduino account and the [Arduino Create Agent](https://support.ar
       * _Arduino with LoRa<sup>®</sup>:_ The credentials are added automatically.
       * _ESP32 and ESP8266:_ Enter the secret key that was provided when adding the device.
 
-   ![A Thing with an asociated device, network configuration, and added variable.](img/thing-setup-after.png)
+   ![A Thing with an associated device, network configuration, and added variable.](img/thing-setup-after.png)
 
 4. Your sketch will now be generated and can be viewed in the Sketch tab.
 

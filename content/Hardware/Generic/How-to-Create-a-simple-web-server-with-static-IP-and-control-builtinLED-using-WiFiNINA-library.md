@@ -14,7 +14,7 @@ This tutorial is about making a web server with static IP, using the web server 
 
 ### What you’ll learn
 
-* How to create a webserver using static IP
+* How to create a web server using static IP
 * How to manage pins in the board using the web server
 
 ### Requirements

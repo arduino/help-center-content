@@ -23,7 +23,7 @@ This tutorial will show all different possibilities to choose frequency band and
 
    * Open _Tools > Library Manager_ and make sure the `MKRGSM` library is installed and up to date.
 
-2. Open the `BandManagment` sketch (_File > Examples > MKRGSM > Tools > BandManagement_) and upload it.
+2. Open the `BandManagement` sketch (_File > Examples > MKRGSM > Tools > BandManagement_) and upload it.
 
    ![BandManagement Sketch location](img/change-GSM-1.png)
 

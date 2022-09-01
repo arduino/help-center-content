@@ -45,6 +45,6 @@ The barometer sensor is a [LPS22HB](https://www.st.com/resource/en/datasheet/lps
 
 - Absolute pressure range: 260 to 1260 hPa
 
-If you would like to make a quick test of all the sensors, you can use [this](https://create.arduino.cc/editor/arduino_support/68cca5d0-4f1b-45ea-b43d-f22b759555fa/preview) sketch to check if all the sensors are being initialised.
+If you would like to make a quick test of all the sensors, you can use [this](https://create.arduino.cc/editor/arduino_support/68cca5d0-4f1b-45ea-b43d-f22b759555fa/preview) sketch to check if all the sensors are being initialized.
 
 You can check the board pinout [here](https://content.arduino.cc/assets/Pinout-NANOsense_latest.pdf).

@@ -59,7 +59,7 @@ All orders addressed to Americas, Asia and Oceania are shipped from Arduino's US
      * [https://www.track-trace.com/](https://www.track-trace.com/)
      * [https://www.17track.net/](https://www.17track.net/)
 
-<a id="devliveries-by-the-local-post"></a>
+<a id="deliveries-by-the-local-post"></a>
 
 ### Deliveries by the local post
 

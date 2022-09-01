@@ -10,4 +10,4 @@ The Nano 33 BLE Sense has multiple sensors available on it and requires individu
 * Gesture (color, illumination and proximity)- [ArduinoAPDS9960](https://www.arduino.cc/en/Reference/ArduinoAPDS9960)
 * IMU (Accelerometer, Gyroscope and Magnetometer) - [ArduinoLSM9DS1](https://www.arduino.cc/en/Reference/ArduinoLSM9DS1)
 
-If you would like to make a quick test of all the sensors at once you can use [this](https://create.arduino.cc/editor/arduino_support/68cca5d0-4f1b-45ea-b43d-f22b759555fa/preview) sketch to check if all the sensors are being initialised.
+If you would like to make a quick test of all the sensors at once you can use [this](https://create.arduino.cc/editor/arduino_support/68cca5d0-4f1b-45ea-b43d-f22b759555fa/preview) sketch to check if all the sensors are being initialized.

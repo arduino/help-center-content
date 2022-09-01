@@ -48,7 +48,7 @@ There are two ways to sign up for an account:
 
    Click the CONFIRM NOW button to finish setting up the account.
 
-   ![Email confirming acount creation.](img/arduino-account-welcome-email.png)
+   ![Email confirming account creation.](img/arduino-account-welcome-email.png)
 
    > If you don't see the email in your main inbox, please check the spam folder.
 
