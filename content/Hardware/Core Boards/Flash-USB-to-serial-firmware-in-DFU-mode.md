@@ -83,7 +83,7 @@ Next we'll flash the drivers using FLIP.
 
 02. Open FLIP.
 
-    > Opening the application may prompt a 'Could not find a Java Virtual Machine' error. In this case, [install Java Runtine Environment](https://www.java.com/en/download/manual.jsp) with the **Windows Online** option.
+    > Opening the application may prompt a 'Could not find a Java Virtual Machine' error. In this case, [install Java Runtime Environment](https://www.java.com/en/download/manual.jsp) with the **Windows Online** option.
 
 03. Select the device name you identified earlier (ATmega16U2 or ATmega8U2).
 
