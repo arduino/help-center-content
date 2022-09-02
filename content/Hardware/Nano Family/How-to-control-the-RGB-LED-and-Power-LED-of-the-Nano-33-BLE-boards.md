@@ -26,7 +26,7 @@ Below is the general sketch to play around with the RGB led on the Nano 33 BLE b
 
 void setup() {
 
- // intitialize the digital Pin as an output
+ // initialize the digital Pin as an output
   pinMode(RED, OUTPUT);
   pinMode(BLUE, OUTPUT);
   pinMode(GREEN, OUTPUT);

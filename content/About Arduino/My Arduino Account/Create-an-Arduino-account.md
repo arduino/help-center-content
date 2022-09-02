@@ -8,7 +8,7 @@ An Arduino account gives you full access to all Arduino websites, apps, and serv
 There are two ways to sign up for an account:
 
 * [Email](#email)
-* [SSO (Singe Sign On)](#sso)
+* [SSO (Single Sign On)](#sso)
 
 > Users under the age of 14 need to [sign up for a junior account](https://support.arduino.cc/hc/en-us/articles/360022234360).
 

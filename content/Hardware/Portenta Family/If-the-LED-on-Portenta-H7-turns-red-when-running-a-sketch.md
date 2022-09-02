@@ -7,6 +7,6 @@ Whenever there is a runtime error on Portenta H7, the LED on the board will flas
 
 1. Check that the sketch uploaded to the board does not have invalid commands and make sure that the included libraries are compatible with Portenta H7 architecture.
 
-2. If the error still exists after checking the previous step recommendations, do a double-tap of the reset button and upload an example sketch from the Portenta H7 examples library. This should reset the board back to a working state and reenable the port on the PC.
+2. If the error still exists after checking the previous step recommendations, do a double-tap of the reset button and upload an example sketch from the Portenta H7 examples library. This should reset the board back to a working state and re-enable the port on the PC.
 
 3. If this doesn't solve the issue check the [Arduino Forum](https://forum.arduino.cc/c/hardware/portenta/91) or get in contact with [Arduino Support](https://www.arduino.cc/en/contact-us/).

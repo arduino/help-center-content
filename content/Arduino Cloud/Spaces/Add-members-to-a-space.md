@@ -25,7 +25,7 @@ Learn how to invite new members to a shared space in Arduino Cloud.
 
    * **To invite with a code/link:** Either share the link (click on "link" to copy) or just the code.
 
-     ![The sharable link and URL.](img/invite-code.png)
+     ![The shareable link and URL.](img/invite-code.png)
 
      Students can join using the code by going to [cloud.arduino.cc](https://cloud.arduino.cc/) and selecting "Join space" in the space dropdown.
 

@@ -30,7 +30,7 @@ One reason for the error can be an improper option set in the `arduino.l4j.ini` 
 
 ## Run `arduino_debug.exe` and check environmental variables
 
-If the `_JAVA_OPTIONS` environmental variable has been set, it can interfer with Arduino IDE. You can check this by running `arduino_debug.exe`:
+If the `_JAVA_OPTIONS` environmental variable has been set, it can interfere with Arduino IDE. You can check this by running `arduino_debug.exe`:
 
 1. Open the Arduino IDE application folder, located in `C:\Program Files (x86)\Arduino` by default.
 
@@ -46,7 +46,7 @@ Could not reserve enough space for object heap
 
 In this case, consider editing or removing it:
 
-> **Note:** Since changing or removing environment variables can affect other applications on your computer, it's recommended to save the value incase you want to restore it later.
+> **Note:** Since changing or removing environment variables can affect other applications on your computer, it's recommended to save the value in case you want to restore it later.
 
 1. Press <kbd>Win</kbd> + <kbd>X</kbd> or right-click the Start menu button to open the Power User menu.
 
@@ -76,4 +76,4 @@ If the `_JAVA_OPTIONS` variable is not set, reinstalling Arduino IDE is likely t
 
 ## Use Arduino IDE 2.0
 
-Newer versions of Arduino IDE runs without Java, avoiding the problem alltogether. [Get it here](https://www.arduino.cc/en/software#future-version-of-the-arduino-ide).
+Newer versions of Arduino IDE runs without Java, avoiding the problem altogether. [Get it here](https://www.arduino.cc/en/software#future-version-of-the-arduino-ide).
