@@ -7,7 +7,7 @@ https://support.arduino.cc/hc/*
 # Returns 404 for some reason
 https://cloud.arduino.cc/iot/*
 https://cloud.arduino.cc/registration
-https://www.arduino.cc/cloud/plans
+https://cloud.arduino.cc/plans
 
 # "Network error: Forbidden" despite working redirect
 https://www.arduino.cc/en/Guide/Troubleshooting
