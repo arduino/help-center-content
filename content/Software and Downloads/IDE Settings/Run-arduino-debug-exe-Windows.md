@@ -8,15 +8,28 @@ Arduino IDE 1.x for Windows includes an alternative executable that provides log
 
 ## Running `arduino_debug.exe`
 
-1. Open File Explorer and navigate to the Arduino IDE application folder, located in `C:\Program Files (x86)\Arduino` by default.
+1. Start File Explorer (AKA Windows Explorer).
 
-2. Find the `arduino_debug.exe` file and double-click it to launch it.
+2. [Open the Arduino IDE installation folder](https://support.arduino.cc/hc/en-us/articles/4412943340178-Open-the-Arduino-IDE-installation-folder) (in `C:\Program Files (x86)\Arduino` by default).
 
-   ![Opening arduino_debug.exe in the IDE application folder.](img/open-debug-exe.png)
+3. Inside the installation folder, hold the <kbd>Shift</kbd> key while right-clicking an **empty** area in the window (not on a file.
 
-3. The Windows command interpreter will open, and output relevant information as it attempts to start the IDE.
+   * If _"Open PowerShell window here"_ is available, click it to open **PowerShell**.
+   * If _“Open command window here"_ is available, click it to open **cmd.exe**.
 
-   ![The command interpreter, as displayed after running arduino_debug.exe.](img/arduino-debug-output.png)
+   ![Opening PowerShell with Shift + right-click.](img/arduino_debug-right-click-menu.png)
+
+4. The command shell window will open.
+
+   * If you're using cmd.exe, enter `arduino_debug.exe` and click <kbd>Enter</kbd>.
+
+     ![Running arduino_debug.exe in cmd.exe](img/arduino_debug-cmd-run.png)
+
+   * If you're using PowerShell, enter `./arduino_debug.exe` and click <kbd>Enter</kbd>.
+
+     ![Running arduino_debug.exe in PowerShell](img/arduino_debug-powershell-run.png)
+
+5. Debug output should now be printed as Arduino IDE starts (or fails to start).
 
 ---
 
@@ -39,7 +52,7 @@ A generic error indicating that the Java Virtual Machine could not be started.
 
 ---
 
-## Checking the Java VM options
+## Checking and changing Java VM options
 
 See the steps outlined in [Error: Could not create the Java Virtual Machine (Windows)](https://support.arduino.cc/hc/en-us/articles/360021218899-Error-Could-not-create-the-Java-Virtual-Machine-Windows-).
 
