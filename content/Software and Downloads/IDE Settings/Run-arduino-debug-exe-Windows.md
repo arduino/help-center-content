@@ -2,7 +2,7 @@
 title: "Run arduino_debug.exe (Windows)"
 ---
 
-The Java-based version of Arduino IDE (1.x) for Windows includes a debug tool for troubleshooting.
+Arduino IDE 1.x for Windows includes an alternative executable that provides log output to use for troubleshooting problems with the IDE.
 
 ---
 
