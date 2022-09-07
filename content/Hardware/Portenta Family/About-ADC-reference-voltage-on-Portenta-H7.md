@@ -25,7 +25,7 @@ Note that the internal voltage has some noise. If appropriate for your project, 
 
 ## Using an external reference voltage
 
-Any external voltage applied to the AREF pin will be automatically used at the reference, you do **not** have to configure this in the sketch.
+Any external voltage applied to the AREF pin will be automatically used as the reference, you do **not** have to configure this in the sketch.
 
 The voltage needs to be above 0 V, and no more than 3.1 V.
 
