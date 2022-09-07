@@ -9,7 +9,7 @@ The **analog-to-digital converter** (ADC) on Portenta H7 switches between intern
 
 ## Using the internal reference voltage (3.1 V)
 
-When no external voltage is applied the AREF pin is pulled up to around 3.1 V. This will then be used for the reference voltage. It cannot be changed programmatically, but you can _normalize the input_ by dividing the measured value with the maximum:
+When no external voltage is applied the AREF pin is pulled up to around 3.1 V. This will then be used for the reference voltage. It cannot be changed programmatically, but you can _normalize the input_ by dividing the measured value by the maximum value:
 
 Here's how you can normalize the input with a 2.0 V maximum:
 
