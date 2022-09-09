@@ -53,15 +53,13 @@ You'll need an Arduino account and the [Arduino Create Agent](https://support.ar
 
    ![The two location that the "Create Thing" button can appear.](img/iot-thing-create.png)
 
-3. Configure **Variables**, **Device**, and **Network** for the new Thing:
+3. Configure **Device** and **Network** for the new Thing:
 
    ![A new, unconfigured Thing.](img/thing-setup-before.png)
 
-   1. Click **Add variable** and add one variable with any settings.
+   * Click the **Device selection** button and select your device.
 
-   2. Click the **Device selection** button and select your device.
-
-   3. Click the **Network configure** button and enter the network credentials.
+   * Click the **Network configure** button and enter the network credentials.
 
       * _Wi-Fi:_ Enter your Wi-Fi name (SSID) and password (encryption key).
       * _Arduino SIM:_ [Use these credentials](https://support.arduino.cc/hc/en-us/articles/360013825159-What-are-the-credentials-for-the-Arduino-SIM-card).
@@ -69,8 +67,6 @@ You'll need an Arduino account and the [Arduino Create Agent](https://support.ar
       * _ESP32 and ESP8266:_ Enter the secret key that was provided when adding the device.
 
    ![A Thing with an associated device, network configuration, and added variable.](img/thing-setup-after.png)
-
-4. Your sketch will now be generated and can be viewed in the Sketch tab.
 
 <a id="upload-sketch"></a>
 
