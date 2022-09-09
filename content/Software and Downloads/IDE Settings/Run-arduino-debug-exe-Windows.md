@@ -56,18 +56,6 @@ A generic error indicating that the Java Virtual Machine could not be started.
 
 See the steps outlined in [Error: Could not create the Java Virtual Machine (Windows)](https://support.arduino.cc/hc/en-us/articles/360021218899-Error-Could-not-create-the-Java-Virtual-Machine-Windows-).
 
----
-
-## If the command interpreter window doesn't open
-
-Some errors may cause the cmd window to close almost immediately:
-
-* Having the `Xms` (initial heap size) option lower than `Xmx` (max heap size),
-* Allocating more memory than is physically available for your system.
-* Allocating more memory than is possible for your Java Virtual Machine. For Arduino IDE 1.x on Windows, which is a 32-bit application, you are recommended to not exceed 1280 MB (`-Xmx1280M`).
-
-Options set in the `_JAVA_OPTIONS` environmental variable are given priority over those set in the `arduino_debug.l4j.ini` configuration file.
-
 <!-- Tags -->
 <p style="display:none;">
    AWT-EventQueue-0
