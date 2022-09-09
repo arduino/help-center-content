@@ -21,11 +21,11 @@ Arduino IDE 1.x for Windows includes an alternative executable that provides log
 
 4. The command shell window will open.
 
-   * If you're using cmd.exe, enter `arduino_debug.exe` and click <kbd>Enter</kbd>.
+   * If you're using cmd.exe, enter `arduino_debug.exe` and press <kbd>Enter</kbd>.
 
      ![Running arduino_debug.exe in cmd.exe](img/arduino_debug-cmd-run.png)
 
-   * If you're using PowerShell, enter `./arduino_debug.exe` and click <kbd>Enter</kbd>.
+   * If you're using PowerShell, enter `./arduino_debug.exe` and press <kbd>Enter</kbd>.
 
      ![Running arduino_debug.exe in PowerShell](img/arduino_debug-powershell-run.png)
 
