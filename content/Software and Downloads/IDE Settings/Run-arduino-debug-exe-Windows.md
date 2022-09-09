@@ -1,5 +1,6 @@
 ---
-title: "Run arduino_debug.exe (Windows)"
+title: Run arduino_debug.exe (Windows)
+id: 5899938733980
 ---
 
 Arduino IDE 1.x for Windows includes an alternative executable that provides log output to use for troubleshooting problems with the IDE.
