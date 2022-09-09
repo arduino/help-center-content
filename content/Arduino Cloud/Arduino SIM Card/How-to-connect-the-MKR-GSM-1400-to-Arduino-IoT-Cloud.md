@@ -5,7 +5,7 @@ id: 360021568419
 
 The [Arduino MKR GSM 1400](https://store.arduino.cc/arduino-mkr-gsm-1400-1415) has SIM connectivity and can be connected to the Arduino IoT Cloud remotely. Here you'll learn how to configure a cellular connection and test it with an example sketch.
 
-## What you need
+## What you'll need
 
 * An Arduino MKR GSM 1400
 * An [activated SIM card from Arduino](https://support.arduino.cc/hc/en-us/articles/360021543440) or some other service provider.
@@ -25,7 +25,11 @@ The micro UFL port and the SIM tray are highlighted respectively in the image be
 
 ---
 
-## Connecting your board to the IoT Cloud
+<a id="set-up-instructions"></a>
+
+## Set up with IoT Cloud
+
+### 1. Add Arduino MKR GSM 1400 as a device
 
 1. Connect the board to your computer.
 
@@ -37,29 +41,23 @@ The micro UFL port and the SIM tray are highlighted respectively in the image be
 
 5. Follow the instructions to configure your device.
 
----
+<a id="creating-a-thing"></a>
 
-## Creating a sketch
+### 2. Configure a Thing
 
-> You can skip step 1 if you already have a Thing with a sketch prepared, but you still need to add the led variable if you want to follow the example later in this article.
+1. Go to the [Things tab](https://create.arduino.cc/iot/things).
 
-The network parameters will be written to the `thingProperties.h` and `Secret` sketch files. But a sketch is only generated when a variable is added, so we'll do that first. You can add any variable you like, but here we'll prepare a variable to use in an example later in this article.
+2. Click the **CREATE** button in the top-right corner to create a new Thing. You can replace the default "Untitled" name with your own, such as "SIM".
 
-1. Open the Things tab and click **Create Thing**. Click on 'Untitled' and give it a name, such as 'SIM'.
+3. Under the **Associated Device** heading, click the **Select Device** button and select your MKR GSM 1400.
 
-2. Under the **Device** heading, click the button and associate the GSM 1400.
+   ![The "Select Device" button, under "Associated Device".](img/iot-thing-associate-device.png)
 
-3. Click **Add variable** and configure the variable with the below settings. When you're done, click **Add Variable**.
+4. Under the **Network** heading, click the **Configure** button.
 
-   ![The "Add variable" prompt](img/IoT-SIM-add-variable.png)
+   ![The "Configure" button, under "Network".](img/IoT-SIM-configure-network-2.png)
 
-4. Your sketch will now be generated and can be viewed in the Sketch tab.
-
----
-
-## Configuring the network parameters
-
-1. Under the Network heading, click the **Configure** button. If you are configuring an Arduino SIM, use the following parameters.
+5. Enter your network parameters. If you are configuring an Arduino SIM, use the following parameters:
 
    <table>
     <tr>
@@ -82,51 +80,72 @@ The network parameters will be written to the `thingProperties.h` and `Secret` s
 
    Otherwise, use the parameters provided by your SIM provider.
 
-   ![Configuring the SIM network parameters](img/IoT-SIM-configure-network.png)
+6. Click the **SAVE** button.
 
-2. Go to the sketch tab and upload the code to your board.
+### 3. Upload the sketch
 
-3. After a short while, your board should be online.
+1. Open the **Sketch** tab.
 
-   ![An online SIM device in the IoT Cloud](img/IoT-SIM-online.png)
+2. Click the **Upload** button to upload the updated sketch.
+
+3. Go back to the **Setup** tab.
+
+4. After a short while, your device should come online. You may have to refresh the page.
+
+   ![An online SIM device in the IoT Cloud](img/iot-thing-gsm-1400-online.png)
 
 ---
 
-## Testing your remote connection
+## Test your remote connection
 
-To test the connection, we can set up a Dashboard widget that will toggle an LED on the board.
+To test the connection, we can set up a Dashboard widget that will toggle an LED on the board. You'll need a Thing that's been associated with the device and configured for the network, like the one set up in the [previous instructions](#set-up-instructions).
 
-You will need a Thing configured with the `led` from [the previous step](#creating-a-thing).
+### 1. Prepare the sketch
 
-1. Open the Sketch tab of your Thing.
+1. Go to the [Things tab](https://create.arduino.cc/iot/things) and open your Thing.
 
-2. Scroll down to the bottom of the sketch and add this code.
+2. Click **Add variable**, or the **Add** button if a variable has already been added.
 
-   ```
+3. Enter the following settings for your variable and click **Add variable** to save.
+
+   * **Name:** led
+   * **Type:** Boolean
+   * **Variable Permission:** Read & Write
+   * **Variable Update Policy:** On Change
+
+4. Open the Sketch tab of your Thing.
+
+5. In the editor, scroll down and find the `onLedChange()` function.
+
+   ![The onLedChange() function.](img/iot-thing-sketch-onLedChange.png)
+
+6. Edit the `onLedChange()` function to look like this:
+
+   ```arduino
    void onLedChange() {
      Serial.print("led: " + led);
      digitalWrite(LED_BUILTIN, led);
    }
    ```
 
-3. Upload the changes to the board.
+7. Click the ![Upload button icon.](img/icon_iot-upload.png) **Upload** button and wait for the process to complete.
 
-4. Open the Dashboards tab in the top bar. Open an existing dashboard, or click **Build Dashboard** to create a new one.
+### 2. Use the variable in a dashboard
 
-5. Click the notepad icon to enable editing. Then click *Add > Things* and select your Thing.
+1. Open the [Dashboards tab](https://create.arduino.cc/iot/dashboards).
 
-   ![Adding a widget in the Dashboard](img/IoT-SIM-widget-adding.png)
+2. Open an existing dashboard, or click **Build Dashboard** to create a new one.
 
-6. Make sure the `led` variable is selected and click **Create Widget**.
+3. Click the ![Notepad](img/icon_notepad.png) icon to enable editing.
 
-   ![Selecting widget variables](img/IoT-SIM-widget-config-2.png)
+4. Click the **Add** button to open the widget selection menu.
 
-7. Click **Done** to accept the default settings.
+5. Click the **Things** tab and select the name of your Thing from the previous step.
 
-   ![Widget configuration](img/IoT-SIM-widget-settings.png)
+   ![Adding a widget in the Dashboard](img/iot-dashboard-add-things.png)
 
-8. A new switch widget will be added to your dashboard.
+6. Make sure the `led` variable is selected and click **Create Widgets**.
 
-   ![The created switch widget](img/IoT-SIM-led-widget.png)
+   ![Selecting widget variables](img/create-widget-from-thing.png)
 
-When the switch button is clicked, the IoT will change the `led` cloud variable, triggering `onLedChange()` and changing the state of the LED on the board. You can now disconnect the board from your computer and power it from another source, such as a wall charger. After a short while, the board will connect to the IoT Cloud. You can then toggle the LED remotely using the Dashboard switch.
+7. A new switch widget will be added to your dashboard. When the switch button is clicked, the IoT will change the `led` cloud variable, triggering `onLedChange()` and changing the state of the LED on the board. You can now disconnect the board from your computer and power it from another source, such as a wall charger. After a short while, the board will connect to the IoT Cloud. You can then toggle the LED remotely using the Dashboard switch.
