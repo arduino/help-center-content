@@ -72,18 +72,6 @@ Normally, IoT Cloud will update the firmware automatically, but this may fail on
 
 ## Problems uploading the sketch
 
-### If the sketch isn't generated
-
-When opening the sketch tab for a Thing you may see this message:
-
-```
-You will be able to edit the Sketch once you have created at least one Variable and selected a Device in the Setup tab.
-```
-
-The sketch cannot be generated until a device has been associated and at least one variable created in the Thing Setup tab.
-
-[Follow these instructions](https://support.arduino.cc/hc/en-us/articles/360016495559#create-thing) to set up your Thing so that a sketch is generated.
-
 ### No associated device found
 
 1. Open the [Things tab](https://cloud.arduino.cc/iot/things) to see which device is associated with the Thing.
@@ -112,7 +100,7 @@ This is a generic error message indicating that a process has failed.
 
    ![A linked Thing in the Devices tab.](img/arduino-cloud-device-thing-example-offline.png)
 
-2. Go to the Things [Things tab](https://cloud.arduino.cc/iot/things) and open the Thing that's associated to your device.  and Go to the [Devices tab](https://cloud.arduino.cc/iot/devices) and find your device in the list. Under **Network**, click on Change and verify that your credentials are correct.
+2. Go to the [Things tab](https://cloud.arduino.cc/iot/things) and open the Thing that's associated to your device. Then go to the [Devices tab](https://cloud.arduino.cc/iot/devices), and find your device in the list. Under **Network**, click on **Change** and verify that your credentials are correct.
 
    * **Wi-Fi:** Make sure the name (also called _SSID_) and password (also called _encryption key_ or just _key_) are correct. The password can be revealed by clicking the eye symbol. If you don't know your network name or password, contact your network administrator or the manufacturer of your Wi-Fi access point. If your device has a secret key, make sure it's entered correctly (if you're unsure, remove and re-add the device to generate a new key).
    * **Arduino SIM:** [Use these credentials](https://support.arduino.cc/hc/en-us/articles/360013825159). Make sure a working GSM antenna is connected to the board and that an Arduino SIM plan is activated with [your account](https://store.arduino.cc/digital/subscriptions/plans).
@@ -121,7 +109,7 @@ This is a generic error message indicating that a process has failed.
 
    ![Uploading a sketch in IoT Cloud.](img/arduino-cloud-sketch-upload.png)
 
-4. Fully [delete the device](https://support.arduino.cc/hc/en-us/articles/360018324700), then add it again as a new device. Associate a new Thing with at least one variable and upload the sketch. For detailed instructions, see [Add and connect a device to IoT Cloud](https://support.arduino.cc/hc/en-us/articles/360016495559).
+4. Fully [delete the device](https://support.arduino.cc/hc/en-us/articles/360018324700), then add it again as a new device. For detailed instructions, see [Add and connect a device to IoT Cloud](https://support.arduino.cc/hc/en-us/articles/360016495559).
 
 5. Test your setup with an example from the [ArduinoIoTCloud library](https://www.arduino.cc/reference/en/libraries/arduinoiotcloud/). Upload using Arduino IDE or the [Web Editor](https://create.arduino.cc/editor).
 
