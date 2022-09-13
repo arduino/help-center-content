@@ -23,7 +23,7 @@ To use a device with these networks, you can [set the network parameters in the 
 
    ![The "Open full editor" button.](img/iot-open-full-editor.png)
 
-4. Open the `thingsProperties.h` file tab.
+4. Open the `thingsProperties.h` tab.
 
    ![The SSID[] and PASS[] variables.](img/web-editor-properties-open-wifi.png)
 
@@ -34,18 +34,18 @@ To use a device with these networks, you can [set the network parameters in the 
    const char PASS[]     = SECRET_PASS;    // Network password (use for WPA, or use as key for WEP)
    ```
 
-   Edit the parameters you **don't** want to use to assign an empty string (`""`):
+6. Edit the parameters you **don't** want to use to assign an empty string (`""`):
 
    ```arduino
    const char SSID[]     = SECRET_SSID;    // Network SSID (name)
    const char PASS[]     = "";    // Network password (use for WPA, or use as key for WEP)
    ```
 
-6. Go to the `Secret` tab and verify that remaining secrets (such as `SECRET_APN` or `SECRET_SSID`) are correct.
+7. Go to the `Secret` tab and verify that remaining secrets (such as `SECRET_APN` or `SECRET_SSID`) are correct.
 
    ![The "Secret" tab with a SECRET_SSID variable.](img/web-editor-secrets-open-wifi.png)
 
-7. Click the ![Web Editor Upload button](img/icon_web-editor-upload.png) **Upload** button to upload directly from the Web Editor, or go back to IoT Cloud and upload from the sketch tab.
+8. Click the ![Web Editor Upload button](img/icon_web-editor-upload.png) **Upload** button to upload directly from the Web Editor, or go back to IoT Cloud and upload from the sketch tab.
 
 **Note:** Each time the sketch is updated from IoT Cloud (by adding or changing Variables), the changes made to `thingsProperties.h` in the Web Editor will be overwritten. To upload the sketch again, simply repeat the steps above.
 
