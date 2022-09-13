@@ -1,5 +1,6 @@
 ---
-title: "Configure a device for a network that doesn't use all the parameters in IoT Cloud"
+title: Configure a device for a network that doesn't use all the parameters in IoT Cloud
+id: 5940204842780
 ---
 
 > **Note:** Open Wi-Fi networks that require you to interact with a web page (captive portal) before you can access the Internet cannot be used by IoT Cloud devices.
