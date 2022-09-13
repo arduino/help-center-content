@@ -34,7 +34,7 @@ To use a device with these networks, you can [set the network parameters in the 
    const char PASS[]     = SECRET_PASS;    // Network password (use for WPA, or use as key for WEP)
    ```
 
-6. Edit the parameters you **don't** want to use to assign an empty string (`""`):
+6. Assign an empty string (`""`) to the parameters you **don't** want to use.
 
    ```arduino
    const char SSID[]     = SECRET_SSID;    // Network SSID (name)
