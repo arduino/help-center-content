@@ -2,12 +2,12 @@
 title: "If your network doesn't use all parameters in IoT Cloud"
 ---
 
-A network configuration in IoT Cloud cannot be saved unless all network parameters for all fields is provided. Some networks may not have all parameters, such as:
+A network configuration in IoT Cloud cannot be saved unless network parameters for all fields are provided. Some networks may not have all parameters, such as:
 
-* Open (unencrypted) Wi-Fi networks.
-* Cellular providers not requiring PIN, username, or password.
+* Open (unencrypted) Wi-Fi networks (**without** captive login portals)
+* SIM cards not requiring PIN, username, or password.
 
-To use device with these network configurations, you can [set the parameters in the Web Editor](#set-with-web-editor).
+To use a device with these networks, you can [set the network parameters in the Web Editor](#set-with-web-editor) instead.
 
 ---
 
@@ -75,10 +75,10 @@ const char DEVICE_KEY[]  = SECRET_DEVICE_KEY;    // Secret device password
 ### Third-party GSM provider
 
 ```arduino
-const char GPRS_APN[]      = SECRET_APN;
-const char PINNUMBER[]     = "";
-const char GPRS_LOGIN[]    = "";
-const char GPRS_PASSWORD[] = "";
+const char GPRS_APN[]      = SECRET_APN; // "APN"
+const char PINNUMBER[]     = "";         // "PIN"
+const char GPRS_LOGIN[]    = "";         // "Username"
+const char GPRS_PASSWORD[] = "";         // "Password"
 ```
 
 ---
