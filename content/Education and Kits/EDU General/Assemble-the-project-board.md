@@ -1,11 +1,23 @@
 ---
-title: "Assemble the Student Kit project board"
+title: "Assemble the project board"
 id: 360021532660
 ---
 
-## Projects book instructions
+The **project board** is a pre-cut, easy-to-assemble plastic base that can hold an Arduino UNO and a breadboard, securely keeping your circuit in one place.
 
-Instructions for the project board can be found in the projects book, pages 12-13:
+The project board is included with the following kits:
+
+* [Arduino Starter Kit](https://store.arduino.cc/products/arduino-starter-kit-multi-language)
+* [Education Starter Kit](https://www.arduino.cc/education/edu-starter-kit)
+* [Arduino Student Kit](https://www.arduino.cc/education/student-kit)
+
+## Assembly instructions
+
+Follow these steps[^1][^2] to assemble the base:
+
+[^1]: Instructions included in the Arduino Starter Kit projects book, pages 12-13.
+
+[^2]: This image was mirrored in some early prints of the Arduino Starter Kit projects book.
 
 ![Step-by-step instructions for project board assembly.](img/project-board-instructions.png)
 
@@ -15,8 +27,6 @@ Instructions for the project board can be found in the projects book, pages 12-1
 4. Secure your Arduino UNO to the base using 3 screws (included in the silver pack in this kit). Be careful not to overtighten.
 5. Carefully peel the backing from the breadboard.
 6. Stick the breadboard on the plastic sheet, next to the Arduino UNO.
-
-> Early prints of the projects book have an image where the base is mirrored. The instructions above are correct.
 
 You can also check this video demonstration:
 
