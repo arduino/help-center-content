@@ -240,7 +240,7 @@ function getArticles(zendeskCategories, zendeskSections, zendeskArticles, localA
         var zd = zendeskArticles.find(a => a.id == localArticle.attributes.id);
 
         if (md && md.attributes.id && !zd) {
-            throw new Error(`Article ID ${id} in ${local.filepath} was not found in Zendesk!`);
+            throw new Error(`Article ID ${md.attributes.id} in ${md.filepath} was not found in Zendesk!`);
         }
 
         var articleAttachments = zendeskAttachments.find(za => za.article_id == localArticle.attributes.id);
