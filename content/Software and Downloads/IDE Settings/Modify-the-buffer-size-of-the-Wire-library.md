@@ -11,13 +11,12 @@ To locate the `Wire.h` library in the Arduino installation path and modify its b
 
 2. Find the file `Wire.h`:
 
-   * **Windows:** `C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src\Wire.h`
+   * **Windows (IDE 2.x):** `C:\Users\{username}\AppData\Local\Arduino15\packages\arduino\hardware\avr\{version}\libraries\Wire\src\Wire.h`
+   * **Windows (IDE 1.x):** `C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src\Wire.h`
    * **macOS:** `~/Library/Arduino15/hardware/arduino/avr/libraries/Wire/src/Wire.h`
    * **Linux:** `~/sketchbook/hardware/arduino/avr/libraries/Wire/src/Wire.h`
 
 3. Open the file `Wire.h` with a text editor.
-
-   ![wire header file location](img/wire.h_header_file.png)
 
 4. Locate the line `#define BUFFER_LENGTH 32` and change the number `32` to the desired value.
 
