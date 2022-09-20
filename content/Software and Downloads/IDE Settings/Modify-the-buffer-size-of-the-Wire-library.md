@@ -18,8 +18,6 @@ To locate the `Wire.h` library in the Arduino installation path and modify its b
 
 3. Open the file `Wire.h` with a text editor.
 
-   ![wire header file location](img/wire.h_header_file.png)
-
 4. Locate the line `#define BUFFER_LENGTH 32` and change the number `32` to the desired value.
 
 5. Save the changes made and close the text editor.
