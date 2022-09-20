@@ -5,8 +5,8 @@ img/*
 https://support.arduino.cc/hc/*
 
 # Returns 404 for some reason
-https://cloud.arduino.cc/iot/*
-https://cloud.arduino.cc/registration
+https://create.arduino.cc/iot/*
+https://cloud.arduino.cc/home/registration
 https://cloud.arduino.cc/plans
 
 # "Network error: Forbidden" despite working redirect
