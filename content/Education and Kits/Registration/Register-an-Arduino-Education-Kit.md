@@ -7,9 +7,9 @@ Learn how to activate your kit and access the online learning content for your A
 
 ---
 
-1. Go to [cloud.arduino.cc/registration](https://cloud.arduino.cc/registration)[^1].
+1. Go to [cloud.arduino.cc/registration](https://cloud.arduino.cc/home/registration)[^1].
 
-   >
+   [^1]: You can also access this page anywhere on arduino.cc by selecting _![Arduino account symbol.](img/symbol_profile.png) > My Courses_ and clicking the **"Register Kit"** button.
 
 2. Choose whether to add the kit to your private space, or add it to a shared space.
 
@@ -31,5 +31,3 @@ Your kit will be added to the space.
 
 * [Find the activation code for your kit](https://support.arduino.cc/hc/en-us/articles/4402999992850-Where-is-the-activation-code-for-my-kit-)
 * [If the kit activation code does not work](https://support.arduino.cc/hc/en-us/articles/360017549580-If-the-kit-activation-code-does-not-work)
-
-[^1]: You can also access this page anywhere on arduino.cc by selecting _![Arduino account symbol.](img/symbol_profile.png) > My Courses_ and clicking the **"Register Kit"** button.
