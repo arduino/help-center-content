@@ -953,7 +953,7 @@ async function saveAllSearchObjects(zendeskSections, articles) {
             "language": "en",
             "language_pretty": "English",
             "content": a.zd.body,
-            "url": a.zd.url,
+            "url": a.zd.html_url,
         };
     });
     const saveResult = await algoliaIndex.saveObjects(objects);
@@ -977,7 +977,7 @@ async function deleteOrphanedSearchObjects(articles) {
 
     const removeTheseObjectIDs = searchResult.hits.filter(
         object => !articles.some(
-            a => a.zd.url == object.url)).map(
+            a => a.zd.html_url == object.url)).map(
         o => o.objectID);
     const deleteResult = await algoliaIndex.deleteObjects(removeTheseObjectIDs)
     console.log(`Deleted ${deleteResult.objectIDs.length} objects.`);
