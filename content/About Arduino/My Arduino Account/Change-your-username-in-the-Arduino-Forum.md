@@ -7,16 +7,24 @@ By default, your forum username will be the same as your Arduino account. If you
 
 ---
 
-1. Sign in to your [Arduino Forum](https://forum.arduino.cc/) account.
+## When you can change your username
 
-2. Click on your profile picture, select the Preference tab and click on Preferences.
+After registering your account you have 3 days to change your username.
+
+---
+
+## How to change your username
+
+1. Go to the [Arduino Forum](https://forum.arduino.cc/) and log in to your account.
+
+2. Click on your profile picture in the top-right to open the menu. Click the ![Preferences tab icon](img/icon_forum-profile.png) tab, then click on **Preferences**.
 
    ![From forum preference tab select preference to change username](img/open-forum-preferences.png)
 
-3. Under the **Username** heading, your current forum username will be displayed. Click the pencil icon next to it.
+3. Under **Username**, your current forum username will be displayed. Click the pencil icon next to it.
 
    ![Change forum profile name](img/ChangeForumUsername.png)
 
-4. Type in the new username.
+4. Enter a new username and click on **change**.
 
-5. Click on **Change**.
+   ![Clicking the "change" button.](img/forum-change-username-button.png)
