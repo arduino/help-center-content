@@ -13,7 +13,7 @@ Get started now with the [following tutorial](https://www.arduino.cc/pro/tutoria
 
 ## MKR WAN 1300 and MKR WAN 1310
 
-The Arduino [MKR WAN 1310](https://store.arduino.cc/mkr-wan-1310) and [MKR WAN 1300](https://store.arduino.cc/mkr-wan-1310) boards allow you to connect your sensors and actuators over long distances using the LoRa® wireless protocol or throughout LoRaWAN™ networks. These boards can be connected to the [Arduino IoT Cloud](https://cloud.arduino.cc/iot), your own LoRa® network using the **Arduino LoRa® PRO Gateway**, existing LoRaWAN™ infrastructure like The Things Network, or even other boards using the direct connectivity mode.
+The Arduino [MKR WAN 1310](https://store.arduino.cc/mkr-wan-1310) and [MKR WAN 1300](https://store.arduino.cc/mkr-wan-1310) boards allow you to connect your sensors and actuators over long distances using the LoRa® wireless protocol or throughout LoRaWAN™ networks. These boards can be connected to the [Arduino IoT Cloud](https://create.arduino.cc/iot), your own LoRa® network using the **Arduino LoRa® PRO Gateway**, existing LoRaWAN™ infrastructure like The Things Network, or even other boards using the direct connectivity mode.
 
 Learn how to easily connect these boards to the Arduino Cloud and TTN in the following links:
 

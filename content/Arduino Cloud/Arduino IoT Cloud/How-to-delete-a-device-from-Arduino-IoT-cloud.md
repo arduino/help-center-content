@@ -9,7 +9,7 @@ Configured devices can be deleted if you're no longer using them or if you've re
 
 ## Deleting a single device
 
-1. Go to the [Devices tab](https://cloud.arduino.cc/iot/devices).
+1. Go to the [Devices tab](https://create.arduino.cc/iot/devices).
 
 2. With your mouse cursor, hover over the device you want to delete. Click on the three dots button that appears on the right, and choose "Delete".
 
@@ -23,7 +23,7 @@ Configured devices can be deleted if you're no longer using them or if you've re
 
 ## Deleting multiple devices
 
-1. Go to the [Devices tab](https://cloud.arduino.cc/iot/devices).
+1. Go to the [Devices tab](https://create.arduino.cc/iot/devices).
 
    ![Devices section](img/Arduino-Cloud_device-deletion_0.png)
 
