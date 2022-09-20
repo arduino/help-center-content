@@ -534,7 +534,6 @@ async function deploy(zendeskSections, articles) {
         }
 
         // Update Algolia
-        // TODO: Update Algolia
         if (translationUpdates || articleUpdates) {
             var sectionName = zendeskSections.find(s => s.id == a.md.sectionID);
             try {
@@ -547,7 +546,7 @@ async function deploy(zendeskSections, articles) {
                     "language": "en",
                     "language_pretty": "English",
                     "content": a.zd.body,
-                    "url": a.zd.url,
+                    "url": a.zd.html_url,
                 }).wait();
             } catch (error) {
                 console.error("Couldn't save object in Algolia");
