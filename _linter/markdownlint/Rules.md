@@ -38,7 +38,7 @@ This rule is triggered when a valid [front matter](https://jekyllrb.com/docs/fro
 
 A front matter with the `title` variable only should look exactly like this:
 
-```
+```markdown
 ---
 title: "Some article title"
 ---
@@ -60,7 +60,7 @@ Fix it by adding the missing variable to the front matter.
 
 Note that the error can also be triggered by a mispelling, such as
 
-```
+```markdown
 ---
 tile: "Article title"
 ---
@@ -68,7 +68,7 @@ tile: "Article title"
 
 instead of
 
-```
+```markdown
 ---
 title: "Article title"
 ---
@@ -88,7 +88,7 @@ Fix it by removing the specified variable from the front matter.
 
 Note that the error can also be triggered by a mispelling, such as
 
-```
+```markdown
 ---
 tile: "Article title"
 ---
@@ -96,7 +96,7 @@ tile: "Article title"
 
 instead of
 
-```
+```markdown
 ---
 title: "Article title"
 ---
