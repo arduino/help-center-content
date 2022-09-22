@@ -62,7 +62,7 @@ Note that the error can also be triggered by a mispelling, such as
 
 ```
 ---
-tile "Article title"
+tile: "Article title"
 ---
 ```
 
@@ -70,7 +70,7 @@ instead of
 
 ```
 ---
-title "Article title"
+title: "Article title"
 ---
 ```
 
@@ -90,7 +90,7 @@ Note that the error can also be triggered by a mispelling, such as
 
 ```
 ---
-tile "Article title"
+tile: "Article title"
 ---
 ```
 
@@ -98,7 +98,7 @@ instead of
 
 ```
 ---
-title "Article title"
+title: "Article title"
 ---
 ```
 
