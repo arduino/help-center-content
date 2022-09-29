@@ -8,10 +8,14 @@ When you have [selected a board in Arduino IDE](https://support.arduino.cc/hc/en
 
 The programmer selection is used by:
 
-* The _Tools > Burn Bootloader_ menu bar item.
+* The _Tools > Burn Bootloader_ option.
 * The _Sketch > Upload Using Programmer_ option.
 
-The programmer selection does **not** affect:
+The programmer selection is **not** used when:
 
-* Sketch compilation (for example, when clicking the ![Verify button](img/symbol_verify2.png) **Verify** button).
-* Uploading a sketch to a board connected to your computer by clicking the the ![Upload button](img/symbol_upload2.png) **Upload** button.
+* Compiling your sketch (for example, when clicking ![Verify button](img/symbol_verify2.png) **Verify**).
+* Uploading without a programmer, by clicking the ![Upload button](img/symbol_upload2.png) **Upload** button.
+
+> **Note:** In Arduino IDE 1.x, if the selected board _only_ supports programmer uploads, the ![Upload button](img/symbol_upload2.png) **Upload** button has the same effect as _Tools > Upload Using Programmer_[^2]
+
+[^2]: [Platform specification – Upload Using Programmer by default](https://arduino.github.io/arduino-cli/latest/platform-specification/#upload-using-programmer-by-default)
