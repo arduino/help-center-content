@@ -1,5 +1,6 @@
 ---
-title: "Select programmer in Arduino IDE"
+title: Select programmer in Arduino IDE
+id: 6125080065820
 ---
 
 When you have [selected a board in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE#board), external programmers can be selected under _Tools > Programmer_ in the menu bar. The options are defined in the platform's `programmers.txt` file[^1].
