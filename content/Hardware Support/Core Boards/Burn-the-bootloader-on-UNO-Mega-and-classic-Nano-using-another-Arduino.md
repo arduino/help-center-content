@@ -73,8 +73,8 @@ For each row in the table below, connect the programmer pin to the corresponding
 
 When the boards are connected, you can proceed with [burning the bootloader in Arduino IDE](#ide).
 
-<figure style="width: 500px; margin: 0;">
-    <img src="https://content.arduino.cc/assets/Nano_to_Uno_burn_bootloader.png" alt="Circuit Diagram. UNO and Nano connected with digital and power pins.">
+<figure style="width: 800px; margin: 0;">
+    <img src="img/Uno_to_Nano_burn_bootloader.png" alt="Circuit Diagram. UNO and Nano connected with digital and power pins.">
     <figcaption style="text-align: center; font-style: italic;">Example: Using an UNO to program a Nano (digital and power pins).</figcaption>
 </figure>
 
@@ -87,8 +87,8 @@ When the boards are connected, you can proceed with [burning the bootloader in A
 1. Connect every programmer ICSP pin except RESET to the equivalent ICSP pin on the target.
 2. Connect PIN 10 on the programmer board to any RESET pin on the target.
 
-<figure style="width: 400px; margin: 0;">
-    <img src="https://content.arduino.cc/assets/Connections-mega2Uno.png" alt="Circuit Diagram. UNO and Mega connected with ICSP pins.">
+<figure style="width: 800px; margin: 0;">
+    <img src="img/Connections-Uno2Mega.png" alt="Circuit Diagram. UNO and Mega connected with ICSP pins.">
     <figcaption style="text-align: center; font-style: italic;">Example: Using an UNO to program a Mega (ICSP pins).</figcaption>
 </figure>
 
