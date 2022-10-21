@@ -79,7 +79,7 @@ Follow these steps:
 
 <a id="tools-menu"></a>
 
-## Using the menu bar
+## Using the Tools menu
 
 The menu bar can be used to perform many actions, including board and port selection.
 
