@@ -33,7 +33,7 @@ Follow these steps to use a connected board:
 
    ![The board selector menu in Arduino IDE 2.](img/board-selector-labels.png)
 
-3. Click a port to select it:
+3. Click on a port to select it:
 
    * If a board core was identified, it will automatically be selected. The selected board core will be displayed. The "![Port selected symbol.](img/symbol_port2.png)" indicates that a port is selected.
 
