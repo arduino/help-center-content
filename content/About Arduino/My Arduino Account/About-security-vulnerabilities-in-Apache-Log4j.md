@@ -3,9 +3,9 @@ title: "About security vulnerabilities in Apache Log4j"
 id: 4412377144338
 ---
 
-In late 2021 a series of security vulnerabilities were found in **Apache Log4j**, a logging utility used by Arduino IDE 1.8.x at the time. As of version 1.8.19, Log4j is no longer used by the IDE.
+In late 2021 a series of security vulnerabilities were found in **Apache Log4j**, a logging utility used by Arduino IDE 1.8 at the time. As of version 1.8.19, Log4j is no longer used by the IDE.
 
-> Arduino IDE 2.0.x and Cloud services do not use Log4j and were not affected.
+> Arduino IDE 2 and Cloud services do not use Log4j and were not affected.
 
 ---
 

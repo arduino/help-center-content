@@ -18,7 +18,7 @@ The Boards Manager provides the most convenient way to remove unwanted or unused
 1. **Open the Boards Manager:**
 
    * In the menu bar, select _Tools > Board > Boards Manager..._
-   * In IDE 2.x, you can also click on the ![Boards Manager icon](img/symbol_board.png) button in the sidebar.
+   * In IDE 2, you can also click on the ![Boards Manager icon](img/symbol_board.png) button in the sidebar.
 
 2. Filter the results by typing in the text field, and find the board package you want to uninstall.
 
@@ -26,9 +26,9 @@ The Boards Manager provides the most convenient way to remove unwanted or unused
 
    * In Arduino IDE 1.x, click the **Remove** button.
 
-   * In Arduino IDE 2.x, hover over the "Installed" label to reveal the **Uninstall** button, and click it.
+   * In Arduino IDE 2, hover over the "Installed" label to reveal the **Uninstall** button, and click it.
 
-   ![Uninstalling the SAMD package in Arduino IDE 1.x and 2.x.](img/uninstall-board.png)
+   ![Uninstalling the SAMD package in Arduino IDE 1 and IDE 2.](img/uninstall-board.png)
    _The Library Manager looks slightly different depending on what version of the IDE you are using._
 
 4. Confirm that you want to uninstall the board package.
