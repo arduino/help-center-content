@@ -35,7 +35,7 @@ Follow these steps to use a connected board:
 
 3. Click on a port to select it:
 
-   * If a board core was identified, it will automatically be selected. The selected board core will be displayed. The "![Port selected symbol.](img/symbol_port2.png)" indicates that a port is selected.
+   * If a board was identified, it will automatically be selected. The selected board name will be displayed. The "![Port selected symbol.](img/symbol_port2.png)" indicates that a port is selected.
 
      ![The board selector, with a Arduino UNO connected.](img/board-selector-uno-connected.png)
 
