@@ -35,7 +35,7 @@ Follow these steps to use a connected board:
 
 3. Click on a port to select it:
 
-   * If a board core was identified, it will automatically be selected. The selected board core will be displayed. The "![Port selected symbol.](img/symbol_port2.png)" indicates that a port is selected.
+   * If a board was identified, it will automatically be selected. The selected board name will be displayed. The "![Port selected symbol.](img/symbol_port2.png)" indicates that a port is selected.
 
      ![The board selector, with a Arduino UNO connected.](img/board-selector-uno-connected.png)
 
@@ -56,8 +56,8 @@ Follow these steps to use a connected board:
 In some cases you may want to individually control the port and board selection:
 
 * Select a board that isn't connected to your computer (you can still write and verify sketches).
-* The board core cannot be automatically identified.
-* The board core associated with the port is incorrect.
+* The board cannot be automatically identified.
+* The board associated with the port is incorrect.
 
 Follow these steps:
 
@@ -108,7 +108,7 @@ Follow these steps:
 
    > If you don't know which package to use, or if it's missing from the list, see [Add a board to Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360016119519-How-to-add-boards-in-the-board-manager).
 
-3. Hover over a package to reveal the board cores.
+3. Hover over a package to reveal the boards.
 
 4. Click on a board to select it, for example:
 
