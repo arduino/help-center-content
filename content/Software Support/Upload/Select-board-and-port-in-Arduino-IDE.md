@@ -56,8 +56,8 @@ Follow these steps to use a connected board:
 In some cases you may want to individually control the port and board selection:
 
 * Select a board that isn't connected to your computer (you can still write and verify sketches).
-* The board core cannot be automatically identified.
-* The board core associated with the port is incorrect.
+* The board cannot be automatically identified.
+* The board associated with the port is incorrect.
 
 Follow these steps:
 
