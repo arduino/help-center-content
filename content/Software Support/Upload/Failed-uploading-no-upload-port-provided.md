@@ -9,7 +9,7 @@ When uploading, you may see this error:
 Failed uploading: no upload port provided
 ```
 
-The error will occur if no **port** has been a selected.
+The error will occur if no **port** has been selected.
 
 Use one of these methods to select a port:
 
