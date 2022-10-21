@@ -108,7 +108,7 @@ Follow these steps:
 
    > If you don't know which package to use, or if it's missing from the list, see [Add a board to Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360016119519-How-to-add-boards-in-the-board-manager).
 
-3. Hover over a package to reveal the board cores.
+3. Hover over a package to reveal the boards.
 
 4. Click on a board to select it, for example:
 
