@@ -10,7 +10,21 @@ on:
     types: [opened, synchronize, ready_for_review, reopened]
 
 jobs:
-  build:
+  markdown:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Markdownlint
+        run: |
+          cd _linter
+          npm install
+          cd ..
+          node _linter/markdownlint.js
+
+  zendesk:
+    if: github.repository_owner == 'arduino'
     runs-on: ubuntu-latest
     env:
       ZENDESK_USER: ${{ secrets.ZENDESK_USER }}
@@ -18,13 +32,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-
-      - name: Lint
-        run: |
-          cd _linter
-          npm install
-          cd ..
-          node _linter/markdownlint.js
 
       - name: Preview changes
         run: |
