@@ -56,7 +56,7 @@ const client = createZendeskClient({
     helpcenter: true,
     throttle: {
         window: 60,
-        limit: 400
+        limit: zendeskApiLimit
     }
 });
 
