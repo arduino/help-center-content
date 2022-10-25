@@ -1,14 +1,19 @@
 'use strict';
 
 // Read environment variables
+var authorized = true;
 const ZENDESK_USER = process.env.ZENDESK_USER;
-if (!ZENDESK_USER) {
-    throw new Error('Missing environment variable: ZENDESK_USER')
-}
 const ZENDESK_PASS = process.env.ZENDESK_PASS;
-if (!ZENDESK_USER) {
-    throw new Error('Missing environment variable: ZENDESK_PASS')
+let zendeskApiLimit; 
+if (ZENDESK_USER && ZENDESK_PASS) {
+    console.log('Zendesk credentials found.');
+    zendeskApiLimit = 400;
+} else {
+    console.log('Zendesk credentials not found.');
+    zendeskApiLimit = 200;
 }
+console.log(`API requests per minute: ${zendeskApiLimit}\n`);
+
 const AlgoliaID = process.env.ALGOLIA_APPLICATION_ID;
 const AlgoliaSecret = process.env.ALGOLIA_INDEXER_KEY;
 const AlgoliaIndexName = process.env.ALGOLIA_INDEX;
