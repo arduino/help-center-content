@@ -45,8 +45,6 @@ You are allowed to use screenshots of Arduino IDE in your course content, provid
 
 All editorial content on our website, including text and images, is distributed under an [Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license](https://creativecommons.org/licenses/by-sa/3.0/). This means you can use them, build upon them, and/or modify them on your own derived works, in part or completely, as long as you also adopt the same license. In particular this means that you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may not apply legal terms or technological measures that restrict third parties from doing anything the license permits.
 
-* See [Software and Licensing based on Arduino](https://support.arduino.cc/hc/en-us/articles/4415094490770-Distributing-products-based-on-Arduino).
-
 > If your content includes the use of components (for example, if you develop a video tutorial), you are free to use whichever brand you choose. In other words, you do not have to use original Arduino products. However, you must provide correct descriptions of the components you use. If you are using a compatible board, you may not call it “Arduino”.
 
 ## Trademark acknowledgments
