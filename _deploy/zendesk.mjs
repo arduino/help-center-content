@@ -10,7 +10,7 @@ if (ZENDESK_USER && ZENDESK_PASS) {
     zendeskApiLimit = 400;
 } else {
     console.log('Zendesk credentials not found.');
-    zendeskApiLimit = 200;
+    zendeskApiLimit = 150;
 }
 console.log(`API requests per minute: ${zendeskApiLimit}\n`);
 
