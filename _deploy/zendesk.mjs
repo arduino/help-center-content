@@ -12,7 +12,7 @@ if (ZENDESK_USER && ZENDESK_PASS) {
     console.log('Zendesk credentials not found.');
     zendeskApiLimit = 200;
 }
-console.log(`API requests per minute: ${zendeskApiLimit}`);
+console.log(`API requests per minute: ${zendeskApiLimit}\n`);
 
 const AlgoliaID = process.env.ALGOLIA_APPLICATION_ID;
 const AlgoliaSecret = process.env.ALGOLIA_INDEXER_KEY;
