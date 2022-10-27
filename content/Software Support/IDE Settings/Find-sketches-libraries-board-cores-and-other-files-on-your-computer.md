@@ -29,7 +29,7 @@ Example sketches can be found in the _File > Examples_ menu.
 ![Arduino IDE File menu with Examples section selected](img/ide-menu-file-examples.png)
 
 * **Built-in Examples:** Examples packaged with Arduino IDE. They are located inside the application folder.
-  * In **Arduino IDE 2.x** they are stored in the `resources/app/node_modules/arduino-ide-extension/Examples` subfolder.
+  * In **Arduino IDE 2** they are stored in the `resources/app/node_modules/arduino-ide-extension/Examples` subfolder.
   * In **Arduino IDE 1.x** they are stored in the `libraries` subfolder for Windows and Linux, and `Contents/Java/libraries` on macOS.
 * **Examples for \<board name\>:** Stored inside the board platform's `libraries` subfolder, e.g. `Arduino15/packages/arduino/hardware/avr/1.8.4/libraries/Wire`. These are only accessible by Arduino IDE when one of the boards from that package is selected from the _Tools > Board_ menu.
 * **Examples from Custom Libraries:** Installed with the Library Manager or the _Sketch > Include Library > Add. ZIP Library_ dialog.
@@ -134,10 +134,10 @@ The application folder contains the executable files used when running Arduino. 
 
 The default installations paths are:
 
-* **Windows (IDE 2.x):** `C:\Program Files\Arduino IDE`
+* **Windows (IDE 2):** `C:\Program Files\Arduino IDE`
 * **Windows (IDE 1.x):** `C:\Program Files (x86)\Arduino`
 * **Windows (Windows App Store):** `C:\Program Files\WindowsApps\ArduinoLLC.ArduinoIDE_<VERSION>`
-* **macOS (IDE 2.x):** `/Applications/Arduino IDE.app/Contents`
+* **macOS (IDE 2):** `/Applications/Arduino IDE.app/Contents`
 * **macOS (IDE 1.x):** `/Applications/Arduino.app/Contents/Java`
 * **Linux:** See [Open the Arduino IDE installation folder](https://support.arduino.cc/hc/en-us/articles/4412943340178-Open-the-Arduino-IDE-installation-folder#linux).
 

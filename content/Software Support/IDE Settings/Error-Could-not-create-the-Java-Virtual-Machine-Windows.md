@@ -74,6 +74,6 @@ If the `_JAVA_OPTIONS` variable is not set, reinstalling Arduino IDE is likely t
 
 ---
 
-## Use Arduino IDE 2.0
+## Use Arduino IDE 2
 
 Newer versions of Arduino IDE runs without Java, avoiding the problem altogether. [Get it here](https://www.arduino.cc/en/software).

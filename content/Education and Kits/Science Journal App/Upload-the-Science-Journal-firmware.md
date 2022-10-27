@@ -63,13 +63,13 @@ Find and install the libraries by using the Library Manager (`Tools > Manage Lib
 
      IDE 1.x: `File > Examples > INCOMPATIBLE > Arduino_ScienceJournal > PhysicsLabFirmware`.
 
-     IDE 2.x: `File > Examples > Arduino_ScienceJournal > PhysicsLabFirmware`.
+     IDE 2: `File > Examples > Arduino_ScienceJournal > PhysicsLabFirmware`.
 
    - **Nano 33 BLE Sense:**
 
      IDE 1.x: `File > Examples > INCOMPATIBLE > Arduino_ScienceJournal > Nano33BLESenseFirmware`, depending on the IDE version.
 
-     IDE 2.x: `File > Examples > Arduino_ScienceJournal > Nano33BLESenseFirmware`
+     IDE 2: `File > Examples > Arduino_ScienceJournal > Nano33BLESenseFirmware`
 
 2. Click the ![Upload button](img/symbol_upload.png) **Upload** button.
 

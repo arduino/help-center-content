@@ -1,9 +1,9 @@
 ---
-title: "Enable autocomplete in IDE 2.0"
+title: "Enable autocomplete in IDE 2"
 id: 4406711538450
 ---
 
-Arduino IDE 2.0 introduces an autocomplete feature for writing your code. Follow these steps to enable the feature.
+Arduino IDE 2 introduces an autocomplete feature for writing your code. Follow these steps to enable the feature.
 
 1. Open the IDE.
 

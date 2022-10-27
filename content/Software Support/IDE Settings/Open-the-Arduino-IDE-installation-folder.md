@@ -17,7 +17,7 @@ Arduino IDE is installed in `C:\Program Files\Arduino IDE` by default.
 
 2. Navigate to the installation folder:
 
-   * **Windows (IDE 2.x):** `C:\Program Files\Arduino IDE`
+   * **Windows (IDE 2):** `C:\Program Files\Arduino IDE`
    * **Windows (IDE 1.x):** `C:\Program Files (x86)\Arduino`
    * **Windows (Windows App Store):** `C:\Program Files\WindowsApps\ArduinoLLC.ArduinoIDE_<VERSION>`
 
