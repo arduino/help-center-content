@@ -13,7 +13,7 @@ A **board core** (or just _board_ for short) is a collection of files needed to 
 
 Official Arduino cores can be conveniently installed with the Boards Manager tool.
 
-1. In the menu bar, select _Tools > Board > Boards Manager_. In IDE 2.x you can also access it by clicking the button in the left-most sidebar.
+1. In the menu bar, select _Tools > Board > Boards Manager_. In IDE 2 you can also access it by clicking the button in the left-most sidebar.
 
 2. Either search for the package name (e.g. "megaAVR"), or the board (e.g. "Uno", "MKR1000", or "Portenta"), by typing in the search field.
 
@@ -31,8 +31,8 @@ Official Arduino cores can be conveniently installed with the Boards Manager too
           <figcaption><i>Boards Manager in Arduino IDE 1.x.</i></figcaption>
       </figure>
       <figure style="display: inline-block; margin: 0;">
-          <img src="img/board-manager-install-ide2.png" alt="Searching for 'Nano Every' and installing the resulting megaAVR Boards package in Board Manager in IDE 2.x."/>
-          <figcaption style><i>Boards Manager in Arduino IDE 2.x.</i></figcaption>
+          <img src="img/board-manager-install-ide2.png" alt="Searching for 'Nano Every' and installing the resulting megaAVR Boards package in Board Manager in IDE 2."/>
+          <figcaption style><i>Boards Manager in Arduino IDE 2.</i></figcaption>
       </figure>
     </div>
 

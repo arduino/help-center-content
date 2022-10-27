@@ -14,7 +14,7 @@ Learn how to add libraries to Arduino IDE.
 1. **Open the Library Manager:**
 
    * In the menu bar, select _Tools > Manage Libraries..._
-   * In IDE 2.x, you can also click on the ![Library Manager icon](img/symbol_library.png) button in the sidebar.
+   * In IDE 2, you can also click on the ![Library Manager icon](img/symbol_library.png) button in the sidebar.
 
 2. Filter the available libraries by typing something (such as a library name) in the text field above the listed libraries.
 
@@ -26,7 +26,7 @@ Learn how to add libraries to Arduino IDE.
 
 4. Find a library you want to install. You can review the description and author. When you've found a library you want to install, click **Install**. The latest version is selected by default.
 
-   ![Installing libraries in the Library Manager for IDE 1.x and 2.x.](img/add-library.png)
+   ![Installing libraries in the Library Manager for IDE 1 and IDE 2.](img/add-library.png)
    _The Library Manager looks slightly different depending on what version of the IDE you are using._
 
 5. Wait for the installation to complete.
@@ -41,7 +41,7 @@ Learn how to add libraries to Arduino IDE.
 
 2. You will be prompted to select the library you want to add. Navigate to the .zip file's location and open it.
 
-3. If you're using Arduino IDE 2.x, you may need to restart it for the library to be available[^1].
+3. If you're using Arduino IDE 2, you may need to restart it for the library to be available[^1].
 
 [^1]: <https://github.com/arduino/arduino-ide/issues/659>
 

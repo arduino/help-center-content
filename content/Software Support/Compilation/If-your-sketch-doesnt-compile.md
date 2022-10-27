@@ -30,7 +30,7 @@ Arduino IDE displays compilation messages differently depending on the version:
 
 1. Check the IDE error message.
    * In IDE 1.x, it is displayed above the console window.
-   * In IDE 2.x, it is displayed in a bottom-right pop-up.
+   * In IDE 2, it is displayed in a bottom-right pop-up.
    Sometimes, preceding lines can be more informative — check the console output.
 
 2. Check the console output.
@@ -39,7 +39,7 @@ Arduino IDE displays compilation messages differently depending on the version:
 
 3. Look for highlights in the editor:
    * In IDE 1.x, the **line** where the error occurred is highlighted in red.
-   * In IDE 2.x, the **character** where the error occurred is underlined in red.
+   * In IDE 2, the **character** where the error occurred is underlined in red.
    * The line causing the error may be before the line where it was triggered. In the example above, line 28 is missing a semicolon (`;`), but the error will be triggered by the unexpected closing bracket (`}`) in line 29.
 
    <table class="img-captions">
@@ -49,7 +49,7 @@ Arduino IDE displays compilation messages differently depending on the version:
      </tr>
      <tr>
         <td>Error output in IDE 1.x.</td>
-        <td>Error output in IDE 2.x.</td>
+        <td>Error output in IDE 2.</td>
      </tr>
    </table>
 

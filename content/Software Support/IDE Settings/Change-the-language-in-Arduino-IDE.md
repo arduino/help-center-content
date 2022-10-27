@@ -3,7 +3,7 @@ title: "Change the language in Arduino IDE"
 id: 4403365287826
 ---
 
-> **Note:** Community translations were added to Arduino IDE 2.0 in version **2.0.0-rc6**. You can find the latest version on the [Software page](https://www.arduino.cc/en/software). <!-- TEMP_NOTICE: 22-04-27 -->
+> **Note:** Community translations were added to Arduino IDE 2 in version **2.0.0-rc6**. You can find the latest version on the [Software page](https://www.arduino.cc/en/software). <!-- TEMP_NOTICE: 22-04-27 -->
 
 The original language for the Arduino IDE interface is English, but other languages are available.
 
@@ -53,9 +53,9 @@ Alternatively, you can edit the `preferences.txt` file directly.
 
 ## Troubleshooting
 
-### If only English is available in 2.0
+### If only English is available in IDE 2
 
-Community translations were added to Arduino IDE 2.0 in version **2.0.0-rc6**.
+Community translations were added to Arduino IDE 2 in version **2.0.0-rc6**.
 
 You can find the latest version on the [Software page](https://www.arduino.cc/en/software).
 
@@ -63,8 +63,8 @@ You can find the latest version on the [Software page](https://www.arduino.cc/en
 
 Arduino IDE translations have been made through community contributions, and not all of them are complete. You can see the status of each language at **Transifex**:
 
-* [Arduino IDE translation project](https://www.transifex.com/mbanzi/arduino-ide-15/)
-* [Arduino IDE 2.0 translation project](https://www.transifex.com/arduino-1/ide2/)
+* [Arduino IDE 1 translation project](https://www.transifex.com/mbanzi/arduino-ide-15/)
+* [Arduino IDE 2 translation project](https://www.transifex.com/arduino-1/ide2/)
 
 ### If the language isn't changing
 
