@@ -41,7 +41,7 @@ The Library Manager in Arduino IDE 2 can be used to uninstall individual librari
 
 ## Remove libraries with your file manager
 
-Removing the library files directly is the most reliable method that will work for versions of Arduino IDE and library types.
+This method allows you to remove many libraries at once. It works for all types of libraries and versions of Arduino IDE.
 
 ### Library Manager, "Add .ZIP Library", and manual installs
 
