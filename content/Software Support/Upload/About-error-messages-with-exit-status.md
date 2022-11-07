@@ -1,9 +1,11 @@
 ---
-title: "Error: exit status 1"
+title: 'About error messages with "exit status"'
 id: 360016955139
 ---
 
-**Exit status 1** is used in some error messages to indicate that a process has finished (or "exited") in failure. Other parts of the error message will often contain more specific information.
+Error messages that occur when Arduino IDE is compiling or uploading a sketch can include an exit status.
+
+**Exit status 1** indicates that a process has finished (or "exited") in failure. Other parts of the error message will often contain more specific information.
 
 Your error output may end with one of these lines:
 
