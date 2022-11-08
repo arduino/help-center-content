@@ -1,5 +1,6 @@
 ---
-title: "Compilation error: exit status 1"
+title: Compilation error: exit status 1
+id: 6554914611228
 ---
 
 A `Compilation error: exit status 1` error indicates that the sketch compilation process has failed, and is not related to the upload process. For more information, look at previous lines in the error output.
