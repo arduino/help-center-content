@@ -3,40 +3,37 @@ title: "Compilation error: Missing FQBN (Fully Qualified Board Name)"
 id: 4412950941074
 ---
 
-When compiling or uploading, the following error appears in the output panel.
+When compiling or uploading, the following error may occur:
 
 ```
 Compilation error: Missing FQBN (Fully Qualified Board Name)
 ```
 
-When compiling or uploading code, this error will occur if no board is selected, or if the board core is not installed.
+The error occurs if no board has been selected.
 
-Note that a board needs to be selected even if you're not uploading any code.
+Note that a board needs to be selected even if you're not uploading any code (i.e. clicking ![Verify button](img/symbol_verify2.png) Verify).
 
-## Is a board selected?
+## Select board
 
-Since the code cannot compile without a board selected, we'll start by ensuring just that.
+With IDE 2, you can use the board selector menu:
 
-![The Arduino IDE. The board dropdown displays Arduino UNO, with a red cross.](img/Arduino-Uno_no-port.png)
+* Connected boards that were identified by Arduino IDE will appear in the list.
+* To manually select the board, or to select a board without connecting it, choose _Select other board and port_.
 
-It should be looking somewhat like the above. The name of your board should be visible in the board dropdown bar. There may also be a red cross. This indicates that the board isn't available on any port but this will not prevent the code from compiling.
+![The board selector menu in Arduino IDE 2.](img/board-selector-labels.png)
 
-If it reads `no board selected`, a board needs to be selected. Click to open the dropdown.
+Alternatively, use the _Tools > Board_ menu option:
 
-![The board dropdown open, with no board selected.](img/select-other-board-and-port.png)
+![The 'Tools > Board' menu bar option.](img/tools-menu-board.png)
 
-If you have a board plugged in, and you want to write code for that board, you can choose it in the dropdown. Otherwise, choose 'Select Other Board & Port'.
+See [Select board and port in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE) to learn more.
 
-![The 'Select Board' window.](img/select-board.png)
-
-Choose the intended board. You do not have to select a port. Click 'OK'.
+## Install missing boards
 
 If you do not have the associated board core installed, you may receive the following pop-up.
 
 ![The board core installation pop-up.](img/board-core-install-pop-up.png)
 
-In this case, choose 'Yes' to have the required core installed.
+In this case, choose **Yes** to install the required core.
 
-## Is the board core installed?
-
-In the above example, we used the pop-up to install the required core. If you didn't receive a pop-up, or if you're receiving the same error despite a board being selected, please ensure the *board core* is installed using [this guide](https://www.arduino.cc/en/Tutorial/getting-started-with-ide-v2/ide-v2-board-manager#installing-a-core).
+To learn more about board installation, see [Add boards to Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE).
