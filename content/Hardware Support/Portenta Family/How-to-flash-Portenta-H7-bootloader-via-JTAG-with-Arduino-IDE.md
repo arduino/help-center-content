@@ -10,33 +10,35 @@ The bootloader is a small program that runs when you turn the Arduino on or pres
 ## What you'll need
 
 * Portenta H7
-* [Portenta Breakout](https://store.arduino.cc/products/arduino-portenta-breakout)
+* [Portenta Breakout](https://store.arduino.cc/products/arduino-portenta-breakout) or [Portenta Max Carrier](https://store.arduino.cc/products/portenta-max-carrier) (provides a JTAG connector)
 * [STLINK programmer for STM32](https://www.st.com/en/development-tools/stlink-v3set.html)
-* JTAG connector (STLINK programmer to Portenta Breakout board)
+* JTAG connector cable (STLINK programmer to the Portenta Breakout or Max Carrier)
 * [Arduino IDE](https://www.arduino.cc/en/software)
 
-## Step-by-step Instructions
+## Step-by-step instructions
 
-1. Attach Portenta H7 to the Portenta Breakout.
+01. Find the [DIP switches](https://support.arduino.cc/hc/en-us/articles/4402095376402-DIP-switches-on-Portenta-Breakout-board) on the Portenta Breakout or Portenta Max Carrier and set both **BOOT_SEL** and **BOOT** to **ON**.
 
-2. Connect Portenta H7 to your PC with a USB-C cable.
+02. Attach Portenta H7 to the Portenta Breakout or Portenta Max Carrier.
 
-3. Connect the STLINK programmer to the PC with a USB cable.
+03. Connect Portenta H7 to your PC with a USB-C cable.
 
-4. Connect the JTAG cable from the STLINK programmer to the JTAG on the Breakout.
+04. Connect the STLINK programmer to the PC with a USB cable.
 
-5. Open Arduino IDE.
+05. Connect the JTAG cable from the STLINK programmer to the JTAG on the Portenta Breakout or Portenta Max Carrier.
 
-6. In the top menu bar, open _Tools > Board_ and select _Arduino Mbed OS Portenta Boards > Portenta H7 (M7 Core)_.
+06. Open Arduino IDE.
 
-7. Select the programmer in _Tools > Programmer_.
+07. In the top menu bar, open _Tools > Board_ and select _Arduino Mbed OS Portenta Boards > Portenta H7 (M7 Core)_.
 
-   ![Programmer selection](img/bootloader_IDE.png)
+08. Select the programmer in _Tools > Programmer_.
 
-8. Select _Tools > Burn Bootloader_ to burn the bootloader.
+    ![Programmer selection](img/bootloader_IDE.png)
 
-   ![Burn Bootloader](img/bootloader_IDE_2.png)
+09. Select _Tools > Burn Bootloader_ to burn the bootloader.
 
-9. Wait for the process to complete.
+    ![Burn Bootloader](img/bootloader_IDE_2.png)
 
-   ![Done burning bootloader](img/bootloader_IDE_3.png)
+10. Wait for the process to complete.
+
+    ![Done burning bootloader](img/bootloader_IDE_3.png)
