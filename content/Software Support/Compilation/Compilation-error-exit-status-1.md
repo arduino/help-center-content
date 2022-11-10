@@ -1,5 +1,5 @@
 ---
-title: Compilation error: exit status 1
+title: "Compilation error: exit status 1"
 id: 6554914611228
 ---
 

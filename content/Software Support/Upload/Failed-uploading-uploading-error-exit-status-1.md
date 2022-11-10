@@ -1,5 +1,5 @@
 ---
-title: Failed uploading: uploading error: exit status 1
+title: "Failed uploading: uploading error: exit status 1"
 id: 6554944868252
 ---
 
