@@ -19,28 +19,32 @@ These checks will resolve the most common errors:
 
 If you still get an error, you'll find instructions for specific error messages below.
 
+---
+
 <a id="errors"></a>
 
-## Errors
+## List of errors
 
 > **Note:** _Exit status 1_ only indicates that the process has failed. Look for preceding lines in the error output for more specific information.
 
 <table>
 <tr>
 <td style="vertical-align: top;">
-<h3>Common</h3>
+<h3>Upload</h3>
 <ul>
-<li><a href="https://support.arduino.cc/hc/en-us/articles/360016955139-Error-exit-status-1">Error: exit status 1</a></li>
-<li><a href="https://support.arduino.cc/hc/en-us/articles/360020843439-Error-2-UNKNOWN-no-FQBN-provided">Error: 2 UNKNOWN: no FQBN provided</a></li>
-<li><a href="#no-device-found-on-port">No device found on &lt;port&gt;<br>Upload error: Failed uploading: uploading error: exit status 1</a></li>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/360020831120-Failed-uploading-no-upload-port-provided">Failed uploading: no upload port provided</a></li>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/6554944868252-Failed-uploading-uploading-error-exit-status-1">Failed uploading: uploading error: exit status 1</a></li>
+<li><a href="#no-device-found-on-port">No device found on &lt;port&gt;</a></li>
 <li><a href="#no-board-on-selected-port">Couldn't find a Board on the selected port</a></li>
 <li><a href="#no-dfu-capable-USB-device-available">dfu-util: No DFU capable USB device available</a></li>
 <li><a href="#SerialPortException-port-busy">jssc.SerialPortException: Port name - &lt;port&gt;;<br>Method name - openPort(); Exception type - Port busy.</a></li>
 </ul>
 <h3>Compilation error</h3>
 <ul>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/6554914611228-Compilation-error-exit-status-1">Compilation error: exit status 1</a></li>
 <li><a href="https://support.arduino.cc/hc/en-us/articles/4412950941074-Compilation-error-Missing-FQBN-Fully-Qualified-Board-Name-">Compilation error: Missing FQBN (Fully Qualified Board Name)</a></li>
-<li><a href="https://support.arduino.cc/hc/en-us/articles/360020846379-Compilation-error-Error-2-UNKNOWN-platform-not-installed">Compilation error: Error: 2 UNKNOWN: platform not installed</a></li>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/360020846379-Compilation-error-Error-2-UNKNOWN-platform-not-installed">Compilation error: Platform not found: platform not installed</a></li>
+
 </ul>
 <h3>Other</h3>
 <ul>

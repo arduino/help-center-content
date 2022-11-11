@@ -9,21 +9,21 @@ The Arduino Portenta Breakout board makes all high-density connectors individual
 
 <table>
 <tbody>
-  <tr>
+  <tr style="display: table-row;">
     <td rowspan="2"><b>BOOT_SEL</b></td>
     <td>ON</td>
     <td>Keeps the Portenta in Boot mode</td>
   </tr>
-  <tr>
+  <tr style="display: table-row;">
     <td>OFF</td>
     <td>Operation mode (default)</td>
   </tr>
-  <tr>
+  <tr style="display: table-row;">
     <td rowspan="2"><b>BOOT</b></td>
     <td>ON</td>
     <td>Enables the embedded bootloader. Firmware can be uploaded via the USB port on the breakout board (DFU). USB-A to USB-A (non-crossover) cable required. The Portenta H7 has to be powered through the USB-C connector or VIN.</td>
   </tr>
-  <tr>
+  <tr style="display: table-row;">
     <td>OFF</td>
     <td>Normal boot (default)</td>
   </tr>
