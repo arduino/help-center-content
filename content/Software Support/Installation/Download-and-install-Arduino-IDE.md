@@ -1,5 +1,5 @@
 ---
-title: "How to install the Arduino IDE"
+title: "Download and install Arduino IDE"
 id: 360019833020
 ---
 
