@@ -69,6 +69,7 @@ const algoliaIndex = algoliasearch(AlgoliaID, AlgoliaSecret)
 import * as htmlparser2 from "htmlparser2";
 import { render } from 'dom-serializer';
 import { minify } from 'html-minifier';
+import { convert } from 'html-to-text';
 
 // Markdown
 import hljs from 'highlight.js'; // https://highlightjs.org/
@@ -540,7 +541,21 @@ async function deploy(zendeskSections, articles) {
 
         // Update Algolia
         if (translationUpdates || articleUpdates) {
-            var sectionName = zendeskSections.find(s => s.id == a.md.sectionID);
+            var sectionName = zendeskSections.find(s => s.id == a.zd.section_id).name;
+            var contentClearText = convert(a.zd.body, {
+                selectors: [
+                    { selector: 'hr', format: 'skip' },
+                    { selector: '[id]', format: 'skip'}, // Lazy way to exclude empty a elements for anchoring
+                    { selector: 'a', options: { ignoreHref: true}}
+
+                ]
+            });
+            var descriptionClearText;
+            if (contentClearText.length < 150) {
+                descriptionClearText = contentClearText;
+            } else {
+                descriptionClearText = contentClearText.substring(0, 149) + '…';
+            }
             try {
                 algoliaIndex.saveObject({
                     "objectID": a.zd.url,
@@ -550,7 +565,8 @@ async function deploy(zendeskSections, articles) {
                     "environment": "support.arduino.cc",
                     "language": "en",
                     "language_pretty": "English",
-                    "content": a.zd.body,
+                    "content": contentClearText,
+                    "description": descriptionClearText,
                     "url": a.zd.html_url,
                 }).wait();
             } catch (error) {
@@ -617,7 +633,6 @@ function hasChanges(article) {
     }
 
     // Render body and compare
-    var renderedHTML = makeHTML(article.md.body, attachmentReplacements, true);
     if (!compareHTML(makeHTML(article.md.body, attachmentReplacements, true), article.zd.body)) {
         return true;
     }
@@ -948,6 +963,19 @@ async function createArticleAttachment(articleID, filepath) {
 async function saveAllSearchObjects(zendeskSections, articles) {
     var objects = articles.filter(a => a.zd).map(a => {
         var sectionName = zendeskSections.find(s => s.id == a.zd.section_id).name;
+        var contentClearText = convert(a.zd.body, {
+            selectors: [
+                { selector: 'hr', format: 'skip' },
+                {selector: '[id]', format: 'skip'}, // Lazy way to exclude empty a elements for anchoring 
+                { selector: 'a', options: { ignoreHref: true}}
+            ]
+        });
+        var descriptionClearText;
+        if (contentClearText.length < 150) {
+            descriptionClearText = contentClearText;
+        } else {
+            descriptionClearText = contentClearText.substring(0, 149) + '…';
+        }
         return {
             "objectID": a.zd.url,
             "title": a.zd.title,
@@ -956,7 +984,8 @@ async function saveAllSearchObjects(zendeskSections, articles) {
             "environment": "support.arduino.cc",
             "language": "en",
             "language_pretty": "English",
-            "content": a.zd.body,
+            "content": contentClearText,
+            "description": descriptionClearText,
             "url": a.zd.html_url,
         };
     });
