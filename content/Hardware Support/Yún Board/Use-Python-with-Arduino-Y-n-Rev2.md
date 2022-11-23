@@ -19,7 +19,7 @@ id: 360012963820
 
 5. Send the opkg commands in Openwrt platform to install the python packages:
 
-   * `opkg update
+   * `opkg update`
    * `opkg upgrade`
    * `opkg install python`
    * `opkg install python-pip`
