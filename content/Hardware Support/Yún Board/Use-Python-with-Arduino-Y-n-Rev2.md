@@ -1,9 +1,7 @@
 ---
-title: "How to Install the python packages in the Arduino YUN rev2"
+title: "Use Python® with Arduino Yún Rev2"
 id: 360012963820
 ---
-
-## Steps
 
 1. Make sure, the `Bridge` library is updated with the latest version. If not, go to Arduino IDE top menu: *Sketch > Include Library > Manage Libraries*, search for 'Bridge' and update it.
 
@@ -20,7 +18,8 @@ id: 360012963820
    ![Example location](img/yun-py3.png)
 
 5. Send the opkg commands in Openwrt platform to install the python packages:
-   * opkg update
-   * opkg upgrade
-   * opkg install python
-   * opkg install python-pip
+
+   * `opkg update`
+   * `opkg upgrade`
+   * `opkg install python`
+   * `opkg install python-pip`
