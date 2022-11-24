@@ -12,7 +12,7 @@ New security requirements in macOS Ventura may trigger one of these errors:
 
 Follow these steps to solve the issue:
 
-1. [Intall version 1.2.7](#install).
+1. [Install version 1.2.7](#install).
 2. If the issue persists, try the [workarounds](#workarounds).
 
 ---
