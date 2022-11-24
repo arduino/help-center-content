@@ -29,7 +29,7 @@ Download the version for your browser here:
 * [Chrome](http://downloads.arduino.cc/CreateAgent/Stable/ArduinoCreateAgent-1.2.7-ventura-osx-amd64-installer-chrome.dmg)
 * [Firefox](http://downloads.arduino.cc/CreateAgent/Stable/ArduinoCreateAgent-1.2.7-ventura-osx-amd64-installer-firefox.dmg)
 
-> **Note:** This version has the auto-update functionality disabled. When a new version is released, a notification will be displayed asking you to manually upgrade. The next version will restore the auto-update functionality.
+> **Note:** This version has the auto-update functionality disabled. When a new version has been released, IoT Cloud and the Web Editor will automatically display a notification asking you to manually upgrade. The next version will restore the auto-update functionality.
 
 ---
 
