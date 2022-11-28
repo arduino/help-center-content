@@ -15,6 +15,6 @@ This help center entry is a quick troubleshooting guide to solve no image issue 
 
 ![HelloWorld example in the OpenMV IDE](img/vs_troubleshooting.png)
 
-For a step-by-step guide on uploading your first program with OpenMV and Portenta Vision Shield, try the [Blob Detection tutorial](https://www.arduino.cc/pro/tutorials/portenta-h7/por-openmv-bt).
+For a step-by-step guide on uploading your first program with OpenMV and Portenta Vision Shield, try the [Blob Detection tutorial](https://docs.arduino.cc/tutorials/portenta-vision-shield/blob-detection).
 
 If the above did not solve the problem, contact [Arduino Technical Support](https://www.arduino.cc/en/contact-us/).

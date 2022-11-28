@@ -9,7 +9,7 @@ There are several Arduino products that incorporate LoRaWAN® connectivity capab
 
 The [Portenta Vision Shield LoRa®](https://store.arduino.cc/portenta-vision-shield-lora) will let you run vision applications on your Portenta H7 while connected wirelessly via LoRa® to the Arduino Cloud, TTN, or your own infrastructure. The Vision Shield comes equipped with a camera and microphone that will allow you to run low-cost sound and vision applications involving object detection, image filtering and classification, QR code scanning, sound detection, and more.
 
-Get started now with the [following tutorial](https://www.arduino.cc/pro/tutorials/portenta-h7/vs-ard-ttn) to learn how to connect Portenta H7 with the Vision Shield LoRa® to the TTN.
+Get started now with the [following tutorial](https://docs.arduino.cc/tutorials/portenta-vision-shield/connecting-to-ttn) to learn how to connect Portenta H7 with the Vision Shield LoRa® to the TTN.
 
 ## MKR WAN 1300 and MKR WAN 1310
 
