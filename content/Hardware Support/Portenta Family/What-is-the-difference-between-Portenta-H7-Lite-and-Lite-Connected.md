@@ -62,5 +62,4 @@ _We can provide customized configurations for large orders. Please [contact us](
 
 ## Further reading
 
-* [Meet Portenta H7, designed for high performance](https://www.arduino.cc/pro/hardware/product/portenta-h7)
 * **Arduino Store:** [Portenta H7](https://store.arduino.cc/products/portenta-h7), [Portenta H7 Lite](https://store.arduino.cc/products/portenta-h7-lite), [Portenta H7 Lite Connected](https://store.arduino.cc/products/portenta-h7-lite-connected)
