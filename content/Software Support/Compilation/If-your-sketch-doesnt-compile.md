@@ -9,7 +9,7 @@ Learn about compilation errors in your sketch and how to resolve them.
 
 ## Quick checks
 
-* Make sure your error occurs during compilation by clicking ![Verify button](img/symbol_verify.png) **Verify** instead of ![Upload button](img/symbol_upload.png) **Upload**. This will compile the sketch without attempting to upload it. If your error only occurs when uploading, see [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch).
+* Make sure your error occurs during compilation by clicking ![Verify button](img/symbol_verify2.png) **Verify** instead of ![Upload button](img/symbol_upload2.png) **Upload**. This will compile the sketch without attempting to upload it. If your error only occurs when uploading, see [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch).
 
 * A successful compilation will always finish with this message (the storage space and memory values might differ depending on the board used):
 
@@ -62,8 +62,8 @@ Arduino IDE displays compilation messages differently depending on the version:
       <td style="vertical-align: top;">
          <h3>Common</h3>
          <ul>
-            <li><a href="#missing-FQBN">Compilation error: Missing FQBN (Fully Qualified Board Name)</a></li>
-            <li><a href="#platform-not-installed">Compilation error: Error: 2 UNKNOWN: platform not installed</a></li>
+            <li><a href="https://support.arduino.cc/hc/en-us/articles/4412950941074-Compilation-error-Missing-FQBN-Fully-Qualified-Board-Name-">Compilation error: Missing FQBN (Fully Qualified Board Name)</a></li>
+            <li><a href="https://support.arduino.cc/hc/en-us/articles/360020846379-Compilation-error-Platform-not-found-platform-not-installed">Compilation error: Platform not found: platform not installed</a></li>
          </ul>
          <h3>Required functions</h3>
          <ul>
@@ -88,22 +88,6 @@ Arduino IDE displays compilation messages differently depending on the version:
       </td>
    </tr>
 </table>
-
-<!-- COMMON -->
-
-<a id="missing-FQBN"></a>
-
-### Compilation error: Missing FQBN (Fully Qualified Board Name)
-
-When compiling or uploading code, this error will occur if no board is selected, or if the board core is not installed.
-
-A board needs to be selected even if you're not uploading any code.
-
-<a id="platform-not-installed"></a>
-
-### Compilation error: Error: 2 UNKNOWN: platform not installed
-
-This error occurs when the required *board core* is not installed. Please ensure the core is installed using [this guide](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-a-board-to-Arduino-IDE).
 
 <!-- REQUIRED FUNCTIONS -->
 

@@ -14,7 +14,7 @@ It's useful to understand the difference between board and port selections:
 
 Port and board selection can be managed in two ways:
 
-* [Using the board selector (requires IDE 2)](#selector)
+* [Using the board selector (IDE 2)](#selector)
 * [Using the Tools menu](#tools-menu)
 
 ---
@@ -120,18 +120,20 @@ Follow these steps:
 
 ### Select port with Tools > Port
 
+> **Note:** In IDE 2, the _Tools > Port_ option will not display if Arduino IDE doesn't detect any ports[^1].
+
+[^1]: [Issue #655](https://github.com/arduino/arduino-ide/issues/655)
+
 Follow these steps:
 
 1. Click on _Tools_ in the menu bar and find the _Port_ row. If a board is currently selected it will be displayed here.
 
-2. Hover over the _Port_ to reveal all ports. For Arduino devices, the board name will typically be displayed after the port.
+2. Hover over the _Port_ to reveal all ports. For Arduino devices, the board name will typically be displayed after the port, for example:
 
-   Port naming varies by system:
-
-   * Windows: `COM3 (Arduino Uno)`
-   * macOS: `/dev/cu.usbmodem14101 (Arduino Uno)`
-   * Linux: `/dev/ttyACM0 (Arduino Uno)`
+   * `COM3 (Arduino Uno)`
+   * `/dev/cu.usbmodem14101 (Arduino Uno)`
+   * `/dev/ttyACM0 (Arduino Uno)`
 
 3. Click on a port to select it.
 
-If you don't see your board in the list, see [If your board does not appear in the port menu](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-does-not-appear-in-the-port-menu).
+If you don't see your board in the list, or if the _Port_ option is missing, see [If your board does not appear in the port menu](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-does-not-appear-in-the-port-menu).

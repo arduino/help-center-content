@@ -11,9 +11,13 @@ When there is an error the IDE will print relevant information in the console. L
 
 These checks will resolve the most common errors:
 
-* **Check your board and port selections**. In the top menu bar, make sure the correct board is selected in _Tools > Board_, and that you've selected the right port in _Tools > Port_. Try disconnecting and reconnecting your board if you're unsure which port is being used (close and reopen the Port menu to refresh the list). For more information, see [Select the right port and board](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port).
+* **Check your sketch for errors**. Click the ![Verify button](img/symbol_verify2.png) **Verify** button to compile your sketch without uploading it.  If you still get an error, see [If your sketch doesn't compile](https://support.arduino.cc/hc/en-us/articles/4402764401554-Compilation-errors-when-uploading).
 
-* **Check your sketch for errors**. Click the ![Verify button](img/symbol_verify.png) **Verify** button to compile your sketch without uploading it.  If you still get an error, see [Compilation errors when uploading](https://support.arduino.cc/hc/en-us/articles/4402764401554-Compilation-errors-when-uploading).
+* **Check your board and port selections**. In the top menu bar, make sure the correct board is selected in _Tools > Board_, and that you've selected the right port in _Tools > Port_. Try disconnecting and reconnecting your board if you're unsure which port is being used (close and reopen the Port menu to refresh the list).
+
+  * If you can't find your board in the list, or if the _Tools > Port_ option is missing, see [If your board does not appear in the port menu](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-does-not-appear-in-the-port-menu).
+
+  * To learn more about port and board selection, see [Select the right port and board](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port).
 
 * **Check your connections**. Your board needs to be connected with a data USB cable (charge-only cables will not work). Make sure the cable is fully inserted in the port on each end. Try a different USB cable, and avoid hubs and other adapters if possible. Remove connections to the board pins, especially the **0 (RX)** and **1 (TX)** digital pins.
 
