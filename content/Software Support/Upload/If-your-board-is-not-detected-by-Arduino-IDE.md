@@ -1,9 +1,15 @@
 ---
-title: "If your board does not appear in the port menu"
+title: "If your board is not detected by Arduino IDE"
 id: 4412955149586
 ---
 
-Learn what to do if your board does not appear in the port selection menu in Arduino IDE.
+Learn what to do if your board is missing from the board selector or _Tools > Port_ menu.
+
+---
+
+## If the Tools > Port menu is missing
+
+In IDE 2, the _Tools > Port_ menu will not display if no devices were detected. Proceed with [If no device is detected](#no-device-recognized).
 
 ---
 
