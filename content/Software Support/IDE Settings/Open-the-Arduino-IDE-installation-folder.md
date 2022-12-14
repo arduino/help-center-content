@@ -42,8 +42,6 @@ The `AppData` folder is hidden by default. If you can't see it, follow these ste
 
 * **Windows 10:** View > Options > Change folder and search options. Select the View tab and, in Advanced settings, select Show hidden files, folders, and drives and OK.
 
- <!-- ![Enabling hidden files in Explorer on Windows.](img/windows-hidden-files.png) -->
-
 ### Show the enclosing folder of an application in the Task Bar
 
 If you're able to find Arduino IDE in the Task Bar, you can use this method:
@@ -110,8 +108,6 @@ If `arduino` is available as a command in Terminal, you can use the `whereis` co
 3. The output will probably point to a shortcut. Enter the following command to get the actual path.
 
    `readlink <path>`
-
-<!-- NOTE: https://itsfoss.com/use-appimage-linux/ -->
 
 ---
 
