@@ -136,7 +136,7 @@ The default installations paths are:
 
 * **Windows (IDE 2):** `C:\Program Files\Arduino IDE`
 * **Windows (IDE 1.x):** `C:\Program Files (x86)\Arduino`
-* **Windows (Windows App Store):** `C:\Program Files\WindowsApps\ArduinoLLC.ArduinoIDE_<VERSION>`
+* **Windows (Microsoft Store):** `C:\Program Files\WindowsApps\ArduinoLLC.ArduinoIDE_<VERSION>`
 * **macOS (IDE 2):** `/Applications/Arduino IDE.app/Contents`
 * **macOS (IDE 1.x):** `/Applications/Arduino.app/Contents/Java`
 * **Linux:** See [Open the Arduino IDE installation folder](https://support.arduino.cc/hc/en-us/articles/4412943340178-Open-the-Arduino-IDE-installation-folder#linux).

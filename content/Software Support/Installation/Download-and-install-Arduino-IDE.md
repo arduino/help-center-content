@@ -41,12 +41,11 @@ Learn how to download and install the desktop-based Arduino IDE.
 
 ## Additional download options
 
-Additional options:
-
-* For more control in mass deployment, use the _MSI installer_ package (Windows Installer) file.
-* For a portable installation on Windows or Linux, use the "ZIP file" option.
+* For a portable installation on Windows or Linux, use a "ZIP file" option:
   * _ZIP file_ (Windows)
   * _ZIP file 64 bits (X86-64)_ (Linux)
+* For more control in mass deployment, use the _MSI installer_ package (Windows Installer) file.
+
 * Nightly builds – preview incoming releases.
 * IDE 1 (legacy)
 
