@@ -19,7 +19,7 @@ Follow these steps to solve the issue:
 
 <a id="install"></a>
 
-## Install version 1.2.7 (recommended solution)
+## Install version 1.2.7-ventura (recommended solution)
 
 Version **1.2.7-ventura** is fully compliant with the security requirements enforced by macOS Ventura.
 
