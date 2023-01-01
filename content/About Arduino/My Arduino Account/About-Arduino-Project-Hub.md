@@ -59,4 +59,4 @@ If you find a mistake or error in a project on Arduino Project Hub, please conta
 
 ### How can I report a technical issues with the platform?
 
-If the issue is related to the migration to the new platform, you can also contact the Arduino Project Hub support team for assistance.
+If the issue is related to the migration to the new platform, you can also contact the Arduino Project Hub support team for assistance via [this form](https://www.arduino.cc/en/contact-us/).
