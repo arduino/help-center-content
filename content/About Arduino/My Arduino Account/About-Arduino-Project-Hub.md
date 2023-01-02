@@ -7,7 +7,7 @@ id: 6957796358556
 
 ## What is Arduino Project Hub?
 
-Arduino Project Hub is a website where people can share tutorials and descriptions of the projects they made with Arduino boards. It is a community-driven platform where users can upload their projects, share them with others, and collaborate on projects.
+[Arduino Project Hub](https://projecthub.arduino.cc/) is a website for sharing tutorials and descriptions of projects made with Arduino boards. It is a community-driven platform where users can upload their projects, share them with others, and collaborate.
 
 ### Is Arduino Project Hub free to use?
 
@@ -19,7 +19,7 @@ Arduino Project Hub features a wide range of projects, from simple beginner proj
 
 ### Can I upload my own Arduino project to Arduino Project Hub?
 
-Yes, you can upload your own Arduino project to Arduino Project Hub. To do so, you will need to create an account on the website and follow the content guidelines <!-- TODO: add link --> for uploading your project. It will be assessed by our admins to check if it complies with the guidelines, before being published.
+Yes, you can upload your own Arduino project to Arduino Project Hub. To do so, you will need to create an account on the website and follow the [content guidelines](https://projecthub.arduino.cc/guidelines) for uploading your project. It will be assessed by our admins to check if it complies with the guidelines, before being published.
 
 ### Is Arduino Project Hub only for Arduino boards?
 
@@ -27,19 +27,19 @@ Arduino Project Hub is primarily focused on projects made with Arduino boards, b
 
 ---
 
-## About the migration from Hackster.io
+## About the migration from Hackster&#46;io
 
 ### Will my project appear on the new platform?
 
 The new Arduino Project Hub platform has been populated with projects that had been created on the previous platform by users having an Arduino account:
 
 * If your project was created with an Arduino account, it will be automatically imported.
-* If your project was created with a Hackster.io account, it will **not** be automatically imported.
+* If your project was created with a Hackster&#46;io account, it will **not** be automatically imported.
 
 The migration of projects connected to Arduino accounts is happening in two phases:
 
-* Projects created before Aug 2022 will be available on the new platform on Jan 1st 2023
-* Projects created between Sep 2022 and Dec 2022 will be available on the new platform on Feb 1st 2023
+* Projects created before Aug 2022 will be available on the new platform on Jan 1st 2023.
+* Projects created between Sep 2022 and Dec 2022 will be available on the new platform on Feb 1st 2023.
 
 ### Can I manually transfer my project to the new platform?
 
@@ -47,7 +47,7 @@ Yes. The new platform provides the same editing capabilities, and the same suppo
 
 ### My project wasn't migrated correctly
 
-Unfortunately there might have been technical issues during the migration of the content to the new platform, so you may find bugs or errors in your projects. In that case, get in touch with our [support team](https://www.arduino.cc/en/contact-us/), providing a link to the page where you found the bug and an explanation of what is wrong.
+Unfortunately there might have been technical issues during the migration of the content to the new platform, so you may find bugs or errors in your projects. In that case, please [contact us](https://www.arduino.cc/en/contact-us/), providing a link to the page where you found the bug and an explanation of what is wrong. For the contact form fields, you can select _Technical support > Access to web resources and online content > arduino.<!-- nolink -->cc_.
 
 ---
 
@@ -59,4 +59,6 @@ If you find a mistake or error in a project on Arduino Project Hub, please conta
 
 ### How can I report a technical issues with the platform?
 
-If the issue is related to the migration to the new platform, you can also contact the Arduino Project Hub support team for assistance.
+If the issue is related to the migration to the new platform, please [contact us](https://www.arduino.cc/en/contact-us/).
+
+For the contact form fields, you can select _Technical support > Access to web resources and online content > arduino<!-- nolink -->.cc_.
