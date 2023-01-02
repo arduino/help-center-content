@@ -38,8 +38,8 @@ The new Arduino Project Hub platform has been populated with projects that had b
 
 The migration of projects connected to Arduino accounts is happening in two phases:
 
-* Projects created before Aug 2022 will be available on the new platform on Jan 1st 2023
-* Projects created between Sep 2022 and Dec 2022 will be available on the new platform on Feb 1st 2023
+* Projects created before Aug 2022 will be available on the new platform on Jan 1st 2023.
+* Projects created between Sep 2022 and Dec 2022 will be available on the new platform on Feb 1st 2023.
 
 ### Can I manually transfer my project to the new platform?
 
@@ -47,7 +47,8 @@ Yes. The new platform provides the same editing capabilities, and the same suppo
 
 ### My project wasn't migrated correctly
 
-Unfortunately there might have been technical issues during the migration of the content to the new platform, so you may find bugs or errors in your projects. In that case, please [contact us](https://www.arduino.cc/en/contact-us/), providing a link to the page where you found the bug and an explanation of what is wrong.
+Unfortunately there might have been technical issues during the migration of the content to the new platform, so you may find bugs or errors in your projects. In that case, please [contact us](https://www.arduino.cc/en/contact-us/), providing a link to the page where you found the bug and an explanation of what is wrong. For the contact form fields, you can select _Technical support > Access to web resources and online content > arduino.<!-- nolink -->cc_.
+
 
 <!-- **Technical support > Access to web resources and online content > arduino&#46;cc** -->
 
@@ -63,4 +64,4 @@ If you find a mistake or error in a project on Arduino Project Hub, please conta
 
 If the issue is related to the migration to the new platform, please [contact us](https://www.arduino.cc/en/contact-us/).
 
-For the contact form fields, you can select _Technical support > Access to web resources and online content > arduino&#46;cc_.
+For the contact form fields, you can select _Technical support > Access to web resources and online content > arduino<!-- nolink -->.cc_.
