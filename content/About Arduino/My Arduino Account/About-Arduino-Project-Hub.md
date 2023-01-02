@@ -7,7 +7,7 @@ id: 6957796358556
 
 ## What is Arduino Project Hub?
 
-[Arduino Project Hub](https://projecthub.arduino.cc/) is a website where people can share tutorials and descriptions of the projects they made with Arduino boards. It is a community-driven platform where users can upload their projects, share them with others, and collaborate on projects.
+[Arduino Project Hub](https://projecthub.arduino.cc/) is a website for sharing tutorials and descriptions of projects made with Arduino boards. It is a community-driven platform where users can upload their projects, share them with others, and collaborate.
 
 ### Is Arduino Project Hub free to use?
 
