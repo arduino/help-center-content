@@ -49,9 +49,6 @@ Yes. The new platform provides the same editing capabilities, and the same suppo
 
 Unfortunately there might have been technical issues during the migration of the content to the new platform, so you may find bugs or errors in your projects. In that case, please [contact us](https://www.arduino.cc/en/contact-us/), providing a link to the page where you found the bug and an explanation of what is wrong. For the contact form fields, you can select _Technical support > Access to web resources and online content > arduino.<!-- nolink -->cc_.
 
-
-<!-- **Technical support > Access to web resources and online content > arduino&#46;cc** -->
-
 ---
 
 ## Reporting issues
