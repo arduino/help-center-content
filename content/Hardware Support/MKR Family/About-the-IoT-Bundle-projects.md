@@ -11,11 +11,11 @@ Both **Arduino IoT Bundle** and **Arduino _MKR_ IoT Bundle** include components 
 
 Tutorials for the **Arduino IoT Bundle** projects are available in Arduino Docs:
 
-* [I Love You Pillow](https://create.arduino.cc/projecthub/Arduino_Genuino/i-love-you-pillow-with-the-arduino-iot-bundle-cec4c4)
-* [Puzzle Box](https://create.arduino.cc/projecthub/Arduino_Genuino/puzzlebox-with-arduino-iot-bundle-96d09c)
-* [Pavlov's cat](https://create.arduino.cc/projecthub/Arduino_Genuino/pavlov-s-cat-with-arduino-iot-bundle-d5b388)
-* [The Nerd](https://create.arduino.cc/projecthub/Arduino_Genuino/the-nerd-with-arduino-iot-bundle-b1d0ca)
-* [Plant Communicator](https://create.arduino.cc/projecthub/Arduino_Genuino/plant-communicator-with-the-arduino-iot-bundle-918636)
+* [I Love You Pillow](https://docs.arduino.cc/tutorials/iot-bundle/i-love-you-pillow)
+* [Puzzle Box](https://docs.arduino.cc/tutorials/iot-bundle/puzzlebox)
+* [Pavlov's cat](https://docs.arduino.cc/tutorials/iot-bundle/pavlovs-cat)
+* [The Nerd](https://docs.arduino.cc/tutorials/iot-bundle/the-nerd)
+* [Plant Communicator](https://docs.arduino.cc/tutorials/iot-bundle/plant-communicator)
 
 These projects use Arduino IoT Cloud and the Arduino IoT Cloud Remote app (and can be built using the free Arduino Cloud plan).
 
