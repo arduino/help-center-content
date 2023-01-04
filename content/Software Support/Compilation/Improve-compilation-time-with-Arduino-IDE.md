@@ -48,7 +48,6 @@ Try the following:
 * **TEMPORARILY** disable your antivirus for a single compilation to see if you notice a change in compilation time, then turn the antivirus back on.
 * Exclude relevant files, folders, and processes from scanning in your antivirus settings.
 
-
 ---
 
 ## Further reading
