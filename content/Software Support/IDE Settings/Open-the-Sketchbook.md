@@ -16,7 +16,7 @@ By default the Sketchbook is located in these directories:
 You can also find the location inside Arduino IDE, in Preferences under _Sketchbook location_:
 
 * **Windows:** `File > Preferences`.
-* **macOS:** `Arduino > Preferences`
+* **macOS:** `Arduino IDE > Preferences`
 * **Linux:** `File > Preferences`.
 
 ![Preferences](img/IDE-preferences-sketchbook.png)
