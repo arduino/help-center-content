@@ -1,5 +1,6 @@
 ---
-title: "Improve compilation time with Arduino IDE"
+title: Improve compilation time with Arduino IDE
+id: 7213793867036
 ---
 
 Learn what to do if a sketch is taking a long time to compile with Arduino IDE.
