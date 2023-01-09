@@ -25,8 +25,6 @@ Counterfeits may come packaged in cheaper and generic packaging, like a plastic 
 
 ### Color and silkscreen
 
-<!-- TODO: See word doc changes -->
-
 The silkscreen is a layer of ink trace that contains logos, symbols, and text used to identify components. It also provides the board with a background color. Many of our most popular boards, particularly the [Arduino UNO Rev3](https://store.arduino.cc/arduino-uno-rev3) (which has the most counterfeits) are today produced with our new teal color. Virtually all counterfeits still use the blue color, and this can be a straightforward way of identifying a counterfeit.
 
 <table class="img-captions">

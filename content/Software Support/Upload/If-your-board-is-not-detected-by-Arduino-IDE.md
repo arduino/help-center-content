@@ -85,8 +85,6 @@ If your board is an **Arduino Uno** (Rev1 or Rev3) or an **Arduino Mega**, the U
 
 **Linux:** Use a device manager of your choice, such as **hardinfo** To install hardinfo, open Terminal and run `sudo apt install hardinfo`. Then run `hardinfo` to open and look in _Devices > USB Devices_).
 
-<!-- sudo apt-get install hardinfo? -->
-
 Missing or corrupted USB-to-Serial firmware can cause Uno and Mega boards to be recognized as any of the following:
 
 * Unknown Device

@@ -72,8 +72,6 @@ When an Example is open, you can select _Sketch > Show Sketch Folder_ to reveal 
 
 **Libraries included in board packages** are stored within the board package folder's `libraries` subfolder, see [Board platforms and cores](#boards).
 
-<!-- To add or remove libraries, use the [Library Manager](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries). -->
-
 > **An easy way to find a library with examples:**
 >
 > 1. Open _File > Examples_ in the menu bar.
