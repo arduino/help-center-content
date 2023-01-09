@@ -5,7 +5,11 @@ id: 4407129094546
 
 The following is meant for an overview **only** and does not take precedence over specifications in [Arduino Store](https://store.arduino.cc/) or [Arduino Docs](https://docs.arduino.cc/).
 
-## Boards with Wi-Fi connectivity
+---
+
+## Boards with wireless connectivity
+
+### Wi-Fi
 
 * MKR VIDOR 4000
 * MKR WiFi 1010
@@ -14,7 +18,7 @@ The following is meant for an overview **only** and does not take precedence ove
 * Portenta H7
 * Portenta H7 Lite Connected
 
-## Boards with Bluetooth<sup>®</sup> connectivity
+### Bluetooth<sup>®</sup>
 
 The following boards have Bluetooth Low Energy connectivity:
 
@@ -33,30 +37,30 @@ Enable it with the [ArduinoBLE library](https://www.arduino.cc/reference/en/libr
 
 Although the communication modules on these boards can also use Bluetooth _Classic_, it is not currently supported by official firmware or libraries.
 
-## Boards with other connectivity types
-
-**Narrowband communication:**
+### Narrowband communication
 
 * MKR NB 1500
 
-**GSM/3G:**
+### GSM/3G
 
 * MKR GSM 1400
 
-**Sigfox:**
+### Sigfox
 
 * MKR FOX 1200
 
-## Shields with connectivity
+---
 
-**Wi-Fi:**
+## Shields with wireless connectivity
+
+### Wi-Fi
 
 * Arduino WiFi Shield
 
-**LoRa<sup>®</sup>:**
+### LoRa<sup>®</sup>
 
 * Portenta Vision Shield - LoRa
 
-**Narrowband communication:**
+### Narrowband communication
 
 * Portenta Cat. M1/NB IoT GNSS Shield
