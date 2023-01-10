@@ -6,6 +6,8 @@ The Arduino Engineering Kit comes with MATLAB and Simulink licenses for use with
 
 ---
 
+<a id="install"></a>
+
 <!-- markdownlint-disable HC001 -->
 ## Installing the MATLAB and Simulink applications, support packages, and other files
 <!-- markdownlint-enable HC001 -->
@@ -34,6 +36,8 @@ Arduino IDE can be used to install the required drivers:
 4. Restart your computer.
 
 5. Try using your board with MATLAB or Simulink again.
+
+6. If the issue persists, try reinstalling the MATLAB or Simulink application by following the [above instructions](#install).
 
 ---
 
