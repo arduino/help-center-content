@@ -1,5 +1,6 @@
 ---
-title: "Use your Engineering Kit board with MATLAB or Simulink"
+title: Use your Engineering Kit board with MATLAB or Simulink
+id: 7278762985884
 ---
 
 The Arduino Engineering Kit comes with MATLAB and Simulink licenses for use with the included MKR 1000 WiFi or Nano 33 IoT board.
