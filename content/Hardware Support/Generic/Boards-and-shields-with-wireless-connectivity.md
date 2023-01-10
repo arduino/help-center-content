@@ -17,6 +17,8 @@ The following is meant for an overview **only** and does not take precedence ove
 * UNO WiFi Rev 2
 * Portenta H7
 * Portenta H7 Lite Connected
+* Portenta X8
+* Nicla Vision
 
 ### Bluetooth<sup>®</sup>
 
@@ -31,6 +33,7 @@ The following boards have Bluetooth Low Energy connectivity:
 * Nicla Sense ME
 * Portenta H7
 * Portenta H7 Lite Connected
+* Portenta X8
 * UNO WiFi Rev 2
 
 Enable it with the [ArduinoBLE library](https://www.arduino.cc/reference/en/libraries/arduinoble/).
@@ -53,14 +56,12 @@ Although the communication modules on these boards can also use Bluetooth _Class
 
 ## Shields with wireless connectivity
 
-### Wi-Fi
-
 * Arduino WiFi Shield
-
-### LoRa<sup>®</sup>
-
 * Portenta Vision Shield - LoRa
-
-### Narrowband communication
-
 * Portenta Cat. M1/NB IoT GNSS Shield
+
+---
+
+## Carriers with wireless connectivity
+
+* Portenta Max Carrier
