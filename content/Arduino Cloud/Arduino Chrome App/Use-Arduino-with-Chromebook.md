@@ -25,9 +25,17 @@ You can write and upload sketches on Chrome OS with the Web Editor in Arduino Cl
 
 5. Start writing a new sketch in the editor, or use a sketch from the _Examples_ sidebar.
 
-## Learn more about the Web Editor
+Learn more about the Web Editor:
 
 * [Uploading a simple example](https://docs.arduino.cc/cloud/web-editor/tutorials/getting-started/getting-started-web-editor#uploading-a-simple-example)
 * [Web Editor in Arduino Docs](https://docs.arduino.cc/cloud/web-editor)
 
->Please note: You can also download a BETA version of Arduino Cloud Editor, a new application for Chromebook, which is available for free on the [Google Store](https://play.google.com/store/apps/details?id=cc.arduino.create_editor). Right now, this application has more limited features than the current ChromeApp. However, it uses the new Progressive Web Application development framework from ChromeOS, which will be the recommended platform going forward. Your feedback on this BETA version would be greatly appreciated, as it will help us improve the app and continue to support Chromebook users in the future.
+---
+
+## New app beta
+
+A new Arduino Cloud application for Chromebook is currently in development, and is available on Google Play as a beta release.
+
+The regular Chrome app is still recommended for users that want a stable experience. But if you want to help support Arduino on Chromebook, we welcome you to try it out and share your feedback with us in the [forum](https://forum.arduino.cc/c/software/chrome-app/141).
+
+**[Get Arduino Cloud Editor (BETA) on Google Play](https://play.google.com/store/apps/details?id=cc.arduino.create_editor)**.
