@@ -14,11 +14,11 @@ The Gesture sensor is the APDS9960 module, [here](https://docs.broadcom.com/docs
 
 ## Digital microphone
 
-The digital microphone is a [MP34DT05](https://www.st.com/resource/en/datasheet/mp34dt05-a.pdf), this chip, made by ST Microelectronics, is an ultra-compact, low-power, omnidirectional, digital MEMS microphone built with a capacitive sensing element and an IC interface; it produces an output coded in [PDM](https://en.wikipedia.org/wiki/Pulse-density_modulation). The PDM format is supported by our [PDM library](https://www.arduino.cc/en/Reference/PDM) that can be used also with our [ArduinoSound](https://www.arduino.cc/en/Reference/ArduinoSound) library which contains example sketches to use the sensor.
+The digital microphone is a [MP34DT05](https://content.arduino.cc/assets/Nano_BLE_Sense_mp34dt05-a.pdf), this chip, made by ST Microelectronics, is an ultra-compact, low-power, omnidirectional, digital MEMS microphone built with a capacitive sensing element and an IC interface; it produces an output coded in [PDM](https://en.wikipedia.org/wiki/Pulse-density_modulation). The PDM format is supported by our [PDM library](https://www.arduino.cc/en/Reference/PDM) that can be used also with our [ArduinoSound](https://www.arduino.cc/en/Reference/ArduinoSound) library which contains example sketches to use the sensor.
 
 ## Motion, vibration and orientation
 
-The Inertial Measurement Unit (IMU) is a [LSM9DS1](https://www.st.com/resource/en/datasheet/lsm9ds1.pdf) chip that comes integrated in the board. It features a 3-axis accelerometer, 3-axis gyroscope and 3-axis magnetometer. This chip, made by ST Microelectronics, is a standard component supported by our library [ArduinoLSM9DS1](https://www.arduino.cc/en/Reference/ArduinoLSM9DS1) which contains example sketches to use the sensor.
+The Inertial Measurement Unit (IMU) is a [LSM9DS1](https://content.arduino.cc/assets/Nano_BLE_Sense_lsm9ds1.pd) chip that comes integrated in the board. It features a 3-axis accelerometer, 3-axis gyroscope and 3-axis magnetometer. This chip, made by ST Microelectronics, is a standard component supported by our library [ArduinoLSM9DS1](https://www.arduino.cc/en/Reference/ArduinoLSM9DS1) which contains example sketches to use the sensor.
 The library takes care of the sensor initialization and sets its values as follows:
 
 - Accelerometer range is set at [-4,+4]g -/+0.122 mg
@@ -30,7 +30,7 @@ The library takes care of the sensor initialization and sets its values as follo
 
 ## Relative humidity and temperature
 
-The relative humidity and temperature sensor is a [HTS221](https://www.st.com/resource/en/datasheet/HTS221.pdf), is an ultra-compact sensor that uses a polymer dielectric planar capacitor structure capable of detecting relative humidity variations and temperature, returned as digital output on a serial interface. This chip, made by ST is supported by our library [ArduinoHTS221](https://www.arduino.cc/en/Reference/ArduinoHTS221).
+The relative humidity and temperature sensor is a [HTS221](https://content.arduino.cc/assets/Nano_BLE_Sense_HTS221.pdf), is an ultra-compact sensor that uses a polymer dielectric planar capacitor structure capable of detecting relative humidity variations and temperature, returned as digital output on a serial interface. This chip, made by ST is supported by our library [ArduinoHTS221](https://www.arduino.cc/en/Reference/ArduinoHTS221).
 The library contains, as usual, useful functions and example sketches to use the sensor to measure the [relative humidity](https://en.wikipedia.org/wiki/Relative_humidity).
 The sensor can be calibrated using the function `readHTS221Calibration()`, and it's ranges are as following:
 
@@ -41,7 +41,7 @@ The sensor can be calibrated using the function `readHTS221Calibration()`, and i
 
 ### Pressure
 
-The barometer sensor is a [LPS22HB](https://www.st.com/resource/en/datasheet/lps22hb.pdf), is an ultra-compact sensor which functions as a digital output barometer. This chip, made by ST is supported by our [ArduinoLPS22HB](https://www.arduino.cc/en/Reference/ArduinoLPS22HB) library which includes example sketches to measure the atmospheric pressure.
+The barometer sensor is a [LPS22HB](https://content.arduino.cc/assets/Nano_BLE_Sense_lps22hb.pdf), is an ultra-compact sensor which functions as a digital output barometer. This chip, made by ST is supported by our [ArduinoLPS22HB](https://www.arduino.cc/en/Reference/ArduinoLPS22HB) library which includes example sketches to measure the atmospheric pressure.
 
 - Absolute pressure range: 260 to 1260 hPa
 
