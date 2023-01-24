@@ -1,5 +1,6 @@
 ---
-title: "About the analog pins on Nano RP2040 Connect"
+title: About the analog pins on Nano RP2040 Connect
+id: 7454007471004
 ---
 
 The microcontroller on the Nano RP2040 Connect has four analog pins, connected to A0–A3 on the board. The NINA-W10 multiradio module is used to enable analog inputs for the remaining A4-A7 pins on the standard Nano form factor.
