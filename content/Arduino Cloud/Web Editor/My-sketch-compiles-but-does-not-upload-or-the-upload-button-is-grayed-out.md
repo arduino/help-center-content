@@ -5,6 +5,8 @@ id: 360019546000
 
 If you have this issue, please take a look at this common easy fixes:
 
+* Make sure you have [installed the Arduino Create Agent](https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Create-Agent).
+
 * Check if the Arduino Create Agent is running. On Windows, look for an Arduino icon in the taskbar. On macOS and Linux it will be located in the menu bar. The icon should be either black or white depending on your system, _not_ grayed out. If it is grayed out, rick-click and select _Run Agent_.
 
 * Use Arduino Cloud in the same browser the Create Agent is installed.
