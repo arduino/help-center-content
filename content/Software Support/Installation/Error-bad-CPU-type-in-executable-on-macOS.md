@@ -1,5 +1,6 @@
 ---
-title: 'Error "bad CPU type in executable" on macOS'
+title: Error "bad CPU type in executable" on macOS
+id: 7765785712156
 ---
 
 Under certain conditions, startup or other operations of the Arduino development software might fail with a "`bad CPU type in executable`" error.
