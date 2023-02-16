@@ -21,7 +21,19 @@ The following Arduino boards can be used with IoT Cloud:
 * [Nano 33 IoT](https://docs.arduino.cc/hardware/nano-33-iot)
 * [Portenta H7](https://docs.arduino.cc/hardware/portenta-h7)
 * [Portenta H7 Lite Connected](https://docs.arduino.cc/hardware/portenta-h7-lite-connected)
+* [Portenta X8](https://docs.arduino.cc/hardware/portenta-x8)
 * [Nicla Vision](https://docs.arduino.cc/hardware/nicla-vision)
+* [Arduino Opta](https://docs.arduino.cc/hardware/opta)
+
+---
+
+## Smartphones
+
+You can use your phone as an IoT device in the Arduino Cloud.
+
+Download the **Arduino IoT Cloud Remote** app for [Android](https://play.google.com/store/apps/details?id=cc.arduino.cloudiot&hl=en&gl=US&pli=1) or [iOS](https://apps.apple.com/us/app/arduino-iot-cloud-remote/id1514358431).
+
+Check out the instructions at "[Use Sensor Data From Your Phone](https://docs.arduino.cc/arduino-cloud/tutorials/iot-remote-phone-sensors)".
 
 ---
 
