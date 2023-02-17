@@ -106,7 +106,7 @@ If you want to return your order and receive a refund you can reject to receive 
 
 In some rare cases, an order might not be delivered to the customer even if it appears as delivered when tracking the parcel. This mostly happens when using shipping methods that don't have proof of delivery.
 
-If the parcel did not arrive, please check the following before contacting [Arduino's customer support](https://store.arduino.cc/store-support):
+If the parcel did not arrive, please check the following before contacting [Arduino's customer support](https://www.arduino.cc/en/contact-us/):
 
 * Check if other people living in the same delivery address or a neighbor have picked up the parcel.
 * Check around the entrance(s) of your residence, particularly on back porches, bushes, garages, grills, or other places that might protect your package from theft or weather.

@@ -19,3 +19,10 @@ See the [Seller Terms](https://store.arduino.cc/pages/transparency) for complete
 ## Refunds for digital products and services
 
 We do not offer refunds for digital services such as Cloud plans or Arduino Certification codes. If you have further questions, [please contact us](https://www.arduino.cc/en/contact-us/).
+
+---
+
+## Further reading
+
+* [About the delivery process](https://support.arduino.cc/hc/en-us/articles/5340909969948-About-the-delivery-process)
+* [Can I return a product?](https://support.arduino.cc/hc/en-us/articles/360014704319-Can-I-return-a-product-)
