@@ -75,7 +75,7 @@ A version of the UNO R3 with longer pins on the bottom.
 
 <!-- ### Arduino UNO Rev2 -->
 
-<img src="img/ArduinoUno_r2_front.jpg" width=400px>
+<img src="img/ArduinoUno_r2_front.png" width=400px>
 
 **Arduino UNO Rev2**
 Microcontroller: ATmega328P
@@ -89,7 +89,7 @@ This revision added a resistor pulling the ATmega8U2 HWB line to ground, making 
 
 <!-- ### Arduino UNO -->
 
-<img src="img/ArduinoUnoFront.jpg" width=400px>
+<img src="img/ArduinoUnoFront.png" width=400px>
 
 **Arduino UNO**
 Microcontroller: ATmega328P
