@@ -9,8 +9,6 @@ title: "Burn the bootloader on GIGA R1 WiFi"
   * You will be required to provide and validate an email address to get a download link.
   * If you get a "could not be verified" error on macOS, hold alt + right-click, and choose Open. <!-- TODO: Fix -->
 
-<!-- TODO: https://docscontentprivate-karlsoderbygigar1.gtsb.io/tutorials/giga-r1-wifi/giga-usb -->
-
 ## Instructions
 
 * Get the bootloader file:
@@ -44,8 +42,6 @@ title: "Burn the bootloader on GIGA R1 WiFi"
 
    `packages/arduino/hardware/mbed_giga/3.9.9/bootloaders/GIGA/bootloader.elf`
 
-   <!-- TODO: Better ways of getting the bootloader? E.g. direct github link like https://github.com/arduino/ArduinoCore-mbed/raw/master/bootloaders/NICLA/bootloader.elf so probably https://github.com/arduino/ArduinoCore-mbed/raw/master/bootloaders/GIGA/bootloader.elf -->
-
 4. If you get a "Warning: File corrupted. Two or more segments defines the same memory zone" message, ignore it.
 
 5. Set the programmer selection (default: ST-LINK) to **USB**.
@@ -69,9 +65,3 @@ title: "Burn the bootloader on GIGA R1 WiFi"
 9. After a brief (or long if your PC is a piece of junk) moment you should see the "File download complete" message.
 
 10. Disconnect the board from the USB C and connect it again.
-
-<!--
-
-## Troubleshooting
-
-* **No DFU detected.** If the Port list is empty, it will just say "No DFU detected". In this case, ensure you've connected your board following the steps in part 1.
