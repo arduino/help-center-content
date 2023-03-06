@@ -3,7 +3,7 @@ title: "Update Wi-Fi firmware on Portenta H7 boards"
 id: 4403365234322
 ---
 
-In this article, we will go through a step-by-step process on how to get the latest Wi-Fi firmware on your Portenta H7 board. Before updating the WiFi firmware, make sure the bootloader is up-to-date. You can update the bootloader by following the Portenta documentation page [here](https://docs.arduino.cc/tutorials/portenta-h7/updating-the-bootloader).
+In this article, we will go through a step-by-step process on how to get the latest Wi-Fi firmware on your Portenta H7 board.
 
 ## Supported boards
 

@@ -2,11 +2,11 @@
 title: "Update Wi-Fi firmware on GIGA R1 WiFi"
 ---
 
-In this article, we will go through a step-by-step process on how to get the latest Wi-Fi firmware on your GIGA R1 WiFi board. Before updating the WiFi firmware, make sure the bootloader is up-to-date.
+In this article, we will go through a step-by-step process on how to get the latest Wi-Fi firmware on your GIGA R1 WiFi board.
 
 ## Before you begin
 
-* Install the latest version of **"Arduino Mbed OS Giga Boards"** in Arduino IDE.
+* Download the **Arduino Mbed OS Giga Boards** using the [Boards Manager in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE).
 
 ## Instructions
 
