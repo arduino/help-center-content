@@ -6,7 +6,7 @@ In this article, we will go through a step-by-step process on how to get the lat
 
 ## Before you begin
 
-*Add the **Arduino Mbed OS Giga Boards** to Arduino IDE using the [Boards Manager](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE).
+* Add the **Arduino Mbed OS Giga Boards** to Arduino IDE using the [Boards Manager](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE).
 
 ## Instructions
 
