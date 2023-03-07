@@ -1,5 +1,6 @@
 ---
 title: "Burn the bootloader on GIGA R1 WiFi"
+id: 7991505977116
 ---
 
 ## Before you begin

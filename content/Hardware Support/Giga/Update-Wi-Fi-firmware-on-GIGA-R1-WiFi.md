@@ -1,5 +1,6 @@
 ---
 title: "Update Wi-Fi firmware on GIGA R1 WiFi"
+id: 7991505977884
 ---
 
 In this article, we will go through a step-by-step process on how to get the latest Wi-Fi firmware on your GIGA R1 WiFi board.
