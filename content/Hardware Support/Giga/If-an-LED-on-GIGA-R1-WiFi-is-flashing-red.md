@@ -1,5 +1,6 @@
 ---
 title: "If an LED on GIGA R1 WiFi is flashing red"
+id: 7991505987612
 ---
 
 When running a sketch on your GIGA R1 WiFi board, the onboard LED (next to the button labeled BOOT0) may start flashing red in a repeated pattern (4 slow flashes, 4 fast flashes):
