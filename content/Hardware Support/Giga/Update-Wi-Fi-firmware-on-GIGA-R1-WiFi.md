@@ -27,4 +27,4 @@ In this article, we will go through a step-by-step process on how to get the lat
 
    Enter and send `Y` to continue.
 
-6. Wait a few seconds till you get the message `Firmware and certificates updated!` in the serial monitor.
+6. Wait until you get the message `Firmware and certificates updated!` in the serial monitor.
