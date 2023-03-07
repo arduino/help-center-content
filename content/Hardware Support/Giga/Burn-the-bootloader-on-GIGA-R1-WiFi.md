@@ -51,7 +51,7 @@ title: "Burn the bootloader on GIGA R1 WiFi"
 
 9. Click on the **Download** button. If you get another warning message, close it by selecting OK.
 
-   > **Note:** Click on the part that says "Download", not the arrow, which opens a context menu.
+   > **Note:** Click on the left part of the button where it says "Download" (not the arrow, which opens a context menu)
 
    <img src="img/stm32cube-download.png" width=800px>
 
