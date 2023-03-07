@@ -4,7 +4,7 @@ title: "Burn the bootloader on GIGA R1 WiFi"
 
 ## Before you begin
 
-*Add the **Arduino Mbed OS Giga Boards** to Arduino IDE using the [Boards Manager](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE).
+* Add the **Arduino Mbed OS Giga Boards** to Arduino IDE using the [Boards Manager](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE).
 * [Download and install the STM32CubeProgrammer from STMicroelectronics](https://www.st.com/en/development-tools/stm32cubeprog.html#st-get-software).
   * You will be required to provide and validate an email address to get a download link.
   * On macOS, you may need to run the executable directly: Right-click the `.app` container and select **Show package contents**, then navigate into `Contents/MacOs`. Double-click the file `SetupSTM32CubeProgrammer-X_Y_Z_macos` executable.
