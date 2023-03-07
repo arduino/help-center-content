@@ -29,7 +29,9 @@ title: "Burn the bootloader on GIGA R1 WiFi"
 
 3. Click on the **Open file** tab.
 
-   <img src="img/stm32cube-open-file.png" width=800px>
+   <!-- This won't upload to Zendesk for some reason: <img src="img/stm32cube-open-file.png" width=800px> -->
+
+   <img src="https://content.arduino.cc/assets/stm32cube-open-file.png" width=800px>
 
 4. Navigate to the [Arduino 15 folder](https://support.arduino.cc/hc/en-us/articles/360018448279-Open-the-Arduino15-folder), then select this file:
 
