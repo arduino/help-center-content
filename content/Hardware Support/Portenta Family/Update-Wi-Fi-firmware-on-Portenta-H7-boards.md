@@ -12,7 +12,7 @@ In this article, we will go through a step-by-step process on how to get the lat
 
 ## Before you begin
 
-* Install the latest version of **"Arduino Mbed OS Portenta Boards"** in Arduino IDE.
+* [Install the latest version](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE) of **"Arduino Mbed OS Portenta Boards"** in Arduino IDE.
 * [Install the latest bootloader for Portenta H7](https://support.arduino.cc/hc/en-us/articles/4404067649554)
 
 ## Instructions
