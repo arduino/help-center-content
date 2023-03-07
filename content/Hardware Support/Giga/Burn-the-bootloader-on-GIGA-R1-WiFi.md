@@ -4,7 +4,7 @@ title: "Burn the bootloader on GIGA R1 WiFi"
 
 ## Before you begin
 
-* Download the **Arduino Mbed OS Giga Boards** using the [Boards Manager in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE).
+*Add the **Arduino Mbed OS Giga Boards** to Arduino IDE using the [Boards Manager](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE).
 * [Download and install the STM32CubeProgrammer from STMicroelectronics](https://www.st.com/en/development-tools/stm32cubeprog.html#st-get-software).
   * You will be required to provide and validate an email address to get a download link.
   * On macOS, you may need to run the executable directly: Right-click the `.app` container and select **Show package contents**, then navigate into `Contents/MacOs`. Double-click the file `SetupSTM32CubeProgrammer-X_Y_Z_macos` executable.
@@ -55,8 +55,8 @@ title: "Burn the bootloader on GIGA R1 WiFi"
 
    <img src="img/stm32cube-download.png" width=800px>
 
-10. After a brief (or long if your PC is a piece of junk) moment you should see the "File download complete" message.
+10. The message "File download complete" will appear as a pop-up notification when the download is complete.
 
-11. Disconnect the board from the USB C and connect it again.
+11. Disconnect the board from the USB-C cable and connect it again.
 
 [^1]: If you've installed the **Arduino Mbed OS Giga Boards** package, you can also find it inside your [Arduino15 folder](https://support.arduino.cc/hc/en-us/articles/360018448279-Open-the-Arduino15-folder). The path is `Arduino15/packages/arduino/hardware/mbed_giga/3.9.12/bootloaders/GIGA/bootloader.elf`.
