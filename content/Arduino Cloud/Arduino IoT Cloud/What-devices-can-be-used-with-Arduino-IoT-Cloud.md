@@ -19,6 +19,7 @@ The following Arduino boards can be used with IoT Cloud:
 * [MKR NB 1500](https://docs.arduino.cc/hardware/mkr-nb-1500)
 * [Nano RP2040 Connect](https://docs.arduino.cc/hardware/nano-rp2040-connect)
 * [Nano 33 IoT](https://docs.arduino.cc/hardware/nano-33-iot)
+* [Giga R1 WiFi](https://docs.arduino.cc/hardware/giga-r1-wifi)
 * [Portenta H7](https://docs.arduino.cc/hardware/portenta-h7)
 * [Portenta H7 Lite Connected](https://docs.arduino.cc/hardware/portenta-h7-lite-connected)
 * [Portenta X8](https://docs.arduino.cc/hardware/portenta-x8)
