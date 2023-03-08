@@ -22,6 +22,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.HC_BOT_TOKEN }}
+
       - name: Deploy
         run: |
           cd _deploy
@@ -34,5 +37,3 @@ jobs:
           git config user.email ft_support@github.com
           git add .
           git diff-index --quiet HEAD || git commit -m "Update front matter" && git push
-        with:
-          token: ${{ secrets.HC_BOT_TOKEN }}
