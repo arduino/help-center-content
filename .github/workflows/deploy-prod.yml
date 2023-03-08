@@ -18,6 +18,7 @@ jobs:
       ALGOLIA_APPLICATION_ID: ${{ secrets.ALGOLIA_APPLICATION_ID }}
       ALGOLIA_INDEXER_KEY: ${{ secrets.ALGOLIA_INDEXER_KEY }}
       ALGOLIA_INDEX: ${{ secrets.ALGOLIA_INDEX }}
+      HC_BOT_TOKEN: ${{ secrets.HC_BOT_TOKEN}}
 
     steps:
       - uses: actions/checkout@v3
@@ -29,7 +30,9 @@ jobs:
           node _deploy/zendesk.mjs content '*/*/*.md' https://arduino.zendesk.com/api/v2/help_center --wait 60 --deploy
       - name: Commit any/all changes
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name hc-bot
+          git config user.email ft_support@github.com
           git add .
-          git diff-index --quiet HEAD || git commit -m "Update frontmatter" && git push
+          git diff-index --quiet HEAD || git commit -m "Update front matter" && git push
+        with:
+          token: ${{ secrets.HC_BOT_TOKEN }}
