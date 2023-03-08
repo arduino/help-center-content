@@ -34,6 +34,6 @@ jobs:
       - name: Commit any/all changes
         run: |
           git config user.name hc-bot
-          git config user.email ft_support@github.com
+          git config user.email 127318895+hc-bot@users.noreply.github.com
           git add .
           git diff-index --quiet HEAD || git commit -m "Update front matter" && git push
