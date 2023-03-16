@@ -76,6 +76,6 @@ If you intend to distribute the IDE or CLI _with modifications_, you must keep y
 
 ## Still need help?
 
-If the licensing terms are too restrictive for your project, or if you need further help [contact us](mailto:license@arduino.cc) to explore possible licensing options.
+If the licensing terms are too restrictive for your project, or if you need further help, contact us at **license@arduino.cc** to explore possible licensing options.
 
 <!-- markdownlint-disable-file HC001 -->
