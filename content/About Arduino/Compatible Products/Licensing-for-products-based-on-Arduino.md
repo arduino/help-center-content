@@ -3,9 +3,12 @@ title: "Licensing for products based on Arduino"
 id: 4415094490770
 ---
 
-This article describes the rules under which you can distribute a product based on Arduino. These rules apply to all derived products regardless of them being commercial or not, open-source or not.
+This article describes the rules under which you can distribute a product or project based on Arduino. These rules apply to all derived products and projects regardless of them being commercial or not, open-source or not.
 
-> **Note:** you can freely use Arduino hardware and software for your personal or internal purposes with no restrictions. These rules apply only when you distribute products based on Arduino to third parties. If you comply with these rules, you can distribute your software/hardware products for free or under commercial conditions.
+> **Note:**
+>
+> * You can freely use Arduino hardware and software for your personal purposes, or within your company or organization, with no restrictions. The rules described in this document apply only when you distribute products based on Arduino to third parties or you make them public in any form.
+> * If you comply with the open-source licenses of Arduino, you can distribute your software/hardware products for free or commercially. This document provides a summary of such rules for your convenience and does not waive the need to get professional legal advice.
 
 A derived product can be based on Arduino hardware designs, Arduino software components, or both. For each category, different rules apply and your product must comply with all of them.
 
@@ -15,81 +18,64 @@ A derived product can be based on Arduino hardware designs, Arduino software com
 
 If you’re designing your own board based on the open-source Arduino designs, the following rules apply:
 
-* Keep your board open-source hardware. When publishing your design files, make sure that their license is compatible with the original license of the Arduino designs. See the [Find license information](#find-license-information) section below.
+* Your derived board must be open-source hardware, thus full bill of materials and CAD files shall be made public (not just the schematics). Such files shall be licensed with the same license as the one used by us (that is CC-BY-SA-4.0 in most cases).
 
-* Do not use the “Arduino” trademark in your design files or on the product itself since this may suggest that your board is made or approved by Arduino.
+  > **Note:** If you want to release your derived board without making it open-source hardware, contact us at **license@arduino.cc** to get an exception to this rule.
 
-* When using original Arduino hardware inside a derived product, no restrictions apply and mentioning Arduino is optional. See the [trademark policy](https://www.arduino.cc/en/trademark) if you want to mention Arduino.
+* Do not use the “Arduino” trademark in your design files or on the product itself as this would be a trademark infringement and may suggest that your board is made or approved by Arduino.
+
+* When using unmodified original hardware manufactured by Arduino inside a third-party product (as part of a kit or pre-mounted in a larger assembly), no restrictions apply. Mentioning Arduino on the product or its documentation or commercial assets is not required; if you intend on doing so, see the [trademark policy](https://www.arduino.cc/en/trademark) to make sure you comply with the trademark regulation.
 
 ---
 
 ## Software products
 
-If you are distributing the Arduino tools (IDE, CLI) inside your product or you are using them within a cloud-based product, make sure to [review their licenses](#find-license-information) to understand possible restrictions.
+Any software project made with Arduino will be subject to the licenses of several components including:
 
-Certain rules apply if you use the Arduino tools (IDE, CLI or Cloud) and/or the Arduino software stack (cores, libraries) to create the software for a product that you distribute to third parties. In this context, by “derived product” or “product based on Arduino” we refer to any of the following:
+1. the Arduino core for the specific board you're compiling for (i.e. the underlying hardware abstraction layer that provides the Arduino API);
+2. any library used in the project;
+3. any third-party code you included or copied to the sketch folder.
 
-* products distributed in binary form:
-  * a hardware product that is pre-loaded with a sketch based on Arduino cores and/or libraries
-  * a pre-compiled binary sketch based on Arduino cores and/or libraries
-* products distributed in source code form:
-  * a project deriving from modified Arduino cores and/or libraries
+Whether the Arduino IDE, Arduino CLI, or any other development tools were used in the process does not affect licensing of your project. What matters is the combination of the licenses covering all the code components that get compiled and linked in the final binary artifact.
 
-### Determine license terms for a derived software product
+In this section we'll go through the most common cases, assuming you're using one of the cores maintained by Arduino (i.e. the official ones for the boards manufactured by Arduino). If you're using a third-party core, these guidelines might not apply and you'll need to check the respective licenses carefully.
 
-To determine the licensing terms of a derived product that uses Arduino software components, follow these steps:
+### Publishing an Arduino sketch as an open-source project
 
-1. Assess the original license of each component included in the build.
-2. Check the compatibility between the licenses:
+If you developed a sketch based on Arduino and you want to publish it as an open-source project in source code form, no restriction applies. We recommend choosing a popular license such as MIT, Apache-2.0, MPL-2.0, or AGPLv3.
 
-   * **Official Arduino repositories:** The official Arduino repositories contain different licenses, but all of them are compatible with each other. Any combination of licenses used in official cores and libraries is allowed, as long as you follow the specific requirements of each license term.
-   * **Third-party libraries:** Third-party libraries or third-party code that uses other libraries might contain incompatible licenses. In case of doubt, only use code written by yourself or third-party code that is licensed under the same rules of the Arduino components included in your build.
+### Distributing an Arduino sketch or library in precompiled form (or preloaded in a hardware product) without disclosing its source code
 
-3. Determine the licensing terms of the whole combination by comparing and summing the requirements of each license used in your project.
+In this case you need to go through three steps:
 
-As of now, we don’t provide a tool to list all the components and their licenses, so you will have to perform the assessment manually.
+1. The first thing to do is to check whether you're using any code snippet or library covered by the GNU General Public License (GPL). Unfortunately, in that case you are mandated to disclose the source code of the entire project. To avoid this you'll need to replace that code or library with another one that is made available under a more permissive license such as LGPL, MIT, BSD, Apache-2.0, or MPL-2.0. As an alternative, you can contact the author(s) and ask for a commercial license.
 
-### Software components that affect licensing of derived products
+   > **Note:** If you need a commercial license for official libraries developed by Arduino licensed under the GNU GPL, contact us at **license@arduino.cc**.
 
-The components whose licenses affect derived products are the ones that get compiled and linked with your custom code.
+2. Prepare a comprehensive document with the list of all the open source components involved, along with the copyright notices and the licenses, and make it available to the end users as part of the documentation.
 
-Generally speaking, a derived product is the combination of these components:
+3. Last but not least, you need to comply with article 4.d of the LGPL license which has specific and very technical requirements. Complying with such requirements, which derive from the LGPL being used in the Arduino core, is usually a matter of providing end users with some documentation and binary files.
 
-* Provided by Arduino: Core and official libraries.
-* Provided by user: Third-party libraries or code, user code.
+   > **Note:** We can provide companies with support and tools that allow them to comply with this requirement in an easy and automated way. Contact us at **license@arduino.cc** for more information.
 
-#### This includes
+### Distributing a modified version of an Arduino core or library without disclosing its source code
 
-* all the files under the `cores/arduino/` directory in platforms
-* all the files under the `patches/ directory` in platforms
-* all the files under the directory pertaining to the used board under the `variants/ directory` in platforms
-* all the files under the `src/ directory` in libraries
-* examples (when copied verbatim or in part)
+In this case you need to check the license of the specific code part that you modified. If that code was licensed under LGPL, GPL, or MPL-2.0 you must keep your modifications open source. If a permissive license such as MIT, BSD, or Apache-2.0 is used, you are not mandated to keep your modifications open source but you must retain the copyright notices of the original codebase.
 
-#### This does not generally include
+### Re-distributing the Arduino IDE or CLI
 
-* all the files that are stored in repositories for packaging/release purposes
-* documentation
-* bootloaders
-* firmwares of separate chips
-* drivers
-* unit tests
+If you intend to make the Arduino IDE, CLI, or Cloud-CLI available to your users in binary form _without any modification_ as direct downloads or as part of a larger distribution, you can freely do so. This includes the case of calling the CLI as a separate executable binary from another program.
 
-### Find license information
+If you intend to include the CLI in your project and call it as a library (instead of calling it as an executable binary), its GPLv3 license will apply to your code as well which results in the obligation to keep the entire codebase open source.
 
-#### Arduino IDE
+ > **Note:** If you still need to call the CLI as a library in your derived product without having to release the combined work as open source, contact us at **license@arduino.cc** to get an exception to this rule.
 
-The [source code](https://github.com/arduino/Arduino) for **Arduino IDE** is open-source, however other repositories are used in the build process and made available through the Library Manager and the Board Manager. See the [README](https://github.com/arduino/Arduino#readme) and the [license information](https://github.com/arduino/Arduino/blob/master/license.txt) for more information.
+If you intend to distribute the IDE or CLI _with modifications_, you must keep your modifications open source. Also, you cannot use the "Arduino" trademark in the name of the resulting artifact.
 
-#### Libraries
-
-* [Official Arduino libraries](https://github.com/arduino-libraries/)
-
-#### Cores
-
-* The AVR core can be found in the [Arduino GitHub repository](https://github.com/arduino/ArduinoCore-avr).
-* Other cores are not included by default but installed through the board manager. Their repositories can also be found in the [Arduino GitHub repository](https://github.com/arduino/).
+---
 
 ## Still need help?
 
-If the licensing terms are too restrictive for your project, or if you need further help [contact us](mailto:license@arduino.cc) to explore possible licensing options.
+If the licensing terms are too restrictive for your project, or if you need further help, contact us at **license@arduino.cc** to explore possible licensing options.
+
+<!-- markdownlint-disable-file HC001 -->
