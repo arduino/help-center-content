@@ -45,8 +45,6 @@ For more advanced settings, you need to use the
 
    ![The command palette in IDE 2.](img/command-palette.png)
 
-   <!-- TODO: The Preferences tab will open. -->
-
 3. Check the **Commonly Used** group at the top, use the sidebar, or try typing "font" in the search bar.
 
 4. These are some settings that you can use to control the way text is displayed in Arudino IDE 2:
