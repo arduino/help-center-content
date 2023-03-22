@@ -13,12 +13,9 @@ You can request to have your account deleted from the profile page or within the
 
 ### On arduino<!-- nolink-->.cc
 
-1. **Open your profile page:**
+1. Go to [id.arduino.cc](https://id.arduino.cc/).
 
-   *
-   * Go directly to [id.arduino.cc](https://id.arduino.cc/).
-
-2. Under **Account Settings**, find the text "If you wish to delete your Arduino account click here" and click on the link.
+2. Under **Account Settings**, find the text "If you wish to delete your Arduino account click here". Click on **"click here"**.
 
    ![The deletion link on the Arduino profile page.](img/delete-your-arduino.account.png)
 
