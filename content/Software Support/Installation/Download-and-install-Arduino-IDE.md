@@ -35,7 +35,19 @@ Learn how to download and install the desktop-based Arduino IDE.
    3. Select the Permissions.
    4. Tick the _Allow executing file as program_ box.
 
-4. Double-click the file to launch
+4. Double-click the AppImage file to launch Arduino IDE.
+
+If Arduino IDE fails to open, and you see the text `dlopen(): error loading libfuse.so.2` or `AppImages require FUSE to run`, you may be missing some dependencies[^1]. Follow these steps:
+
+1. Open the **Terminal** application.
+2. Enter this command:
+
+   `sudo apt-get -y install libfuse2`
+3. Press <kbd>Enter</kbd> and wait for the process to complete.
+4. Close the Terminal window.
+5. Try launching Arduino IDE again by double-clicking the AppImage file.
+
+[^1]: <https://docs.appimage.org/user-guide/troubleshooting/fuse.html>
 
 ---
 
