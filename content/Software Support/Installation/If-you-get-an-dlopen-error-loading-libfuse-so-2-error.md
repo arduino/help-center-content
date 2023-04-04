@@ -1,5 +1,6 @@
 ---
-title: 'If you get an "dlopen(): error loading libfuse.so.2" error'
+title: If you get an "dlopen(): error loading libfuse.so.2" error
+id: 8327482047772
 ---
 
 When running Arduino IDE on Linux, you may get this error:
