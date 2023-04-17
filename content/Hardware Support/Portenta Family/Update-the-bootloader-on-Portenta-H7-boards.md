@@ -56,4 +56,4 @@ A bootloader is a small application that starts when an Arduino board gets power
 * You may need to scroll down to show new lines in the Serial Monitor.
 * If you get an `Compilation error: QSPIFBlockDevice.h: No such file or directory` error, check your board selection and note that this sketch is not compatible with Portenta X8[^1].
 
-[^1]: https://github.com/arduino/ArduinoCore-mbed/issues/529
+[^1]: <https://github.com/arduino/ArduinoCore-mbed/issues/529>
