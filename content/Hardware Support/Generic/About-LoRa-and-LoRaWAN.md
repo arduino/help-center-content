@@ -29,7 +29,7 @@ Lora and LoRaWAN are generally **not** suitable for:
 * **High-bandwidth applications:** The bandwidth is limited both by data rate (up to 27 kbit/s) and the network duty cycle[^1].
 * **Real-time applications:** Any application that is sensitive to latency
 
-[^1]: https://www.thethingsnetwork.org/docs/lorawan/duty-cycle/
+[^1]: <https://www.thethingsnetwork.org/docs/lorawan/duty-cycle/>
 
 **To learn more, see [The Arduino Guide to LoRa® and LoRaWAN®](https://docs.arduino.cc/learn/communication/lorawan-101).**
 

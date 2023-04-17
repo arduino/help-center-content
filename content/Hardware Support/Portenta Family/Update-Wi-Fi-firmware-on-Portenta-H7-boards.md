@@ -40,4 +40,4 @@ In this article, we will go through a step-by-step process on how to get the lat
 
 * If you get an `Compilation error: QSPIFBlockDevice.h: No such file or directory` error, check your board selection and note that this sketch is not compatible with Portenta X8[^1].
 
-[^1]: https://github.com/arduino/ArduinoCore-mbed/issues/529
+[^1]: <https://github.com/arduino/ArduinoCore-mbed/issues/529>

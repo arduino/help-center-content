@@ -51,9 +51,9 @@ A bootloader is a small application that starts when an Arduino board gets power
 
 ## Troubleshooting
 
-* If you're having trouble uploading the sketch, or if a LED on the board is flashing red, double-press the reset button to set the board to **bootloader mode** before uploading.
+* If you're having trouble uploading the sketch, or if an LED on the board is flashing red, double-press the reset button to set the board to **bootloader mode** before uploading.
 * If the Serial Monitor is empty after uploading the sketch, press the reset button to restart the sketch.
 * You may need to scroll down to show new lines in the Serial Monitor.
 * If you get an `Compilation error: QSPIFBlockDevice.h: No such file or directory` error, check your board selection and note that this sketch is not compatible with Portenta X8[^1].
 
-[^1]: https://github.com/arduino/ArduinoCore-mbed/issues/529
+[^1]: <https://github.com/arduino/ArduinoCore-mbed/issues/529>
