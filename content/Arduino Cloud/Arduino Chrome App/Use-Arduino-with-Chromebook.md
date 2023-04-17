@@ -18,7 +18,7 @@ You can write and upload sketches on Chrome OS with the Web Editor in Arduino Cl
 
 1. Go to [create.arduino.cc/editor](https://create.arduino.cc/editor).
 2. If you're not signed into an Arduino account, you will be asked to do so.
-3. Connect a [compatible board](https://support.arduino.cc/hc/en-us/articles/360014779899) to a USB port on your computer.
+3. Connect a [compatible board](https://support.arduino.cc/hc/en-us/articles/360014779899#chromebook) to a USB port on your computer.
 4. Select your board in the Boards Dropdown.
 
    ![The Boards Dropdown in the Web Editor.](img/web-editor-boards-dropdown.png)
