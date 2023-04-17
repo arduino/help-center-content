@@ -34,7 +34,7 @@ A bootloader is a small application that starts when an Arduino board gets power
    Choosing "No", will install/update the MCUboot bootloader.
    ```
 
-1. To continue installing the Arduino bootloader, type `Y` in the text field and press `Enter` to submit.
+1. To continue installing the Arduino bootloader, type `Y` in the text field and press <kbd>Enter</kbd> to submit.
 
    ![Serial monitor output](img/portenta-h7-bootloader-serial-monitor.png)
 
@@ -45,7 +45,7 @@ A bootloader is a small application that starts when an Arduino board gets power
    Do you want to update the bootloader anyway? Y/[n]
    ```
 
-   If so, type `Y` in the text field and press `Enter` to submit.
+   If so, type `Y` in the text field and press <kbd>Enter</kbd> to submit.
 
 1. The bootloader flashing process will now start. You will see the message `Bootloader update complete. It's now safe to reboot or disconnect your board.` when the process is complete.
 
