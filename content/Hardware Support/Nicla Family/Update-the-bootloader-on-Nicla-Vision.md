@@ -1,5 +1,6 @@
 ---
-title: "Update the bootloader on Nicla Vision"
+title: Update the bootloader on Nicla Vision
+id: 8468641365276
 ---
 
 A bootloader is a small application that starts when an Arduino board gets powered. Official Arduino boards come pre-flashed with a bootloader, but to guarantee the best performance and stability it needs to be updated with the latest firmware releases.
