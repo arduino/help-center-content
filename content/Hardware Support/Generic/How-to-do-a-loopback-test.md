@@ -36,9 +36,9 @@ A **loopback test** is a troubleshooting procedure to test the serial communicat
 
 6. Connect the board to your computer and select it with the Board selector. If your board is an Arduino Nano, you'll need to manually select "Arduino Nano". The Board selector is not available in IDE 1 – use the _Tools > Port_ and _Tools > Port_ menu options instead. To learn more, see [Select board and port in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE).
 
-8. Open the Serial Monitor. If you're using Arduino IDE, click the ![Serial Monitor button](img/symbol_monitor.png) button in the top-right corner, or select _Tools > Serial Monitor_ in the menu bar. If you're using the Web Editor, select **Monitor** in the sidebar.
+7. Open the Serial Monitor. If you're using Arduino IDE, click the ![Serial Monitor button](img/symbol_monitor.png) button in the top-right corner, or select _Tools > Serial Monitor_ in the menu bar. If you're using the Web Editor, select **Monitor** in the sidebar.
 
-9. Enter a message and click Send. Your message should immediately be echoed by the board, and appear in the output field below.
+8. Enter a message and click Send. Your message should immediately be echoed by the board, and appear in the output field below.
 
    <figure style="margin-left:0;">
     <img src="img/serial_monitor_loopback_test.gif" alt="Performing a loopback test in the Arduino IDE serial monitor.">
