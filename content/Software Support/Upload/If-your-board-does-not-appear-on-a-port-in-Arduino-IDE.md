@@ -113,7 +113,7 @@ For more information, see [Select board and port in Arduino IDE](https://support
 
 > **Note:** If the Tools > Port menu is open, you need to close and re-open it for the list to refresh.
 
-If you've followed the [previous steps](look-for-board) and determined that none of the listed ports belongs to your board, or of no ports are listed at all, check the following:
+If you've determined that none of the listed ports belongs to your board, or of no ports are listed at all, check the following:
 
 ### Check board connections
 
