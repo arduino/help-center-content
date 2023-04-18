@@ -24,7 +24,7 @@ id: 7991505977116
 
 ## 2. Burn the bootloader using STM32CubeProgrammer
 
-1. **[Download the bootloader file](https://github.com/arduino/ArduinoCore-mbed/raw/master/bootloaders/GIGA/bootloader.elf)**[^1].
+1. **[Download the bootloader file](https://github.com/arduino/ArduinoCore-mbed/raw/main/bootloaders/GIGA/bootloader.elf)**[^1].
 
 2. Open STM32CubeProgrammer.
 
