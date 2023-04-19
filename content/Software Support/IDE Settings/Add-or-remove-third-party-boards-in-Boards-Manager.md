@@ -8,8 +8,10 @@ Third-party board platforms can be added to the Board Manager in Preferences.
 ## Configure additional Board Manager URLs
 
 1. Open Preferences
-   - **Windows/Linux:** `File > Preferences`
-   - **macOS:** `Arduino > Preferences`
+   - Windows/Linux: **File > Preferences**
+   - macOS: **Arduino IDE > Preferences**[^1]
+
+   [^1]: If you're using Arduino IDE 2.1 or older, this option may be called **Arduino IDE > Settings**. ([#2022](https://github.com/arduino/arduino-ide/issues/2022))
 
 2. Click on the button to the right of the _Additional Boards Manager URLs_ text field.
 

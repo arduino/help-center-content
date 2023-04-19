@@ -10,14 +10,14 @@ Learn how to install a .zip packaged theme for Arduino IDE 1.
 ---
 
 1. Open the Sketchbook folder. By default it is located in:
-   * **Windows:** `C:\Users\{username}\Documents\Arduino`
-   * **macOS:** `~/Documents/Arduino`
-   * **Linux:** `~/sketchbook`
+   * Windows: `C:\Users\{username}\Documents\Arduino`
+   * macOS: `~/Documents/Arduino`
+   * Linux: `~/sketchbook`
 
    You can check the location in Preferences, under _Sketchbook location_:
 
-   * **Windows/Linux:** `File > Preferences`.
-   * **macOS:** `Arduino > Preferences`
+   * Windows/Linux:** **File > Preferences**
+   * macOS: **Arduino > Preferences**, or **Arduino > Settings** depending on your macOS version.
 
    ![Preferences](img/IDE-preferences-sketchbook.png)
 

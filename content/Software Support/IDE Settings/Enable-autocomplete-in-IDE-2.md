@@ -7,19 +7,19 @@ Arduino IDE 2 introduces an autocomplete feature for writing your code. Follow t
 
 1. Open the IDE.
 
-2. Open the Preferences window.
+2. Open the Preferences window from the menu bar:
 
-   * **Windows/Linux:** `File > Preferences`.
+   * Windows/Linux: **File > Preferences**
 
-   * **macOS:** `Arduino IDE > Preferences`
+   * macOS: **Arduino IDE > Preferences**[^1]
 
-   ![Locate Preferences](img/Files_Preferences.png)
+   [^1]: If you're using Arduino IDE 2.1 or older, this option may be called **Arduino IDE > Settings**. ([#2022](https://github.com/arduino/arduino-ide/issues/2022))
 
-3. Check the _Editor Quick Suggestions_ box and click OK to save.
-
-   > Note that there is a [bug](https://github.com/arduino/arduino-ide/issues/313) (on version 2.0.0-beta.11 and earlier) that causes the box to appear unchecked when the preference window is opened, even if the feature is enabled.
+3. Check the _Editor Quick Suggestions_.
 
    ![Preferences Window](img/Preferences_Window.png)
+
+4. Click OK to save.
 
 Autocomplete is now enabled:
 
