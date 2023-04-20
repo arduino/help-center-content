@@ -61,9 +61,9 @@ analogReadResolution(12);
 
 ## Differential nonlinearity spikes on pins A0-A3
 
-The analog-to-digital converter on the RP2040 microcontroller have spikes in DNL (Differential nonlinearity) errors at four values — 512, 1,536, 2,560, and 3,584, limiting performance in some cases.
+The analog-to-digital converter on the RP2040 microcontroller have spikes in DNL (Differential nonlinearity) errors at four values — 512, 1,536, 2,560, and 3,584, limiting performance in some cases.[^1]
 
-See errata RP2040-E11 (p. 627) in the [RP2040 Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf) for more information.
+[^1]: See errata RP2040-E11 (p. 629) in the [RP2040 Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf).
 
 ---
 
