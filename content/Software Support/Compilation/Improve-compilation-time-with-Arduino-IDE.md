@@ -19,9 +19,11 @@ It can be helpful to understand how Arduino IDE helps improve compilation time:
 
 ## Avoid external hard drives, network drives, and cloud storage
 
-* Check your Sketchbook location and make sure to use an internal disk drive. You can check and change your Sketchbook location in the Preferences dialog (_File > Preferences_, or _Arduino IDE > Preferences_ on macOS).
-* If you're using cloud storage to automatically "offload" files, try excluding your Sketchbook path from offloading, or change your Sketchbook location. You can check and change your Sketchbook location in the Preferences dialog (_File > Preferences_, or _Arduino IDE > Preferences_ on macOS).
+* Check your Sketchbook location and make sure to use an internal disk drive. You can check and change your Sketchbook location in the Preferences dialog (**File > Preferences**, or **Arduino IDE > Preferences**[^1] on macOS).
+* If you're using cloud storage to automatically "offload" files, try excluding your Sketchbook path from offloading, or change your Sketchbook location.
 * The Sketchbook is often stored inside your user's Documents folder. In some cases, this folder may be configured to store files in a different location. See [this article from Microsoft](https://support.microsoft.com/en-us/topic/configuration-of-the-my-documents-folder-dfd9a90d-8f80-18d6-e7cc-f1566fc3b10b) if you're on Windows.
+
+[^1]: If you're using Arduino IDE 2.1 or older, this option may be called **Arduino IDE > Settings**. ([#2022](https://github.com/arduino/arduino-ide/issues/2022))
 
 ---
 
