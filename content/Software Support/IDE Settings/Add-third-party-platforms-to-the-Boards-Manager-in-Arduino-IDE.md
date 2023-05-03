@@ -52,7 +52,7 @@ Follow these steps:
 
 6. Click **OK** again to close Preferences and save the changes.
 
-7. Open the ![Boards Manager icon.](img/symbol_board.png) **Boards Manager** to update the package list.
+You can now install the platform with **Boards Manager** by following the instructions [**here**](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager)
 
 ---
 
