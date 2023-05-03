@@ -5,7 +5,7 @@ id: 360016466340
 
 ## About third-party platforms
 
-By the default, Arduino IDE installs and updates the board platforms from the official Arduino package list[^1]. This lets you install and update Arduino platforms, for use with official Arduino boards, as well as third-party boards compatible with the official Arduino platform.
+By default, Arduino IDE installs and updates the board platforms from the official Arduino package list[^1]. This lets you install and update Arduino platforms, for use with official Arduino boards, as well as third-party boards compatible with the official Arduino platform.
 
 The Board Manager can also be used for conveniently installing and updating platforms that are not in the official package list, if the creator provides a **platform index URL** (ending with `_index.json`). You can use this URL to [configure additional Board Manager URLs](#add-or-remove).
 
