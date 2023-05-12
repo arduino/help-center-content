@@ -14,7 +14,7 @@ Follow these steps to request a download link:
 
 2. Press the **Download** button in the top-right corner.
 
-   ![](img/download-data.png)
+   ![Download historic data button.](img/download-data.png)
 
 3. Select the variables you want to include in the downloaded data.
 
