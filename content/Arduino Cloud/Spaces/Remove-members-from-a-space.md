@@ -14,7 +14,7 @@ You can remove members from a space depending on your role:
 
 * Removed members keep their Arduino accounts
 * Removed members will no longer have access to courses shared with the space.
-* The removed member will keep their data, but will no longer benefit from additional features and limits provided by any **School plan** active with the space. , but may have some features restricted if they exceed the limits of their personal plan. See [If you exceed plan limits after downgrading](https://support.arduino.cc/hc/en-us/articles/4401874212370-If-you-exceed-plan-limits-after-downgrading).
+* The removed member will keep their data, but will no longer benefit from additional features and limits provided by any **School plan** active with the space. Some features may be restricted if they exceed the limits of their personal plan. See [If you exceed plan limits after downgrading](https://support.arduino.cc/hc/en-us/articles/4401874212370-If-you-exceed-plan-limits-after-downgrading).
 
 ## Remove a member from a space
 
