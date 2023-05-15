@@ -102,18 +102,4 @@ When downloading the runtime sketch, this error may appear in the console:
 ```
 
 It can occur if the wrong port is selected in the manual sketch download widget. If you're unsure which port to use, see [About ports in PLC IDE](#about-ports).
-
-### Error: "Cannot download sketch file (error code: 1)"
-
-When downloading the runtime sketch, this error may occur:
-
-```
-Cannot download sketch file (error code: 1)
-```
-
-Try this:
-
-1. Close any applications that may be blocking the port, such as the serial monitor in Arduino IDE.
-2. Try downloading the runtime with your device in **bootloader mode** (double-press the reset button).
-
 <!-- markdownlint-disable-file HC001 -->
