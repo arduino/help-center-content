@@ -106,13 +106,14 @@ In this article:
 ### Starter Kit (projects book)
 
 * English
+* Arabic
 * Spanish
 * Italian
 * German*
 * French*
 * Chinese
 * Korean
-* Arabic
+* Portuguese
 
 <!-- markdownlint-disable-next-line MD036 -->
 _*Language and graphic revision in 2021_
