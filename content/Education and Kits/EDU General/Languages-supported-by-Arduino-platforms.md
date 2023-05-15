@@ -22,35 +22,35 @@ In this article:
 ### CTC 101
 
 * English
-* Spanish
 * Italian
+* Spanish
 
 <!-- markdownlint-disable-next-line MD026 -->
 ### CTC GO!
 
 * English
-* Spanish
-* Italian
-* German
-* Portuguese
 * French
+* German
+* Italian
+* Portuguese
+* Spanish
 
 ### CTC Motions
 
 * English
-* Spanish
 * French
+* Spanish
 
 ### Education Starter Kit
 
 * English
-* Spanish
-* Italian
-* German
-* Portuguese
-* French
 * Chinese
 * Croatian
+* French
+* German
+* Italian
+* Portuguese
+* Spanish
 * Thai
 
 ### Engineering Kit Rev1
@@ -66,32 +66,26 @@ In this article:
 ### Explore IoT Kit
 
 * English
-* Spanish
-* Italian
 * German
+* Italian
 * Portuguese
+* Spanish
 
 ### Greenhouse Kit
 
 * English
 * Italian
 
-### Sensor Kit
-
-* English
-* Spanish
-* Chinese
-
 ### Student Kit
 
 * English
-* Spanish
-* Italian
-* German
-* Portuguese
-* French
 * Chinese
 * Croatian
+* French
+* German
+* Italian
+* Portuguese
+* Spanish
 * Thai
 
 ---
@@ -106,7 +100,6 @@ In this article:
 * Spanish
 * Italian
 * German*
-* Portuguese
 * French*
 * Chinese
 * Korean
@@ -118,10 +111,16 @@ _*Language and graphic revision in 2021_
 ### Oplà
 
 * English
-* Spanish
-* Italian
-* German
 * French
+* German
+* Italian
+* Spanish
+
+### Sensor Kit
+
+* English
+* Chinese
+* Spanish
 
 ---
 
