@@ -85,8 +85,8 @@ Cannot download sketch file (error code: 1)
 Follow these steps:
 
 1. Double-tap the reset button on the device to set it to **bootloader mode**, and try downloading the sketch again.
-1. Ensure other applications are not blocking the port, for example the Serial Monitor in Arduino IDE.
-1. Check the port selection.
+2. Close any applications that may be blocking the port, such as the serial monitor in Arduino IDE.
+3. [Check the port selection](#about-ports).
 
 ### If nothing happens when downloading the runtime sketch
 
