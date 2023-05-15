@@ -5,7 +5,7 @@ id: 4406710694930
 
 ## Roles that can remove members
 
-You can remove members from space depending on your role:
+You can remove members from a space depending on your role:
 
 * **Teachers** can remove **Students**
 * **Admins** can remove any member.
