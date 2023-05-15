@@ -4,7 +4,7 @@ title: "If you're having trouble connecting a device to PLC IDE"
 
 ## Check this first
 
-* If you haven't done so, start by checking the [Arduino PLC IDE Setup and Board's License Activation](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#1-arduino-plc-ide-tools) tutorial.
+* If you haven't done so, start by checking the [Arduino PLC IDE Setup and Board's License Activation](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#instructions) tutorial.
 * Make sure you've installed the **Arduino PLC IDE Tools** package, in addition to the main PLC application.
 * When downloading the runtime, or connecting to the device, make sure you're [targeting the correct port](#about-ports).
 * When opening a project created with an earlier version of the PLC IDE, some issues may occur. Try creating a new project (**File > New Project**) to see if this resolve the issue.
