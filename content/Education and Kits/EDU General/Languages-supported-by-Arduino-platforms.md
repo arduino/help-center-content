@@ -76,6 +76,15 @@ In this article:
 * English
 * Italian
 
+## Science Kit Physics Lab
+
+* English
+* Spanish
+* Italian
+* Hungarian
+* Portuguese
+* German
+
 ### Student Kit
 
 * English
@@ -144,13 +153,19 @@ _*Language and graphic revision in 2021_
 
 ## Software
 
+### Arduino CLI
+
+The application is developed in English, but includes community-provided translations.
+
+For more information about language support, see the [Arduino CLI translation project](https://app.transifex.com/arduino-1/arduino-cli/).
+
 ### Arduino Cloud
 
 * English
 
 ### Arduino IDE
 
-The application is developed in English, but comes packaged with community-provided translations.
+The application is developed in English, but includes community-provided translations.
 
 For more information about language support, see the translation projects:
 
