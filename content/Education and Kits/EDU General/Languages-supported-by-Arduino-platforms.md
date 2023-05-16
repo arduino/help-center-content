@@ -27,7 +27,7 @@ In this article:
 * Spanish
 
 <!-- markdownlint-disable-next-line MD026 -->
-### CTC GO!
+### CTC GO! Core Module
 
 * English
 * French
@@ -36,7 +36,7 @@ In this article:
 * Portuguese
 * Spanish
 
-### CTC Motions
+### CTC GO! Motions Expansion Pack
 
 * English
 * French
@@ -54,7 +54,7 @@ In this article:
 * Spanish
 * Thai
 
-### Engineering Kit Rev1
+### Engineering Kit
 
 * English
 * German
@@ -77,7 +77,7 @@ In this article:
 * English
 * Italian
 
-## Science Kit Physics Lab
+### Science Kit Physics Lab
 
 * English
 * Spanish
@@ -119,7 +119,7 @@ In this article:
 <!-- markdownlint-disable-next-line MD036 -->
 _*Language and graphic revision in 2021_
 
-### Oplà
+### Oplà IoT Kit
 
 * English
 * French
@@ -182,6 +182,6 @@ For more information about language support, see the translation projects:
 
 * English
 
-### Web Editor
+### Arduino Web Editor
 
 * English
