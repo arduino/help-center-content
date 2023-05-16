@@ -1,5 +1,6 @@
 ---
 title: "If you can't access the Web Editor"
+id: 8825427680796
 ---
 
 When accessing the **Web Editor** ([create.arduino.cc/editor](https://create.arduino.cc/editor)), you may encounter one of these issues:
