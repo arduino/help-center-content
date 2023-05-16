@@ -9,15 +9,17 @@ Learn how to open the Sketchbook on your system.
 
 By default the Sketchbook is located in these directories:
 
-* **Windows:** `C:\Users\{username}\Documents\Arduino`
-* **macOS:** `/Users/{username}/Documents/Arduino`
-* **Linux:** `/home/{username}/Arduino`
+* Windows: `C:\Users\{username}\Documents\Arduino`
+* macOS: `/Users/{username}/Documents/Arduino`
+* Linux: `/home/{username}/Arduino`
 
 You can also find the location inside Arduino IDE, in Preferences under _Sketchbook location_:
 
-* **Windows:** `File > Preferences`.
-* **macOS:** `Arduino IDE > Preferences`
-* **Linux:** `File > Preferences`.
+* Windows: **File > Preferences**.
+* macOS: **Arduino IDE > Preferences**[^1]
+* Linux: **File > Preferences**.
+
+[^1]: If you're using Arduino IDE 2.1 or older, this option may be called **Arduino IDE > Settings**. ([#2022](https://github.com/arduino/arduino-ide/issues/2022))
 
 ![Preferences](img/IDE-preferences-sketchbook.png)
 
