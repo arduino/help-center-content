@@ -1,5 +1,6 @@
 ---
 title: "Export historical data in IoT Cloud"
+id: 8825464267420
 ---
 
 Learn how to export historical data from Arduino IoT Cloud as CSV (comma-separated values) files.
