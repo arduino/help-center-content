@@ -1,15 +1,21 @@
 ---
-title: "Check and update the firmware for WiFiNINA and WiFi101"
+title: "Update the firmware for WiFiNINA and WiFi101"
 id: 360013896579
 ---
 
-Learn how to check the firmware for WiFiNINA and WiFi101 modules, and update it using the Firmware Updater tool.
+Learn how to update the firmware for WiFiNINA and WiFi101 using the Firmware Updater tool. 
+
+In this article: 
+
+* [Compatible Boards](#compatible-boards)
+* [Update the firmware in Arduino IDE 2](#arduino-ide-2)
+* [Update the firmware in Arduino IoT Cloud](#arduino-iot-cloud)
 
 ---
 
-## Arduino IDE
+<a id="compatible-boards"></a>
 
-### Check which firmware is used
+## Compatible Boards
 
 Boards with the **WiFiNINA** module:
 
@@ -17,75 +23,39 @@ Boards with the **WiFiNINA** module:
 * [Arduino MKR Vidor 4000](https://store.arduino.cc/arduino-mkr-vidor-4000)
 * [Arduino Nano 33 IoT](https://store.arduino.cc/arduino-nano-33-iot)
 * [Arduino UNO WiFi Rev2](https://store.arduino.cc/arduino-uno-wifi-rev2)
-
+* [Arduino Nano RP2040 Connect](https://store.arduino.cc/collections/boards/products/arduino-nano-rp2040-connect)
+  
 Boards with the **WiFi101** module:
 
-* [Arduino MKR1000](https://docs.arduino.cc/hardware/mkr-1000-wifi)
+* [Arduino MKR 1000 WiFi](https://docs.arduino.cc/hardware/mkr-1000-wifi)
 
-### Check the firmware version
+<a id="arduino-ide-2"></a>
 
-We can check the current firmware version by uploading a sketch to the board that will report the version via the serial monitor.
+## Update the firmware in Arduino IDE 2
 
-1. Connect the board to your computer and start Arduino IDE.
+To update the firmware in Arduino IDE 2 follow these steps:
 
-2. The **WiFiNINA** or **WiFi101** library needs to be installed, depending on the module. Open the Library Manager (_Tools > Manage Libraries..._) and make sure it's installed. For help with library installation, see [this guide](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries).
+1. Connect the board to your computer and open the Arduino IDE 2.
+   
+2. In the top menu bar, open **Tools > WiFi101 / WiFiNINA Firmware Updater**.
 
-3. With the library installed, open the firmware checking sketch:
+    ![Arduino IDE 2 with the WiFi101 / WiFiNINA Firmware Updater highlighetd under the Tools menu](img/firmware-updater-arduino-ide-2-menu-selection.png)
 
-   * **WiFiNINA::** _File > Examples > WiFiNINA > Tools > Select ‘CheckFirmwareVersion_.
-   * **WiFi101:** _File > Examples > WiFi101 > CheckWifi101FirmwareVersion_.
+3. A new window will open. Select your board on the drop-down menu and click *CHECK UPDATES*
 
-4. Choose the port with your board in _Tools > Port_.
+    ![WiFi101 / WiFiNINA Firmware Updater window displaying the board selection menu and the "check updates" button](img/firmware-updater-arduino-ide-2-check-updates.png)
 
-5. Click ![Upload button](img/symbol_upload.png) **Upload** to upload the sketch to the board.
+4. Select the latest firmware version on the drop-down menu and click *INSTALL* (Note that the installation will overwrite any existing sketch on your board).
 
-6. Open the Serial Monitor (_Tools > Serial Monitor_) and observe the output.
+    ![WiFi101 / WiFiNINA Firmware Updater window displaying selected firmware version and the "install" button](img/firmware-updater-arduino-ide-2-select-board-install.png)
 
-   ![Serial monitor](img/SerialMonitor_firmware_update.png)
+5. The "Firmware successfuly installed" dialogue will appear when the process is finished.  
 
-If the latest firmware is installed the output will include this line:
+    !["Firmware successfuly installed" message displaying on the WiFi101 / WiFiNINA Firmware Updater window](img/firmware-updater-arduino-ide-2-installation-successful.png)
 
-```
-Check result: PASSED
-```
+<a id="arduino-iot-cloud">    
 
-But if a newer firmware version is available the output will look something like this:
-
-```
-WiFiNINA firmware check.
-
-Firmware version installed: 1.4.7
-Latest firmware version available : 1.4.8
-
-Check result: NOT PASSED
- - The firmware version on the module does not match the
-   version required by the library, you may experience
-   issues or failures.
-```
-
-To update the firmware, follow the instructions below.
-
-## Update the firmware
-
-Updating the firmware can be done using the **Firmware Updater** tool.
-
-1. Connect the board to your computer and make sure the Serial Monitor is not open.
-
-2. Open the Firmware Updater (`Tools > WiFi101 / WiFiNINA Firmware Updater`).
-
-3. *Select port of the WiFi module.* Select your board in the list. If it is not listed, make sure it is connected, and click 'Refresh list'. Finally, click 'Open Updater sketch'.
-
-   ![Firmware Updater Tool](img/IDE_FWupdaterSketch.png)
-
-4. Upload the sketch by clicking ![Upload button](img/symbol_upload.png) **Upload**. Then, go back to the Firmware Updater window from before.
-
-5. *Update firmware.* Select a firmware version in the dropdown. Typically, you will want the latest version (the one with the highest version number, at the top of the list). Finally, click 'Update Firmware'.
-
-   ![Firmware Updater Tool](img/IDE_FWupdaterVersion.png)
-
-6. Wait for the firmware update to complete, which may take a minute to complete. A successful update will be confirmed by a pop-up.
-
-## Arduino IoT Cloud
+## Update the firmware in Arduino IoT Cloud
 
 The firmware can also be managed in Arduino IoT Cloud.
 
@@ -101,7 +71,7 @@ The firmware can also be managed in Arduino IoT Cloud.
 
 ### Update the firmware
 
-If a new firmware is released for a device added to IoT Cloud:
+If a new firmware version has been released for a device added to IoT Cloud:
 
 1. Open the [Device tab](https://create.arduino.cc/iot/devices).
 
@@ -111,7 +81,7 @@ If a new firmware is released for a device added to IoT Cloud:
 
    ![Device Info](img/iot-cloud-device-info-update.png)
 
-Alternatively, you can remove and add the device again. When adding the device the firmware is automatically updated with the latest firmware version.
+Alternatively, you can remove and add the device again. When adding the device, the firmware is automatically updated with the latest firmware version.
 
 1. Connect the board to your computer and make sure the Serial Monitor is not open.
 
