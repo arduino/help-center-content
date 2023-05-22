@@ -24,7 +24,7 @@ Boards with the **WiFiNINA** module:
 * [Arduino Nano 33 IoT](https://store.arduino.cc/arduino-nano-33-iot)
 * [Arduino UNO WiFi Rev2](https://store.arduino.cc/arduino-uno-wifi-rev2)
 * [Arduino Nano RP2040 Connect](https://store.arduino.cc/collections/boards/products/arduino-nano-rp2040-connect)
-  
+
 Boards with the **WiFi101** module:
 
 * [Arduino MKR 1000 WiFi](https://docs.arduino.cc/hardware/mkr-1000-wifi)
@@ -36,24 +36,24 @@ Boards with the **WiFi101** module:
 To update the firmware in Arduino IDE 2 follow these steps:
 
 1. Connect the board to your computer and open the Arduino IDE 2.
-   
+
 2. In the top menu bar, open **Tools > WiFi101 / WiFiNINA Firmware Updater**.
 
-![Arduino IDE 2 with the WiFi101 / WiFiNINA Firmware Updater highlighetd under the Tools menu](img/firmware-updater-arduino-ide-2-menu-selection.png)
+    ![Arduino IDE 2 with the WiFi101 / WiFiNINA Firmware Updater highlighetd under the Tools menu](img/firmware-updater-arduino-ide-2-menu-selection.png)
 
 3. A new window will open. Select your board on the drop-down menu and click *CHECK UPDATES*
 
-![WiFi101 / WiFiNINA Firmware Updater window displaying the board selection menu and the "check updates" button](img/firmware-updater-arduino-ide-2-check-updates.png)
+    ![WiFi101 / WiFiNINA Firmware Updater window displaying the board selection menu and the "check updates" button](img/firmware-updater-arduino-ide-2-check-updates.png)
 
 4. Select the latest firmware version on the drop-down menu and click *INSTALL* (Note that the installation will overwrite any existing sketch on your board).
 
-![WiFi101 / WiFiNINA Firmware Updater window displaying selected firmware version and the "install" button](img/firmware-updater-arduino-ide-2-select-board-install.png)
+    ![WiFi101 / WiFiNINA Firmware Updater window displaying selected firmware version and the "install" button](img/firmware-updater-arduino-ide-2-select-board-install.png)
 
-5. The "Firmware successfuly installed" dialogue will appear when the process is finished.  
+5. The "Firmware successfuly installed" dialogue will appear when the process is finished.
 
-!["Firmware successfuly installed" message displaying on the WiFi101 / WiFiNINA Firmware Updater window](img/firmware-updater-arduino-ide-2-installation-successful.png)
+    !["Firmware successfuly installed" message displaying on the WiFi101 / WiFiNINA Firmware Updater window](img/firmware-updater-arduino-ide-2-installation-successful.png)
 
-<a id="arduino-iot-cloud">    
+<a id="arduino-iot-cloud">
 
 ## Update the firmware in Arduino IoT Cloud
 
