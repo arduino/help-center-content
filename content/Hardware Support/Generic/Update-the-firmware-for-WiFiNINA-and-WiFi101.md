@@ -7,9 +7,9 @@ Learn how to update the firmware for WiFiNINA and WiFi101 using the Firmware Upd
 
 In this article:
 
-*[Compatible Boards](#compatible-boards)
-*[Update the firmware in Arduino IDE 2](#update-the-firmware-in-arduino-ide-2)
-*[Update the firmware in Arduino IoT Cloud](#update-the-firmware-in-arduino-iot-cloud)
+* [Compatible Boards](#compatible-boards)
+* [Update the firmware in Arduino IDE 2](#update-the-firmware-in-arduino-ide-2)
+* [Update the firmware in Arduino IoT Cloud](#update-the-firmware-in-arduino-iot-cloud)
 
 ---
 
