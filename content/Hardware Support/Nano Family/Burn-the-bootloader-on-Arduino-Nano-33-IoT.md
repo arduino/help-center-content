@@ -2,7 +2,7 @@
 title: "Burn the bootloader on Arduino Nano 33 IoT"
 ---
 
-> **Note:** The method described here are for advanced users, and requires specialized equipment.
+> **Note:** The methods described here are intended for advanced users and require specialized equipment.
 
 Learn about the ways to burn the bootloader on the Arduino Nano 33 IoT.
 
