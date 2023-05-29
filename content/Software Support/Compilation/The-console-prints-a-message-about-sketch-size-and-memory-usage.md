@@ -26,7 +26,7 @@ This means that the sketch was compiled without errors and gives you an idea of 
 
 The process of uploading a sketch to the board is a separate step from the compilation process. Even if the sketch was compiled successfully, errors can still occur during upload. In this case, the message about sketch size and memory usage will still be printed, but it will be followed by an error message. For example:
 
-![IDE 2 with a message about sketch storage space and dynamic memory usage and failed upload error printed on the console](img/ide2_upload_error.png)
+![IDE 2 with a message: "Sketch uses 924 bytes (2%) of program storage space. Maximum is 32256 bytes.Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.Failed uploading: no upload port provided about sketch storage space and dynamic memory usage"](img/ide2_upload_error.png)
 
 In this example, there is an upload error. See [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch') for more information.
 
@@ -36,7 +36,7 @@ In this example, there is an upload error. See [Errors when uploading a sketch](
 
 If the compilation fails, the IDE/Web editor will print an error message. For example:
 
-![IDE 2 with a sketch size error message printed on the console](img/ide2_compilation_error_size.png)
+![IDE 2 with message: " Not enough memory; see https://support.arduino.cc/hc/en-us/articles/360013825179 for tips on reducing your footprint.Sketch uses 5094 bytes (15%) of program storage space. Maximum is 32256 bytes. Global variables use 3317 bytes (161%) of dynamic memory, leaving -1269 bytes for local variables.Maximum is 2048 bytes.data section exceeds available space in board Compilation error: data section exceeds available space in board](img/ide2_compilation_error_size.png)
 
 * If the error message suggests issues with the sketch size or memory, check [Reduce the size and memory usage of your sketch](https://support.arduino.cc/hc/en-us/articles/360013825179-Reduce-the-size-and-memory-usage-of-your-sketch) for more information.
 
