@@ -2,22 +2,77 @@
 title: "Fix udev rules on Linux"
 ---
 
-On Linux, missing udev[^1] rules can result in failed uploads. While you may be able to select the board in Arduino IDE and start a sketch upload, when the board is reset into bootloader mode, Arduino IDE will not be able to access it. This can result in errors such as:
+On Linux, missing udev[^1] rules can result in failed uploads, as Arduino IDE (and other development tools) will not be able to access the board when it resets to bootloader mode.
+
+The board platform typically includes a script that will generate the appropriate udev rules, but in some cases this may need to be done manually.
 
 [^1]: <https://manpages.ubuntu.com/manpages/xenial/man7/udev.7.html>
 
-* `dfu-util: Cannot open DFU device 2341:x found on devnum 24 (LIBUSB_ERROR_ACCESS)`
-
-  `dfu-util: No DFU capable USB device available`
-* `Error: unable to open CMSIS-DAP device 0x2341:x`
-
-  `Error: unable to find a matching CMSIS-DAP device`
-
-* `Failed uploading: uploading error: exit status 74`
-
-* `Failed uploading: uploading error: exit status 1`
+<table>
+<thead>
+  <tr>
+    <th>Boards</th>
+    <th>Related error output</th>
+    <th>Instructions</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nano RP2040 Connect</td>
+    <td><code>Failed uploading: uploading error: exit status 1</code></td>
+    <td rowspan="4"><a href="#mbed-os">Set udev rules for Arduino Mbed OS boards</a></td>
+  </tr>
+  <tr>
+    <td>GIGA R1 WiFi</td>
+    <td>
+      <code>dfu-util: Cannot open DFU device 2341:0366 found on devnum 24 (LIBUSB_ERROR_ACCESS)</code><br>
+      <code>dfu-util: No DFU capable USB device available</code><br>
+      <code>Failed uploading: uploading error: exit status 74</code>
+    </td>
+  </tr>
+  <tr>
+    <td>Nicla Sense ME</td>
+    <td>
+      <code>Error: unable to open CMSIS-DAP device 0x2341:0x60</code><br>
+      <code>Error: unable to find a matching CMSIS-DAP device</code><br>
+      <code>Failed uploading: uploading error: exit status 1</code>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Portenta H7<br>
+      <i>Portenta H7 Lite</i><br>
+      <i>Portenta H7 Lite Connected</i>
+    </td>
+    <td>
+      <code>dfu-util: Cannot open DFU device 2341:035b found on devnum 26 (LIBUSB_ERROR_ACCESS)</code><br>
+      <code>dfu-util: No DFU capable USB device available</code><br>
+      <code>Failed uploading: uploading error: exit status 74</code>
+    </td>
+  </tr>
+  <tr>
+    <td>Nano Every</td>
+    <td>
+      <code>avrdude: jtagmkII_getsync(): sign-on command: status -1</code><br>
+      <code>avrdude: jtagmkII_getsync(): timeout/error communicating with programmer (status -1)</code><br>
+      <code>Failed uploading: uploading error: exit status 1</code>
+    </td>
+    <td rowspan="2"><a href="#megaAVR">Set udev rules for Arduino megaAVR boards</a></td>
+  </tr>
+  <tr>
+    <td>UNO WiFi Rev2</td>
+    <td>
+      <code>avrdude: usbdev_open(): cannot open device: Permission denied</code><br>
+      <code>avrdude: jtag3_open_common(): Did not find any device matching VID 0x03eb and PID list: 0x2145</code><br>
+      <code>Failed uploading: uploading error: exit status 1</code>
+    </td>
+  </tr>
+</tbody>
+</table>
 
 ---
+
+<a id="mbed-os"></a>
 
 ## Set udev rules for Arduino Mbed OS boards
 
@@ -30,11 +85,7 @@ The following boards require udev rules:
 * Portenta H7 Lite (mbed_portenta)
 * Portenta H7 Lite Connected (mbed_portenta)
 
-Missing udev rules can result in these errors:
-
-
-
-Follow these steps;
+Follow these steps:
 
 You can set the udev rules by running `post_install.sh` as root:
 
@@ -49,15 +100,17 @@ You can set the udev rules by running `post_install.sh` as root:
 
      `cd ~/Downloads`
 
-1.  Run this command:
+1. Run this command:
 
-    `sudo ./post_install.sh`
+   `sudo ./post_install.sh`
 
 1. If prompted, enter your password, and press Enter again.
 
 Try uploading your sketch again.
 
 ---
+
+<a id="megaAVR"></a>
 
 ## Set udev rules for Arduino megaAVR boards
 
@@ -72,7 +125,7 @@ Missing udev rules can result in these errors:
 * `avrdude: jtag3_open_common(): Did not find any device matching VID 0x03eb and PID list: 0x2145`
 * `Failed uploading: uploading error: exit status 1`
 
-Follow these steps;
+Follow these steps:
 
 You can set the udev rules by running `post_install.sh` as root:
 
@@ -87,9 +140,9 @@ You can set the udev rules by running `post_install.sh` as root:
 
      `cd ~/Downloads`
 
-1.  Run this command:
+1. Run this command:
 
-    `sudo ./post_install.sh`
+   `sudo ./post_install.sh`
 
 1. If prompted, enter your password, and press Enter again.
 
