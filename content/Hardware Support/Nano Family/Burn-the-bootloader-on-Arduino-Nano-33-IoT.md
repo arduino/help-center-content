@@ -1,5 +1,6 @@
 ---
-title: "Burn the bootloader on Arduino Nano 33 IoT"
+title: Burn the bootloader on Arduino Nano 33 IoT
+id: 8991429732124
 ---
 
 > **Note:** The methods described here are intended for advanced users and require specialized equipment.
