@@ -1,5 +1,5 @@
 ---
-title: "The IDE/Web editor prints a message about sketch size and memory usage"
+title: "The console prints a message about sketch size and memory usage"
 id: 4405339237522
 ---
 
