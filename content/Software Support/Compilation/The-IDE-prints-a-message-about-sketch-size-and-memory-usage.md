@@ -18,7 +18,7 @@ When the IDE/Web editor successfully compiles a sketch, it prints a message simi
 
 ![IDE 2 with a message about sketch storage space and dynamic memory usage printed on the console](img/ide2_successful_compilation.png)
 
-This means that the sketch was compiled without errors and gives you an idea of how much storage space and dynamic memory it utilizes. However, errors can occur when you upload the sketch to your board. 
+This means that the sketch was compiled without errors and gives you an idea of how much storage space and dynamic memory it utilizes. However, errors can occur when you upload the sketch to your board.
 
 <a id="potential-upload-errors"></a>
 
