@@ -4,7 +4,7 @@ title: "Fix udev rules on Linux"
 
 On Linux, missing udev[^1] rules can result in failed uploads, as Arduino IDE (and other development tools) will not be able to access the board when it resets to bootloader mode.
 
-The board platform typically includes a script that will generate the appropriate udev rules, but in some cases this may need to be done manually.
+The board package typically includes a script that is run during installation, which sets the appropriate udev rules. If this script didn't run correctly, or if the rules were removed, they can be configured by running the script manually:
 
 [^1]: <https://manpages.ubuntu.com/manpages/xenial/man7/udev.7.html>
 
@@ -90,21 +90,22 @@ Follow these steps:
 You can set the udev rules by running `post_install.sh` as root:
 
 1. Go to the [post_install.sh file in the GitHub repository](https://github.com/arduino/ArduinoCore-mbed/blob/main/post_install.sh).
-1. Download the file to your computer.
+
+2. Download the file to your computer.
 
    ![The "Download raw file" button on github.com](img/github-udev-download.png)
 
-1. Open your Download folder in Terminal:
+3. Open your Download folder in Terminal:
    * **On Ubuntu:** Open the Files application and navigate to your Download folder. Right-click on an empty area inside the folder (not on a file) and select **Open in Terminal**.
    * Open Terminal, and navigate to your Download folder:
 
      `cd ~/Downloads`
 
-1. Run this command:
+4. Run this command:
 
    `sudo ./post_install.sh`
 
-1. If prompted, enter your password, and press Enter again.
+5. If prompted, enter your password, and press Enter again.
 
 Try uploading your sketch again.
 
@@ -119,31 +120,26 @@ The following boards require udev rules:
 * UNO WiFi Rev2
 * Nano Every
 
-Missing udev rules can result in these errors:
-
-* `avrdude: usbdev_open(): cannot open device: Permission denied`
-* `avrdude: jtag3_open_common(): Did not find any device matching VID 0x03eb and PID list: 0x2145`
-* `Failed uploading: uploading error: exit status 1`
-
 Follow these steps:
 
 You can set the udev rules by running `post_install.sh` as root:
 
 1. Go to the [post_install.sh file in the GitHub repository](https://github.com/arduino/ArduinoCore-mbed/blob/main/post_install.sh).
-1. Download the file to your computer.
+
+2. Download the file to your computer.
 
    ![The "Download raw file" button on github.com](img/github-udev-download.png)
 
-1. Open your Download folder in Terminal:
+3. Open your Download folder in Terminal:
    * **On Ubuntu:** Open the Files application and navigate to your Download folder. Right-click on an empty area inside the folder (not on a file) and select **Open in Terminal**.
    * Open Terminal, and navigate to your Download folder:
 
      `cd ~/Downloads`
 
-1. Run this command:
+4. Run this command:
 
    `sudo ./post_install.sh`
 
-1. If prompted, enter your password, and press Enter again.
+5. If prompted, enter your password, and press Enter again.
 
 Try uploading your sketch again.
