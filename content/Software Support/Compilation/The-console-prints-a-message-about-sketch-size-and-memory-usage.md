@@ -3,53 +3,73 @@ title: "The console prints a message about sketch size and memory usage"
 id: 4405339237522
 ---
 
-The Arduino IDE/Web Editor checks your sketch's storage space and dynamic memory usage and prints a message after compilation. Learn what these messages mean and how they relate to potential errors. In this article:
+The Arduino IDE/Web Editor checks your sketch's storage space and dynamic memory usage and prints a message after compilation. Learn what these messages mean and how they relate to potential errors.
 
-* [If the compilation is successful](#if-the-compilation-is-successful)
-  * [Potential upload errors](#potential-upload-errors)
-* [If the compilation fails](#if-the-compilation-fails)
-* [Differences between compilation and upload](#differences-between-compilation-and-upload)
+In this article:
 
-<a id="if-the-compilation-is-successful"></a>
+* [When the message is printed](#when-the-message-is-printed)
+* [If the sketch size is within board limits](#if-the-sketch-size-is-within-board-limits)
+* [If sketch exceeds available space](#if-sketch-exceeds-available-space)
 
-## If the compilation is successful
+---
 
-When the IDE/Web editor successfully compiles a sketch, it prints a message similar to the one below:
+<a id="when-the-message-is-printed"></a>
 
-![IDE 2 console with message: "Sketch uses 924 bytes (2%) of program storage space. Maximum is 32256 bytes. Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes."](img/ide2_successful_compilation.png)
+## When the message is printed
 
-This means that the sketch was compiled without errors and gives you an idea of how much storage space and dynamic memory it utilizes. However, errors can occur when you upload the sketch to your board.
+Whenever you click the ![Verify button](img/symbol_verify2.png) **Verify** or ![Upload button](img/symbol_upload2.png) **Upload** button, the IDE/Web Editor will **compile** your sketch. At the end of the compilation process, it will check that the compiled sketch doesn't exceed the storage limits of the board.
 
-<a id="potential-upload-errors"></a>
+The output will look something like this:
 
-### Potential upload errors
+![IDE 2 with a message about sketch storage space and dynamic memory usage printed on the console](img/ide2_successful_compilation.png)
 
-The process of uploading a sketch to the board is a separate step from the compilation process. Even if the sketch was compiled successfully, errors can still occur during upload. In this case, the message about sketch size and memory usage will still be printed, but it will be followed by an error message. For example:
+The message is normal and expected output any time you ![Verify button](img/symbol_verify2.png) **Verify** or ![Upload button](img/symbol_upload2.png) **Upload** a sketch.
 
-![IDE 2 with a message: "Sketch uses 924 bytes (2%) of program storage space. Maximum is 32256 bytes.Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.Failed uploading: no upload port provided about sketch storage space and dynamic memory usage"](img/ide2_upload_error.png)
+---
 
-In this example, there is an upload error. See [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch') for more information.
+<a id="if-the-sketch-size-is-within-board-limits"></a>
 
-<a id="if-the-compilation-fails"></a>
+## If the sketch size is within board limits
 
-## If the compilation fails
+If both program storage space and dynamic memory usage is **less** than 100%, the compilation process has completed successfully:
 
-If the compilation fails, the IDE/Web editor will print an error message. For example:
+* In Arduino IDE, a **"Done compiling"** notification will appear briefly in the bottom-right corner.
+* If you clicked the ![Verify button](img/symbol_verify2.png) **Verify** button, nothing more will happen.
+* If you clicked the ![Upload button](img/symbol_upload2.png) **Upload** button, the IDE/Web Editor will now try to **upload** the sketch to your board.
 
-![IDE 2 with message: " Not enough memory; see https://support.arduino.cc/hc/en-us/articles/360013825179 for tips on reducing your footprint.Sketch uses 5094 bytes (15%) of program storage space. Maximum is 32256 bytes. Global variables use 3317 bytes (161%) of dynamic memory, leaving -1269 bytes for local variables.Maximum is 2048 bytes.data section exceeds available space in board Compilation error: data section exceeds available space in board](img/ide2_compilation_error_size.png)
+### Console output during sketch upload
 
-* If the error message suggests issues with the sketch size or memory, check [Reduce the size and memory usage of your sketch](https://support.arduino.cc/hc/en-us/articles/360013825179-Reduce-the-size-and-memory-usage-of-your-sketch) for more information.
+The process of uploading a sketch to the board is a separate step from the compilation process. When the sketch is being uploaded, additional lines may be printed depending on your board and editor settings. In some cases, warnings or other messages from the underlying upload tools may appear. In other cases, nothing may be printed during the upload process. **Errors that occur during upload are unrelated to the sketch size and memory usage message**.
+
+Some upload tools and protocols may not print any message to console to indicate a successful upload. Instead, look for the following:
+
+* In Arduino IDE, a **"Done uploading"** notification appears in the bottom-right corner.
+* In the Web Editor, the console border turns green with a **"Success"** message.
+* The upload tool may print warnings or other information, sometimes highlighted in red, but the output does **not** end with a `Failed uploading` message.
+
+Unless the console output ends with a `Failed upload` error message, the upload process was probably successful. **If you're unsure, try using the board in your project and see if it works as expected**, or upload a simple example like Blink (File > Examples > 01.Basics > Blink).
+
+If a `Failed uploading` error did occur, it's important to note that it's not related to sketch size and memory usage. Instead, see [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch) for help with troubleshooting uploads.
+
+![IDE 2 with a message about sketch storage space and dynamic memory usage and failed upload error printed on the console](img/ide2_upload_error.png)
+
+---
+
+<a id="if-sketch-exceeds-available-space"></a>
+
+## If sketch exceeds available space
+
+If either program storage space or dynamic memory usage is **more** than 100%, you will get a compilation error:
+
+* The compilation error message will be one of the following:
+  * `data section exceeds available space in board` – occurs if program storage space is **more** than 100%.
+  * `text section exceeds available space in board` – occurs if dynamic memory is **more** than 100%.
+* See [Reduce the size and memory usage of your sketch](https://support.arduino.cc/hc/en-us/articles/360013825179-Reduce-the-size-and-memory-usage-of-your-sketch).
+
+![IDE 2 console with a "Compilation error: data section exceeds available space in board" error.](img/data-section-exceeds-available-space-in-board.png)
+
+---
+
+## Further reading
 
 * For other compilation errors, see [If your sketch doesn't compile](https://support.arduino.cc/hc/en-us/articles/4402764401554-Compilation-errors-when-uploading).
-
-<a id="differences-between-compilation-and-upload"></a>
-
-## Differences between compilation and upload
-
-To put it simply:
-
-* **Compilation** is the process of checking and translating your sketch into machine code (This occurs when you click on the ![Verify button](img/symbol_verify2.png) **Verify** button in the Arduino IDE).
-
-* **Upload** is the process of transferring the compiled sketch into a board. When you click on the ![Upload button](img/symbol_upload2.png) **Upload** button, the sketch is first compiled, and if compilation is successful, it is then uploaded to the board.
-
-These are two distinct steps, and errors may occur in either one.
