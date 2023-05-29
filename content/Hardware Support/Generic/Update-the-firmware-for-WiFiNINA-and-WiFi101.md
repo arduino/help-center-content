@@ -66,7 +66,7 @@ To update the firmware in Arduino IDE 1, follow these steps:
 
 6. Wait for the firmware update to complete (the process may take up to a minute to complete). A successful update will be confirmed by a pop-up.
 
-<a id="arduino-iot-cloud">
+<a id="arduino-iot-cloud"></a>
 
 ## Update the firmware in Arduino IoT Cloud
 
