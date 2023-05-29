@@ -5,12 +5,12 @@ id: 360013896579
 
 Learn how to update the firmware for the WiFi101 and WiFiNINA communication libraries used on these boards:
 
-* [Arduino MKR WiFi 1010](https://store.arduino.cc/arduino-mkr-wifi-1010)
-* [Arduino MKR Vidor 4000](https://store.arduino.cc/arduino-mkr-vidor-4000)
-* [Arduino Nano 33 IoT](https://store.arduino.cc/arduino-nano-33-iot)
-* [Arduino UNO WiFi Rev2](https://store.arduino.cc/arduino-uno-wifi-rev2)
-* [Arduino Nano RP2040 Connect](https://store.arduino.cc/collections/boards/products/arduino-nano-rp2040-connect)
-* [Arduino MKR 1000 WiFi](https://docs.arduino.cc/hardware/mkr-1000-wifi)
+* Arduino MKR WiFi 1010
+* Arduino MKR Vidor 4000
+* Arduino Nano 33 IoT
+* Arduino UNO WiFi Rev2
+* Arduino Nano RP2040 Connect
+* Arduino MKR 1000 WiFi
 
 In this article:
 
