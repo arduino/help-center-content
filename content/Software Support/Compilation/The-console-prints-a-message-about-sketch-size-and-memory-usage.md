@@ -16,7 +16,7 @@ The Arduino IDE/Web Editor checks your sketch's storage space and dynamic memory
 
 When the IDE/Web editor successfully compiles a sketch, it prints a message similar to the one below:
 
-![IDE 2 with a message about sketch storage space and dynamic memory usage printed on the console](img/ide2_successful_compilation.png)
+![IDE 2 console with message: "Sketch uses 924 bytes (2%) of program storage space. Maximum is 32256 bytes. Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes."](img/ide2_successful_compilation.png)
 
 This means that the sketch was compiled without errors and gives you an idea of how much storage space and dynamic memory it utilizes. However, errors can occur when you upload the sketch to your board.
 
