@@ -1,5 +1,6 @@
 ---
-title: "Fix udev rules on Linux"
+title: Fix udev rules on Linux
+id: 9005041052444
 ---
 
 On Linux, missing udev[^1] rules can result in failed uploads, as Arduino IDE (and other development tools) will not be able to access the board when it resets to bootloader mode.
