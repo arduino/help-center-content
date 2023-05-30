@@ -51,7 +51,7 @@ Unless the console output **ends** with a `Failed upload` error message, the upl
 
 If a `Failed uploading` error did occur, it's important to note that it's not related to sketch size and memory usage. Instead, see [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch) for help with troubleshooting uploads.
 
-![IDE 2 with a message about sketch storage space and dynamic memory usage and failed upload error printed on the console](img/ide2_upload_error.png)
+![IDE 2 with a message about sketch storage space and dynamic memory usage and failed upload error printed on the console](img/ide2_upload_error_no-upload-port-provided.png)
 
 ---
 
@@ -66,7 +66,7 @@ If either program storage space or dynamic memory usage is **more** than 100%, y
   * `text section exceeds available space in board` – occurs if dynamic memory is **more** than 100%.
 * See [Reduce the size and memory usage of your sketch](https://support.arduino.cc/hc/en-us/articles/360013825179-Reduce-the-size-and-memory-usage-of-your-sketch).
 
-![IDE 2 console with a "Compilation error: data section exceeds available space in board" error.](img/data-section-exceeds-available-space-in-board.png)
+![IDE 2 console with a "Compilation error: data section exceeds available space in board" error.](img/ide2_upload_error_data-section-exceeds-available-space-in-board.png)
 
 ---
 
