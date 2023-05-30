@@ -23,7 +23,7 @@ Most upload problems can be resolved by doing the following:
 
   * See [Find and stop process blocking a port](https://support.arduino.cc/hc/en-us/articles/4407830972050-Find-and-stop-process-blocking-a-port) for more information.
 
-* **If you're on Linux**, and are experiencing issues where the boards seems to disconnect mid-upload, you may need to [configure udev rules]().
+* **If you're on Linux**, and are experiencing issues where the boards seems to disconnect mid-upload, you may need to [configure udev rules](https://support.arduino.cc/hc/en-us/articles/9004359328796).
 
 For more troubleshooting tips, see [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch).
 
