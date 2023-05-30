@@ -8,21 +8,21 @@ The board package typically includes a script that is run during installation, w
 
 [^1]: <https://manpages.ubuntu.com/manpages/xenial/man7/udev.7.html>
 
-<table>
+<table style="display: table;">
 <thead>
-  <tr>
+  <tr style="display: table-row;">
     <th>Boards</th>
     <th>Related error output</th>
     <th>Instructions</th>
   </tr>
 </thead>
 <tbody>
-  <tr>
+  <tr style="display: table-row;">
     <td>Nano RP2040 Connect</td>
     <td><code>Failed uploading: uploading error: exit status 1</code></td>
     <td rowspan="4"><a href="#mbed-os">Set udev rules for Arduino Mbed OS boards</a></td>
   </tr>
-  <tr>
+  <tr style="display: table-row;">
     <td>GIGA R1 WiFi</td>
     <td>
       <code>dfu-util: Cannot open DFU device 2341:0366 found on devnum 24 (LIBUSB_ERROR_ACCESS)</code><br>
@@ -30,7 +30,7 @@ The board package typically includes a script that is run during installation, w
       <code>Failed uploading: uploading error: exit status 74</code>
     </td>
   </tr>
-  <tr>
+  <tr style="display: table-row;">
     <td>Nicla Sense ME</td>
     <td>
       <code>Error: unable to open CMSIS-DAP device 0x2341:0x60</code><br>
@@ -38,7 +38,7 @@ The board package typically includes a script that is run during installation, w
       <code>Failed uploading: uploading error: exit status 1</code>
     </td>
   </tr>
-  <tr>
+  <tr style="display: table-row;">
     <td>
       Portenta H7<br>
       Portenta H7 Lite<br>
@@ -50,7 +50,7 @@ The board package typically includes a script that is run during installation, w
       <code>Failed uploading: uploading error: exit status 74</code>
     </td>
   </tr>
-  <tr>
+  <tr style="display: table-row;">
     <td>Nano Every</td>
     <td>
       <code>avrdude: jtagmkII_getsync(): sign-on command: status -1</code><br>
@@ -59,7 +59,7 @@ The board package typically includes a script that is run during installation, w
     </td>
     <td rowspan="2"><a href="#megaAVR">Set udev rules for Arduino megaAVR boards</a></td>
   </tr>
-  <tr>
+  <tr style="display: table-row;">
     <td>UNO WiFi Rev2</td>
     <td>
       <code>avrdude: usbdev_open(): cannot open device: Permission denied</code><br>
