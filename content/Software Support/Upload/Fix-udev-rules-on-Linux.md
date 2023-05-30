@@ -41,8 +41,8 @@ The board package typically includes a script that is run during installation, w
   <tr>
     <td>
       Portenta H7<br>
-      <i>Portenta H7 Lite</i><br>
-      <i>Portenta H7 Lite Connected</i>
+      Portenta H7 Lite<br>
+      Portenta H7 Lite Connected
     </td>
     <td>
       <code>dfu-util: Cannot open DFU device 2341:035b found on devnum 26 (LIBUSB_ERROR_ACCESS)</code><br>
