@@ -7,7 +7,7 @@ In this article:
 
 * [Content for Arduino Education Kits](#education)
 * [Content for other products](#other)
-* [Certification](#certification)
+* [Arduino Certifications](#certification)
 * [Software](#software)
 
 ---
@@ -137,7 +137,11 @@ _*Language and graphic revision in 2021_
 
 <a id="certification"></a>
 
-## Certification
+## Arduino Certifications
+
+### Arduino Junior Certification
+
+* English
 
 ### Arduino Certification
 
