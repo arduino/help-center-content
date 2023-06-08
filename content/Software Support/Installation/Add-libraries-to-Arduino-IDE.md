@@ -9,7 +9,7 @@ Learn how to add libraries to Arduino IDE.
 
 ---
 
-<a id="library-manager">
+<a id="library-manager"></a>
 
 ## Using the Library manager
 
