@@ -3,31 +3,74 @@ title: "Install the Arduino Create Agent"
 id: 360014869820
 ---
 
-Arduino Cloud uses its own agent to be the middle man between Arduino's Web Editor and IoT Cloud and your computer. In this article we'll explain how to install it in your system (Windows, Mac, and Linux Ubuntu).
+To use the Arduino Web Editor or Arduino IoT Cloud, the **Arduino Create Agent** must be running on your computer.
+
+Learn how to install the Arduino Create Agent on Windows, macOS, and Linux computers.
+
+If you're using Chromebook, see [Use Arduino with Chromebook](https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook) instead.
 
 ---
 
-1. Open the [Arduino Create agent installation](https://create.arduino.cc/getting-started/plugin/welcome) page and click **Start**.
+## Install the Arduino Create Agent
 
-   ![Arduino Create agent installation page](img/create-agent-install-start.png)
+Follow these steps:
 
-2. Click **Download** to download the installer. Go to your download folder, double-click the installer and follow the instructions. The installation guide will begin looking for the installed agent:
+1. Open the **[Arduino Create agent installation page](https://create.arduino.cc/getting-started/plugin/welcome)**
 
-   * If you intend to user the Create Agent with a browser other than Google Chrome or Mozilla Firefox, make sure to answer Yes in the Browser Support step.
-   * If you're installing the Create Agent for Windows, you may receive a security warning and be asked to approve installing a root certificate from Arduino. Choose Yes to install the certificate and proceed with the installation.
+   ![Arduino Create agent installation page](img/create-agent-install-start_600px.png)
 
-   ![Arduino Create agent installation with "Looking for ins agent" message highlighted"](img/create-agent-install-install-macos.png)
+1. Click **START**.
 
-3. When it's found, you will see this page. Click **Next** to finish the installation guide.
+1. Click **DOWNLOAD** to download the installer.
 
-   ![Agent correctly installed confirmation page](img/create-agent-install-correctly.png)
+1. Leave your web browser open, and open your downloads folder.
 
-4. Start using the [Web Editor](https://create.arduino.cc/editor) and [IoT Cloud](https://create.arduino.cc/iot/things)!
+1. Install the application:
+
+   * **Windows:** Double-click the .exe installer and follow the instructions.
+     * You may receive a security warning and be asked to approve installing a root certificate from Arduino. Choose **Yes** to install the certificate and proceed with the installation.
+   * **macOS:** Double-click the .dmg file. Drag ArduinoCreateAgent.app into the Applications folder shortcut.
+   * **Linux:** Extract the .tar.gz archive and double-click the .run file. Follow the instructions.
+
+1. To confirm that the Create Agent is running, open your web browser with the Arduino Installation page.
+
+1. When it's found, you will see this page. Click **NEXT** to finish the installation guide.
+
+You can now use the Web Editor and IoT Cloud:
+
+* [Arduino Web Editor](https://create.arduino.cc/editor)
+* [Arduino IoT Cloud](https://create.arduino.cc/iot)
+
+---
 
 ## Troubleshooting
 
+### General tips
+
 * Be sure that you have **administrator permission** on your machine; if the computer you are using is not your own personal computer, ask your IT administrator for an upgraded profile.
 * Sometimes the agent installation can be blocked by the firewall or antivirus software; in the latter case, you can try to **add the agent to your Antivirus whitelist**.
+
+### Old agent installation of the Arduino Create Agent found
+
+When trying to launch the Arduino Create Agent on macOS, you may get this error:
+
+`Old agent installation of the Arduino Create Agent found, please uninstall it before launching the new one`.
+
+The error can occur if an older installation is present. Follow these steps:
+
+1. Open Finder and go to your user folder. If you're having trouble finding it, right-click Downloads or Documents in the sidebar, and select _Show in Enclosing Folder_, or press <kbd>Shift</kbd> + <kbd>⌘</kbd> + <kbd>H</kbd>.
+
+2. Open the Applications folder (`~/Applications`) within your user folder.
+
+3. Manually remove the ArduinoCreateAgent folder, or run the `uninstall.app` inside it.
+
+Try launching Arduino Create Agent again.
+
+---
+
+## Further reading
+
+* [List of releases on GitHub](https://github.com/arduino/arduino-create-agent/releases)
 
 <p style="display:none;">
   Tags: como instalo la aplicacion
