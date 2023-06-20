@@ -17,7 +17,7 @@ Follow these steps to update the Arduino_Sensorkit library in Arduino IDE:
 
    ![Updating the Arduino_SensorKit library in the Library Manager](img/update-sensorkit-library.png)
 
-4. If you're asking whether you'd like to install library dependencies, click **Install all**.
+4. If you're asked whether you'd like to install library dependencies, click **Install all**.
 
 5. Wait for the update process to finish.
 
