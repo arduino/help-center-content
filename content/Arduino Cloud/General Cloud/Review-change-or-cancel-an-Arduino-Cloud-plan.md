@@ -1,5 +1,5 @@
 ---
-title: "Review, change or cancel your Arduino Cloud plan"
+title: "Review, change, or cancel an Arduino Cloud plan"
 id: 4401881299090
 ---
 
@@ -12,7 +12,7 @@ You can review, change or cancel your Arduino Cloud plan at any time:
 
 ---
 
-<h2 id="review">Review your current plan</h2>
+<h2 id="review">Review your current plans</h2>
 
 1. Open the **My Plans** page by
    * going directly to [store.arduino.cc/digital/subscriptions/plans](https://store.arduino.cc/digital/subscriptions/plans)
