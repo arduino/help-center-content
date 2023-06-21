@@ -7,7 +7,7 @@ You can review, change or cancel your Arduino Cloud plan at any time:
 
 * [Review your current plans](#review)
 * [Change payment method and billing info](#payment-and-billing)
-* [Switch to a different plan](#switch)
+* [Modify a plan](#switch)
 * [Cancel a plan](#cancel)
 
 ---
@@ -23,6 +23,8 @@ You can review, change or cancel your Arduino Cloud plan at any time:
 
 ![Maker plan details](img/my-plans-subscription.png)
 
+If you are part of any Cloud spaces with School or Enterprise plans, they will also appear on this page.
+
 ---
 
 <a id="payment-and-billing"></a>
@@ -37,11 +39,13 @@ You can review, change or cancel your Arduino Cloud plan at any time:
 
 ![Maker plan details](img/my-plans-payment-and-billing.png)
 
+Payment or billing info for School and Enterprise plans can only be changed by the **subscription admin**.
+
 ---
 
 <a id="switch"></a>
 
-## Switch to a different plan
+## Modify a plan
 
 1. Open the **My Plans** page by
    * going directly to [store.arduino.cc/digital/subscriptions/plans](https://store.arduino.cc/digital/subscriptions/plans)
@@ -63,6 +67,8 @@ You can review, change or cancel your Arduino Cloud plan at any time:
 > * The Entry plan is only available as a yearly option.
 > * Plan upgrades will take effect immediately. When downgrading your plan, you will retain access to your paid features until the end of the billing cycle. See [Billing and feature changes when switching to a different Cloud plan](https://support.arduino.cc/hc/en-us/articles/4401874211730) for more information.
 
+School and Enterprise plans can only be modified by the **subscription admin**.
+
 ---
 
 <a id="cancel"></a>
@@ -78,6 +84,8 @@ You can review, change or cancel your Arduino Cloud plan at any time:
 ![Cancelling a Cloud plan.](img/my-plans-cancel.png)
 
 > **Note:** You will retain access to your paid features until the end of the billing cycle. See [Billing and feature changes when switching to a different Cloud plan](https://support.arduino.cc/hc/en-us/articles/4401874211730) for more information.
+
+School and Enterprise plans can only be canceled by the **subscription admin**.
 
 ---
 
