@@ -5,14 +5,16 @@ id: 4401881299090
 
 You can review, change or cancel your Arduino Cloud plan at any time:
 
-* [Review your current plan](#review)
+* [Review your current plans](#review)
 * [Change payment method and billing info](#payment-and-billing)
 * [Switch to a different plan](#switch)
-* [Cancel your plan](#cancel)
+* [Cancel a plan](#cancel)
 
 ---
 
-<h2 id="review">Review your current plans</h2>
+<a id="review"></a>
+
+## Review your current plans
 
 1. Open the **My Plans** page by
    * going directly to [store.arduino.cc/digital/subscriptions/plans](https://store.arduino.cc/digital/subscriptions/plans)
@@ -23,7 +25,9 @@ You can review, change or cancel your Arduino Cloud plan at any time:
 
 ---
 
-<h2 id="payment-and-billing">Change payment method and billing info</h2>
+<a id="payment-and-billing"></a>
+
+## Change payment method and billing info
 
 1. Open the **My Plans** page by
    * going directly to [store.arduino.cc/digital/subscriptions/plans](https://store.arduino.cc/digital/subscriptions/plans)
@@ -35,7 +39,9 @@ You can review, change or cancel your Arduino Cloud plan at any time:
 
 ---
 
-<h2 id="switch">Switch to a different plan</h2>
+<a id="switch"></a>
+
+## Switch to a different plan
 
 1. Open the **My Plans** page by
    * going directly to [store.arduino.cc/digital/subscriptions/plans](https://store.arduino.cc/digital/subscriptions/plans)
@@ -59,7 +65,9 @@ You can review, change or cancel your Arduino Cloud plan at any time:
 
 ---
 
-<h2 id="cancel">Cancel your plan</h2>
+<a id="cancel"></a>
+
+## Cancel a plan
 
 1. Open the **My Plans** page by
    * going directly to [store.arduino.cc/digital/subscriptions/plans](https://store.arduino.cc/digital/subscriptions/plans)
