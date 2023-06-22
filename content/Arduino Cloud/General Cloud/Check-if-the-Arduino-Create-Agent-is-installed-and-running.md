@@ -17,8 +17,10 @@ Learn how to check if the **Arduino Create Agent** is installed and running on y
 
    * **Windows:** `C:\Users\{username}\AppData\Roaming\ArduinoCreateAgent\Arduino_Create_Agent.exe`
 
-   * **macOS:** `Users/{username}/Applications/ArduinoCreateAgent/ArduinoCreateAgent.app`
+   * **macOS:** `/Applications/ArduinoCreateAgent.app`[^1]
 
    * **Linux** `home/{username}/ArduinoCreateAgent/ArduinoCreateAgent`
 
 3. _Install or reinstall the agent._ If you can't find the application, follow the [online installation guide](https://create.arduino.cc/getting-started/plugin/welcome) to install the agent.
+
+[^1]: In version 1.2.7 and earlier, the default installation location was `Users/{username}/Applications/ArduinoCreateAgent/ArduinoCreateAgent.app`.
