@@ -33,7 +33,7 @@ The new **Arduino UNO R4 Boards** use a **Renesas RA4M1 32-bit Cortex®-M4 proce
 **Arduino UNO R4 WiFi**\
 Microcontroller: ATmega328P\
 Board core: `Arduino Uno R4 WiFi (Arduino UNO R4 Boards)`\
-Store page: [Arduino UNO R4 WiFi]()\
+Store page: [Arduino UNO R4 WiFi](https://docs.arduino.cc/hardware/uno-r4-wifi)\
 Documentation: [UNO R4 WiFi]()
 
 <hr style="height:2px">
@@ -45,7 +45,7 @@ Documentation: [UNO R4 WiFi]()
 **Arduino UNO R4 WiFi**\
 Microcontroller: ATmega328P\
 Board core: `Arduino Uno R4 Minima (Arduino UNO R4 Boards)`\
-Store page: [Arduino UNO R4 Minima]()\
+Store page: [Arduino UNO R4 Minima](https://docs.arduino.cc/hardware/uno-r4-minima)\
 Documentation: [UNO R4 Minima]()
 
 ---

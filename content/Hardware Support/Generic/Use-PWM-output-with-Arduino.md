@@ -57,7 +57,7 @@ void loop() {
 
 The **pinouts** for many boards specifify the recommended PWM pins with a tilde (**~**) symbol:
 
-![](img/pwm-tilde.png)
+![A PWM pin in a pinout.](img/pwm-tilde.png)
 
 You can find pinouts on [Arduino Docs](https://docs.arduino.cc/).
 
