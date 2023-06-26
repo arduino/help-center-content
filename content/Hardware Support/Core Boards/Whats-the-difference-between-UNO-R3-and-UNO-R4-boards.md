@@ -8,7 +8,7 @@ Learn about the differences between UNO R3 and the new UNO R4 WiFi and UNO R4 Mi
 
 ## Select differences
 
-Here's a few changes you may notice if you've previously used the UNO R3:
+Here are a few changes you may notice if you've previously used the UNO R3:
 
 ### USB connector type
 
