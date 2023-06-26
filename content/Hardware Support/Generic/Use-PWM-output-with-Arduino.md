@@ -1,5 +1,6 @@
 ---
-title: "Use PWM output with Arduino"
+title: Use PWM output with Arduino
+id: 9350537961500
 ---
 
 Learn how to use PWM (Pulse Width Modulation) output with Arduino.

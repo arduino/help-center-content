@@ -1,5 +1,6 @@
 ---
-title: "What's the difference between UNO R3 and UNO R4 boards?"
+title: What's the difference between UNO R3 and UNO R4 boards?
+id: 9350551575964
 ---
 
 Learn about the differences between UNO R3 and the new UNO R4 WiFi and UNO R4 Minima boards.
