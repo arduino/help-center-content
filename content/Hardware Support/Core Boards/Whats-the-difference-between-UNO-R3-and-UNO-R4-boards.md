@@ -50,8 +50,8 @@ If your sketch uses instructions specific to the AVR architecture, they will hav
 
 ### Are libraries for UNO R3 also compatible with the UNO R4 boards?
 
-* Libraries that are based on the [Arduino API](https://www.arduino.cc/reference/en/) will work as is.
-* No, as some UNO R3 libraries use instructions of the AVR architecture that are not compatible with the architecture of UNO R4 boards.
-* However there are libraries that have already been ported as part of our early adopters program or are based on the [Arduino API](https://www.arduino.cc/reference/en/)
+Libraries that are based on the [Arduino API](https://www.arduino.cc/reference/en/) will work as is.
+
+Libraries that use AVR-specific instructions are not compatible with the architecture of UNO R4 boards. However, there are libraries that have already been ported as part of our early adopters program.
 
 <!-- markdownlint-disable-file HC001 -->
