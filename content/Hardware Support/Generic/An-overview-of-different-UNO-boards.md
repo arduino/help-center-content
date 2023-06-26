@@ -5,15 +5,54 @@ id: 7901453165724
 
 In this article:
 
-* [The standard line of ATmega328P-based UNO boards](#uno)
-* [Other UNO boards from Arduino](#uno-other)
+* [UNO R4 Boards](#r4)
+* [UNO (R3 and earlier revisions, SMD variant)](#uno)
+* [UNO WiFi, UNO WiFi Rev2](#uno-wifi)
+* [UNO Mini Limited Edition](#uno-mini)
 * [Arduino-compatible UNO boards by other manufacturers](#compatible)
+
+---
+
+<a id="r4"></a>
+
+## UNO R4 boards
+
+The new **Arduino UNO R4 Boards** use a **Renesas RA4M1 32-bit Cortex®-M4 processor**. Unlike previous UNO models, they are not 8-bit AVR processor.
+
+* Unlike previous UNO boards, they do not use 8-bit AVR processors.
+* They use a different board package (Arduino UNO R4 Boards).
+
+<a id="r4-wifi"></a>
+
+<hr style="height:2px">
+
+<!-- ### Arduino UNO R3 <!-- SKU: A000066 -->
+
+<img src="img/ABX00087_00.front_643x483.png" width=400px>
+
+**Arduino UNO R4 WiFi**\
+Microcontroller: ATmega328P\
+Board core: `Arduino Uno R4 WiFi (Arduino UNO R4 Boards)`\
+Store page: [Arduino UNO R4 WiFi]()\
+Documentation: [UNO R4 WiFi]()
+
+<hr style="height:2px">
+
+<!-- ### Arduino UNO R3 <!-- SKU: A000066 -->
+
+<img src="img/ABX00080_00.default_643x483.png" width=400px>
+
+**Arduino UNO R4 WiFi**\
+Microcontroller: ATmega328P\
+Board core: `Arduino Uno R4 Minima (Arduino UNO R4 Boards)`\
+Store page: [Arduino UNO R4 Minima]()\
+Documentation: [UNO R4 Minima]()
 
 ---
 
 <a id="uno"></a>
 
-## The standard line of ATmega328P-based UNO boards
+## UNO R3 (inc. older revisions, SMD)
 
 While "Arduino UNO" was also the name of the [first Arduino UNO board model](#arduino-uno), it is now more often used to refer to any board with these characteristics:
 
@@ -84,6 +123,8 @@ Board core: `Arduino Uno (Arduino AVR Boards)`
 
 This revision added a resistor pulling the ATmega8U2 HWB line to ground, making it easier to [set to DFU mode](https://support.arduino.cc/hc/en-us/articles/4410804625682).
 
+<!-- TODO: Chip placmeent, never printed on silk? -->
+
 <a id="arduino-uno"></a>
 
 <hr style="height:2px">
@@ -99,11 +140,13 @@ Documentation: [ARDUINO UNO](https://docs.arduino.cc/retired/other/arduino-older
 
 The original UNO board. It is sometimes refered to as the "R1" or "Rev1" version to distinguish it from later versions.
 
-<a id="uno-other"></a>
+<a id="uno-wifi"></a>
 
 ---
 
-## Other UNO boards from Arduino
+## UNO WiFi, UNO WiFi Rev2
+
+See also: [Arduino UNO R4 WiFi](#r4-wifi).
 
 <!-- ### UNO WiFi Rev2 -->
 
@@ -134,7 +177,11 @@ A version of the UNO R3 with an ESP8266 Wi-Fi module.
 
 Not to be confused with the **Arduino UNO WiFi Rev2**.
 
-<hr style="height:2px">
+<a id="uno-mini"></a>
+
+---
+
+## UNO Mini Limited Edition
 
 <!-- ### UNO Mini Limited Edition -->
 

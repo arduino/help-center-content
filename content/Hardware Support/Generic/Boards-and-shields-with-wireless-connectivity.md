@@ -14,11 +14,12 @@ The following is meant for an overview **only** and does not take precedence ove
 * MKR VIDOR 4000
 * MKR WiFi 1010
 * Nano 33 IoT
-* UNO WiFi Rev 2
+* Nicla Vision
 * Portenta H7
 * Portenta H7 Lite Connected
 * Portenta X8
-* Nicla Vision
+* UNO WiFi Rev2
+* UNO R4 WiFi
 
 ### Bluetooth<sup>®</sup>
 
@@ -34,7 +35,8 @@ The following boards have Bluetooth Low Energy connectivity:
 * Portenta H7
 * Portenta H7 Lite Connected
 * Portenta X8
-* UNO WiFi Rev 2
+* UNO WiFi Rev2
+* UNO R4 WiFi
 
 Enable it with the [ArduinoBLE library](https://www.arduino.cc/reference/en/libraries/arduinoble/).
 
