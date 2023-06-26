@@ -89,6 +89,8 @@ The Web Editor on Windows, macOS, and Linux can be used with these boards:
 * Arduino Tian
 * Arduino Uno
 * Arduino Uno Mini
+* Arduino Uno R4 Minima
+* Arduino Uno R4 WiFi
 * Arduino Uno WiFi
 * Arduino Uno WiFi Rev2
 * Arduino Yún

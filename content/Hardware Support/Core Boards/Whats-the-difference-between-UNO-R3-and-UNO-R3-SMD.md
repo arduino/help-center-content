@@ -1,11 +1,9 @@
 ---
-title: "What is the difference between Arduino UNO SMD and the standard UNO"
+title: "What's the difference between UNO R3 and UNO R3 SMD?"
 id: 360018161639
 ---
 
-If you have noticed two different types of Arduino UNO available in our store and you wonder what is the difference between those two, keep reading to find out!
-
-There are two versions of Arduino UNO currently available:
+There are two versions of Arduino UNO R3 currently available:
 
 * Arduino UNO R3
 * Arduino UNO R3 SMD
