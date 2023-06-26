@@ -17,7 +17,7 @@ In this article:
 
 ## UNO R4 boards
 
-The new **Arduino UNO R4 Boards** use a **Renesas RA4M1 32-bit Cortex®-M4 processor**. Unlike previous UNO models, they are not 8-bit AVR processor.
+The new **Arduino UNO R4 Boards** use a **Renesas RA4M1 32-bit Arm® Cortex®-M4 processor**.
 
 * Unlike previous UNO boards, they do not use 8-bit AVR processors.
 * They use a different board package (Arduino UNO R4 Boards).
@@ -33,8 +33,8 @@ The new **Arduino UNO R4 Boards** use a **Renesas RA4M1 32-bit Cortex®-M4 proce
 **Arduino UNO R4 WiFi**\
 Microcontroller: ATmega328P\
 Board core: `Arduino Uno R4 WiFi (Arduino UNO R4 Boards)`\
-Store page: [Arduino UNO R4 WiFi](https://docs.arduino.cc/hardware/uno-r4-wifi)\
-Documentation: [UNO R4 WiFi]()
+Store page: [Arduino UNO R4 WiFi](https://store.arduino.cc/products/uno-r4-wifi)\
+Documentation: [UNO R4 WiFi](https://docs.arduino.cc/hardware/uno-r4-wifi)
 
 <hr style="height:2px">
 
@@ -45,8 +45,8 @@ Documentation: [UNO R4 WiFi]()
 **Arduino UNO R4 WiFi**\
 Microcontroller: ATmega328P\
 Board core: `Arduino Uno R4 Minima (Arduino UNO R4 Boards)`\
-Store page: [Arduino UNO R4 Minima](https://docs.arduino.cc/hardware/uno-r4-minima)\
-Documentation: [UNO R4 Minima]()
+Store page: [Arduino UNO R4 Minima](https://store.arduino.cc/products/uno-r4-minima?queryID=undefined)\
+Documentation: [UNO R4 Minima](https://docs.arduino.cc/hardware/uno-r4-minima)
 
 ---
 
