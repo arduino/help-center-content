@@ -32,7 +32,7 @@ We can check the current firmware version by uploading a sketch to the board tha
 
 1. Observe the output:
 
-   ![Serial monitor](img/check-firmware-version-failed.png)
+   ![Serial monitor](img/check-wifi101-firmware-version-failed.png)
 
 ---
 
