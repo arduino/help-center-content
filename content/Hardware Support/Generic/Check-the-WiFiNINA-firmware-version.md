@@ -39,7 +39,7 @@ We can check the current firmware version by uploading a sketch to the board tha
 
 ---
 
-## Interpeting the output
+## Interpreting the output
 
 If the latest firmware is installed the output will include this line:
 
