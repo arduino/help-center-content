@@ -1,5 +1,5 @@
 ---
-title: "Check the firmware version for WiFi101"
+title: "Check the WiFi101 firmware version"
 id: 9359374546332
 ---
 

@@ -3,7 +3,7 @@ title: "Check the WiFiNINA firmware version"
 id: 9359374546332
 ---
 
-Learn how to check the wireless firmware version for boards with NINA Wi-Fi module.
+Learn how to check the wireless firmware version for boards using the WiFiNINA library (NINA Wi-Fi modules).
 
 Boards that use the WiFiNINA library:
 
