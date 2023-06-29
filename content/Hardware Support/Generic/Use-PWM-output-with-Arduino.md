@@ -50,8 +50,8 @@ void loop() {
 | Due***                                     | 2-13                           |
 | 101                                        | 3, 5, 6, 9                     |
 
-<b>\*</b>These pins are officially supported PWM pins. While some boards have additional pins capable of PWM, using them is recommended only for advanced users that can account for timer availability and potential conflicts with other uses of those pins.
-<b>\*\*</b>In addition to PWM capabilities on the pins noted above, the MKR, Nano 33 IoT, and Zero boards have true analog output when using `analogWrite()` on the `DAC0` (`A0`) pin.
+<b>\*</b>These pins are officially supported PWM pins. While some boards have additional pins capable of PWM, using them is recommended only for advanced users that can account for timer availability and potential conflicts with other uses of those pins.<br>
+<b>\*\*</b>In addition to PWM capabilities on the pins noted above, the MKR, Nano 33 IoT, and Zero boards have true analog output when using `analogWrite()` on the `DAC0` (`A0`) pin.<br>
 <b>\*\*\*</b>In addition to PWM capabilities on the pins noted above, the Due has true analog output when using `analogWrite()` on pins `DAC0` and `DAC1`.
 
 ### Finding PWM pins in the pinout diagrams

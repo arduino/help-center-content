@@ -15,7 +15,7 @@ Not all boards have an enabled AREF pin, and it doesn't work the same way on all
 
 <table>
   <tr>
-    <td style="width:50%">
+    <td>
       <ul>
         <li>Arduino AVR Boards (Uno, Mega, Leonardo, etc.)</li>
         <li>Arduino SAMD Boards (Zero, etc.)</li>
@@ -26,14 +26,15 @@ Not all boards have an enabled AREF pin, and it doesn't work the same way on all
       <blockquote><b>Note:</b> To avoid damaging your board, read the library reference's <a href="https://www.arduino.cc/reference/en/language/functions/analog-io/analogreference/#_notes_and_warnings">notes and warnings</a> section before using an external reference voltage.</blockquote>
     </td>
   </tr>
-  <tr style="width:50%;">
+  <tr>
     <td>
       <ul>
         <li>Mbed Nano boards (33 BLE, etc.)</li>
       </ul>
     </td>
     <td>
-    The microcontroller only supports internal reference. The AREF pin is not connected to anything.</td>
+      The microcontroller only supports internal reference. The AREF pin is not connected to anything.
+    </td>
   </tr>
   <tr>
     <td>
@@ -41,6 +42,8 @@ Not all boards have an enabled AREF pin, and it doesn't work the same way on all
         <li>Portenta H7 (H7 Lite, etc.)</li>
       </ul>
     </td>
-    <td>Any external voltage applied to the AREF pin will be automatically used as the reference. See <a href="https://support.arduino.cc/hc/en-us/articles/4753980038812-About-ADC-reference-voltage-on-Portenta-H7">About ADC reference voltage on Portenta H7</a>.</td>
+    <td>
+      Any external voltage applied to the AREF pin will be automatically used as the reference. See <a href="https://support.arduino.cc/hc/en-us/articles/4753980038812-About-ADC-reference-voltage-on-Portenta-H7">About ADC reference voltage on Portenta H7</a>.
+    </td>
   </tr>
 </table>
