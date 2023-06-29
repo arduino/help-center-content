@@ -2,7 +2,7 @@
 title: "Problems uploading to UNO R4 WiFi on Windows"
 ---
 
-When uploading sketches to **Arduino UNO R4 WiFi** when using Arduino development tools on Windows, you may encounter these errors:
+When uploading sketches to **Arduino UNO R4 WiFi** using Arduino development tools on Windows, you may encounter these errors:
 
 * **Arduino IDE 2 / Arduino CLI:** `No device found on <COM port>`, `Failed uploading: uploading error: exit status 1`
 * **Web Editor:** `Executing command: exit status 1`, `No device found on <COM port>`
