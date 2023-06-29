@@ -1,5 +1,6 @@
 ---
-title: "Problems uploading to UNO R4 WiFi on Windows"
+title: Problems uploading to UNO R4 WiFi on Windows
+id: 9398559565340
 ---
 
 When uploading sketches to **Arduino UNO R4 WiFi** when using Arduino development tools on Windows, you may encounter these errors:
