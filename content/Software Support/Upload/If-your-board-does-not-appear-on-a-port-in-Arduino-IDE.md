@@ -3,32 +3,23 @@ title: "If your board does not appear on a port in Arduino IDE"
 id: 4412955149586
 ---
 
-> **Note:** If you're using Arduino IDE 2 and are missing the _Tools > Port_ menu option, it means Arduino IDE did not detect any devices. Proceed with [If no device is detected](#no-device-recognized). In future releases, the Port option will still show (but be disabled) if no ports are available.
-
 Learn what to do if your board is missing from the board selector or _Tools > Port_ menu.
 
 ## Before you begin
 
 * Ensure you've connected your board with a working data USB cable.
 * Check that your device is powered. One or more more LEDs should be lit.
-* If the _Tools > Port_ menu option is missing, it means no ports were found. Proceed with [If your board does not appear on any port](#no-device-recognized).
+* In earlier versions of Arduino IDE 2, the _Tools > Port_ menu option would only be displayed if at least one device was detected on a port. This was fixed in version 2.0.4[^2.0.4].
 * Classic Nano boards and some clone boards with generic USB chips will show up as **"Unknown"** in the board selector. When selecting an "Unknown" port you will be prompted to select the board type manually. Alternatively, select your board in the _Tools > Board_ menu.
 * If you're using a classic Arduino Nano, you may need to [manually install FTDI drivers](https://support.arduino.cc/hc/en-us/articles/4411305694610-Install-or-update-FTDI-drivers).
 * If you're using an Arduino-based "clone" board with a CH340 USB chip, you may need to [manually install CH340 drivers](https://sparks.gogo.co.nz/ch340.html).
 
+[^2.0.4]: <https://github.com/arduino/arduino-ide/releases/tag/2.0.4>
+
 ## In this article
 
-* [If the Tools > Port menu is missing](#missing-port-menu)
 * [If there are "Unknown" devices in the board selector and without a board name in the Tools > Port menu](#unknown-devices)
 * [If your board does not appear on any port](#no-device-recognized)
-
----
-
-<a id="missing-port-menu"></a>
-
-## If the Tools > Port menu is missing
-
-If you're using Arduino IDE 2 and are missing the _Tools > Port_ menu option, it means Arduino IDE did not detect any devices. Proceed with [If no device is detected](#no-device-recognized). In future releases, the Port option will still show (but be disabled) if no ports are available.
 
 ---
 
