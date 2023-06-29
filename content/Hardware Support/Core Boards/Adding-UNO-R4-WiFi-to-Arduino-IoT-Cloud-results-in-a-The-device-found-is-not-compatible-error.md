@@ -1,5 +1,5 @@
 ---
-title: "If you get a "The device found is not compatible" error when adding UNO R4 WiFi to Arduino IoT Cloud"
+title: Adding UNO R4 WiFi to Arduino IoT Cloud results in a "The device found is not compatible" error
 ---
 
 When setting up **Arduino UNO R4 WiFi** in IoT Cloud, you may get this message:
