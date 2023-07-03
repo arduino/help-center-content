@@ -1,6 +1,6 @@
 ---
-title: "Check the WiFiNINA firmware version"
-id: 9359374546332
+title: Check the WiFiNINA firmware version
+id: 9398559561244
 ---
 
 Learn how to check the wireless firmware version for boards using the WiFiNINA library (NINA Wi-Fi modules).
