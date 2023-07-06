@@ -25,7 +25,6 @@ id: 9396866125980
     <span class="link-chevron-right">Cloud support</span>
   </div>
 </div>
-<h3 class="center hub">&nbsp;</h3>
 <div class="info-wrapper-grid">
   <div class="info-grid-item">
     <!--<img src="https://content.arduino.cc/assets/hc-warning.svg">-->
