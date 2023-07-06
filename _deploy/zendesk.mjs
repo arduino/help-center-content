@@ -4,7 +4,7 @@
 var authorized = true;
 const ZENDESK_USER = process.env.ZENDESK_USER;
 const ZENDESK_PASS = process.env.ZENDESK_PASS;
-let zendeskApiLimit; 
+let zendeskApiLimit;
 if (ZENDESK_USER && ZENDESK_PASS) {
     console.log('Zendesk credentials found.');
     zendeskApiLimit = 400;
@@ -158,7 +158,7 @@ async function main() {
         zendeskAttachments = data.attachments;
         console.log('Done reading cache.')
     } else {
-        console.log(clc.underline('\nFetching data from Zendesk...'));
+        console.log(clc.underline('\nFetching categories and sections...'));
         try {
             await Promise.all([
                 exTime(client.categories.list()).then(result => {
@@ -168,26 +168,51 @@ async function main() {
                 exTime(client.sections.list()).then(result => {
                     console.log(`Fetched ${result.data.length} sections in ${result.exTime} ms.`);
                     return result.data;
-                }),
-                exTime(client.articles.list()).then(result => {
-                    console.log(`Fetched ${result.data.length} articles in ${result.exTime} ms.`);
-                    return result.data;
-                }),
-                exTime(getAllAttachments(localArticles)).then(result => {
-                    console.log(`Fetched ${result.data.length} article attachment lists in ${result.exTime} ms.`);
-                    return result.data;
                 })
             ]).then(results => {
                 zendeskCategories = results[0];
                 zendeskSections = results[1];
-                zendeskArticles = results[2];
-                zendeskAttachments = results[3];
             });
         } catch (error) {
             console.error('Error occured fetching data from Zendesk.')
             throw error;
         }
 
+        console.log(clc.underline('\nFetching articles...'));
+        try {
+            await Promise.all([
+                exTime(client.articles.list()).then(result => {
+                    console.log(`Fetched ${result.data.length} articles in ${result.exTime} ms.`);
+                    return result.data;
+                })
+            ]).then(results => {
+                zendeskArticles = results[0];
+            });
+        } catch (error) {
+            console.error('Error occured fetching data from Zendesk.')
+            throw error;
+        }
+
+        /*
+        console.log(clc.underline(`\nWaiting for 60 second(s)...`));
+        await delay(60 * 1000);
+        console.log('Done.\n');
+        */
+
+        console.log(clc.underline('\nFetching article attachments...'));
+        try {
+            await Promise.all([
+                exTime(getAllAttachmentsSync(localArticles)).then(result => {
+                    console.log(`Fetched ${result.data.length} article attachment lists in ${result.exTime} ms.`);
+                    return result.data;
+                })
+            ]).then(results => {
+                zendeskAttachments = results[0];
+            });
+        } catch (error) {
+            console.error('Error occured fetching data from Zendesk.')
+            throw error;
+        }
     }
 
     // VALIDATION: Directory structure should match Zendesk categories and sections
@@ -249,7 +274,7 @@ function getArticles(zendeskCategories, zendeskSections, zendeskArticles, localA
             throw new Error(`Article ID ${md.attributes.id} in ${md.filepath} was not found in Zendesk!`);
         }
 
-        var articleAttachments = zendeskAttachments.find(za => za.article_id == localArticle.attributes.id);
+        var articleAttachments = zendeskAttachments.find(za => za && za.article_id == localArticle.attributes.id );
         if (articleAttachments) {
             articleAttachments = articleAttachments.attachments; // TODO..
         } else {
@@ -285,7 +310,7 @@ function printChanges(zendeskCategories, zendeskSections, articles) {
     var removedArticles = [];
     for (const a of articles) {
         if (a.md && !a.zd) {
-            newArticles.push(a);
+              newArticles.push(a);
         } else if (a.md && a.zd) {
             if (hasChanges(a)) {
                 updatedArticles.push(a)
@@ -662,6 +687,14 @@ function compareHTML(a, b) {
         collapseWhitespace: true
     });
 
+    if (localRender != remoteRender) {
+        console.log('Non-matching HTML!');
+        console.log('local render:');
+        console.log(localRender);
+        console.log('remote render:');
+        console.log(remoteRender);
+    }
+
     return (localRender == remoteRender);
 }
 
@@ -879,6 +912,22 @@ function getAllAttachments(localArticles) {
     return Promise.all(attachment_promises);
 }
 
+async function getAllAttachmentsSync(localArticles) {
+    var attachmentLists = [];
+    for (const localArticle of localArticles) {
+        const id = localArticle.attributes.id;
+        const draft = localArticle.attributes.draft; // Will fail for drafts unless authenticated
+        if (id) {
+            var result = await client.articleattachments.list(id);
+            attachmentLists.push({
+                "article_id": id,
+                "attachments": result.article_attachments
+            })
+        }
+    }
+    return attachmentLists;
+}
+
 function saveCacheSync(filePath, data) {
     fs.writeFileSync(filePath, JSON.stringify(data), function (err) {
         if (err) {
@@ -966,7 +1015,7 @@ async function saveAllSearchObjects(zendeskSections, articles) {
         var contentClearText = convert(a.zd.body, {
             selectors: [
                 { selector: 'hr', format: 'skip' },
-                {selector: '[id]', format: 'skip'}, // Lazy way to exclude empty a elements for anchoring 
+                {selector: '[id]', format: 'skip'}, // Lazy way to exclude empty a elements for anchoring
                 { selector: 'a', options: { ignoreHref: true}}
             ]
         });
