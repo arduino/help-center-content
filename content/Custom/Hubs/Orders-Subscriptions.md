@@ -33,7 +33,7 @@ id: 9396866125980
       Learn more about possible solutions for issues with receiving Arduino
       emails.
     </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-    us/articles/360018415520-I-am-not-receiving-any-Arduino-emails">Read the article</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360018415520-I-am-not-receiving-any-Arduino-emails">Read the article</a>
   </div>
   <div class="info-grid-item">
     <!--<img src="https://content.arduino.cc/assets/hc-Turn.svg">-->
