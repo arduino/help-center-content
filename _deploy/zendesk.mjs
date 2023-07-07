@@ -687,14 +687,6 @@ function compareHTML(a, b) {
         collapseWhitespace: true
     });
 
-    if (localRender != remoteRender) {
-        console.log('Non-matching HTML!');
-        console.log('local render:');
-        console.log(localRender);
-        console.log('remote render:');
-        console.log(remoteRender);
-    }
-
     return (localRender == remoteRender);
 }
 

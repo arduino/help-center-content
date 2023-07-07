@@ -1,6 +1,9 @@
 name: Check URLs
 
-on: workflow_dispatch
+on:
+  - workflow_dispatch
+  - schedule:
+    - cron: "0 9 * * 1-5"
 
 jobs:
   check-urls:
