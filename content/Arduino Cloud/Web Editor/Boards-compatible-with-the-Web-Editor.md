@@ -14,7 +14,17 @@ Find boards that can be used with the Web Editor on your system:
 
 ## Web Editor on Chromebook
 
-The Web Editor on Chromebook (Chrome OS) can be used with these boards:
+Boards supported on the Web Editor with the [Arduino Cloud for Chromebook app](https://play.google.com/store/apps/details?id=cc.arduino.create_editor) (recommended):
+
+* Arduino UNO R4 Minima
+* Arduino UNO R4 WiFi
+* Arduino UNO (R3 and older revisions)
+* Arduino MKR WiFi 1010
+* Arduino Nano 33 IoT
+* Arduino RP2040 Connect
+* Arduino UNO WiFi Rev2
+
+Boards supported on the Web Editor with [Arduino Create for Education Chrome app](https://chrome.google.com/webstore/detail/arduino-create-for-educat/elmgohdonjdampbcgefphnlchgocpaij) (legacy):
 
 <!-- * [Arduino 101](https://docs.arduino.cc/retired/boards/arduino-101-619) -->
 * Arduino Esplora
@@ -33,8 +43,9 @@ The Web Editor on Chromebook (Chrome OS) can be used with these boards:
 * Arduino Nano RP2040 Connect ([additional setup required](https://docs.arduino.cc/tutorials/nano-rp2040-connect/rp2040-chromebook-upload))
 * Arduino Pro
 * Arduino Pro Mini (ATmega328)
-* Arduino UNO
+* Arduino UNO (R3 and older revisions
 * Arduino UNO WiFi Rev2 ([additional setup required](https://docscontent-karlsoderbychromebookunowifire.gtsb.io/tutorials/uno-wifi-rev2/uno-wifi-r2-chromebook-installation))
+
 * Arduino Zero
 
 Third-party boards are not supported on Chrome OS.
