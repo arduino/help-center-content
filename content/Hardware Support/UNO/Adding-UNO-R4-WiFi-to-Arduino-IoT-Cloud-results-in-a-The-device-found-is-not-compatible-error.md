@@ -11,6 +11,8 @@ An Arduino Uno R4 WiFi has been detected but unfortunately this kind of board ca
 Executing command: exit status 1
 ```
 
-We are actively working on this issue. We apologize for the delay and expect to have full IoT Cloud support for UNO R4 WiFi very soon.
+We apologize for the delay and are actively working on this issue.
 
-**[Follow this thread for updates](https://forum.arduino.cc/t/connecting-uno-r4-wi-fi-to-arduino-iot-cloud/1142537)**.
+Full IoT Cloud support for UNO R4 WiFi is expected by July 14th, 2023.
+
+<a class="link-up-right" href="https://forum.arduino.cc/t/connecting-uno-r4-wi-fi-to-arduino-iot-cloud/1142537">Follow this thread for updates</a>

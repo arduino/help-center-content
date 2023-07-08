@@ -5,14 +5,24 @@ id: 9398559565340
 
 When uploading sketches to **Arduino UNO R4 WiFi** using Arduino development tools on Windows, you may encounter these errors:
 
-* **Arduino IDE 2 / Arduino CLI:** `No device found on <COM port>`, `Failed uploading: uploading error: exit status 1`
-* **Web Editor:** `Executing command: exit status 1`, `No device found on <COM port>`
-* **Arduino IoT Cloud (Setup Device):** `We were not able to configure your device`, `Executing command: exit status 1`
+* Arduino IDE 2 / Arduino CLI: `No device found on <COM port>`, `Failed uploading: uploading error: exit status 1`
+* Web Editor: `Executing command: exit status 1`, `No device found on <COM port>`
+* Arduino IoT Cloud (Setup Device): `We were not able to configure your device`, `Executing command: exit status 1`
 
-The issue was caused by how the board is reset and put into bootloader mode using the OS bindings of the hardware. **The root cause and the solution has been found and it is solved in the latest IDE 2 version (v2.1.1)**. You can also follow **[this forum thread](https://forum.arduino.cc/t/device-not-showing-in-com-port/1142476)** for updates.
+The underlying issue[^github-issue-renesas] was identified and a patch[^github-pr-cli] was included in Arduino CLI 0.33.1, Arduino IDE 2.1.1, and Arduino Create Agent 1.3.2.
 
-These are some options for using your UNO R4 WiFi in the meantime:
+To use your UNO R4 WiFi on Windows, make sure your software is up to date:
 
-* **Use IDE 2 v2.1.1 or higher**.
-* **Use the "Legacy IDE":** In IDE 1.8.19 and earlier the serial port touch reset was handled using Java, and there are many reports of successfully uploading sketches to UNO R4 WiFi using this version. **[Click here to download IDE 1.8.19](https://downloads.arduino.cc/arduino-1.8.19-windows.exe)**.
-* **Use a Mac or Linux computer:** This issue is only known to affect Windows users. If you have access to a macOS or Linux computer, you can use it to upload your sketches.
+* If you are using Arduino IDE 2, press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> to open the Command Palette and run the `Arduino: Check for Arduino IDE Updates` command, and look for a pop-up notification in the bottom-left corner. Alternatively, <a class="link-download" href="https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_Windows_64bit.exe">download and install the latest version</a>.
+* The Create Agent updates to the latest version automatically. <a class="link-up-right" href="https://support.arduino.cc/hc/en-us/articles/4407002993426-Check-your-Arduino-Create-Agent-version">Check your Arduino Create Agent version</a> to verify that you're running 1.3.2 or later. If it's not updating, try restarting the application, or <a class="link-up-right" href="https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Create-Agent">manually installing the latest version</a>.
+* If you are using Arduino CLI, run `arduino-cli upgrade`.
+
+[^github-issue-renesas]: [Upload broken for the Uno R4 WiFi on Windows #10](https://github.com/arduino/ArduinoCore-renesas/issues/10)
+
+[^github-pr-cli]: [Fix 1200-bps touch DTR handling (Windows) #2234](https://github.com/arduino/arduino-cli/pull/2234)
+
+[^github-release]: <https://github.com/arduino/arduino-cli/releases/tag/0.33.1>
+
+[^github-release]: <https://github.com/arduino/arduino-create-agent/releases/tag/1.3.2>
+
+Note that UNO R4 WiFi currently cannot be used with IoT Cloud, see <a class="link-up-right" href="https://support.arduino.cc/hc/en-us/articles/9398545261468-Adding-UNO-R4-WiFi-to-Arduino-IoT-Cloud-results-in-a-The-device-found-is-not-compatible-error">Adding UNO R4 WiFi to Arduino IoT Cloud results in a "The device found is not compatible" error</a>.
