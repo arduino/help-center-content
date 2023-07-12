@@ -9,7 +9,7 @@ UNO R4 WiFI support was added to Arduino Cloud July 12th, 2023[^blog].
 
 When adding your UNO R4 WiFi to the Cloud, you may need to upgrade the wireless connectivity firmware.
 
-1. <a class="link-top-right" href="https://create.arduino.cc/iot/devices">Open the Devices tab in Arduino IoT Cloud</a>
+1. <a class="link-up-right" href="https://create.arduino.cc/iot/devices">Open the Devices tab in Arduino IoT Cloud</a>
 1. Connect your UNO R4 WiFi to your PC.
 1. Click the **Add** button near the top of the page.
 1. Follow the instructions for updating the connectivity firmware.
