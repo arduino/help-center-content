@@ -34,6 +34,8 @@ You can use your phone as an IoT device in the Arduino Cloud.
 
 Download the **Arduino IoT Cloud Remote** app for [Android](https://play.google.com/store/apps/details?id=cc.arduino.cloudiot&hl=en&gl=US&pli=1) or [iOS](https://apps.apple.com/us/app/arduino-iot-cloud-remote/id1514358431).
 
+***NOTE: The IoT Remote app requires iOS 12.4 or later for iOS the version. If you are using Android, version 8.0 or later is required. Make sure the iOS or Android version on your device is up to date before downloading the app.***
+
 Check out the instructions at "[Use Sensor Data From Your Phone](https://docs.arduino.cc/arduino-cloud/tutorials/iot-remote-phone-sensors)".
 
 ---
