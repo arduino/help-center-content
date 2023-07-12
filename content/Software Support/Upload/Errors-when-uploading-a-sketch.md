@@ -3,8 +3,6 @@ title: "Errors when uploading a sketch"
 id: 4403365313810
 ---
 
-> **Incident:** **[Problems uploading to UNO R4 WiFi on Windows](https://support.arduino.cc/hc/en-us/articles/9398559565340-Problems-uploading-to-UNO-R4-WiFi-on-Windows)**
-
 When there is an error the IDE will print relevant information in the console. Learn how to resolve common errors.
 
 ---
