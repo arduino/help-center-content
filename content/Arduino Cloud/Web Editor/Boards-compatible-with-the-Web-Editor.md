@@ -45,7 +45,6 @@ Boards supported on the Web Editor with [Arduino Create for Education Chrome app
 * Arduino Pro Mini (ATmega328)
 * Arduino UNO (R3 and older revisions
 * Arduino UNO WiFi Rev2 ([additional setup required](https://docscontent-karlsoderbychromebookunowifire.gtsb.io/tutorials/uno-wifi-rev2/uno-wifi-r2-chromebook-installation))
-
 * Arduino Zero
 
 Third-party boards are not supported on Chrome OS.
