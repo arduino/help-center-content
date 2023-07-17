@@ -14,6 +14,8 @@ The following is meant for an overview **only** and does not take precedence ove
 * MKR VIDOR 4000
 * MKR WiFi 1010
 * Nano 33 IoT
+* Nano ESP32
+* Nano RP2040 Connect
 * Nicla Vision
 * Portenta H7
 * Portenta H7 Lite Connected
@@ -30,6 +32,7 @@ The following boards have Bluetooth Low Energy connectivity:
 * Nano 33 BLE
 * Nano 33 BLE Sense
 * Nano 33 IoT
+* Nano ESP32
 * Nano RP2040 Connect
 * Nicla Sense ME
 * Portenta H7
