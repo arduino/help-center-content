@@ -1,5 +1,6 @@
 ---
-title: "About the B1 and B0 pins on the Nano ESP32"
+title: About the B1 and B0 pins on the Nano ESP32
+id: 9625819325212
 ---
 
 The **B1** and **B0** pins on the Arduino Nano ESP32 expose two of the strapping pins[^strapping-pins] on the Espressif ESP32-S3 module.
