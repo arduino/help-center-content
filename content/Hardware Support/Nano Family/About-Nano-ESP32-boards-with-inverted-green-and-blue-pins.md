@@ -27,14 +27,14 @@ It is possible to determine the type of RGB LED by visually inspecting the board
 
 <div style="display: flex; flex-direction: row; flex-wrap: wrap;">
   <figure style="text-align: center;">
-     <img style="height: 230px;" src="img/Nano-ESP32-black-LED-cropped.png" alt="">
+     <img style="height: 230px;" src="img/Nano-ESP32-white-LED-cropped.png" alt="">
     <figcaption style="font-style: italic;">
       RGB LED with inverted green and blue pins.<br>
       (Part number: SMLP34RGB2W3)
     </figcaption>
   </figure>
   <figure style="text-align: center;">
-     <img style="height: 230px;" src="img/Nano-ESP32-white-LED-cropped.png" alt="">
+     <img style="height: 230px;" src="img/Nano-ESP32-black-LED-cropped.png" alt="">
     <figcaption style="font-style: italic;">
       RGB LED with regular green and blue pins.<br>
       (Part number: UHD1110-FKACL1A13R3Q1BBQFMF3)
