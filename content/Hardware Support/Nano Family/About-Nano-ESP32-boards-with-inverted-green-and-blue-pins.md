@@ -91,7 +91,7 @@ If you're comfortable editing files inside the board core, you can change a few 
 Follow these steps:
 
 1. Open the Arduino 15 folder<sup>[(?)](https://support.arduino.cc/hc/en-us/articles/360018448279-Open-the-Arduino15-folder)</sup>.
-2. Navigate to `packages/esp32/hardware/esp32/<version>/variants/arduino_nano_nora`.
+2. Navigate to `packages/arduino/hardware/esp32/<version>`.
 3. Open `io_pin_remap.cpp` in a text editor.
 4. Find the following lines:
 
