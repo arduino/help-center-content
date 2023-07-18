@@ -3,13 +3,11 @@ title: "Nano boards that can be powered directly with 3.3 V"
 id: 360014735580
 ---
 
-Some Nano boards have an exposed solder jumper that can be cut to enable powering the board directly with a 3.3 V external power source.
+Some Nano boards have a trace that can be cut to bypass the step down converter, and enable powering the board directly with a 3.3 V external power source. This can provide greater power efficiency and reduced heat generation on the board, especially for applications when the board is running on battery power, and will be inactive for long periods of time.
 
 ---
 
-## Overview
-
-### Supported boards
+## Before you begin
 
 You can use this procedure with the following boards:
 
@@ -19,22 +17,26 @@ You can use this procedure with the following boards:
 * Nano ESP32
 * Nano RP2040 Connect
 
-### Purpose and considerations
+Bypassing the onboard voltage regulator allows you to power the board directly with 3.3 V, adding the advantage of greater power efficiency and reduced heat generation on the board.
 
-Bypassing the onboard voltage regulator allows you to power the board directly with 3.3 V, adding the advantage of greater power efficiency and reduced heat generation on the board
+**Advantages:**
 
-However, please note:
+* Greater power efficiency.
+* Reduced heat generation on the board.
 
-* The power you supply in this configuration must be pre-regulated.
-* You can no longer use USB to power the board or upload sketches.
+**Disadvantages:**
 
-Consequently, this configuration is mainly recommended for reducing power consumption for ready-to-deploy projects in which the board will be inactive for long periods of time.
+* The power you supply in this configuration must be pre-regulated to 3.3 V.
+* You can no longer use a USB connection to power the board.
+* You can no longer use a USB connection to upload sketches.
+
+This configuration is mainly recommended ready-to-deploy projects where low power consumption is a priority.
 
 ---
 
-## Configure your board with 3.3 V power
+## Configure your board for 3.3 V power
 
-> **Note:** Cutting the 3.3V pads will disable the USB connector!
+> **Warning:** Cutting the 3.3V pads will disable the USB connector! You won't be able upload sketches or power the board using USB until you restore the connection between the pads.
 
 1. Disconnect all power sources from your board.
 
@@ -42,7 +44,22 @@ Consequently, this configuration is mainly recommended for reducing power consum
 
    ![The 3.3 V pads on different Arduino boards.](img/3.3V-pads-position.png)
 
-3. Use a sharp object to cut the thin line of material connecting the two pads:
+3. Use a sharp object (such as a hobby knife) to cut the trace (thin line of material) connecting the two pads:
+
+   <div style="display: flex; flex-direction: row; flex-wrap: wrap;">
+     <figure style="text-align: center;">
+        <img style="height: 150px;" src="img/3.3V-pads-before.png" alt="">
+       <figcaption style="font-style: italic;">
+         Before cutting the trace.
+       </figcaption>
+     </figure>
+     <figure style="text-align: center;">
+        <img style="height: 150px;" src="img/3.3V-pads-after.png" alt="">
+        <figcaption style="font-style: italic;">
+          After cutting the trace.
+        </figcaption>
+     </figure>
+   </div>
 
 4. Connect your regulated DC power source:
 
@@ -59,7 +76,7 @@ Consequently, this configuration is mainly recommended for reducing power consum
 
 ## Restoring the default configuration
 
-To restore the solder jumper and return the board to its default configuration, apply a small amount of solder to short the two 3.3V pads.
+To restore the solder jumper and return the board to its default configuration, apply a small amount of solder to short the two 3.3V pads again.
 
 ---
 
