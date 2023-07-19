@@ -20,7 +20,7 @@ In this article:
 1. Connect the UNO R4 WiFi board to your computer with the USB cable.
 1. Download <a class="link-download" href="https://github.com/arduino/uno-r4-wifi-usb-bridge/releases/latest/download/unor4wifi-update-windows.zip">unor4wifi-update-windows.zip</a>
 1. [Unzip](https://support.microsoft.com/windows/f6dde0a7-0fec-8294-e1d3-703ed85e7ebc) the downloaded file.
-1. Double click on the `update.bat` file that is in the unzipped folder.
+1. Double-click on the `update.bat` file that is in the unzipped folder.
 1. Depending on your Windows security settings, a "**Windows protected your PC**" dialog might now open:
    > **Microsoft Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk.**
 
