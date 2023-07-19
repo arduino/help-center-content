@@ -42,7 +42,7 @@ Follow these steps to install **Arduino Create for Education**:
 3. Click _Add app_ to confirm.
 4. Click _Launch app_ to start the Web Editor or go to [create.arduino.cc/editor](https://create.arduino.cc/editor).
 
-<a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4401881299090-Review-change-or-cancel-your-Arduino-Cloud-plan">Learn more about boards compatible with the Web Editor</a>
+<a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014779899-Boards-compatible-with-the-Web-Editor">Learn more about boards compatible with the Web Editor</a>
 
 ---
 
