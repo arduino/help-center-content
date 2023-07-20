@@ -76,7 +76,7 @@ This configuration is mainly recommended ready-to-deploy projects where low powe
 
 ## Restoring the default configuration
 
-To restore the solder jumper and return the board to its default configuration, apply a small amount of solder to short the two 3.3V pads again.
+To return the board to its default configuration, apply a small amount of solder to short the two 3.3V pads again.
 
 ---
 
