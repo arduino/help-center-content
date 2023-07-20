@@ -2,7 +2,7 @@
 title: 'If you get a compilation error when compiling for an ESP32 board with esp board package 2.0.10 on Windows or Linux'
 ---
 
-Version 2.0.10 of the **esp32 board package** introduced a bug[^github-issue][^github-pr] that would cause compilation to fail for some Windows and Linux users. On Windows, the error output includes a `Access is denied` message.
+Version 2.0.10 of the **esp32 board package** introduced a bug[^github-issue][^github-pr] that would cause compilation to fail for some Windows and Linux users. On Windows, the error output includes an `Access is denied` message.
 
 [^github-issue]: [Core Compilation failure on Linux in v2.0.10 #8424](https://github.com/espressif/arduino-esp32/issues/8424)
 [^github-pr]: [2.0.10 escaping fix #8433](https://github.com/espressif/arduino-esp32/pull/8433)
