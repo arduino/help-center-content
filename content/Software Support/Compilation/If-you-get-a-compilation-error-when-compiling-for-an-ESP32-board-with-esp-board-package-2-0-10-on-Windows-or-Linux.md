@@ -29,7 +29,7 @@ Compilation error: exit status 1
 
 The issue is expected to be fixed in the next release of the esp32 board package.
 
-Meanwhile, you can try these solutions:
+Meanwhile, you can try this solution:
 
 * Downgrade to **esp32 2.0.9**:
   * To make 2.0.9 and earlier versions available in the board manager, you need to add `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json` as an ["Additional boards manager URL" in Preferences](https://support.arduino.cc/hc/en-us/articles/360016466340-Add-third-party-platforms-to-the-Boards-Manager-in-Arduino-IDE).
