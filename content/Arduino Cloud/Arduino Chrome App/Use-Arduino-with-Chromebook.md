@@ -7,15 +7,11 @@ You can write and upload sketches on Chrome OS with the Web Editor in Arduino Cl
 
 ---
 
-## Install the Chromebook app
+## Install Arduino Cloud for Chromebook
 
-To use Arduino boards on Chromebook, you need to install an app from Arduino which handles serial communication with the board.
+To use Arduino boards on Chromebook, you need to install the **Arduino Cloud for Chromebook** app. This app handles serial communication with the board, and is replacing the previous Chrome Apps[^chrome-apps].
 
-### Arduino Cloud for Chromebook
-
-The **Arduino Cloud for Chromebook** app is recommended for most popular and newer boards.
-
-Follow these steps to install **Arduino Cloud for Chromebook**:
+Follow these steps to install Arduino Cloud for Chromebook:
 
 1. Open <a class="link-up-right" href="https://play.google.com/store/apps/details?id=cc.arduino.create_editor">Arduino Cloud for Chromebook (Google Play)</a>
 2. Click the **Install** button on the page.
@@ -33,16 +29,9 @@ The currently supported boards include:
 * Arduino RP2040 Connect
 * Arduino UNO WiFi Rev2
 
-### Arduino Create for Education
-
-Follow these steps to install **Arduino Create for Education**:
-
-1. Open <a class="link-up-right" href="https://chrome.google.com/webstore/detail/elmgohdonjdampbcgefphnlchgocpaij">Arduino Create for Education (Chrome web store)</a>
-2. Click _Add to Chrome_.
-3. Click _Add app_ to confirm.
-4. Click _Launch app_ to start the Web Editor or go to [create.arduino.cc/editor](https://create.arduino.cc/editor).
-
 <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014779899-Boards-compatible-with-the-Web-Editor">Learn more about boards compatible with the Web Editor</a>
+
+[^chrome-apps]: Chrome Apps are being [deprecated](https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html), but are currently still available in the Chrome web store: see <a class="link-up-right" href="https://chrome.google.com/webstore/detail/arduino-create/dcgicpihgkmccjigalccipmjlnjopdfe">Arduino Create</a> and <a class="link-up-right" href="https://chrome.google.com/webstore/detail/elmgohdonjdampbcgefphnlchgocpaij">Arduino Create for Education</a>.
 
 ---
 
