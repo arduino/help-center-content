@@ -4,6 +4,8 @@ title: Update the wireless connectivity firmware on UNO R4 WiFi
 
 Learn how to update the wireless connectivity firmware on the ESP32-S3 module on the UNO R4 WiFi.
 
+Updating the firmware is required to use UNO R4 WiFi with Arduino Cloud.
+
 In this article:
 
 * [Windows](#windows)
@@ -61,6 +63,10 @@ In this article:
 1. Press any key on your keyboard to close the terminal window.
 1. Disconnect the USB cable of the **UNO R4 WiFi** board from your computer.
 1. Connect the **UNO R4 WiFi** board to your computer with the USB cable again.
+
+### Troubleshooting for Windows
+
+If you get a `VCRUNTIME140.dII was not found` error, download and install the <a class="link-top-right" href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022">Microsoft Visual C++ Redistributable package</a> from Microsoft.
 
 ---
 
