@@ -3,7 +3,7 @@ title: "Nano boards that can be powered directly with 3.3 V"
 id: 360014735580
 ---
 
-Some Nano boards have a trace that can be cut to bypass the step down converter, and enable powering the board directly with a 3.3 V external power source. This can provide greater power efficiency and reduced heat generation on the board, especially for applications when the board is running on battery power, and will be inactive for long periods of time.
+Some Nano boards have an exposed trace that can be cut to bypass the step down converter, and enable powering the board directly with a 3.3 V external power source. This can provide greater power efficiency and reduced heat generation on the board, especially for applications when the board is running on battery power, and will be inactive for long periods of time.
 
 ---
 
