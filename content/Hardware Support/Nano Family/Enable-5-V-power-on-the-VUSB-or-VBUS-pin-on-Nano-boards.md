@@ -35,7 +35,7 @@ This section applies to the following boards:
 
 To enable the VUSB pin there are two pads that must be connected. The pads are located on the bottom of the board, next to the VUSB pin:
 
-![The VUSB pads on the Nano 33 BLE Sense](img/nano-33-ble-vusb-pin.png)
+![The VUSB pads on the Nano 33 BLE Sense](img/nano-33-ble-rev2-vusb-pin.png)
 
 ### Using the VUSB pin
 
@@ -57,7 +57,7 @@ This section applies to the following boards:
 
 The VBUS pin is enabled by default.
 
-![The VBUS pin on Nano ESP32.](img/nano-esp32-boot-pins.png)
+![The VBUS pin on Nano ESP32.](img/nano-esp32-vbus-pin.png)
 
 ### Using the VBUS pin
 
