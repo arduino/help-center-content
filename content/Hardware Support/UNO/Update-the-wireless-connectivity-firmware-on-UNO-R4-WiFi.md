@@ -1,5 +1,6 @@
 ---
 title: Update the wireless connectivity firmware on UNO R4 WiFi
+id: 9670986058780
 ---
 
 Learn how to update the wireless connectivity firmware on the ESP32-S3 module on the UNO R4 WiFi.
