@@ -1,32 +1,22 @@
 ---
-title: 'If you get an "Access is denied" error when compiling for an ESP32 board with esp board package 2.0.10'
+title: 'If you get a compilation error when compiling for an ESP32 board with esp board package 2.0.10 on Windows or Linux'
 ---
 
-Version 2.0.10 of the **esp32 board package** introduced a bug[^github-issue][^github-pr] that would cause compilation to fail for some Windows and Linux users, where the error output includes a `Access is denied` message.
+Version 2.0.10 of the **esp32 board package** introduced a bug[^github-issue][^github-pr] that would cause compilation to fail for some Windows and Linux users. On Windows, the error output includes a `Access is denied` message.
 
 [^github-issue]: [Core Compilation failure on Linux in v2.0.10 #8424](https://github.com/espressif/arduino-esp32/issues/8424)
 [^github-pr]: [2.0.10 escaping fix #8433](https://github.com/espressif/arduino-esp32/pull/8433)
 
-These are the known conditions for the error:
+The causes for the error are different depending on which system you're using:
 
-* **On Linux:** Using Arduino IDE 1.8.19 or earlier installed using the `apt` package manager.
-* **On Windows:** Using any version of Arduino IDE, where the username contains a space.
-
-**Conditions that will trigger the error:**
-
-* Linux & apt-obtained Arduino IDE 1.8.19 & esp32 2.0.10
-* Linux & Arudino IDE 2.0.10 &  esp32 2.0.10
-  * no error with Arudino IDE 2.0.9
-  * no error with Arudino IDE 2.0.11
-* Windows & Arduino IDE (any version) & esp32 2.0.10 & username containing space
+* [Windows](#windows)
+* [Linux](#linux)
 
 ---
 
-The issue will be fixed in the next release of the esp32 board package.
+<a id="windows"></a>
 
----
-
-## On Windows
+## If you're using Windows
 
 On Windows, the error output may look like this:
 
@@ -47,6 +37,8 @@ Meanwhile, you can try these solutions:
   * You cannot use the Nano ESP32 with this version.
 
 ---
+
+<a id="linux"></a>
 
 ## If you're using Linux
 
