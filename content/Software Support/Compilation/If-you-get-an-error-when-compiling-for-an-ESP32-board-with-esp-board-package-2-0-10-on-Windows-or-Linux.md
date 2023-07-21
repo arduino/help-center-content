@@ -56,7 +56,7 @@ The issue is expected to be fixed in the next release of the esp32 board package
 
 Meanwhile, you can try these solutions:
 
-* Use Arduino IDE 2.0.11 or later.
+* Use Arduino IDE 2.1.1 or later.
 * Use Arduino 1.8.19 downloaded as `.zip` download from the official <a class="link-download" href="https://www.arduino.cc/en/software#legacy-ide-18x">Downloads page</a>, instead of a package manager like `apt`.
 * Downgrade to **esp32 2.0.9**:
   * To make 2.0.9 and earlier versions available in the board manager, you need to add `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json` as an ["Additional boards manager URL" in Preferences](https://support.arduino.cc/hc/en-us/articles/360016466340-Add-third-party-platforms-to-the-Boards-Manager-in-Arduino-IDE).
