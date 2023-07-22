@@ -13,20 +13,20 @@ Learn how to download and install the desktop-based Arduino IDE.
 
 ### Windows
 
-1. [Download the latest release](https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_Windows_64bit.exe).
+1. <a class="link-download" href="https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_Windows_64bit.exe">Download the latest release</a>
 2. Follow the instructions in the installation guide.
 3. When completing the setup, leave _Run Arduino IDE_ ticked to launch the application, or launch it later from the Start Menu.
 
 ### macOS
 
-1. [Download the latest release](https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_macOS_64bit.dmg).
+1. <a class="link-download" href="https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_macOS_64bit.dmg">Download the latest release</a>
 2. Double-click the disk image (.dmg) file.
 3. Drag and drop the Arduino IDE application into the Applications folder.
 4. Launch Arduino IDE the same way you would launch any other application (such as <kbd>⌘</kbd> + <kbd>Space</kbd> for Spotlight and search for "Arduino").
 
 ### Linux
 
-1. [Download the latest release](https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_Linux_64bit.AppImage).
+1. <a class="link-download" href="https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_Linux_64bit.AppImage">Download the latest release</a>
 2. Find the AppImage file in your file manager.
 3. Make the AppImage file executable:
 
@@ -60,6 +60,8 @@ If Arduino IDE fails to open, and you see the text `dlopen(): error loading libf
 
 * Nightly builds – preview incoming releases.
 * IDE 1 (legacy)
+
+<a class="link-external" href="https://www.arduino.cc/en/software">View all download options on the Software page</a>
 
 **[View all download options on the Software page](https://www.arduino.cc/en/software).**
 
