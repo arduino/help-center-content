@@ -9,22 +9,23 @@ id: 360016077320
 
 ## Arduino devices
 
-The following Arduino boards can be used with IoT Cloud:
+The following Arduino boards and devices can be used with IoT Cloud:
 
+* [GIGA R1 WiFi](https://docs.arduino.cc/hardware/giga-r1-wifi)
 * [MKR 1000 WiFi](https://docs.arduino.cc/hardware/mkr-1000-wifi)
-* [MKR WiFi 1010](https://docs.arduino.cc/hardware/mkr-wifi-1010)
-* [MKR WAN 1300](https://docs.arduino.cc/hardware/mkr-wan-1300)
-* [MKR WAN 1310](https://docs.arduino.cc/hardware/mkr-wan-1310)
 * [MKR GSM 1400](https://docs.arduino.cc/hardware/mkr-gsm-1400)
 * [MKR NB 1500](https://docs.arduino.cc/hardware/mkr-nb-1500)
-* [Nano RP2040 Connect](https://docs.arduino.cc/hardware/nano-rp2040-connect)
+* [MKR WAN 1300](https://docs.arduino.cc/hardware/mkr-wan-1300)
+* [MKR WAN 1310](https://docs.arduino.cc/hardware/mkr-wan-1310)
+* [MKR WiFi 1010](https://docs.arduino.cc/hardware/mkr-wifi-1010)
 * [Nano 33 IoT](https://docs.arduino.cc/hardware/nano-33-iot)
-* [Giga R1 WiFi](https://docs.arduino.cc/hardware/giga-r1-wifi)
-* [Portenta H7](https://docs.arduino.cc/hardware/portenta-h7)
-* [Portenta H7 Lite Connected](https://docs.arduino.cc/hardware/portenta-h7-lite-connected)
-* [Portenta X8](https://docs.arduino.cc/hardware/portenta-x8)
+* [Nano RP2040 Connect](https://docs.arduino.cc/hardware/nano-rp2040-connect)
 * [Nicla Vision](https://docs.arduino.cc/hardware/nicla-vision)
-* [Arduino Opta](https://docs.arduino.cc/hardware/opta)
+* [Opta](https://docs.arduino.cc/hardware/opta)
+* [Portenta H7 Lite Connected](https://docs.arduino.cc/hardware/portenta-h7-lite-connected)
+* [Portenta H7](https://docs.arduino.cc/hardware/portenta-h7)
+* [Portenta X8](https://docs.arduino.cc/hardware/portenta-x8)
+* [UNO R4 WiFi](https://docs.arduino.cc/hardware/uno-r4-wifi)
 
 ---
 
