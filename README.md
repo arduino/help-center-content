@@ -1,8 +1,8 @@
 Arduino Help Center
 ===================
 
-[![Markdown](https://github.com/arduino/help-center-content/actions/workflows/workflow-validate.yaml/badge.svg)](https://github.com/arduino/help-center-content/actions/workflows/workflow-validate.yaml)
-[![Zendesk](https://github.com/arduino/help-center-content/actions/workflows/deploy-prod.yml/badge.svg)](https://github.com/arduino/help-center-content/actions/workflows/deploy-prod.yml)
+[![validate](https://github.com/arduino/help-center-content/actions/workflows/workflow-validate.yaml/badge.svg)](https://github.com/arduino/help-center-content/actions/workflows/workflow-validate.yaml)
+[![deploy](https://github.com/arduino/help-center-content/actions/workflows/deploy-prod.yml/badge.svg)](https://github.com/arduino/help-center-content/actions/workflows/deploy-prod.yml)
 [![URLs](https://github.com/arduino/help-center-content/actions/workflows/check-urls.yml/badge.svg)](https://github.com/arduino/help-center-content/actions/workflows/check-urls.yml)
 
 ## What Is this Repository?

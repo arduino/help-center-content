@@ -1,4 +1,4 @@
-name: Zendesk
+name: deploy
 
 on:
   repository_dispatch:
