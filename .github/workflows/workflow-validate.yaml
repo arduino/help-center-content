@@ -1,4 +1,4 @@
-name: Validate
+name: Markdown
 
 on:
   repository_dispatch:

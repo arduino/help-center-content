@@ -1,6 +1,10 @@
 Arduino Help Center
 ===================
 
+[![Markdown](https://github.com/arduino/help-center-content/actions/workflows/workflow-validate.yaml/badge.svg)](https://github.com/arduino/help-center-content/actions/workflows/workflow-validate.yaml)
+[![Zendesk](https://github.com/arduino/help-center-content/actions/workflows/deploy-prod.yml/badge.svg)](https://github.com/arduino/help-center-content/actions/workflows/deploy-prod.yml)
+[![URLs](https://github.com/arduino/help-center-content/actions/workflows/check-urls.yml/badge.svg)](https://github.com/arduino/help-center-content/actions/workflows/check-urls.yml)
+
 ## What Is this Repository?
 
 This repository hosts the content for the [Arduino Help Center](https://support.arduino.cc/). The content is written in Markdown, which is converted to HTML automatically during the build process.
