@@ -9,22 +9,23 @@ id: 360016077320
 
 ## Arduino devices
 
-The following Arduino boards can be used with IoT Cloud:
+The following Arduino boards and devices can be used with IoT Cloud:
 
+* [GIGA R1 WiFi](https://docs.arduino.cc/hardware/giga-r1-wifi)
 * [MKR 1000 WiFi](https://docs.arduino.cc/hardware/mkr-1000-wifi)
-* [MKR WiFi 1010](https://docs.arduino.cc/hardware/mkr-wifi-1010)
-* [MKR WAN 1300](https://docs.arduino.cc/hardware/mkr-wan-1300)
-* [MKR WAN 1310](https://docs.arduino.cc/hardware/mkr-wan-1310)
 * [MKR GSM 1400](https://docs.arduino.cc/hardware/mkr-gsm-1400)
 * [MKR NB 1500](https://docs.arduino.cc/hardware/mkr-nb-1500)
-* [Nano RP2040 Connect](https://docs.arduino.cc/hardware/nano-rp2040-connect)
+* [MKR WAN 1300](https://docs.arduino.cc/hardware/mkr-wan-1300)
+* [MKR WAN 1310](https://docs.arduino.cc/hardware/mkr-wan-1310)
+* [MKR WiFi 1010](https://docs.arduino.cc/hardware/mkr-wifi-1010)
 * [Nano 33 IoT](https://docs.arduino.cc/hardware/nano-33-iot)
-* [Giga R1 WiFi](https://docs.arduino.cc/hardware/giga-r1-wifi)
-* [Portenta H7](https://docs.arduino.cc/hardware/portenta-h7)
-* [Portenta H7 Lite Connected](https://docs.arduino.cc/hardware/portenta-h7-lite-connected)
-* [Portenta X8](https://docs.arduino.cc/hardware/portenta-x8)
+* [Nano RP2040 Connect](https://docs.arduino.cc/hardware/nano-rp2040-connect)
 * [Nicla Vision](https://docs.arduino.cc/hardware/nicla-vision)
-* [Arduino Opta](https://docs.arduino.cc/hardware/opta)
+* [Opta](https://docs.arduino.cc/hardware/opta)
+* [Portenta H7 Lite Connected](https://docs.arduino.cc/hardware/portenta-h7-lite-connected)
+* [Portenta H7](https://docs.arduino.cc/hardware/portenta-h7)
+* [Portenta X8](https://docs.arduino.cc/hardware/portenta-x8)
+* [UNO R4 WiFi](https://docs.arduino.cc/hardware/uno-r4-wifi)
 
 ---
 
@@ -34,7 +35,7 @@ You can use your phone as an IoT device in the Arduino Cloud.
 
 Download the **Arduino IoT Cloud Remote** app for [Android](https://play.google.com/store/apps/details?id=cc.arduino.cloudiot&hl=en&gl=US&pli=1) or [iOS](https://apps.apple.com/us/app/arduino-iot-cloud-remote/id1514358431).
 
-***NOTE: The IoT Remote app requires iOS 12.4 or later for iOS the version. If you are using Android, version 8.0 or later is required. Make sure the iOS or Android version on your device is up to date before downloading the app.***
+> **Note:** The IoT Remote app requires iOS 12.4 or later for iOS the version. If you are using Android, version 8.0 or later is required. Make sure the iOS or Android version on your device is up to date before downloading the app.
 
 Check out the instructions at "[Use Sensor Data From Your Phone](https://docs.arduino.cc/arduino-cloud/tutorials/iot-remote-phone-sensors)".
 
