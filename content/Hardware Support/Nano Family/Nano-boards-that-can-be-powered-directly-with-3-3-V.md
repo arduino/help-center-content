@@ -3,59 +3,80 @@ title: "Nano boards that can be powered directly with 3.3 V"
 id: 360014735580
 ---
 
-Some Nano boards have an exposed solder jumper that can be cut to enable powering the board directly with 3.3 V external power source.
+Some Nano boards have an exposed trace that can be cut to bypass the step down converter, and enable powering the board directly with a 3.3 V external power source. This can provide greater power efficiency and reduced heat generation on the board, especially for applications when the board is running on battery power, and will be inactive for long periods of time.
 
 ---
 
-## Overview
-
-### Supported boards
+## Before you begin
 
 You can use this procedure with the following boards:
 
 * Nano 33 BLE
 * Nano 33 BLE Sense
 * Nano 33 BLE Sense Rev2
+* Nano ESP32
 * Nano RP2040 Connect
 
-### Purpose and considerations
+Bypassing the onboard voltage regulator allows you to power the board directly with 3.3 V, adding the advantage of greater power efficiency and reduced heat generation on the board.
 
-Bypassing the onboard voltage regulator allows you to power the board directly with 3.3 V, adding the advantage of greater power efficiency and reduced heat generation on the board
+**Advantages:**
 
-However, you should note the following:
+* Greater power efficiency.
+* Reduced heat generation on the board.
 
-* The power you supply in this configuration must be pre-regulated.
-* You can no longer use USB power the board or upload sketches.
+**Disadvantages:**
 
-Consequently, this configuration is mainly recommended for reducing power consumption for ready-to-deploy projects in which the board will be inactive for long periods of time.
+* The power you supply in this configuration must be pre-regulated to 3.3 V.
+* You can no longer use a USB connection to power the board.
+* You can no longer use a USB connection to upload sketches.
+
+This configuration is mainly recommended ready-to-deploy projects where low power consumption is a priority.
 
 ---
 
-## Configure your board with 3.3 V power
+## Configure your board for 3.3 V power
 
-> **Note:** Sketches can not be uploaded via USB in this configuration!
+> **Warning:** Cutting the 3.3V pads will disable the USB connector! You won't be able upload sketches or power the board using USB until you restore the connection between the pads.
 
 1. Disconnect all power sources from your board.
 
-2. Identify the two 3.3V pads on the back of your board:
+2. Find the pads on the bottom of your board. They are outlined with a white, dotted line, and are labeled "3.3V".
 
-   ![The 3.3 V pads on different Arduino boards.](img/3.3V-pads.png)
+   ![The 3.3 V pads on different Arduino boards.](img/3.3V-pads-position.png)
 
-3. Cut the thin line of solder between the pads with a sharp object.
+3. Use a sharp object (such as a hobby knife) to cut the trace (thin line of material) connecting the two pads:
 
-4. **Connect your regulated DC power source:**
+   <div style="display: flex; flex-direction: row; flex-wrap: wrap;">
+     <figure style="text-align: center;">
+        <img style="height: 150px;" src="img/3.3V-pads-before.png" alt="">
+       <figcaption style="font-style: italic;">
+         Before cutting the trace.
+       </figcaption>
+     </figure>
+     <figure style="text-align: center;">
+        <img style="height: 150px;" src="img/3.3V-pads-after.png" alt="">
+        <figcaption style="font-style: italic;">
+          After cutting the trace.
+        </figcaption>
+     </figure>
+   </div>
 
-   * Connect your 3.3V+ power to the 3.3 V pin.
+4. Connect your regulated DC power source:
 
-   * Connect your power's ground a GND pin.
+   * Connect your 3.3V+ power to the 3V3/3.3V pin.
 
-   ![Pin connections for direct 3.3 V power.](img/direct-power-connections.png)
+   * Connect your power's ground to a GND pin.
+
+<figure style="width: 800px; margin: 0;">
+    <img src="img/direct-power-connections.png" alt="Circuit Diagram. UNO and Nano connected with digital and power pins.">
+    <figcaption style="text-align: center; font-style: italic;">Example: Battery connected to Nano RP2040 Connect.</figcaption>
+</figure>
 
 ---
 
 ## Restoring the default configuration
 
-To restore the solder jumper and return the board to its default configuration, apply a small amount of solder to short the two 3.3V pads.
+To return the board to its default configuration, apply a small amount of solder to short the two 3.3V pads again.
 
 ---
 
@@ -66,4 +87,5 @@ You can find board schematics and full pinouts in Arduino Docs:
 * [Nano 33 BLE](https://docs.arduino.cc/hardware/nano-33-ble)
 * [Nano 33 BLE Sense](https://docs.arduino.cc/hardware/nano-33-ble-sense)
 * [Nano 33 BLE Sense Rev2](https://docs.arduino.cc/hardware/nano-33-ble-sense-rev2)
+* [Nano ESP32](https://docs.arduino.cc/hardware/nano-esp32)
 * [Nano RP2040 Connect](https://docs.arduino.cc/hardware/nano-rp2040-connect)

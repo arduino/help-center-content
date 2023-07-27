@@ -1,5 +1,6 @@
 ---
-title: 'If you get an error when compiling for an ESP32 board with esp board package 2.0.10 on Windows or Linux'
+title: If you get an error when compiling for an ESP32 board with esp board package 2.0.10 on Windows or Linux
+id: 9682191506204
 ---
 
 Version 2.0.10 of the **esp32 board package** introduced a bug[^github-issue][^github-pr] that would cause compilation to fail for some Windows and Linux users. On Windows, the error output includes an `Access is denied` message.
