@@ -1,6 +1,7 @@
 ---
 title: "Failed uploading: uploading error: exit status 1"
 id: 6554944868252
+draft: true
 ---
 
 When an upload error occurs during sketch upload, you may see the error message `Failed uploading: uploading error: exit status 1` in the console. In Arduino IDE, the message may only be displayed in a pop-up notification in the bottom-right corner. In the console, it is typically printed last in the output, and simply indicates that the upload process has failed.

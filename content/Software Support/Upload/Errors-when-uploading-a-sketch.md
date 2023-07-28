@@ -39,7 +39,7 @@ If you still get an error, you'll find instructions for specific error messages 
 <h3>Upload</h3>
 <ul>
 <li><a href="https://support.arduino.cc/hc/en-us/articles/360020831120-Failed-uploading-no-upload-port-provided">Failed uploading: no upload port provided</a></li>
-<li><a href="https://support.arduino.cc/hc/en-us/articles/6554944868252-Failed-uploading-uploading-error-exit-status-1">Failed uploading: uploading error: exit status 1</a></li>
+<!-- <li><a href="https://support.arduino.cc/hc/en-us/articles/6554944868252-Failed-uploading-uploading-error-exit-status-1">Failed uploading: uploading error: exit status 1</a></li> NOTE: Unpublished article -->
 <li><a href="#no-device-found-on-port">No device found on &lt;port&gt;</a></li>
 <li><a href="#no-board-on-selected-port">Couldn't find a Board on the selected port</a></li>
 <li><a href="#no-dfu-capable-USB-device-available">dfu-util: No DFU capable USB device available</a></li>
