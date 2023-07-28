@@ -1,5 +1,5 @@
 ---
-title: Problems uploading to UNO R4 WiFi on Windows
+title: "Touch reset fails for UNO R4 WiFi on Windows (Arduino CLI 0.33.0 or earlier)"
 id: 9398559565340
 ---
 
