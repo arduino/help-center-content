@@ -24,5 +24,3 @@ To use your UNO R4 WiFi on Windows, make sure your software is up to date:
 [^github-release]: <https://github.com/arduino/arduino-cli/releases/tag/0.33.1>
 
 [^github-release]: <https://github.com/arduino/arduino-create-agent/releases/tag/1.3.2>
-
-Note that UNO R4 WiFi currently cannot be used with IoT Cloud, see <a class="link-up-right" href="https://support.arduino.cc/hc/en-us/articles/9398545261468-Adding-UNO-R4-WiFi-to-Arduino-IoT-Cloud-results-in-a-The-device-found-is-not-compatible-error">Adding UNO R4 WiFi to Arduino IoT Cloud results in a "The device found is not compatible" error</a>.
