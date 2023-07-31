@@ -4,9 +4,14 @@ title: "Reset the Arduino bootloader on the Nano ESP32"
 
 Learn how to reset the default Arduino bootloader on the Nano ESP32 using Arduino IDE.
 
-This procedure is required to upload regular Arduino sketches to a Nano ESP32 that has been flashed with the MicroPython firmware.
+These are some reasons you may want to reset the bootloader:
+
+* Update the Arduino bootloader already on the board. This can resolve issues with Nano ESP32 being misidentified as other ESP32 boards.
+* Restore the ability to upload regular Arduino sketches to a Nano ESP32 that has been flashed with the MicroPython firmware.
 
 ---
+
+Before you begin, it is recommended to have the latest version of the **Arduino ESP32 Boards** or **esp32** boards package installed using the Board Manager.
 
 Follow these steps:
 
