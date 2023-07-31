@@ -14,7 +14,7 @@ Follow these steps:
 
    ![The GND and B1 pins](img/nano-esp32-gnd-b1.png)
 
-2. While the **GND** and **B1** pins are shorted, press the white **RST** button on the top of the board.
+2. While the **GND** and **B1** pins are shorted, press the white **RST** button on the top of the board to reset board to **firmware download mode**.
 
 3. Remove the jumper cable. The RGB LED should stay on, in a purple or yellow color.
 
@@ -26,4 +26,13 @@ Follow these steps:
 
 7. Open **Tools > Programmer** and ensure **Esptool** is selected.
 
-8. Select **Sketch > Upload Using Programmer**.
+8. Select **Sketch > Upload Using Programmer** to begin uploading the firmware.
+
+   The process is complete when you see these lines:
+
+   ```
+   Leaving...
+   Hard resetting via RTS pin...
+   ```
+
+9. Press the **RST** button on top of the board to exit firmware download mode.
