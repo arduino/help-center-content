@@ -14,7 +14,7 @@ Follow these steps:
 
    ![The GND and B1 pins](img/nano-esp32-gnd-b1.png)
 
-2. While the **GND** and **B1** pins are shorted, press the white **RST** button on the top of the board to reset board to **firmware download mode**.
+2. While the **GND** and **B1** pins are shorted, press the white **RST** button on the top of the board to reset the board to **firmware download mode**.
 
 3. Remove the jumper cable. The RGB LED should stay on, in a purple or yellow color.
 
@@ -22,7 +22,7 @@ Follow these steps:
 
 5. Go to **Tools > Port** and select the board (it may be identified as an arbitrary ESP32 board).
 
-6. Go to **Tools > Board** and select **Arduino ESP32 Boards > Arduino Nano ESP32** (or **esp32 > Arduino Nano ESP32** if your using the full esp32 package).
+6. Go to **Tools > Board** and select **Arduino ESP32 Boards > Arduino Nano ESP32** (or **esp32 > Arduino Nano ESP32** if you're using the full esp32 package).
 
 7. Open **Tools > Programmer** and ensure **Esptool** is selected.
 
