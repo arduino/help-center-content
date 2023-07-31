@@ -88,6 +88,7 @@ If you get a `VCRUNTIME140.dII was not found` error, download and install the <a
    ```
 
 1. Press the <kbd>**Enter**</kbd> key.
+1. Type your macOS user password in the "Password" prompt and press the <kbd>**Enter**</kbd> key again.
 1. Type the following command in the **Terminal** window:
 
    ```text
@@ -95,7 +96,6 @@ If you get a `VCRUNTIME140.dII was not found` error, download and install the <a
    ```
 
 1. Press the <kbd>**Enter**</kbd> key.
-1. Type your macOS user password in the "Password" prompt and press the <kbd>**Enter**</kbd> key again.
 1. The terminal window might now show a list of the serial ports present on your computer.
 
    For example:
