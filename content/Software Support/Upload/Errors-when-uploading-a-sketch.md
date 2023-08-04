@@ -102,6 +102,14 @@ No device found on <port>
 
 4. See [Find and stop process blocking a port](https://support.arduino.cc/hc/en-us/articles/4407830972050-Find-and-stop-process-blocking-a-port).
 
+#### If you are uploading to UNO R4 WiFi
+
+1. Press and release the button marked "**RESET**" on the board quickly twice. The LED marked "**L**" on the board should now be pulsing.
+
+2. Select the port of the board from the menu in Arduino IDE. The port might have changed after the previous step, so make sure to verify that it is selected.
+
+Now try uploading the sketch to your board again.
+
 <a id="no-board-on-selected-port"></a>
 
 ### Couldn't find a Board on the selected port
