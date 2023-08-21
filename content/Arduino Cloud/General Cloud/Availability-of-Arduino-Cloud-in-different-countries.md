@@ -1,5 +1,6 @@
 ---
-title: "Availability of Arduino Cloud in different countries"
+title: Availability of Arduino Cloud in different countries
+id: 10083505965468
 ---
 
 Arduino Cloud is not available in the following countries:
