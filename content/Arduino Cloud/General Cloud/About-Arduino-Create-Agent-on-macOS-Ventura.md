@@ -11,7 +11,7 @@ Learn about using the Arduino Create Agent on macOS Ventura.
 
 ## Arduino Create Agent 1.3.0+ supports macOS Ventura
 
-[^1]: https://github.com/arduino/arduino-create-agent/releases/tag/1.2.7-ventura
+[^1]: <https://github.com/arduino/arduino-create-agent/releases/tag/1.2.7-ventura>
 
 Here's how to get the latest version:
 

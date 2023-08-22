@@ -14,30 +14,19 @@ Find boards that can be used with the Web Editor on your system:
 
 ## Web Editor on Chromebook
 
-The Web Editor on Chromebook (Chrome OS) can be used with these boards:
+To use the Web Editor on Chromebook, you need to install the <a class="link-up-right" href="https://play.google.com/store/apps/details?id=cc.arduino.create_editor">Arduino Cloud for Chromebook</a> app.
 
-<!-- * [Arduino 101](https://docs.arduino.cc/retired/boards/arduino-101-619) -->
-* Arduino Esplora
-* Arduino Leonardo
-* Arduino Mega 2560 Rev3
-* Arduino Micro
-* Arduino MKR 1000 WiFi
-* Arduino MKR Fox 1200
-* Arduino MKR GSM 1400
-* Arduino MKR NB 1500
-* Arduino MKR WAN 1300
+These boards are supported:
+
+* Arduino UNO R4 Minima
+* Arduino UNO R4 WiFi
+* Arduino UNO (R3 and older revisions)
 * Arduino MKR WiFi 1010
-* Arduino MKR Zero
-* Arduino Nano (ATmega328)
 * Arduino Nano 33 IoT
-* Arduino Nano RP2040 Connect ([additional setup required](https://docs.arduino.cc/tutorials/nano-rp2040-connect/rp2040-chromebook-upload))
-* Arduino Pro
-* Arduino Pro Mini (ATmega328)
-* Arduino UNO
-* Arduino UNO WiFi Rev2 ([additional setup required](https://docscontent-karlsoderbychromebookunowifire.gtsb.io/tutorials/uno-wifi-rev2/uno-wifi-r2-chromebook-installation))
-* Arduino Zero
+* Arduino Nano RP2040 Connect ([setup instructions](https://docs.arduino.cc/tutorials/nano-rp2040-connect/rp2040-chromebook-upload))
+* Arduino UNO WiFi Rev2 ([setup instructions](https://docscontent-karlsoderbychromebookunowifire.gtsb.io/tutorials/uno-wifi-rev2/uno-wifi-r2-chromebook-installation))
 
-Third-party boards are not supported on Chrome OS.
+<a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook">Learn more about using Arduino with Chromebook</a>
 
 ---
 
@@ -45,7 +34,9 @@ Third-party boards are not supported on Chrome OS.
 
 ## Web Editor on Windows, macOS, and Linux
 
-The Web Editor on Windows, macOS, and Linux can be used with these boards:
+To use the Web Editor on Windows, macOS, and Linux, you need to install the <a class="link-up-right" href="https://create.arduino.cc/getting-started/plugin">Arduino Create Agent</a>.
+
+These boards are supported:
 
 * Arduino Due
 * Arduino Duemilanove or Diecimila
@@ -79,6 +70,7 @@ The Web Editor on Windows, macOS, and Linux can be used with these boards:
 * Arduino Nicla Sense ME
 * Arduino Nicla Vision
 * Arduino Nicla Voice
+* Arduino Portenta C33
 * Arduino Portenta H7
 * Arduino Portenta X8
 * Arduino Primo

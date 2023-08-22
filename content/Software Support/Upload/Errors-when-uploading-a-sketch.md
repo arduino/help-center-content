@@ -3,7 +3,7 @@ title: "Errors when uploading a sketch"
 id: 4403365313810
 ---
 
-> **Incident:** **[Problems uploading to UNO R4 WiFi on Windows](https://support.arduino.cc/hc/en-us/articles/9398559565340-Problems-uploading-to-UNO-R4-WiFi-on-Windows)**
+> **Incident:** **[Touch reset fails for UNO R4 WiFi on Windows (Arduino CLI 0.33.0 or earlier)](https://support.arduino.cc/hc/en-us/articles/9398559565340)**
 
 When there is an error the IDE will print relevant information in the console. Learn how to resolve common errors.
 
@@ -39,7 +39,7 @@ If you still get an error, you'll find instructions for specific error messages 
 <h3>Upload</h3>
 <ul>
 <li><a href="https://support.arduino.cc/hc/en-us/articles/360020831120-Failed-uploading-no-upload-port-provided">Failed uploading: no upload port provided</a></li>
-<li><a href="https://support.arduino.cc/hc/en-us/articles/6554944868252-Failed-uploading-uploading-error-exit-status-1">Failed uploading: uploading error: exit status 1</a></li>
+<!-- <li><a href="https://support.arduino.cc/hc/en-us/articles/6554944868252-Failed-uploading-uploading-error-exit-status-1">Failed uploading: uploading error: exit status 1</a></li> NOTE: Unpublished article -->
 <li><a href="#no-device-found-on-port">No device found on &lt;port&gt;</a></li>
 <li><a href="#no-board-on-selected-port">Couldn't find a Board on the selected port</a></li>
 <li><a href="#no-dfu-capable-USB-device-available">dfu-util: No DFU capable USB device available</a></li>
@@ -101,6 +101,14 @@ No device found on <port>
 3. Restart your computer.
 
 4. See [Find and stop process blocking a port](https://support.arduino.cc/hc/en-us/articles/4407830972050-Find-and-stop-process-blocking-a-port).
+
+#### If you are uploading to UNO R4 WiFi
+
+1. Press and release the button marked "**RESET**" on the board quickly twice. The LED marked "**L**" on the board should now be pulsing.
+
+2. Select the port of the board from the menu in Arduino IDE. The port might have changed after the previous step, so make sure to verify that it is selected.
+
+Now try uploading the sketch to your board again.
 
 <a id="no-board-on-selected-port"></a>
 

@@ -7,12 +7,33 @@ You can write and upload sketches on Chrome OS with the Web Editor in Arduino Cl
 
 ---
 
-## Install the Chrome app
+## Install Arduino Cloud for Chromebook
 
-1. Go to the [Chrome web store page](https://chrome.google.com/webstore/detail/elmgohdonjdampbcgefphnlchgocpaij).
-2. Click _Add to Chrome_.
-3. Click _Add app_ to confirm.
-4. Click _Launch app_ to start the Web Editor or go to [create.arduino.cc/editor](https://create.arduino.cc/editor).
+To use Arduino boards on Chromebook, you need to install the **Arduino Cloud for Chromebook** app. This app handles serial communication with the board, and is replacing the previous Chrome Apps[^chrome-apps].
+
+Follow these steps to install Arduino Cloud for Chromebook:
+
+1. Open <a class="link-up-right" href="https://play.google.com/store/apps/details?id=cc.arduino.create_editor">Arduino Cloud for Chromebook (Google Play)</a>
+2. Click the **Install** button on the page.
+3. Choose the device and click **Install**.
+4. Find the app in the **Launcher** to open it.
+5. Sign into your Arduino account
+
+The currently supported boards include:
+
+* Arduino UNO R4 Minima
+* Arduino UNO R4 WiFi
+* Arduino UNO (R3 and older revisions)
+* Arduino MKR WiFi 1010
+* Arduino Nano 33 IoT
+* Arduino RP2040 Connect
+* Arduino UNO WiFi Rev2
+
+<a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014779899-Boards-compatible-with-the-Web-Editor">Learn more about boards compatible with the Web Editor</a>
+
+[^chrome-apps]: Chrome Apps are being [deprecated](https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html), but are currently still available in the Chrome web store: see <a class="link-up-right" href="https://chrome.google.com/webstore/detail/arduino-create/dcgicpihgkmccjigalccipmjlnjopdfe">Arduino Create</a> and <a class="link-up-right" href="https://chrome.google.com/webstore/detail/elmgohdonjdampbcgefphnlchgocpaij">Arduino Create for Education</a>.
+
+---
 
 ## Use the Web Editor
 
@@ -29,13 +50,3 @@ Learn more about the Web Editor:
 
 * [Uploading a simple example](https://docs.arduino.cc/cloud/web-editor/tutorials/getting-started/getting-started-web-editor#uploading-a-simple-example)
 * [Web Editor in Arduino Docs](https://docs.arduino.cc/cloud/web-editor)
-
----
-
-## New app beta
-
-A new Arduino Cloud application for Chromebook is currently in development, and is available on Google Play as a beta release.
-
-The regular Chrome app is still recommended for users that want a stable experience. But if you want to help support Arduino on Chromebook, we welcome you to try it out and share your feedback with us in the [forum](https://forum.arduino.cc/c/software/chrome-app/141).
-
-**[Get Arduino Cloud Editor (BETA) on Google Play](https://play.google.com/store/apps/details?id=cc.arduino.create_editor)**.
