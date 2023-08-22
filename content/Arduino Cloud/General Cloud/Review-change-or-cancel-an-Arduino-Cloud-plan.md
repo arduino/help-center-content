@@ -81,7 +81,9 @@ School and Enterprise plans can only be modified by the **subscription admin**.
 2. Find the plan you want to cancel.
 3. Click 'Cancel plan'.
 
-![Cancelling a Cloud plan.](img/my-plans-cancel.png)
+   ![Cancelling a Cloud plan.](img/my-plans-cancel.png)
+
+4. A confirmation message will be sent to the email address connected to your Arduino account.
 
 > **Note:** You will retain access to your paid features until the end of the billing cycle. See [Billing and feature changes when switching to a different Cloud plan](https://support.arduino.cc/hc/en-us/articles/4401874211730) for more information.
 
