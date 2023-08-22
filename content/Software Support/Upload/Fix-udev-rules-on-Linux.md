@@ -139,7 +139,7 @@ You can set the udev rules by running `post_install.sh` as root.
 
 Follow these steps:
 
-1. Go to the [post_install.sh file for Arduino megaAVR Boards on GitHub](https://github.com/arduino/ArduinoCore-megaavr/blob/aa477bb589af002e7d974174eaf5594e74633b5f/post_install.sh).
+1. Go to the [post_install.sh file for Arduino megaAVR Boards on GitHub](https://github.com/arduino/ArduinoCore-megaavr/blob/master/post_install.sh).
 
 2. Download the file to your computer.
 
