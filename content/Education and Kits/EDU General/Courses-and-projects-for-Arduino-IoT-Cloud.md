@@ -14,13 +14,7 @@ Harness the power of the Arduino IoT Cloud to gather data, understand how device
 
 The course can be completed using the [Arduino Explore IoT Kit Rev2](https://store.arduino.cc/products/explore-iot-kit-rev2).
 
-<a class="link-chevron" href="https://courses.arduino.cc/explore-iot/home/">Learn more about the Explore IoT Rev2 course</a>
-
-<!-- **Links:**
-
-* [Course](https://courses.arduino.cc/explore-iot/)
-* [Kit (Store)](https://store.arduino.cc/products/explore-iot-kit-rev2)
--->
+<a class="link-chevron" href="https://courses.arduino.cc/explore-iot/home/">View the Explore IoT Rev2 course</a>
 
 ### Explore IoT
 
@@ -30,35 +24,25 @@ The course can be completed using the [Arduino Explore IoT Kit](https://store.ar
 
 <a class="link-chevron" href="https://edu-content-preview.arduino.cc/content-preview/high_school/lesson/CONTENTPREVIEW+IOTSK">Preview the Explore IoT course</a>
 
-<!-- **Links:**
-
-* [Course](https://explore-iot.arduino.cc/)
-* [Course (preview)](https://edu-content-preview.arduino.cc/content-preview/high_school/lesson/CONTENTPREVIEW+IOTSK)
-* [Kit (Store)](https://store.arduino.cc/products/arduino-explore-iot-kit)
--->
+<a class="link-chevron" href="https://explore-iot.arduino.cc/">View the Explore IoT course</a> (a kit registration code or paid Arduino Cloud plan is required)
 
 ### Oplà IoT Kit
 
 Get started on the fundamental concepts of the Internet of Things using the **Arduino MKR WiFi 1010** with the **MKR IoT Carrier**.
 
-The course can be completed using the [Arduino Oplà IoT Kit](https://store.arduino.cc/products/arduino-opla-iot-kit).
+The course can be completed using the [Arduino Oplà IoT Kit](https://store.arduino.cc/products/arduino-opla-iot-kit), which includes a 12-month trial for the Arduino Cloud Maker plan.
 
 <a class="link-chevron" href="https://opla.arduino.cc/">View the Oplà IoT Kit course</a>
-
-<!-- **Links:**
-
-* [Course](https://opla.arduino.cc/)
-* [Kit (Store)](https://store.arduino.cc/products/arduino-opla-iot-kit)
--->
 
 ### Greenhouse Kit
 
 Learn how to use innovative technology to boost sustainability by creating an automated greenhouse.
 
-<!-- **Links:**
-* [View the Arduino Greenhouse Kit course](https://greenhouse-kit.arduino.cc/)
-* [Course (preview)](https://edu-content-preview.arduino.cc/content-preview/high_school/lesson/CONTENTPREVIEW+GREENHOUSE)
--->
+<a class="link-chevron" href="https://edu-content-preview.arduino.cc/content-preview/high_school/lesson/CONTENTPREVIEW+GREENHOUSE">Preview the Greenhouse Kit course</a>
+
+<a class="link-chevron" href="https://greenhouse-kit.arduino.cc/">View the Greenhouse Kit course</a> (a kit registration code or paid Arduino Cloud plan is required)
+
+---
 
 ## Templates
 
