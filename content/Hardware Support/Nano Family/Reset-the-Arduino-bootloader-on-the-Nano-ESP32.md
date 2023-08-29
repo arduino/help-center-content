@@ -1,5 +1,6 @@
 ---
-title: "Reset the Arduino bootloader on the Nano ESP32"
+title: Reset the Arduino bootloader on the Nano ESP32
+id: 9810414060188
 ---
 
 Learn how to reset the default Arduino bootloader on the Nano ESP32 using Arduino IDE.
