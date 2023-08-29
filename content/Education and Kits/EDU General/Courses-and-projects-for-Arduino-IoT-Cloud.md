@@ -55,9 +55,10 @@ The course can be completed using the [Arduino Oplà IoT Kit](https://store.ardu
 
 Learn how to use innovative technology to boost sustainability by creating an automated greenhouse.
 
-[View the Arduino Greenhouse Kit course](https://greenhouse-kit.arduino.cc/)
-
----
+<!-- **Links:**
+* [View the Arduino Greenhouse Kit course](https://greenhouse-kit.arduino.cc/)
+* [Course (preview)](https://edu-content-preview.arduino.cc/content-preview/high_school/lesson/CONTENTPREVIEW+GREENHOUSE)
+-->
 
 ## Templates
 
