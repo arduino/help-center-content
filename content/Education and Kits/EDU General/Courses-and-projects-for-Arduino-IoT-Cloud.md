@@ -1,5 +1,6 @@
 ---
-title: "Courses and projects for Arduino IoT Cloud"
+title: Courses and projects for Arduino IoT Cloud
+id: 10203733915164
 ---
 
 Learn about Arduino Education courses and other projects that use Arduino IoT Cloud.
