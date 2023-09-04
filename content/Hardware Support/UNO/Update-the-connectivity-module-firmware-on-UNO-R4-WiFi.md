@@ -1,5 +1,5 @@
 ---
-title: Update the wireless connectivity firmware on UNO R4 WiFi
+title: Update the connectivity module firmware on UNO R4 WiFi
 id: 9670986058780
 ---
 
