@@ -24,7 +24,7 @@ These boards are supported:
 * Arduino MKR WiFi 1010
 * Arduino Nano 33 IoT
 * Arduino Nano RP2040 Connect ([setup instructions](https://docs.arduino.cc/tutorials/nano-rp2040-connect/rp2040-chromebook-upload))
-* Arduino UNO WiFi Rev2 ([setup instructions](https://docscontent-karlsoderbychromebookunowifire.gtsb.io/tutorials/uno-wifi-rev2/uno-wifi-r2-chromebook-installation))
+* Arduino UNO WiFi Rev2 ([setup instructions](https://docs.arduino.cc/tutorials/uno-wifi-rev2/uno-wifi-r2-chromebook-installation))
 
 <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook">Learn more about using Arduino with Chromebook</a>
 
