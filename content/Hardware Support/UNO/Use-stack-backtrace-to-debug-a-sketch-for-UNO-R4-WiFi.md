@@ -1,5 +1,5 @@
 ---
-title: "Use backtrace debugging with UNO R4 WiFi"
+title: "Use stack backtrace to debug a sketch for UNO R4 WiFi"
 ---
 
 The UNO R4 WiFi uses [CmBacktrace](https://github.com/armink/CmBacktrace) to print useful information in the serial output when a runtime error occurs. The output includes an `addr2line` command that can be used to find the line in your sketch where the runtime error occurred.
