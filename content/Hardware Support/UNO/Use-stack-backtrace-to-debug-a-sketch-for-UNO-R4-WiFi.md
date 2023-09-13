@@ -20,7 +20,7 @@ To use the backtrace, the following must be true:
 
 Follow these steps to run the addr2line command:
 
-1. Look at the last line in the serial monitor output, which starts with `Show` more call stack info by run:`.
+1. Look at the last line in the serial monitor output, which starts with `Show more call stack info by run:`.
 2. Copy the `addr2line` command. Make sure to include the full command, for example:
 
    `addr2line -e "/private/var/folders/58/gntldnl9249ck9fjblgv9jdw0000gp/T/arduino/sketches/EE268ECDDB1E91C34016236A92C09AA0/ErrorInducer.ino".elf -a -f 00004188 00008718 0000426e 00009bd4 00009c12 00004296 0000753a 00007530`
