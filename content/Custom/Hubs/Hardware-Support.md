@@ -3,39 +3,40 @@ title: "Hardware Support"
 id: 9264736457500
 ---
 
-<div class="actions-wrapper actions-wrapper-s actions-black-text">
-  <div class="actions-grid-item actions-black-text">
+<div class="actions-wrapper actions-wrapper-s">
+  <div class="actions-grid-item">
     <a id="keep" href="https://support.arduino.cc/hc/en-us/sections/360004641859-UNO"></a>
-    <img src="https://content.arduino.cc/assets/hc-UNO.png"> <span>UNO</span>
+    <img src="https://content.arduino.cc/assets/hc-UNO.png"> <span class="link-chevron-right">UNO</span>
   </div>
   <div class="actions-grid-item">
     <img src="https://content.arduino.cc/assets/hc-nano.png">
     <a id="keep" href="https://support.arduino.cc/hc/en-us/sections/360004605400-Nano-Family"></a>
-    <span>Nano</span>
+    <span class="link-chevron-right">Nano</span>
   </div>
   <div class="actions-grid-item">
     <img src="https://content.arduino.cc/assets/hc-MKR.png">
     <a id="keep" href="https://support.arduino.cc/hc/en-us/sections/360004641919-MKR-Family"></a>
-    <span>MKR</span>
+    <span class="link-chevron-right">MKR</span>
   </div>
   <div class="actions-grid-item">
     <img src="https://content.arduino.cc/assets/hc-giga.png">
     <a id="keep" href="https://support.arduino.cc/hc/en-us/sections/7980658170908-GIGA-R1"></a>
-    <span>GIGA R1</span>
+    <span class="link-chevron-right">GIGA R1</span>
   </div>
   <div class="actions-grid-item">
     <img src="https://content.arduino.cc/assets/hc-nicla.png">
     <a id="keep" href="https://support.arduino.cc/hc/en-us/sections/4410176504978-Nicla-Family"></a>
-    <span>Nicla</span>
+    <span class="link-chevron-right">Nicla</span>
   </div>
   <div class="actions-grid-item">
     <img src="https://content.arduino.cc/assets/hc-portenta-h7.png">
     <a id="keep" href="https://support.arduino.cc/hc/en-us/sections/360004767859-Portenta-Family"></a>
-    <span>Portenta</span>
+    <span class="link-chevron-right">Portenta</span>
   </div>
   <!-- <div class="actions-grid-item">
     <img src="https://content.arduino.cc/assets/hc-opta.png">
-    <a id="keep" href="#code"></a> <span>Opta</span>
+    <a id="keep" href="#code"></a>
+		<span  class="link-chevron-right">Opta</span>
   </div>-->
 </div>
 <h2 class="center hub">General troubleshooting</h2>
