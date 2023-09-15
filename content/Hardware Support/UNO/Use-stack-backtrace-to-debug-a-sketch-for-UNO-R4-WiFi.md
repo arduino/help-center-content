@@ -25,10 +25,10 @@ Follow these steps to run the `addr2line` command:
 
    `addr2line -e "/private/var/folders/58/gntldnl9249ck9fjblgv9jdw0000gp/T/arduino/sketches/EE268ECDDB1E91C34016236A92C09AA0/ErrorInducer.ino".elf -a -f 00004188 00008718 0000426e 00009bd4 00009c12 00004296 0000753a 00007530`
 
-3. Open Terminal (macOS, Linux) or [Windows Powershell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.3).
+3. **Windows only:** Paste the command in a text editor. Replace "C:" with "/mnt/c" and replace **all** backslashes (\\) with forward slashes (/).
+4. Open Terminal (macOS, Linux) or [Windows Powershell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.3).
    * **Windows only:** Type `Ubuntu` into Windows Powershell and press <kbd>Enter</kbd>.
-4. Paste the addr2line command and press <kbd>Enter</kbd>.
-5. **Windows only:** Paste the command in a text editor. Replace "C:" with "/mnt/c" and replace **all** backslashes (\\) with forward slashes (/).
+5. Paste the `addr2line` command (or the `addr2line` command altered in step 3, if using **Windows**) and press <kbd>Enter</kbd>.
 6. Look for the first line that includes the path to your sketch. The line number where the error occurred follows immediately after. For example, `/Users/username/Documents/Arduino/ErrorInducer/ErrorInducer.ino:67` indicates that the error occurred on line 67.
 7. Find the line in Arduino IDE. Line numbers are printed to the left of each line of code. Analyze the row where the error occurred.
 
