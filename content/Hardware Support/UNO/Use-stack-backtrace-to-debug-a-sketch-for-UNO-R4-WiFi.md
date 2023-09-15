@@ -18,7 +18,7 @@ To use the backtrace, the following must be true:
 
 ## Instructions
 
-Follow these steps to run the addr2line command:
+Follow these steps to run the `addr2line` command:
 
 1. Look at the last line in the serial monitor output, which starts with `Show more call stack info by run:`.
 2. Copy the `addr2line` command. Make sure to include the full command, for example:
