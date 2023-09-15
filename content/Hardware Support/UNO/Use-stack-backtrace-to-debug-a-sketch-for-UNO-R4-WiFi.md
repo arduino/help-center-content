@@ -14,7 +14,7 @@ To use the backtrace, the following must be true:
 * `addr2line` must be installed on your system:
   * **Windows:** `addr2line` is not available as a native Windows application, but can be run with [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install). The Ubuntu distribution of Linux is installed by default and should come with `addr2line`. Otherwise, install it with `apt-get install binutils`.
   * **macOS:** `addr2line` can be installed with [Homebrew](https://brew.sh/) by running `brew install binutils` in Terminal.
-  * **Linux:** `addr2line` may already installed on your system. Otherwise, run `apt-get install binutils` in Terminal (Ubuntu, Debian), or see [command-not-found.com/addr2line](https://command-not-found.com/addr2line) for other distributions.
+  * **Linux:** `addr2line` may already be installed on your system. Otherwise, run `apt-get install binutils` in Terminal (Ubuntu, Debian), or see [command-not-found.com/addr2line](https://command-not-found.com/addr2line) for other distributions.
 
 ## Instructions
 
