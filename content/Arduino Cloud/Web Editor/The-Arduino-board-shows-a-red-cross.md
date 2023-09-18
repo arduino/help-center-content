@@ -7,7 +7,7 @@ If your board is not detected by Arduino Web Editor, a red cross icon will be di
 
 ![Web Editor with red cross icon showing in the board selector menu ](img/WebEditor_Red_cross.png)
 
-Learn how to troubleshoot possible issues when connecting a board to the Web Editor. 
+Learn how to troubleshoot possible issues when connecting a board to the Web Editor.
 
 ## Troubleshooting
 
@@ -31,6 +31,7 @@ Classic Nano boards and some clone boards with generic USB chips will show up as
 
 ![Web Editor with port name showing in the board selector ](img/WebEditor_port_no_board_name.png)
 
-Note that: 
+Note that:
+
 * If you're using a classic Arduino Nano, you may need to [manually install FTDI drivers](https://support.arduino.cc/hc/en-us/articles/4411305694610-Install-or-update-FTDI-drivers).
 * If you're using an Arduino-based "clone" board with a CH340 USB chip, you may need to [manually install CH340 drivers](https://sparks.gogo.co.nz/ch340.html).
