@@ -17,7 +17,11 @@ Learn how to troubleshoot possible issues when connecting a board to the Web Edi
 * Check that your device is powered. One or more more LEDs should be lit.
 * If you haven't done so already, [install Arduino Create Agent](https://create.arduino.cc/getting-started/plugin/welcome).
 * [Check if the Arduino Create Agent is installed and running](https://support.arduino.cc/hc/en-us/articles/4980687506844-Check-if-the-Arduino-Create-Agent-is-installed-and-running).
-* Open the Arduino Create Agent menu (Look for the ![Arduino Create Agent icon](img/create-agent-logo-mac.png) icon in the top-right of the menu bar for macOS and Linux or in the bottom-right of the taskbar within the system tray, for Windows) and see if `Generate and Install HTTPS Certificates` is available. If so:
+* Check if HTTPS certificates have been installed:
+    1. Open the Arduino Create Agent menu (Look for the ![Arduino Create Agent icon](img/create-agent-logo-mac.png) icon in the top-right of the menu bar for macOS and Linux or in the bottom-right of the taskbar within the system tray, for Windows).
+    2. If the **Generate and Install HTTPS Certificates** option is available, click it. If it's disabled, the certificates are already installed.
+    3. Enter password if prompted.
+    4. Refresh the browser window.
     1. Select this option
     2. Enter password if prompted
     3. Refresh the browser
