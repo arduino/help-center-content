@@ -9,7 +9,7 @@ You can select pin numbering in **Tools > Pin Numbering** option:
 * **By Arduino pin (default):** Standard for Nano boards by Arduino.
 * **By GPIO number (legacy):** Standard for most ESP32 boards.
 
-Regardless of which pin numbering you use, you can use the pin labels to refer to the pins. The following lines of codes are equavivalnt, but only the one using `D0` to refer to the pin works with both pin numbering options:
+Regardless of which pin numbering you use, you can use the pin labels to refer to the pins. The following lines of codes are equivalent, but only the one using `D0` to refer to the pin works with both pin numbering options:
 
 * `pinMode(2, OUTPUT)` (By Arduino pin)
 * `pinMode(5, OUTPUT)` (By GPIO number)
