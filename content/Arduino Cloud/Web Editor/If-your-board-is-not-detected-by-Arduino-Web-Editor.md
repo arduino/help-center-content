@@ -3,7 +3,7 @@ title: "If your board is not detected by Arduino Web Editor"
 id: 360018131160
 ---
 
-If your board is not detected by Arduino Web Editor, a red cross icon will be displayed in the board selector.
+If the selected board in Arduino Web Editor could not be detected, the board selector will display a red cross.
 
 ![Web Editor with red cross icon showing in the board selector menu ](img/WebEditor_Red_cross.png)
 
