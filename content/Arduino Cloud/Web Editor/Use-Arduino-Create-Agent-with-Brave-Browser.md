@@ -13,14 +13,14 @@ To avoid these, it is necessary to create a custom filter that allows communicat
 
 ## Create a custom filter
 
-1. Open the Brave Browser.
+1. Open Brave Browser.
 
 1. In the address bar, navigate to `brave://adblock`.
 
 1. Scroll down to the _Create custom filters_ section and add the following:
 
-* `@@localhost`
-* `@@127.0.0.1`
+    * `@@localhost`
+    * `@@127.0.0.1`
 
 1. Click _Save changes_.
 
