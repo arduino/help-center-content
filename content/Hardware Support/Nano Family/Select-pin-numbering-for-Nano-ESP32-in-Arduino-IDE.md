@@ -1,5 +1,6 @@
 ---
-title: "Select pin numbering for Nano ESP32 in Arduino IDE"
+title: Select pin numbering for Nano ESP32 in Arduino IDE
+id: 10483225565980
 ---
 
 By default, Nano ESP32 uses pin mapping consistent with the **Nano form factor**, and is generally compatible with projects made for other Nano boards. Since this pin mapping is different than the one used for common ESP32 boards, some libraries made for ESP32 boards may not function correctly. In this case, you may want to use the standard ESP32 pin numbering.
