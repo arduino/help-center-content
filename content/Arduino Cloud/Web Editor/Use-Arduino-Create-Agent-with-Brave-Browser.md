@@ -2,7 +2,8 @@
 title: "Use Arduino Cloud with Brave Browser"
 ---
 
-To use [Brave Browser](https://brave.com/) with Arduino Cloud it is necessary to create a custom filter that allows communication between Brave Browser and the [Arduino Create Agent](https://create.arduino.cc/getting-started/plugin/welcome)
+To use [Brave Browser](https://brave.com/) with Arduino Cloud it is necessary to create a custom filter that allows communication between Brave Browser and the [Arduino Create Agent](https://create.arduino.cc/getting-started/plugin/welcome).
+
 ---
 
 ## Create a custom filter
