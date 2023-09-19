@@ -9,6 +9,8 @@ If the selected board in Arduino Web Editor could not be detected, the board sel
 
 Learn how to troubleshoot possible issues when connecting a board to the Web Editor.
 
+---
+
 ## Troubleshooting
 
 > **Note:** If you are using a Chromebook, make sure to install the <a class="link-up-right" href="https://play.google.com/store/apps/details?id=cc.arduino.create_editor">Arduino Cloud for Chromebook app</a>.
@@ -26,7 +28,6 @@ Learn how to troubleshoot possible issues when connecting a board to the Web Edi
     2. If the **Generate and Install HTTPS Certificates** option is available, click it. If it's disabled, the certificates are already installed.
     3. Enter password if prompted.
     4. Refresh the browser window.
-
 
 ### Classic Nano boards and boards with generic USB chips
 
