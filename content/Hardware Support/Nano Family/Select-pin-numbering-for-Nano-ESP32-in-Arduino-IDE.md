@@ -29,10 +29,10 @@ For a complete overview, see the table below.
 | D7        |           7 |          10 |
 | D8        |           8 |          17 |
 | D9        |           9 |          18 |
-| D1        |          10 |          21 |
-| D1        |          11 |         138 |
-| D1        |          12 |         247 |
-| D1        |          13 |         348 |
+| D10       |          10 |          21 |
+| D11       |          11 |          38 |
+| D12       |          12 |          47 |
+| D13       |          13 |          48 |
 | LED_RED   |          14 |          46 |
 | LED_GREEN |          15 |           0 |
 | LED_BLUE  |          16 |          45 |
