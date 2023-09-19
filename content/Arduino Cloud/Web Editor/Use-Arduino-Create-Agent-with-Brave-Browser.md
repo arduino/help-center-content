@@ -1,14 +1,8 @@
 ---
-title: "Use Arduino Create Agent with Brave Browser"
+title: "Use Arduino Cloud with Brave Browser"
 ---
 
-When using the Arduino Web Editor or the Arduino IoT Cloud with the Brave Browser, one of the following messages might be prompted (even when the latest version of the [Arduino Create Agent is installed and running](https://support.arduino.cc/hc/en-us/articles/4980687506844-Check-if-the-Arduino-Create-Agent-is-installed-and-running)):
-
-* `"Arduino Create Agent not found"`
-* `"To upload a sketch via USB port, make sure the Agent is installed and running on this computer"`
-
-To avoid these, it is necessary to create a custom filter that allows communication between Brave Browser and the Arduino Create Agent.
-
+To use [Brave Browser](https://brave.com/) with Arduino Cloud it is necessary to create a custom filter that allows communication between Brave Browser and the [Arduino Create Agent](https://create.arduino.cc/getting-started/plugin/welcome)
 ---
 
 ## Create a custom filter
@@ -24,4 +18,4 @@ To avoid these, it is necessary to create a custom filter that allows communicat
 
 1. Click _Save changes_.
 
-The Arduino Create Agent will then be able to detect your board, and the Web Editor/ IoT Cloud should work as expected.
+The Arduino Create Agent will then be able to detect your board, and Arduino Cloud should work as expected.
