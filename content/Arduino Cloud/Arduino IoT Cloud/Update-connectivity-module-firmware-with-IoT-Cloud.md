@@ -1,5 +1,6 @@
 ---
-title: "Update connectivity module firmware with IoT Cloud"
+title: Update connectivity module firmware with IoT Cloud
+id: 10501616961564
 ---
 
 Arduino IoT Cloud uses the Arduino Firmware Uploader tool to update supported connectivity modules:
