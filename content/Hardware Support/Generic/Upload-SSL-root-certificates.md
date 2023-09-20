@@ -13,6 +13,8 @@ In this article:
 
 ---
 
+<a id="supported-boards"></a>
+
 ## Supported boards
 
 The Firmware Updater tool in Arduino IDE supports[^deprecated] these boards and modules:
