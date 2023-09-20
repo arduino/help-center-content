@@ -19,6 +19,7 @@ The following Arduino boards and devices can be used with IoT Cloud:
 * [MKR WAN 1310](https://docs.arduino.cc/hardware/mkr-wan-1310)
 * [MKR WiFi 1010](https://docs.arduino.cc/hardware/mkr-wifi-1010)
 * [Nano 33 IoT](https://docs.arduino.cc/hardware/nano-33-iot)
+* [Nano ESP32](https://docs.arduino.cc/hardware/nano-esp32)
 * [Nano RP2040 Connect](https://docs.arduino.cc/hardware/nano-rp2040-connect)
 * [Nicla Vision](https://docs.arduino.cc/hardware/nicla-vision)
 * [Opta](https://docs.arduino.cc/hardware/opta)
