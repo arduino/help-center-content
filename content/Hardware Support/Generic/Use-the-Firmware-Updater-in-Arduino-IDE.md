@@ -3,7 +3,7 @@ title: "Use the Firmware Updater in Arduino IDE"
 id: 360013896579
 ---
 
-Learn how to update the **Firmware Updater** tool in Arduino IDE.
+Learn how to use the **Firmware Updater** tool in Arduino IDE.
 
 In this article:
 
