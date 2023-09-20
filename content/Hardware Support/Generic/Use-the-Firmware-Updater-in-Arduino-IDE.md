@@ -32,8 +32,6 @@ The Firmware Updater tool in Arduino IDE supports[^deprecated] these boards and 
 
 [^deprecated]: MKR 1000 WiFi and MKR Vidor 4000 are not supported in Arduino IDE 2.2.0 / Arduino Firmware Uploader 2.4 or later. To update these boards, use Arduino IDE [2.2.1](https://github.com/arduino/arduino-ide/releases/tag/2.1.1) or Arduino Firmware Uploader [2.3.0](https://github.com/arduino/arduino-fwuploader/releases/tag/2.3.0). For more information, see the [Arduino Firmware Uploader user documentation](https://arduino.github.io/arduino-fwuploader/latest/deprecated/).
 
-Note that **Arduino IDE 1.x** is no longer being maintained and uses an older version of the Arduino Firmware Uploader. Because of this, it does not support UNO R4 WiFi or Portetnta C33.
-
 ### Updating the firmware
 
 Follow these steps to update your board's wireless connectivity firmware using Arduino IDE 2:
@@ -75,6 +73,8 @@ Follow these steps to update your board's wireless connectivity firmware using A
 <a id="arduino-ide-1"></a>
 
 ## Arduino IDE 1.8.19
+
+> **Note:** Arduino IDE 1.8.19 is no longer being maintained and uses an older version of the Arduino Firmware Uploader. Because of this, it does not support newer boards like UNO R4 WiFi or Portenta C33.
 
 To update the firmware in Arduino IDE 1.8.19, follow these steps:
 
