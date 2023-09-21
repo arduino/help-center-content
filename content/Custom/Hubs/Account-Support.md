@@ -4,30 +4,30 @@ id: 9293587511452
 ---
 
 <div class="actions-wrapper actions-wrapper-big">
-  <div class="actions-grid-item">
+  <div class="actions-item">
     <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/360016724040-Create-an-Arduino-account"></a>
     <img src="https://content.arduino.cc/assets/hc-account.svg">
     <span class="link-chevron-right">Create an Arduino account</span>
   </div>
-  <div class="actions-grid-item">
+  <div class="actions-item">
     <img src="https://content.arduino.cc/assets/hc-key.svg">
     <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/360011787880-How-can-I-recover-my-password-"></a>
     <span class="link-chevron-right">Recover password</span>
   </div>
-  <div class="actions-grid-item">
+  <div class="actions-item">
     <img src="https://content.arduino.cc/assets/hc-View.svg">
     <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/360016070060-Review-and-change-privacy-settings-for-your-Arduino-account"></a>
     <span class="link-chevron-right">Change privacy settings</span>
   </div>
-  <div class="actions-grid-item">
+  <div class="actions-item">
     <img src="https://content.arduino.cc/assets/hc-arduino-cloud-hub.svg">
     <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/9347128757660"></a>
     <span class="link-chevron-right">Cloud support</span>
   </div>
 </div>
 <h2 class="center hub">Troubleshooting</h2>
-<div class="info-wrapper-grid">
-  <div class="info-grid-item">
+<div class="info-wrapper">
+  <div class="info-item">
     <!--<img src="https://content.arduino.cc/assets/hc-warning.svg">-->
     <p class="info-title">Not receiving emails from Arduino?</p>
     <p>
@@ -36,7 +36,7 @@ id: 9293587511452
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360018415520-I-am-not-receiving-any-Arduino-emails">Read the article</a>
   </div>
-  <div class="info-grid-item">
+  <div class="info-item">
     <!--<img src="https://content.arduino.cc/assets/hc-stop.svg">-->
     <p class="info-title">Lost access to your 2FA app?</p>
     <p>
@@ -47,13 +47,13 @@ id: 9293587511452
   </div>
 </div>
 <h2 class="center hub">Resources</h2>
-<div class="info-wrapper-grid">
-  <div class="info-grid-item ">
+<div class="info-wrapper">
+  <div class="info-item ">
     <p class="info-title ">Your Arduino Cloud plan</p>
     <p>Learn how to review, change or cancel an Arduino Cloud plan</p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4401881299090-Review-change-or-cancel-your-Arduino-Cloud-plan">Modify your Cloud plan</a>
   </div>
-  <div class="info-grid-item">
+  <div class="info-item">
     <p class="info-title">Two-factor authentication</p>
     <p>
       Arduino supports two-factor authentication via authenticator software.
@@ -62,7 +62,7 @@ id: 9293587511452
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360018131120-How-to-enable-the-two-steps-authentication-on-your-Arduino-account">Enable 2FA</a>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016759779-How-to-disable-the-two-steps-authentication-for-the-Arduino-account">Disable 2FA</a>
   </div>
-  <div class="info-grid-item">
+  <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-student.svg">
     <p class="info-title">Arduino accounts for minors</p>
     <p>
@@ -71,7 +71,7 @@ id: 9293587511452
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4839080453148-About-Arduino-accounts-for-minors">Read more about accounts for minors</a>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4839080453148-About-Arduino-accounts-for-minors">Create an account for juniors</a>
   </div>
-  <div class="info-grid-item">
+  <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-email.svg">
     <p class="info-title">Change you account's email address</p>
     <p>
@@ -80,15 +80,15 @@ id: 9293587511452
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016466160-How-to-change-the-email-address-connected-to-the-Arduino-account">Read the article</a>
   </div>
 </div>
-<div class="info-wrapper-grid">
-  <div class="info-grid-item">
+<div class="info-wrapper">
+  <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-community.svg">
     <p class="info-title">Arduino Forum</p>
     <p>Learn more about how to:</p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4407116497170-Change-your-username-in-the-Arduino-Forum">Change your username</a>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4405329847698-How-to-delete-Forum-posts">Delete Forum posts</a>
   </div>
-  <div class="info-grid-item">
+  <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-calendar.svg">
     <p class="info-title">Arduino newsletter</p>
     <p>
