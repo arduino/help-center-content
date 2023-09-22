@@ -12,7 +12,6 @@ id: 360016077320
 The following Arduino boards and devices can be used with IoT Cloud:
 
 * [GIGA R1 WiFi](https://docs.arduino.cc/hardware/giga-r1-wifi)
-* [MKR 1000 WiFi](https://docs.arduino.cc/hardware/mkr-1000-wifi)
 * [MKR GSM 1400](https://docs.arduino.cc/hardware/mkr-gsm-1400)
 * [MKR NB 1500](https://docs.arduino.cc/hardware/mkr-nb-1500)
 * [MKR WAN 1300](https://docs.arduino.cc/hardware/mkr-wan-1300)
