@@ -22,8 +22,8 @@ The following Arduino boards and devices can be used with IoT Cloud:
 * [Nano RP2040 Connect](https://docs.arduino.cc/hardware/nano-rp2040-connect)
 * [Nicla Vision](https://docs.arduino.cc/hardware/nicla-vision)
 * [Opta](https://docs.arduino.cc/hardware/opta)
-* [Portenta H7 Lite Connected](https://docs.arduino.cc/hardware/portenta-h7-lite-connected)
 * [Portenta H7](https://docs.arduino.cc/hardware/portenta-h7)
+* [Portenta H7 Lite Connected](https://docs.arduino.cc/hardware/portenta-h7-lite-connected)
 * [Portenta X8](https://docs.arduino.cc/hardware/portenta-x8)
 * [UNO R4 WiFi](https://docs.arduino.cc/hardware/uno-r4-wifi)
 
