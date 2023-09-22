@@ -1,5 +1,6 @@
 ---
-title: "Debug runtime errors on UNO R4 WiFi using stack trace"
+title: Debug runtime errors on UNO R4 WiFi using stack trace
+id: 10531097579548
 ---
 
 The UNO R4 WiFi uses [CmBacktrace](https://github.com/armink/CmBacktrace) to print useful information from the **Arm Cortex-M4** processor as serial output when a runtime error occurs. The output includes an `addr2line` command that can used to produce a **stack trace** (also **stack backtrace**, or **stack traceback**), which can be used to find the source of the error.
