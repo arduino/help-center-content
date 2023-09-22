@@ -29,6 +29,15 @@ The following Arduino boards and devices can be used with IoT Cloud:
 
 ---
 
+## Third-party devices
+
+Supported third-party devices can also be used:
+
+* A wide range of Wi-fi enabled ESP32 and ESP8266 based devices. For a list of supported models, go to the [Devices tab in IoT Cloud](https://create.arduino.cc/iot/devices) and click **"Add"**. Then click **Set up a 3rd Party device** and open the **Select model** dropdown for ESP32 or ESP8266.
+* LoRaWAN® devices
+
+---
+
 ## Smartphones
 
 You can use your phone as an IoT device in the Arduino Cloud.
@@ -38,15 +47,6 @@ Download the **Arduino IoT Cloud Remote** app for [Android](https://play.google.
 > **Note:** The IoT Remote app requires iOS 12.4 or later for iOS the version. If you are using Android, version 8.0 or later is required. Make sure the iOS or Android version on your device is up to date before downloading the app.
 
 Check out the instructions at "[Use Sensor Data From Your Phone](https://docs.arduino.cc/arduino-cloud/tutorials/iot-remote-phone-sensors)".
-
----
-
-## Third-party devices
-
-Supported third-party devices can also be used:
-
-* A wide range of Wi-fi enabled ESP32 and ESP8266 based devices. For a list of supported models, go to the [Devices tab in IoT Cloud](https://create.arduino.cc/iot/devices) and click **"Add"**. Then click **Set up a 3rd Party device** and open the **Select model** dropdown for ESP32 or ESP8266.
-* LoRaWAN® devices
 
 ---
 
