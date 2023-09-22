@@ -3,26 +3,99 @@ title: "Burn the bootloader on GIGA R1 WiFi"
 id: 7991505977116
 ---
 
-## Before you begin
+In this article:
 
-* Add the **Arduino Mbed OS Giga Boards** to Arduino IDE using the [Boards Manager](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE).
+* [Prepare your GIGA R1 WiFI for bootloader flashing](#prepare)
+* [Flash the bootloader with dfu-util (recommended)](#dfu-util)
+* [Flash the bootloader with STM32CubeProgrammer](#stm32cubeprogrammer)
+
+---
+
+<a id="prepare"></a>
+
+## Prepare your GIGA R1 WiFI for bootloader flashing
+
+1. Connect your GIGA R1 WiFi to your computer using a USB cable.
+
+1. Find the two push buttons labled **BOOT0** and **RST** on the board:
+
+1. Press and hold **BOOT0** button.
+
+   ![The BOOT0 button on Giga R1 WiFi.](img/GIGA-R1-button-BOOT0.png)
+
+1. Keep the **BOOT0** button pressed down, and press the **RST** button once.
+
+   ![The RST button on Giga R1 WiFi.](img/GIGA-R1-button-RST.png)
+
+1. Release both buttons. GIGA R1 WiFi will briefly disconnect and reconnect to your computer.
+
+---
+
+<a id="dfu-util"></a>
+
+## Flash the bootloader with dfu-util (recommended)
+
+If you've installed the **Arduino Mbed OS Giga Boards** package on your computer using the [Boards Manager in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE) or Arduino CLI, you can used the included **dfu-util** tool to flash the bootloader on your GIGA R1 WiFi board.
+
+### Windows
+
+1. [Prepare your GIGA R1 WiFI for bootloader flashing](#prepare).
+
+1. Open **Command Prompt** by right-clicking in the bottom-left corner of the screen and selecting Command Prompt, or by searching for "cmd" in the taskbar.
+
+1. Copy this command:
+
+   `"%LOCALAPPDATA%\Arduino15\packages\arduino\tools\dfu-util\0.11.0-arduino5\dfu-util" --device ,0x0483:0xdf11 -D "%LOCALAPPDATA%\Arduino15\packages\arduino\hardware\mbed_giga\4.0.6\bootloaders\GIGA\bootloader.bin"  -a0 --dfuse-address=0x8000000`
+
+1. If neccessary, modify the package version number (4.0.6) to whichever is installed.
+
+1. Right-click inside the Command Prompt window to paste the command, then press <kbd>Enter</kbd> to begin flashing the bootloader.
+
+> **Note:** To use Powershell instead of Command Prompt, copy this command instead:
+>
+> `&"$Env:LOCALAPPDATA\Arduino15\packages\arduino\tools\dfu-util\0.11.0-arduino5\dfu-util" --device ,0x0483:0xdf11 -D "$Env:LOCALAPPDATA\Arduino15\packages\arduino\hardware\mbed_giga\4.0.6\bootloaders\GIGA\bootloader.bin"  -a0 --dfuse-address=0x8000000`
+
+### macOS
+
+1. [Prepare your GIGA R1 WiFI for bootloader flashing](#prepare).
+
+1. Open **Terminal**. You can find it with Spotlight by pressing <kbd>⌘</kbd> + <kbd>Space</kbd> and typing "Terminal".
+
+1. Copy this command:
+
+   `~/Library/Arduino15/packages/arduino/tools/dfu-util/0.11.0-arduino5/dfu-util --device ,0x0483:0xdf11 -D ~/Library/Arduino15/packages/arduino/hardware/mbed_giga/4.0.6/bootloaders/GIGA/bootloader.bin  -a0 --dfuse-address=0x8000000`
+
+1. If neccessary, modify the package version number (4.0.6) to whichever is installed.
+
+1. Select the Terminal window and press <kbd>⌘</kbd> + <kbd>V</kbd> to paste the command, then press <kbd>Enter</kbd> to begin flashing the bootloader.
+
+### Linux
+
+1. [Prepare your GIGA R1 WiFI for bootloader flashing](#prepare).
+
+1. Open your computer's command line application (often referred to as shell, terminal, console, prompt or various other names). Look for it in your launcher, or try the <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> keyboard shortcut (available on most Linux systems).
+
+1. Copy this command:
+
+   `~/.arduino15/packages/arduino/tools/dfu-util/0.11.0-arduino5/dfu-util --device ,0x0483:0xdf11 -D ~/.arduino15/packages/arduino/hardware/mbed_giga/4.0.6/bootloaders/GIGA/bootloader.bin  -a0 --dfuse-address=0x8000000`
+
+1. If neccessary, modify the package version number (4.0.6) to whichever is installed.
+
+1. Select the Terminal window and press <kbd>Ctrl</kbd> + <kbd>⇧Shift</kbd> + <kbd>V</kbd> to paste the command, then press <kbd>Enter</kbd> to begin flashing the bootloader.
+
+---
+
+<a id="stm32cubeprogrammer"></a>
+
+## Flash the bootloader with STM32CubeProgrammer
+
+Before you begin:
+
 * [Download and install the STM32CubeProgrammer from STMicroelectronics](https://www.st.com/en/development-tools/stm32cubeprog.html#st-get-software).
   * You will be required to provide and validate an email address to get a download link.
   * On macOS, you may need to run the executable directly: Right-click the `.app` container and select **Show package contents**, then navigate into `Contents/MacOs`. Double-click the file `SetupSTM32CubeProgrammer-X_Y_Z_macos` executable.
 
-## 1. Connect the board in bootloader mode
-
-1. With the board unplugged, press the button **BOOT0** and continue to press it.
-
-   ![The BOOT0 button on Giga R1 WiFi.](img/giga-boot0-button.png)
-
-2. Keep holding the **BOOT0** button as you connect the Giga R1 WiFi to your computer using a USB C cable.
-
-3. When the ON LED is lit, release the **BOOT0** button.
-
-   <!-- If the board ON LED has lit up then release the BOO0 button. Now keep the board powered on with the USB C cable and continue this procedure -->
-
-## 2. Burn the bootloader using STM32CubeProgrammer
+Follow these steps to flash the bootloader:
 
 1. **[Download the bootloader file](https://github.com/arduino/ArduinoCore-mbed/raw/main/bootloaders/GIGA/bootloader.elf)**[^1].
 
@@ -62,4 +135,31 @@ id: 7991505977116
 
 11. Disconnect the board from the USB-C cable and connect it again.
 
-[^1]: If you've installed the **Arduino Mbed OS Giga Boards** package, you can also find it inside your [Arduino15 folder](https://support.arduino.cc/hc/en-us/articles/360018448279-Open-the-Arduino15-folder). The path is `Arduino15/packages/arduino/hardware/mbed_giga/3.9.12/bootloaders/GIGA/bootloader.elf`.
+[^1]: If you've installed the **Arduino Mbed OS Giga Boards** package, you can also find it inside your [Arduino15 folder](https://support.arduino.cc/hc/en-us/articles/360018448279-Open-the-Arduino15-folder). The path is `Arduino15/packages/arduino/hardware/mbed_giga/4.0.6/bootloaders/GIGA/bootloader.elf`.
+
+---
+
+## Troubleshooting
+
+### `dfu-util: No DFU capable USB device available`
+
+Make sure the Giga R1 is reset while holding the **BOOT0** button.
+
+### `LIBUSB_ERROR_NOT_SUPPORTED`
+
+```
+Cannot open DFU device 0483:df11 found on devnum 2 (LIBUSB_ERROR_NOT_SUPPORTED)
+No DFU capable USB device available
+```
+
+### Check drivers (Windows only)
+
+1. Connect GIGA R1 WiFi in DFU mode.
+1. Open Device Manager and locate the DFU in FS Mode (should have a yellow triangle).
+1. Select and hold (or right-click) the device and select Update driver… / Update driver 1. software...  from the context menu.
+1. In the wizard, select Browse my computer for driver software.
+1. Select Let me pick from a list of device drivers on my computer.
+1. From the list of device classes, select Universal Serial Bus devices. If you don’t see 1. it, untick Show compatible hardware.
+1. Select WinUsb Device > WinUsb Device.
+1. Click Next.
+1. Ignore the warning and confirm installing the driver.
