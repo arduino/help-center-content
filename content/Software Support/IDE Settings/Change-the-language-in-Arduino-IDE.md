@@ -17,13 +17,11 @@ The original language for the Arduino IDE interface is English, but other langua
 
    Alternatively, use keyboard shortcuts to open the window: <kbd>Ctrl</kbd> + <kbd>,</kbd> for Windows/Linux and <kbd>⌘</kbd> + <kbd>,</kbd> for macOS.
 
-3. Click the **Editor language** option and select your desired language.
+3. Click the **Language** option and select your desired language.
 
-   ![The Editor language option in the IDE Preferences window.](img/highlighting-preferences-language.png)
-
+   ![The Editor language option in the IDE Preferences window.](img/IDE_language_preferences_highlight.png)
+   
 4. Click OK to confirm the changes.
-
-   ![Clicking OK to confirm the changes.](img/highlighting-preferences-OK.png)
 
 5. Restart the IDE for the changes to take effect.
 
