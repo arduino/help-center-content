@@ -27,3 +27,5 @@ You don't need to sign up for the free plan features, you only need an Arduino a
 1. Go to [cloud.arduino.cc/home](https://cloud.arduino.cc/home/).
 2. If you're not signed into an Arduino account, you will be asked to do so.
 3. Start using the [IoT Cloud](https://create.arduino.cc/iot/) and [Web Editor](https://create.arduino.cc/editor) apps right away, or check the [Resources tab](https://cloud.arduino.cc/home/resources) for help getting started.
+
+Visit [cloud.arduino.cc/plans](https://cloud.arduino.cc/plans) and scroll down to the **Features** table for a detailed comparison between the available plans.
