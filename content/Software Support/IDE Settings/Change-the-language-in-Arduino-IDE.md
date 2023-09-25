@@ -19,7 +19,7 @@ The original language for the Arduino IDE interface is English, but other langua
 
 3. Click the **Language** option and select your desired language.
 
-   ![The Editor language option in the IDE Preferences window.](img/IDE-2-language-preferences-highlight.png)
+   ![The Language option in the IDE Preferences window.](img/IDE-2-language-preferences-highlight.png)
    
 4. Click OK to confirm the changes.
 
