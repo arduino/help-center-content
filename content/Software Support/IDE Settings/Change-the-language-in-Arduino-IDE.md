@@ -66,6 +66,8 @@ Arduino IDE translations have been made through community contributions, and not
 * [Arduino IDE 1 translation project](https://www.transifex.com/mbanzi/arduino-ide-15/)
 * [Arduino IDE 2 translation project](https://www.transifex.com/arduino-1/ide2/)
 
+Note that modifying the language preferences will not impact the Serial Monitor's output language, which is set to English as default.
+
 ### If the language isn't changing
 
 Make sure you fully restart Arduino IDE.
