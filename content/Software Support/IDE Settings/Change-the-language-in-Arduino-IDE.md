@@ -15,7 +15,7 @@ The original language for the Arduino IDE interface is English, but other langua
 
 2. Open preferences: Choose **File > Preferences** in the menu bar for Windows/Linux, or  **Arduino IDE > Preferences**[^1] for macOS.
 
-   [^1]: If you're using Arduino IDE 2.1 or older, this option may be called **Arduino IDE > Settings**. ([#2022](https://github.com/arduino/arduino-ide/issues/2022))
+   [^1]: Depending on the Arduino IDE version, this option may be called **Arduino IDE > Settings**. ([#2022](https://github.com/arduino/arduino-ide/issues/2022))
 
    Alternatively, use keyboard shortcuts to open the window: <kbd>Ctrl</kbd> + <kbd>,</kbd> for Windows/Linux and <kbd>⌘</kbd> + <kbd>,</kbd> for macOS.
 
