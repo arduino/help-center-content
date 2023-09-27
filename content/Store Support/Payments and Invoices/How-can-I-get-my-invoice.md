@@ -19,7 +19,7 @@ Learn how to get an invoice after purchasing Arduino products from the Arduino S
 
 5. Input your VAT ID number and/or other fiscal identification information in the "VAT Number" text box.
 
-6. Complete the form and finish the checkout process. 
+6. Complete the form and finish the checkout process.
 
 7. Your invoice will be sent to the email associated with your Arduino account upon payment.
 
