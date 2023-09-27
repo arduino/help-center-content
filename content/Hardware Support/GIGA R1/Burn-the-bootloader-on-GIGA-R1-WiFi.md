@@ -3,6 +3,8 @@ title: "Burn the bootloader on GIGA R1 WiFi"
 id: 7991505977116
 ---
 
+Learn how to burn (flash) the bootloader on GIGA R1 WiFi.
+
 In this article:
 
 * [Prepare your GIGA R1 WiFI for bootloader flashing](#prepare)
@@ -14,6 +16,8 @@ In this article:
 <a id="prepare"></a>
 
 ## Prepare your GIGA R1 WiFI for bootloader flashing
+
+To burn the bootloader on GIGA R1 WiFi, it needs to be connected in DFU mode:
 
 1. Connect your GIGA R1 WiFi to your computer using a USB cable.
 
@@ -89,53 +93,51 @@ If you've installed the **Arduino Mbed OS Giga Boards** package on your computer
 
 ## Flash the bootloader with STM32CubeProgrammer
 
-Before you begin:
+If you prefer to use a graphical interface, you can use <a class="link-external" href="https://www.st.com/en/development-tools/stm32cubeprog.html">STM32CubeProgrammer</a>.
 
-* [Download and install the STM32CubeProgrammer from STMicroelectronics](https://www.st.com/en/development-tools/stm32cubeprog.html#st-get-software).
-  * You will be required to provide and validate an email address to get a download link.
-  * On macOS, you may need to run the executable directly: Right-click the `.app` container and select **Show package contents**, then navigate into `Contents/MacOs`. Double-click the file `SetupSTM32CubeProgrammer-X_Y_Z_macos` executable.
+> **Note:** To use STM32CubeProgrammer on macOS, you may need to run the executable directly: Right-click the `.app` container and select **Show package contents**, then navigate into `Contents/MacOs`. Double-click the file `SetupSTM32CubeProgrammer-X_Y_Z_macos` executable.
 
-Follow these steps to flash the bootloader:
+1. [Prepare your GIGA R1 WiFI for bootloader flashing](#prepare).
 
-1. **[Download the bootloader file](https://github.com/arduino/ArduinoCore-mbed/raw/main/bootloaders/GIGA/bootloader.elf)**[^1].
-
-2. Open STM32CubeProgrammer.
-
-3. Click on the **Open file** tab.
-
-   <!-- This won't upload to Zendesk for some reason: <img src="img/stm32cube-open-file.png" width=800px> -->
+1. Open STM32CubeProgrammer and click on **Open file**.
 
    <img src="https://content.arduino.cc/assets/stm32cube-open-file.png" width=800px>
 
-4. Navigate to the [Arduino 15 folder](https://support.arduino.cc/hc/en-us/articles/360018448279-Open-the-Arduino15-folder), then select this file:
+1. Select the bootloader from one of the following locations:
 
-   `packages/arduino/hardware/mbed_giga/3.9.9/bootloaders/GIGA/bootloader.elf`
+   * <a class="link-download" href="https://github.com/arduino/ArduinoCore-mbed/raw/main/bootloaders/GIGA/bootloader.elf">Download the bootloader file</a> and select it from your default download location.
 
-5. If you get a "Warning: File corrupted. Two or more segments defines the same memory zone" message, ignore it.
+   * If you've installed the Arduino Mbed OS Giga Boards package, you can also find it inside your [Arduino15 folder](https://support.arduino.cc/hc/en-us/articles/360018448279-Open-the-Arduino15-folder).
 
-6. Set the programmer selection (default: ST-LINK) to **USB**.
+     * **Windows:** `C:\Users\{username}\AppData\Local\Arduino15\packages/arduino/hardware/mbed_giga/4.0.6/bootloaders/GIGA/bootloader.elf`
+
+     * **macOS:** `~/Library/Arduino15/packages/arduino/hardware/mbed_giga/4.0.6/bootloaders/GIGA/bootloader.elf`
+
+     * **Linux:** `~/.arduino15/Arduino15/packages/arduino/hardware/mbed_giga/4.0.6/bootloaders/GIGA/bootloader.elf`
+
+1. If you get a "Warning: File corrupted. Two or more segments defines the same memory zone" message, ignore it.
+
+1. Set the programmer selection (default: ST-LINK) to **USB**.
 
    <img src="img/stm32cube-usb-mode.png" width=800px>
 
-7. For the **Port** selection, select your board. To refresh the list, click the update button.
+1. For the **Port** selection, select your board. To refresh the list, click the update button.
 
    <img src="img/stm32cube-port-selection.png" width=800px>
 
-8. Click on **Connect** button. The connection status should change from "Not connected" to "Connected".
+1. Click on **Connect** button. The connection status should change from "Not connected" to "Connected".
 
    <img src="img/stm32cube-connect.png" width=800px>
 
-9. Click on the **Download** button. If you get another warning message, close it by selecting OK.
+1. Click on the **Download** button. If you get another warning message, close it by selecting OK.
 
    > **Note:** Click on the left part of the button where it says "Download" (not the arrow, which opens a context menu)
 
    <img src="img/stm32cube-download.png" width=800px>
 
-10. The message "File download complete" will appear as a pop-up notification when the download is complete.
+1. The message "File download complete" will appear as a pop-up notification when the download is complete.
 
-11. Disconnect the board from the USB-C cable and connect it again.
-
-[^1]: If you've installed the **Arduino Mbed OS Giga Boards** package, you can also find it inside your [Arduino15 folder](https://support.arduino.cc/hc/en-us/articles/360018448279-Open-the-Arduino15-folder). The path is `Arduino15/packages/arduino/hardware/mbed_giga/4.0.6/bootloaders/GIGA/bootloader.elf`.
+1. Disconnect and reconnect GIGA R1 WiFi to your computer.
 
 ---
 
