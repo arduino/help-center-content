@@ -3,7 +3,7 @@ title: "How can I get my invoice?"
 id: 360016121859
 ---
 
-Learn how to get an invoice after purchasing Arduino products from the Arduino Store or Amazon.
+Learn how to get an invoice for an order when purchasing Arduino products from the Arduino Store or Amazon.
 
 ## Arduino Store invoice
 
