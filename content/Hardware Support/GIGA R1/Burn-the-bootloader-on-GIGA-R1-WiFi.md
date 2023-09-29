@@ -7,7 +7,7 @@ Learn how to burn (flash) the bootloader on GIGA R1 WiFi.
 
 In this article:
 
-* [Prepare your GIGA R1 WiFI for bootloader flashing](#prepare)
+* [Prepare your GIGA R1 WiFi for bootloader flashing](#prepare)
 * [Flash the bootloader with dfu-util (recommended)](#dfu-util)
 * [Flash the bootloader with STM32CubeProgrammer](#stm32cubeprogrammer)
 
