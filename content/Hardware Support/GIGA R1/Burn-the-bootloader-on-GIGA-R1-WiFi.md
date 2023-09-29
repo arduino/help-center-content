@@ -21,7 +21,7 @@ To burn the bootloader on GIGA R1 WiFi, it needs to be connected in DFU mode:
 
 1. Connect your GIGA R1 WiFi to your computer using a USB cable.
 
-1. Find the two push buttons labled **BOOT0** and **RST** on the board:
+1. Find the two push buttons labeled **BOOT0** and **RST** on the board:
 
 1. Press and hold **BOOT0** button.
 
