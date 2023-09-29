@@ -7,7 +7,7 @@ Learn how to burn (flash) the bootloader on GIGA R1 WiFi.
 
 In this article:
 
-* [Prepare your GIGA R1 WiFI for bootloader flashing](#prepare)
+* [Prepare your GIGA R1 WiFi for bootloader flashing](#prepare)
 * [Flash the bootloader with dfu-util (recommended)](#dfu-util)
 * [Flash the bootloader with STM32CubeProgrammer](#stm32cubeprogrammer)
 
@@ -15,13 +15,13 @@ In this article:
 
 <a id="prepare"></a>
 
-## Prepare your GIGA R1 WiFI for bootloader flashing
+## Prepare your GIGA R1 WiFi for bootloader flashing
 
 To burn the bootloader on GIGA R1 WiFi, it needs to be connected in DFU mode:
 
 1. Connect your GIGA R1 WiFi to your computer using a USB cable.
 
-1. Find the two push buttons labled **BOOT0** and **RST** on the board:
+1. Find the two push buttons labeled **BOOT0** and **RST** on the board:
 
 1. Press and hold **BOOT0** button.
 
@@ -39,7 +39,7 @@ To burn the bootloader on GIGA R1 WiFi, it needs to be connected in DFU mode:
 
 ## Flash the bootloader with dfu-util (recommended)
 
-If you've installed the **Arduino Mbed OS Giga Boards** package on your computer using the [Boards Manager in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE) or Arduino CLI, you can used the included **dfu-util** tool to flash the bootloader on your GIGA R1 WiFi board.
+If you've installed the **Arduino Mbed OS Giga Boards** package on your computer using the [Boards Manager in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE) or Arduino CLI, you can use the included **dfu-util** tool to flash the bootloader on your GIGA R1 WiFi board.
 
 ### Windows
 
