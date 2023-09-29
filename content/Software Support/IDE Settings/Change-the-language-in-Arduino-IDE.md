@@ -53,7 +53,7 @@ Make sure you fully restart Arduino IDE. On macOS, closing all windows will not 
 
 ![Quitting Arduino IDE in the Dock on macOS.](img/macos-ide-quit.png)
 
-Note that modifying the language preferences in the IDE will not affect the language of messages displayed in the Output view.
+Note that modifying the language preferences in the IDE will not affect the language of some messages printed in the "Output" view.
 
 <p style="display:none;">
   Tags: sprache, idioma, Español, Deutsch, Italiano  (Italian), Português, Arabic, Euskara (Basque), Chinese (汉语/漢語), Čeština (Czech), Dutch, Persian, Turkish, Armenian, Bulgarian , English, French, German, Greek, Hungarian, Italian, 日本語 (Japanese), 한국어 (Korean), Norwegian Bokmål, Polish, Portuguese, Limba română (Romanian), Russian, Slovenčina (Slovak), Slovenian ,Spanish ,Ukrainian ,Vietnamese, Eesti keel (Estonian)
