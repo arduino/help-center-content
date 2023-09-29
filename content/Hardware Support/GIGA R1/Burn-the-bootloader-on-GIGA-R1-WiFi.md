@@ -15,7 +15,7 @@ In this article:
 
 <a id="prepare"></a>
 
-## Prepare your GIGA R1 WiFI for bootloader flashing
+## Prepare your GIGA R1 WiFi for bootloader flashing
 
 To burn the bootloader on GIGA R1 WiFi, it needs to be connected in DFU mode:
 
