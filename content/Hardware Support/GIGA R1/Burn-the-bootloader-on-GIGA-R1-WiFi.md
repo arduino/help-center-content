@@ -145,23 +145,25 @@ If you prefer to use a graphical interface, you can use <a class="link-external"
 
 ### `dfu-util: No DFU capable USB device available`
 
-Make sure the Giga R1 is reset while holding the **BOOT0** button.
+If you see this error, make sure you've followed the steps in [Prepare your GIGA R1 WiFI for bootloader flashing](#prepare).
 
-### `LIBUSB_ERROR_NOT_SUPPORTED`
+### `Cannot open DFU device 0483:df11 found on devnum 2 (LIBUSB_ERROR_NOT_SUPPORTED)`
 
-```
-Cannot open DFU device 0483:df11 found on devnum 2 (LIBUSB_ERROR_NOT_SUPPORTED)
-No DFU capable USB device available
-```
+If you see this error on Windows, you may be missing the correct driver.
 
-### Check drivers (Windows only)
+Follow these steps:
 
-1. Connect GIGA R1 WiFi in DFU mode.
-1. Open Device Manager and locate the DFU in FS Mode (should have a yellow triangle).
-1. Select and hold (or right-click) the device and select Update driver… / Update driver 1. software...  from the context menu.
-1. In the wizard, select Browse my computer for driver software.
-1. Select Let me pick from a list of device drivers on my computer.
-1. From the list of device classes, select Universal Serial Bus devices. If you don’t see 1. it, untick Show compatible hardware.
-1. Select WinUsb Device > WinUsb Device.
-1. Click Next.
-1. Ignore the warning and confirm installing the driver.
+1. Open Device Manager and locate the **DFU in FS Mode** device under **Other devices**.
+   * If you can't find it, try selecting **View > Show hidden devices**.
+   * If a different device appears, such as STM device in DFU Mode (under Universal Serial Bus controller), right-click and select **Uninstall device**.
+
+   ![Device Manager.](img/device-manger-dfu-in-fs-mode.png)
+1. Right-click on the DFU in FS Mode device and select **Update driver… / Update driver software...**  from the context menu.
+1. In the wizard, select **Browse my computer for driver software**.
+1. Select **Let me pick from a list of device drivers on my computer**.
+1. From the list of device classes, select **Universal Serial Bus devices**. If you don’t see it, untick **Show compatible hardware**.
+1. Select **WinUsb Device > WinUsb Device**.
+1. Click **Next**.
+1. Confirm that you want to install the driver.
+
+After installing the driver, try flashing the bootloader with dfu-util again.
