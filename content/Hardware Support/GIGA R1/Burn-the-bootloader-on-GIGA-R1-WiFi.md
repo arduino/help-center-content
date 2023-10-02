@@ -10,6 +10,7 @@ In this article:
 * [Prepare your GIGA R1 WiFi for bootloader flashing](#prepare)
 * [Flash the bootloader with dfu-util (recommended)](#dfu-util)
 * [Flash the bootloader with STM32CubeProgrammer](#stm32cubeprogrammer)
+* [Troubleshooting](#troubleshooting)
 
 ---
 
@@ -140,6 +141,8 @@ If you prefer to use a graphical interface, you can use <a class="link-external"
 1. Disconnect and reconnect GIGA R1 WiFi to your computer.
 
 ---
+
+<a id="troubleshooting"></a>
 
 ## Troubleshooting
 
