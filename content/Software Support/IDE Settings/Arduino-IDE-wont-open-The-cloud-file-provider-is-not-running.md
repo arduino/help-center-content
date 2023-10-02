@@ -54,11 +54,10 @@ Having the IDE installed in a folder that is backed up by OneDrive (e.g. "Docume
 
    ![Microsoft One Drive settings selected](img/one-drive-settings.png)
 
-4. Go to "Sync and back up" and click on "Manage back up": 
+4. Go to "Sync and back up" and click on "Manage back up":
 
    ![Microsoft One Drive "Sync and back up" and "Manage back up" highlighted](img/one-drive-backup.png)
 
 5. Disable the back up option for the folder containing Arduino IDE and click "Save changes":
 
    ![Microsoft One Drive "Back up folder on this PC" section](img/one-drive-backup-off.png)
-   
