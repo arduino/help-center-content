@@ -38,9 +38,9 @@ You can also move Arduino IDE files to a folder not synced with OneDrive (note t
 ### Application files
 
    1. [Uninstall Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360021325733-Uninstall-Arduino-IDE) from your computer.
-   2. [Install Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE) outside the OneDrive folder. For example:
-      * `C:\Program Files\Arduino IDE` or `C:\Users\username\AppData\Local\Programs\Arduino IDE`
-      * Avoid paths like: `C:\Users\username\OneDrive\Documents\Arduino\...`
+   2. [Install Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE) outside the OneDrive folder.
+      * For example: `C:\Program Files\Arduino IDE` or `C:\Users\{username}\AppData\Local\Programs\Arduino IDE`
+      * Avoid paths like: `C:\Users\{username}\OneDrive\Documents\Arduino\...`
 
 If you are using an Arduino IDE [portable installation](https://docs.arduino.cc/software/ide-v1/tutorials/PortableIDE), move the folder to a location outside the OneDrive folder.
 
