@@ -7,7 +7,7 @@ Losing your password or forgetting your username are common situations but are a
 
 In case you have used the Sign in with Google option, you need to get in contact directly with Google.
 
-First, go to [https://auth.arduino.cc/](https://auth.arduino.cc/) and click on `Forgot your password?`.
+First, go to [login.arduino.cc/login](https://login.arduino.cc/login) and click on `Forgot your password?`.
 
 ![Login page](img/arduino-account-sign-in.png)
 
