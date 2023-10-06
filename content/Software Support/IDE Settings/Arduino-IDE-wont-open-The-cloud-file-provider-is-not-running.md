@@ -31,9 +31,9 @@ You can also move Arduino IDE files to a folder not synced with OneDrive (note t
 
    1. Open Arduino IDE.
    2. Go to **File > Preferences**.
-   3. Change the sketchbook location to a folder not synced with OneDrive. For example:
-         * `C:\Users\username\Arduino`
-         * Avoid paths like: `C:\Users\username\OneDrive\Documents\Arduino\...`
+   3. Change the sketchbook location to a folder not synced with OneDrive.
+         * For example: `C:\Users\{username}\Arduino`
+         * Avoid paths like: `C:\Users\{username}\OneDrive\Documents\Arduino\...`
 
 ### Application files
 
