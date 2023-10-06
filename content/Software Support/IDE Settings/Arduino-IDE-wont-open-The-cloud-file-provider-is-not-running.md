@@ -13,7 +13,7 @@ The [Microsoft OneDrive Files On-Demand](https://support.microsoft.com/en-au/off
 
 The [sketchbook is located](https://support.arduino.cc/hc/en-us/articles/4412950938514-Open-the-Sketchbook) inside the "Documents" folder by default. Using OneDrive to back up your "Documents" folder with "Files On-Demand" active can lead to sketch or library files not being available when compiling, resulting in the `The cloud file provider is not running` error. To keep OneDrive backup active but disable "Files On-Demand" for the desired files:
 
-1. Go to the File Explorer and navigate to the "OneDrive" folder
+1. Go to the File Explorer and navigate to the "OneDrive" folder containing your sketchbook (e.g. `OneDrive\Documents\Arduino`).
 
    ![File explorer OneDrive folder](img/one-drive-folder.png)
 
