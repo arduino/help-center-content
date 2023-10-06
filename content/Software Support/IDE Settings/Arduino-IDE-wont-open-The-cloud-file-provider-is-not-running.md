@@ -3,42 +3,66 @@ title: "Arduino IDE won't open; The cloud file provider is not running"
 id: 360021557299
 ---
 
-If the Arduino IDE doesn't start on Windows (the initialization window appears and disappears without showing any error message or warning), try running `arduino_debug.exe` from the Command Prompt. The `arduino_debug.exe` is located in the Arduino installation folder, which is in C:\Program Files (x86)\Arduino\ by default.
-
-1. Press Win+R.
-
-2. Type in 'cmd' and press enter.
-
-3. Navigate to the installation folder with the `cd` command.
-
-   ```
-   cd <path>
-   ```
-
-   You may be able to copy the path into CMD by dragging the folder onto the CMD window.
-
-4. Run the executable.
-
-   ```
-   arduino_debug.exe
-   ```
-
-5. Observe the output. If you happen to get the following message
-
-   ```
-   java.io.IOException: The cloud file provider is not running
-   ```
-
-   there is most likely a problem with the OneDrive On-Demand synchronization. Proceed with the steps below.
-
-## Arduino IDE and Microsoft OneDrive On-Demand
-
-The OneDrive On-Demand feature can result in essential files not being available or synchronized, which can stop the IDE from working.
+The [Microsoft OneDrive Files On-Demand](https://support.microsoft.com/en-au/office/save-disk-space-with-onedrive-files-on-demand-for-windows-0e6860d3-d9f3-4971-b321-7092438fb38e) feature allows access to cloud storage files in OneDrive from the File Explorer without downloading them. Since this feature requires an internet connection to synchronize files, it can lead to essential files not being available, creating issues when starting Arduino IDE on Windows (e.g. the initialization window appears and disappears without showing any error message or warning), or errors during compilation (e.g. `The cloud file provider is not running`). Learn more about possible solutions.
 
 ---
 
-There are numerous ways to fix this issue.
+<a id="keep-on-device"></a>
 
-* Disable On-Demand for the IDE location.
-* Install the IDE somewhere else (that does not have On-Demand enabled).
-* Using the portable version will make the above easier, as it's all contained in one folder. But if that folder has On-Demand enabled, there could still be issues.
+## Disable Files On-Demand for Arduino files
+
+The [sketchbook is located](https://support.arduino.cc/hc/en-us/articles/4412950938514-Open-the-Sketchbook) inside the "Documents" folder by default. Using OneDrive to back up your "Documents" folder with "Files On-Demand" active can lead to sketch or library files not being available when compiling, resulting in the `The cloud file provider is not running` error. To keep OneDrive backup active but disable "Files On-Demand" for the desired files:
+
+1. Go to the File Explorer and navigate to the "OneDrive" folder containing your sketchbook (e.g. `OneDrive\Documents\Arduino`).
+
+   ![File explorer OneDrive folder](img/one-drive-folder.png)
+
+2. Right-click the folder and select **Always keep on this device**.
+
+   ![OneDrive "Always keep on this device" option selected](img/one-drive-always-keep-on-device.png)
+
+<a id="move-ide-files"></a>
+
+## Move Arduino IDE files to a non-OneDrive folder
+
+You can also move Arduino IDE files to a folder not synced with OneDrive (note that the files will not be backed up).
+
+### Sketchbook
+
+   1. Open Arduino IDE.
+   2. Go to **File > Preferences**.
+   3. Change the sketchbook location to a folder not synced with OneDrive.
+         * For example: `C:\Users\{username}\Arduino`
+         * Avoid paths like: `C:\Users\{username}\OneDrive\Documents\Arduino\...`
+
+### Application files
+
+   1. [Uninstall Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360021325733-Uninstall-Arduino-IDE) from your computer.
+   2. [Install Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE) outside the OneDrive folder.
+      * For example: `C:\Program Files\Arduino IDE` or `C:\Users\{username}\AppData\Local\Programs\Arduino IDE`
+      * Avoid paths like: `C:\Users\{username}\OneDrive\Documents\Arduino\...`
+
+If you are using an Arduino IDE [portable installation](https://docs.arduino.cc/software/ide-v1/tutorials/PortableIDE), move the folder to a location outside the OneDrive folder.
+
+<a id="disable-backup"></a>
+
+## Disabling OneDrive back up
+
+If you don't want to use OneDrive to back up a specific folder, you can disable it by following the next steps:
+
+1. Make sure that your internet connection is stable.
+2. Open Microsoft OneDrive (look for the OneDrive icon inside the system tray at the bottom-right of the taskbar):
+
+   ![Microsoft One Drive icon inside system tray](img/one-drive-system-tray.png)
+
+3. Click on the settings icon and go to "Settings":
+
+   ![Microsoft One Drive settings selected](img/one-drive-settings.png)
+
+4. Go to "Sync and back up" and click on "Manage back up":
+
+   ![Microsoft One Drive "Sync and back up" and "Manage back up" highlighted](img/one-drive-backup.png)
+
+5. Disable the back up option for the folder containing Arduino IDE and click "Save changes":
+
+   ![Microsoft One Drive "Back up folder on this PC" section](img/one-drive-backup-off.png)
