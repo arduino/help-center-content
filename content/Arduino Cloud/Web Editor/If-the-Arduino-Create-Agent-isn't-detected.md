@@ -3,18 +3,18 @@ title: "If the Arduino Create Agent isn't detected"
 id: 360016466600
 ---
 
-Learn what to do if the Arduino Create Agent isn't detected by the [Arduino Cloud](https://cloud.arduino.cc/). 
+Learn what to do if the Arduino Create Agent isn't detected by the [Arduino Cloud](https://cloud.arduino.cc/).
 
-If you haven't done so, [install the Arduino Create Agent](https://create.arduino.cc/getting-started/plugin/welcome). If you still encounter one of the warnings bellow, follow the [troubleshooting steps](#troubleshooting). 
+If you haven't done so, [install the Arduino Create Agent](https://create.arduino.cc/getting-started/plugin/welcome). If you still encounter one of the warnings bellow, follow the [troubleshooting steps](#troubleshooting).
 
-  * `Arduino Create Agent not found`
-  * `To upload a sketch via USB port, make sure the Agent is installed and running on this computer` 
+* `Arduino Create Agent not found`
+* `To upload a sketch via USB port, make sure the Agent is installed and running on this computer`
 
 ---
 
 <a id="troubleshooting"></a>
 
-## Troubleshooting 
+## Troubleshooting
 
 1. Check if the [Arduino Create Agent is running](https://support.arduino.cc/hc/en-us/articles/4980687506844-Check-if-the-Arduino-Create-Agent-is-installed-and-running), since sometimes it may be **off** or **paused**.
 
