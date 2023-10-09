@@ -1,25 +1,31 @@
 ---
-title: "Warning: To upload a sketch via USB port, make sure the Agent is installed and running on this computer"
+title: "If the Arduino Create Agent isn't detected"
 id: 360016466600
 ---
 
-This error appears whenever the Create Agent is not installed or when the plug in needs to be updated or needs permissions.
-If you click in the `Learn more` button, it will show some usual fixes.
+Learn what to do if the Arduino Create Agent isn't detected by the [Arduino Cloud](https://cloud.arduino.cc/). 
 
-![No agent - Learn more](img/Create_agent_installation_prompt_cropped_more.png)
+If you haven't done so, [install the Arduino Create Agent](https://create.arduino.cc/getting-started/plugin/welcome). If you still encounter one of the warnings bellow, follow the [troubleshooting steps](#troubleshooting). 
 
-Check if the agent is running. You should see the icon in the taskbar and its color should be black or green, _not_ grayed out. If it is grayed out, rick-click and select _Run Agent_. If you don't see the icon, open the agent by searching `Arduino Create`.
+  * `Arduino Create Agent not found`
+  * `To upload a sketch via USB port, make sure the Agent is installed and running on this computer` 
 
-## For schools
+---
 
-If this is happening in school computers, it might be related to the app rights, please consult with the IT department to allow/install the Arduino Create Chrome app on all the devices. You may share the instructions available on [this tutorial](https://create.arduino.cc/projecthub/Arduino_Genuino/managed-install-of-arduino-create-for-education-chrome-app-6bf22a).
+<a id="troubleshooting"></a>
 
-## General solution
+## Troubleshooting 
 
-* Make sure you are logged in to with the same e-mail account that has the app access.
+1. Check if the [Arduino Create Agent is running](https://support.arduino.cc/hc/en-us/articles/4980687506844-Check-if-the-Arduino-Create-Agent-is-installed-and-running) since sometimes it may be **off** or **paused**.
 
-* If this does not work, please uninstall and reinstall the agent, you can check this tutorials for that:
+2. Ensure you are using a [suported browser](https://support.arduino.cc/hc/en-us/articles/360020454099-What-browsers-are-supported-by-the-Web-Editor-). If you are using [Brave Browser](https://brave.com/), see [Use Arduino Cloud with Brave Browser](https://support.arduino.cc/hc/en-us/articles/10482021304988-Use-Arduino-Cloud-with-Brave-Browser).
 
-  * [How to uninstall the Arduino Create agent](https://support.arduino.cc/hc/en-us/articles/360014869840)
+3. Make sure that the HTTPS Certificates installed:
+    <ol type="I">
+      <li>Open the Arduino Create Agent menu (Look for the <img src="img/create-agent-logo-mac.png" alt="Arduino Create Agent icon"> icon in the top-right of the menu bar for macOS and Linux or in the bottom-right of the taskbar within the system tray, for Windows).</li>
+      <li>If the <b>Generate and Install HTTPS Certificates</b>option is available, click it. If it's disabled, the certificates are already installed.</li>
+      <li>Enter the password if prompted.</li>
+      <li>Refresh the browser window.</li>
+    </ol>
 
-  * [How to install the Arduino Create agent](https://support.arduino.cc/hc/en-us/articles/360014869820)
+If you are still having issues, [uninstall the Arduino Create Agent](https://support.arduino.cc/hc/en-us/articles/360014869840) and [reinstall it](https://create.arduino.cc/getting-started/plugin/welcome).
