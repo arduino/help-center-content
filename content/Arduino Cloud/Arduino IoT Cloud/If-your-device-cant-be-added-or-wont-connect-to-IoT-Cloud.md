@@ -64,7 +64,7 @@ These errors can occur with boards using older Wi-Fi module firmware:
 * `Reset before upload: 1200bps Touch: Open port COMB: Serial port not found`
 * `Can't update firmware: Executing command: exit status 1`
 
-Normally, IoT Cloud will update the firmware automatically, but this may fail on older versions (before 1.4.1). To check the firmware version on your board and update it, see [Check and update the firmware for WiFiNINA and WiFi101](https://support.arduino.cc/hc/en-us/articles/360013896579-Check-and-update-the-firmware-for-WiFiNINA-and-WiFi101).
+Normally, IoT Cloud will update the firmware automatically, but this may fail on older versions (before 1.4.1). To check the firmware version on your board and update it, see [Check the WiFiNINA firmware version](https://support.arduino.cc/hc/en-us/articles/9398559561244-Check-the-WiFiNINA-firmware-version).
 
 ---
 
