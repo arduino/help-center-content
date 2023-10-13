@@ -98,7 +98,7 @@ This is a generic error message indicating that a process has failed.
 
 3. If you get an error message, see [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch).
 
-### To upload a sketch via USB port, make sure the Agent is installed and running on this computer
+### "To upload a sketch via USB port, make sure the Agent is installed and running on this computer"
 
 1. If you haven't done so already, [install the agent](https://create.arduino.cc/getting-started/plugin/welcome).
 2. If you have installed the agent but you still encounter this warning, see [If Arduino Create Agent isn't detected](https://support.arduino.cc/hc/en-us/articles/360016466600-Warning-To-upload-a-sketch-via-USB-port-make-sure-the-Agent-is-installed-and-running-on-this-computer).
