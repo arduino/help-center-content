@@ -15,7 +15,7 @@ Boards that use the WiFiNINA library:
 
 ---
 
-## Instructions
+## Upload the CheckFirmwareVersion sketch
 
 We can check the current firmware version by uploading a sketch to the board that will report the version via the serial monitor.
 
@@ -23,7 +23,7 @@ We can check the current firmware version by uploading a sketch to the board tha
 
    Click the ![Library Manager icon](img/symbol_library.png) **Library Manager** button (or select Tools > Manage Libraries), and search for "WiFiNINA":
 
-   ![Installing the WiFi101 library](img/install-library-wifinina.png)
+   ![Installing the WiFiNINA library](img/install-library-wifinina.png)
 
 1. Open File > Examples > WiFiNINA > Tools > CheckFirmwareVersion
 
@@ -61,4 +61,11 @@ Check result: NOT PASSED
    issues or failures.
 ```
 
-To update the firmware, see [Update the firmware for WiFiNINA and WiFi101](https://support.arduino.cc/hc/en-us/articles/360013896579-Update-the-firmware-for-WiFiNINA-and-WiFi101).
+---
+
+## Update the firmware
+
+Most boards can be updated both by Arduino IDE and in IoT Cloud:
+
+* [Use the Firmware Updater in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360013896579-Use-the-Firmware-Updater-in-Arduino-IDE)
+* [Update connectivity module firmware with IoT Cloud](https://support.arduino.cc/hc/en-us/articles/10501616961564-Update-connectivity-module-firmware-with-IoT-Cloud)
