@@ -3,21 +3,23 @@ title: "If your device can't be added or won't connect to IoT Cloud"
 id: 360019355679
 ---
 
-Learn how to resolve problems adding and connecting devices to IoT Cloud.
+Learn how to resolve problems [adding and connecting devices to IoT Cloud](https://support.arduino.cc/hc/en-us/articles/360016495559).
 
-If you haven't done so, [make sure the device is configured correctly](https://support.arduino.cc/hc/en-us/articles/360016495559), then see the sections below.
+In this article:
 
-1. [Problems adding the device](#add-device). If there's a problem during the **"Add device"** set-up process, and the device doesn't appear in the Device tab.
-2. [Problems uploading the sketch](#sketch-upload). If there's a problem when uploading the Thing sketch to your device.
-3. [If the device doesn't come online](#device-status). If the sketch uploads but the device doesn't come online.
+* [Problems when adding the device to Iot Cloud](#add-device)
+* [Problems uploading the sketch](#sketch-upload)
+* [If the device doesn't come online](#device-status)
 
 ---
 
 <a id="add-device"></a>
 
-## Problems adding the device
+## Problems when adding the device to Iot Cloud
 
-### We could not find any Arduino device
+If there's a problem during the **"Add device"** set-up process, or the device doesn't appear in the Device tab.
+
+### "We could not find any Arduino device"
 
 1. Make sure you're using a [compatible device](https://support.arduino.cc/hc/en-us/articles/360016077320-What-devices-can-be-used-with-Arduino-IoT-Cloud-).
 
@@ -31,7 +33,7 @@ If you haven't done so, [make sure the device is configured correctly](https://s
 
    * If you get an error message when uploading, see [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch).
 
-### We were not able to configure your device<br>Something went wrong!
+### "We were not able to configure your device<br>Something went wrong!"
 
 1. Close any instances Arduino IDE and other applications that may be using the port.
 
@@ -39,7 +41,7 @@ If you haven't done so, [make sure the device is configured correctly](https://s
 
 3. Reconnect the device to the computer and make sure the power LED lights up.
 
-### Arduino Create Agent not found
+### "Arduino Create Agent not found"
 
 1. If you haven't done so already, [install the agent](https://create.arduino.cc/getting-started/plugin/welcome).
 2. If you have installed the agent but you still encounter this warning, see [If Arduino Create Agent isn't detected](https://support.arduino.cc/hc/en-us/articles/360016466600-Warning-To-upload-a-sketch-via-USB-port-make-sure-the-Agent-is-installed-and-running-on-this-computer).
@@ -56,21 +58,29 @@ The DevEUI will be automatically added to the device.
 
 Secret keys cannot be recovered if lost. Generate a new key by [deleting the device](https://support.arduino.cc/hc/en-us/articles/360018324700-How-to-delete-a-device-from-Arduino-IoT-cloud), then adding it again.
 
-### 'We were not able to configure...' during device set-up
+### "We were not able to configure..." during device set-up
 
-These errors can occur with boards using older Wi-Fi module firmware:
+When adding your device, you may see one of these messages:
 
 * `Couldn't get the firmware info: Start command: exec: "{runtime.tools.fwupdater.path}/FirmwareUploader": file does not exist`
 * `Reset before upload: 1200bps Touch: Open port COMB: Serial port not found`
 * `Can't update firmware: Executing command: exit status 1`
 
-Normally, IoT Cloud will update the firmware automatically, but this may fail on older versions (before 1.4.1). To check the firmware version on your board and update it, see [Check the WiFiNINA firmware version](https://support.arduino.cc/hc/en-us/articles/9398559561244-Check-the-WiFiNINA-firmware-version).
+These errors can occur if the wireless connectivity module on your board is using an old version[^nina] of the WiFiNINA firmware, that cannot be automatically updated by IoT Cloud.
+
+[^nina]: 1.4.1 or earlier. To find out which version is on your board, see [Check the WiFiNINA firmware version](https://support.arduino.cc/hc/en-us/articles/9398559561244-Check-the-WiFiNINA-firmware-version).
+
+Solve the issue by updating to the latest firmware version using the **Firmware Updater** in Arduino IDE:
+
+<a class="link-external" href="https://support.arduino.cc/hc/en-us/articles/360013896579-Use-the-Firmware-Updater-in-Arduino-IDE">Update the firmware in Arduino IDE</a>
 
 ---
 
 <a id="sketch-upload"></a>
 
 ## Problems uploading the sketch
+
+If there's a problem when uploading the Thing sketch to your device.
 
 ### No associated device found
 
@@ -98,6 +108,8 @@ This is a generic error message indicating that a process has failed.
 <a id="device-status"></a>
 
 ## If the sketch uploads but the device isn't online
+
+If the sketch uploads but the device doesn't come online.
 
 > **Note:** Device status is not supported by the LoRa protocol, see [About device status in IoT Cloud](https://support.arduino.cc/hc/en-us/articles/4407169649682-About-device-status-in-IoT-Cloud).
 
