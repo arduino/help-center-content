@@ -46,5 +46,5 @@ On both Nicla Sense ME And Nicla Vision, the positive terminal of the battery wi
 
 ## Pinouts
 
-* [Full pinout for Nicla Sense ME](https://docs.arduino.cc/static/b35956b631d757a0455c286da441641b/ABX00050-full-pinout.pdf)
-* [Full pinout for Nicla Vision](https://docs.arduino.cc/static/6e9c1946e3264c607feb85d195f0e669/ABX00051-full-pinout.pdf)
+* [Full pinout for Nicla Sense ME](https://docs.arduino.cc/resources/pinouts/ABX00050-full-pinout.pdf)
+* [Full pinout for Nicla Vision](https://docs.arduino.cc/resources/pinouts/ABX00051-full-pinout.pdf)
