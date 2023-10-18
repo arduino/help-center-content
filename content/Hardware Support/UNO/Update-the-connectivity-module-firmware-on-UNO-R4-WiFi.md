@@ -26,6 +26,42 @@ Updating the connectivity firmware is easy when using the Firmware Updater in Ar
 
 ---
 
+Follow these steps to update your board's wireless connectivity firmware using Arduino IDE 2:
+
+1. Connect the board to your computer and open Arduino IDE 2.
+
+2. If the Serial Monitor is open, close it.
+
+3. In the top menu bar, open **Tools > Firmware Updater**.
+
+    ![Firmware Updater window displaying the board selection menu and the "check updates" button](img/firmware-updater-arduino-ide-2-select-a-board.png)
+
+4. Select UNO R4 WiFi in the drop-down menu and click the **Check Updates** button.
+
+    ![Firmware Updater window displaying the board selection menu and the "check updates" button](img/firmware-updater-arduino-ide-2-check-updates.png)
+
+    > If your UNO R4 WiFi doesn't appear in the list, make sure it's securely connected with a working data USB cable, and try pressing the RST button on the board. If it still doesn't appear, it may be missing the USB bridge firmware. Follow the steps in [Run espflash directly](#run-espflash-directly) to resolve the issue.
+
+5. Select the latest firmware version on the drop-down menu and click **Install**
+
+   > **Note:** Installation will overwrite any existing sketch on your board.
+
+    ![Firmware Updater window displaying selected firmware version and the "install" button](img/firmware-updater-arduino-ide-2-select-board-install.png)
+
+6. Wait until the text "Firmware successfully installed" is displayed.
+
+    !["Firmware successfully installed" message displaying on the Firmware Updater window](img/firmware-updater-arduino-ide-2-installation-successful.png)
+
+7. Disconnect and reconnect the UNO R4 WiFi board from your computer.
+
+   > **Warning:** After flashing the firmware on the UNO R4 WiFi, the board will remain in **ESP Download** mode until you disconnect and reconnect it from your computer. If you upload a sketch while the board is in ESP Mode, it will erase the special firmware that lets the ESP32 chip function as an USB bridge.
+
+8. Close the Firmware Updater by clicking the "x" in the top-right corner of the Firmware Updater window.
+
+    ![Closing the Firmware Updater window.](img/firmware-updater-arduino-ide-2-close.png)
+
+---
+
 <a id="iot"></a>
 
 ## Use IoT Cloud to update the firmware
@@ -244,6 +280,9 @@ Follow these steps:
    * <a class="link-download" href="https://github.com/arduino/uno-r4-wifi-usb-bridge/releases/latest/download/unor4wifi-update-macos.zip">unor4wifi-update-macos.zip</a>
    * <a class="link-download" href="https://github.com/arduino/uno-r4-wifi-usb-bridge/releases/latest/download/unor4wifi-update-linux.zip">unor4wifi-update-linux.zip</a>
 1. Open your system's command line application inside the extracted folder.
+   * **Windows:** Hold <kbd>⇧Shift</kbd> and right-click any blank space inside the extracted folder. In the context menu, select **Open command window here / Open PowerShell window here**.
+   * **macOS:** Control-click on the unzipped `unor4wifi-update-macos` folder and select "**New Terminal at Folder**" from the context menu. A terminal window will open.
+   * **Linux:** Open [a command line terminal](https://ubuntu.com/tutorials/command-line-for-beginners) in the extracted folder.
 1. Run the command:
    * **Windows:** `bin\espflash write-bin -b 115200 0x0 firmware\UNOR4-WIFI-S3-0.3.0-rc1.bin`
    * **macOS/Linux:** `./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-0.3.0-rc1.bin`
