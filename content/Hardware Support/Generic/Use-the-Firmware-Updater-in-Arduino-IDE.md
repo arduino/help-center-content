@@ -54,7 +54,7 @@ Follow these steps to update your board's wireless connectivity firmware using A
 
     ![Firmware Updater window displaying selected firmware version and the "install" button](img/firmware-updater-arduino-ide-2-select-board-install.png)
 
-6. When the text "Firmware successfully installed" is displayed.
+6. Wait until the text "Firmware successfully installed" is displayed.
 
     !["Firmware successfully installed" message displaying on the Firmware Updater window](img/firmware-updater-arduino-ide-2-installation-successful.png)
 
