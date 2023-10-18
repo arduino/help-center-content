@@ -36,3 +36,17 @@ Arduino IDE saves your sketches, library files and board cores outside the appli
   * This folder is hidden by default. In newer versions of Windows, you can display hidden items by clicking the **View** tab, and checking _Hidden items_.
 * **macOS:** `/Users/{username}/Library/Arduino15` Open Finder and navigate to the home folder `(/Users/{username})`. From the Finder menu bar, click on `View > Show View Options`, and tick _Show Library Folder_. The `Arduino15` folder can now be found in `{username}/Library`.
 * **Linux:** The folder is located in `home/{username}/.arduino15` and is hidden by default. To show it, click the hamburger button and check Show Hidden Files.
+
+**The `.arduinoIDE` folder**. Located in these locations by default:
+
+* **Windows:** `/Users/{username}/.arduinoIDE` (hidden)
+* **macOS:** `/Users/{username}/.arduinoIDE` (hidden)
+* **Linux:** `/home/{username}/.arduinoIDE` (hidden)
+
+**The `arduino-ide` folder**. Located in these locations by default:
+
+* **Windows:** `C:\Users\{username}\AppData\Roaming\arduino-ide\`
+* **macOS:** `~/Library/Application Support/arduino-ide/`
+* **Linux:** `~/.config/arduino-ide/`
+
+<!-- NOTE: https://forum.arduino.cc/t/how-to-disable-opening-last-sketch-on-startup/1037122/2 -->
