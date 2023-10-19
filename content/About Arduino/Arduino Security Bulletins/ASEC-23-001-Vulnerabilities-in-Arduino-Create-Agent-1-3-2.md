@@ -24,7 +24,7 @@ Details on the security vulnerabilities and related advisories can be found belo
 
     AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L)
 
-### Medium risk**
+### Medium risk
 
 * [CVE-2023-43801](https://www.cve.org/CVERecord?id=CVE-2023-43801): Path Traversal (CWE-35), CVSS v3.1 Base Score 6.1 (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L)
 * [CVE-2023-43803](https://www.cve.org/CVERecord?id=CVE-2023-43803): Path Traversal (CWE-35), CVSS v3.1 Base Score 6.1 (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L)
