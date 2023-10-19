@@ -84,13 +84,12 @@ id: 9393241841308
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360011890519-Import-your-sketchbook-and-libraries-to-the-Web-Editor">Read the guide</a>
   </div>
   <div class="info-item">
-    <img src="https://content.arduino.cc/assets/hc-laptop.svg">
-    <p class="info-title">Importing files</p>
+    <img src="https://content.arduino.cc/assets/hc-library.svg">
+    <p class="info-title">Select between multiple libraries with the same name</p>
     <p>
-      Learn how to import your local sketchbook and custom libraries to the
-      Web Editor.
+      Several techniques can be used to make the Arduino Web Editor pick a specific library when multiple libraries with the same name are available.
     </p>
-    <a class="link-chevron-right" href="https://docs.arduino.cc/arduino-cloud/tutorials/import-your-sketchbook-and-libraries-to-the-web-editor">Importing files to the Web Editor</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4405884552594-Selecting-between-multiple-libraries-with-the-same-name">Read the guide</a>
   </div>
   <div class="info-item ">
     <p class="info-title">Compatibility with the Web Editor</p>
