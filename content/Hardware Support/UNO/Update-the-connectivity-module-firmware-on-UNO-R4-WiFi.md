@@ -262,7 +262,7 @@ If you get a `VCRUNTIME140.dII was not found` error, download and install the <a
 
 ## Run espflash directly
 
-The [updater script](#unor4wifi-updater) will not work if the board cannot be identified as a UNO R4 WiFi. This can happen if the custom firmware for the ESP32-S3 connectivity module is missing completely, or is not functioning correctly. However, the board can still be restored by [running espflash directly](https://github.com/arduino/uno-r4-wifi-usb-bridge/tree/main/unor4wifi-updater#option-2).
+The above methods will not work if the board cannot be identified as a UNO R4 WiFi. This can happen if the custom firmware for the ESP32-S3 connectivity module is missing completely, or is not functioning correctly. However, the board can still be restored by [running espflash directly](https://github.com/arduino/uno-r4-wifi-usb-bridge/tree/main/unor4wifi-updater#option-2).
 
 Follow these steps:
 
