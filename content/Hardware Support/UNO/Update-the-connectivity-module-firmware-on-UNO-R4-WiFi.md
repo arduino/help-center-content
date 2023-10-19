@@ -67,7 +67,7 @@ Follow these steps to update your board's wireless connectivity firmware using A
 
 When you add a new device to IoT Cloud, the connectivity module firmware is automatically updated.
 
-<a class="link-external" href="https://support.arduino.cc/hc/en-us/articles/10501616961564-Update-connectivity-module-firmware-with-IoT-Cloud">Learn more</a>
+<a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/10501616961564-Update-connectivity-module-firmware-with-IoT-Cloud">Learn more</a>
 
 ---
 
