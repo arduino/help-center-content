@@ -22,7 +22,6 @@ In this article:
 
 Updating the connectivity firmware is easy when using the Firmware Updater in Arduino IDE 2.2.1 or later.
 
-<a class="link-external" href="https://support.arduino.cc/hc/en-us/articles/360013896579-Use-the-Firmware-Updater-in-Arduino-IDE">Use the Firmware Updater in Arduino IDE</a>
 
 ---
 
