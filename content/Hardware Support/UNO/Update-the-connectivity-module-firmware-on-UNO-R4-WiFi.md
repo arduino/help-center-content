@@ -22,10 +22,7 @@ In this article:
 
 Updating the connectivity firmware is easy when using the Firmware Updater in Arduino IDE 2.2.1 or later.
 
-
----
-
-Follow these steps to update your board's wireless connectivity firmware using Arduino IDE 2:
+Follow these steps:
 
 1. Connect the board to your computer and open Arduino IDE 2.
 
