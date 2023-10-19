@@ -3,9 +3,9 @@ title: "ASEC-23-001 - Vulnerabilities in Arduino Create Agent 1.3.2"
 ---
 
 Bulletin ID: ASEC-23-001  
-Date: Oct 18, 2023
-Product/Component: Arduino Create Agent
-Affected versions: &lt;= 1.3.2
+Date: Oct 18, 2023  
+Product/Component: Arduino Create Agent  
+Affected versions: &lt;= 1.3.2  
 Fixed version: 1.3.3
 
 ## Summary
