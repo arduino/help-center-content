@@ -17,13 +17,8 @@ Details on the security vulnerabilities and related advisories can be found belo
 
 ### High risk
 
-* [CVE-2023-43802](https://www.cve.org/CVERecord?id=CVE-2023-43802) : Path Traversal (CWE-35), CVSS v3.1 Base Score 7.3 (CVSS:3.1/A
-
-    AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L)
-
-* [CVE-2023-43800](https://www.cve.org/CVERecord?id=CVE-2023-43800): Insufficient Verification of Data Authenticity (CWE-345), CVSS v3.1 Base Score 7.3 (CVSS:3.1/
-
-    AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L)
+* [CVE-2023-43802](https://www.cve.org/CVERecord?id=CVE-2023-43802) : Path Traversal (CWE-35), CVSS v3.1 Base Score 7.3 (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L)
+* [CVE-2023-43800](https://www.cve.org/CVERecord?id=CVE-2023-43800): Insufficient Verification of Data Authenticity (CWE-345), CVSS v3.1 Base Score 7.3 (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L)
 
 ### Medium risk
 
