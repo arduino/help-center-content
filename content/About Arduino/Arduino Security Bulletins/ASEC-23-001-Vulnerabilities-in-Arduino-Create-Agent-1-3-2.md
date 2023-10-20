@@ -1,5 +1,6 @@
 ---
-title: "ASEC-23-001 - Vulnerabilities in Arduino Create Agent 1.3.2"
+title: ASEC-23-001 - Vulnerabilities in Arduino Create Agent 1.3.2
+id: 10926545889948
 ---
 
 Bulletin ID: ASEC-23-001  
