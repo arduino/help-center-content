@@ -1,5 +1,5 @@
 ---
-title: "About security vulnerabilities in Apache Log4j"
+title: "ASEC-21-001 – Vulnerabilities in Apache Log4j"
 id: 4412377144338
 ---
 
