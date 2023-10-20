@@ -28,7 +28,7 @@ Details on the security vulnerabilities and related advisories can be found belo
 
 The identified vulnerabilities may allow an attacker, with local access to the victim machine, the following actions:
 
-* escalation of privileges to that of a user with credentials for the Arduino Create Agent service;
+* Escalation of privileges to that of a user with credentials for the Arduino Create Agent service;
 * Arbitrary code execution with the permissions of the user running the Arduino Create Agent service;
 * Arbitrary file deletion of files accessible by the user running the Arduino Create Agent service.
 
