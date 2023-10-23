@@ -1,5 +1,5 @@
 ---
-title: "AEK R2: Functional Test for Battery, DC Motor and Servo Motor"
+title: "AEK R2: functional test for battery, servo motor, and DC motor"
 id: 
 ---
 
@@ -18,15 +18,12 @@ In this article:
 
 ## Before running the tests
 
-1. Install the [ArduinoMotorCarrier library](https://www.arduino.cc/reference/en/libraries/arduinomotorcarrier/) (See [Add libraries to Arduino IDE](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE) for instructions).
+1. Install the [ArduinoMotorCarrier library](https://www.arduino.cc/reference/en/libraries/arduinomotorcarrier/). (See [Add libraries to Arduino IDE](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE) for instructions)
 2. Connect the Nano 33 IoT board to the Nano Motor Carrier.
 
     ![The Nano 33 IoT board plugged to the Arduino Nano Motor Carrier](img/Nano33IoT-plug.png)
 
 3. Connect the Li-ion battery.
-
-    ![The Li-ion battery connected Arduino Nano Motor Carrier](img/NanoMotorCarrier-battery-connection.png)
-
 4. Turn on the power switch on the Nano Motor Carrier.
 5. Connect the Nano 33 IoT to your computer.
 
