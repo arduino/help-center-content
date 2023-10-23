@@ -80,5 +80,5 @@ Once done, the servo motor should loop continuously between clockwise and counte
 4. Upload the sketch.
 
 Once done, the DC motor should loop between the duty cycles from -100 to 100 and back again, and the values printed in the Serial Monitor.
-    
+
 ![The Arduino Serial Monitor with the Motor Duty Cycle printed](img/AEK-R2-DC-Motor-test.png)
