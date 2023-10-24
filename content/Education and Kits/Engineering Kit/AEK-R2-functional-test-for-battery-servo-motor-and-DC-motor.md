@@ -1,5 +1,5 @@
 ---
-title: AEK R2: functional test for battery, servo motor, and DC motor
+title: "AEK R2: functional test for battery, servo motor, and DC motor"
 id: 10972564241948
 ---
 
