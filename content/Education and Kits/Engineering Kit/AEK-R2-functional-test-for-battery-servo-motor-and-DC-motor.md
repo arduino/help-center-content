@@ -1,6 +1,6 @@
 ---
-title: "AEK R2: functional test for battery, servo motor, and DC motor"
-id: 
+title: AEK R2: functional test for battery, servo motor, and DC motor
+id: 10972564241948
 ---
 
 Learn how to determine if specific components in the Arduino Engineering Kit Rev2 (AEK R2) are functioning correctly or if they are faulty.
