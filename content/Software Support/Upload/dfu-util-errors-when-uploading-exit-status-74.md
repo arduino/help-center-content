@@ -4,7 +4,7 @@ title: "dfu-util errors when uploading (exit status 74)"
 
 Many Arduino boards use the **dfu-util** utility to upload sketches to the board. Some of these include:
 
-* Arduion UNO R4 Minima
+* Arduino UNO R4 Minima
 * Arduino GIGA R1 WiFi
 
 In this article:
@@ -21,7 +21,7 @@ In this article:
 
 ## `Failed uploading: uploading error: exit status 74`
 
-When an upload fails, you may see the message `Failed uploading: uploading error: exit status 74`. This is a generic message indicating that the upload process has failed. The exit status code (47) is used by the dfu-util upload utility.
+When an upload fails, you may see the message `Failed uploading: uploading error: exit status 74`. This is a generic message indicating that the upload process has failed. The specific exit status code (74) is used by the dfu-util upload utility. To understand the issue, always review the messages that appear before this notification, as they offer more detailed context about the failure.
 
 <!-- Whenever an upload fails, this message may appear at the end of the console output. -->
 
