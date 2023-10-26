@@ -1,6 +1,6 @@
 ---
-title: "Error on GIGA R1 WiFi silk"
-id: 
+title: Error on GIGA R1 WiFi silk
+id: 11011688250524
 ---
 
 An error has been identified on the silk (the printed text and markings) of some Arduino GIGA R1 WiFi boards. Specifically, there are two mislabeled pins at the bottom of the board. To clarify:
