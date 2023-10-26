@@ -23,8 +23,6 @@ In this article:
 
 When an upload fails, you may see the message `Failed uploading: uploading error: exit status 74`. This is a generic message indicating that the upload process has failed. The specific exit status code (74) is used by the dfu-util upload utility. To understand the issue, always review the messages that appear before this notification, as they offer more detailed context about the failure.
 
-<!-- Whenever an upload fails, this message may appear at the end of the console output. -->
-
 ---
 
 <a id="no-dfu-capable-usb-device-available"></a>
@@ -33,7 +31,7 @@ When an upload fails, you may see the message `Failed uploading: uploading error
 
 This message indicates that no USB devices supporting the DFU upload protocol were found by dfu-util.
 
-Follow these steps:
+Follow these steps to resolve the error:
 
 1. Make sure you have the right board selected in the board selector, or the **Tools > Board** menu. If you're unsure about which board you should use, see [Select board and port in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE).
 
@@ -45,11 +43,11 @@ Follow these steps:
 
 ## `dfu-util: Cannot open DFU device {vid}:{pid} found on devnum {n} (LIBUSB_ERROR_ACCESS)`
 
-The message varies depending on the board.
+The message varies depending on the board you are using.
 
-On Linux, this error can be caused by missing udev rules. This is more likely to be the cause if the error the first time you're uploading from the system.
+On Linux, this error can be caused by missing udev rules (This is more likely to be the cause if the error appears on the first time you're uploading from the system).
 
-   <a class="link-chevron-right">Fix udev rules on Linux</a>
+   <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/9005041052444-Fix-udev-rules-on-Linux">Fix udev rules on Linux</a>
 
 ---
 
@@ -71,15 +69,15 @@ To resolve the error, disconnect any extra boards or dfu capable devices you hav
 
 <a id="invalid-dfu-suffix-signature"></a>
 
-## `Warning: Invalid DFU suffix signature` <!-- TODO -->
+## `Warning: Invalid DFU suffix signature`
 
-When uploading a sketch to you may receive this warning in the console:
+When uploading a sketch, you may receive this warning in the console:
 
 ```
 Warning: Invalid DFU suffix signature
 A valid DFU suffix will be required in a future dfu-util release
 ```
 
-This warning is expected, and does not indicate a problem. The warning is only displayed if [verbose output is enabled](https://support.arduino.cc/hc/en-us/articles/4407705216274) in Preferences. If no other warnings or errors appears in the output, the sketch was most likely uploaded successfully.
+This warning is expected and does not indicate a problem. It is only displayed if [verbose output is enabled](https://support.arduino.cc/hc/en-us/articles/4407705216274) in Preferences. If there are no other warnings or errors in the output, the sketch most likely **uploaded successfully**.
 
 <!-- markdownlint-disable-file HC001 -->
