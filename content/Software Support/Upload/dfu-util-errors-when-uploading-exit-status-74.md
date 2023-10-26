@@ -1,5 +1,6 @@
 ---
-title: "dfu-util errors when uploading (exit status 74)"
+title: dfu-util errors when uploading (exit status 74)
+id: 11011849739804
 ---
 
 Many Arduino boards use the **dfu-util** utility to upload sketches to the board. Some of these include:
