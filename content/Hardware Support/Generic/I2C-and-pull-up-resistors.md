@@ -10,4 +10,4 @@ For effective data transmission with the Inter-Integrated Circuit (I2C) protocol
 
    <a class="link-external" href="https://learn.sparkfun.com/tutorials/i2c/i2c-at-the-hardware-level">Read more about I2C and pull-up values</a>
 
-Therefore, when setting up I2C communication it is important to refer to the specifications and device datasheets for understanding the ideal pull-up value requirements. 
+Therefore, when setting up I2C communication it is important to refer to the specifications and device datasheets for understanding the ideal pull-up value requirements.
