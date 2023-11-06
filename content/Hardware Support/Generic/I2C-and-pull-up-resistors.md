@@ -1,6 +1,6 @@
 ---
-title: "I2C and pull-up resistors"
-id: 
+title: I2C and pull-up resistors
+id: 11153357842588
 ---
 
 For effective data transmission with the Inter-Integrated Circuit (I2C) protocol using Arduino, it's often necessary to use external pull-up resistors on the designated I2C pins. Most Arduino boards don't have pre-installed pull-up resistors on these pins, but instead they offer exposed pads for surface mount resistors. This gives more flexibity on how these pins can be used. More specifically:
