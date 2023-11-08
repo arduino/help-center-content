@@ -78,7 +78,7 @@ The table below presents an overview of the pinout differences:
   </tr>
 </table>
 
-This pinout differences are relevant for users who intend to design their own hardware or purchase a 3rd party accessory for the Nano form factor. For example, using an accessory designed for a specific Nano version, (e.g. Nano Every), with a Nano ESP32 may cause issues depending on how the hardware is implemented. In this case, the RST pin in the Nano Every is located where the B1 (`BOOT1`) pin is on the Nano ESP32, which can create problems when powering up the board. 
+This pinout differences are relevant for users who intend to design their own hardware or purchase a 3rd party accessory for the Nano form factor. For example, using an accessory designed for a specific Nano version, (e.g. Nano Every), with a Nano ESP32 may cause issues depending on how the hardware is implemented. In this case, the RST pin in the Nano Every is located where the B1 (`BOOT1`) pin is on the Nano ESP32, which can create problems when powering up the board.
 
 ---
 
@@ -92,7 +92,7 @@ The boards in the Nano Family operate at different voltages:
 
 * Arduino Nano
 * Arduino Nano Every
-   
+
 **Boards that operate on 3.3 V:**
 
 * Arduino Nano 33 BLE
@@ -110,7 +110,7 @@ The boards in the Nano Family operate at different voltages:
 
 Besides the pinout layout, there are other visual differences in the Nano Family boards.
 
-**VUSB pads:**
+### VUSB pads
 
 It is possible to [enable 5 V power on the VUSB or VBUS pin on Nano boards](https://support.arduino.cc/hc/en-us/articles/360014779679-Enable-5-V-power-on-the-VUSB-or-VBUS-pin-on-Nano-boards) that operate on 3.3V. On all of these boards (except the Nano ESP32), two VUSB pads must be shorted in order to enable the VUSB pin. On the Nano ESP 32, The VBUS pin is enabled by default and these two pads are not present.
 
@@ -121,7 +121,7 @@ It is possible to [enable 5 V power on the VUSB or VBUS pin on Nano boards](http
   </tr>
 </table>
 
-**I2C pads**
+### I2C pads
 
 The Nano 33 BLE, the Nano 33 BLE Sense, and Nano 33 BLE Sense Rev2 have two unnamed pads on the back:
 
