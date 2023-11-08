@@ -3,11 +3,7 @@ title: "Nano family overview"
 id: 
 ---
 
-The Nano Family is a series of boards in the same form factor, with the same pin layout. This makes it easier for makers to design hardware accessories that can work with a wide range of Nano boards available.
-
-While the pinout is near identical across the boards, there are some pins that differ, mainly to accomodate the functionalities of the MCU used on the board. In this article, we will explain the differences.
-
-In this article:
+The Nano Family is a series of boards that share the same form factor, and pin layout. This makes it easier for makers to design hardware accessories that work with the wide range of Nano boards available. Despite the similarities, there are subtle differences to support the unique functionalities of each board's microcontroller unit. In this article:
 
 * [Pinout differences](#pinout-differences)
 * [Operating voltage differences](#operating-voltage-differences)
@@ -78,7 +74,7 @@ The table below presents an overview of the pinout differences:
   </tr>
 </table>
 
-This pinout differences are relevant for users who intend to design their own hardware or purchase a 3rd party accessory for the Nano form factor. For example, using an accessory designed for a specific Nano version, (e.g. Nano Every), with a Nano ESP32 may cause issues depending on how the hardware is implemented. In this case, the RST pin in the Nano Every is located where the B1 (`BOOT1`) pin is on the Nano ESP32, which can create problems when powering up the board.
+Understanding the pinout differences is importabnt for those who are designing custom hardware or using third-party accessories for the Nano form factor. For example, an accessory created for the Nano Every might not work correctly with the Nano ESP32. This is because the RST pin on the Nano Every corresponds to the B1 (BOOT1) pin on the Nano ESP32. This can lead can lead to problems when powering up the board.
 
 ---
 
@@ -112,7 +108,7 @@ Besides the pinout layout, there are other visual differences in the Nano Family
 
 ### VUSB pads
 
-It is possible to [enable 5 V power on the VUSB or VBUS pin on Nano boards](https://support.arduino.cc/hc/en-us/articles/360014779679-Enable-5-V-power-on-the-VUSB-or-VBUS-pin-on-Nano-boards) that operate on 3.3V. On all of these boards (except the Nano ESP32), two VUSB pads must be shorted in order to enable the VUSB pin. On the Nano ESP 32, The VBUS pin is enabled by default and these two pads are not present.
+It is possible to [enable 5 V power on the VUSB or VBUS pin on Nano boards](https://support.arduino.cc/hc/en-us/articles/360014779679-Enable-5-V-power-on-the-VUSB-or-VBUS-pin-on-Nano-boards) that operate on 3.3V. On all of these boards (except the Nano ESP32), two VUSB pads must be shorted in order to enable the VUSB pin. On the Nano ESP 32, the VBUS pin is enabled by default and these two pads are not present.
 
 <table>
   <tr>
@@ -123,7 +119,7 @@ It is possible to [enable 5 V power on the VUSB or VBUS pin on Nano boards](http
 
 ### I2C pads
 
-The Nano 33 BLE, the Nano 33 BLE Sense, and Nano 33 BLE Sense Rev2 have two unnamed pads on the back:
+The Nano 33 BLE, the Nano 33 BLE Sense, and Nano 33 BLE Sense Rev2 have two unnamed pads on the back of the board:
 
 ![The I2C pads on the Nano 33 BLE sense](img/nano-ble-sense-rev2-I2C-Pads.png)
 
