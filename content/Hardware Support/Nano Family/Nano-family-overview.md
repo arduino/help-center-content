@@ -3,7 +3,9 @@ title: "Nano family overview"
 id: 
 ---
 
-The Nano Family is a series of boards that share the same form factor, and pin layout. This makes it easier for makers to design hardware accessories that work with the wide range of Nano boards available. Despite the similarities, there are subtle differences to support the unique functionalities of each board's microcontroller unit. In this article:
+The Nano Family is a series of boards with the same form factor and pin layout. This standardized form factor makes it easier for makers and third-party manufactors to design hardware accessories compatible with the wide range of Nano boards.
+
+Despite the similarities, there are subtle differences in some Nano boards in order to support their unique functionalities. In this article:
 
 * [Pinout differences](#pinout-differences)
 * [Operating voltage differences](#operating-voltage-differences)
@@ -74,7 +76,9 @@ The table below presents an overview of the pinout differences:
   </tr>
 </table>
 
-Understanding the pinout differences is importabnt for those who are designing custom hardware or using third-party accessories for the Nano form factor. For example, an accessory created for the Nano Every might not work correctly with the Nano ESP32. This is because the RST pin on the Nano Every corresponds to the B1 (BOOT1) pin on the Nano ESP32. This can lead can lead to problems when powering up the board.
+Understanding the pinout differences is crucial for those designing custom hardware or using third-party accessories for the Nano form factor. For example:
+
+* An accessory created for the Nano Every might not work correctly with the Nano ESP32. In this case, it would lead to problems when powering up the board since the RST pin on the Nano Every corresponds to the B1 (BOOT1) pin on the Nano ESP32.
 
 ---
 
