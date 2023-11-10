@@ -5,6 +5,7 @@ id: 4408029337746
 
 Boards supported by the Science Journal App require special firmware to connect.
 
+- Arduino Nano RP2040 Connect
 - Arduino Nano 33 BLE Sense
 - Arduino MKR WiFi 1010
 
@@ -22,9 +23,13 @@ Boards supported by the Science Journal App require special firmware to connect.
 
 4. Click on **Examples** in the left-most sidebar to open the Examples tab.
 
-   - If you're using Nano 33 BLE Sense, search for "Nano33BLESenseFirmware" and open the  the result in the ARDUINO_SCIENCEJOURNAL library.
+   - If you're using the Nano RP2040 Connect, search for "Arduino_ScienceKitCarrier" and open the "ScienceJournal" example in the ARDUINO_SCIENCEKITCARRIER library.
 
-     ![Opening the Nano33BLESenseFirmware example from the Arduino_ScienceJournal library.](img/web-editor-sj-firmware-sj-open.png)
+      ![Opening the ScienceJournal example from the Arduino_ScienceKitCarrier library.](img/SJ_Firmware_rp2040.png)
+
+   - If you're using Nano 33 BLE Sense, search for "Nano33BLESenseFirmware" and open the result in the ARDUINO_SCIENCEJOURNAL library.
+
+      ![Opening the Nano33BLESenseFirmware example from the Arduino_ScienceJournal library.](img/web-editor-sj-firmware-sj-open.png)
 
    - MKR WiFi 1010: Search for `PhysicsLabFirmware` and open the result from the PHYSICSLABFIRMWARE library, **not** the ARDUINO_SCIENCEJOURNAL library.
 
@@ -48,8 +53,9 @@ When the upload is completed you can [connect your board to the Science Journal 
 
 You need to install the following libraries:
 
-- `Arduino_ScienceJournal`
-- `Adafruit LSM9DS1 Library` (MKR WiFi 1010 only)
+- `Arduino_ScienceKitCarrier` (If using the Nano RP2040 Connect)
+- `Arduino_ScienceJournal`    (If using the Nano 33 BLE Sense or MKR WiFi 1010)
+- `Adafruit LSM9DS1 Library` (If using the MKR WiFi 1010)
 
 Find and install the libraries by using the Library Manager (`Tools > Manage Libraries...`).
 
@@ -59,17 +65,23 @@ Find and install the libraries by using the Library Manager (`Tools > Manage Lib
 
 1. Find and open the firmware upload sketch:
 
+   - **Nano RP2040 Connect:**
+
+      IDE 1.x: `File > Examples > INCOMPATIBLE > Arduino_ScienceKitCarrier > ScienceJournal`.
+
+      IDE 2: `File > Examples > Arduino_ScienceKitCarrier > ScienceJournal`.
+
    - **MKR WiFi 1010:**
 
-     IDE 1.x: `File > Examples > INCOMPATIBLE > Arduino_ScienceJournal > PhysicsLabFirmware`.
+      IDE 1.x: `File > Examples > INCOMPATIBLE > Arduino_ScienceJournal > PhysicsLabFirmware`.
 
-     IDE 2: `File > Examples > Arduino_ScienceJournal > PhysicsLabFirmware`.
+      IDE 2: `File > Examples > Arduino_ScienceJournal > PhysicsLabFirmware`.
 
    - **Nano 33 BLE Sense:**
 
-     IDE 1.x: `File > Examples > INCOMPATIBLE > Arduino_ScienceJournal > Nano33BLESenseFirmware`, depending on the IDE version.
+      IDE 1.x: `File > Examples > INCOMPATIBLE > Arduino_ScienceJournal > Nano33BLESenseFirmware`, depending on the IDE version.
 
-     IDE 2: `File > Examples > Arduino_ScienceJournal > Nano33BLESenseFirmware`
+      IDE 2: `File > Examples > Arduino_ScienceJournal > Nano33BLESenseFirmware`
 
 2. Click the ![Upload button](img/symbol_upload.png) **Upload** button.
 
