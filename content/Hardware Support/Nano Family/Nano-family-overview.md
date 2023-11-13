@@ -76,7 +76,7 @@ The table below presents an overview of the pinout differences:
   </tr>
 </table>
 
-Understanding these pinout differences is important when those designing custom hardware or using third-party accessories for the Nano form factor. For example, an accessory created for the Nano Every might not work correctly with the Nano ESP32, since one of the RST pins on the Nano Every corresponds to the B1 (BOOT1) pin on the Nano ESP32.
+Understanding these pinout differences is important if you are designing custom hardware or using third-party accessories for the Nano form factor. For example, an accessory created for the Nano Every might not work correctly with the Nano ESP32, since one of the RST pins on the Nano Every corresponds to the B1 (BOOT1) pin on the Nano ESP32.
 
 ---
 
