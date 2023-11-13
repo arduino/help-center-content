@@ -93,7 +93,7 @@ The boards in the Nano Family operate at different voltages:
 * Arduino Nano
 * Arduino Nano Every
 
-**Boards that operate on 3.3 V:**
+**Boards that operate at 3.3 V:**
 
 * Arduino Nano 33 BLE
 * Arduino Nano 33 BLE Sense
