@@ -7,6 +7,7 @@ id: 4407749620370
 
 The Science Journal app supports the following boards:
 
+- Arduino Nano RP2040 Connect
 - Arduino Nano 33 BLE Sense
 - Arduino MKR WiFi 1010 (with the Science carrier board)
 
