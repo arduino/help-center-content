@@ -1,8 +1,27 @@
 ---
-title: "How can I join the official Arduino discord server?"
+title: "Join the official Arduino Discord server"
 id: 4405329164178
 ---
 
-Similar to the Arduino Forum, we have an active community on Discord. You can join the Discord channel using [this invite](https://discord.com/invite/jQJFwW7). The Arduino team is also an active part in the server and you can ask us for help at the #official-product-help channel.
+The **Arduino Discord server** is the official space on Discord for connecting with the Arduino community.
 
-After joining the server, make sure to read the welcome page to know the guidelines on using the sever. Also, make sure you choose the right channels to post your query.
+---
+
+## Joining the server
+
+To join the server, <a class="link-external" href="">click this link</a> or scan the QR code below:
+
+[![Discord invite QR code.](img/discord-invite-qr.png)](https://discord.com/invite/jQJFwW7)
+
+---
+
+## Using the server
+
+Please read the **[#welome](https://discord.com/channels/420594746990526466/549794917036326912)** and **[#code-of-conduct](https://discord.com/channels/420594746990526466/755251766605381743)** channels before posting.
+
+**Highlighted channels:**
+
+* **[#official-product-support](https://discord.com/channels/420594746990526466/1088462422819491860)** – Official help with Arduino products and services from Arduino staff.
+* **[#education-community](https://discord.com/channels/420594746990526466/1097893393612410950)** – Connect with teachers and share educational projects, tips, and ideas.
+
+Official Arduino representatives have the **@Arduino Staff** role.

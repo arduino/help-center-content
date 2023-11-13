@@ -47,7 +47,7 @@ id: 9277054133148
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4406437015186-Activate-the-Engineering-Kit-MATLAB-and-Simulink-license">Activate the MATLAB and Simulink licenses</a>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360017549580-If-the-kit-activation-code-does-not-work">If the activation code does not work</a>
   </div>
-  <div class="info-item info-big">
+  <div class="info-item">
     <p class="info-title">Whitelist Arduino’s URL</p>
     <p>
       Depending on the system’s security, you might need to add some URLs or
@@ -56,6 +56,13 @@ id: 9277054133148
       and board cores, your system will need to have
       <em>downloads.arduino.cc </em> whitelisted.
     </p>
+  </div>
+  <div class="info-item">
+    <p class="info-title">Arduino's Educators Community</p>
+    <p>
+      Are you an educator that wants to implement hands on learning? Here you will find the link to our Arduino Education Discord community, and a survey to participate in ongoing research activities. Leave your details and we will reach out to you!
+    </p>
+    <a class="link-chevron-right" href="https://arduinoconnect374011.typeform.com/to/XBS4s67d">Join the Arduino's Educators Community</a>
   </div>
 </div>
 <div class="info-wrapper">
