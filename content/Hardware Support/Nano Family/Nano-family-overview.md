@@ -9,7 +9,7 @@ Despite the similarities, there are subtle differences in some Nano boards in or
 
 * [Pinout differences](#pinout-differences)
 * [Operating voltage differences](#operating-voltage-differences)
-* [Other differences](#other-differences)
+* [Surface mount pads](#surface-mount-pads)
 
  ---
 
@@ -76,9 +76,7 @@ The table below presents an overview of the pinout differences:
   </tr>
 </table>
 
-Understanding the pinout differences is crucial for those designing custom hardware or using third-party accessories for the Nano form factor. For example:
-
-* An accessory created for the Nano Every might not work correctly with the Nano ESP32. In this case, it would lead to problems when powering up the board since the RST pin on the Nano Every corresponds to the B1 (BOOT1) pin on the Nano ESP32.
+Understanding these pinout differences is important when those designing custom hardware or using third-party accessories for the Nano form factor. For example, an accessory created for the Nano Every might not work correctly with the Nano ESP32, since one of the RST pins on the Nano Every corresponds to the B1 (BOOT1) pin on the Nano ESP32.
 
 ---
 
@@ -104,11 +102,11 @@ The boards in the Nano Family operate at different voltages:
 
 ---
 
-<a id="other-differences"></a>
+<a id="surface-mount-pads"></a>
 
-## Other differences
+## Surface mount pads
 
-Besides the pinout layout, there are other visual differences in the Nano Family boards.
+Some boards in the Nano family have pads that can be soldered or cut to change the board's configuration.
 
 ### VUSB pads
 
