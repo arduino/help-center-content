@@ -88,7 +88,7 @@ Understanding the pinout differences is crucial for those designing custom hardw
 
 The boards in the Nano Family operate at different voltages:
 
-**Boards that operate on 5 V:**
+**Boards that operate at 5 V:**
 
 * Arduino Nano
 * Arduino Nano Every
