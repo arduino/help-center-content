@@ -1,6 +1,6 @@
 ---
-title: "Nano family overview"
-id: 
+title: Nano family overview
+id: 11264980365468
 ---
 
 The Nano Family is a series of boards with the same form factor and pin layout. This standardized form factor makes it easier for makers and third-party manufacturers to design hardware accessories compatible with the wide range of Nano boards.
