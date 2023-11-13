@@ -48,11 +48,11 @@ The Nano RP2040 Connect needs to be flashed with special firmware for use with t
 
 4. Tap **Sensors**.
 
-   ![The Sensors button in Science Journal.](img/sj-button-sensors.png)
+   ![The Sensors button in Science Journal.](img/sj-v2-button-sensors.png)
 
 5. Open settings by tapping the cogwheel button in the top right.
 
-   ![The settings button in Science Journal.](img/sj-button-cogwheel.png)
+   ![The settings button in Science Journal.](img/sj-v2-button-cogwheel.png)
 
 6. Scroll down to **Available devices** and find the "Arduino Boards" category. Tap to to expand it (you may have to scroll down for the revealed items to show).
 
@@ -64,10 +64,10 @@ The Nano RP2040 Connect needs to be flashed with special firmware for use with t
 
 Under **Available Devices**, the arrow next to Arduino Boards should be pointing downwards (if not, tap it). You may have to swipe down to see the list.
 
-![Finding the device in the 'Arduino boards' category.](img/science-journal-missing-board-expand.gif)
+![Finding the device in the 'Arduino boards' category.](img/SJ-v2-missing-board-expand.gif)
 
 ### The board may already be added
 
 If both the Internal sensors and the board sensor categories are expanded, they can be mistaken for a single category. Try swiping up, and tap to collapse the Internal sensors category. Your board may appear below.
 
-![Finding the added device.](img/science-journal-missing-board-middle.gif)
+![Finding the added device.](img/SJ-v2-missing-board-middle.gif)
