@@ -30,6 +30,14 @@ The Nano 33 BLE Sense needs to be flashed with special firmware for use with the
 
 2. Power the setup, via a USB cable to the board or otherwise.
 
+### Set up the Arduino Nano RP2040 Connect
+
+The Nano RP2040 Connect needs to be flashed with special firmware for use with the Science Journal app.
+
+1. [Flash the firmware](https://support.arduino.cc/hc/en-us/articles/4408029337746).
+
+2. Power the setup, via a USB cable to the board or otherwise.
+
 ## Connect the Science Journal app
 
 1. Open the Science Journal app.
