@@ -123,7 +123,7 @@ It is possible to [enable 5 V power on the VUSB or VBUS pin on Nano boards](http
 
 ### I2C pads
 
-The Nano 33 BLE, the Nano 33 BLE Sense, and Nano 33 BLE Sense Rev2 have two unnamed pads on the back of the board:
+The Nano 33 BLE, the Nano 33 BLE Sense, and Nano 33 BLE Sense Rev2 have two pairs of unnamed pads on the back of the board:
 
 ![The I2C pads on the Nano 33 BLE sense](img/nano-ble-sense-rev2-I2C-Pads.png)
 
