@@ -17,7 +17,7 @@ Despite the similarities, there are subtle differences in some Nano boards in or
 
 ## Pinout differences
 
-The table below presents an overview of the pinout differences:
+The table below presents an overview of the pinout differences visible on the board's silk:
 
 <table>
   <tr>
