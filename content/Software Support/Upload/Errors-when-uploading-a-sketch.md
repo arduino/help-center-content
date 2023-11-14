@@ -40,7 +40,6 @@ If you still get an error, you'll find instructions for specific error messages 
 <!-- <li><a href="https://support.arduino.cc/hc/en-us/articles/6554944868252-Failed-uploading-uploading-error-exit-status-1">Failed uploading: uploading error: exit status 1</a></li> NOTE: Unpublished article -->
 <li><a href="#no-device-found-on-port">No device found on &lt;port&gt;</a></li>
 <li><a href="#no-board-on-selected-port">Couldn't find a Board on the selected port</a></li>
-<li><a href="#no-dfu-capable-USB-device-available">dfu-util: No DFU capable USB device available</a></li>
 <li><a href="#SerialPortException-port-busy">jssc.SerialPortException: Port name - &lt;port&gt;;<br>Method name - openPort(); Exception type - Port busy.</a></li>
 </ul>
 <h3>Compilation error</h3>
@@ -56,6 +55,14 @@ If you still get an error, you'll find instructions for specific error messages 
 </ul>
 </td>
 <td>
+<h3>dfu-util</h3>
+<ul>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/11011849739804-dfu-util-errors-when-uploading-exit-status-74-#exit-status-74">Failed uploading: uploading error: exit status 74</a></li>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/11011849739804-dfu-util-errors-when-uploading-exit-status-74-#no-dfu-capable-usb-device-available">dfu-util: No DFU capable USB device available</a></li>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/11011849739804-dfu-util-errors-when-uploading-exit-status-74-#libusb-error-access">dfu-util: Cannot open DFU device {vid}:{pid} found on devnum {n} (LIBUSB_ERROR_ACCESS)</a></li>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/11011849739804-dfu-util-errors-when-uploading-exit-status-74-#more-than-one-dfu-capable-usb-device">dfu-util: More than one DFU capable USB device found!</a></li>
+<li><a href="https://support.arduino.cc/hc/en-us/articles/11011849739804-dfu-util-errors-when-uploading-exit-status-74-#invalid-dfu-suffix-signature">Warning: Invalid DFU suffix signature</a></li>
+</ul>
 <h3>avrdude</h3>
 <ul>
 <li><strong>stk500:</strong><ul>
@@ -125,36 +132,6 @@ This error can happen if the board on the selected port has been disconnected fr
 
    * For step-by-step instructions, see [Select board and port in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE).
    * If you can't find the port, see [If your board does not appear in the port menu](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-does-not-appear-in-the-port-menu).
-
-> On Windows, you can [manually set a port for the board](https://support.arduino.cc/hc/en-us/articles/360016420140#set-COM-port) to stop it from being reassigned.
-
-<a id="no-dfu-capable-USB-device-available"></a>
-
-### dfu-util: No DFU capable USB device available<br>Upload error: Failed uploading: uploading error: exit status 74
-
-```
-dfu-util: No DFU capable USB device available
-Upload error: Failed uploading: uploading error: exit status 74
-```
-
-This error can happen if the IDE could not find the selected board on the port, or if a port is not selected.
-
-1. Make sure the board is connected to your computer.
-
-2. Make sure that the right board is selected in _Tools > Board_.
-
-3. Select the board in _Tools > Port_.
-
-   * For step-by-step instructions, see [Select board and port in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE).
-   * If you can't find the port, see [If your board does not appear in the port menu](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-does-not-appear-in-the-port-menu).
-
-4. Make sure the correct port is selected in _Tools > Port_.
-
-5. Close other instances of Arduino IDE, serial monitors, and other software that may be blocking the port.
-
-6. Restart your computer.
-
-7. See [Find and stop process blocking a port](https://support.arduino.cc/hc/en-us/articles/4407830972050-Find-and-stop-process-blocking-a-port).
 
 > On Windows, you can [manually set a port for the board](https://support.arduino.cc/hc/en-us/articles/360016420140#set-COM-port) to stop it from being reassigned.
 
