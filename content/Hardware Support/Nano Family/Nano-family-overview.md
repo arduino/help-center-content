@@ -22,9 +22,9 @@ The table below presents an overview of the pinout differences visible on the bo
 <table>
   <tr>
     <th>Board</th>
-    <th>Analog Header Reset</th>
-    <th>AREF</th>
-    <th>5V</th>
+    <th>"RST/REC/B1" pin</th>
+    <th>“AREF/ B0” pin</th>
+    <th>“5V/ VUSB/ VBUS” pin</th>
   </tr>
   <tr>
     <td>Nano</td>
