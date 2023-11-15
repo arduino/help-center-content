@@ -62,6 +62,6 @@ Lessons and activities are available within the different modules:
 
 ## Troubleshooting
 
-* If you're using a Science Carrier, make sure the board is properly connected with the pins aligned (e.g. A1, A2).
+* If you're using a Science Carrier, make sure the board is properly connected to it and that the pins (e.g. A1, A2) line up.
 * Make sure your board has the correct firmware. See [Upload the Science Journal firmware](https://support.arduino.cc/hc/en-us/articles/4408029337746-Upload-the-Science-Journal-firmware) for more information.
 * [If Arduino Science Journal quits unexpectedly or does not start](https://support.arduino.cc/hc/en-us/articles/4409561973010)
