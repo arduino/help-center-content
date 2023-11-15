@@ -31,7 +31,7 @@ The Science Journal can be used with the following boards:
 
 1. **Upload the Science Journal firmware:**
 
-   * If your board came with a Science Kit, **it will have the the required firmware out-of-the-box**. 
+   * If your board came with a Science Kit, **it will have the the required firmware out-of-the-box**.
    * If you're using a board not included in a Science Kit, an individually bought board replacement, or have flashed the board with different firmware, see [Upload the Science Journal firmware](https://support.arduino.cc/hc/en-us/articles/4408029337746-Upload-the-Science-Journal-firmware).
 
 2. **If you're using a Science Carrier:** Connect the board to the Science Carrier, ensuring that the pins (e.g., A1, A2) align properly.
