@@ -3,18 +3,27 @@ title: "Get started with the Arduino Science Journal"
 id: 4412950851346
 ---
 
-Learn how to get started with the Arduino Science Journal.
+Learn how to get started with the Arduino Science Journal. In this article:
+
+* [Get the app](#get-the-app)
+* [Compatible boards](#compatible-boards)
+* [Access lessons and activities](#access-lessons-and-activities)
+* [Troubleshooting](#troubleshooting)
 
 ---
 
+<a id="get-the-app"></a>
+
 ## Get the app
 
-The Arduino Science Journal app can be downloaded from the App Store (iOS) and Google Play (Android).
+You can download the Arduino Science Journal app from the App Store (iOS) and Google Play (Android).
 
 * [Download on the App Store](https://apps.apple.com/us/app/arduino-science-journal/id1518014927)
 * [Get it on Google Play](https://play.google.com/store/apps/details?id=cc.arduino.sciencejournal)
 
 Read [Setting up Experiments](https://science-journal.arduino.cc/sj/module/getting-started-1/lesson/setting-up-experiments) for instructions on how to setup the app on an Android or iOS device.
+
+<a id="compatible-boards"></a>
 
 ## Compatible boards
 
@@ -22,15 +31,18 @@ The Science Journal can be used with the following boards:
 
 * Arduino MKR WiFi 1010
 * Arduino Nano 33 BLE Sense
+* Arduino Nano 33 BLE Sense Rev2
 * Arduino Nano RP2040 Connect
 
-> Note 1: The MKR WiFi 1010 included with the Science Kit comes pre-configured for use with Science Journal. It needs to be connected using the _Science Carrier_, which is only available in the [Arduino Science Kit Physics Lab](https://store.arduino.cc/products/arduino-science-kit-physics-lab).
+> Note 1: The MKR WiFi 1010 included with the Science Kit comes pre-configured for use with the Science Journal. It needs to be connected using the Science Carrier, which is only available in the [Arduino Science Kit Physics Lab](https://store.arduino.cc/products/arduino-science-kit-physics-lab).
 >
-> Note 2: [Follow these instructions](https://support.arduino.cc/hc/en-us/articles/4408029337746-Upload-the-Science-Journal-firmware) if you are using an individually bought replacement, uploaded a different firmware, or are using the Nano 33 BLE Sense.
+> Note 2: If you are using an individually bought board replacement, uploaded a different firmware to the board, or are using the Nano 33 BLE Sense or Nano BLE Sense Rev2, see [Upload the Science Journal firmware](https://support.arduino.cc/hc/en-us/articles/4408029337746-Upload-the-Science-Journal-firmware).
 
 ## Connect a board
 
 You can find [instructions on how to connect a board here](https://support.arduino.cc/hc/en-us/articles/4407749620370-Connect-a-board-to-the-Science-Journal-app).
+
+<a id="access-lessons-and-activities"></a>
 
 ## Access lessons and activities
 
@@ -46,8 +58,10 @@ Lessons and activities are available within the different modules:
 
 ![Accessing lessons and activities in the menu.](img/science-journal-web-modules-dropdown.png)
 
+<a id="troubleshooting"></a>
+
 ## Troubleshooting
 
-* If you're using the MKR WiFI 1010, make sure the Science carrier board is connected.
-* Make sure your board has the correct firmware.
+* If you're using the MKR WiFI 1010, make sure that the board is properly connected to the Science Carrier.
+* Make sure your board has the correct firmware. See [Upload the Science Journal firmware](https://support.arduino.cc/hc/en-us/articles/4408029337746-Upload-the-Science-Journal-firmware) for more information.
 * [If Arduino Science Journal quits unexpectedly or does not start](https://support.arduino.cc/hc/en-us/articles/4409561973010)
