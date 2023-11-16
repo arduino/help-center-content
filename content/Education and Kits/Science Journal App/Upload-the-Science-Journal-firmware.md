@@ -81,17 +81,17 @@ To use the Science Journal, it is necessary to use different libraries and examp
 
    ![The board dropdown in the Web Editor.](img/web-editor-sj-firmware-board.png)
 
-4. Check the [Board configuration overview  table](#board-configuration) for information about the required library and example for your board. 
+4. Check the [Board configuration overview  table](#board-configuration) for information about the required library and example for your board.
 5. Click on **Examples** in the left-most sidebar to open the Examples tab. Search the example for your board in the textbox and select it in the results area.
 
     ![Opening the Nano33BLESenseFirmware example from the Arduino_ScienceJournal library.](SJ_WebEditor_Select-example.png)
 
-5. Click the ![Web Editor upload button.](img/symbol_upload-web.png) **Upload** button.
+6. Click the ![Web Editor upload button.](img/symbol_upload-web.png) **Upload** button.
 
    ![Uploading the sketch in the Web Editor.](img/web-editor-sj-firmware-upload.png)
 
-6. Wait for the process to finish (Compilation for the Nano 33 BLE Sense may take several minutes, and the console will not print any messages during this time).
-7. When the upload is completed, you can [connect your board to the Science Journal app](https://support.arduino.cc/hc/en-us/articles/4407749620370).
+7. Wait for the process to finish (Compilation for the Nano 33 BLE Sense may take several minutes, and the console will not print any messages during this time).
+8. When the upload is completed, you can [connect your board to the Science Journal app](https://support.arduino.cc/hc/en-us/articles/4407749620370).
 
 <a id="using-arduino-ide"></a>
 
@@ -99,10 +99,10 @@ To use the Science Journal, it is necessary to use different libraries and examp
 
 1. Connect your board to your computer with a USB cable.
 2. Open Arduino IDE and [select your board](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE).
-1. Check the [Board configuration overview  table](#board-configuration) for information about the required library and example for your board. 
-2. [Install the library](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE) for your board. 
-3. In `File > Examples`, hover over the library for your board to reveal the examples (In IDE 1, the path is `File > Examples > INCOMPATIBLE`).
-4. Select the example for your board.
-5. Click the ![Upload button](img/symbol_upload.png) **Upload** button.
-6. Wait for the process to finish (Compilation for the Nano 33 BLE Sense may take several minutes, and the console will not print any messages during this time).
-7. When the upload is completed, you can [connect your board to the Science Journal app](https://support.arduino.cc/hc/en-us/articles/4407749620370).
+3. Check the [Board configuration overview  table](#board-configuration) for information about the required library and example for your board.
+4. [Install the library](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE) for your board.
+5. In `File > Examples`, hover over the library for your board to reveal the examples (In IDE 1, the path is `File > Examples > INCOMPATIBLE`).
+6. Select the example for your board.
+7. Click the ![Upload button](img/symbol_upload.png) **Upload** button.
+8. Wait for the process to finish (Compilation for the Nano 33 BLE Sense may take several minutes, and the console will not print any messages during this time).
+9. When the upload is completed, you can [connect your board to the Science Journal app](https://support.arduino.cc/hc/en-us/articles/4407749620370).
