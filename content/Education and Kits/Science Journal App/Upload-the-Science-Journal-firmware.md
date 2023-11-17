@@ -41,32 +41,32 @@ To use the Science Journal, it is necessary to use different libraries and examp
     <tr>
       <td>Arduino Nano 33 BLE Sense (by itself)</td>
       <td>Arduino_ScienceJournal</td>
-      <td>/ScienceKit/Nano33BLESenseFirmware</td>
+      <td>/ScienceKit/<em>Nano33BLESenseFirmware</em></td>
     </tr>
     <tr>
       <td>Arduino Nano 33 BLE Sense Rev2 (by itself)</td>
       <td>Arduino_ScienceJournal</td>
-      <td>/ScienceKit/Nano33BLESenseRev2Firmware</td>
+      <td>/ScienceKit/<em>Nano33BLESenseRev2Firmware</em></td>
     </tr>
     <tr>
       <td>Arduino MKR WiFi 1010 (with Science Carrier)</td>
       <td>Arduino_ScienceJournal</td>
-      <td>/ScienceKit/PhysicsLabFirmware</td>
+      <td>/ScienceKit/<em>PhysicsLabFirmware</em></td>
     </tr>
     <tr>
       <td>Arduino MKR WiFi 1010 (with Science Carrier Rev2)</td>
       <td>Arduino_ScienceJournal</td>
-      <td>/ScienceKitR2/PhysicsLabFirmware</td>
+      <td>/ScienceKitR2/<em>PhysicsLabFirmware</em></td>
     </tr>
     <tr>
       <td>Arduino Nano RP2040 Connect (by itself)</td>
       <td>Arduino_ScienceJournal</td>
-      <td>/ScienceKit/RP2040ConnectFirmware</td>
+      <td>/ScienceKit/<em>RP2040ConnectFirmware</em></td>
     </tr>
     <tr>
       <td>Arduino Nano RP2040 Connect (with Science Carrier R3)</td>
       <td>Arduino_ScienceKitCarrier</td>
-      <td>/ScienceJournal</td>
+      <td>/<em>ScienceJournal</em></td>
     </tr>
   </tbody>
 </table>
