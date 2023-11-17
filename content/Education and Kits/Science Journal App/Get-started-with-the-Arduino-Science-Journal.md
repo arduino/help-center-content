@@ -19,8 +19,8 @@ Learn how to get started with the Arduino Science Journal. In this article:
 
 You can download the Arduino Science Journal app from the App Store (iOS) and Google Play (Android).
 
-* [Download on the App Store](https://apps.apple.com/us/app/arduino-science-journal/id1518014927)
-* [Get it on Google Play](https://play.google.com/store/apps/details?id=cc.arduino.sciencejournal)
+* <a class="link-external" href="https://apps.apple.com/us/app/arduino-science-journal/id1518014927">Download on the App Store</a>
+* <a class="link-external" href="https://play.google.com/store/apps/details?id=cc.arduino.sciencejournal">Get it on Google Play</a>
 
 Read [Setting up Experiments](https://science-journal.arduino.cc/sj/module/getting-started-1/lesson/setting-up-experiments) for instructions on how to setup the app on an Android or iOS device.
 
