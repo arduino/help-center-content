@@ -17,14 +17,14 @@ Despite the similarities, there are subtle differences in some Nano boards in or
 
 ## Pinout differences
 
-The table below presents an overview of the pinout differences:
+The table below presents an overview of the pinout differences visible on the board's silk:
 
 <table>
   <tr>
     <th>Board</th>
-    <th>Analog Header Reset</th>
-    <th>AREF</th>
-    <th>5V</th>
+    <th>"RST/REC/B1" pin</th>
+    <th>“AREF/ B0” pin</th>
+    <th>“5V/ VUSB/ VBUS” pin</th>
   </tr>
   <tr>
     <td>Nano</td>
