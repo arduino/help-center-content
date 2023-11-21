@@ -3,89 +3,108 @@ title: "Upload the Science Journal firmware"
 id: 4408029337746
 ---
 
-Boards supported by the Science Journal App require special firmware to connect.
+Learn how to upload the Science Journal firmware to your board. In this article:
 
-- Arduino Nano 33 BLE Sense
-- Arduino MKR WiFi 1010
+* [Compatible boards](#compatible-boards)
+* [Board configuration overview](#board-configuration)
+* [Upload the firmware using the Web Editor](#using-the-web-editor)
+* [Upload the firmware using Arduino IDE](#using-arduino-ide)
 
----
+<a id="compatible-boards"></a>
 
-## Using the Web Editor
+## Compatible boards
+
+The Science Journal can be used with the following boards:
+
+* Arduino MKR WiFi 1010 (with the Science Carrier, or Science Carrier Rev2)
+* Arduino Nano 33 BLE Sense
+* Arduino Nano 33 BLE Sense Rev2
+* Arduino Nano RP2040 Connect (by itself, or with the Science Carrier R3)
+
+>The MKR WiFi 1010 needs to be connected using the Science Carrier, which is only available in the [Arduino Science Kit Physics Lab](https://store.arduino.cc/products/arduino-science-kit-physics-lab).
+
+<a id="board-configuration"></a>
+
+## Board configuration overview
+
+To use the Science Journal, it is necessary to use different libraries and examples depending on your board or Science Kit. See the table below for an overview:
+
+<table>
+  <thead>
+    <tr>
+      <th>Board</th>
+      <th>Library</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Arduino Nano 33 BLE Sense (by itself)</td>
+      <td>Arduino_ScienceJournal</td>
+      <td>/ScienceKit/<em>Nano33BLESenseFirmware</em></td>
+    </tr>
+    <tr>
+      <td>Arduino Nano 33 BLE Sense Rev2 (by itself)</td>
+      <td>Arduino_ScienceJournal</td>
+      <td>/ScienceKit/<em>Nano33BLESenseRev2Firmware</em></td>
+    </tr>
+    <tr>
+      <td>Arduino MKR WiFi 1010 (with Science Carrier)</td>
+      <td>Arduino_ScienceJournal</td>
+      <td>/ScienceKit/<em>PhysicsLabFirmware</em></td>
+    </tr>
+    <tr>
+      <td>Arduino MKR WiFi 1010 (with Science Carrier Rev2)</td>
+      <td>Arduino_ScienceJournal</td>
+      <td>/ScienceKitR2/<em>PhysicsLabFirmware</em></td>
+    </tr>
+    <tr>
+      <td>Arduino Nano RP2040 Connect (by itself)</td>
+      <td>Arduino_ScienceJournal</td>
+      <td>/ScienceKit/<em>RP2040ConnectFirmware</em></td>
+    </tr>
+    <tr>
+      <td>Arduino Nano RP2040 Connect (with Science Carrier R3)</td>
+      <td>Arduino_ScienceKitCarrier</td>
+      <td>/<em>ScienceJournal</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<a id="using-the-web-editor"></a>
+
+## Upload the firmware using the Web Editor
 
 1. Open the [Web Editor](https://create.arduino.cc/editor).
-
 2. Connect your board to your computer with a USB cable.
-
 3. Select your board in the board dropdown.
 
    ![The board dropdown in the Web Editor.](img/web-editor-sj-firmware-board.png)
 
-4. Click on **Examples** in the left-most sidebar to open the Examples tab.
+4. Check the [Board configuration overview  table](#board-configuration) for information about the required library and example for your board.
+5. Click on **Examples** in the left-most sidebar to open the Examples tab. Search the example for your board in the textbox and select it in the results area.
 
-   - If you're using Nano 33 BLE Sense, search for "Nano33BLESenseFirmware" and open the  the result in the ARDUINO_SCIENCEJOURNAL library.
+    ![Opening the Nano33BLESenseFirmware example from the Arduino_ScienceJournal library.](img/web-editor-select-example.png)
 
-     ![Opening the Nano33BLESenseFirmware example from the Arduino_ScienceJournal library.](img/web-editor-sj-firmware-sj-open.png)
-
-   - MKR WiFi 1010: Search for `PhysicsLabFirmware` and open the result from the PHYSICSLABFIRMWARE library, **not** the ARDUINO_SCIENCEJOURNAL library.
-
-      ![Opening the PhysicsLabFirmware example from the PhyisicsLabFirmware library.](img/web-editor-sj-firmware-physlab-open.png)
-
-5. Click the ![Web Editor upload button.](img/symbol_upload-web.png) **Upload** button.
+6. Click the ![Web Editor upload button.](img/symbol_upload-web.png) **Upload** button.
 
    ![Uploading the sketch in the Web Editor.](img/web-editor-sj-firmware-upload.png)
 
-6. Wait for the process to finish.
+7. Wait for the process to finish (Compilation for the Nano 33 BLE Sense may take several minutes, and the console will not print any messages during this time).
+8. When the upload is completed, you can [connect your board to the Science Journal app](https://support.arduino.cc/hc/en-us/articles/4407749620370).
 
-> Compilation for the Nano 33 BLE Sense may take several minutes, and the console will not print any messages during this time.
+<a id="using-arduino-ide"></a>
 
-When the upload is completed you can [connect your board to the Science Journal app](https://support.arduino.cc/hc/en-us/articles/4407749620370).
+## Upload the firmware using Arduino IDE
 
----
+1. Connect your board to your computer with a USB cable.
+2. Open Arduino IDE and [select your board](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE).
+3. Check the [Board configuration overview  table](#board-configuration) for information about the required library and example for your board.
+4. [Install the library](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE) for your board.
+5. In `File > Examples`, hover over the library for your board to reveal the examples and select the example for your board (In IDE 1, the path is `File > Examples > INCOMPATIBLE`).
 
-## Using Arduino IDE
+    ![Arduino IDE 2 with the Nano33BLESenseFirmware example in the File>Examples menu](img/ide2-select-example-sj.png)
 
-### Install the libraries
-
-You need to install the following libraries:
-
-- `Arduino_ScienceJournal`
-- `Adafruit LSM9DS1 Library` (MKR WiFi 1010 only)
-
-Find and install the libraries by using the Library Manager (`Tools > Manage Libraries...`).
-
-![Library manager showing a search query for Arduino Science Journal](img/Science_journal_library.png)
-
-### Run the firmware upload sketch
-
-1. Find and open the firmware upload sketch:
-
-   - **MKR WiFi 1010:**
-
-     IDE 1.x: `File > Examples > INCOMPATIBLE > Arduino_ScienceJournal > PhysicsLabFirmware`.
-
-     IDE 2: `File > Examples > Arduino_ScienceJournal > PhysicsLabFirmware`.
-
-   - **Nano 33 BLE Sense:**
-
-     IDE 1.x: `File > Examples > INCOMPATIBLE > Arduino_ScienceJournal > Nano33BLESenseFirmware`, depending on the IDE version.
-
-     IDE 2: `File > Examples > Arduino_ScienceJournal > Nano33BLESenseFirmware`
-
-2. Click the ![Upload button](img/symbol_upload.png) **Upload** button.
-
-3. Wait for the process to finish.
-
-> Compilation for the Nano 33 BLE Sense may take several minutes, and the console will not print any messages during this time. In IDE 1.8, you can monitor the progress bar in the console's top-right corner.
-
-When the upload is completed you can [connect your board to the Science Journal app](https://support.arduino.cc/hc/en-us/articles/4407749620370).
-
-### Troubleshooting
-
-#### If you can't find the library
-
-- Make sure the library is installed in the Library Manager
-- Make sure your board is selected in `Tools > Board`.
-
-#### Adafruit_LSM9DS1.h: No such file or directory
-
-If you get this error message, you need to install the `Adafruit LSM9DS1 Library` and it's dependencies in the Library Manager.
+6. Click the ![Upload button](img/symbol_upload.png) **Upload** button.
+7. Wait for the process to finish (Compilation for the Nano 33 BLE Sense may take several minutes, and the console will not print any messages during this time).
+8. When the upload is completed, you can [connect your board to the Science Journal app](https://support.arduino.cc/hc/en-us/articles/4407749620370).
