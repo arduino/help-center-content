@@ -29,47 +29,14 @@ The Science Journal can be used with the following boards:
 
 To use the Science Journal, it is necessary to use different libraries and examples depending on your board or Science Kit. See the table below for an overview:
 
-<table style="width:100%">
-  <thead>
-    <tr>
-      <th style="width:33%;">Board</th>
-      <th style="width:31%;">Library</th>
-      <th style="width:36%;">Example</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Arduino Nano 33 BLE Sense (by itself)</td>
-      <td>Arduino_ScienceJournal</td>
-      <td>/ScienceKit/<em>Nano33BLESenseFirmware</em></td>
-    </tr>
-    <tr>
-      <td>Arduino Nano 33 BLE Sense Rev2 (by itself)</td>
-      <td>Arduino_ScienceJournal</td>
-      <td>/ScienceKit/<em>Nano33BLESenseRev2Firmware</em></td>
-    </tr>
-    <tr>
-      <td>Arduino MKR WiFi 1010 (with Science Carrier)</td>
-      <td>Arduino_ScienceJournal</td>
-      <td>/ScienceKit/<em>PhysicsLabFirmware</em></td>
-    </tr>
-    <tr>
-      <td>Arduino MKR WiFi 1010 (with Science Carrier Rev2)</td>
-      <td>Arduino_ScienceJournal</td>
-      <td>/ScienceKitR2/<em>PhysicsLabFirmware</em></td>
-    </tr>
-    <tr>
-      <td>Arduino Nano RP2040 Connect (by itself)</td>
-      <td>Arduino_ScienceJournal</td>
-      <td>/ScienceKit/<em>RP2040ConnectFirmware</em></td>
-    </tr>
-    <tr>
-      <td>Arduino Nano RP2040 Connect (with Science Carrier R3)</td>
-      <td>Arduino_ScienceKitCarrier</td>
-      <td>/<em>ScienceJournal</em></td>
-    </tr>
-  </tbody>
-</table>
+| Board                                      | Library                 | Example                               |
+| ------------------------------------------ | ----------------------- | ------------------------------------- |
+| Arduino Nano 33 BLE Sense (by itself)       | Arduino_ScienceJournal | /ScienceKit/<em>Nano33BLESenseFirmware</em> |
+| Arduino Nano 33 BLE Sense Rev2 (by itself)  | Arduino_ScienceJournal | /ScienceKit/<em>Nano33BLESenseRev2Firmware</em> |
+| Arduino MKR WiFi 1010 (with Science Carrier)| Arduino_ScienceJournal | /ScienceKit/<em>PhysicsLabFirmware</em> |
+| Arduino MKR WiFi 1010 (with Science Carrier Rev2)| Arduino_ScienceJournal | /ScienceKitR2/<em>PhysicsLabFirmware</em> |
+| Arduino Nano RP2040 Connect (by itself)    | Arduino_ScienceJournal | /ScienceKit/<em>RP2040ConnectFirmware</em> |
+| Arduino Nano RP2040 Connect (with Science Carrier R3)| Arduino_ScienceKitCarrier | /<em>ScienceJournal</em> |
 
 <a id="using-the-web-editor"></a>
 
