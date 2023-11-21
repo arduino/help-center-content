@@ -33,8 +33,8 @@ To use the Science Journal, it is necessary to use different libraries and examp
   <thead>
     <tr>
       <th style="width:33%;">Board</th>
-      <th style="width:32%;">Library</th>
-      <th style="width:35%;">Example</th>
+      <th style="width:31%;">Library</th>
+      <th style="width:36%;">Example</th>
     </tr>
   </thead>
   <tbody>
