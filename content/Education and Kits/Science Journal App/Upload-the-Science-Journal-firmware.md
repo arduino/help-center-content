@@ -29,12 +29,12 @@ The Science Journal can be used with the following boards:
 
 To use the Science Journal, it is necessary to use different libraries and examples depending on your board or Science Kit. See the table below for an overview:
 
-<table>
+<table style="width:100%">
   <thead>
     <tr>
-      <th>Board</th>
-      <th>Library</th>
-      <th>Example</th>
+      <th style="width:34%;">Board</th>
+      <th style="width:33%;">Library</th>
+      <th style="width:33%;">Example</th>
     </tr>
   </thead>
   <tbody>
