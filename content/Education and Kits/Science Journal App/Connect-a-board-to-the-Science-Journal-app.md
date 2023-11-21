@@ -60,6 +60,8 @@ The Science Journal can be used with the following boards:
 
 7. Tap your device name to connect.
 
+<a id="troubleshooting"></a>
+
 ## Troubleshooting
 
 ### Make sure you're expanding the Arduino Boards category
