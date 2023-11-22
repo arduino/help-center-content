@@ -19,7 +19,7 @@ Learn how to troubleshoot issues when servo motors are not moving or moving erra
 
 3. **Power Considerations:**
 
-    * Servo motors draw significant power, and the board might not supply enough energy. If you need to drive more than one or two servos, you may need to power them from a separate supply (i.e. not the 5V pin on your Arduino). Make sure the grounds of the Arduino and the external power supply are connected.
+    * Servo motors draw significant power, and the board might not supply enough energy. If you need to drive more than one or two servos, you may need to power them from a separate supply (i.e. not the 5V pin on your Arduino). Make sure the grounds of the Arduino and the external power supply are connected. Check the diagram below for an example circuit:
 
         ![two servo motors connected to the digital pins of an Arduino board, powered through a external battery connected to a breadboard](img/2-servos-set-up-diagram.png)
 
