@@ -3,7 +3,7 @@ title: "Troubleshoot servo motors"
 id: 360017053760
 ---
 
-Learn how to troubleshoot issues when servo motors are not moving or moving erratically.
+Learn how to troubleshoot servos that are not moving or moving erratically.
 
 ---
 
@@ -15,7 +15,7 @@ Learn how to troubleshoot issues when servo motors are not moving or moving erra
 
 2. **Verify Pin Configuration:**
 
-    * Confirm that you've connected the servo to the same pin mentioned in the code. For example, if you are using the [servo library](https://www.arduino.cc/reference/en/libraries/servo/), the code may inlcude a line such as `myservo.attach(9)` to attach the servo to a pin on the board. In this case, the **signal** input on the servo should be connected to the pin 9 on the board.
+    * Confirm that you've connected the servo to the same pin mentioned in the code. For example, if you are using the [servo library](https://www.arduino.cc/reference/en/libraries/servo/), the code might inlcude a line such as `myservo.attach(9)` to link the servo to a specific pin on the board. In this case, the **signal** input on the servo should be connected to the pin 9 on the board.
 
 3. **Power Considerations:**
 
