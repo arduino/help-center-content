@@ -63,8 +63,6 @@ If Arduino IDE fails to open, and you see the text `dlopen(): error loading libf
 
 <a class="link-external" href="https://www.arduino.cc/en/software">View all download options on the Software page</a>
 
-**[View all download options on the Software page](https://www.arduino.cc/en/software).**
-
 ---
 
 ## If you need help
