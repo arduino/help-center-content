@@ -22,10 +22,8 @@ In the above example, `value` we will be assigned an indeterminate value from me
 Try this to check for and avoid runtime errors:
 
 * **Try uploading a simple example**. If it works, the problem may be due to a runtime error.
-  
   * Using **IDE 2:** On the toolbar menu, go to `File > Examples > 01.Basics` and choose the *Blink* sketch. Click the ![Upload button](img/symbol_upload.png) **Upload** button.
   * Using **Web Editor:** On the left-most sidebar, go to `Examples > 01.Basics` and choose the *Blink* sketch. Click the ![Web Editor upload button.](img/symbol_upload-web.png) **Upload** button.
-  
 * Take care to not assign values or read from outside the range of a declared array.
 * Debug the code by inserting [`Serial.print()`](https://www.arduino.cc/reference/en/language/functions/communication/serial/print/) calls and checking the Serial Monitor. Use this method to check what values get assigned to important variables and when the code branches, e.g. on an `if()` statement. Consider using the [ArduinoTrace](https://www.arduino.cc/reference/en/libraries/arduinotrace/) to make this process simpler.
 
