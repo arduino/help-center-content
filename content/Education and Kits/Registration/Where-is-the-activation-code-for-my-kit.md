@@ -5,7 +5,7 @@ id: 4402999992850
 
 Some, but not all, Arduino kits include an activation code for accessing online content, software licenses such as Matlab for the Engineering Kit, or the 12 free months of the Cloud Maker Plan offered with the Oplà IoT Kit.
 
-You can find the activation code along inside the kit. It will typically be visible when the box is opened (on the inside of the lid or on the cardboard material).
+You can find the activation code inside the kit. It will typically be visible when the box is opened (on the inside of the lid or on the cardboard material).
 
 > Note: The Arduino Starter Kit Multi-Language doesn't need to be activated and, therefore, does't come with an activation code.
 
