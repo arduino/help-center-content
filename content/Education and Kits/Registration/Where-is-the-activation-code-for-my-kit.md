@@ -11,4 +11,4 @@ You can find the activation code inside the kit. It will typically be visible wh
 
 ## Further reading
 
-* [Register an Arduino Education Kit](https://support.arduino.cc/hc/en-us/articles/4407393580818-Register-an-Arduino-Education-Kit#fnref1)
+* <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4407393580818-Register-an-Arduino-Education-Kit#fnref1">Register an Arduino Education Kit</a>
