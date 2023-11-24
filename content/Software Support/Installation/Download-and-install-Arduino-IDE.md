@@ -13,14 +13,14 @@ Learn how to download and install the desktop-based Arduino IDE.
 
 ### Windows
 
-1. <a class="link-download" href="https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_Windows_64bit.exe">Download the latest release</a>
+1. <a class="link-download" href="https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_Windows_64bit.exe">Download the latest release</a> (The download will start after you click this link. Check your browser's download manager or the Downloads folder on your computer to find the downloaded file)
 2. Double-click the executable (.exe) file.
 3. Follow the instructions in the installation guide.
 4. When completing the setup, leave _Run Arduino IDE_ ticked to launch the application, or launch it later from the Start Menu.
 
 ### macOS
 
-1. <a class="link-download" href="https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_macOS_64bit.dmg">Download the latest release</a>
+1. <a class="link-download" href="https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_macOS_64bit.dmg">Download the latest release</a> (The download will start after you click this link. Check your browser's download manager or the Downloads folder on your computer to find the downloaded file)
 2. Double-click the disk image (.dmg) file.
 3. Drag and drop the Arduino IDE application into the Applications folder.
 4. Launch Arduino IDE the same way you would launch any other application (such as <kbd>⌘</kbd> + <kbd>Space</kbd> for Spotlight and search for "Arduino").
