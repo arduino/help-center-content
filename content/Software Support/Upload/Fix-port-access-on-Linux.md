@@ -102,7 +102,7 @@ Another cause of errors are other processes that are using the port.
    lsof <port name>
    ```
 
-   The output may look something like this:
+   If there is a process using the port, the output may look like this:
 
    ```
    username@computer:~$ lsof /dev/ttyACM0
@@ -149,3 +149,7 @@ Another cause of errors are other processes that are using the port.
    ```
 
 7. Try uploading your sketch again.
+
+## Still need help?
+
+If you still need help using your Arduino board, [contact us](https://www.arduino.cc/en/contact-us/).
