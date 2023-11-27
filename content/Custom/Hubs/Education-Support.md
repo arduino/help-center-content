@@ -60,7 +60,7 @@ id: 9277054133148
   <div class="info-item">
     <p class="info-title">Arduino's Educators Community</p>
     <p>
-      Are you an educator that wants to implement hands on learning? Here you will find the link to our Arduino Education Discord community, and a survey to participate in ongoing research activities. Leave your details and we will reach out to you!
+      Are you an educator that wants to implement hands on learning? Here you will find the link to our <b>Arduino Education Discord community</b>, and a survey to participate in <b>ongoing research activities</b>. Leave your details and we will reach out to you!
     </p>
     <a class="link-chevron-right" href="https://arduinoconnect374011.typeform.com/to/XBS4s67d">Join the Arduino's Educators Community</a>
   </div>
