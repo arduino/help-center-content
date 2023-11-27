@@ -9,7 +9,7 @@ The **Arduino Discord server** is the official space on Discord for connecting w
 
 ## Joining the server
 
-To join the server, <a class="link-external" href="">click this link</a> or scan the QR code below:
+To join the server, <a class="link-external" href="https://discord.com/invite/jQJFwW7">click this link</a> or scan the QR code below:
 
 [![Discord invite QR code.](img/discord-invite-qr.png)](https://discord.com/invite/jQJFwW7)
 
