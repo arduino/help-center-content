@@ -51,7 +51,7 @@ Default libraries subfolder location:
 
 ### Arduino15 folder
 
-The [Arduino15 folder](https://support.arduino.cc/hc/en-us/articles/360018448279) contain installed board packages and tools.
+The [Arduino15 folder](https://support.arduino.cc/hc/en-us/articles/360018448279) contains installed board packages and tools.
 
 Default location:
 
@@ -62,13 +62,15 @@ Default location:
 
 ### Configuration folder (.arduinoIDE)
 
-The **.arduinoIDE** folder contain configuration files like `settings.json` and `arduino-cli.yaml`.
+The **.arduinoIDE** folder contains configuration files like `settings.json` and `arduino-cli.yaml`.
 
 Default location:
 
 * **Windows:** `C:\Users\{username}\.arduinoIDE` (hidden)
 * **macOS:** `/Users/{username}/.arduinoIDE` (hidden)
 * **Linux:** `/home/{username}/.arduinoIDE` (hidden)
+
+This folder is only used by Arduino IDE 2.
 
 <a id="user-data-folder"></a>
 
@@ -81,5 +83,7 @@ Default location:
 * **Windows:** `C:\Users\{username}\AppData\Roaming\arduino-ide\`
 * **macOS:** `~/Library/Application Support/arduino-ide/`
 * **Linux:** `~/.config/arduino-ide/`
+
+This folder is only used by Arduino IDE 2.
 
 <!-- NOTE: https://forum.arduino.cc/t/how-to-disable-opening-last-sketch-on-startup/1037122/2 -->

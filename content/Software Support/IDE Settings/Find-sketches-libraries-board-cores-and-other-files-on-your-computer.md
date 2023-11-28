@@ -145,7 +145,7 @@ Generally, the contents of this folder should not be changed.
 
 ## Configuration folder (.arduinoIDE)
 
-The **.arduinoIDE** folder contain configuration files like `settings.json` and `arduino-cli.yaml`.
+The **.arduinoIDE** folder contains configuration files like `settings.json` and `arduino-cli.yaml`.
 
 Default location:
 
