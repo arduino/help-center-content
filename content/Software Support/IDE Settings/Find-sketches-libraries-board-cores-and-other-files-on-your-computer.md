@@ -143,6 +143,34 @@ Generally, the contents of this folder should not be changed.
 
 ---
 
+## Configuration folder (.arduinoIDE)
+
+The **.arduinoIDE** folder contains configuration files like `settings.json` and `arduino-cli.yaml`.
+
+Default location:
+
+* **Windows:** `C:\Users\{username}\.arduinoIDE` (hidden)
+* **macOS:** `/Users/{username}/.arduinoIDE` (hidden)
+* **Linux:** `/home/{username}/.arduinoIDE` (hidden)
+
+This folder is only used by Arduino IDE 2.
+
+---
+
+## User data folder (arduino-ide)
+
+The **arduino-ide** folder contains various temporary files. Removing this folder can sometimes resolve problems with Arduino IDE.
+
+Default location:
+
+* **Windows:** `C:\Users\{username}\AppData\Roaming\arduino-ide\`
+* **macOS:** `~/Library/Application Support/arduino-ide/`
+* **Linux:** `~/.config/arduino-ide/`
+
+This folder is only used by Arduino IDE 2.
+
+---
+
 ## Further reading
 
 * [Where can I find the Arduino15 folder?](https://support.arduino.cc/hc/en-us/articles/360018448279-Where-can-I-find-the-Arduino15-folder-)
