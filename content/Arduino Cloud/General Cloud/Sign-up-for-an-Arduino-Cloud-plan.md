@@ -24,7 +24,7 @@ Learn how to review and sign up for Arduino Cloud plans.
 
 You don't need to sign up for the free plan features, you only need an Arduino account.
 
-1. Go to [cloud.arduino.cc/home](https://cloud.arduino.cc/home/).
+1. Go to [app.arduino.cc](https://app.arduino.cc/)
 2. If you're not signed into an Arduino account, you will be asked to do so.
 3. Start using the [IoT Cloud](https://create.arduino.cc/iot/) and [Web Editor](https://create.arduino.cc/editor) apps right away, or check the [Resources tab](https://cloud.arduino.cc/home/resources) for help getting started.
 

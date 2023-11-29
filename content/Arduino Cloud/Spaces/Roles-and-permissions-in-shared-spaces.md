@@ -57,7 +57,7 @@ These spaces have _Editor_ and _Admin_ roles
 
 Follow these steps to review the roles and permissions for your space:
 
-1. Go to [cloud.arduino.cc](https://cloud.arduino.cc/).
+1. Go to [app.arduino.cc](https://app.arduino.cc/)
 
 2. Select the shared space in the top-right dropdown menu.
 
