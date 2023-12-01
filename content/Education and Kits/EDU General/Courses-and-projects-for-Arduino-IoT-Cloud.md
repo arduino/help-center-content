@@ -53,4 +53,4 @@ _*A kit registration code or paid Arduino Cloud plan is required._
 
 With **templates**, you can get started with various projects using IoT Cloud.
 
-<a class="link-chevron-right" href="https://create.arduino.cc/iot/templates">View Arduino Cloud templates</a>
+<a class="link-chevron-right" href="https://app.arduino.cc/templates">View Arduino Cloud templates</a>

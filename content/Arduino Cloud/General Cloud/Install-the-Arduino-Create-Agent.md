@@ -39,7 +39,7 @@ Follow these steps:
 You can now use the Web Editor and IoT Cloud:
 
 * [Arduino Web Editor](https://create.arduino.cc/editor)
-* [Arduino IoT Cloud](https://create.arduino.cc/iot)
+* [Arduino IoT Cloud](https://app.arduino.cc/)
 
 ---
 

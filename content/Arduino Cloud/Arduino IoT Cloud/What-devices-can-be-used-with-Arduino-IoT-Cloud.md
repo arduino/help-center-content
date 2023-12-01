@@ -3,7 +3,7 @@ title: "What devices can be used with Arduino IoT Cloud?"
 id: 360016077320
 ---
 
-[Arduino IoT Cloud](https://create.arduino.cc/iot/) supports many Arduino and third-party boards, as well as a number of Linux devices.
+[Arduino IoT Cloud](https://app.arduino.cc/) supports many Arduino and third-party boards, as well as a number of Linux devices.
 
 ---
 
@@ -37,7 +37,7 @@ Supported third-party devices can also be used:
 * Pelion
 * LoRaWAN® devices
 
-[^3rd-party-support]: For a list of supported models, go to the [Devices tab](https://create.arduino.cc/iot/devices) and click **Add**. Then click **Set up a 3rd Party device** and open the **Select model** dropdown for ESP32 or ESP8266.
+[^3rd-party-support]: For a list of supported models, go to the [Devices tab](https://app.arduino.cc/devices) and click **Add**. Then click **Set up a 3rd Party device** and open the **Select model** dropdown for ESP32 or ESP8266.
 
 ---
 

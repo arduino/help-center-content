@@ -7,7 +7,7 @@ Learn how to activate your kit and access the online learning content for your A
 
 ---
 
-1. Go to [cloud.arduino.cc/registration](https://cloud.arduino.cc/home/registration)[^1].
+1. Go to [app.arduino.cc/registration](https://app.arduino.cc/registration)[^1].
 
    [^1]: You can also access this page anywhere on arduino.cc by selecting _![Arduino account symbol.](img/symbol_profile.png) > My Courses_ and clicking the **"Register Kit"** button.
 
