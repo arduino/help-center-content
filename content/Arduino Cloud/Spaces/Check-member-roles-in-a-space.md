@@ -7,7 +7,7 @@ If you are part of a space, you can find your educator role by following the ste
 
 ---
 
-1. Go to [cloud.arduino.cc](https://cloud.arduino.cc/).
+1. Go to [app.arduino.cc](https://app.arduino.cc/)
 
 2. Select the shared space in the top-right dropdown menu.
 

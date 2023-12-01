@@ -49,4 +49,4 @@ Learn how to use innovative technology to boost sustainability by creating an au
 
 With **templates**, you can get started with various projects using IoT Cloud.
 
-<a class="link-chevron" href="https://create.arduino.cc/iot/templates">View Arduino Cloud templates</a>
+<a class="link-chevron" href="https://app.arduino.cc/templates">View Arduino Cloud templates</a>

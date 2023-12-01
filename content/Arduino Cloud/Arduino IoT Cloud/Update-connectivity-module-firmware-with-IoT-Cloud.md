@@ -22,7 +22,7 @@ How to update the firmware:
 
 * When you **add a new device** to IoT Cloud, the connectivity module firmware is automatically updated.
 * To update an existing device, follow these steps:
-  1. Open the **[Device tab](https://create.arduino.cc/iot/devices)** and select the device you want to update.
+  1. Open the **[Device tab](https://app.arduino.cc/devices)** and select the device you want to update.
   2. Click on the row with your device name to open **Device info**.
   3. Find the **Connectivity Module Firmware** row. It will display the last firmware version that was flashed to the board. If a newer one is available, an **Update** button will be displayed. Click it to update the firmware to the latest available version.
 

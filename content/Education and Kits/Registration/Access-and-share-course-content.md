@@ -35,7 +35,7 @@ You can gain access to courses in different ways:
 
 Follow these steps:
 
-1. Go to [cloud.arduino.cc/home](https://cloud.arduino.cc/home).
+1. Go to [app.arduino.cc](https://app.arduino.cc/)
 
 2. Use the top-right space selection menu to select a space.
 
@@ -53,7 +53,7 @@ Follow these steps:
 
 **Create a new shared space:**
 
-1. Go to [cloud.arduino.cc/home](https://cloud.arduino.cc/home).
+1. Go to [app.arduino.cc](https://app.arduino.cc/)
 
 2. Open the top-right space selection menu and click on _New shared space_.
 
@@ -63,7 +63,7 @@ Follow these steps:
 
 **Join a shared space:**
 
-1. Go to [cloud.arduino.cc/home](https://cloud.arduino.cc/home).
+1. Go to [app.arduino.cc](https://app.arduino.cc/)
 
 2. Open the top-right space selection menu and click on _Join space_.
 
@@ -77,7 +77,7 @@ Follow these steps:
 
 Kits that were activiated with a **registration code** can be shared with a space:
 
-1. Go to [cloud.arduino.cc/home](https://cloud.arduino.cc/home).
+1. Go to [app.arduino.cc](https://app.arduino.cc/)
 
 2. Use the top-right space selection menu to select a shared space.
 
@@ -99,7 +99,7 @@ To learn more about kit registration, see [Register an Arduino Education Kit](ht
 
 Follow these steps:
 
-1. Go to [cloud.arduino.cc/home](https://cloud.arduino.cc/home).
+1. Go to [app.arduino.cc](https://app.arduino.cc/)
 
 2. Select your shared space in the space selection menu.
 

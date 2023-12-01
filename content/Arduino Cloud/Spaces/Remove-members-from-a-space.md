@@ -20,7 +20,7 @@ You can remove members from a space depending on your role:
 
 Follow these steps below to remove members:
 
-1. Go to [cloud.arduino.cc](https://cloud.arduino.cc/) and select a space in the top-right dropdown menu.
+1. Go to [app.arduino.cc](https://app.arduino.cc/) and select a space in the top-right dropdown menu.
 
    ![Selecting a shared space in Arduino Cloud.](img/cloud-space-dropdown-shared.png)
 

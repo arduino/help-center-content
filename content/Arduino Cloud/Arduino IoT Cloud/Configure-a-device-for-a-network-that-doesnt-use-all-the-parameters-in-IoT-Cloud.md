@@ -18,7 +18,7 @@ To use a device with these networks, you can [set the network parameters in the 
 
 ## Set network parameters in the Web Editor
 
-1. Open your Thing in [IoT Cloud](https://create.arduino.cc/iot/things).
+1. Open your Thing in [IoT Cloud](https://app.arduino.cc/things).
 
 2. Click the **Sketch** tab.
 

@@ -33,7 +33,7 @@ The micro UFL port and the SIM tray are highlighted respectively in the image be
 
 1. Connect the board to your computer.
 
-2. Go to [Arduino IoT Cloud](https://create.arduino.cc/iot/devices)
+2. Go to [Arduino IoT Cloud](https://app.arduino.cc/devices)
 
 3. Click the **Devices** tab, then click **Add device**. Choose to set up an Arduino or 3rd party device depending on your device.
 
@@ -45,7 +45,7 @@ The micro UFL port and the SIM tray are highlighted respectively in the image be
 
 ### 2. Configure a Thing
 
-1. Go to the [Things tab](https://create.arduino.cc/iot/things).
+1. Go to the [Things tab](https://app.arduino.cc/things).
 
 2. Click the **CREATE** button in the top-right corner to create a new Thing. You can replace the default "Untitled" name with your own, such as "SIM".
 
@@ -102,7 +102,7 @@ To test the connection, we can set up a Dashboard widget that will toggle an LED
 
 ### 1. Prepare the sketch
 
-1. Go to the [Things tab](https://create.arduino.cc/iot/things) and open your Thing.
+1. Go to the [Things tab](https://app.arduino.cc/things) and open your Thing.
 
 2. Click **Add variable**, or the **Add** button if a variable has already been added.
 
@@ -132,7 +132,7 @@ To test the connection, we can set up a Dashboard widget that will toggle an LED
 
 ### 2. Use the variable in a dashboard
 
-1. Open the [Dashboards tab](https://create.arduino.cc/iot/dashboards).
+1. Open the [Dashboards tab](https://app.arduino.cc/dashboards).
 
 2. Open an existing dashboard, or click **Build Dashboard** to create a new one.
 
