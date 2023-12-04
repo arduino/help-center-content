@@ -13,7 +13,6 @@ These boards and modules are supported[^deprecated]:
 | Arduino Portenta C33  | ESP32-C3 |
 | Arduino MKR WiFi 1010 | NINA     |
 | Arduino NANO 33 IoT   | NINA     |
-| Arduino Uno WiFi Rev2 | NINA     |
 | Arduino Nano RP2040   | NINA     |
 
 [^deprecated]: MKR 1000 WiFi and MKR Vidor 4000 are not supported in the Arduino Firmware Uploader used by Arduino IoT Cloud. To update these boards, use Arduino IDE [2.2.1](https://github.com/arduino/arduino-ide/releases/tag/2.1.1) or Arduino Firmware Uploader [2.3.0](https://github.com/arduino/arduino-fwuploader/releases/tag/2.3.0). For more information, see the [Arduino Firmware Uploader user documentation](https://arduino.github.io/arduino-fwuploader/latest/deprecated/).
