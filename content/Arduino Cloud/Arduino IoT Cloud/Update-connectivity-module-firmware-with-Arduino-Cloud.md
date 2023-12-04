@@ -25,6 +25,6 @@ How to update the firmware:
   2. Click on the row with your device's name. This will open a page with more information about your device.
   3. Find the **Connectivity Module Firmware** row and click it to update the firmware to the latest available version.
 
-     ![Device Info](img/Arduino-Cloud-update-firmware.png)
+     ![Page with information about device, with the Connectivity Module Firmware row highlighted](img/Arduino-Cloud-update-firmware.png)
 
 * Alternatively, you update an existing device by removing it and then adding it again. When adding the device, the firmware is automatically updated with the latest firmware version.
