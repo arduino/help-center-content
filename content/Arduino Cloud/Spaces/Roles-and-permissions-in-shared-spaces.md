@@ -13,7 +13,7 @@ Different roles are available depending on the type of space but generally, all 
 
 These spaces have _Student_, _Teacher_, and _Admin_ member roles.
 
-### **Students**
+### Students
 
 * Can access courses that are shared in the Space
 * Expanded account features and limits offered by the School plan
@@ -59,9 +59,9 @@ Follow these steps to review the roles and permissions for your space:
 
 1. Go to [app.arduino.cc](https://app.arduino.cc/)
 
-2. Select the shared space in the top-right dropdown menu.
+2. Select the shared space in the top-left dropdown menu. (If you have more than 3 spaces, a **Switch space** button will appear in the dropdown menu. Click this button and select the shared space in the pop-up window.)
 
-3. In the left-most sidebar, click on **Settings** to expand the options.
+3. In the leftmost sidebar, click on **Space Settings** to expand the options.
 
 4. Click on **Roles & Permissions**.
 
