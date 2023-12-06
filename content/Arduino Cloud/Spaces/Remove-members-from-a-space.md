@@ -18,20 +18,22 @@ You can remove members from a space depending on your role:
 
 ## Remove a member from a space
 
-Follow these steps below to remove members:
+Follow the steps below to remove members:
 
-1. Go to [app.arduino.cc](https://app.arduino.cc/) and select a space in the top-right dropdown menu.
+1. Go to [app.arduino.cc](https://app.arduino.cc/)
 
-   ![Selecting a shared space in Arduino Cloud.](img/cloud-space-dropdown-shared.png)
+2. Select the shared space in the top-left dropdown menu. (If you have more than 3 spaces, a **Switch space** button will appear in the dropdown menu. Click this button and select the shared space in the pop-up window.)
 
-2. Open the members tab.
+   ![Selecting a shared space in the space dropdown menu.](img/cloud-dropdown-shared-spaces.png)
 
-   ![Opening the members tab.](img/space-members-tab.png)
+3. In the leftmost sidebar, click on **Space Settings** to expand the options.
 
-3. Select one or more members by clicking the checkboxes, then click **Remove**.
+   ![Selecting Space Settings in the leftmost sidebar](img/cloud-space-sidebar-settings.png)
 
-   ![Selecting three members and clicking the "Remove" button.](img/space-select-remove.png)
+4. In the **Manage Members** tab, select one or more members by clicking the checkboxes, then click **Remove**.
 
-4. Click **"Yes, Remove"** to confirm.
+   ![Selecting one member and clicking the "Remove" button.](img/cloud-space-select-member.png)
 
-   ![Confirming removal by clicking the "Yes, Remove" button.](img/space-members-remove-confirm.png)
+6. Click **"GO AHEAD"** to confirm.
+
+   ![Confirming removal by clicking the "GO AHEAD" button.](img/cloud-space-remove-member.png)
