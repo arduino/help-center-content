@@ -21,6 +21,6 @@ If you are part of a space, you can find your educator role by following the ste
 
    ![Checking your role under "Your Information" in General Settings.](img/cloud-space-general-settings.png)
 
-4. To **see all member roles**, click **Manage Members** in the leftmost sidebar. See the Role column for each member in the list.
+5. To **see all member roles**, click **Manage Members** in the leftmost sidebar. See the Role column for each member in the list.
 
    ![A list of members in the space, inside the "Manage Members" tab. Each row includes the member's username, email and role.](img/cloud-space-members.png)
