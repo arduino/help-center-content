@@ -34,6 +34,6 @@ Follow the steps below to remove members:
 
    ![Selecting one member and clicking the "Remove" button.](img/cloud-space-select-member.png)
 
-6. Click **"GO AHEAD"** to confirm.
+5. Click **"GO AHEAD"** to confirm.
 
    ![Confirming removal by clicking the "GO AHEAD" button.](img/cloud-space-remove-member.png)

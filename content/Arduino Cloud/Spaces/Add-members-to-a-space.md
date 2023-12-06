@@ -25,7 +25,7 @@ Learn how to invite new members to a shared space in Arduino Cloud.
 
    ![Inviting admins in the "Invite members" prompt.](img/cloud-invite-email.png)
 
-6. **Invite with a link/code:** 
+6. **Invite with a link/code:**
 
    * Share the link (click on "link" to copy) with a student.
 
