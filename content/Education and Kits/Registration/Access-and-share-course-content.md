@@ -51,15 +51,15 @@ Follow these steps:
 
 <a id="create-space"></a>
 
-**Create a new shared space**
+### Create a new shared space
 
 1. Go to [app.arduino.cc/space](https://app.arduino.cc/space)
 
-3. Select _For Education_.
+2. Select _For Education_.
 
-4. Fill in additional information.
+3. Fill in additional information.
 
-**Join a shared space**
+### Join a shared space
 
 Depending on how you were invited, you can join a shared space in different ways:
 
