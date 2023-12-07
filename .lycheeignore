@@ -21,3 +21,9 @@ https://www.aftership.com/
 
 # Returns 403 (but is accessible in browser)
 https://www.digikey.se/product-detail/en/jst-sales-america-inc/PHR-2/455-1165-ND/608607
+
+# Returns [TIMEOUT]
+
+https://www.st.com/resource/en/datasheet/lsm9ds1.pdf
+https://www.st.com/en/development-tools/stlink-v3set.html
+https://www.st.com/en/development-tools/stm32cubeprog.html
