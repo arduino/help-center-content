@@ -29,7 +29,7 @@ Learn how to invite new members to a shared space in Arduino Cloud.
 
    * Share the link (click on "link" to copy) with a student.
 
-   * Or share the code with a minor student. If the minor student does not belong to any Educational space, an orange banner will be shown in the sidebar when the student opens Arduino Cloud. Clicking on it will open a text-box that allows the student to join the space by inserting the code.
+   * Or share the code (for minor students only). If the minor student does not belong to any Educational space, an orange banner will be shown in the sidebar when the student opens Arduino Cloud. Clicking on it will open a text box that allows the student to join the space by inserting the code.
 
      ![The shareable link and URL.](img/cloud-invite-link.png)
 
