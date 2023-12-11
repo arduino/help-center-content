@@ -5,7 +5,7 @@ id: 10501616961564
 
 Arduino Cloud uses the Arduino Firmware Uploader tool to update supported connectivity modules:
 
-These boards and modules are supported[^deprecated]:
+These boards and modules are supported[^unorev2][^deprecated]:
 
 | Board                 | Module   |
 |-----------------------|----------|
@@ -14,6 +14,8 @@ These boards and modules are supported[^deprecated]:
 | Arduino MKR WiFi 1010 | NINA     |
 | Arduino NANO 33 IoT   | NINA     |
 | Arduino Nano RP2040   | NINA     |
+
+[^unorev2]: Arduino UNO WiFi Rev2 is not supported in Arduino Cloud. [Use the Firmware Updater in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360013896579-Use-the-Firmware-Updater-in-Arduino-IDE) or the [Arduino Firmware Uploader tool](https://github.com/arduino/arduino-fwuploader) instead.
 
 [^deprecated]: MKR 1000 WiFi and MKR Vidor 4000 are not supported in the Arduino Firmware Uploader used by Arduino Cloud. To update these boards, use Arduino IDE [2.2.1](https://github.com/arduino/arduino-ide/releases/tag/2.1.1) or Arduino Firmware Uploader [2.3.0](https://github.com/arduino/arduino-fwuploader/releases/tag/2.3.0). For more information, see the [Arduino Firmware Uploader user documentation](https://arduino.github.io/arduino-fwuploader/latest/deprecated/).
 
