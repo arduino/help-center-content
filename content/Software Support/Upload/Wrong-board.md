@@ -33,3 +33,5 @@ To see if a manual selection is being made, look for an **Reset** arrow icon to 
 * If you're using an **Arduino Nano ESP32**, but it's being detected as generic ESP32 boards, the Arduino bootloader may be missing. To solve the issue, [reset the default Arduino bootloader](https://support.arduino.cc/hc/en-us/articles/9810414060188-Reset-the-Arduino-bootloader-on-the-Nano-ESP32).
 
 * If you're using an **Arduino UNO R4 WiFi**, but it's being detected as a ESP32 board, the USB bridge firmware may be missing. To solve the issue, follow [these instructions to restore the firmware using espflash](https://support.arduino.cc/hc/en-us/articles/9670986058780-Update-the-connectivity-module-firmware-on-UNO-R4-WiFi#espflash).
+
+<!-- markdownlint-disable-file HC001 -->
