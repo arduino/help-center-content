@@ -37,9 +37,9 @@ Follow these steps:
 
 1. Go to [app.arduino.cc](https://app.arduino.cc/)
 
-2. Use the top-right space selection menu to select a space.
+2. Select a space in the top-left dropdown menu.
 
-3. Click the **Courses** tab in the left sidebar to see the available courses.
+3. Click the **Courses** tab in the leftmost sidebar to see the available courses.
 
 4. Click on a course to open the content.
 
@@ -51,23 +51,23 @@ Follow these steps:
 
 <a id="create-space"></a>
 
-**Create a new shared space:**
+### Create a new shared space
 
-1. Go to [app.arduino.cc](https://app.arduino.cc/)
+1. Go to [app.arduino.cc/space](https://app.arduino.cc/space)
 
-2. Open the top-right space selection menu and click on _New shared space_.
+2. Select _For Education_.
 
-3. Select _For Education_.
+3. Fill in additional information.
 
-4. Fill in additional information.
+### Join a shared space
 
-**Join a shared space:**
+Depending on how you were invited, you can join a shared space in different ways:
 
-1. Go to [app.arduino.cc](https://app.arduino.cc/)
+* **Email invitation:** find the invitation email in your inbox and click _JOIN NOW_.
 
-2. Open the top-right space selection menu and click on _Join space_.
+* **Shared link:**  If you received a direct link, click on it or enter it into your browser.
 
-3. Enter your access code and click **Join**.
+* **Shared code (for minor students):** minor students can use a code to join shared spaces. If a minor student does not belong to any Educational space, an orange banner will be shown in the sidebar when the student opens Arduino Cloud. Clicking on it will open a text box that allows the student to join the space by entering the code.
 
 ---
 
@@ -75,15 +75,15 @@ Follow these steps:
 
 ## Share a registered course with a space
 
-Kits that were activiated with a **registration code** can be shared with a space:
+Kits that were activated with a **registration code** can be shared with a space:
 
 1. Go to [app.arduino.cc](https://app.arduino.cc/)
 
-2. Use the top-right space selection menu to select a shared space.
+2. Select the shared space in the top-left dropdown menu.
 
-3. Open the Courses tab.
+3. In the leftmost sidebar, click on the **Courses** tab.
 
-4. Under **Your Courses**, click on **Register Your  Kit**.
+4. Click on the **REGISTER YOUR KIT** button in the top-right corner.
 
 5. Select whether you want to register a new kit, or if you want to share an already registered kit from your private space.
 
@@ -101,12 +101,14 @@ Follow these steps:
 
 1. Go to [app.arduino.cc](https://app.arduino.cc/)
 
-2. Select your shared space in the space selection menu.
+2. Select the shared space in the top-left dropdown menu.
 
-3. Open the Members tab.
+3. In the leftmost sidebar, click on **Space Settings** to expand the options.
 
-4. Click the Add Member button.
+4. Open the **Manage Members** tab.
 
-5. Proceed with the instructions.
+5. Click the **ADD MEMBERS** button.
+
+6. Proceed with the instructions.
 
 To learn more about inviting members, see [Add members to a space](https://support.arduino.cc/hc/en-us/articles/360011787820-Add-members-to-a-space).

@@ -16,7 +16,7 @@ Learn how to review and sign up for Arduino Cloud plans.
 5. Click **Get started** or **Purchase** to proceed.
 6. If you're not signed into an Arduino account, you will be asked to do so.
 7. If you selected a paid plan, proceed with the checkout instructions.
-8. Start using the [IoT Cloud](https://app.arduino.cc/) and [Web Editor](https://create.arduino.cc/editor) apps right away, or check the [Resources tab](https://cloud.arduino.cc/home/resources) for help getting started.
+8. Start using [Arduino Cloud](https://app.arduino.cc/) and [Web Editor](https://create.arduino.cc/editor) apps right away, or check the [Resources tab](https://app.arduino.cc/resources) for help getting started.
 
 ---
 
