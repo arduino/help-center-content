@@ -1,15 +1,15 @@
 ---
-title: "What devices can be used with Arduino IoT Cloud?"
+title: "What devices can be used with Arduino Cloud?"
 id: 360016077320
 ---
 
-[Arduino IoT Cloud](https://app.arduino.cc/) supports many Arduino and third-party boards, as well as a number of Linux devices.
+[Arduino Cloud](https://app.arduino.cc/) supports many Arduino and third-party boards, as well as a number of Linux devices.
 
 ---
 
 ## Arduino devices
 
-The following Arduino boards and devices can be used with IoT Cloud:
+The following Arduino boards and devices can be used with Arduino Cloud:
 
 * [GIGA R1 WiFi](https://docs.arduino.cc/hardware/giga-r1-wifi)
 * [MKR GSM 1400](https://docs.arduino.cc/hardware/mkr-gsm-1400)
@@ -41,9 +41,9 @@ Supported third-party devices can also be used:
 
 ---
 
-## Use your smartphone with IoT Cloud
+## Use your smartphone with Arduino Cloud
 
-With the **Arduino IoT Cloud Remote** app, you can use your smartphone as an IoT device in Arduino IoT Cloud.
+With the **Arduino IoT Cloud Remote** app, you can use your smartphone as an IoT device in Arduino Cloud.
 
 Download the Arduino IoT Cloud Remote app here:
 
@@ -58,7 +58,7 @@ Download the Arduino IoT Cloud Remote app here:
 
 ## Linux devices
 
-You can configure Linux devices with the IoT Cloud in [Manager for Linux](https://create.arduino.cc/getting-started/#cloud-devices).
+You can configure Linux devices with the Arduino Cloud in [Manager for Linux](https://create.arduino.cc/getting-started/#cloud-devices).
 
 The following Linux devices are supported:
 
@@ -75,4 +75,4 @@ The following Linux devices are supported:
 
 ## Further reading
 
-* [Add and connect a device to IoT Cloud](https://support.arduino.cc/hc/en-us/articles/360016495559-Add-and-connect-a-device-to-IoT-Cloud)
+* [Add and connect a device to Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/360016495559-Add-and-connect-a-device-to-IoT-Cloud)
