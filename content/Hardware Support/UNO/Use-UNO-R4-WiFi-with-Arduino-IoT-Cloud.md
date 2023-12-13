@@ -1,5 +1,5 @@
 ---
-title: Use UNO R4 WiFi with Arduino IoT Cloud
+title: Use UNO R4 WiFi with Arduino Cloud
 id: 9398545261468
 ---
 
