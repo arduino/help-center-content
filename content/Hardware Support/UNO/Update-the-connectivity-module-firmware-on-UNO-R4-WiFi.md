@@ -10,7 +10,7 @@ Updating the firmware is required to use UNO R4 WiFi with Arduino Cloud, and can
 In this article:
 
 * [Use the Firmware Updater in Arduino IDE](#ide)
-* [Use IoT Cloud to update the firmware](#iot)
+* [Use Arduino Cloud to update the firmware](#iot)
 * [Use the updater script](#unor4wifi-updater)
 * [Run espflash directly](#espflash)
 
@@ -60,9 +60,9 @@ Follow these steps:
 
 <a id="iot"></a>
 
-## Use IoT Cloud to update the firmware
+## Use Arduino Cloud to update the firmware
 
-When you add a new device to IoT Cloud, the connectivity module firmware is automatically updated.
+When you add a new device to Arduino Cloud, the connectivity module firmware is automatically updated.
 
 <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/10501616961564-Update-connectivity-module-firmware-with-IoT-Cloud">Learn more</a>
 
