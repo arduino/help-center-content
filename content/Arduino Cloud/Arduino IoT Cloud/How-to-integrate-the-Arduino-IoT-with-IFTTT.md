@@ -1,9 +1,9 @@
 ---
-title: "How to integrate the Arduino IoT with IFTTT"
+title: "How to integrate the Arduino Cloud with IFTTT"
 id: 360013896199
 ---
 
-This article will show you how to connect your Arduino IoT Cloud to an IFTTT webhook. As an example, we'll configure a webhook to send data to an email address when a variable is changed.
+This article will show you how to connect your Arduino Cloud to an IFTTT webhook. As an example, we'll configure a webhook to send data to an email address when a variable is changed.
 
  You will need:
 
@@ -11,7 +11,7 @@ This article will show you how to connect your Arduino IoT Cloud to an IFTTT web
 * An [IFTTT account](https://ifttt.com/)
 * A 'Thing' that you want to configure with IFTTT.
 
-> For a general overview of Arduino IoT Cloud, see [this page](https://www.arduino.cc/en/IoT/HomePage).
+> For a general overview of Arduino Cloud, see [this page](https://www.arduino.cc/en/IoT/HomePage).
 
 ## Creating an applet in IFTTT
 
@@ -47,13 +47,13 @@ First, we'll create an applet in IFTTT that will send an email when triggered by
 
 13. Write `counter_change` in **{event}** field and copy the URL from the curl command (we'll use it in the next section).
 
-## Creating a Thing in Arduino IoT Cloud
+## Creating a Thing in Arduino Cloud
 
 Next, we'll create a Thing that will use the webhook to trigger the IFTTT applet.
 
 ---
 
-1. Go to [Arduino IoT Cloud](https://www.arduino.cc/en/IoT/HomePage). If prompted, sign in to your Arduino account.
+1. Go to [Arduino Cloud](https://www.arduino.cc/en/IoT/HomePage). If prompted, sign in to your Arduino account.
 
 2. In the **Things** tab, click **CREATE THING**.
 
@@ -71,7 +71,7 @@ Next, we'll create a Thing that will use the webhook to trigger the IFTTT applet
 
 5. With the variable created, click **Set webhook** at the bottom left of the page.
 
-   ![Arduino IoT Cloud Thing Setup. The 'Set webhook' button is highlighted.](img/IFTTT3.png)
+   ![Arduino Cloud Thing Setup. The 'Set webhook' button is highlighted.](img/IFTTT3.png)
 
 6. Paste the URL inside the **Webhook URL** field and click **SET WEBHOOK**.
 
