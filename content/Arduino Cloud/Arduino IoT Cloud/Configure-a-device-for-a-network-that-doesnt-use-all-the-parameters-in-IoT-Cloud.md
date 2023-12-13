@@ -1,5 +1,5 @@
 ---
-title: Configure a device for a network that doesn't use all the parameters in Arduino Cloud
+title: "Configure a device for a network that doesn't use all the parameters in Arduino Cloud"
 id: 5940204842780
 ---
 
