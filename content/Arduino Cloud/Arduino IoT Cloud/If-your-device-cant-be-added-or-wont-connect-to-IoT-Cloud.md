@@ -1,13 +1,13 @@
 ---
-title: "If your device can't be added or won't connect to IoT Cloud"
+title: "If your device can't be added or won't connect to Arduino Cloud"
 id: 360019355679
 ---
 
-Learn how to resolve problems [adding and connecting devices to IoT Cloud](https://support.arduino.cc/hc/en-us/articles/360016495559).
+Learn how to resolve problems [adding and connecting devices to Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/360016495559).
 
 In this article:
 
-* [Problems when adding the device to Iot Cloud](#add-device)
+* [Problems when adding the device to Arduino Cloud](#add-device)
 * [Problems uploading the sketch](#sketch-upload)
 * [If the device doesn't come online](#device-status)
 
@@ -15,7 +15,7 @@ In this article:
 
 <a id="add-device"></a>
 
-## Problems when adding the device to Iot Cloud
+## Problems when adding the device to Arduino Cloud
 
 If there's a problem during the **"Add device"** set-up process, or the device doesn't appear in the Device tab.
 
@@ -66,7 +66,7 @@ When adding your device, you may see one of these messages:
 * `Reset before upload: 1200bps Touch: Open port COMB: Serial port not found`
 * `Can't update firmware: Executing command: exit status 1`
 
-These errors can occur if the wireless connectivity module on your board is using an old version[^nina] of the WiFiNINA firmware, that cannot be automatically updated by IoT Cloud.
+These errors can occur if the wireless connectivity module on your board is using an old version[^nina] of the WiFiNINA firmware, that cannot be automatically updated by Arduino Cloud.
 
 [^nina]: 1.4.1 or earlier. To find out which version is on your board, see [Check the WiFiNINA firmware version](https://support.arduino.cc/hc/en-us/articles/9398559561244-Check-the-WiFiNINA-firmware-version).
 
@@ -111,7 +111,7 @@ This is a generic error message indicating that a process has failed.
 
 If the sketch uploads but the device doesn't come online.
 
-> **Note:** Device status is not supported by the LoRa protocol, see [About device status in IoT Cloud](https://support.arduino.cc/hc/en-us/articles/4407169649682-About-device-status-in-IoT-Cloud).
+> **Note:** Device status is not supported by the LoRa protocol, see [About device status in Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/4407169649682-About-device-status-in-IoT-Cloud).
 
 1. Go to the [Devices tab](https://app.arduino.cc/devices) and verify that your device has a linked Thing. If not, you must either create and new Thing, or associate an existing Thing with the device.
 
@@ -124,9 +124,9 @@ If the sketch uploads but the device doesn't come online.
 
 3. Open the Thing's **Sketch tab**. Make sure the right device is selected and re-upload the sketch.
 
-   ![Uploading a sketch in IoT Cloud.](img/arduino-cloud-sketch-upload.png)
+   ![Uploading a sketch in Arduino Cloud.](img/arduino-cloud-sketch-upload.png)
 
-4. Fully [delete the device](https://support.arduino.cc/hc/en-us/articles/360018324700), then add it again as a new device. For detailed instructions, see [Add and connect a device to IoT Cloud](https://support.arduino.cc/hc/en-us/articles/360016495559).
+4. Fully [delete the device](https://support.arduino.cc/hc/en-us/articles/360018324700), then add it again as a new device. For detailed instructions, see [Add and connect a device to Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/360016495559).
 
 5. Test your setup with an example from the [ArduinoIoTCloud library](https://www.arduino.cc/reference/en/libraries/arduinoiotcloud/). Upload using Arduino IDE or the [Web Editor](https://create.arduino.cc/editor).
 
