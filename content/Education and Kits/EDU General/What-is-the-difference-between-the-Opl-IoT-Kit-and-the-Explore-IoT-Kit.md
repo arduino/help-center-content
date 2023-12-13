@@ -22,7 +22,7 @@ This kit comes with a complete set of 8 Internet of Things projects ready to tur
 Learn-by-doing the fundamentals of connected objects.
 
 This educational kit includes 10 online student activities that adopt a
-learning-by-doing approach. Step-by-step, students will acquire knowledge by constructing fully functional solutions including experiments, challenges, and building real life applications. Students also learn to control objects remotely using a digital dashboard - the Arduino IoT Cloud.
+learning-by-doing approach. Step-by-step, students will acquire knowledge by constructing fully functional solutions including experiments, challenges, and building real life applications. Students also learn to control objects remotely using a digital dashboard - the Arduino Cloud.
 
 * Learn all about Internet of Things For Students & Educators
 * No prior knowledge required
