@@ -1,5 +1,5 @@
 ---
-title: "About device status in IoT Cloud"
+title: "About device status in Arduino Cloud"
 id: 4407169649682
 ---
 
