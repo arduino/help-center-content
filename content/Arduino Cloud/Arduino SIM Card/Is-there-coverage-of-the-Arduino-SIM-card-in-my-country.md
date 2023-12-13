@@ -3,7 +3,7 @@ title: "Is there coverage of the Arduino SIM card in my country?"
 id: 360016444999
 ---
 
-You can connect to the Arduino IoT cloud from over 100 countries using the Arduino SIM card, enabling you to use your device around the globe.
+You can connect to the Arduino Cloud from over 100 countries using the Arduino SIM card, enabling you to use your device around the globe.
 
 To check if the country where your Arduino project will be placed is covered by the Arduino SIM card network, you can check [here](https://store.arduino.cc/digital/sim#) and scroll down to the section “Coverage in 100 countries”.
 
