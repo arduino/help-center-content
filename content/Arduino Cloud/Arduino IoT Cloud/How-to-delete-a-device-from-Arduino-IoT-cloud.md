@@ -1,5 +1,5 @@
 ---
-title: "How to delete a device from Arduino IoT cloud"
+title: "How to delete a device from Arduino Cloud"
 id: 360018324700
 ---
 
