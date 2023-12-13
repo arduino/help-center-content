@@ -1,9 +1,9 @@
 ---
-title: Courses and projects for Arduino IoT Cloud
+title: Courses and projects for Arduino Cloud
 id: 10203733915164
 ---
 
-Learn about Arduino Education courses and other projects that use Arduino IoT Cloud.
+Learn about Arduino Education courses and other projects that use Arduino Cloud.
 
 ---
 
@@ -11,7 +11,7 @@ Learn about Arduino Education courses and other projects that use Arduino IoT Cl
 
 ### Explore IoT Rev2
 
-Harness the power of the Arduino IoT Cloud to gather data, understand how devices communicate with each other, and which tools to use to facilitate communication. Learn about data management, analysis, and computational thinking.
+Harness the power of Arduino Cloud to gather data, understand how devices communicate with each other, and which tools to use to facilitate communication. Learn about data management, analysis, and computational thinking.
 
 The course can be completed using the [Arduino Explore IoT Kit Rev2](https://store.arduino.cc/products/explore-iot-kit-rev2).
 
@@ -51,6 +51,6 @@ _*A kit registration code or paid Arduino Cloud plan is required._
 
 ## Templates
 
-With **templates**, you can get started with various projects using IoT Cloud.
+With **templates**, you can get started with various projects using Arduino Cloud.
 
 <a class="link-chevron-right" href="https://app.arduino.cc/templates">View Arduino Cloud templates</a>
