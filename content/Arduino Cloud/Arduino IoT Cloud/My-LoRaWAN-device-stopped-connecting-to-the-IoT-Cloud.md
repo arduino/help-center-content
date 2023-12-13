@@ -1,13 +1,13 @@
 ---
-title: "My LoRaWAN device stopped connecting to the IoT Cloud"
+title: "My LoRaWAN device stopped connecting to the Arduino Cloud"
 id: 4409281859986
 ---
 
-Learn what to do if you have an Arduino device equipped with LoRaWAN connectivity and you are experiencing connectivity issues with the Arduino IoT Cloud.
+Learn what to do if you have an Arduino device equipped with LoRaWAN connectivity and you are experiencing connectivity issues with the Arduino Cloud.
 
 ---
 
-> **Service migration (Nov. 4th, 2021):** Arduino Cloud has a new LoRaWAN service provider which affects all devices that were configured with the IoT Cloud before that date. To restore the connection users must first remove all existing devices from the IoT Cloud devices section. For Arduino LoRa PRO Gateway, ensure that the device is connected and 'online' before removing the device. Then follow the [new setup guide](https://docs.arduino.cc/cloud/iot-cloud/tutorials/cloud-lora-getting-started) to reconfigure your devices.
+> **Service migration (Nov. 4th, 2021):** Arduino Cloud has a new LoRaWAN service provider which affects all devices that were configured with the Arduino Cloud before that date. To restore the connection users must first remove all existing devices from the Arduino Cloud devices section. For Arduino LoRa PRO Gateway, ensure that the device is connected and 'online' before removing the device. Then follow the [new setup guide](https://docs.arduino.cc/cloud/iot-cloud/tutorials/cloud-lora-getting-started) to reconfigure your devices.
 >
 > Make sure to update the Thing IDs and LoRaWAN configurations in your sketches.
 
