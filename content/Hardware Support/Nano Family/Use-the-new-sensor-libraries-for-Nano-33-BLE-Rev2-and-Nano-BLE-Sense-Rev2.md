@@ -22,7 +22,7 @@ To use the IMU (inertial measurement unit) in Nano 33 BLE Rev2 and Nano 33 BLE S
 
 To make use of the library in your sketch, make the following modifications:
 
-* **Modify the include statement.** Find the following line of code:
+* **Modify the include statement:**
 
   1. Find the following include statement in your sketch:
 
@@ -53,7 +53,7 @@ Here's how you can modify an existing sketch (that uses the Arduino_HTS221 libra
 
 * Install the **Arduino_HS300X** library.
 
-* **Modify the include statement.** Find the following line of code:
+* **Modify the include statement:**
 
   1. Find the following include statement in your sketch:
 
@@ -67,7 +67,7 @@ Here's how you can modify an existing sketch (that uses the Arduino_HTS221 libra
 
   * **Manually replace** any references to the `HTS` class with `HS300x`.
 
-  * **Use the find & replace tool:** Open it by pressing <kbd>Ctrl</kbd> + <kbd>F</kbd> (Windows/Linux) / <kbd>Cmd</kbd> + <kbd>F</kbd> (macOS), then click the left-most down arrow to reveal the Replace field. Type "HTS" into the Find field, and "HS300x" into the Replce field. Then click the Replace All button.
+  * **Use the find & replace tool:** Open it by pressing <kbd>Ctrl</kbd> + <kbd>F</kbd> (Windows/Linux) / <kbd>Cmd</kbd> + <kbd>F</kbd> (macOS), then click the left-most down arrow to reveal the Replace field. Type "HTS" into the Find field, and "HS300x" into the Replace field. Then click the Replace All button.
 
      ![Find and replace in Arduino IDE.](img/find-HTS-replace-HS300x.png)
 
