@@ -58,7 +58,7 @@ Download the Arduino IoT Cloud Remote app here:
 
 ## Linux devices
 
-You can configure Linux devices with the Arduino Cloud in [Manager for Linux](https://create.arduino.cc/getting-started/#cloud-devices).
+You can configure Linux devices with Arduino Cloud in [Manager for Linux](https://create.arduino.cc/getting-started/#cloud-devices).
 
 The following Linux devices are supported:
 
