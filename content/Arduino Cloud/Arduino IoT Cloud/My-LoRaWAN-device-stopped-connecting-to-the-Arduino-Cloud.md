@@ -1,5 +1,5 @@
 ---
-title: "My LoRaWAN device stopped connecting to the Arduino Cloud"
+title: "My LoRaWAN device stopped connecting to Arduino Cloud"
 id: 4409281859986
 ---
 
