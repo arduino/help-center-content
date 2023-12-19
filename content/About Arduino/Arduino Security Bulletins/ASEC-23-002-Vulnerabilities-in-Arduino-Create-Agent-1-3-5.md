@@ -24,7 +24,7 @@ The identified vulnerabilities may allow an attacker to persuade a victim into c
 
 ## Action Required
 
-All users are advised to update the Arduino Create Agent to version 1.3.6 or later. An update is automatically initiated when visiting the Arduino Web Editor or when setting up a new device via the Arduino IoT Cloud. Alternatively, a manual update can be performed by downloading the new version of the software [here](https://github.com/arduino/arduino-create-agent/releases).
+All users are advised to update the Arduino Create Agent to version 1.3.6 or later. An update is automatically initiated when visiting the Arduino Cloud Editor or when setting up a new device via Arduino Cloud. Alternatively, a manual update can be performed by downloading the new version of the software [here](https://github.com/arduino/arduino-create-agent/releases).
 
 ## Additional information
 
