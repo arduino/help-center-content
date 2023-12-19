@@ -148,4 +148,4 @@ To test the connection, we can set up a Dashboard widget that will toggle an LED
 
    ![Selecting widget variables](img/create-widget-from-thing.png)
 
-7. A new switch widget will be added to your dashboard. When the switch button is clicked, the IoT will change the `led` cloud variable, triggering `onLedChange()` and changing the state of the LED on the board. You can now disconnect the board from your computer and power it from another source, such as a wall charger. After a short while, the board will connect to the Arduino Cloud. You can then toggle the LED remotely using the Dashboard switch.
+7. A new switch widget will be added to your dashboard. When the switch button is clicked, the IoT will change the `led` cloud variable, triggering `onLedChange()` and changing the state of the LED on the board. You can now disconnect the board from your computer and power it from another source, such as a wall charger. After a short while, the board will connect to Arduino Cloud. You can then toggle the LED remotely using the Dashboard switch.
