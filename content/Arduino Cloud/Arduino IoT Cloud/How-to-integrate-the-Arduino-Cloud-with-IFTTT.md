@@ -53,7 +53,7 @@ Next, we'll create a Thing that will use the webhook to trigger the IFTTT applet
 
 ---
 
-1. Go to [Arduino Cloud](https://www.arduino.cc/en/IoT/HomePage). If prompted, sign in to your Arduino account.
+1. Go to [Arduino Cloud](https://app.arduino.cc/). If prompted, sign in to your Arduino account.
 
 2. In the **Things** tab, click **CREATE THING**.
 
