@@ -11,7 +11,7 @@ Learn how to uninstall Arduino IDE.
 
 * **Windows:**
   * In Windows 10/11: Open the start menu and find the Arduino application. Right-click on it and select **Uninstall**.
-  * Alternatively, open Explorer and run `C:\Program Files\Arduino IDE\Uninstall Arduino IDE.exe`. Or if you're using Arduino IDE 1.x, `C:\Program Files (x86)\Arduino\uninstall.exe`.
+  * Alternatively, [open the Arduino IDE installation folder in Explorer](https://support.arduino.cc/hc/en-us/articles/4412943340178-Open-the-Arduino-IDE-installation-folder#windows) and run the `Uninstall Arduino IDE.exe` (IDE 2) / `uninstall.exe` (IDE 1) executable.
 * **macOS:**
    1. Open Finder.
    2. Go to the `Applications` folder.
