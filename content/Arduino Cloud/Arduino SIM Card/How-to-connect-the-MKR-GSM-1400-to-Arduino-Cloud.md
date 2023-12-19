@@ -33,7 +33,7 @@ The micro UFL port and the SIM tray are highlighted respectively in the image be
 
 1. Connect the board to your computer.
 
-2. Go to [Arduino Cloud](https://app.arduino.cc/devices)
+2. Go to [Arduino Cloud](https://app.arduino.cc/)
 
 3. Click the **Devices** tab, then click **Add device**. Choose to set up an Arduino or 3rd party device depending on your device.
 
