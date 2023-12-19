@@ -23,7 +23,7 @@ Follow these steps to request a download link:
 
 5. Click the **Get Data** button.
 
-6. An email with the subject **Arduino Cloud historic data** will be sent to the email address associated with your Arduino account. Click the **Download** link inside the email to download the data.
+6. An email will be sent to the email address associated with your Arduino account. Click the **Download** link inside the email to download the data.
 
 The download consists of a Zip archive, which includes these files:
 
