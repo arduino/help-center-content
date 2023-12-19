@@ -92,7 +92,7 @@ The micro UFL port and the SIM tray are highlighted respectively in the image be
 
 4. After a short while, your device should come online. You may have to refresh the page.
 
-   ![An online SIM device in the Arduino Cloud](img/iot-thing-gsm-1400-online.png)
+   ![An online SIM device in Arduino Cloud](img/iot-thing-gsm-1400-online.png)
 
 ---
 
