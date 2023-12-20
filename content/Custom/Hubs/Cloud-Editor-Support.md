@@ -1,18 +1,18 @@
 ---
-title: "Web Editor Support"
+title: "Cloud Editor Support"
 id: 9393241841308
 ---
 
 <div class="actions-wrapper">
   <div class="actions-item">
     <img src="https://content.arduino.cc/assets/hc-code.svg">
-    <a id="keep" href="https://docs.arduino.cc/arduino-cloud/getting-started/getting-started-web-editor"></a>
-    <span class="link-up-right">Get started with Web Editor</span>
+    <a id="keep" href="https://docs.arduino.cc/arduino-cloud/guides/cloud-editor"></a>
+    <span class="link-up-right">Get started with Cloud Editor</span>
   </div>
   <div class="actions-item">
     <img src="https://content.arduino.cc/assets/hc-web-editor.svg">
     <a id="keep" href="https://create.arduino.cc/editor"></a>
-    <span class="link-external">Open the Web editor</span>
+    <span class="link-external">Open Cloud Editor</span>
   </div>
   <div class="actions-item">
     <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/360016416280-Sign-up-for-an-Arduino-Cloud-plan"></a>
@@ -31,8 +31,9 @@ id: 9393241841308
     <img src="https://content.arduino.cc/assets/hc-create-agent.svg">
     <p class="info-title">Arduino Create Agent</p>
     <p>
-      To use the Web Editor or Arduino Cloud on regular desktop systems (Windows,
-      macOS, and Linux), you need the Arduino Create Agent.
+      To use Arduino Cloud on regular systems (Windows, macOS, and Linux),
+      you need the Arduino Create Agent to connect your physical boards/devices
+      to the Cloud.
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Create-Agent">Install Arduino Create Agent</a>
   </div>
@@ -40,8 +41,8 @@ id: 9393241841308
     <img src="https://content.arduino.cc/assets/hc-laptop.svg">
     <p class="info-title">Chromebook</p>
     <p>
-      Learn how to write and upload sketches on Chrome OS using the Web Editor
-      in the Arduino Cloud.
+      Learn how to write and upload sketches on Chrome OS using the Cloud Editor
+      in Arduino Cloud.
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook">Use Arduino with Chromebook</a>
   </div>
@@ -63,13 +64,13 @@ id: 9393241841308
     <img src="https://content.arduino.cc/assets/hc-USB.svg">
     <p class="info-title">Problems using the editor</p>
     <p>
-      As a first troubleshooting step when the Web Editor is not detecting
+      As a first troubleshooting step when the Cloud Editor is not detecting
       a board always make sure that the Arduino Create Agent is installed and
       running. Learn more about:
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360018131160-If-your-board-is-not-detected-by-Arduino-Web-Editor">If the board is not recognized</a>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016466600-If-the-Arduino-Create-Agent-isn-t-detected">If the Arduino Create Agent isn't detected</a>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/8825427680796-If-you-can-t-access-the-Web-Editor">If you can't access the Web Editor</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/8825427680796-If-you-can-t-access-the-Web-Editor">If you can't access the Cloud Editor</a>
   </div>
 </div>
 <h2 id="h_01HD21Q0JXNFAQB70C4BB6DTAZ" class="center hub">Resources</h2>
@@ -79,7 +80,7 @@ id: 9393241841308
     <p class="info-title">Import sketchbook and libraries</p>
     <p>
       Learn how import easily all your sketches and libraries from Arduino
-      IDE to the Web Editor:
+      IDE to the Cloud Editor:
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360011890519-Import-your-sketchbook-and-libraries-to-the-Web-Editor">Read the guide</a>
   </div>
@@ -87,15 +88,16 @@ id: 9393241841308
     <img src="https://content.arduino.cc/assets/hc-library.svg">
     <p class="info-title">Select between multiple libraries with the same name</p>
     <p>
-      Several techniques can be used to make the Arduino Web Editor pick a specific library when multiple libraries with the same name are available.
+      Several techniques can be used to make the Cloud Editor pick a
+      specific library when multiple libraries with the same name are available.
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4405884552594-Selecting-between-multiple-libraries-with-the-same-name">Read the guide</a>
   </div>
   <div class="info-item ">
-    <p class="info-title">Compatibility with the Web Editor</p>
+    <p class="info-title">Compatibility with Cloud Editor</p>
     <p>
       Learn more about board, browser and operating system compatibility with
-      the Web Editor:
+      Cloud Editor:
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014779899-Which-boards-can-be-used-with-the-Web-editor-on-Chromebook-">Compatible boards</a>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4402082543378-What-Operating-Systems-are-supported-by-the-Web-Editor-">Compatible operative systems</a>
@@ -114,7 +116,7 @@ id: 9393241841308
 </div>
 <h2 id="h_01HD21Q0JX4JY6B1FJVPJ28540" class="center hub">Search other topics</h2>
 <div class="search">
-  <form class="search search-full" role="search" data-search="" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get">
+  <form class="search search-full" role="search" data-search="data-search" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get">
     <img class="search-icon" src="https://content.arduino.cc/assets/hc-search.svg">
     <input name="utf8" type="hidden" value="✓" autocomplete="off"><input id="query" role="combobox" type="search" name="query" placeholder="How can we help?" autocomplete="off" aria-label="Search" aria-autocomplete="both" aria-expanded="false" aria-owns="2a88cedd-5eb4-4ed7-bdf9-834d77880f1c">
   </form>
