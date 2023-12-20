@@ -7,22 +7,22 @@ id: 9347128757660
   <div class="actions-item">
     <img src="https://content.arduino.cc/assets/hc-cloud-iot.svg">
     <a id="keep" href="https://docs.arduino.cc/arduino-cloud/getting-started/iot-cloud-getting-started"></a>
-    <span class="link-up-right">Get started with IoT Cloud</span>
+    <span class="link-up-right">Get started with Arduino Cloud</span>
   </div>
   <div class="actions-item">
     <a id="keep" href="https://cloud.arduino.cc/plans"></a>
     <img src="https://content.arduino.cc/assets/hc-toolbox.svg">
-    <span class="link-chevron-right">Sign up for a plan</span>
+    <span class="link-up-right">Sign up for a plan</span>
   </div>
   <div class="actions-item">
     <img src="https://content.arduino.cc/assets/hc-cloud.svg">
     <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/4401881299090-Review-change-or-cancel-your-Arduino-Cloud-plan"></a>
-    <span class="link-up-right">Modify your plan</span>
+    <span class="link-chevron-right">Modify your plan</span>
   </div>
   <div class="actions-item">
     <img src="https://content.arduino.cc/assets/hc-web-editor.svg">
     <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/9393241841308"></a>
-    <span class="link-chevron-right">Web editor support</span>
+    <span class="link-chevron-right">Cloud Editor support</span>
   </div>
 </div>
 <h2 id="h_01HCZCP8GD0JNY6RKT1BC0GPCJ" class="center hub">Get started</h2>
@@ -31,8 +31,9 @@ id: 9347128757660
     <img src="https://content.arduino.cc/assets/hc-create-agent.svg">
     <p class="info-title">Arduino Create Agent</p>
     <p>
-      To use the Web Editor or IoT Cloud on regular desktop systems (Windows,
-      macOS, and Linux), you need the Arduino Create Agent.
+      To use Arduino Cloud on regular systems (Windows, macOS, and Linux),
+      you need the Arduino Create Agent to connect your physical boards/devices
+      to the Cloud.
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Create-Agent">Install Arduino Create Agent</a>
   </div>
@@ -40,8 +41,8 @@ id: 9347128757660
     <img src="https://content.arduino.cc/assets/hc-laptop.svg">
     <p class="info-title">Chromebook</p>
     <p>
-      Learn how to write and upload sketches on Chrome OS using the Web Editor
-      in the Arduino Cloud.
+      Learn how to write and upload sketches on Chrome OS using the Cloud Editor
+      in Arduino Cloud.
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook">Use Arduino with Chromebook</a>
   </div>
@@ -60,55 +61,56 @@ id: 9347128757660
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-uno.svg">
     <p class="info-title">Set up a device</p>
-    <p>Learn how to add and connect a device to IoT Cloud:</p>
+    <p>Learn how to add and connect a device to Arduino Cloud:</p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016495559-Add-and-connect-a-device-to-IoT-Cloud">Read the guide</a>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4407169649682-About-device-status-in-IoT-Cloud">About device status in IoT Cloud</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4407169649682-About-device-status-in-IoT-Cloud">About device status in Arduino Cloud</a>
   </div>
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-warning.svg">
     <p class="info-title">Resolve connection issues</p>
     <p>
-      Learn how to resolve problems adding and connecting devices to IoT Cloud.
+      Learn how to resolve problems when adding and connecting devices to Arduino
+      Cloud.
     </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360019355679-If-your-device-is-not-connecting-to-IoT-Cloud">If your device can't connect to IoT Cloud</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360019355679-If-your-device-is-not-connecting-to-IoT-Cloud">If your device can't connect to Arduino Cloud</a>
   </div>
 </div>
-<h2 id="h_01HCZCGDKQM2KKSQZMQ9QSFVBT" class="center hub">IoT Cloud features</h2>
+<h2 id="h_01HCZCGDKQM2KKSQZMQ9QSFVBT" class="center hub">Cloud features</h2>
 <div class="info-wrapper">
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-dashboard.svg">
     <p class="info-title">Dashboards &amp; Widgets</p>
     <p>
-      Dashboards in the Arduino Cloud are used to easily monitor &amp; control
+      Use Dashboards in Arduino Cloud to easily monitor and control
       your Arduino board from a web interface.
     </p>
-    <a class="link-chevron-right" href="https://docs.arduino.cc/arduino-cloud/getting-started/dashboard-widgets">Learn about dashboards and the different widgets that can be used to monitor &amp; control your board</a>
+    <a class="link-chevron-right" href="https://docs.arduino.cc/arduino-cloud/getting-started/dashboard-widgets">Learn about dashboards and the different widgets that can be used to monitor and control your board</a>
   </div>
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-triggers.svg">
-    <p class="info-title">Triggers</p>
+    <p class="info-title">Triggers &amp; Notifications</p>
     <p>
-      Triggers react to certain conditions inside your IoT Cloud Thing, such
-      as a boolean being true, or a string being assigned a value.
+      You can receive instant alerts and notifications by configuring Triggers
+      that react to certain conditions inside a Cloud Thing (such as a boolean
+      being true, or a string being assigned a value).
     </p>
-    <a class="link-chevron-right" href="https://docs.arduino.cc/arduino-cloud/features/triggers">Learn how to use triggers</a>
+    <a class="link-chevron-right" href="https://docs.arduino.cc/arduino-cloud/cloud-interface/triggers">Learn how to use Triggers</a>
   </div>
 </div>
 <h2 id="h_01HCZMQSVP53RTSDGTRWS3FGT1" class="center hub">Configuration</h2>
 <div class="info-wrapper">
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-settings.svg">
-    <p class="info-title">Configure a network for IoT Cloud</p>
-    <p>Learn more about network configuration in IoT Cloud:</p>
+    <p class="info-title">Configure a network for Arduino Cloud</p>
+    <p>Learn more about network configuration in Arduino Cloud:</p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360017279260-Configure-your-network-for-Arduino-IoT-Cloud">Domains and ports to whitelist in your firewall</a>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/5940204842780-Configure-a-device-for-a-network-that-doesn-t-use-all-the-parameters-in-IoT-Cloud">Configure a device for a network that doesn't use all the parameters in IoT Cloud</a>
   </div>
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-devices.svg">
     <p class="info-title">Compatible devices</p>
     <p>
-      Arduino IoT Cloud supports many Arduino and third-party boards, as well
-      as a number of Linux devices.
+      Arduino Cloud supports many Arduino and third-party boards, as well as
+      a number of Linux devices.
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016077320-What-devices-can-be-used-with-Arduino-IoT-Cloud-">Check the device list</a>
   </div>
@@ -156,7 +158,7 @@ id: 9347128757660
 </div>
 <h2 id="h_01HCHRJQPXNPJR4C70CZ88DHJH" class="center hub">Search other topics</h2>
 <div class="search">
-  <form class="search search-full" role="search" data-search="" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get">
+  <form class="search search-full" role="search" data-search="data-search" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get">
     <img class="search-icon" src="https://content.arduino.cc/assets/hc-search.svg">
     <input name="utf8" type="hidden" value="✓" autocomplete="off"><input id="query" role="combobox" type="search" name="query" placeholder="How can we help?" autocomplete="off" aria-label="Search" aria-autocomplete="both" aria-expanded="false" aria-owns="2a88cedd-5eb4-4ed7-bdf9-834d77880f1c">
   </form>
