@@ -17,7 +17,7 @@ id: 9277054133148
   <div class="actions-item">
     <img src="https://content.arduino.cc/assets/hc-web-editor.svg">
     <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/9393241841308"></a>
-    <span class="link-chevron-right">Web editor support</span>
+    <span class="link-chevron-right">Cloud Editor support</span>
   </div>
   <div class="actions-item">
     <img src="https://content.arduino.cc/assets/hc-arduino-cloud.svg">
@@ -25,14 +25,14 @@ id: 9277054133148
     <span class="link-chevron-right">Cloud support</span>
   </div>
 </div>
-<h3 class="center hub">&nbsp;</h3>
+<h3 id="h_01HJ3NENQ4RBY8ZM3ENAV1RDF2" class="center hub">&nbsp;</h3>
 <div class="info-wrapper">
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-laptop.svg">
     <p class="info-title">Chromebook</p>
     <p>
-      Learn how to write and upload sketches on Chrome OS using the Web Editor
-      in the Arduino Cloud:
+      Learn how to write and upload sketches on Chrome OS using the Cloud Editor
+      in Arduino Cloud:
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook">Use Arduino with Chromebook</a>
   </div>
@@ -60,7 +60,11 @@ id: 9277054133148
   <div class="info-item">
     <p class="info-title">Arduino's Educators Community</p>
     <p>
-      Are you an educator that wants to implement hands on learning? Here you will find the link to our <b>Arduino Education Discord community</b>, and a survey to participate in <b>ongoing research activities</b>. Leave your details and we will reach out to you!
+      Are you an educator that wants to implement hands on learning? Here you
+      will find the link to our
+      <strong>Arduino Education Discord community</strong>, and a survey to
+      participate in <strong>ongoing research activities</strong>. Leave your
+      details and we will reach out to you!
     </p>
     <a class="link-chevron-right" href="https://arduinoconnect374011.typeform.com/to/XBS4s67d">Join the Arduino's Educators Community</a>
   </div>
@@ -93,16 +97,8 @@ id: 9277054133148
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4839080453148-About-Arduino-accounts-for-minors">Read more about accounts for minors</a>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4839080453148-About-Arduino-accounts-for-minors">Create an account for juniors</a>
   </div>
-  <div class="info-item">
-    <!--<img src="https://content.arduino.cc/assets/hc-calendar.svg">-->
-    <p class="info-title">Book a webinar for CTC 101</p>
-    <p>
-      Learn how to book a webinar for CTC 101 with an Arduino Education expert.
-    </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360013051879-How-to-book-a-webinar-for-CTC-101">Read the guide</a>
-  </div>
 </div>
-<h2 class="center hub">Spaces</h2>
+<h2 id="h_01HJ3NENQ4Z7XWDHGK0Y5MD0FH" class="center hub">Spaces</h2>
 <div class="actions-wrapper">
   <div class="actions-item">
     <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/360011787820-Add-members-to-a-space"></a>
@@ -130,7 +126,7 @@ id: 9277054133148
     <span class="link-chevron-right">Access and share course content</span>
   </div>
 </div>
-<h2 class="center hub">Science Journal</h2>
+<h2 id="h_01HJ3NENQ4N3VKRMRCESW9Q0MP" class="center hub">Science Journal</h2>
 <div class="info-wrapper">
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-booklet.svg">
@@ -157,7 +153,7 @@ id: 9277054133148
     </p>
   </div>
 </div>
-<h2 class="center hub">Certification</h2>
+<h2 id="h_01HJ3NENQ41EAT0MZYBBK7DJV3" class="center hub">Certification</h2>
 <div class="info-wrapper">
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-key.svg">
@@ -193,9 +189,9 @@ id: 9277054133148
     <a class="link-up-right" href="https://digital-store.arduino.cc/certification/purchase/exam-type/">Visit the digital store</a>
   </div>
 </div>
-<h2 class="center hub">Search other topics</h2>
+<h2 id="h_01HJ3NENQ4THWWP7YNY01SR64J" class="center hub">Search other topics</h2>
 <div class="search">
-  <form class="search search-full" role="search" data-search="" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get">
+  <form class="search search-full" role="search" data-search="data-search" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get">
     <img class="search-icon" src="https://content.arduino.cc/assets/hc-search.svg">
     <input name="utf8" type="hidden" value="✓" autocomplete="off"><input id="query" role="combobox" type="search" name="query" placeholder="How can we help?" autocomplete="off" aria-label="Search" aria-autocomplete="both" aria-expanded="false" aria-owns="2a88cedd-5eb4-4ed7-bdf9-834d77880f1c">
   </form>
