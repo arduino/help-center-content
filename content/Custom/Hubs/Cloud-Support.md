@@ -6,8 +6,8 @@ id: 9347128757660
 <div class="actions-wrapper">
   <div class="actions-item">
     <img src="https://content.arduino.cc/assets/hc-cloud-iot.svg">
-    <a id="keep" href="https://docs.arduino.cc/arduino-cloud/getting-started/iot-cloud-getting-started"></a>
-    <span class="link-up-right">Get started with IoT Cloud</span>
+    <a id="keep" href="https://docs.arduino.cc/arduino-cloud/guides/overview"></a>
+    <span class="link-up-right">Get started with Arduino Cloud</span>
   </div>
   <div class="actions-item">
     <a id="keep" href="https://cloud.arduino.cc/plans"></a>
@@ -31,7 +31,7 @@ id: 9347128757660
     <img src="https://content.arduino.cc/assets/hc-create-agent.svg">
     <p class="info-title">Arduino Create Agent</p>
     <p>
-      To use the Web Editor or IoT Cloud on regular desktop systems (Windows,
+      To use the Web Editor or Arduino Cloud on regular desktop systems (Windows,
       macOS, and Linux), you need the Arduino Create Agent.
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Create-Agent">Install Arduino Create Agent</a>
@@ -60,20 +60,20 @@ id: 9347128757660
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-uno.svg">
     <p class="info-title">Set up a device</p>
-    <p>Learn how to add and connect a device to IoT Cloud:</p>
+    <p>Learn how to add and connect a device to Arduino Cloud:</p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016495559-Add-and-connect-a-device-to-IoT-Cloud">Read the guide</a>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4407169649682-About-device-status-in-IoT-Cloud">About device status in IoT Cloud</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4407169649682-About-device-status-in-IoT-Cloud">About device status in Arduino Cloud</a>
   </div>
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-warning.svg">
     <p class="info-title">Resolve connection issues</p>
     <p>
-      Learn how to resolve problems adding and connecting devices to IoT Cloud.
+      Learn how to resolve problems adding and connecting devices to Arduino Cloud.
     </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360019355679-If-your-device-is-not-connecting-to-IoT-Cloud">If your device can't connect to IoT Cloud</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360019355679-If-your-device-is-not-connecting-to-IoT-Cloud">If your device can't connect to Arduino Cloud</a>
   </div>
 </div>
-<h2 id="h_01HCZCGDKQM2KKSQZMQ9QSFVBT" class="center hub">IoT Cloud features</h2>
+<h2 id="h_01HCZCGDKQM2KKSQZMQ9QSFVBT" class="center hub">Arduino Cloud features</h2>
 <div class="info-wrapper">
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-dashboard.svg">
@@ -88,7 +88,7 @@ id: 9347128757660
     <img src="https://content.arduino.cc/assets/hc-triggers.svg">
     <p class="info-title">Triggers</p>
     <p>
-      Triggers react to certain conditions inside your IoT Cloud Thing, such
+      Triggers react to certain conditions inside your Thing, such
       as a boolean being true, or a string being assigned a value.
     </p>
     <a class="link-chevron-right" href="https://docs.arduino.cc/arduino-cloud/features/triggers">Learn how to use triggers</a>
@@ -98,16 +98,16 @@ id: 9347128757660
 <div class="info-wrapper">
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-settings.svg">
-    <p class="info-title">Configure a network for IoT Cloud</p>
-    <p>Learn more about network configuration in IoT Cloud:</p>
+    <p class="info-title">Configure a network for Arduino Cloud</p>
+    <p>Learn more about network configuration in Arduino Cloud:</p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360017279260-Configure-your-network-for-Arduino-IoT-Cloud">Domains and ports to whitelist in your firewall</a>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/5940204842780-Configure-a-device-for-a-network-that-doesn-t-use-all-the-parameters-in-IoT-Cloud">Configure a device for a network that doesn't use all the parameters in IoT Cloud</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/5940204842780-Configure-a-device-for-a-network-that-doesn-t-use-all-the-parameters-in-IoT-Cloud">Configure a device for a network that doesn't use all the parameters in Arduino Cloud</a>
   </div>
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-devices.svg">
     <p class="info-title">Compatible devices</p>
     <p>
-      Arduino IoT Cloud supports many Arduino and third-party boards, as well
+      Arduino Cloud supports many Arduino and third-party boards, as well
       as a number of Linux devices.
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016077320-What-devices-can-be-used-with-Arduino-IoT-Cloud-">Check the device list</a>

@@ -31,7 +31,7 @@ id: 9393241841308
     <img src="https://content.arduino.cc/assets/hc-create-agent.svg">
     <p class="info-title">Arduino Create Agent</p>
     <p>
-      To use the Web Editor or IoT Cloud on regular desktop systems (Windows,
+      To use the Web Editor or Arduino Cloud on regular desktop systems (Windows,
       macOS, and Linux), you need the Arduino Create Agent.
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Create-Agent">Install Arduino Create Agent</a>
