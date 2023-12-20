@@ -1,11 +1,11 @@
 ---
-title: "Import your sketchbook and libraries to the Web Editor"
+title: "Import your sketchbook and libraries to the Cloud Editor"
 id: 360011890519
 ---
 
-It is possible to import easily all your sketches and libraries from Arduino IDE (desktop Arduino software) to Arduino Web Editor (online version of Arduino IDE) in just a few clicks. This comes very handy as all your projects will be saved in the cloud and are accessible from any computer.
+It is possible to import easily all your sketches and libraries from Arduino IDE (desktop Arduino software) to the Cloud Editor (online version of Arduino IDE) in just a few clicks. This comes very handy as all your projects will be saved in Arduino Cloud and are accessible from any computer.
 
-In addition, Arduino Web Editor allows you to import sketches and files in the following formats:
+In addition, the Cloud Editor allows you to import sketches and files in the following formats:
 
 * Single sketches in `.ino`, `.pde` and `.zip` format.
 * Libraries in `.zip` format.
@@ -33,7 +33,7 @@ In addition, Arduino Web Editor allows you to import sketches and files in the f
 
 3. Import your sketchbook to the cloud:
 
-   Go to the [Web Editor](https://create.arduino.cc/editor). When you are logged in and ready, hit the import button on the sketchbook panel. A pop-up with some instructions on how to import files into the Web Editor will be displayed. Press “Import” to continue.
+   Go to the [Cloud Editor](https://create.arduino.cc/editor). When you are logged in and ready, hit the import button on the sketchbook panel. A pop-up with some instructions on how to import files into the Cloud Editor will be displayed. Press “Import” to continue.
 
    You will now see a file system window, select your `Arduino.zip` pack. Wait for the import process to finish. If your sketchbook is big (containing lots of files), this may take a while.
 
