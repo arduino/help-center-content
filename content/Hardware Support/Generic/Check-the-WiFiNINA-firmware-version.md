@@ -65,7 +65,7 @@ Check result: NOT PASSED
 
 ## Update the firmware
 
-Most boards can be updated both by Arduino IDE and in IoT Cloud:
+Most boards can be updated both by Arduino IDE and in Arduino Cloud:
 
 * [Use the Firmware Updater in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360013896579-Use-the-Firmware-Updater-in-Arduino-IDE)
-* [Update connectivity module firmware with IoT Cloud](https://support.arduino.cc/hc/en-us/articles/10501616961564-Update-connectivity-module-firmware-with-IoT-Cloud)
+* [Update connectivity module firmware with Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/10501616961564-Update-connectivity-module-firmware-with-IoT-Cloud)

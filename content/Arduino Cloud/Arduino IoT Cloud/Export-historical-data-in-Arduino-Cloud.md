@@ -1,9 +1,9 @@
 ---
-title: "Export historical data in IoT Cloud"
+title: "Export historical data in Arduino Cloud"
 id: 8825464267420
 ---
 
-Learn how to export historical data from Arduino IoT Cloud as CSV (comma-separated values) files.
+Learn how to export historical data from Arduino Cloud as CSV (comma-separated values) files.
 
 ---
 
@@ -23,7 +23,7 @@ Follow these steps to request a download link:
 
 5. Click the **Get Data** button.
 
-6. An email with the subject **Arduino IoT Cloud historic data** will be sent to the email address associated with your Arduino account. Click the **Download** link inside the email to download the data.
+6. An email will be sent to the email address associated with your Arduino account. Click the **Download** link inside the email to download the data.
 
 The download consists of a Zip archive, which includes these files:
 
@@ -34,4 +34,4 @@ The download consists of a Zip archive, which includes these files:
 
 ## Further reading
 
-* [Historical Data on Arduino IoT Cloud (Arduino Docs)](https://docs.arduino.cc/arduino-cloud/features/iot-cloud-historical-data)
+* [Historical Data on Arduino Cloud (Arduino Docs)](https://docs.arduino.cc/arduino-cloud/features/iot-cloud-historical-data)

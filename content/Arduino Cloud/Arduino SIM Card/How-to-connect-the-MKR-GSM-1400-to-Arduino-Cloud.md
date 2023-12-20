@@ -1,9 +1,9 @@
 ---
-title: "How to connect the MKR GSM 1400 to Arduino IoT Cloud"
+title: "How to connect the MKR GSM 1400 to Arduino Cloud"
 id: 360021568419
 ---
 
-The [Arduino MKR GSM 1400](https://store.arduino.cc/arduino-mkr-gsm-1400-1415) has SIM connectivity and can be connected to the Arduino IoT Cloud remotely. Here you'll learn how to configure a cellular connection and test it with an example sketch.
+The [Arduino MKR GSM 1400](https://store.arduino.cc/arduino-mkr-gsm-1400-1415) has SIM connectivity and can be connected to the Arduino Cloud remotely. Here you'll learn how to configure a cellular connection and test it with an example sketch.
 
 ## What you'll need
 
@@ -27,13 +27,13 @@ The micro UFL port and the SIM tray are highlighted respectively in the image be
 
 <a id="set-up-instructions"></a>
 
-## Set up with IoT Cloud
+## Set up with Arduino Cloud
 
 ### 1. Add Arduino MKR GSM 1400 as a device
 
 1. Connect the board to your computer.
 
-2. Go to [Arduino IoT Cloud](https://app.arduino.cc/devices)
+2. Go to [Arduino Cloud](https://app.arduino.cc/)
 
 3. Click the **Devices** tab, then click **Add device**. Choose to set up an Arduino or 3rd party device depending on your device.
 
@@ -92,7 +92,7 @@ The micro UFL port and the SIM tray are highlighted respectively in the image be
 
 4. After a short while, your device should come online. You may have to refresh the page.
 
-   ![An online SIM device in the IoT Cloud](img/iot-thing-gsm-1400-online.png)
+   ![An online SIM device in Arduino Cloud](img/iot-thing-gsm-1400-online.png)
 
 ---
 
@@ -148,4 +148,4 @@ To test the connection, we can set up a Dashboard widget that will toggle an LED
 
    ![Selecting widget variables](img/create-widget-from-thing.png)
 
-7. A new switch widget will be added to your dashboard. When the switch button is clicked, the IoT will change the `led` cloud variable, triggering `onLedChange()` and changing the state of the LED on the board. You can now disconnect the board from your computer and power it from another source, such as a wall charger. After a short while, the board will connect to the IoT Cloud. You can then toggle the LED remotely using the Dashboard switch.
+7. A new switch widget will be added to your dashboard. When the switch button is clicked, the IoT will change the `led` cloud variable, triggering `onLedChange()` and changing the state of the LED on the board. You can now disconnect the board from your computer and power it from another source, such as a wall charger. After a short while, the board will connect to Arduino Cloud. You can then toggle the LED remotely using the Dashboard switch.

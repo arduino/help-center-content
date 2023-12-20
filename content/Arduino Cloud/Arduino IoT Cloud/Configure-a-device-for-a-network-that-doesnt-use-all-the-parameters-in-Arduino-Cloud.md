@@ -1,11 +1,11 @@
 ---
-title: Configure a device for a network that doesn't use all the parameters in IoT Cloud
+title: "Configure a device for a network that doesn't use all the parameters in Arduino Cloud"
 id: 5940204842780
 ---
 
-> **Note:** Open Wi-Fi networks that require you to interact with a web page (captive portal) before you can access the Internet cannot be used by IoT Cloud devices.
+> **Note:** Open Wi-Fi networks that require you to interact with a web page (captive portal) before you can access the Internet cannot be used by Arduino Cloud devices.
 
-A network configuration in IoT Cloud cannot be saved unless network parameters for all fields are provided. Some networks may not have all parameters, such as:
+A network configuration in Arduino Cloud cannot be saved unless network parameters for all fields are provided. Some networks may not have all parameters, such as:
 
 * Open (unencrypted) Wi-Fi networks
 * GSM connections not requiring SIM PIN, or account credentials (username and password).
@@ -18,7 +18,7 @@ To use a device with these networks, you can [set the network parameters in the 
 
 ## Set network parameters in the Web Editor
 
-1. Open your Thing in [IoT Cloud](https://app.arduino.cc/things).
+1. Open your Thing in [Arduino Cloud](https://app.arduino.cc/things).
 
 2. Click the **Sketch** tab.
 
@@ -48,9 +48,9 @@ To use a device with these networks, you can [set the network parameters in the 
 
    ![The "Secret" tab with a SECRET_SSID variable.](img/web-editor-secrets-open-wifi.png)
 
-8. Click the ![Web Editor Upload button](img/icon_web-editor-upload.png) **Upload** button to upload directly from the Web Editor, or go back to IoT Cloud and upload from the sketch tab.
+8. Click the ![Web Editor Upload button](img/icon_web-editor-upload.png) **Upload** button to upload directly from the Web Editor, or go back to Arduino Cloud and upload from the sketch tab.
 
-> **Note:** Each time the sketch is updated from IoT Cloud (by adding or changing Variables), the changes made to `thingsProperties.h` in the Web Editor will be overwritten. To upload the sketch again, simply repeat the steps above.
+> **Note:** Each time the sketch is updated from Arduino Cloud (by adding or changing Variables), the changes made to `thingsProperties.h` in the Web Editor will be overwritten. To upload the sketch again, simply repeat the steps above.
 
 ---
 
@@ -62,7 +62,7 @@ Remember to set the remaining secrets in the `Secret` tab.
 
 ### Open Wi-Fi network
 
-> **Note:** Open Wi-Fi networks that require you to interact with a web page (captive portal) before you can access the Internet cannot be used by IoT Cloud devices.
+> **Note:** Open Wi-Fi networks that require you to interact with a web page (captive portal) before you can access the Internet cannot be used by Arduino Cloud devices.
 
 ```arduino
 const char SSID[]     = SECRET_SSID; // Network SSID (name)
@@ -71,7 +71,7 @@ const char PASS[]     = "";          // Network password (use for WPA, or use as
 
 ### Open Wi-Fi network (ESP32)
 
-> **Note:** Open Wi-Fi networks that require you to interact with a web page (captive portal) before you can access the Internet cannot be used by IoT Cloud devices.
+> **Note:** Open Wi-Fi networks that require you to interact with a web page (captive portal) before you can access the Internet cannot be used by Arduino Cloud devices.
 
 ```arduino
 const char SSID[]        = SECRET_SSID;          // Network SSID (name)

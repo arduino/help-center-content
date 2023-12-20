@@ -1,14 +1,14 @@
 ---
-title: "Add and connect a device to IoT Cloud"
+title: "Add and connect a device to Arduino Cloud"
 id: 360016495559
 ---
 
-> Also see [Getting Started With the Arduino IoT Cloud](https://docs.arduino.cc/cloud/iot-cloud/tutorials/iot-cloud-getting-started) in Arduino Docs.
+> Also see [Getting Started With the Arduino Cloud](https://docs.arduino.cc/cloud/iot-cloud/tutorials/iot-cloud-getting-started) in Arduino Docs.
 
-Connecting a new device to Arduino IoT Cloud consists of three steps:
+Connecting a new device to Arduino Cloud consists of three steps:
 
-1. [Add the device to IoT Cloud](#add-the-device). Enables the device for use with IoT Cloud.
-2. [Configure the device as a Thing](#create-thing). This will generate a sketch that can be uploaded to the device, allowing it to connect to IoT Cloud.
+1. [Add the device to Arduino Cloud](#add-the-device). Enables the device for use with Arduino Cloud.
+2. [Configure the device as a Thing](#create-thing). This will generate a sketch that can be uploaded to the device, allowing it to connect to Arduino Cloud.
 3. [Upload the sketch to the device](#upload-sketch). Upload the Thing sketch to the device.
 
 You'll need an Arduino account and the [Arduino Create Agent](https://support.arduino.cc/hc/en-us/articles/360014869820) installed and running on your computer.
@@ -21,7 +21,7 @@ You'll need an Arduino account and the [Arduino Create Agent](https://support.ar
 
 ### Step 1: Add the device
 
-1. Go to Arduino IoT Cloud and open the [Devices tab](https://app.arduino.cc/devices).
+1. Go to Arduino Arduino Cloud and open the [Devices tab](https://app.arduino.cc/devices).
 
 2. Click the **Add Device** button in the top-right or middle of the page.
 
@@ -82,12 +82,12 @@ You'll need an Arduino account and the [Arduino Create Agent](https://support.ar
 
 4. After a short while, your device should come online. You may have to refresh the page.
 
-   ![A thing in IoT Cloud. The associated device is online.](img/iot-device-online.png)
+   ![A thing in Arduino Cloud. The associated device is online.](img/iot-device-online.png)
 
-   > **Note:** Device status is not supported by the LoRa protocol, see [About device status in IoT Cloud](https://support.arduino.cc/hc/en-us/articles/4407169649682-About-device-status-in-IoT-Cloud).
+   > **Note:** Device status is not supported by the LoRa protocol, see [About device status in Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/4407169649682-About-device-status-in-IoT-Cloud).
 
 ---
 
 ## Troubleshooting
 
-See [If your device can't be added or won't connect to IoT Cloud](https://support.arduino.cc/hc/en-us/articles/360019355679-If-your-device-is-not-connecting-to-IoT-Cloud).
+See [If your device can't be added or won't connect to Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/360019355679-If-your-device-is-not-connecting-to-IoT-Cloud).

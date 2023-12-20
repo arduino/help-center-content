@@ -7,7 +7,7 @@ When uploading sketches to **Arduino UNO R4 WiFi** using Arduino development too
 
 * Arduino IDE 2 / Arduino CLI: `No device found on <COM port>`, `Failed uploading: uploading error: exit status 1`
 * Web Editor: `Executing command: exit status 1`, `No device found on <COM port>`
-* Arduino IoT Cloud (Setup Device): `We were not able to configure your device`, `Executing command: exit status 1`
+* Arduino Cloud (Setup Device): `We were not able to configure your device`, `Executing command: exit status 1`
 
 The underlying issue[^github-issue-renesas] was identified and a patch[^github-pr-cli] was included in Arduino CLI 0.33.1, Arduino IDE 2.1.1, and Arduino Create Agent 1.3.2.
 

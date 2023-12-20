@@ -1,5 +1,5 @@
 ---
-title: "How long is variable data retained in the IoT Cloud?"
+title: "How long is variable data retained in Arduino Cloud?"
 id: 360021693840
 ---
 

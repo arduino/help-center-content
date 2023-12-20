@@ -15,7 +15,7 @@ The above would indicate that the HTS221 sensor is 5°C less than the actual tem
 
 ## 2. Calibrate the temperature
 
-Locate the variable in the loop function of your sketch to modify; this can be done using either following sketches but are not limited to: _Personal Weather Station_ project from the Arduino IoT Cloud or the ReadSensors sketch of the Arduino IDE under _File > Examples > MKRIoTCarrier > Sensor > ENV_HTS221 > ReadSensors._
+Locate the variable in the loop function of your sketch to modify; this can be done using either following sketches but are not limited to: _Personal Weather Station_ project from Arduino Cloud or the ReadSensors sketch of the Arduino IDE under _File > Examples > MKRIoTCarrier > Sensor > ENV_HTS221 > ReadSensors._
 
 ```
   float temperature = carrier.Env.readTemperature();
