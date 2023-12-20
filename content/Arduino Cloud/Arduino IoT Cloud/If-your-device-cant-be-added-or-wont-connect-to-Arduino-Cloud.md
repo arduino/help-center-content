@@ -27,9 +27,9 @@ If there's a problem during the **"Add device"** set-up process, or the device d
 
 3. Double-press the reset button on the board, then click **Try Again**.
 
-4. Try uploading an Example sketch (such as _Examples > Built in > 01.Basics > Blink_) in the [Web Editor](https://create.arduino.cc/editor).
+4. Try uploading an Example sketch (such as _Examples > Built in > 01.Basics > Blink_) in the [Cloud Editor](https://create.arduino.cc/editor).
 
-   * If your board isn't detected by the Web Editor, see [If your board does not appear in the port menu](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-does-not-appear-in-the-port-menu).
+   * If your board isn't detected by the Cloud Editor, see [If your board does not appear in the port menu](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-does-not-appear-in-the-port-menu).
 
    * If you get an error message when uploading, see [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch).
 
@@ -92,7 +92,7 @@ If there's a problem when uploading the Thing sketch to your device.
 
 This is a generic error message indicating that a process has failed.
 
-1. Click the **Open full editor** button. This will open the same sketch in the Web Editor.
+1. Click the **Open full editor** button. This will open the same sketch in the Cloud Editor.
 
 2. Upload the sketch and observe the console output.
 
@@ -128,7 +128,7 @@ If the sketch uploads but the device doesn't come online.
 
 4. Fully [delete the device](https://support.arduino.cc/hc/en-us/articles/360018324700), then add it again as a new device. For detailed instructions, see [Add and connect a device to Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/360016495559).
 
-5. Test your setup with an example from the [ArduinoIoTCloud library](https://www.arduino.cc/reference/en/libraries/arduinoiotcloud/). Upload using Arduino IDE or the [Web Editor](https://create.arduino.cc/editor).
+5. Test your setup with an example from the [ArduinoIoTCloud library](https://www.arduino.cc/reference/en/libraries/arduinoiotcloud/). Upload using Arduino IDE or the [Cloud Editor](https://create.arduino.cc/editor).
 
 ---
 
