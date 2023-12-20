@@ -3,7 +3,7 @@ title: "The console prints a message about sketch size and memory usage"
 id: 4405339237522
 ---
 
-The Arduino IDE/Web Editor checks your sketch's storage space and dynamic memory usage and prints a message after compilation. Learn what these messages mean and how they relate to potential errors.
+The Arduino IDE/Cloud Editor checks your sketch's storage space and dynamic memory usage and prints a message after compilation. Learn what these messages mean and how they relate to potential errors.
 
 In this article:
 
@@ -17,7 +17,7 @@ In this article:
 
 ## When the message is printed
 
-Whenever you click the ![Verify button](img/symbol_verify2.png) **Verify** or ![Upload button](img/symbol_upload2.png) **Upload** button, the IDE/Web Editor will **compile** your sketch. At the end of the compilation process, it will check that the compiled sketch doesn't exceed the storage limits of the board.
+Whenever you click the ![Verify button](img/symbol_verify2.png) **Verify** or ![Upload button](img/symbol_upload2.png) **Upload** button, the IDE/Cloud Editor will **compile** your sketch. At the end of the compilation process, it will check that the compiled sketch doesn't exceed the storage limits of the board.
 
 The output will look something like this:
 
@@ -35,7 +35,7 @@ If both program storage space and dynamic memory usage are **less** than 100%, t
 
 * In Arduino IDE, a **"Done compiling"** notification will appear briefly in the bottom-right corner.
 * If you clicked the ![Verify button](img/symbol_verify2.png) **Verify** button, nothing more will happen.
-* If you clicked the ![Upload button](img/symbol_upload2.png) **Upload** button, the IDE/Web Editor will now try to **upload** the sketch to your board.
+* If you clicked the ![Upload button](img/symbol_upload2.png) **Upload** button, the IDE/Cloud Editor will now try to **upload** the sketch to your board.
 
 ### Console output during sketch upload
 
@@ -44,7 +44,7 @@ The process of uploading a sketch to the board is a separate step from the compi
 Some upload tools and protocols may not print any message in the console to indicate a successful upload. Instead, look for the following:
 
 * In Arduino IDE, a **"Done uploading"** notification appears in the bottom-right corner.
-* In the Web Editor, the console border turns green with a **"Success"** message.
+* In the Cloud Editor, the console border turns green with a **"Success"** message.
 * The upload tool may print warnings or other information, sometimes highlighted in red, but the output does **not** end with a `Failed uploading` message.
 
 Unless the console output **ends** with a `Failed upload` error message, the upload process was probably successful. **If you're unsure, try using the board in your project and see if it works as expected**, or upload a simple example like Blink (File > Examples > 01.Basics > Blink).
