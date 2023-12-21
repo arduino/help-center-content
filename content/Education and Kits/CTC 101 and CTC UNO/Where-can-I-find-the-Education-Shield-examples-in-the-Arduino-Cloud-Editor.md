@@ -1,5 +1,5 @@
 ---
-title: "Where can I find the Education Shield examples in Arduino Cloud editor?"
+title: "Where can I find the Education Shield examples in Arduino Cloud Editor?"
 id: 360017098859
 ---
 
