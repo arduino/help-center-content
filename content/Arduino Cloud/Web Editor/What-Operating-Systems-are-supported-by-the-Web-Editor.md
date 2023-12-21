@@ -1,17 +1,12 @@
 ---
-title: "What Operating Systems are supported by the Web Editor?"
+title: "What Operating Systems are supported by the Cloud Editor?"
 id: 4402082543378
 ---
 
-The Arduino Web Editor can be accessed through any web browser, allowing you to easily read, edit, and verify your code anywhere.
+Arduino Cloud Editor can be accessed through a web browser, allowing you to easily read, edit, and verify your code anywhere.
 
-To enable uploading sketches to your board via USB, the **Arduino Create Agent** needs to be installed on your computer.
+To use the Cloud Editor on **Windows, macOS, and Linux**, you need the Arduino Create Agent to connect your physical boards/devices to the Cloud. Follow the steps in [the Arduino Create Agent installation guide](https://create.arduino.cc/getting-started/plugin/welcome) to set it up.
 
-The Create Agent is fully supported on:
-
-* [Windows, macOS, and Linux](https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-on-various-platforms-4b3e4a?f=1#toc-pick-your-platform--windows--mac-or-linux-3)
-* [Chrome OS](https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-on-various-platforms-4b3e4a?f=1#toc-pick-your-platform--chrome-os-4)
-
-Follow the steps in [the Arduino Create Agent installation guide](https://create.arduino.cc/getting-started/plugin/welcome) to set it up.
+If you are using **Chrome OS**, see [Use Arduino with Chromebook](https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook).
 
 > To install the agent on other systems, you will have to compile it yourself. You can find the agent's [source code on GitHub](https://github.com/arduino/arduino-create-agent). If you are compiling for Raspberry Pi, you can consult [this tutorial written by our developers](https://github.com/arduino/arduino-create-agent/wiki/How-to-compile-on-Raspberry-Pi).
