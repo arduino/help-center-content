@@ -1,9 +1,9 @@
 ---
-title: "If your board is not detected by the Cloud Editor"
+title: "If your board is not detected by Arduino Cloud Editor"
 id: 360018131160
 ---
 
-If the selected board in the Cloud Editor could not be detected, the board selector will display a red cross.
+If the selected board in Arduino Cloud Editor could not be detected, the board selector will display a red cross.
 
 ![Cloud Editor with red cross icon showing in the board selector menu ](img/WebEditor_Red_cross.png)
 

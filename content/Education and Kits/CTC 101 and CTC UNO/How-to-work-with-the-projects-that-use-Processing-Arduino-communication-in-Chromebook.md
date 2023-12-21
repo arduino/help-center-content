@@ -3,7 +3,7 @@ title: "How to work with the projects that use Processing-Arduino communication 
 id: 360017098619
 ---
 
-When using Chromebooks, not being able to install programs in the laptop means that it is not possible for the Arduino Web editor's Serial port to communicate with the processing code.
+When using Chromebooks, not being able to install programs in the laptop means that it is not possible for Arduino Cloud Editor's Serial port to communicate with the processing code.
 
 The 4 projects in CTC 101 that uses communication between Processing and Arduino, and some workarounds for them are:
 

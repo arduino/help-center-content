@@ -1,12 +1,12 @@
 ---
-title: "If you can't access the Web Editor"
+title: "If you can't access the Cloud Editor"
 id: 8825427680796
 ---
 
-When accessing the **Web Editor** ([create.arduino.cc/editor](https://create.arduino.cc/editor)), you may encounter one of these issues:
+When accessing the **Cloud Editor** ([create.arduino.cc/editor](https://create.arduino.cc/editor)), you may encounter one of these issues:
 
-* You get signed out when trying to access the Web Editor
-* The Web Editor doesn't load
+* You get signed out when trying to access the Cloud Editor
+* The Cloud Editor doesn't load
 * You see one of these messages for an extended period:
   * _It's just one of those days. We're doing our best to get things back up and running._
   * _Please wait a few seconds while we get your Arduino Cloud started_

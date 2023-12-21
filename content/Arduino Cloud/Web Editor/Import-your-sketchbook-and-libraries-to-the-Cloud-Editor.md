@@ -3,9 +3,9 @@ title: "Import your sketchbook and libraries to the Cloud Editor"
 id: 360011890519
 ---
 
-It is possible to import easily all your sketches and libraries from Arduino IDE (desktop Arduino software) to the Cloud Editor (online version of Arduino IDE) in just a few clicks. This comes very handy as all your projects will be saved in Arduino Cloud and are accessible from any computer.
+It is possible to import easily all your sketches and libraries from Arduino IDE (desktop Arduino software) to Arduino Cloud Editor (online version of Arduino IDE) in just a few clicks. This comes very handy as all your projects will be saved in Arduino Cloud and are accessible from any computer.
 
-In addition, the Cloud Editor allows you to import sketches and files in the following formats:
+In addition, Arduino Cloud Editor allows you to import sketches and files in the following formats:
 
 * Single sketches in `.ino`, `.pde` and `.zip` format.
 * Libraries in `.zip` format.
