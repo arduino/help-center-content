@@ -70,7 +70,7 @@ Follow these steps to delete your account:
 
 3. Tap **Delete Account** and tap again to confirm.
 
-4. Open the email associated with your Arduino account and look for an email from noreply<!-- nolink-->@arduino.cc.
+4. Open the email associated with your Arduino account and look for an email from **noreply<!-- nolink-->@arduino.cc**.
 
 5. Click the confirmation link to confirm the deletion of your account.
 
