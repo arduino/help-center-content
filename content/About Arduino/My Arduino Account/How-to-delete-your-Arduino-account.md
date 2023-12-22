@@ -18,11 +18,9 @@ In this article:
 
 ## Before you delete your account
 
-<!-- Before deleting the account, please keep in mind that you will lose access to: -->
-
 Before you delete your account, check the following:
 
-* [Review the Cloud Editor sketchbook](https://docs.arduino.cc/software/web-editor/arduino-web-editor-secondary-features#the-sketchbook-tab), and download any sketches you want to keep.<!-- To download a sketch, click on the arrow button next to the sketch name and select **Download Sketch**. -->
+* [Review the Cloud Editor sketchbook](https://docs.arduino.cc/software/web-editor/arduino-web-editor-secondary-features#the-sketchbook-tab), and download any sketches you want to keep.
 
 * [Export historical data from Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/8825464267420) that you want to keep.
 
