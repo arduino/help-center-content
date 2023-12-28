@@ -50,7 +50,7 @@ To use a device with these networks, you can [set the network parameters in the 
 
 8. Click the ![Cloud Editor Upload button](img/icon_web-editor-upload.png) **Upload** button to upload directly from the Cloud Editor, or go back to Arduino Cloud and upload from the sketch tab.
 
-> **Note:** Each time the sketch is updated from Arduino Cloud (by adding or changing Variables), the changes made to `thingsProperties.h` in Cloud Editor will be overwritten. To upload the sketch again, simply repeat the steps above.
+> **Note:** Each time the sketch is updated from Arduino Cloud (by adding or changing Variables), the changes made to `thingsProperties.h` in the Cloud Editor will be overwritten. To upload the sketch again, simply repeat the steps above.
 
 ---
 

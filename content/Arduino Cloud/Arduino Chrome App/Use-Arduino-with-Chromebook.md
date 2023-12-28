@@ -46,6 +46,6 @@ The currently supported boards include:
 
 5. Start writing a new sketch in the editor, or use a sketch from the _Examples_ sidebar.
 
-Learn more about Cloud Editor:
+Learn more about the Cloud Editor:
 
 * [Cloud Editor in Arduino Docs](https://docs.arduino.cc/arduino-cloud/guides/cloud-editor)
