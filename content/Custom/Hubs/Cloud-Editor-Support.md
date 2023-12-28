@@ -96,12 +96,11 @@ id: 9393241841308
   <div class="info-item ">
     <p class="info-title">Compatibility with Cloud Editor</p>
     <p>
-      Learn more about board, browser and operating system compatibility with
+      Learn more about board and browser and operating system compatibility with
       Cloud Editor:
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014779899-Which-boards-can-be-used-with-the-Web-editor-on-Chromebook-">Compatible boards</a>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4402082543378-What-Operating-Systems-are-supported-by-the-Web-Editor-">Compatible operative systems</a>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360020454099-What-browsers-are-supported-by-the-Web-Editor-">Compatible browsers</a>
   </div>
   <div class="info-item ">
     <p class="info-title ">Your Arduino Cloud plan</p>

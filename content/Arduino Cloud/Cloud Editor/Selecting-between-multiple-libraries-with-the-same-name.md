@@ -3,11 +3,11 @@ title: "Selecting between multiple libraries with the same name"
 id: 4405884552594
 ---
 
-Several techniques can be used to make the Arduino Web Editor pick a specific library when multiple libraries with the same name are available. One method is importing a copy of the library you want to use. Imported libraries are given preference over the pre-installed libraries ([full details here](https://arduino.github.io/arduino-cli/latest/sketch-build-process/#location-priorities-in-arduino-web-editor)). The technique works with any library, but we'll use the `DS18B20` library as an example in this guide.
+Several techniques can be used to make Arduino Cloud Editor pick a specific library when multiple libraries with the same name are available. One method is importing a copy of the library you want to use. Imported libraries are given preference over the pre-installed libraries ([full details here](https://arduino.github.io/arduino-cli/latest/sketch-build-process/#location-priorities-in-arduino-web-editor)). The technique works with any library, but we'll use the `DS18B20` library as an example in this guide.
 
 > See [this forum post](https://forum.arduino.cc/index.php?topic=684441.msg4605368#msg4605368) if you're interested in learning alternative methods to the technique described in this guide.
 
-1. From the menu on the left side of the Arduino Web Editor window, click "Libraries".
+1. From the menu on the left side of the Cloud Editor window, click "Libraries".
 
    ![Library Tab](img/Library_Tab.png)
 
@@ -23,9 +23,9 @@ Several techniques can be used to make the Arduino Web Editor pick a specific li
 
 5. Click the "Done" button.
 
-6. From the menu on the left side of the Arduino Web Editor window, click "Libraries".
+6. From the menu on the left side of the Cloud Editor window, click "Libraries".
 
-7. From the Libraries pane of the Arduino Web Editor window, click the "Favorites" tab.
+7. From the Libraries pane of the Cloud Editor window, click the "Favorites" tab.
 
    ![Library Tab](img/Library_Tab.png)
 
@@ -47,7 +47,7 @@ Several techniques can be used to make the Arduino Web Editor pick a specific li
 
 14. Click the "Open" button.
 
-15. Wait for Arduino Web Editor to display the notification that the library was successfully imported.
+15. Wait for the Cloud Editor to display the notification that the library was successfully imported.
 
     ![Download Library](img/Import_Successful.png)
 

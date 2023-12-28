@@ -10,19 +10,19 @@ A network configuration in Arduino Cloud cannot be saved unless network paramete
 * Open (unencrypted) Wi-Fi networks
 * GSM connections not requiring SIM PIN, or account credentials (username and password).
 
-To use a device with these networks, you can [set the network parameters in the Web Editor](#set-with-web-editor) instead.
+To use a device with these networks, you can [set the network parameters in the Cloud Editor](#set-with-cloud-editor) instead.
 
 ---
 
-<a id="set-with-web-editor"></a>
+<a id="set-with-cloud-editor"></a>
 
-## Set network parameters in the Web Editor
+## Set network parameters in the Cloud Editor
 
 1. Open your Thing in [Arduino Cloud](https://app.arduino.cc/things).
 
 2. Click the **Sketch** tab.
 
-3. Click **Open full editor** to view the sketch in the Web Editor.
+3. Click **Open full editor** to view the sketch in the Cloud Editor.
 
    ![The "Open full editor" button.](img/iot-open-full-editor.png)
 
@@ -48,9 +48,9 @@ To use a device with these networks, you can [set the network parameters in the 
 
    ![The "Secret" tab with a SECRET_SSID variable.](img/web-editor-secrets-open-wifi.png)
 
-8. Click the ![Web Editor Upload button](img/icon_web-editor-upload.png) **Upload** button to upload directly from the Web Editor, or go back to Arduino Cloud and upload from the sketch tab.
+8. Click the ![Cloud Editor Upload button](img/icon_web-editor-upload.png) **Upload** button to upload directly from the Cloud Editor, or go back to Arduino Cloud and upload from the sketch tab.
 
-> **Note:** Each time the sketch is updated from Arduino Cloud (by adding or changing Variables), the changes made to `thingsProperties.h` in the Web Editor will be overwritten. To upload the sketch again, simply repeat the steps above.
+> **Note:** Each time the sketch is updated from Arduino Cloud (by adding or changing Variables), the changes made to `thingsProperties.h` in the Cloud Editor will be overwritten. To upload the sketch again, simply repeat the steps above.
 
 ---
 
@@ -102,6 +102,6 @@ To make it easier to restore your configuration after updating your sketch, you 
 
 4. Copy and paste the modified lines from `thingsProperties.h` and paste them in this file.
 
-   ![A custom tab named "NetworkConfig" in the Web Editor.](img/web-editor-network-config-tab.png)
+   ![A custom tab named "NetworkConfig" in the Cloud Editor.](img/web-editor-network-config-tab.png)
 
 5. When you need to restore your network configuration, copy and paste the edited lines into the `thingsProperties.h` tab.

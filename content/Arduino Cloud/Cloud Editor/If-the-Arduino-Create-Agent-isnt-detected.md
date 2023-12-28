@@ -18,7 +18,7 @@ If you haven't done so, [install the Arduino Create Agent](https://create.arduin
 
 1. Check if the [Arduino Create Agent is running](https://support.arduino.cc/hc/en-us/articles/4980687506844-Check-if-the-Arduino-Create-Agent-is-installed-and-running), since sometimes it may be **off** or **paused**.
 
-2. Ensure you are using a [suported browser](https://support.arduino.cc/hc/en-us/articles/360020454099-What-browsers-are-supported-by-the-Web-Editor-). If you are using [Brave Browser](https://brave.com/), see [Use Arduino Cloud with Brave Browser](https://support.arduino.cc/hc/en-us/articles/10482021304988-Use-Arduino-Cloud-with-Brave-Browser).
+2. If you are using [Brave Browser](https://brave.com/), see [Use Arduino Cloud with Brave Browser](https://support.arduino.cc/hc/en-us/articles/10482021304988-Use-Arduino-Cloud-with-Brave-Browser).
 
 3. Make sure that the HTTPS Certificates are installed:
     <ol type="I">

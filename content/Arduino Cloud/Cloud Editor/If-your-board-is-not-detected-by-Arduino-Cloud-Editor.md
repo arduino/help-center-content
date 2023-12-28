@@ -1,13 +1,13 @@
 ---
-title: "If your board is not detected by Arduino Web Editor"
+title: "If your board is not detected by Arduino Cloud Editor"
 id: 360018131160
 ---
 
-If the selected board in Arduino Web Editor could not be detected, the board selector will display a red cross.
+If the selected board in Arduino Cloud Editor could not be detected, the board selector will display a red cross.
 
-![Web Editor with red cross icon showing in the board selector menu ](img/WebEditor_Red_cross.png)
+![Cloud Editor with red cross icon showing in the board selector menu ](img/WebEditor_Red_cross.png)
 
-Learn how to troubleshoot possible issues when connecting a board to the Web Editor.
+Learn how to troubleshoot possible issues when connecting a board to the Cloud Editor.
 
 ---
 
@@ -15,9 +15,9 @@ Learn how to troubleshoot possible issues when connecting a board to the Web Edi
 
 > **Note:** If you are using a Chromebook, make sure to install the <a class="link-up-right" href="https://play.google.com/store/apps/details?id=cc.arduino.create_editor">Arduino Cloud for Chromebook app</a>.
 
-1. Make sure to select the connected board in the board selector. Sometimes the Web Editor will show the red cross icon and the name of a board that has been previously connected to the Web Editor:
+1. Make sure to select the connected board in the board selector. Sometimes the Cloud Editor will show the red cross icon and the name of a board that has been previously connected:
 
-    ![Web Editor with red cross icon and detected board name showing in the board selector](img/WebEditor_Dropdown_menu.png)
+    ![Cloud Editor with red cross icon and detected board name showing in the board selector](img/WebEditor_Dropdown_menu.png)
 
 2. Check that your device is powered. One or more more LEDs should be lit.
 3. Ensure you've connected your board with a working data USB cable.
@@ -33,7 +33,7 @@ Learn how to troubleshoot possible issues when connecting a board to the Web Edi
 
 Classic Nano boards and some clone boards with generic USB chips will show up as **"Board"** in the board selector. When selecting a "Board" port you will be prompted to select the board type manually.
 
-![Web Editor with port name showing in the board selector ](img/WebEditor_port_no_board_name.png)
+![Cloud Editor with port name showing in the board selector ](img/WebEditor_port_no_board_name.png)
 
 Note that:
 
