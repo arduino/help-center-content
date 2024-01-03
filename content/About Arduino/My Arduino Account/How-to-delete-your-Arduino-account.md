@@ -4,13 +4,24 @@ id: 360017090920
 draft: false
 ---
 
-You can delete your Arduino account at any time. Learn what you should know before deleting your Arduino account, and how to request account deletion.
+You can delete your Arduino account at any time. Learn what you should know before deleting your Arduino account, and how to requesst account deletion.
 
 In this article:
 
+* [About account deletion](#about-account-deletion)
 * [Before you delete your Arduino account](#before-you-delete-your-account)
 * [Deleting your Arduino account](#delete-account)
 * [Requesting forum account anonymization](#forum-account-anonymization)
+
+---
+
+<a id="about-account-deletion"></a>
+
+## About account deletion
+
+* After you submit an account deletion request, it is possible to sign up for a new acccount using the same email.
+* Arduino retains your data for seven day grace period. Your username may still appear in the Arduino Forum and Project Hub during this time. After the grace period, your data is automatically deleted.
+* In the Arduino Forum and Arduino Project Hub, your account activity will be _anonymized_. For anonymized accounts, the username and user profile is removed from the system. However, forum posts and project descriptions can still include mentions of your username, or other personally identifiable information.
 
 ---
 
@@ -28,7 +39,7 @@ Before you delete your account, check the following:
 
 * [Review any active subscriptions](https://support.arduino.cc/hc/en-us/articles/4401881299090-Review-change-or-cancel-an-Arduino-Cloud-plan). When you delete your Arduino account, subscriptions are canceled at the end of their billing cycles.
 
-* [If you want your forum account anonymized](#forum-account-anonymization), edit any forum posts containing personally identifiable information.
+* Review your post history in the [Arduino Forum](https://forum.arduino.cc/). When your account is deleted, your username will no longer be displayed, but the posts themselves can still contain personally identifiable information. Remove information that you don't want to appear after your account has been deleted.
 
 * Review your projects on [Arduino Project Hub](https://projecthub.arduino.cc/). Remove any personally identifiable information from the project description, code, or downloadable files, or delete the associated project entirely. When your account is deleted, your user profile will be removed. Projects that you keep will stay public, but will be credited to "Anonymous User" instead.
 
@@ -68,26 +79,6 @@ Follow these steps to delete your account:
 
 3. Tap **Delete Account** and tap again to confirm.
 
-4. Open the email associated with your Arduino account and look for an email from **noreply<!-- nolink-->@arduino.cc**.
+4. Open the email associated with your Arduino account and look for an email from noreply<!-- nolink-->@arduino.cc.
 
 5. Click the confirmation link to confirm the deletion of your account.
-
----
-
-<a id="forum-account-anonymization"></a>
-
-## Requesting forum account anonymization
-
-For the Arduino Forum, please make sure that you edit out any personal information from the forum posts you have made with your account. Once the account is deleted you won’t be able to make any changes. When the account is deleted, you can request for us to anonymize your account, posts will not be deleted and we encourage you to keep as much non-personal information as possible for the topic to be readable and useful for other community members.
-
-Posts made in the Arduino forum will still be visible under your username after you delete your account.
-
-Optionally, you can request to have your forum account anonymized.
-
-Follow these steps to request anonymization:
-
-1. Check and edit your forum posts, and edit any posts that contain personally identifiable information.
-2. [Delete your account](#delete-account).
-3. [Contact us using the contact form](https://www.arduino.cc/en/contact-us/)
-   * Use the same email that you used for the deleted account.
-   * Include the username in your message.
