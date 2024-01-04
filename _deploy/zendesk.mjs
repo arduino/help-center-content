@@ -32,6 +32,7 @@ program
     .option('--cache-read [path]', 'read cached data', false)
     .option('--cache-save [path]', 'save cached data', false)
     .option('--html-save', 'save rendered HTML to disk', false)
+    .option('--skip-algolia', 'skip all Algolia actions', false)
     .option('-w, --wait <delay>', 'delay in seconds before fetching data')
     .option('-u, --syncIndex', 'check the entire search index for changes')
 program.parse();
@@ -45,6 +46,7 @@ const cacheRead = program.opts().cacheRead;
 const cacheSave = program.opts().cacheSave;
 const wait = program.opts().wait;
 const syncIndex = program.opts().syncIndex;
+const skipAlgolia = program.opts().skipAlgolia;
 
 // Set up Zendesk client
 import { createClient as createZendeskClient } from 'node-zendesk';
@@ -62,8 +64,10 @@ const client = createZendeskClient({
 
 // Algolia
 import algoliasearch from 'algoliasearch';
-const algoliaIndex = algoliasearch(AlgoliaID, AlgoliaSecret)
-    .initIndex(AlgoliaIndexName);
+if (!skipAlgolia) {
+    const algoliaIndex = algoliasearch(AlgoliaID, AlgoliaSecret)
+        .initIndex(AlgoliaIndexName);
+}
 
 // HTML
 import * as htmlparser2 from "htmlparser2";
@@ -575,7 +579,7 @@ async function deploy(zendeskSections, articles) {
         }
 
         // Update Algolia
-        if (translationUpdates || articleUpdates) {
+        if ((translationUpdates || articleUpdates) && !skipAlgolia) {
             var sectionName = zendeskSections.find(s => s.id == a.zd.section_id).name;
             var contentClearText = convert(a.zd.body, {
                 selectors: [
@@ -637,7 +641,9 @@ async function deploy(zendeskSections, articles) {
         } catch (error) {
             console.error(`[${error.statusCode}] Archiving article "${article.zd.title}" (${article.zd.html_url})`);
         }
-        await algoliaIndex.deleteObject(article.zd.url);
+        if (!skipAlgolia) {
+            await algoliaIndex.deleteObject(article.zd.url);
+        }
     }
 }
 
