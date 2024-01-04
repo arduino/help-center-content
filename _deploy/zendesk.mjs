@@ -388,7 +388,6 @@ function printChanges(zendeskCategories, zendeskSections, articles) {
             for (const imgElement of htmlparser2.DomUtils.filter(e => e.name == 'img', local)) {
                 var replacement = attachmentReplacements.find(ar => ar.src == imgElement.attribs.src);
                 if (replacement) {
-                    //console.log('replacing ' + imgElement.attribs.src + ' with ' + replacement.target);
                     imgElement.attribs.src = replacement.target;
                 }
             }
