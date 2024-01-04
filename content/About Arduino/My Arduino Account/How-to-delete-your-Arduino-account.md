@@ -20,8 +20,8 @@ In this article:
 ## About account deletion
 
 * After you submit an account deletion request, it is possible to sign up for a new acccount using the same email.
-* Arduino retains your data for seven day grace period. Your username may still appear in the Arduino Forum and Project Hub during this time. After the grace period, your data is automatically deleted.
-* In the Arduino Forum and Arduino Project Hub, your account activity will be _anonymized_. For anonymized accounts, the username and user profile is removed from the system. However, forum posts and project descriptions can still include mentions of your username, or other personally identifiable information.
+* After receiving the account deletion request, Arduino will retain your data for an additional seven days. During this time your username may still appear in the Arduino Forum and Project Hub. After seven days, your data is automatically deleted.
+* In the Arduino Forum and Arduino Project Hub, your account activity will be _anonymized_. When an account is anonymized, the associated username and user profile are deleted from the system. However, forum posts and project descriptions can still include mentions of your username or other personally identifiable information.
 
 ---
 
