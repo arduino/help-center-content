@@ -14,7 +14,7 @@ They differ in the features that users can access and the way that Arduino handl
 
 ## Junior accounts
 
-> **Note:** The Web Editor is not currently supported for junior accounts.
+> **Note:** The Cloud Editor is not currently supported for junior accounts.
 
 This type of account is intended for minors under the age of 14. Arduino does not process any [personal data](https://www.arduino.cc/en/privacy-policy/children-privacy-policy) that would allow users to be identified as a child under the age of 14.
 

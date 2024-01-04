@@ -1,9 +1,9 @@
 ---
-title: "Boards compatible with the Web Editor"
+title: "Boards compatible with the Cloud Editor"
 id: 360014779899
 ---
 
-Find boards that can be used with the Web Editor on your system:
+Find boards that can be used with the Cloud Editor on your system:
 
 * [Chromebook](#chromebook)
 * [Windows, macOS, and Linux](#desktop)
@@ -12,9 +12,9 @@ Find boards that can be used with the Web Editor on your system:
 
 <a id="chromebook"></a>
 
-## Web Editor on Chromebook
+## Cloud Editor on Chromebook
 
-To use the Web Editor on Chromebook, you need to install the <a class="link-up-right" href="https://play.google.com/store/apps/details?id=cc.arduino.create_editor">Arduino Cloud for Chromebook</a> app.
+To use the Cloud Editor on Chromebook, you need to install the <a class="link-up-right" href="https://play.google.com/store/apps/details?id=cc.arduino.create_editor">Arduino Cloud for Chromebook</a> app.
 
 These boards are supported:
 
@@ -32,9 +32,9 @@ These boards are supported:
 
 <a id="desktop"></a>
 
-## Web Editor on Windows, macOS, and Linux
+## Cloud Editor on Windows, macOS, and Linux
 
-To use the Web Editor on Windows, macOS, and Linux, you need to install the <a class="link-up-right" href="https://create.arduino.cc/getting-started/plugin">Arduino Create Agent</a>.
+To use the Cloud Editor on Windows, macOS, and Linux, you need to install the <a class="link-up-right" href="https://create.arduino.cc/getting-started/plugin">Arduino Create Agent</a>.
 
 These boards are supported:
 

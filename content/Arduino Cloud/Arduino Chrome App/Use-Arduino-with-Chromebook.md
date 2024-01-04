@@ -3,7 +3,7 @@ title: "Use Arduino with Chromebook"
 id: 360016495639
 ---
 
-You can write and upload sketches on Chrome OS with the Web Editor in Arduino Cloud. The Web Editor has an extensive feature set similar to the desktop IDE. While many popular boards are compatible, you should check [the list of compatible boards here](https://support.arduino.cc/hc/en-us/articles/360014779899).
+You can write and upload sketches on Chrome OS with the Cloud Editor in Arduino Cloud. The Cloud Editor has an extensive feature set similar to the desktop IDE. While many popular boards are compatible, you should check [the list of compatible boards here](https://support.arduino.cc/hc/en-us/articles/360014779899).
 
 ---
 
@@ -29,24 +29,23 @@ The currently supported boards include:
 * Arduino RP2040 Connect
 * Arduino UNO WiFi Rev2
 
-<a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014779899-Boards-compatible-with-the-Web-Editor">Learn more about boards compatible with the Web Editor</a>
+<a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014779899-Boards-compatible-with-the-Web-Editor">Learn more about boards compatible with the Cloud Editor</a>
 
 [^chrome-apps]: Chrome Apps are being [deprecated](https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html), but are currently still available in the Chrome web store: see <a class="link-up-right" href="https://chrome.google.com/webstore/detail/arduino-create/dcgicpihgkmccjigalccipmjlnjopdfe">Arduino Create</a> and <a class="link-up-right" href="https://chrome.google.com/webstore/detail/elmgohdonjdampbcgefphnlchgocpaij">Arduino Create for Education</a>.
 
 ---
 
-## Use the Web Editor
+## Use the Cloud Editor
 
 1. Go to [create.arduino.cc/editor](https://create.arduino.cc/editor).
 2. If you're not signed into an Arduino account, you will be asked to do so.
 3. Connect a [compatible board](https://support.arduino.cc/hc/en-us/articles/360014779899#chromebook) to a USB port on your computer.
 4. Select your board in the Boards Dropdown.
 
-   ![The Boards Dropdown in the Web Editor.](img/web-editor-boards-dropdown.png)
+   ![The Boards Dropdown in the Cloud Editor.](img/web-editor-boards-dropdown.png)
 
 5. Start writing a new sketch in the editor, or use a sketch from the _Examples_ sidebar.
 
-Learn more about the Web Editor:
+Learn more about the Cloud Editor:
 
-* [Uploading a simple example](https://docs.arduino.cc/cloud/web-editor/tutorials/getting-started/getting-started-web-editor#uploading-a-simple-example)
-* [Web Editor in Arduino Docs](https://docs.arduino.cc/cloud/web-editor)
+* [Cloud Editor in Arduino Docs](https://docs.arduino.cc/arduino-cloud/guides/cloud-editor)
