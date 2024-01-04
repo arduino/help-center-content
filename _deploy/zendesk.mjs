@@ -73,8 +73,10 @@ import { convert } from 'html-to-text';
 
 // Markdown
 import hljs from 'highlight.js'; // https://highlightjs.org/
-import markdownItFootnotes from 'markdown-it-footnote';
 import MarkdownIt from 'markdown-it';
+import markdownItFootnotes from 'markdown-it-footnote';
+import markdownItAnchor from 'markdown-it-anchor';
+import markdownItAttrs from 'markdown-it-attrs';
 const md = new MarkdownIt({
         html: true,
         smartquotes: true,
@@ -91,6 +93,13 @@ const md = new MarkdownIt({
             return ''; // use external default escaping
         }
     })
+    .use(markdownItAnchor, {
+        tabIndex: false
+    })
+    .use(markdownItAttrs, {
+        allowedAttributes: ['id', 'class'],
+        slugify: uslug
+    })
     .use(markdownItFootnotes);
 import fm from 'front-matter';
 
@@ -105,6 +114,7 @@ import fs from 'fs';
 const fsPromises = fs.promises;
 import fetch from 'node-fetch';
 import FormData from 'form-data';
+import uslug from 'uslug';
 
 /* Run main function */
 main();
