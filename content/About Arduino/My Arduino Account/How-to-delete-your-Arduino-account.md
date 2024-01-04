@@ -11,7 +11,6 @@ In this article:
 * [About account deletion](#about-account-deletion)
 * [Before you delete your Arduino account](#before-you-delete-your-account)
 * [Deleting your Arduino account](#delete-account)
-* [Requesting forum account anonymization](#forum-account-anonymization)
 
 ---
 
