@@ -33,6 +33,7 @@ program
     .option('--cache-save [path]', 'save cached data', false)
     .option('--html-save', 'save rendered HTML to disk', false)
     .option('--skip-algolia', 'skip all Algolia actions', false)
+    .option('--html-diff', 'print rendered HTML diff', false)
     .option('-w, --wait <delay>', 'delay in seconds before fetching data')
     .option('-u, --syncIndex', 'check the entire search index for changes')
 program.parse();
@@ -44,6 +45,7 @@ const deployChanges = program.opts().deploy;
 const verbose = program.opts().verbose;
 const cacheRead = program.opts().cacheRead;
 const cacheSave = program.opts().cacheSave;
+const htmlDiff = program.opts().htmlDiff;
 const wait = program.opts().wait;
 const syncIndex = program.opts().syncIndex;
 const skipAlgolia = program.opts().skipAlgolia;
@@ -119,6 +121,7 @@ const fsPromises = fs.promises;
 import fetch from 'node-fetch';
 import FormData from 'form-data';
 import uslug from 'uslug';
+import * as Diff from 'diff';
 
 /* Run main function */
 main();
@@ -509,6 +512,7 @@ function getTranslationUpdates(a) {
     // Check attachments and article body
     const attachmentReplacements = getAttachmentReplacements(a);
     var renderedHTML = makeHTML(a.md.body, attachmentReplacements, false);
+    console.log('yo');
     if (renderedHTML != a.zd.body) {
         updates.body = makeHTML(a.md.body, attachmentReplacements, true);
     }
@@ -674,7 +678,9 @@ function hasChanges(article) {
     }
 
     // Render body and compare
-    if (!compareHTML(makeHTML(article.md.body, attachmentReplacements, true), article.zd.body)) {
+    let localHTML = makeHTML(article.md.body, attachmentReplacements, true);
+    let zdHTML = article.zd.body;
+    if (!compareHTML(localHTML, zdHTML)) {
         return true;
     }
 
@@ -703,6 +709,55 @@ function compareHTML(a, b) {
         collapseWhitespace: true
     });
 
+    if (localRender != remoteRender && htmlDiff) {
+        console.log('Got diff:');
+        // console.log(Diff);
+        /*
+        const diff = Diff.diffChars(remoteRender, localRender);
+        var diffOutput = "";
+        diff.forEach((part) => {
+            // green for additions, red for deletions
+            // grey for common parts
+            const color = part.added ? 'green' :
+                part.removed ? 'red' : 'grey';
+            console.log(color);
+            if (color == 'green') {
+                diffOutput = diffOutput + clc.green(part.value);
+            }
+            if (color == 'grey') {
+                diffOutput = diffOutput + part.value;
+            }
+            if (color == 'red') {
+                console.log(clc.red(part.value));
+                diffOutput = diffOutput + clc.red(part.value);
+            }
+        });
+        console.log(diffOutput);
+        */
+
+        const diff = Diff.structuredPatch('local', 'zendesk', remoteRender, localRender);
+        console.log(diff.hunks);
+        console.log(diff.hunks.lines);
+        diff.hunks.lines.forEach((line) => {
+            // green for additions, red for deletions
+            // grey for common parts
+            const color = line[0] == '+' ? 'green' :
+                line[0] == '-' ? 'red' : 'grey';
+            console.log(color);
+            if (color == 'green') {
+                diffOutput = diffOutput + clc.green(line);
+            }
+            if (color == 'grey') {
+                diffOutput = diffOutput + line;
+            }
+            if (color == 'red') {
+                diffOutput = diffOutput + clc.red(line);
+            }
+        });
+        console.log(diffOutput);
+        console.log('Done');
+        //process.exit();
+    }
     return (localRender == remoteRender);
 }
 
