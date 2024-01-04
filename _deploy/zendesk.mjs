@@ -388,6 +388,7 @@ function printChanges(zendeskCategories, zendeskSections, articles) {
             for (const imgElement of htmlparser2.DomUtils.filter(e => e.name == 'img', local)) {
                 var replacement = attachmentReplacements.find(ar => ar.src == imgElement.attribs.src);
                 if (replacement) {
+                    //console.log('replacing ' + imgElement.attribs.src + ' with ' + replacement.target);
                     imgElement.attribs.src = replacement.target;
                 }
             }
@@ -512,7 +513,6 @@ function getTranslationUpdates(a) {
     // Check attachments and article body
     const attachmentReplacements = getAttachmentReplacements(a);
     var renderedHTML = makeHTML(a.md.body, attachmentReplacements, false);
-    console.log('yo');
     if (renderedHTML != a.zd.body) {
         updates.body = makeHTML(a.md.body, attachmentReplacements, true);
     }
@@ -709,54 +709,8 @@ function compareHTML(a, b) {
         collapseWhitespace: true
     });
 
-    if (localRender != remoteRender && htmlDiff) {
-        console.log('Got diff:');
-        // console.log(Diff);
-        /*
-        const diff = Diff.diffChars(remoteRender, localRender);
-        var diffOutput = "";
-        diff.forEach((part) => {
-            // green for additions, red for deletions
-            // grey for common parts
-            const color = part.added ? 'green' :
-                part.removed ? 'red' : 'grey';
-            console.log(color);
-            if (color == 'green') {
-                diffOutput = diffOutput + clc.green(part.value);
-            }
-            if (color == 'grey') {
-                diffOutput = diffOutput + part.value;
-            }
-            if (color == 'red') {
-                console.log(clc.red(part.value));
-                diffOutput = diffOutput + clc.red(part.value);
-            }
-        });
-        console.log(diffOutput);
-        */
-
-        const diff = Diff.structuredPatch('local', 'zendesk', remoteRender, localRender);
-        console.log(diff.hunks);
-        console.log(diff.hunks.lines);
-        diff.hunks.lines.forEach((line) => {
-            // green for additions, red for deletions
-            // grey for common parts
-            const color = line[0] == '+' ? 'green' :
-                line[0] == '-' ? 'red' : 'grey';
-            console.log(color);
-            if (color == 'green') {
-                diffOutput = diffOutput + clc.green(line);
-            }
-            if (color == 'grey') {
-                diffOutput = diffOutput + line;
-            }
-            if (color == 'red') {
-                diffOutput = diffOutput + clc.red(line);
-            }
-        });
-        console.log(diffOutput);
-        console.log('Done');
-        //process.exit();
+    if (localRender != remoteRender) {
+        printHtmlDiff(remoteRender, localRender);
     }
     return (localRender == remoteRender);
 }
@@ -1126,4 +1080,25 @@ async function deleteOrphanedSearchObjects(articles) {
         o => o.objectID);
     const deleteResult = await algoliaIndex.deleteObjects(removeTheseObjectIDs)
     console.log(`Deleted ${deleteResult.objectIDs.length} objects.`);
+}
+
+function printHtmlDiff(oldHtml, newHtml) {
+
+    const diff = Diff.diffChars(oldHtml, newHtml);
+    var diffOutput = "";
+    diff.forEach((part) => {
+        // green for additions, red for deletions
+        // grey for common parts
+        const color = part.added ? 'green' :
+            part.removed ? 'red' : 'grey';
+        if (color == 'green') {
+            diffOutput = diffOutput + clc.green(part.value);
+        } else if (color == 'red') {
+            //console.log(clc.red(part.value));
+            diffOutput = diffOutput + clc.red(part.value);
+        } else {
+            // diffOutput = diffOutput + part.value;
+        }
+    });
+    console.log(diffOutput);
 }
