@@ -126,7 +126,7 @@ If the sketch uploads but the device doesn't come online.
 
 3. Open the Thing's **Sketch tab**. Make sure the right device is selected and re-upload the sketch.
 
-   ![Uploading a sketch in Arduino Cloud.](img/arduino-cloud-sketch-upload.png)
+   ![Uploading a sketch in Arduino Cloud.](img/iot-sketch-upload.png)
 
 4. Fully [delete the device](https://support.arduino.cc/hc/en-us/articles/360018324700), then add it again as a new device. For detailed instructions, see [Add and connect a device to Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/360016495559).
 
