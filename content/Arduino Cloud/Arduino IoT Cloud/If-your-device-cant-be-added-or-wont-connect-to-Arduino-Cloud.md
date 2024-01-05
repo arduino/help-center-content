@@ -50,13 +50,15 @@ If there's a problem during the **"Add device"** set-up process, or the device d
 
 Make sure to set up your Arduino board as an Arduino device.
 
-![Setup prompt, "Set up an Arduino device" is highlighted](img/arduino-device-setup.png)
+![Setup prompt, "Set up an Arduino device" is highlighted](img/setup-device-menu-highlighted.png)
 
 The DevEUI will be automatically added to the device.
 
-### If you don't know the secret key for your 3rd party device
+### If you don't know the secret key for your device
 
-Secret keys cannot be recovered if lost. Generate a new key by [deleting the device](https://support.arduino.cc/hc/en-us/articles/360018324700-How-to-delete-a-device-from-Arduino-IoT-cloud), then adding it again.
+> _Secrets:_ Secret keys cannot be recovered if lost. Make sure to save any Device ID and Secret key that's provided when adding an Arduino UNO R4 WiFi, Arduino Nano ESP32, or a 3rd party device (ESP32 and ESP8266). 
+
+* Generate a new key by [deleting the device](https://support.arduino.cc/hc/en-us/articles/360018324700-How-to-delete-a-device-from-Arduino-IoT-cloud), then adding it again.
 
 ### "We were not able to configure..." during device set-up
 
@@ -72,7 +74,7 @@ These errors can occur if the wireless connectivity module on your board is usin
 
 Solve the issue by updating to the latest firmware version using the **Firmware Updater** in Arduino IDE:
 
-<a class="link-external" href="https://support.arduino.cc/hc/en-us/articles/360013896579-Use-the-Firmware-Updater-in-Arduino-IDE">Update the firmware in Arduino IDE</a>
+<a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360013896579-Use-the-Firmware-Updater-in-Arduino-IDE">Update the firmware in Arduino IDE</a>
 
 ---
 
