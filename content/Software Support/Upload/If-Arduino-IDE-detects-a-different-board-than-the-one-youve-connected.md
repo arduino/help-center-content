@@ -1,5 +1,6 @@
 ---
-title: "If Arduino IDE detects a different board than the one you've connected"
+title: If Arduino IDE detects a different board than the one you've connected
+id: 12070802257436
 ---
 
 Learn what to do if Arduino IDE misidentifies your board.
