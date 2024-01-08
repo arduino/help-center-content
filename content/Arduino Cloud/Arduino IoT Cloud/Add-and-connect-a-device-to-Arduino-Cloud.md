@@ -57,7 +57,7 @@ You'll need an Arduino account and the [Arduino Create Agent](https://support.ar
 
    ![A new, unconfigured Thing.](img/thing-setup-before.png)
 
-   * Click the **Associate Device selection** button and select your device.
+   * Click the **Associated Device selection** button and select your device.
 
    * Click the **Network configure** button and enter the network credentials.
 
