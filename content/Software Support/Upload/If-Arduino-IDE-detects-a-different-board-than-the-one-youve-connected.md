@@ -17,12 +17,18 @@ In this article:
 
 While Arduino IDE will detect and select most boards automatically, the default selection can be overridden with a manual selection. This selection will be remembered the next time you connect the board.
 
-To see if a manual selection is being made, look for a **Reset** arrow icon to the right of the board name (under the **Edit** button).
+<!-- The reset button will show up under these conditions:
 
-* If the Reset symbol is present, click it to restore the default selection.
-* If the Reset symbol is not present, no manual selection has been made.
+* Arduino IDE identified the port as a single specific board name:
+* The board the user selected is different from the board Arduino IDE identified the port as
+
+-->
+
+Open the board selector and look for a **Reset** arrow icon to the right of the currently selected board and port. If the Reset symbol is present, click it to restore the default selection
 
 ![Resetting the default board selection.](img/board-selector-reset.png)
+
+If the Reset symbol is not present, click "Select other board and port" at the bottom of the list and [manually select the correct board](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE#other-board-and-port).
 
 ---
 
