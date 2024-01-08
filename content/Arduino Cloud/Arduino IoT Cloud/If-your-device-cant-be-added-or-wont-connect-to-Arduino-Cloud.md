@@ -25,7 +25,7 @@ If there's a problem during the **"Add device"** set-up process, or the device d
 
 2. [Check if the Arduino Create Agent is installed and running](https://support.arduino.cc/hc/en-us/articles/4980687506844-Check-if-the-Arduino-Create-Agent-is-installed-and-running), then click **Try again**.
 
-3. Double-press the reset button on the board, then click **Try Again**.
+3. Double-press the reset button on the board to put the board in [bootloader mode](https://support.arduino.cc/hc/en-us/articles/5779192727068-Reset-your-board#bootloader-mode), then click **Try Again**.
 
 4. Try uploading an Example sketch (such as _Examples > Built in > 01.Basics > Blink_) in the [Cloud Editor](https://create.arduino.cc/editor).
 
@@ -105,6 +105,9 @@ This is a generic error message indicating that a process has failed.
 1. If you haven't done so already, [install the agent](https://create.arduino.cc/getting-started/plugin/welcome).
 2. If you have installed the agent but you still encounter this warning, see [If Arduino Create Agent isn't detected](https://support.arduino.cc/hc/en-us/articles/360016466600-Warning-To-upload-a-sketch-via-USB-port-make-sure-the-Agent-is-installed-and-running-on-this-computer).
 
+### Power supply issues
+
+* Check your device's power supply. Avoid using a USB hub, and instead connect the board directly to a USB port or another power source with a reliable cable to ensure sufficient power.
 ---
 
 <a id="device-status"></a>
@@ -131,6 +134,8 @@ If the sketch uploads but the device doesn't come online.
 4. Fully [delete the device](https://support.arduino.cc/hc/en-us/articles/360018324700), then add it again as a new device. For detailed instructions, see [Add and connect a device to Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/360016495559).
 
 5. Test your setup with an example from the [ArduinoIoTCloud library](https://www.arduino.cc/reference/en/libraries/arduinoiotcloud/). Upload using Arduino IDE or the [Cloud Editor](https://create.arduino.cc/editor).
+
+6. Check your device's power supply. Avoid using a USB hub, and instead connect the board directly to a USB port or another power source with a reliable cable to ensure sufficient power.
 
 ---
 
