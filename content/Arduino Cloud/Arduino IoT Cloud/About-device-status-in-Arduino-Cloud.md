@@ -23,7 +23,7 @@ After uploading your sketch, it may take a few minutes before the status changes
 
 The Device Status History feature allows you to visualize the status of your device over time. To access it:
 
-1. Go to the [Devices tab](https://app.arduino.cc/devices) in Arduino Cloud. 
+1. Go to the [Devices tab](https://app.arduino.cc/devices). 
 
 2. Click on your device's name to open a page with more information about your device.
 
