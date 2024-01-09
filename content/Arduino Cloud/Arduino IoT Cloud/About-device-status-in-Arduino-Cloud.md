@@ -9,13 +9,13 @@ In Arduino Cloud, the **device status** describes the connection between your de
 
 ![Devices in Arduino Cloud with different statuses.](img/Board_status.png)
 
-One of these will be displayed for each device: 
+One of these will be displayed for each device:
 
 | Status           | Description                                                                            |
 |------------------|----------------------------------------------------------------------------------------|
 | Online           | The device is connected and communicating with the Arduino Cloud.                  |
 | Offline          | The device has initialized a connection but is not connected to the Arduino Cloud. |
-| Unknown                | Device status is not supported for this device. 
+| Unknown                | Device status is not supported for this device. |
 
 After uploading your sketch, it may take a few minutes before the status changes to Online.
 
@@ -23,7 +23,7 @@ After uploading your sketch, it may take a few minutes before the status changes
 
 The Device Status History feature allows you to visualize the status of your device over time. To access it:
 
-1. Go to the [Devices tab](https://app.arduino.cc/devices). 
+1. Go to the [Devices tab](https://app.arduino.cc/devices).
 
 2. Click on your device's name to open a page with more information about your device.
 

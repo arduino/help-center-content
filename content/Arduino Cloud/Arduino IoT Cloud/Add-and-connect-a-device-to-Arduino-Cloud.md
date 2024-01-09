@@ -27,11 +27,11 @@ You'll need an Arduino account and the [Arduino Create Agent](https://support.ar
 
    ![The two locations that the "Add Device" button can appear.](img/device-add-button.png)
 
-3. Select your device type and set up a compatible Arduino board or third party device automatically. Alternatively, you can mannually setup your device. 
+3. Select your device type and set up a compatible Arduino board or third party device automatically. Alternatively, you can mannually setup your device.
 
-   > Hover over the <kbd>i</kbd> for a full list of compatible devices. 
+   > Hover over the <kbd>i</kbd> for a full list of compatible devices.
 
-   ![The Setup Device menu](img/setup-device-menu.png) 
+   ![The Setup Device menu](img/setup-device-menu.png)
 
 4. **Proceed with the instructions to add your device.**
 
