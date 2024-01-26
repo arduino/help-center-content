@@ -25,7 +25,7 @@ If there's a problem during the **"Add device"** set-up process, or the device d
 
 2. [Check if the Arduino Create Agent is installed and running](https://support.arduino.cc/hc/en-us/articles/4980687506844-Check-if-the-Arduino-Create-Agent-is-installed-and-running), then click **Try again**.
 
-3. Double-press the reset button on the board, then click **Try Again**.
+3. Double-press the reset button on the board to put the board in [bootloader mode](https://support.arduino.cc/hc/en-us/articles/5779192727068-Reset-your-board#bootloader-mode), then click **Try Again**.
 
 4. Try uploading an Example sketch (such as _Examples > Built in > 01.Basics > Blink_) in the [Cloud Editor](https://create.arduino.cc/editor).
 
@@ -50,13 +50,15 @@ If there's a problem during the **"Add device"** set-up process, or the device d
 
 Make sure to set up your Arduino board as an Arduino device.
 
-![Setup prompt, "Set up an Arduino device" is highlighted](img/arduino-device-setup.png)
+![Setup prompt, "Set up an Arduino device" is highlighted](img/setup-device-menu-highlighted.png)
 
 The DevEUI will be automatically added to the device.
 
-### If you don't know the secret key for your 3rd party device
+### If you don't know the secret key for your device
 
-Secret keys cannot be recovered if lost. Generate a new key by [deleting the device](https://support.arduino.cc/hc/en-us/articles/360018324700-How-to-delete-a-device-from-Arduino-IoT-cloud), then adding it again.
+> _Secrets:_ Secret keys cannot be recovered if lost. Make sure to save any Device ID and Secret key that's provided when adding an Arduino UNO R4 WiFi, Arduino Nano ESP32, or a 3rd party device (ESP32 and ESP8266).
+
+* Generate a new key by [deleting the device](https://support.arduino.cc/hc/en-us/articles/360018324700-How-to-delete-a-device-from-Arduino-IoT-cloud), then adding it again.
 
 ### "We were not able to configure..." during device set-up
 
@@ -72,7 +74,7 @@ These errors can occur if the wireless connectivity module on your board is usin
 
 Solve the issue by updating to the latest firmware version using the **Firmware Updater** in Arduino IDE:
 
-<a class="link-external" href="https://support.arduino.cc/hc/en-us/articles/360013896579-Use-the-Firmware-Updater-in-Arduino-IDE">Update the firmware in Arduino IDE</a>
+<a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360013896579-Use-the-Firmware-Updater-in-Arduino-IDE">Update the firmware in Arduino IDE</a>
 
 ---
 
@@ -103,6 +105,10 @@ This is a generic error message indicating that a process has failed.
 1. If you haven't done so already, [install the agent](https://create.arduino.cc/getting-started/plugin/welcome).
 2. If you have installed the agent but you still encounter this warning, see [If Arduino Create Agent isn't detected](https://support.arduino.cc/hc/en-us/articles/360016466600-Warning-To-upload-a-sketch-via-USB-port-make-sure-the-Agent-is-installed-and-running-on-this-computer).
 
+### Power supply issues
+
+* Check your device's power supply. Avoid using a USB hub, and instead connect the board directly to a USB port or another power source with a reliable cable to ensure sufficient power.
+
 ---
 
 <a id="device-status"></a>
@@ -113,7 +119,7 @@ If the sketch uploads but the device doesn't come online.
 
 > **Note:** Device status is not supported by the LoRa protocol, see [About device status in Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/4407169649682-About-device-status-in-IoT-Cloud).
 
-1. Go to the [Devices tab](https://app.arduino.cc/devices) and verify that your device has a linked Thing. If not, you must either create and new Thing, or associate an existing Thing with the device.
+1. Go to the [Devices tab](https://app.arduino.cc/devices) and verify that your device has an associated Thing. If not, you must either create and new Thing, or associate an existing Thing with the device.
 
    ![A linked Thing in the Devices tab.](img/arduino-cloud-device-thing-example-offline.png)
 
@@ -124,11 +130,13 @@ If the sketch uploads but the device doesn't come online.
 
 3. Open the Thing's **Sketch tab**. Make sure the right device is selected and re-upload the sketch.
 
-   ![Uploading a sketch in Arduino Cloud.](img/arduino-cloud-sketch-upload.png)
+   ![Uploading a sketch in Arduino Cloud.](img/iot-sketch-upload.png)
 
 4. Fully [delete the device](https://support.arduino.cc/hc/en-us/articles/360018324700), then add it again as a new device. For detailed instructions, see [Add and connect a device to Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/360016495559).
 
 5. Test your setup with an example from the [ArduinoIoTCloud library](https://www.arduino.cc/reference/en/libraries/arduinoiotcloud/). Upload using Arduino IDE or the [Cloud Editor](https://create.arduino.cc/editor).
+
+6. Check your device's power supply. Avoid using a USB hub, and instead connect the board directly to a USB port or another power source with a reliable cable to ensure sufficient power.
 
 ---
 
