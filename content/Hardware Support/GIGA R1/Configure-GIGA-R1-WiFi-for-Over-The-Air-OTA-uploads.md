@@ -2,7 +2,12 @@
 title: "Configure GIGA R1 WiFi for Over-The-Air (OTA) uploads"
 ---
 
-Prepare your GIGA R1 WiFi board for [Over-The-Air (OTA) uploads](https://docs.arduino.cc/arduino-cloud/features/ota-getting-started/).
+Learn how to enable [Over-The-Air (OTA) uploads](https://docs.arduino.cc/arduino-cloud/features/ota-getting-started/) for your GIGA R1 WiFi board.
+
+Follow these steps if you experience any of these errors when attempting an OTA upload:
+
+* `Error while mounting the filesystem. Err = -5`
+* `Arduino_Portenta_OTA::begin() failed with error code -3`
 
 ---
 
