@@ -43,7 +43,9 @@ First, you need to format the board's Quad Serial Peripheral Interface (QSPI) fl
 
 ## 3. Flash the Wi-Fi firmware
 
-Update the WiFi Firmware Certificates of the board using the code found here: WiFiFirmwareUpdater (make sure you include the three documents in the same folder before uploading the .ino sketch to the board) You can find this sketch and the previous one on your Arduino IDE going: File > Examples > Examples For Arduino Giga R1 > STM32H747_System > WiFiFirmwareUpdater.
+Flash the latest Wi-Fi firmware version to the board.
+
+**Follow these steps:**
 
 1. In the top menu bar, open **File > Examples > STM32H747_System > WiFiFirmwareUpdater**.
 
