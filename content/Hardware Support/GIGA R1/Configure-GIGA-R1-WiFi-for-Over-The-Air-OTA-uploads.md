@@ -52,7 +52,7 @@ Update the WiFi Firmware Certificates of the board using the code found here: Wi
 
 1. If the Serial Monitor is empty, run the sketch again by pressing the **RST** button on the board.
 
-   ![The RST button on Giga R1 WiFi.](img/GIGA-R1-button-RST.png)
+   ![The RST button on GIGA R1 WiFi.](img/GIGA-R1-button-RST.png)
 
 1. If you get this message:
 
