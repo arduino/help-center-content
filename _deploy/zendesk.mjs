@@ -45,6 +45,7 @@ const deployChanges = program.opts().deploy;
 const verbose = program.opts().verbose;
 const cacheRead = program.opts().cacheRead;
 const cacheSave = program.opts().cacheSave;
+const htmlSave = program.opts().htmlSave;
 const htmlDiff = program.opts().htmlDiff;
 const wait = program.opts().wait;
 const syncIndex = program.opts().syncIndex;
@@ -83,6 +84,7 @@ import MarkdownIt from 'markdown-it';
 import markdownItFootnotes from 'markdown-it-footnote';
 import markdownItAnchor from 'markdown-it-anchor';
 import markdownItAttrs from 'markdown-it-attrs';
+import markdownItGitHubAlerts from 'markdown-it-github-alerts';
 const md = new MarkdownIt({
         html: true,
         smartquotes: true,
@@ -97,6 +99,11 @@ const md = new MarkdownIt({
                 } catch (__) {}
             }
             return ''; // use external default escaping
+        }
+    })
+    .use(markdownItGitHubAlerts, {
+        icons: {
+            note: '<span class="alert-info-icon">test</span>'
         }
     })
     .use(markdownItAnchor, {
@@ -679,6 +686,14 @@ function hasChanges(article) {
     // Render body and compare
     let localHTML = makeHTML(article.md.body, attachmentReplacements, true);
     let zdHTML = article.zd.body;
+    if (htmlSave) {
+        let htmlFilePath = article.md.filepath.concat('.html')
+        fs.writeFileSync(root + '/' + htmlFilePath, localHTML, function (err) {
+            if (err) {
+                return console.log(err);
+            }
+        });
+    }
     if (!compareHTML(localHTML, zdHTML)) {
         return true;
     }
