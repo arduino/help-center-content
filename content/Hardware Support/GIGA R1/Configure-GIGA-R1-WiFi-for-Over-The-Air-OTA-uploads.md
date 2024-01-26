@@ -20,7 +20,7 @@ Prepare your GIGA R1 WiFi board for [Over-The-Air (OTA) uploads](https://docs.ar
 
 ## 2. Format the flash memory
 
-First, you need to format the board's Quad Serial Peripheral Interface (QSPI) memory.
+First, you need to format the board's Quad Serial Peripheral Interface (QSPI) flash memory.
 
 **Follow these steps:**
 
