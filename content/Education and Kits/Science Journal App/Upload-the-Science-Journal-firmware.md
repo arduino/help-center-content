@@ -7,7 +7,7 @@ Learn how to upload the Science Journal firmware to your board. In this article:
 
 * [Compatible boards](#compatible-boards)
 * [Board configuration overview](#board-configuration)
-* [Upload the firmware using the Web Editor](#using-the-web-editor)
+* [Upload the firmware using the Cloud Editor](#using-the-cloud-editor)
 * [Upload the firmware using Arduino IDE](#using-arduino-ide)
 
 <a id="compatible-boards"></a>
@@ -38,24 +38,24 @@ To use the Science Journal, it is necessary to use different libraries and examp
 | Arduino Nano RP2040 Connect (by itself)    | Arduino_ScienceJournal | /ScienceKit/<em>RP2040ConnectFirmware</em> |
 | Arduino Nano RP2040 Connect (with Science Carrier R3)| Arduino_ScienceKitCarrier | /<em>ScienceJournal</em> |
 
-<a id="using-the-web-editor"></a>
+<a id="using-the-cloud-editor"></a>
 
-## Upload the firmware using the Web Editor
+## Upload the firmware using the Cloud Editor
 
-1. Open the [Web Editor](https://create.arduino.cc/editor).
+1. Open the [Cloud Editor](https://create.arduino.cc/editor).
 2. Connect your board to your computer with a USB cable.
 3. Select your board in the board dropdown.
 
-   ![The board dropdown in the Web Editor.](img/web-editor-sj-firmware-board.png)
+   ![The board dropdown in the Cloud Editor.](img/web-editor-sj-firmware-board.png)
 
 4. Check the [Board configuration overview  table](#board-configuration) for information about the required library and example for your board.
 5. Click on **Examples** in the left-most sidebar to open the Examples tab. Search the example for your board in the textbox and select it in the results area.
 
     ![Opening the Nano33BLESenseFirmware example from the Arduino_ScienceJournal library.](img/web-editor-select-example.png)
 
-6. Click the ![Web Editor upload button.](img/symbol_upload-web.png) **Upload** button.
+6. Click the ![Cloud Editor upload button.](img/symbol_upload-web.png) **Upload** button.
 
-   ![Uploading the sketch in the Web Editor.](img/web-editor-sj-firmware-upload.png)
+   ![Uploading the sketch in the Cloud Editor.](img/web-editor-sj-firmware-upload.png)
 
 7. Wait for the process to finish (Compilation for the Nano 33 BLE Sense may take several minutes, and the console will not print any messages during this time).
 8. When the upload is completed, you can [connect your board to the Science Journal app](https://support.arduino.cc/hc/en-us/articles/4407749620370).

@@ -7,29 +7,33 @@ Learn how to invite new members to a shared space in Arduino Cloud.
 
 ---
 
-1. Go to [cloud.arduino.cc](https://cloud.arduino.cc/).
+1. Go to [app.arduino.cc](https://app.arduino.cc/)
 
-2. Select the shared space in the top-right dropdown menu.
+2. Select the shared space in the top-left dropdown menu. (If you have more than 3 spaces, a **Switch space** button will appear in the dropdown menu. Click this button and select the shared space in the pop-up window.)
 
-   ![Selecting a shared space in Arduino Cloud, using the space dropdown menu.](img/cloud-space-dropdown-shared.png)
+   ![Selecting a shared space in the space dropdown menu.](img/cloud-dropdown-shared-spaces.png)
 
-3. Open the **Members** tab and click on the **Add Member** button.
+3. In the leftmost sidebar, click on **Space Settings** to expand the options.
 
-   ![Opening the "Members" tab and clicking the "Add Member" button in the top-right.](img/cloud-space-members-add.png)
+   ![Selecting Space Settings in the leftmost sidebar](img/cloud-space-sidebar-settings.png)
 
-4. Invite members:
+4. In the **Manage Members** tab, click on the **ADD MEMBERS** button.
 
-   * **To invite via email:** enter one or more email addresses separated by spaces. Select a role to assign to users that already have an Arduino account. If they don't have an account, they will be asked to create one when joining the space but will be added as students. Their role can be changed by admins once they've joined the space. Click **Invite** to send the invites.
+   ![Opening the "Members" tab and clicking the "Add Member" button in the top-right.](img/cloud-add-members.png)
 
-     ![Inviting admins in the "Invite members" prompt.](img/invite-members.png)
+5. **Invite members:**
 
-   * **To invite with a code/link:** Either share the link (click on "link" to copy) or just the code.
+* **Via email:** enter one or more email addresses separated by spaces. Select a role to assign to users that already have an Arduino account. If they don't have an account, they will be asked to create one when joining the space but will be added as students. Their role can be changed by admins once they've joined the space. Click **Invite** to send the invites.
 
-     ![The shareable link and URL.](img/invite-code.png)
+   ![Inviting admins in the "Invite members" prompt.](img/cloud-invite-email.png)
 
-     Students can join using the code by going to [cloud.arduino.cc](https://cloud.arduino.cc/) and selecting "Join space" in the space dropdown.
+* **With a link/code:**
 
-     ![The space selection dropdown.](img/dropdown-join-space.png)
+  * Share the link (click on "link" to copy) with a student.
+
+  * Or share the code (for minor students only). If the minor student does not belong to any Educational space, an orange banner will be shown in the sidebar when the student opens Arduino Cloud. Clicking on it will open a text box that allows the student to join the space by inserting the code.
+
+     ![The shareable link and URL.](img/cloud-invite-link.png)
 
 ---
 

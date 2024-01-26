@@ -186,6 +186,6 @@ For more information about language support, see the translation projects:
 
 * English
 
-### Arduino Web Editor
+### Arduino Cloud Editor
 
 * English

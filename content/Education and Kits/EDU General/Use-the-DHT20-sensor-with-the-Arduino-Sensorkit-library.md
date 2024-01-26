@@ -55,7 +55,7 @@ Follow these steps to update the Arduino_Sensorkit library in Arduino IDE:
 
 5. Wait for the update process to finish.
 
-The Web Editor uses the latest version of all libraries by default.
+The Cloud Editor uses the latest version of all libraries by default.
 
 ### Uncomment lines for the DHT20
 
