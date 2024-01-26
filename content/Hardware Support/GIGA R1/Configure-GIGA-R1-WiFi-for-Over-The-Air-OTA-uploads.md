@@ -1,5 +1,6 @@
 ---
-title: "Configure GIGA R1 WiFi for Over-The-Air (OTA) uploads"
+title: Configure GIGA R1 WiFi for Over-The-Air (OTA) uploads
+id: 12370721200540
 ---
 
 Learn how to enable [Over-The-Air (OTA) uploads](https://docs.arduino.cc/arduino-cloud/features/ota-getting-started/) for your GIGA R1 WiFi board.
