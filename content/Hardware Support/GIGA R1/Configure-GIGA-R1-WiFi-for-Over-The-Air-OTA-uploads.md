@@ -15,7 +15,7 @@ Follow these steps if you experience any of these errors when attempting an OTA 
 
 > **Note:** The required sketch examples are currently not available in the Web Editor.
 
-1. Open Arduino IDE
+1. Open Arduino IDE.
 
 1. Connect your GIGA R1 WiFi to your computer with a USB-C cable.
 
