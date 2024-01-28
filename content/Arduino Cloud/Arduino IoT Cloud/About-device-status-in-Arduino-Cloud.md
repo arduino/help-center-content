@@ -18,7 +18,8 @@ One of these will be displayed for each device:
 
 After uploading your sketch, it may take a few minutes before the status changes to Online.
 
-> **Note:** Device status is not supported by the LoRa communication protocol, and is not available for MKR WAN 1300, MKR WAN 1310, and other LoRa devices.
+> [!NOTE]
+> Device status is not supported by the LoRa communication protocol, and is not available for MKR WAN 1300, MKR WAN 1310, and other LoRa devices.
 
 ## Further reading
 

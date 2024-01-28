@@ -111,7 +111,8 @@ This is a generic error message indicating that a process has failed.
 
 If the sketch uploads but the device doesn't come online.
 
-> **Note:** Device status is not supported by the LoRa protocol, see [About device status in Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/4407169649682-About-device-status-in-IoT-Cloud).
+> [!NOTE]
+> Device status is not supported by the LoRa protocol, see [About device status in Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/4407169649682-About-device-status-in-IoT-Cloud).
 
 1. Go to the [Devices tab](https://app.arduino.cc/devices) and verify that your device has a linked Thing. If not, you must either create and new Thing, or associate an existing Thing with the device.
 

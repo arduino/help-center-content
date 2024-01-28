@@ -5,8 +5,7 @@ id: 4415094490770
 
 This article describes the rules under which you can distribute a product or project based on Arduino. These rules apply to all derived products and projects regardless of them being commercial or not, open-source or not.
 
-> **Note:**
->
+> [!NOTE]
 > * You can freely use Arduino hardware and software for your personal purposes, or within your company or organization, with no restrictions. The rules described in this document apply only when you distribute products based on Arduino to third parties or you make them public in any form.
 > * If you comply with the open-source licenses of Arduino, you can distribute your software/hardware products for free or commercially. This document provides a summary of such rules for your convenience and does not waive the need to get professional legal advice.
 
@@ -20,7 +19,8 @@ If you’re designing your own board based on the open-source Arduino designs, t
 
 * Your derived board must be open-source hardware, thus full bill of materials and CAD files shall be made public (not just the schematics). Such files shall be licensed with the same license as the one used by us (that is CC-BY-SA-4.0 in most cases).
 
-  > **Note:** If you want to release your derived board without making it open-source hardware, contact us at **license@arduino.cc** to get an exception to this rule.
+  > [!NOTE]
+> If you want to release your derived board without making it open-source hardware, contact us at **license@arduino.cc** to get an exception to this rule.
 
 * Do not use the “Arduino” trademark in your design files or on the product itself as this would be a trademark infringement and may suggest that your board is made or approved by Arduino.
 
@@ -50,13 +50,15 @@ In this case you need to go through three steps:
 
 1. The first thing to do is to check whether you're using any code snippet or library covered by the GNU General Public License (GPL). Unfortunately, in that case you are mandated to disclose the source code of the entire project. To avoid this you'll need to replace that code or library with another one that is made available under a more permissive license such as LGPL, MIT, BSD, Apache-2.0, or MPL-2.0. As an alternative, you can contact the author(s) and ask for a commercial license.
 
-   > **Note:** If you need a commercial license for official libraries developed by Arduino licensed under the GNU GPL, contact us at **license@arduino.cc**.
+   > [!NOTE]
+> If you need a commercial license for official libraries developed by Arduino licensed under the GNU GPL, contact us at **license@arduino.cc**.
 
 2. Prepare a comprehensive document with the list of all the open source components involved, along with the copyright notices and the licenses, and make it available to the end users as part of the documentation.
 
 3. Last but not least, you need to comply with article 4.d of the LGPL license which has specific and very technical requirements. Complying with such requirements, which derive from the LGPL being used in the Arduino core, is usually a matter of providing end users with some documentation and binary files.
 
-   > **Note:** We can provide companies with support and tools that allow them to comply with this requirement in an easy and automated way. Contact us at **license@arduino.cc** for more information.
+   > [!NOTE]
+> We can provide companies with support and tools that allow them to comply with this requirement in an easy and automated way. Contact us at **license@arduino.cc** for more information.
 
 ### Distributing a modified version of an Arduino core or library without disclosing its source code
 
@@ -68,7 +70,8 @@ If you intend to make the Arduino IDE, CLI, or Cloud-CLI available to your users
 
 If you intend to include the CLI in your project and call it as a library (instead of calling it as an executable binary), its GPLv3 license will apply to your code as well which results in the obligation to keep the entire codebase open source.
 
- > **Note:** If you still need to call the CLI as a library in your derived product without having to release the combined work as open source, contact us at **license@arduino.cc** to get an exception to this rule.
+ > [!NOTE]
+> If you still need to call the CLI as a library in your derived product without having to release the combined work as open source, contact us at **license@arduino.cc** to get an exception to this rule.
 
 If you intend to distribute the IDE or CLI _with modifications_, you must keep your modifications open source. Also, you cannot use the "Arduino" trademark in the name of the resulting artifact.
 

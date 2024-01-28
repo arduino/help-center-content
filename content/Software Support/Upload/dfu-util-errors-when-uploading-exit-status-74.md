@@ -64,7 +64,8 @@ dfu-util: More than one DFU capable USB device found! Try `--list' and specify t
 
 To resolve the error, disconnect any extra boards or dfu capable devices you have connected to your computer.
 
-> **Note:** The port selection is not considered when dfu-util is used for uploading the sketch.
+> [!NOTE]
+> The port selection is not considered when dfu-util is used for uploading the sketch.
 
 ---
 

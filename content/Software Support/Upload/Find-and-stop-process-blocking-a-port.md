@@ -105,7 +105,8 @@ In this article:
    33341   ??  S      5:28.07 /Applications/Arduino.app/Contents/MacOS/Arduino
    ```
 
-   > **Note:** In some cases, the parent process may be more informative.
+   > [!NOTE]
+> In some cases, the parent process may be more informative.
    >
    > You can use this command: `ps -o ppid= <PID> | xargs ps`
 
@@ -169,7 +170,8 @@ In this article:
 
    Note the path in the **COMMAND** column. In this example, an instance of Arduino IDE is using the port.
 
-   > **Note:** In some cases, the parent process may be more informative.
+   > [!NOTE]
+> In some cases, the parent process may be more informative.
    >
    > You can use this command: `ps -o ppid= <PID> | xargs ps`
 

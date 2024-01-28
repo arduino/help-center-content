@@ -17,6 +17,7 @@ The programmer selection is **not** used when:
 * Compiling your sketch (for example, when clicking ![Verify button](img/symbol_verify2.png) **Verify**).
 * Uploading without a programmer, by clicking the ![Upload button](img/symbol_upload2.png) **Upload** button.
 
-> **Note:** In Arduino IDE 1.x, if the selected board _only_ supports programmer uploads, the ![Upload button](img/symbol_upload2.png) **Upload** button has the same effect as _Tools > Upload Using Programmer_[^2]
+> [!NOTE]
+> In Arduino IDE 1.x, if the selected board _only_ supports programmer uploads, the ![Upload button](img/symbol_upload2.png) **Upload** button has the same effect as _Tools > Upload Using Programmer_[^2]
 
 [^2]: [Platform specification – Upload Using Programmer by default](https://arduino.github.io/arduino-cli/latest/platform-specification/#upload-using-programmer-by-default)

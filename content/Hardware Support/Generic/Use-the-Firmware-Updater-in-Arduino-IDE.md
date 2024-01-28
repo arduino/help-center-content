@@ -50,7 +50,8 @@ Follow these steps to update your board's wireless connectivity firmware using A
 
 5. Select the latest firmware version on the drop-down menu and click **Install**
 
-   > **Note:** Installation will overwrite any existing sketch on your board.
+   > [!NOTE]
+> Installation will overwrite any existing sketch on your board.
 
     ![Firmware Updater window displaying selected firmware version and the "install" button](img/firmware-updater-arduino-ide-2-select-board-install.png)
 
@@ -74,7 +75,8 @@ Follow these steps to update your board's wireless connectivity firmware using A
 
 ## Arduino IDE 1.8.19
 
-> **Note:** Arduino IDE 1.8.19 is no longer being maintained and uses an older version of the Arduino Firmware Uploader. Because of this, it does not support newer boards like UNO R4 WiFi or Portenta C33.
+> [!NOTE]
+> Arduino IDE 1.8.19 is no longer being maintained and uses an older version of the Arduino Firmware Uploader. Because of this, it does not support newer boards like UNO R4 WiFi or Portenta C33.
 
 To update the firmware in Arduino IDE 1.8.19, follow these steps:
 

@@ -40,7 +40,8 @@ Follow these steps:
 
 5. Select the latest firmware version on the drop-down menu and click **Install**
 
-   > **Note:** Installation will overwrite any existing sketch on your board.
+   > [!NOTE]
+> Installation will overwrite any existing sketch on your board.
 
     ![Firmware Updater window displaying selected firmware version and the "install" button](img/firmware-updater-arduino-ide-2-select-board-install.png)
 
@@ -83,7 +84,8 @@ The code repository for the firmware provides an [updater script](https://github
 1. Download <a class="link-download" href="https://github.com/arduino/uno-r4-wifi-usb-bridge/releases/latest/download/unor4wifi-update-windows.zip">unor4wifi-update-windows.zip</a>
 1. [Unzip](https://support.microsoft.com/windows/f6dde0a7-0fec-8294-e1d3-703ed85e7ebc) the downloaded file.
 1. Double-click on the `update.bat` file that is in the unzipped folder.
-   > **Note:** Depending on your Windows security settings, a **Windows protected your PC** dialog may open with this message:
+   > [!NOTE]
+> Depending on your Windows security settings, a **Windows protected your PC** dialog may open with this message:
    >
    > _Microsoft Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk._
    >

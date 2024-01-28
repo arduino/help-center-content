@@ -56,7 +56,8 @@ If you've installed the **Arduino Mbed OS Giga Boards** package on your computer
 
 1. Right-click inside the Command Prompt window to paste the command, then press <kbd>Enter</kbd> to begin flashing the bootloader.
 
-> **Note:** To use Powershell instead of Command Prompt, copy this command instead:
+> [!NOTE]
+> To use Powershell instead of Command Prompt, copy this command instead:
 >
 > `&"$Env:LOCALAPPDATA\Arduino15\packages\arduino\tools\dfu-util\0.11.0-arduino5\dfu-util" --device ,0x0483:0xdf11 -D "$Env:LOCALAPPDATA\Arduino15\packages\arduino\hardware\mbed_giga\4.0.6\bootloaders\GIGA\bootloader.bin"  -a0 --dfuse-address=0x8000000`
 
@@ -96,7 +97,8 @@ If you've installed the **Arduino Mbed OS Giga Boards** package on your computer
 
 If you prefer to use a graphical interface, you can use <a class="link-external" href="https://www.st.com/en/development-tools/stm32cubeprog.html">STM32CubeProgrammer</a>.
 
-> **Note:** To use STM32CubeProgrammer on macOS, you may need to run the executable directly: Right-click the `.app` container and select **Show package contents**, then navigate into `Contents/MacOs`. Double-click the file `SetupSTM32CubeProgrammer-X_Y_Z_macos` executable.
+> [!NOTE]
+> To use STM32CubeProgrammer on macOS, you may need to run the executable directly: Right-click the `.app` container and select **Show package contents**, then navigate into `Contents/MacOs`. Double-click the file `SetupSTM32CubeProgrammer-X_Y_Z_macos` executable.
 
 1. [Prepare your GIGA R1 WiFI for bootloader flashing](#prepare).
 
@@ -132,7 +134,8 @@ If you prefer to use a graphical interface, you can use <a class="link-external"
 
 1. Click on the **Download** button. If you get another warning message, close it by selecting OK.
 
-   > **Note:** Click on the left part of the button where it says "Download" (not the arrow, which opens a context menu)
+   > [!NOTE]
+> Click on the left part of the button where it says "Download" (not the arrow, which opens a context menu)
 
    <img src="img/stm32cube-download.png" width=800px>
 

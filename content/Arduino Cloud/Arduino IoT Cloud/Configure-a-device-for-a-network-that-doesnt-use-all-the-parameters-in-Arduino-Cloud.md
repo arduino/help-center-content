@@ -3,7 +3,8 @@ title: "Configure a device for a network that doesn't use all the parameters in 
 id: 5940204842780
 ---
 
-> **Note:** Open Wi-Fi networks that require you to interact with a web page (captive portal) before you can access the Internet cannot be used by Arduino Cloud devices.
+> [!NOTE]
+> Open Wi-Fi networks that require you to interact with a web page (captive portal) before you can access the Internet cannot be used by Arduino Cloud devices.
 
 A network configuration in Arduino Cloud cannot be saved unless network parameters for all fields are provided. Some networks may not have all parameters, such as:
 
@@ -50,7 +51,8 @@ To use a device with these networks, you can [set the network parameters in the 
 
 8. Click the ![Cloud Editor Upload button](img/icon_web-editor-upload.png) **Upload** button to upload directly from the Cloud Editor, or go back to Arduino Cloud and upload from the sketch tab.
 
-> **Note:** Each time the sketch is updated from Arduino Cloud (by adding or changing Variables), the changes made to `thingsProperties.h` in the Cloud Editor will be overwritten. To upload the sketch again, simply repeat the steps above.
+> [!NOTE]
+> Each time the sketch is updated from Arduino Cloud (by adding or changing Variables), the changes made to `thingsProperties.h` in the Cloud Editor will be overwritten. To upload the sketch again, simply repeat the steps above.
 
 ---
 
@@ -62,7 +64,8 @@ Remember to set the remaining secrets in the `Secret` tab.
 
 ### Open Wi-Fi network
 
-> **Note:** Open Wi-Fi networks that require you to interact with a web page (captive portal) before you can access the Internet cannot be used by Arduino Cloud devices.
+> [!NOTE]
+> Open Wi-Fi networks that require you to interact with a web page (captive portal) before you can access the Internet cannot be used by Arduino Cloud devices.
 
 ```arduino
 const char SSID[]     = SECRET_SSID; // Network SSID (name)
@@ -71,7 +74,8 @@ const char PASS[]     = "";          // Network password (use for WPA, or use as
 
 ### Open Wi-Fi network (ESP32)
 
-> **Note:** Open Wi-Fi networks that require you to interact with a web page (captive portal) before you can access the Internet cannot be used by Arduino Cloud devices.
+> [!NOTE]
+> Open Wi-Fi networks that require you to interact with a web page (captive portal) before you can access the Internet cannot be used by Arduino Cloud devices.
 
 ```arduino
 const char SSID[]        = SECRET_SSID;          // Network SSID (name)

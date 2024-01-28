@@ -7,7 +7,8 @@ id: 360012076480
 
 1. Connect the Target cable to the Mkr Motor Carrier as shown in the picture below:
 
-   > **Note:** Make sure you connect the cable in the same direction as shown in the picture.
+   > [!NOTE]
+> Make sure you connect the cable in the same direction as shown in the picture.
 
    ![Cable connection](img/MKRmotorCarrier_debug1.png)
 

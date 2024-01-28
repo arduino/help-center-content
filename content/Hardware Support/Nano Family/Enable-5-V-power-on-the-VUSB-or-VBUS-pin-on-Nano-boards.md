@@ -41,7 +41,8 @@ To enable the VUSB pin there are two pads that must be connected. The pads are l
 
 When the pads have been shorted, the VUSB pin outputs whatever power (if any) is available on the USB port.
 
-> **Note:** The board operates on 3.3 V. Do not short the VUSB pin to any of the other pins on the board.
+> [!NOTE]
+> The board operates on 3.3 V. Do not short the VUSB pin to any of the other pins on the board.
 
 ---
 
@@ -63,4 +64,5 @@ The VBUS pin is enabled by default.
 
 The VBUS pin outputs whatever power (if any) is available on the USB port.
 
-> **Note:** The board operates on 3.3 V. Do not short the VBUS pin to any of the other pins on the board.
+> [!NOTE]
+> The board operates on 3.3 V. Do not short the VBUS pin to any of the other pins on the board.

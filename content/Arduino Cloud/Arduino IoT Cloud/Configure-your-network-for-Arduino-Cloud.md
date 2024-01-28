@@ -13,4 +13,5 @@ The Arduino Cloud uses the following domains and ports, which need to be whiteli
 
 You will also need to allow NTP access on port 123 UDP for `time.arduino.cc`.
 
-> **Note:** A home network with a default configuration will usually not prevent any Arduino Cloud connections. You do not need to add any of the configurations above unless you're experiencing problems, or will be using the service on a restricted network.
+> [!NOTE]
+> A home network with a default configuration will usually not prevent any Arduino Cloud connections. You do not need to add any of the configurations above unless you're experiencing problems, or will be using the service on a restricted network.

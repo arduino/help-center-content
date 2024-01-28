@@ -55,7 +55,8 @@ The folder is located in `home/{username}/.arduino15` and is hidden by default. 
 
 ![Enabling hidden files in the Files application on Ubuntu.](img/ubuntu-files-hidden.png)
 
-> **Note:** By default the folder is hidden; therefore, if you're unable to locate the Arduino15 folder please refer to the bottom of the page.
+> [!NOTE]
+> By default the folder is hidden; therefore, if you're unable to locate the Arduino15 folder please refer to the bottom of the page.
 
 ---
 
