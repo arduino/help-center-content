@@ -102,8 +102,13 @@ const md = new MarkdownIt({
         }
     })
     .use(markdownItGitHubAlerts, {
+        classPrefix: 'callout',
         icons: {
-            note: '<span class="alert-info-icon">test</span>'
+            note: '<span class="callout-icon callout-icon-note"></span>',
+            tip: '<span class="callout-icon callout-icon-tip"></span>',
+            important: '<span class="callout-icon callout-icon-important"></span>',
+            warning: '<span class="callout-icon callout-icon-warning"></span>',
+            caution: '<span class="callout-icon callout-icon-caution"></span>'
         }
     })
     .use(markdownItAnchor, {
