@@ -226,7 +226,7 @@ async function main() {
         console.log(clc.underline('\nFetching article attachments...'));
         try {
             await Promise.all([
-                exTime(getAllAttachmentsSync(localArticles)).then(result => {
+                exTime(getAllAttachmentsSync(zendeskArticles)).then(result => {
                     console.log(`Fetched ${result.data.length} article attachment lists in ${result.exTime} ms.`);
                     return result.data;
                 })
@@ -943,17 +943,23 @@ function getAllAttachments(localArticles) {
     return Promise.all(attachment_promises);
 }
 
-async function getAllAttachmentsSync(localArticles) {
+async function getAllAttachmentsSync(zendeskArticles) {
     var attachmentLists = [];
-    for (const localArticle of localArticles) {
-        const id = localArticle.attributes.id;
-        const draft = localArticle.attributes.draft; // Will fail for drafts unless authenticated
+    for (const zendeskArticle of zendeskArticles) {
+        const id = zendeskArticle.id;
+        const draft = zendeskArticle.draft; // Will fail for drafts unless authenticated
         if (id) {
+            console.log('Fetching attachments for article ' + id);
             var result = await client.articleattachments.list(id);
-            attachmentLists.push({
-                "article_id": id,
-                "attachments": result.article_attachments
-            })
+            if (!result.article_attachments) {
+                console.log(`Warning: No article attachment array for article with ID ${id}`);
+                console.log(result);
+            } else {
+                attachmentLists.push({
+                    "article_id": id,
+                    "attachments": result.article_attachments
+                })
+            }
         }
     }
     return attachmentLists;
