@@ -23,11 +23,11 @@ Some Arduino boards come with an embedded Inertial Measurement Unit (IMU) in the
 Here are some tips to find an IMU library for a non-Arduino board:
 
 * Check the technical specifications for the board and determine the name of the IMU sensor. Use a search engine to look for compatible libraries.
-* Go to <a class="link-external" href="https://search.arduino.cc/search?tab=reference">search.arduino.cc and search for your imu sensor"imu" in the Documentation tab</a>.
+* Go to <a class="link-external" href="https://search.arduino.cc/search?tab=reference">search.arduino.cc and search for "imu" or a specific name in the Documentation tab</a>.
 * Contact your reseller or the board manufacturer.
 
 ---
 
 ## Further reading
 
-* <a class="link-external" href="https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE">Add libraries to Arduino IDE</a>
+* <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE">Add libraries to Arduino IDE</a>

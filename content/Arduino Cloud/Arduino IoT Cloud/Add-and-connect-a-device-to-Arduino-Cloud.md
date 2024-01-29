@@ -21,27 +21,27 @@ You'll need an Arduino account and the [Arduino Create Agent](https://support.ar
 
 ### Step 1: Add the device {#add-the-device}
 
-1. Go to Arduino Arduino Cloud and open the [Devices tab](https://app.arduino.cc/devices).
+1. Go to Arduino Cloud and open the [Devices tab](https://app.arduino.cc/devices).
 
 2. Click the **Add Device** button in the top-right or middle of the page.
 
-   ![The two location that the "Add Device" button can appear.](img/device-add-button.png)
+   ![The two locations that the "Add Device" button can appear.](img/device-add-button.png)
 
-3. Select your device type:
-
-   * _Set up an Arduino device:_ For Arduino boards.
-   * _Set up a 3rd Party Device:_ ESP8266, ESP32, and more.
+3. Select your device type and set up a compatible Arduino board or third party device automatically. Alternatively, you can mannually setup your device.
 
    > Hover over the <kbd>i</kbd> for a full list of compatible devices.
 
+   ![The Setup Device menu](img/setup-device-menu.png)
+
 4. **Proceed with the instructions to add your device.**
 
-   * _ESP32 and ESP8266:_ Make sure to save any Device ID and Secret key that's provided.
-   * _LoRaWAN<sup>®</sup>:_ Make sure you select the [right frequency band for your region](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country/). When completing the setup you'll receive a registration email for your [The Things Stack Network Account](https://docs.arduino.cc/cloud/iot-cloud/tutorials/cloud-lora-getting-started#step-2-registering-the-things-stack-network-account).
+   > _Secrets:_ Secret keys cannot be recovered if lost. Make sure to save any Device ID and Secret key that's provided when adding an Arduino UNO R4 WiFi, Arduino Nano ESP32, or a 3rd party device (ESP32 and ESP8266).
+
+   * _LoRaWAN<sup>®</sup>:_ Make sure you select the [right frequency band for your region](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country/). When completing the setup, you'll receive a registration email for your <a class="link-external" href="https://www.thethingsnetwork.org/">The Things Stack Network Account</a>.
 
 5. When finished, your new device will be added to your list of devices. Note that it will have an _offline_ status at this point.
 
-   ![A MKR WiFi 1010 in the Device tab.](img/iot-device-added.png)
+   ![A Nano 33 IoT in the Device tab.](img/iot-device-added.png)
 
 ### Step 2: Create and configure a Thing {#create-thing}
 
@@ -49,13 +49,13 @@ You'll need an Arduino account and the [Arduino Create Agent](https://support.ar
 
 2. Click **Create Thing**.
 
-   ![The two location that the "Create Thing" button can appear.](img/iot-thing-create.png)
+   ![The two locations that the "Create Thing" button can appear.](img/iot-thing-create.png)
 
 3. Configure **Device** and **Network** for the new Thing:
 
    ![A new, unconfigured Thing.](img/thing-setup-before.png)
 
-   * Click the **Device selection** button and select your device.
+   * Click the **Associated Device selection** button and select your device.
 
    * Click the **Network configure** button and enter the network credentials.
 

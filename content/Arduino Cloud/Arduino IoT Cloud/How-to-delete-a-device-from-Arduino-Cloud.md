@@ -15,24 +15,22 @@ Configured devices can be deleted if you're no longer using them or if you've re
 
    ![Delete option when selecting the board's "more options" button](img/Arduino-Cloud_device-deletion_SINGLE_1.png)
 
-3. Confirm deletion of the device by clicking "Yes, Delete".
+3. Confirm deletion of the device by clicking "Yes, Delete" on the pop-up.
 
-   ![Deletion confirmation pop-up](img/Arduino-Cloud_device-deletion_SINGLE_2_CROPPED_MORE.png)
+   ![Deletion confirmation pop-up](img/Arduino-Cloud_device-deletion_confirm.png)
 
 ---
 
-## Deleting multiple devices
+## Deleting a single or multiple devices
 
 1. Go to the [Devices tab](https://app.arduino.cc/devices).
 
-   ![Devices section](img/Arduino-Cloud_device-deletion_0.png)
-
 2. Select the device(s) you want to delete by checking the boxes to the left in the device row.
 
-   Then, click the Delete button in the bottom right.
+   Then, click the Remove button in the bottom right.
 
    ![Delete button visible when several devices are selected](img/Arduino-Cloud_device-deletion_1_overlayed.png)
 
-3. Confirm the deletion by clicking "Yes, Delete".
+3. Confirm the deletion by clicking "Yes, Delete" on the pop-up.
 
-   ![Delete confirmation button](img/Arduino-Cloud_device-deletion_2.png)
+   ![Deletion confirmation pop-up](img/Arduino-Cloud_device-deletion_confirm.png)
