@@ -19,7 +19,7 @@ You'll need an Arduino account and the [Arduino Create Agent](https://support.ar
 
 <a id="add-the-device"></a>
 
-### Step 1: Add the device
+### Step 1: Add the device {#add-the-device}
 
 1. Go to Arduino Cloud and open the [Devices tab](https://app.arduino.cc/devices).
 
@@ -43,9 +43,7 @@ You'll need an Arduino account and the [Arduino Create Agent](https://support.ar
 
    ![A Nano 33 IoT in the Device tab.](img/iot-device-added.png)
 
-<a id="create-thing"></a>
-
-### Step 2: Create and configure a Thing
+### Step 2: Create and configure a Thing {#create-thing}
 
 1. Open the [Things tab](https://app.arduino.cc/things).
 
@@ -70,7 +68,7 @@ You'll need an Arduino account and the [Arduino Create Agent](https://support.ar
 
 <a id="upload-sketch"></a>
 
-### Step 3: Upload the Thing sketch
+### Step 3: Upload the Thing sketch {#upload-sketch}
 
 1. With the Thing open, open the **Sketch** tab.
 
@@ -84,7 +82,8 @@ You'll need an Arduino account and the [Arduino Create Agent](https://support.ar
 
    ![A thing in Arduino Cloud. The associated device is online.](img/iot-device-online.png)
 
-   > **Note:** Device status is not supported by the LoRa protocol, see [About device status in Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/4407169649682-About-device-status-in-IoT-Cloud).
+   > [!NOTE]
+   > Device status is not supported by the LoRa protocol, see [About device status in Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/4407169649682-About-device-status-in-IoT-Cloud).
 
 ---
 

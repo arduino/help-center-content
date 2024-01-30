@@ -5,7 +5,8 @@ id: 4407169649682
 
 In Arduino Cloud, the **device status** describes the connection between your device and the Cloud.
 
-> **Note:** Device status is not supported by the LoRa communication protocol, and is not available for MKR WAN 1300, MKR WAN 1310, and other LoRa devices.
+> [!NOTE]
+> Device status is not supported by the LoRa communication protocol, and is not available for MKR WAN 1300, MKR WAN 1310, and other LoRa devices.
 
 ![Devices in Arduino Cloud with different statuses.](img/Board_status.png)
 

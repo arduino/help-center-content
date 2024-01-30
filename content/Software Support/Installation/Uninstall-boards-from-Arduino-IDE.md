@@ -11,7 +11,8 @@ The following instructions to uninstall is not limited to the core in this examp
 
 ## Uninstall using the Boards Manager
 
-> **Note:** In Arduino IDE 1.x, the "Arduino AVR Boards" package is bundled with [the application files](https://support.arduino.cc/hc/en-us/articles/4412943340178-Open-the-Arduino-IDE-installation-folder) and cannot be uninstalled using the Boards Manager.
+> [!NOTE]
+> In Arduino IDE 1.x, the "Arduino AVR Boards" package is bundled with [the application files](https://support.arduino.cc/hc/en-us/articles/4412943340178-Open-the-Arduino-IDE-installation-folder) and cannot be uninstalled using the Boards Manager.
 
 The Boards Manager provides the most convenient way to remove unwanted or unused boards.
 

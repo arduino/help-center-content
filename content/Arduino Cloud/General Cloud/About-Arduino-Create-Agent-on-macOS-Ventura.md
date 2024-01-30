@@ -3,7 +3,8 @@ title: About Arduino Create Agent on macOS Ventura
 id: 6489572696220
 ---
 
-> **Note:** MacOS Ventura introduced new security requirements that resulted in issues running or installing the Arduino Create Agent. As a temporary solution, a special release[^1] was made for macOS Ventura with the auto-update feature disabled. These issues have been resolved in newer releases (1.3.0+).
+> [!NOTE]
+> MacOS Ventura introduced new security requirements that resulted in issues running or installing the Arduino Create Agent. As a temporary solution, a special release[^1] was made for macOS Ventura with the auto-update feature disabled. These issues have been resolved in newer releases (1.3.0+).
 
 Learn about using the Arduino Create Agent on macOS Ventura.
 

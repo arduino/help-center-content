@@ -61,7 +61,7 @@ Payment or billing info for School and Enterprise plans can only be changed by t
 
 5. Click REVIEW PAYMENT INFORMATION to continue.
 
-> **Note:**
+> [!NOTE]
 >
 > * If the button is greyed out, the currently selected plan is already active with your account.
 > * The Entry plan is only available as a yearly option.
@@ -85,7 +85,8 @@ School and Enterprise plans can only be modified by the **subscription admin**.
 
 4. A confirmation message will be sent to the email address connected to your Arduino account.
 
-> **Note:** You will retain access to your paid features until the end of the billing cycle. See [Billing and feature changes when switching to a different Cloud plan](https://support.arduino.cc/hc/en-us/articles/4401874211730) for more information.
+> [!NOTE]
+> You will retain access to your paid features until the end of the billing cycle. See [Billing and feature changes when switching to a different Cloud plan](https://support.arduino.cc/hc/en-us/articles/4401874211730) for more information.
 
 School and Enterprise plans can only be canceled by the **subscription admin**.
 

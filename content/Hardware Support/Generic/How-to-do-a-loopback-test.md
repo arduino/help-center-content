@@ -47,7 +47,8 @@ A **loopback test** is a troubleshooting procedure to test the serial communicat
 
 ### If the loopback test failed
 
-> **Note:** This test will always fail for the CH340 USB to serial chip used on some derivative boards.
+> [!NOTE]
+> This test will always fail for the CH340 USB to serial chip used on some derivative boards.
 
 A failed loopback test failed indicates that the USB to TTL serial adapter is damaged and that the board should be replaced. [Contact us](https://www.arduino.cc/en/contact-us/) for questions about warranty, or visit [the Arduino Store](https://store.arduino.cc/).
 

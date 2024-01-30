@@ -5,7 +5,8 @@ id: 4410177782418
 
 Learn what to do if the Arduino IDE hangs, freezes, or otherwise becomes unresponsive.
 
-> **Note:** This article covers performance issues with the Arduino IDE application, not [errors when uploading](https://support.arduino.cc/hc/en-us/articles/4402764401554).
+> [!NOTE]
+> This article covers performance issues with the Arduino IDE application, not [errors when uploading](https://support.arduino.cc/hc/en-us/articles/4402764401554).
 
 ## Restart Arduino IDE
 
