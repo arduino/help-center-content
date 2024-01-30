@@ -90,7 +90,7 @@ avrdude: jtag3_open_common()</a></li>
 </table>
 
 > [!NOTE]
->  Only errors that do not link to other pages are listed below.
+> Only errors that do not link to other pages are listed below.
 
 <a id="no-device-found-on-port"></a>
 

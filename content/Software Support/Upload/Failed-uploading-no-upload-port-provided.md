@@ -26,7 +26,7 @@ Use one of these methods to select a port:
 * Alternatively, manually select the port with the **Tools > Port** menu bar option.
 
   > [!NOTE]
-> In IDE 2, the Tools > Port menu will only display if at least one port was detected. If it's missing, see [If your board is not detected by Arduino IDE](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-does-not-appear-in-the-port-menu).
+  > In IDE 2, the Tools > Port menu will only display if at least one port was detected. If it's missing, see [If your board is not detected by Arduino IDE](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-does-not-appear-in-the-port-menu).
 
 ---
 

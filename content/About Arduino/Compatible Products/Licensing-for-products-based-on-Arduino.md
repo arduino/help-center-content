@@ -6,6 +6,7 @@ id: 4415094490770
 This article describes the rules under which you can distribute a product or project based on Arduino. These rules apply to all derived products and projects regardless of them being commercial or not, open-source or not.
 
 > [!NOTE]
+>
 > * You can freely use Arduino hardware and software for your personal purposes, or within your company or organization, with no restrictions. The rules described in this document apply only when you distribute products based on Arduino to third parties or you make them public in any form.
 > * If you comply with the open-source licenses of Arduino, you can distribute your software/hardware products for free or commercially. This document provides a summary of such rules for your convenience and does not waive the need to get professional legal advice.
 

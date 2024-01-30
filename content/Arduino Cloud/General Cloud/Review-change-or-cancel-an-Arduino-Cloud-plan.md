@@ -62,6 +62,7 @@ Payment or billing info for School and Enterprise plans can only be changed by t
 5. Click REVIEW PAYMENT INFORMATION to continue.
 
 > [!NOTE]
+>
 > * If the button is greyed out, the currently selected plan is already active with your account.
 > * The Entry plan is only available as a yearly option.
 > * Plan upgrades will take effect immediately. When downgrading your plan, you will retain access to your paid features until the end of the billing cycle. See [Billing and feature changes when switching to a different Cloud plan](https://support.arduino.cc/hc/en-us/articles/4401874211730) for more information.
