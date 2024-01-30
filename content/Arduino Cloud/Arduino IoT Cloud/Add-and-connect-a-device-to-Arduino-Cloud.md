@@ -83,7 +83,7 @@ You'll need an Arduino account and the [Arduino Create Agent](https://support.ar
    ![A thing in Arduino Cloud. The associated device is online.](img/iot-device-online.png)
 
    > [!NOTE]
-> Device status is not supported by the LoRa protocol, see [About device status in Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/4407169649682-About-device-status-in-IoT-Cloud).
+   > Device status is not supported by the LoRa protocol, see [About device status in Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/4407169649682-About-device-status-in-IoT-Cloud).
 
 ---
 

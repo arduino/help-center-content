@@ -135,7 +135,7 @@ If you prefer to use a graphical interface, you can use <a class="link-external"
 1. Click on the **Download** button. If you get another warning message, close it by selecting OK.
 
    > [!NOTE]
-> Click on the left part of the button where it says "Download" (not the arrow, which opens a context menu)
+   > Click on the left part of the button where it says "Download" (not the arrow, which opens a context menu)
 
    <img src="img/stm32cube-download.png" width=800px>
 

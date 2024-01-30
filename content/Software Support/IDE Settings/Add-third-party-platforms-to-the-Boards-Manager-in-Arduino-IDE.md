@@ -37,7 +37,7 @@ Follow these steps:
 2. Find the **Additional boards manager URLs** setting toward the bottom.
 
    > [!NOTE]
-> If you can't find the setting, put your cursor in the middle of the Preferences window and scroll down.
+   > If you can't find the setting, put your cursor in the middle of the Preferences window and scroll down.
 
    ![Preferences, the text "Additional boards manager URLs" is highlighted.](img/ide2-preferences-board-manager-urls.png)
 

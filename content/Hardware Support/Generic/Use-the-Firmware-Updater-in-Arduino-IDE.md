@@ -51,7 +51,7 @@ Follow these steps to update your board's wireless connectivity firmware using A
 5. Select the latest firmware version on the drop-down menu and click **Install**
 
    > [!NOTE]
-> Installation will overwrite any existing sketch on your board.
+   > Installation will overwrite any existing sketch on your board.
 
     ![Firmware Updater window displaying selected firmware version and the "install" button](img/firmware-updater-arduino-ide-2-select-board-install.png)
 

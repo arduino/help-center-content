@@ -52,7 +52,7 @@ Within the platform directory, the usb to serial firmware is found in `firmwares
    ```
 
    > [!NOTE]
-> For older versions of dfu-programmer, replace `read` with `dump` for the commands above.
+   > For older versions of dfu-programmer, replace `read` with `dump` for the commands above.
 
    One of these command should read the memory successfully, and print it to terminal or indicate if it's empty. Use the name from the successful command in the following steps.
 

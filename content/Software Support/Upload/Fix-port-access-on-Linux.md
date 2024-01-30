@@ -129,7 +129,7 @@ Another cause of errors are other processes that are using the port.
    Note the path in the **COMMAND** column. In this example, an instance of Arduino IDE is using the port.
 
    > [!NOTE]
-> In some cases, the parent process may be more informative.
+   > In some cases, the parent process may be more informative.
    >
    > You can use this command: `ps -o ppid= <PID> | xargs ps`
 
