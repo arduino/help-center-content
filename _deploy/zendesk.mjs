@@ -46,7 +46,7 @@ const verbose = program.opts().verbose;
 const cacheRead = program.opts().cacheRead;
 const cacheSave = program.opts().cacheSave;
 const htmlSave = program.opts().htmlSave;
-const htmlDiff = program.opts().htmlDiff;
+const htmlDiff = program.opts().htmlDiff; // TODO
 const wait = program.opts().wait;
 const syncIndex = program.opts().syncIndex;
 const skipAlgolia = program.opts().skipAlgolia;
@@ -133,7 +133,7 @@ const fsPromises = fs.promises;
 import fetch from 'node-fetch';
 import FormData from 'form-data';
 import uslug from 'uslug';
-import * as Diff from 'diff';
+import diff from 'fast-diff';
 
 /* Run main function */
 main();
@@ -221,12 +221,6 @@ async function main() {
             console.error('Error occured fetching data from Zendesk.')
             throw error;
         }
-
-        /*
-        console.log(clc.underline(`\nWaiting for 60 second(s)...`));
-        await delay(60 * 1000);
-        console.log('Done.\n');
-        */
 
         console.log(clc.underline('\nFetching article attachments...'));
         try {
@@ -728,9 +722,6 @@ function compareHTML(a, b) {
         collapseWhitespace: true
     });
 
-    if (localRender != remoteRender) {
-        printHtmlDiff(remoteRender, localRender);
-    }
     return (localRender == remoteRender);
 }
 
@@ -764,7 +755,7 @@ function getAttachmentReplacements(article) {
             if (zdAttachment) { // Match found
                 attachmentReplacements.push({
                     "src": src,
-                    "target": zdAttachment.content_url
+                    "target": zdAttachment.content_url // .replace('/' + zdAttachment.file_name, '')
                 });
                 // Remove processed
                 zdAttachment.used = true;
@@ -954,7 +945,9 @@ async function getAllAttachmentsSync(zendeskArticles) {
         const id = zendeskArticle.id;
         const draft = zendeskArticle.draft; // Will fail for drafts unless authenticated
         if (id) {
-            console.log('Fetching attachments for article ' + id);
+            if (verbose) {
+                console.log('Fetching attachments for article ' + id);
+            }
             var result = await client.articleattachments.list(id);
             if (!result.article_attachments) {
                 console.log(`Warning: No article attachment array for article with ID ${id}`);
@@ -1108,22 +1101,21 @@ async function deleteOrphanedSearchObjects(articles) {
 }
 
 function printHtmlDiff(oldHtml, newHtml) {
-
-    const diff = Diff.diffChars(oldHtml, newHtml);
-    var diffOutput = "";
-    diff.forEach((part) => {
-        // green for additions, red for deletions
-        // grey for common parts
-        const color = part.added ? 'green' :
-            part.removed ? 'red' : 'grey';
-        if (color == 'green') {
-            diffOutput = diffOutput + clc.green(part.value);
-        } else if (color == 'red') {
-            //console.log(clc.red(part.value));
-            diffOutput = diffOutput + clc.red(part.value);
-        } else {
-            // diffOutput = diffOutput + part.value;
-        }
-    });
-    console.log(diffOutput);
+    let htmlDiff = diff(oldHtml, newHtml);
+    for (var s of htmlDiff) {
+        switch (s[0]) {
+            case diff.EQUAL:
+              console.log(s[1]);
+              break;
+            case diff.INSERT:
+                console.log(clc.bgGreen(s[1]))
+                break;
+            case diff.DELETE:
+              console.log(clc.bgRed(s[1]));
+              break;
+            default:
+              throw new Error("This shouldn't happen");
+          }
+          
+    }
 }
