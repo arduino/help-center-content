@@ -24,7 +24,7 @@ The library includes examples sketches to help you get started. To open them, fo
 
 2. Choose "Examples" (under Examples for Custom Libraries)
 
-2. Select the example you want to open.
+3. Select the example you want to open.
 
 ## Further reading
 
