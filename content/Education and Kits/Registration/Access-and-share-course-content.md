@@ -8,7 +8,7 @@ Learn how to access and share courses in Arduino Cloud.
 In this article:
 
 * [Unlock course access](#unlock-course-access)
-* [View your courses](#view-your-courses)
+* [View a course](#view-your-courses)
 * [Create or join shared spaces](#create-or-join-shared-spaces)
 * [Share a registered course with a space](#share-a-course)
 * [Add members to a space](#add-members-to-a-space)
@@ -21,11 +21,34 @@ In this article:
 
 You can gain access to courses in different ways:
 
-* Any paid Cloud plan will grant access to **all courses**:
-  * **Individual plans (Entry, Maker, Maker Plus):** When you sign up for an individual Cloud plan, you can access all courses when viewing your personal space (My Cloud).
-  * **School Plan:** When a shared space is upgraded with a School plan, all members of that space can access all courses when viewing that space.
-* Some kits include a **registration code**. Registering the kit unlocks permanent access to the course for that kit, and does not require an active Cloud plan. You can keep the course inside your personal space, or share it with a shared space for education, which lets all members of that space access the course.
-* Additionally, some content (like the **Oplà IoT Kit** course) may be available for free.
+### Unlock with a Cloud plan
+
+Any paid Cloud plan will grant access to all courses:
+
+* **Individual plan:** When you sign up for a paid individual Cloud plan (Entry, Maker, Maker Plus), you can access all courses when viewing your Private space.
+* **School Plan:** When a shared space is upgraded with a School plan, all members of that space can access all courses when viewing that space.
+
+To learn how to switch between spaces and view courses, see [View a course](#view-your-courses).
+
+### Unlock with registration code
+
+> [!IMPORTANT]
+> To share access to the kit, it needs to be added to a shared space.
+>
+> If you need to transfer after it's been added to a space, please [contact us](https://www.arduino.cc/en/contact-us/).
+
+Some kits include a **registration code**. Registering the kit unlocks permanent access to the course for that kit, and does not require an active Cloud plan.
+
+When registering the kit, you can choose where to add the kit:
+
+* Inside your Private space
+* Add it to a shared space (School space)
+
+To learn more about kit registration, see [Register an Arduino Education Kit](https://support.arduino.cc/hc/en-us/articles/4407393580818-Register-an-Arduino-Education-Kit).
+
+### Free courses
+
+Some courses may be available for free and are available by default in all course-enabled spaces.
 
 ---
 
@@ -37,11 +60,17 @@ Follow these steps:
 
 1. Go to [app.arduino.cc](https://app.arduino.cc/)
 
-2. Select a space in the top-left dropdown menu.
+2. The name of the selected space is displayed at the top of the left sidebar.
 
-3. Click the **Courses** tab in the leftmost sidebar to see the available courses.
+3. To change the selected space, click on the space name and select **Switch space** in the menu.
 
-4. Click on a course to open the content.
+   ![Switching space in Arduino Cloud.](img/switch-space-double.png)
+
+4. Click the **Courses** tab in the leftmost sidebar to see the available courses.
+
+   ![Opening the Courses tab.](img/courses-tab.png)
+
+5. Click on a course to open the content.
 
 ---
 
@@ -55,7 +84,7 @@ Follow these steps:
 
 1. Go to [app.arduino.cc/space](https://app.arduino.cc/space)
 
-2. Select _For Education_.
+2. Select **Shared space**.
 
 3. Fill in additional information.
 
@@ -63,7 +92,7 @@ Follow these steps:
 
 Depending on how you were invited, you can join a shared space in different ways:
 
-* **Email invitation:** find the invitation email in your inbox and click _JOIN NOW_.
+* **Email invitation:** find the invitation email in your inbox and click JOIN NOW.
 
 * **Shared link:**  If you received a direct link, click on it or enter it into your browser.
 
@@ -75,7 +104,10 @@ Depending on how you were invited, you can join a shared space in different ways
 
 ## Share a registered course with a space
 
-Kits that were activated with a **registration code** can be shared with a space:
+When activating a kit using a **registration code**, you can share it with others by adding it to a School space (shared space for education).
+
+> [!WARNING]
+> To share a course with others, and for features like Teacher's Notes to work correctly, you must add the kit to a shared space.
 
 1. Go to [app.arduino.cc](https://app.arduino.cc/)
 
@@ -107,7 +139,7 @@ Follow these steps:
 
 4. Open the **Manage Members** tab.
 
-5. Click the **ADD MEMBERS** button.
+5. Click the **ADD MEMBERS** button in the top-right corner.
 
 6. Proceed with the instructions.
 
