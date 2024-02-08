@@ -1,10 +1,31 @@
 ---
-title: "Where is the library for the Portenta Machine Control?"
+title: "Use the library for Portenta Machine Control"
 id: 4404060840338
 ---
 
-The library that has been developed for the Portenta Machine Control can be found in Arduino IDE Library Manager. To install it simply open Arduino IDE and click on `Tools > Manage Libraries`. Then search for "Arduino_MachineControl" and click on the install button.
+The **[Arduino_PortentaMachineControl](https://www.arduino.cc/reference/en/libraries/arduino_portentamachinecontrol/)** library enables efficient management of Portenta Machine Control features.
 
-The library includes several example sketches that will become available in the examples section of Arduino IDE once the library is added. The examples included cover the main functionalities of the Machine Control such as analog input/output, encoders, and digital input/outputs. The examples can be found from Arduino IDE menu 'File > Examples > Arduino_MachineControl'.
+> [!IMPORTANT]
+> This library has officially replaced the older **Arduino_MachineControl** library.
 
-Updating Mbed Core in the Boards Manager (`Tools > Board: > Boards Manager...`) is recommended before running any library example.
+Follow these steps to install the library in Arduino IDE:
+
+1. Open ![Library Manager icon](img/symbol_library.png) **Library Manager** from the sidebar or by selecting Tools > Manage Libraries in the top menu bar.
+
+2. Search for "Arduino_PortentaMachineControl" by Arduino.
+
+3. Click **Install**.
+
+4. If asked whether to install library dependencies, select **Install all** (recommended).
+
+The library includes examples sketches to help you get started. To open them, follow these steps:
+
+1. Select File > Examples in the top menu bar.
+
+2. Choose "Examples" (under Examples for Custom Libraries)
+
+2. Select the example you want to open.
+
+## Further reading
+
+* [Setting Up Portenta H7 For Arduino](https://docs.arduino.cc/tutorials/portenta-h7/setting-up-portenta/){.link-external}
