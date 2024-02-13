@@ -7,14 +7,12 @@ Learn how to activate your kit and access the online learning content for your A
 
 ---
 
-> [!IMPORTANT]
+> [!WARNING]
 > To share access to the kit, it needs to be added to a shared space.
 >
 > If you need to transfer after it's been added to a space, please [contact us](https://www.arduino.cc/en/contact-us/).
 
 1. Go to [app.arduino.cc/registration](https://app.arduino.cc/registration)[^1].
-
-   [^1]: You can also access this page anywhere on arduino.cc by selecting _![Arduino account symbol.](img/symbol_profile.png) > My Courses_ and clicking the **"Register Kit"** button.
 
 2. Choose whether to add the kit to your private space, or add it to a shared space.
 
