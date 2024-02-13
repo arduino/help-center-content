@@ -40,7 +40,9 @@ The currently supported boards include:
 ## Use the Cloud Editor on Chromebook
 
 > [!IMPORTANT]
-> The first time you use your board with Chromebook, you need to allow access to the serial port. To do this, attempt to upload a sketch (even if no port is available).
+> The first time you use your board with Chromebook, you need to allow access to the serial port.
+>
+> To do this, attempt to upload a sketch (even if no port is available).
 
 Follow these steps:
 
