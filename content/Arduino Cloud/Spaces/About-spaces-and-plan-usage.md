@@ -1,5 +1,6 @@
 ---
-title: "About spaces and plan usage"
+title: About spaces and plan usage
+id: 12679143837340
 ---
 
 Learn how use Cloud plan features in Spaces in Arduino Cloud.

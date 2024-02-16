@@ -1,5 +1,6 @@
 ---
-title: "Disband a space"
+title: Disband a space
+id: 12679147435676
 ---
 
 Learn about disbanding a space in Arduino Cloud.
