@@ -29,7 +29,8 @@ If you still get an error, you'll find instructions for specific error messages 
 
 ## List of errors
 
-> **Note:** _Exit status 1_ only indicates that the process has failed. Look for preceding lines in the error output for more specific information.
+> [!NOTE]
+> _Exit status 1_ only indicates that the process has failed. Look for preceding lines in the error output for more specific information.
 
 <table>
 <tr>
@@ -88,7 +89,8 @@ avrdude: jtag3_open_common()</a></li>
 </tr>
 </table>
 
-> **Note:**  Only errors that do not link to other pages are listed below.
+> [!NOTE]
+> Only errors that do not link to other pages are listed below.
 
 <a id="no-device-found-on-port"></a>
 

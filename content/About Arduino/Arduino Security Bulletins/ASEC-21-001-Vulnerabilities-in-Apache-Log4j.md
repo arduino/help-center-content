@@ -24,4 +24,5 @@ The Log4j library was removed in Arduino IDE 1.8.19.
 | 2021-12-14  | [1.8.17](https://github.com/arduino/Arduino/releases/tag/1.8.17)                | Upgraded Log4j to 2.15.0, resolving [CVE-2021-44228](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228)                                                                                                                                                                         |
 | 2021-09-06  | [1.8.16](https://github.com/arduino/Arduino/releases/tag/1.8.16)                | Using Log4j 2.12.0                                                                                                                                                                                                                                                                          |
 
-> **Note:** The record creation date may reflect when the CVE ID was allocated or reserved, and does not necessarily indicate when this vulnerability was discovered, shared with the affected vendor, publicly disclosed, or updated in CVE.
+> [!NOTE]
+> The record creation date may reflect when the CVE ID was allocated or reserved, and does not necessarily indicate when this vulnerability was discovered, shared with the affected vendor, publicly disclosed, or updated in CVE.

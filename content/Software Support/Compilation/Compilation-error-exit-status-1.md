@@ -5,7 +5,8 @@ id: 6554914611228
 
 When you verify or upload a sketch, the error `Compilation error: exit status 1` may appear in the console and in a pop-up notification.
 
-> **Note:** For other compilation errors, see [If your sketch doesn't compile](https://support.arduino.cc/hc/en-us/articles/4402764401554-If-your-sketch-doesn-t-compile).
+> [!NOTE]
+> For other compilation errors, see [If your sketch doesn't compile](https://support.arduino.cc/hc/en-us/articles/4402764401554-If-your-sketch-doesn-t-compile).
 
 ---
 

@@ -8,7 +8,7 @@ Webhooks allow you to send and receive automated messages to other services. For
 These are the available platforms you can use webhooks with:
 
 * [IFTTT](https://ifttt.com/maker_webhooks) > Allows you to integrate services with your DIY projects. With IFTTT you can create Applets that work with any device or app that can make or receive a web request.
-* [Google APIs](https://developers.google.com/apis-explorer) > With Google APIs you can develop application programming interfaces (APIs) to communicate with Google services such as Search, Gmail, Translate or Google Maps apps or other applications like Arduino IoT Cloud.
+* [Google APIs](https://developers.google.com/apis-explorer) > With Google APIs you can develop application programming interfaces (APIs) to communicate with Google services such as Search, Gmail, Translate or Google Maps apps or other applications like Arduino Cloud.
 * [Google Script](https://script.google.com/home) > Allows you to interact with all your Google G-Suite files such as Google Sheets, Docs and more.
 * [Zapier](https://zapier.com/developer/documentation/v2/rest-hooks/) > With Zapier you can connect your APIs quickly with their visual builder and allows you to build an integration and preview it as a user in real time.
 

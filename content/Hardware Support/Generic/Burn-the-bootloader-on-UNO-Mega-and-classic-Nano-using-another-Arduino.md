@@ -16,7 +16,8 @@ AVR boards are programmed with the SPI interface (COPI, CIPO and SCK signals). O
 * [The digital and power pins](#common-pins). These are the most commonly used pins on Arduino, and you'll only need six standard male-to-male jumper wires.
 * [The ICSP header](#icsp). CIPO, COPI, and SCK are available in a consistent physical location on the ICSP header. You'll need female-to-female jumper cables for these pins.
 
-> **Note:** It's recommended to use a board of the AVR architecture as the programmer. Although the _ArduinoISP_ programmer sketch will compile for many boards, you may experience issues running it on non-AVR boards.
+> [!NOTE]
+> It's recommended to use a board of the AVR architecture as the programmer. Although the _ArduinoISP_ programmer sketch will compile for many boards, you may experience issues running it on non-AVR boards.
 >
 > These are examples of Arduino AVR boards that you can use as "Arduino as ISP" programmers:
 >
@@ -26,7 +27,8 @@ AVR boards are programmed with the SPI interface (COPI, CIPO and SCK signals). O
 
 <!-- NOTE: Empty line to avoid breaking rule MD028 -->
 
-> **Note:** To use an Arduino AVR board that's not included in the table below, check the pinout diagrams in [Arduino Docs](https://docs.arduino.cc/) to find which pins to use for CIPO, COPI, and SCK. On some boards PIN 10 may not be available. In this case, change the line `#define RESET 10` to use a different pin.
+> [!NOTE]
+> To use an Arduino AVR board that's not included in the table below, check the pinout diagrams in [Arduino Docs](https://docs.arduino.cc/) to find which pins to use for CIPO, COPI, and SCK. On some boards PIN 10 may not be available. In this case, change the line `#define RESET 10` to use a different pin.
 
 <a id="common-pins"></a>
 

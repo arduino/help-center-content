@@ -48,7 +48,8 @@ The types of unidentified ports shown by Arduino IDE can be grouped in two categ
   * Some Bluetooth ports.
   * Debug ports.
 
-> **Note:** If you have many unidentified ports showing up in the list, consider disconnecting any boards and peripherals you don't need from your computer. Then, use [this procedure](#disconnect-reconnect-procedure) to see whether your board is being detected on any of the ports.
+> [!NOTE]
+> If you have many unidentified ports showing up in the list, consider disconnecting any boards and peripherals you don't need from your computer. Then, use [this procedure](#disconnect-reconnect-procedure) to see whether your board is being detected on any of the ports.
 
 <a id="disconnect-reconnect-procedure"></a>
 
@@ -102,7 +103,8 @@ For more information, see [Select board and port in Arduino IDE](https://support
 
 ## If your board does not appear on any port
 
-> **Note:** If the Tools > Port menu is open, you need to close and re-open it for the list to refresh.
+> [!NOTE]
+> If the Tools > Port menu is open, you need to close and re-open it for the list to refresh.
 
 If you've determined that none of the listed ports belongs to your board, or of no ports are listed at all, check the following:
 

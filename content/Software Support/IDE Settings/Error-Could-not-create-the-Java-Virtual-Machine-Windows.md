@@ -46,7 +46,8 @@ Could not reserve enough space for object heap
 
 In this case, consider editing or removing it:
 
-> **Note:** Since changing or removing environment variables can affect other applications on your computer, it's recommended to save the value in case you want to restore it later.
+> [!NOTE]
+> Since changing or removing environment variables can affect other applications on your computer, it's recommended to save the value in case you want to restore it later.
 
 1. Press <kbd>Win</kbd> + <kbd>X</kbd> or right-click the Start menu button to open the Power User menu.
 

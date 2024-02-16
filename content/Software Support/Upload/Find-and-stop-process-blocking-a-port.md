@@ -17,7 +17,8 @@ In this article:
 
 ## Windows
 
-> **Note.** This method requires the <a class="link-external" href="https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer">Process Explorer tool from Microsoft</a>.
+> [!IMPORTANT]
+> This method requires the [Process Explorer tool from Microsoft](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer){.link-external}.
 
 1. Identify the name of the port you are using in Arduino IDE by checking the **Tools > Port** menu. The port name will start with "COM", for example, `COM3`.
 
@@ -105,7 +106,8 @@ In this article:
    33341   ??  S      5:28.07 /Applications/Arduino.app/Contents/MacOS/Arduino
    ```
 
-   > **Note:** In some cases, the parent process may be more informative.
+   > [!NOTE]
+   > In some cases, the parent process may be more informative.
    >
    > You can use this command: `ps -o ppid= <PID> | xargs ps`
 
@@ -169,7 +171,8 @@ In this article:
 
    Note the path in the **COMMAND** column. In this example, an instance of Arduino IDE is using the port.
 
-   > **Note:** In some cases, the parent process may be more informative.
+   > [!NOTE]
+   > In some cases, the parent process may be more informative.
    >
    > You can use this command: `ps -o ppid= <PID> | xargs ps`
 

@@ -3,7 +3,8 @@ title: Errors when compiling for an ESP32 board with esp32 board package 2.0.10 
 id: 9682191506204
 ---
 
-> **Note:** The esp32 package maintained by Arduino has been renamed to **Arduino ESP32 Boards**.
+> [!NOTE]
+> The esp32 package maintained by Arduino has been renamed to **Arduino ESP32 Boards**.
 
 Version 2.0.10 of the **esp32 board package** introduced a bug[^github-issue][^github-pr] that would cause compilation to fail for some Windows and Linux users.
 

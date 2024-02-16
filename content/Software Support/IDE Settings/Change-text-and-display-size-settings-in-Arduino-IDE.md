@@ -56,7 +56,8 @@ For more advanced settings, you need to use the
 
 5. When you're finished, close the Preferences tab to return to your sketch.
 
-> **Note:** By default, the **User** tab is selected. This means the settings will apply globally to any instance of Arduino IDE. Alternatively, you can edit settings the **Workspace** tab, which will apply only to sketch that's open when making the change.
+> [!NOTE]
+> By default, the **User** tab is selected. This means the settings will apply globally to any instance of Arduino IDE. Alternatively, you can edit settings the **Workspace** tab, which will apply only to sketch that's open when making the change.
 
 **[Learn more about user and workspace settings in Visual Studio Code Docs.](https://code.visualstudio.com/docs/getstarted/settings)**
 

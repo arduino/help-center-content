@@ -20,7 +20,8 @@ When uploading a sketch to your board you may get an error from the **avrdude** 
 * [avrdude: jtagmkII_getsync(): sign-on command: status -1](#jtagmkII_getsync)
 * **[Other avrdude errors (general troubleshooting)](#check-the-following)**
 
-> **Note:** The error text may be different depending on your system language.
+> [!NOTE]
+> The error text may be different depending on your system language.
 
 ---
 

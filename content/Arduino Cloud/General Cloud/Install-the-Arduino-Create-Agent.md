@@ -2,10 +2,9 @@
 title: "Install the Arduino Create Agent"
 id: 360014869820
 ---
+To use Arduino Cloud on regular systems (Windows, macOS, and Linux), you need the **Arduino Create Agent** to connect your physical boards/devices to the Cloud.
 
-To use the Arduino Web Editor or Arduino IoT Cloud, the **Arduino Create Agent** must be running on your computer.
-
-Learn how to install the Arduino Create Agent on Windows, macOS, and Linux computers.
+Learn how to install the Arduino Create Agent on your computer.
 
 If you're using Chromebook, see [Use Arduino with Chromebook](https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook) instead.
 
@@ -36,10 +35,10 @@ Follow these steps:
 
 1. When it's found, you will see this page. Click **NEXT** to finish the installation guide.
 
-You can now use the Web Editor and IoT Cloud:
+You can now use the Cloud Editor and Arduino Cloud:
 
-* [Arduino Web Editor](https://create.arduino.cc/editor)
-* [Arduino IoT Cloud](https://app.arduino.cc/)
+* [Cloud Editor](https://create.arduino.cc/editor)
+* [Arduino Cloud](https://app.arduino.cc/)
 
 ---
 

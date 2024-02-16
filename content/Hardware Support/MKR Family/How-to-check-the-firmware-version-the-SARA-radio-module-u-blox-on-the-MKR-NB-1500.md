@@ -31,7 +31,7 @@ In case you need to know the firmware version of the u-blox SARA radio module of
 
      ![ATcommand_AT+CGMR](img/ATcommand_AT-CGMR.png)
 
-## Using the Arduino Web Editor
+## Using the Arduino Cloud Editor
 
 1. Click on Libraries and type "MKRNB" in the search box
 

@@ -17,7 +17,7 @@ Tutorials for the **Arduino IoT Bundle** projects are available in Arduino Docs:
 * [The Nerd](https://docs.arduino.cc/tutorials/iot-bundle/the-nerd)
 * [Plant Communicator](https://docs.arduino.cc/tutorials/iot-bundle/plant-communicator)
 
-These projects use Arduino IoT Cloud and the Arduino IoT Cloud Remote app (and can be built using the free Arduino Cloud plan).
+These projects use Arduino Cloud and the Arduino IoT Cloud Remote app (and can be built using the free Arduino Cloud plan).
 
 ## Arduino MKR IoT Bundle
 

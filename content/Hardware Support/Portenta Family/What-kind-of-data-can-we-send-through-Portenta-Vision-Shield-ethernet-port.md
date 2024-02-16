@@ -16,4 +16,5 @@ The ethernet connection featured on the Vision Shield for Portenta H7 allows you
 * Control the Portenta H7 I/O pins from a web server application and trigger your system upon the detection of sound, and camera events.
 * Send processed information based on data acquired by the camera or microphone of the Vision Shield directly to your web server application.
 
- > **Note:** Currently there are no applications developed for transmitting real-time video or audio.
+ > [!NOTE]
+> Currently there are no applications developed for transmitting real-time video or audio.

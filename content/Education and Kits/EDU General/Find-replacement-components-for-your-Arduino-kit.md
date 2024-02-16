@@ -9,7 +9,8 @@ Most components for the Arduino kits can be found in the [Arduino Store](https:/
 
 The [Arduino Replacement Pack](https://store.arduino.cc/collections/accessories/products/arduino-replacements-pack) includes the most common electronic components like jump wires, LEDs, resistors, transistors, and sensors for the Arduino Starter Kit Classroom Pack, Arduino Student Kit, Arduino Education Starter Kit, Arduino CTC 101, and ARDUINO CTC GO! - CORE MODULE.
 
-> **Note:** the Arduino Replacement Pack does not include motors or servos.
+> [!NOTE]
+> the Arduino Replacement Pack does not include motors or servos.
 
 ## Motors and servos
 

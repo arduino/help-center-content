@@ -41,7 +41,8 @@ In [Arduino Docs](https://docs.arduino.cc/) you can find _pinout diagrams_ and _
 
 ![MKR IoT Carrier in Arduino Docs. Pinout and Datasheet buttons highlighted.](img/docs-pinout-button.png)
 
-> **Note:** Pinouts and datasheets may not be available for some devices.
+> [!NOTE]
+> Pinouts and datasheets may not be available for some devices.
 
 On the device Arduino Docs page, pins may also be specified in the _Tech specs_ section.
 
