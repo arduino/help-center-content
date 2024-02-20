@@ -1,13 +1,13 @@
 ---
-title: "ASEC-21-001 – Vulnerabilities in Apache Log4j"
+title: "ASEC-24-001 Vulnerabilities in ArduinoModbus Library"
 id: 
 ---
 
-Bulletin ID: ASEC-24-001  
-Date: Feb 13, 2024  
-Product / Component: ArduinoModbus library, Arduino Opta  
-Affected Versions: &lt;= 1.0.8  
-Fixed Version: 1.0.9   
+Bulletin ID: ASEC-24-001 
+Date: Feb 13, 2024 
+Product / Component: ArduinoModbus library, Arduino Opta 
+Affected Versions: &lt;= 1.0.8 
+Fixed Version: 1.0.9  
 
 ## Summary
 
@@ -37,15 +37,13 @@ Update the component's library to [ArduinoModbus 1.0.9](https://github.com/ardui
 ## Additional information
 
 For further information visit the following links:
-* [https://www.arduino.cc/reference/en/libraries/arduinomodbus/](https://www.arduino.cc/reference/en/libraries/arduinomodbus/)
-* [https://www.arduino.cc/pro/hardware-arduino-opta](https://www.arduino.cc/pro/hardware-arduino-opta)
-* [https://nvd.nist.gov/vuln/detail/CVE-2019-14463](https://nvd.nist.gov/vuln/detail/CVE-2019-14463)
-* [https://nvd.nist.gov/vuln/detail/CVE-2022-0367](https://nvd.nist.gov/vuln/detail/CVE-2022-0367)
-* [https://github.com/arduino-libraries/ArduinoModbus/releases/tag/1.0.9](https://github.com/arduino-libraries/ArduinoModbus/releases/tag/1.0.9)
+* [https://www.arduino.cc/reference/en/libraries/arduinomodbus/](https://www.arduino.cc/reference/en/libraries/arduinomodbus/) 
+* [https://www.arduino.cc/pro/hardware-arduino-opta](https://www.arduino.cc/pro/hardware-arduino-opta) 
+* [https://nvd.nist.gov/vuln/detail/CVE-2019-14463](https://nvd.nist.gov/vuln/detail/CVE-2019-14463) 
+* [https://nvd.nist.gov/vuln/detail/CVE-2022-0367](https://nvd.nist.gov/vuln/detail/CVE-2022-0367) 
+* [https://github.com/arduino-libraries/ArduinoModbus/releases/tag/1.0.9](https://github.com/arduino-libraries/ArduinoModbus/releases/tag/1.0.9) 
 
 
 ## Contact
 
 If you encounter any issues or have questions regarding this security update, please contact our security team at [security@arduino.cc](mailto:security@arduino.cc).
-
-
