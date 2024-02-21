@@ -38,11 +38,11 @@ Update the component's library to [ArduinoModbus 1.0.9](https://github.com/ardui
 
 For further information visit the following links:
 
-* [https://www.arduino.cc/reference/en/libraries/arduinomodbus/](https://www.arduino.cc/reference/en/libraries/arduinomodbus/) 
-* [https://www.arduino.cc/pro/hardware-arduino-opta](https://www.arduino.cc/pro/hardware-arduino-opta) 
-* [https://nvd.nist.gov/vuln/detail/CVE-2019-14463](https://nvd.nist.gov/vuln/detail/CVE-2019-14463) 
-* [https://nvd.nist.gov/vuln/detail/CVE-2022-0367](https://nvd.nist.gov/vuln/detail/CVE-2022-0367) 
-* [https://github.com/arduino-libraries/ArduinoModbus/releases/tag/1.0.9](https://github.com/arduino-libraries/ArduinoModbus/releases/tag/1.0.9) 
+* [https://www.arduino.cc/reference/en/libraries/arduinomodbus/](https://www.arduino.cc/reference/en/libraries/arduinomodbus/)
+* [https://www.arduino.cc/pro/hardware-arduino-opta](https://www.arduino.cc/pro/hardware-arduino-opta)
+* [https://nvd.nist.gov/vuln/detail/CVE-2019-14463](https://nvd.nist.gov/vuln/detail/CVE-2019-14463)
+* [https://nvd.nist.gov/vuln/detail/CVE-2022-0367](https://nvd.nist.gov/vuln/detail/CVE-2022-0367)
+* [https://github.com/arduino-libraries/ArduinoModbus/releases/tag/1.0.9](https://github.com/arduino-libraries/ArduinoModbus/releases/tag/1.0.9)
 
 ## Contact
 
