@@ -3,11 +3,11 @@ title: "ASEC-24-001 Vulnerabilities in ArduinoModbus Library"
 id: 12736735312796
 ---
 
-Bulletin ID: ASEC-24-001
-Date: Feb 13, 2024
-Product / Component: ArduinoModbus library, Arduino Opta
-Affected Versions: &lt;= 1.0.8
-Fixed Version: 1.0.9
+Bulletin ID: ASEC-24-001  
+Date: Feb 13, 2024  
+Product / Component: ArduinoModbus library, Arduino Opta  
+Affected Versions: &lt;= 1.0.8  
+Fixed Version: 1.0.9  
 
 ## Summary
 
