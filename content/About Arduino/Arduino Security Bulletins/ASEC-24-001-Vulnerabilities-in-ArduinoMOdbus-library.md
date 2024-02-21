@@ -1,6 +1,6 @@
 ---
 title: "ASEC-24-001 Vulnerabilities in ArduinoModbus Library"
-id: 
+id: 12736735312796
 ---
 
 Bulletin ID: ASEC-24-001
