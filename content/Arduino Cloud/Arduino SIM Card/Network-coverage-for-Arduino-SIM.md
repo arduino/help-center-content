@@ -18,7 +18,7 @@ Follow these steps to check if Arduino SIM has coverage in your country:
 
 2. Scroll down and review the **2G, 3G, 4G, and LPWAN Coverage Map**.
 
-3. Optionally, use the controls to filter by country, continent or network type.
+3. Optionally, use the controls to filter by country, continent, or network type.
 
 4. To use Arduino SIM, your country needs to have 2G or 3G coverage.
 
