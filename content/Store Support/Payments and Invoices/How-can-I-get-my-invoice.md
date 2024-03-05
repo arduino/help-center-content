@@ -21,7 +21,7 @@ Learn how to get an invoice for an order when purchasing Arduino products from t
 
 6. Complete the form and finish the checkout process.
 
-7. Your invoice will be sent to the email associated with your Arduino account once the items are shipped.
+7. Your invoice will be sent to the email associated with your Arduino account upon payment.
 
 ## Amazon invoice
 
