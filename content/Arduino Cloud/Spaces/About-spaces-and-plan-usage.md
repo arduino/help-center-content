@@ -3,7 +3,7 @@ title: About spaces and plan usage
 id: 12679143837340
 ---
 
-Learn how use Cloud plan features in Spaces in Arduino Cloud.
+Learn how to use Cloud plan features in Spaces in Arduino Cloud.
 
 In this article:
 
