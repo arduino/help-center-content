@@ -13,7 +13,10 @@ Fixed Version: 1.0.9
 
 This security bulletin provides important information regarding a security update for the [ArduinoModbus](https://github.com/arduino-libraries/ArduinoModbus) library.
 
+The library can be included in user-developed firmware to perform Modbus communication on compatible products, such as Arduino Opta and Portenta Machine Control.
+
 During a security analysis, we identified that the component is impacted by the known vulnerabilities as it implements a vulnerable version of the [libmodbus](https://github.com/stephane/libmodbus) library.
+
 The indirectly inherited known vulnerabilities which affect the [ArduinoModbus](https://github.com/arduino-libraries/ArduinoModbus) component are:
 
 * [CVE-2022-0367](https://nvd.nist.gov/vuln/detail/CVE-2022-0367)
