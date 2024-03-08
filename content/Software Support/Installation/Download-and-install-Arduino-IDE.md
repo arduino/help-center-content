@@ -71,7 +71,7 @@ If Arduino IDE fails to open, and you see the text `dlopen(): error loading libf
 * Arduino IDE 2 runs on the following systems:
 
   * **Windows:** Win 10 (64-bit) or newer
-  * **macOS:** 10.14: “Mojave” or newer, 64-bit
+  * **macOS:** 10.15: “Catalina” or newer, 64-bit
   * **Linux:** 64-bit
 
 * If you're using a Chromebook, see [Use Arduino with Chromebook](https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook).
