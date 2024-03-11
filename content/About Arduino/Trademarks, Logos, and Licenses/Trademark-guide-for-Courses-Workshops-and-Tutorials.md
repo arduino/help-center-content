@@ -44,5 +44,5 @@ All uses of the trademarks of Arduino SA should include an acknowledgment (for e
 | Name | “Basic Tutorial for Arduino” | “Arduino Basic Tutorial” |
 | Name | “Workshop on Arduino” | “The Arduino Workshop” |
 | Name | “Beginner’s course on Arduino: Certificate of completion” | “Arduino Certificate”  |
-| Logo | ![Workshop logo without Arduino logo](img/Workshop_logo_good.png) | ![Workshop logo with Arduino logo](img/Workshop_logo_bad.png) |
-| Community Logo | ![Community Workshop logo that says "Free Workshop for Arduino"](img/Community-Logo-Ex-good.png) | ![Community Workshop logo that says "Arduino Workshop"](img/Community-Logo-Ex-bad.png) |
+| Logo | ![Workshop logo without Arduino logo](img/Workshop_logo_good.jpg) | ![Workshop logo with Arduino logo](img/Workshop_logo_bad.jpg) |
+| Community Logo | ![Community Workshop logo that says "Free Workshop for Arduino"](img/Community-Logo-Ex-good.jpg) | ![Community Workshop logo that says "Arduino Workshop"](img/Community-Logo-Ex-bad.jpg) |
