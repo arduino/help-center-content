@@ -1,5 +1,5 @@
 ---
-title: "Trademark guide for Social Media Content"
+title: "Trademark guide for Social Media content"
 id: 
 ---
 
