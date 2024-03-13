@@ -20,8 +20,6 @@ Doing a "rollback" to an older version of the driver is a possible workaround.
 
 1. Connect the Arduino board to your computer with a USB cable.
 
-1. Connect the Arduino board to your computer with a USB cable.
-
 1. Open **Device Manager**.
 
 1. Select *View* > *Devices By Type* in the menu.
