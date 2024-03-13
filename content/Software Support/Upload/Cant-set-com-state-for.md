@@ -1,6 +1,5 @@
 ---
 title: "Can't set com-state for..."
-id: 
 ---
 
 "`can't set com-state for ...`" error can occur when uploading to the boards that use specific batches of the [WCH CH340 USB chip](http://www.wch-ic.com/products/CH340.html). The problem only occurs when using the latest version of the CH340 driver.
