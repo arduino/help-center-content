@@ -50,7 +50,7 @@ The content published on our website is distributed under a Creative Commons lic
 - Screenshots of the Arduino IDE.
 
 > [!NOTE]
-> For preceding lines in the error output for more specific information. It is preferable to **use the content provided on our website** rather than sourcing images from the Internet, as these are often inaccurate and outdated.
+> It is preferable to **use the content provided on our website** rather than sourcing images from the Internet, as these are often inaccurate and outdated.
 
 ## Do's and Dont's
 

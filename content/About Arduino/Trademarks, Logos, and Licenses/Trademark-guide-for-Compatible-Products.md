@@ -15,7 +15,7 @@ A compatible product can have its own brand or be unbranded. Compatible products
 
 ## Open-source and compatible products
 
-Most hardware designs of Arduino are open source; this means that copying and further developing these designs is allowed. However:
+Most hardware designs of Arduino are open source, which means that copying and further developing these designs is allowed. However, the **Arduino trademark** is protected:
 
 - It is **not allowed** to print the word Arduino or the Arduino logo on the board. Manufacturing and selling counterfeits is illegal.
 
@@ -33,7 +33,7 @@ You are **not allowed** to use the Arduino logo in connection with the compatibl
 
 - Printing the logo on any promotional material advertising your product including social media.
 
-Even modified versions of the Arduino logo are considered trademark violations.
+Modified versions of the Arduino logo are also considered trademark violations.
 
 ## Name
 

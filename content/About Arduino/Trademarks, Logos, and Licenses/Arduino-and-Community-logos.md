@@ -9,7 +9,7 @@ This page covers the basic trademark rules you must follow when using the Arduin
 
 ![Black Arduino Infinity Logo](img/ArduinoLogo_Black.jpg) ![Blue Arduino Infinity Logo](img/ArduinoLogo_Blue.jpg)
 
-The Arduino Logo is a registered trademark of Arduino SA, which means that it cannot be used by third parties without the trademark owner’s authorization. As you can see, the Arduino Logo comes in different colors. Sometimes it is accompanied by the word mark “Arduino'', other times it is on its own. Generally speaking, the Arduino Logo (with or without the word “Arduino'') cannot be used to **identify** or **advertise** third-party products and/or services; this includes compatible products (link to page), publications (link to page) and online content.
+The Arduino Logo is a registered trademark of Arduino SA, which means that it cannot be used by third parties without the trademark owner’s authorization. As you can see, the Arduino Logo comes in different colors. Sometimes it is accompanied by the word mark "Arduino", other times it is on its own. Generally speaking, the Arduino Logo (with or without the word "Arduino") cannot be used to **identify** or **advertise** third-party products and/or services; this includes compatible products (link to page), publications (link to page) and online content.
 
 An exception to this rule is when the Arduino Logo is used in a **descriptive** or **explanatory** way: for example, the Arduino logo may be used in a text that explains what Arduino is. Even modified/customized versions of the Arduino Logo are considered trademark violations. In the table below we show some examples of correct and incorrect uses of our logos. The examples are for illustrative purposes.
 
