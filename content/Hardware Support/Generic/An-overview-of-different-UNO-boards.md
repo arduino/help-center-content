@@ -191,7 +191,7 @@ Not to be confused with the **Arduino UNO WiFi Rev2**.
 Microcontroller: ATmega328P\
 Board core: `Arduino Uno Mini (Arduino AVR Boards)`\
 Store page: [Arduino UNO Mini Limited Edition](https://store.arduino.cc/products/uno-mini-le)\
-Documentation: [UNO Mini Limited Edition](https://docs.arduino.cc/hardware/uno-mini-le)
+Documentation: [UNO Mini Limited Edition](https://docs.arduino.cc/hardware/uno-mini-limited-edition/)
 
 This limited edition UNO board comes in a smaller form factor, and has a USB-C connector.
 

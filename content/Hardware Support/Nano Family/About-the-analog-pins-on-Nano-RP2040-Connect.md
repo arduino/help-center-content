@@ -51,7 +51,7 @@ _*With WIFINina firmware 1.4.8 or earlier, the range for these pins are 0.0–1.
 
 ## Increase the analogRead resolution
 
-The `analogRead()` function returns 10-bit values (0–1023) by default. You can increase the resolution to 12-bit (0–4095) with the [analogReadResolution()](https://www.arduino.cc/reference/en/language/functions/zero-due-mkr-family/analogreadresolution/) function. Just add this code to your `setup()` function:
+The `analogRead()` function returns 10-bit values (0–1023) by default. You can increase the resolution to 12-bit (0–4095) with the [analogReadResolution()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogreadresolution/) function. Just add this code to your `setup()` function:
 
 ```arduino
 analogReadResolution(12);
