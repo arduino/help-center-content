@@ -7,4 +7,4 @@ The Arduino Nano 33 BLE has the ability to change its analog read resolution inc
 
 To achieve this there is another function called `analogReadResolution()` that sets the size (in bits) of the value returned by `analogRead()`.
 
-See the [analogReadResolution()](https://www.arduino.cc/reference/en/language/functions/zero-due-mkr-family/analogreadresolution/) page for more information on how to change the ADC resolution.
+See the [analogReadResolution()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogreadresolution/) page for more information on how to change the ADC resolution.
