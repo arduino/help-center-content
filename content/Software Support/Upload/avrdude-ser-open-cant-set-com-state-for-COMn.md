@@ -1,5 +1,5 @@
 ---
-title: avrdude: ser_open(): can't set com-state for COMn
+title: "avrdude: ser_open(): can't set com-state for COMn"
 id: 13148652511260
 ---
 
