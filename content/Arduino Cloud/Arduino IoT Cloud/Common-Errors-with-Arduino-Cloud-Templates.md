@@ -5,10 +5,10 @@ id: 4408887422994
 
 This guide aims to help you tackle common issues with [Arduino Cloud Templates](https://app.arduino.cc/templates)
 
-* [We were not able to upload the template sketch](#upload)
+* [Dealing with Library Conflicts](#conflict)
 * [Import Template button disabled](#button-disabled)
 
-## We were not able to upload the template sketch {#upload}
+## Dealing with Library Conflicts {#conflict}
 
 With [Arduino Cloud templates](https://app.arduino.cc/templates) you can quickly create a project for a compatible board (such as the MKR WiFi 1010). When importing a template you may experience this error:
 
@@ -22,15 +22,15 @@ You can find your custom libraries by opening the [Cloud Editor](https://create.
 
 ## Import Template button disabled {#button-disabled}
 
-Sometimes the `Import Template` button will be disabled and this could be because you have exceeded your limits of having more than two **Things** connected to the Cloud. You can free up a spot by removing one of the **Things**.
+Occasionally, the `Import Template` button might be disabled. This could occur if you've surpassed the limit of having more than two **Things** connected to the Cloud. To resolve this, simply remove one of the **Things** to free up a spot.
 
 ![Dialog explaining that the user is over their plan's quota](img/over_quota.png)
 
-### How to delete "Things"
+### How to delete "Things" from Arduino Cloud
 
-1. Go to the tab labeled [Things](https://app.arduino.cc/things), it can be found on the sidebar menu to the left.
+1. Navigate to the tab labeled [Things](https://app.arduino.cc/things). It can be found on the sidebar menu to the left.
 
-1. Select the **Things** you want to delete.
+1. Choose and select the **Things** you want to delete.
 
 1. In the bottom right corner, press the ![Trash Logo](img/Trash-logo.png) logo.
 
