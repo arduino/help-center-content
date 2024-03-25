@@ -46,22 +46,31 @@ The currently supported boards include:
 
 Follow these steps:
 
-1. Open **Arduino Cloud for Chromebook** from the Launcher or go to [create.arduino.cc/editor](https://create.arduino.cc/editor).
-1. If you're not signed into an Arduino account, you will be asked to do so.
-1. Connect a [compatible board](https://support.arduino.cc/hc/en-us/articles/360014779899#chromebook) to a USB port on your Chromebook.
-1. Open the board selector:
+1. Begin by opening the **Arduino Cloud for Chromebook** either from the Launcher or by visiting [create.arduino.cc/editor](create.arduino.cc/editor)
 
-   ![The Boards Dropdown in the Cloud Editor.](img/web-editor-boards-dropdown.png)
+1. If you're not already signed into your Arduino account, you'll be prompted to do so.
+
+1. Next, connect a [compatible board](https://support.arduino.cc/hc/en-us/articles/360014779899#chromebook) to one of the USB ports on your Chromebook.
 
 1. In the board selector menu, choose **Select Other Board & Port**
 
-1. Select the board that you are using (don't worry about the port).
+   ![The Boards Dropdown in the Cloud Editor.](img/web-editor-boards-dropdown.png)
 
-1. Click the **Upload** button. This will open the **Authorise USB connection** prompt.
+1. Pick the specific board you're using and press **OK**.
 
-1. Click **Select port**. This will open a ChromeOS prompt.
+   ![Select Other Board & Port Tab](img/boardportmenu.png)
 
-1. Select the desired port and click **Connect**.
+1. Click the **Upload** button ![Upload button](img/upload_button.png) in the editor.
+
+1. That should open a **Authorise USB connection** window. Click **Select port**. 
+
+   ![Authorise USB connection](img/Authorise-USB-connection.png)
+
+
+1. A **ChromeOS** window should appear. Select the desired port and click **Connect**.
+
+   ![ChromeOS window](img/usbpromptchrome.png)
+
 
 Learn more about the Cloud Editor:
 
