@@ -62,15 +62,13 @@ Follow these steps:
 
 1. Click the **Upload** button ![Upload button](img/upload_button.png) in the editor.
 
-1. That should open a **Authorise USB connection** window. Click **Select port**. 
+1. That should open a **Authorise USB connection** window. Click **Select port**.
 
    ![Authorise USB connection](img/Authorise-USB-connection.png)
-
 
 1. A **ChromeOS** window should appear. Select the desired port and click **Connect**.
 
    ![ChromeOS window](img/usbpromptchrome.png)
-
 
 Learn more about the Cloud Editor:
 
