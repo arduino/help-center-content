@@ -1,9 +1,9 @@
 ---
-title: "Open the Sketchbook"
+title: "Open the Sketchbook folder"
 id: 4412950938514
 ---
 
-Learn how to open the Sketchbook on your system.
+Learn how to open the Sketchbook folder on your system.
 
 ---
 
