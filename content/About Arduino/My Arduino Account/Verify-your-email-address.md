@@ -15,6 +15,10 @@ If the link doesn't work or if you're unable to locate the email, please follow 
 
 1. Log into your [Arduino account](https://www.arduino.cc/) in the top right corner.
 
+1. Now that you're logged in, look for a dialog box at the bottom of the screen. Press `Resend email`
+
+![Resend mail dialog](img/resend-email-dialog.png)
+
 1. Upon receiving the email, you'll find a button labeled `Confirm Now`.
 
     ![Confirm now button in the email](img/Email-verification-confirm.png)
