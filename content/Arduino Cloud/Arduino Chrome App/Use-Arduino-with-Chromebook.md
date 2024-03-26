@@ -9,7 +9,7 @@ You can write and upload sketches on Chrome OS with the Cloud Editor in Arduino 
 
 ## Install Arduino Cloud for Chromebook
 
-To use Arduino boards on Chromebook, you need to install the **Arduino Cloud for Chromebook** app. This app handles serial communication with the board, and is replacing the previous Chrome Apps[^chrome-apps].
+To use Arduino boards on Chromebook, you need to install the **Arduino Cloud for Chromebook** app. This app handles serial communication with the board and is replacing the previous Chrome Apps[^chrome-apps].
 
 Follow these steps to install Arduino Cloud for Chromebook:
 
@@ -17,7 +17,7 @@ Follow these steps to install Arduino Cloud for Chromebook:
 2. Click the **Install** button on the page.
 3. Choose the device and click **Install**.
 4. Find the app in the **Launcher** to open it.
-5. Sign into your Arduino account
+5. Sign in to your Arduino account
 
 <a id="compatible"></a>
 
@@ -40,7 +40,7 @@ The currently supported boards include:
 ## Use the Cloud Editor on Chromebook
 
 > [!IMPORTANT]
-> The first time you use your board with Chromebook, you need to allow access to the serial port.
+> The first time you use your board with a Chromebook, you need to allow access to the serial port.
 >
 > To do this, attempt to upload a sketch (even if no port is available).
 
