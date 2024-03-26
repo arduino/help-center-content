@@ -70,6 +70,26 @@ Follow these steps:
 
    ![ChromeOS window](img/usbpromptchrome.png)
 
+## Troubleshoot Guide
+
+If the board still isn't appearing, please check the following:
+
+1. Ensure you've chosen the correct board in the board selector. Sometimes, the Cloud Editor might display a red cross icon and the name of a previously connected board:
+
+   ![Dropdown menu](img/WebEditor_Dropdown_menu.png)
+
+1. Make sure your device is powered on by checking if one or more LEDs are lit.
+
+1. Verify that your board is connected using a functional data USB cable.
+
+1. Make sure that you’ve installed the **Arduino Cloud for Chromebook** app, and not Arduino Create for Education.
+
+1. Verify the board is [compatible](https://support.arduino.cc/hc/en-us/articles/360014779899-Boards-compatible-with-the-Web-Editor).
+
+1. Ensure that the board is not [counterfeit](https://support.arduino.cc/hc/en-us/articles/360020652100-How-to-spot-a-counterfeit-Arduino).
+
+---
+
 Learn more about the Cloud Editor:
 
 * [Cloud Editor in Arduino Docs](https://docs.arduino.cc/arduino-cloud/guides/cloud-editor)
