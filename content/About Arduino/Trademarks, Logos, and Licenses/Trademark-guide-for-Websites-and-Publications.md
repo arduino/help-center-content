@@ -1,6 +1,5 @@
 ---
 title: "Trademark guide for Websites and Publications"
-id: 
 ---
 
 This guide covers the basic trademark rules for publications about Arduino (examples include but are not limited to: books, articles, dissertations, websites, and blogs). By following these guidelines, you will be able to develop, share, and even commercialize your content without violating Arduino’s Intellectual Property.

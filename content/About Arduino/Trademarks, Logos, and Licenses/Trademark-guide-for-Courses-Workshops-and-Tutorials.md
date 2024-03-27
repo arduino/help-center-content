@@ -1,6 +1,5 @@
 ---
 title: "Trademark guide for Courses, Workshops and Tutorials"
-id: 
 ---
 
 This guide covers the basic trademark rules you must follow when developing a course, workshop, or tutorial based on Arduino (Examples include but are not limited to: video tutorials, free or paid online courses, and in-person workshops). By following these guidelines, you will be able to develop, share, and even commercialize your content without violating Arduino’s Intellectual Property.
