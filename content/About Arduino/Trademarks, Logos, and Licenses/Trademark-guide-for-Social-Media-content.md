@@ -37,7 +37,7 @@ Use the right pictures. You can use pictures of Arduino boards if you are talkin
 | ----------- | ----------- |
 | "This is a UNO board, compatible with Arduino" | "This is an Arduino UNO" |
 
-## Content from Arduino.cc
+## Content from arduino.cc
 
 The content published on our website is distributed under a Creative Commons license (specifically, [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) and [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)). This means you can use it freely provided that you respect the terms of the relevant license.
 

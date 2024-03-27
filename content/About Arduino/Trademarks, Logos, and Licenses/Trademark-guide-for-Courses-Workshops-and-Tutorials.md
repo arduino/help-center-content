@@ -27,13 +27,25 @@ To avoid violating Arduino trademarks, you must name your course in a way that *
 
 You do not have to ask us for permission or pay any license or royalty fees to develop and commercialize your content.
 
-## Content
+## Content from arduino.cc
 
-You are allowed to use screenshots of Arduino IDE and images of Arduino products in your course content, provided that you mention its source.
+The content published on our website is distributed under a Creative Commons license (specifically, [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) and [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)). This means you can use it freely provided that you respect the terms of the relevant license.
 
-All editorial content on our website, including text and images, is distributed under Creative Commons license. This means you can use them on your own derived works, in part or completely, as long as you also adopt the same license. You find the complete text of the license here (link).
+**Content you can use includes:**
 
-If your content includes the use of components (for example, if you develop a video tutorial), you are free to use whichever brand you choose. In other words, you do not have to use original Arduino products. However, you must provide correct descriptions of the components you use. If you are using a compatible board, you may not call it “Arduino”.
+- Product pictures
+
+- Pinout diagrams
+
+- Schematics
+
+- Product specifications
+
+- Screenshots of the Arduino IDE.
+
+> [!NOTE]
+> It is preferable to **use the content provided on our website** rather than sourcing images from the Internet, as these are often inaccurate and outdated.
+
 
 ## Trademark Acknowledgments
 
