@@ -17,7 +17,7 @@ You **cannot** use the Arduino logo:
 
 You **can** use the Arduino logo in the contents as long as it is used to explain what Arduino is (Example:  “Arduino is an open source electronics company, this is their logo: ![Arduino Logo](img/Mini_logo.png)“)
 
-You **can** use the **Arduino Community Logo** on your website or blog if it is **non-commercial** (*i.e. it does not generate revenues, either through sales or other means such as affiliate links*).
+You **can** use the **Arduino Community Logo** on your website or blog if it is **non-commercial**. Please note that “non-commercial” means any use or activity where a fee is not charged and the purpose is not the sale of a good or service, and the use or activity is not intended to produce a profit.
 
 ## Name
 
@@ -33,7 +33,7 @@ Make sure your domain name **does not contain the word “Arduino”** in full o
 
 You are not obliged to use pictures of genuine Arduino products in your publications. It is perfectly fine to use compatible products, as long as you refer to them correctly. Use the correct product names as much as possible, and *at least the first time you mention them*.
 
-### Content from Arduino.cc
+### Content from arduino.cc
 
 The content published on our website is distributed under a Creative Commons license (specifically, [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) and [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)). This means you can use it freely provided that you respect the terms of the relevant license.
 
