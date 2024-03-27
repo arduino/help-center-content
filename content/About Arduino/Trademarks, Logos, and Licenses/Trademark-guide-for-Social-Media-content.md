@@ -25,17 +25,15 @@ You can read more about it [here](https://support.arduino.cc/hc/en-us/articles/4
 
 You can use the hashtag *#arduino* because we understand that it can also refer to the Arduino technology and all compatible products. You can use the word “Arduino” to add links to websites or marketplaces selling the products in your post or video **as long as you do it correctly**:
 
-| Do | Don't|
-| ----------- | ----------- |
-| Only use “Arduino” to link to sites selling genuine Arduino products | Avoid using “Arduino” as a link to compatible products |
+* **Do:**  Only use “Arduino” to link to sites selling genuine Arduino products.
+* **Don't:** Use “Arduino” as a link to compatible products.
 
 ## Product pictures
 
 Use the right pictures. You can use pictures of Arduino boards if you are talking about original Arduino; otherwise, choose pictures of the products you are actually using. If your content refers to a compatible board (not the original Arduino) make sure to refer to it correctly.
 
-| Do | Don't|
-| ----------- | ----------- |
-| "This is a UNO board, compatible with Arduino" | "This is an Arduino UNO" |
+* **Do:** "This is a UNO board, compatible with Arduino"
+* **Don't:** "This is an Arduino UNO"
 
 ## Content from arduino.cc
 
