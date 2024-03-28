@@ -26,24 +26,24 @@ The new **Arduino UNO R4 Boards** use a **Renesas RA4M1 32-bit Arm® Cortex®-M4
 
 <hr style="height:2px">
 
-<!-- ### Arduino UNO R3 <!-- SKU: A000066 -->
+<!-- ### Arduino UNO R4 WiFi <!-- SKU: ABX00087 -->
 
 <img src="img/ABX00087_00.front_643x483.png" width=400px>
 
 **Arduino UNO R4 WiFi**\
-Microcontroller: ATmega328P\
+Microcontroller: R7FA4M1AB3C\
 Board core: `Arduino Uno R4 WiFi (Arduino UNO R4 Boards)`\
 Store page: [Arduino UNO R4 WiFi](https://store.arduino.cc/products/uno-r4-wifi)\
 Documentation: [UNO R4 WiFi](https://docs.arduino.cc/hardware/uno-r4-wifi)
 
 <hr style="height:2px">
 
-<!-- ### Arduino UNO R3 <!-- SKU: A000066 -->
+<!-- ### Arduino UNO R4 Minima <!-- SKU: ABX00080 -->
 
 <img src="img/ABX00080_00.default_643x483.png" width=400px>
 
-**Arduino UNO R4 WiFi**\
-Microcontroller: ATmega328P\
+**Arduino UNO R4 Minima**\
+Microcontroller: R7FA4M1AB3C\
 Board core: `Arduino Uno R4 Minima (Arduino UNO R4 Boards)`\
 Store page: [Arduino UNO R4 Minima](https://store.arduino.cc/products/uno-r4-minima?queryID=undefined)\
 Documentation: [UNO R4 Minima](https://docs.arduino.cc/hardware/uno-r4-minima)
