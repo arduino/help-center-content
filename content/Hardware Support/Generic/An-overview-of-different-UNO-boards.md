@@ -123,7 +123,7 @@ Board core: `Arduino Uno (Arduino AVR Boards)`
 
 This revision added a resistor pulling the ATmega8U2 HWB line to ground, making it easier to [set to DFU mode](https://support.arduino.cc/hc/en-us/articles/4410804625682).
 
-<!-- TODO: Chip placmeent, never printed on silk? -->
+<!-- TODO: Chip placement, never printed on silk? -->
 
 <a id="arduino-uno"></a>
 
@@ -138,7 +138,7 @@ Microcontroller: ATmega328P\
 Board core: `Arduino Uno (Arduino AVR Boards)`\
 Documentation: [ARDUINO UNO](https://docs.arduino.cc/retired/other/arduino-older-boards#arduino-uno)
 
-The original UNO board. It is sometimes refered to as the "R1" or "Rev1" version to distinguish it from later versions.
+The original UNO board. It is sometimes referred to as the "R1" or "Rev1" version to distinguish it from later versions.
 
 <a id="uno-wifi"></a>
 
