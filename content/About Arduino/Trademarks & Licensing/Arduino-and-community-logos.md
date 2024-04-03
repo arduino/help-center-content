@@ -1,5 +1,5 @@
 ---
-title: "Arduino and Community logos"
+title: "Arduino and community logos"
 id: 4679102084892
 ---
 

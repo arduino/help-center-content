@@ -1,5 +1,5 @@
 ---
-title: "Trademark guide for Compatible Products"
+title: "Trademark guide for compatible products"
 ---
 
 This guide covers the basic trademark rules you must follow when developing products based on, or compatible with, Arduino. By following these guidelines, you will be able to develop, share, and even commercialize your products without violating Arduino’s Intellectual Property. Please note that Arduino’s general Intellectual Property terms and conditions can be found [here](https://www.arduino.cc/en/trademark).

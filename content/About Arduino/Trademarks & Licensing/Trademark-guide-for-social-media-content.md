@@ -1,5 +1,5 @@
 ---
-title: "Trademark guide for Social Media content"
+title: "Trademark guide for social media content"
 id: 4678810384540
 ---
 
