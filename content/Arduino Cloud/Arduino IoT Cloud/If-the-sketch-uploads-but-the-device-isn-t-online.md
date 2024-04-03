@@ -5,11 +5,11 @@ title: "If the sketch uploads but the device isn’t online"
 > [!NOTE]
 > Device status is not supported by the LoRa protocol, see [About device status in Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/4407169649682-About-device-status-in-IoT-Cloud).
 
-1. Go to the [Devices tab](https://app.arduino.cc/devices) and verify that your device has an associated Thing. If not, you must either create and new Thing, or associate an existing Thing with the device.
+1. Go to the [Devices tab](https://app.arduino.cc/devices) and verify that your device has an associated Thing. If not, you must either create and new Thing or associate an existing Thing with the device.
 
    ![A linked Thing in the Devices tab.](img/arduino-cloud-device-thing-example-offline.png)
 
-2. Go to the [Things tab](https://app.arduino.cc/things) and open the Thing that's associated to your device. Then go to the [Devices tab](https://app.arduino.cc/devices), and find your device in the list. Under **Network**, click on **Change** and verify that your credentials are correct.
+2. Go to the [Things tab](https://app.arduino.cc/things) and open the Thing that's associated with your device. Then go to the [Devices tab](https://app.arduino.cc/devices), and find your device in the list. Under **Network**, click on **Change** and verify that your credentials are correct.
 
    * **Wi-Fi:** Make sure the name (also called _SSID_) and password (also called _encryption key_ or just _key_) are correct. The password can be revealed by clicking the eye symbol. If you don't know your network name or password, contact your network administrator or the manufacturer of your Wi-Fi access point. If your device has a secret key, make sure it's entered correctly (if you're unsure, remove and re-add the device to generate a new key).
    * **Arduino SIM:** [Use these credentials](https://support.arduino.cc/hc/en-us/articles/360013825159). Make sure a working GSM antenna is connected to the board and that an Arduino SIM plan is activated with [your account](https://store.arduino.cc/digital/subscriptions/plans).

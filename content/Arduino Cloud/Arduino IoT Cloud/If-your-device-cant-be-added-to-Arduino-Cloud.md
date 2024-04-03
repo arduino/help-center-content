@@ -17,6 +17,9 @@ If there's a problem during the **"Add device"** set-up process, or the device d
 
 2. [Check if the Arduino Create Agent is installed and running](https://support.arduino.cc/hc/en-us/articles/4980687506844-Check-if-the-Arduino-Create-Agent-is-installed-and-running), then click **Try again**.
 
+   > [!NOTE]
+   > If you're using a **Chromebook** and 'Arduino Cloud for Chromebook', there's no need to install the Arduino Create Agent.
+
 3. Double-press the reset button on the board to put the board in [bootloader mode](https://support.arduino.cc/hc/en-us/articles/5779192727068-Reset-your-board#bootloader-mode), then click **Try Again**.
 
 4. Try uploading an Example sketch (such as _Examples > Built in > 01.Basics > Blink_) in the [Cloud Editor](https://create.arduino.cc/editor).
@@ -27,16 +30,19 @@ If there's a problem during the **"Add device"** set-up process, or the device d
 
 ### "We were not able to configure your device<br>Something went wrong!"
 
-1. Close any instances Arduino IDE and other applications that may be using the port.
+1. Close any instances of Arduino IDE and other applications that may be using the port.
 
-2. [Check if the Arduino Create Agent is installed and running](https://support.arduino.cc/hc/en-us/articles/4980687506844-Check-if-the-Arduino-Create-Agent-is-installed-and-running).
+2. [Check if the Arduino Create Agent is installed and running](https://support.arduino.cc/hc/en-us/articles/4980687506844-Check-if-the-Arduino-Create-Agent-is-installed-and-running). If you're using 'Arduino Cloud for Chromebook', you can skip this step.
 
 3. Reconnect the device to the computer and make sure the power LED lights up.
 
 ### "Arduino Create Agent not found"
 
+> [!NOTE]
+> If you're using a **Chromebook** and 'Arduino Cloud for Chromebook', you can skip this step.
+
 1. If you haven't done so already, [install the agent](https://create.arduino.cc/getting-started/plugin/welcome).
-2. If you have installed the agent but you still encounter this warning, see [If Arduino Create Agent isn't detected](https://support.arduino.cc/hc/en-us/articles/360016466600-Warning-To-upload-a-sketch-via-USB-port-make-sure-the-Agent-is-installed-and-running-on-this-computer).
+2. If you have installed the agent but still encounter this warning, see [If Arduino Create Agent isn't detected](https://support.arduino.cc/hc/en-us/articles/360016466600-Warning-To-upload-a-sketch-via-USB-port-make-sure-the-Agent-is-installed-and-running-on-this-computer).
 
 ### If you don't know the DevEUI for your Arduino board
 
