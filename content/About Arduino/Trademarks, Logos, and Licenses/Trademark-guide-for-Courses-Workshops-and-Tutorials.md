@@ -45,7 +45,6 @@ The content published on our website is distributed under a Creative Commons lic
 > [!NOTE]
 > It is preferable to **use the content provided on our website** rather than sourcing images from the Internet, as these are often inaccurate and outdated.
 
-
 ## Trademark Acknowledgments
 
 All uses of the trademarks of Arduino SA should include an acknowledgment (for example: “Arduino® is a trademark of Arduino SA”). Please note that you should also include the registered trademark symbol the first time Arduino is mentioned in text: ARDUINO® or Arduino®.
