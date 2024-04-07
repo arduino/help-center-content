@@ -282,8 +282,8 @@ Follow these steps:
    * **macOS:** Control-click on the unzipped `unor4wifi-update-macos` folder and select "**New Terminal at Folder**" from the context menu. A terminal window will open.
    * **Linux:** Open [a command line terminal](https://ubuntu.com/tutorials/command-line-for-beginners) in the extracted folder.
 1. Run the command:
-   * **Windows:** `bin\espflash write-bin -b 115200 0x0 firmware\UNOR4-WIFI-S3-0.3.0-rc1.bin`
-   * **macOS/Linux:** `./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-0.3.0-rc1.bin`
+   * **Windows:** `bin\espflash write-bin -b 115200 0x0 (Get-Item .\firmware\UNOR4-WIFI-S3-*.bin).FullName`
+   * **macOS/Linux:** `./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-*.bin`
 
 <!-- Instructions per OS
 
@@ -294,18 +294,18 @@ Follow these steps:
 1. Download <a class="link-download" href="https://github.com/arduino/uno-r4-wifi-usb-bridge/releases/latest/download/unor4wifi-update-windows.zip">unor4wifi-update-windows.zip</a>
 1. [Unzip](https://support.microsoft.com/windows/f6dde0a7-0fec-8294-e1d3-703ed85e7ebc) the downloaded file.
 1. Open the extracted `unor4wifi-update-windows` folder in Command Prompt.
-1. Run the following command: `bin\espflash write-bin -b 115200 0x0 firmware\UNOR4-WIFI-S3-0.3.0-rc1.bin`
+1. Run the following command: `bin\espflash write-bin -b 115200 0x0 (Get-Item .\firmware\UNOR4-WIFI-S3-*.bin).FullName`
 
 ### macOS
 
 1. Open the `unor4wifi-update-macos` in Terminal.
 
-2. Run the following command: `./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-0.3.0-rc1.bin`
+2. Run the following command: `./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-*.bin`
 
 Example output:
 
 ```
-sebastianwikstrom@mba unor4wifi-update-macos 4 % ./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-0.3.0-rc1.bin
+sebastianwikstrom@mba unor4wifi-update-macos 4 % ./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-*.bin
 
 [2023-10-12T12:34:07Z INFO ] Detected 6 serial ports
 [2023-10-12T12:34:07Z INFO ] Ports which match a known common dev board are highlighted
@@ -322,6 +322,6 @@ sebastianwikstrom@mba unor4wifi-update-macos 4 % ./bin/espflash write-bin -b 115
 
 1. Open the `unor4wifi-update-linux` in Terminal.
 
-2. Run the following command: `./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-0.3.0-rc1.bin`
+2. Run the following command: `./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-*.bin`
 
 -->
