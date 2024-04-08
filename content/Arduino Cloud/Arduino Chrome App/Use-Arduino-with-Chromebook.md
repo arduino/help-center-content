@@ -46,19 +46,17 @@ The currently supported boards include:
 
 Follow these steps:
 
-1. Begin by opening the **Arduino Cloud for Chromebook** either from the Launcher or by visiting [create.arduino.cc/editor](create.arduino.cc/editor)
+1. Open the **Arduino Cloud for Chromebook** either from the Launcher or by visiting [create.arduino.cc/editor](create.arduino.cc/editor)
 
 1. If you're not already signed into your Arduino account, you'll be prompted to do so.
 
-1. Next, connect a [compatible board](https://support.arduino.cc/hc/en-us/articles/360014779899#chromebook) to one of the USB ports on your Chromebook.
+1. Connect a [compatible board](https://support.arduino.cc/hc/en-us/articles/360014779899#chromebook) to one of the USB ports on your Chromebook.
 
 1. In the board selector menu, choose **Select Other Board & Port**
 
    ![The Boards Dropdown in the Cloud Editor.](img/web-editor-boards-dropdown.png)
 
 1. Pick the specific board you're using and press **OK**.
-
-   ![Select Other Board & Port Tab](img/boardportmenu.png)
 
 1. Click the **Upload** button ![Upload button](img/upload_button.png) in the editor.
 
@@ -70,7 +68,7 @@ Follow these steps:
 
    ![ChromeOS window](img/usbpromptchrome.png)
 
-## Troubleshoot Guide
+## Troubleshooting
 
 If the board still isn't appearing, please check the following:
 

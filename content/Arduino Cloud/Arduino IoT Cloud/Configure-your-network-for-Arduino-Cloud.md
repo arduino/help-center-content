@@ -3,7 +3,7 @@ title: "Configure your network for Arduino Cloud"
 id: 360017279260
 ---
 
-## Cannot Connect Arduino to a School / Enterprise Wi-Fi Network
+## Cannot connect Arduino to a School / Enterprise Wi-Fi network
 
 Internet access in Schools can vary depending on the end user, device type and the Wi-Fi network type you have installed in schools. Most schools today are switching to using a WEP2-Enterprise networks as a safe and a secure way to access the internet for students, teachers and other staff.
 
@@ -11,7 +11,7 @@ Setting up Arduino to access the internet via the school network can be challeng
 
 The WPA2 (Enterprise) RADIUS combination affords networks the highest level of cybersecurity, especially when X.509 digital certificates are used for authentication. WPA2 Enterprise requires an 802.1X authentication server anyway, so it's only logical to implement the best possible authentication security during configuration. However, WPA2 - Enterprise **doesn't work with Arduino Devices**.
 
-### Troubleshooting Solutions
+### Troubleshooting
 
 Find out the type of Wi-Fi network implemented on your school premises. If you are using any sort of WEP/WEP2 personal networks in your school besides the main network that essentially only requires an SSID (the name of the Wi-Fi connection) and password, you are good to go.
 
