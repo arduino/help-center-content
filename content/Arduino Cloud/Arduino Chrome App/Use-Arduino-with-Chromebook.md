@@ -56,7 +56,7 @@ Follow these steps:
 
    ![The Boards Dropdown in the Cloud Editor.](img/web-editor-boards-dropdown.png)
 
-1. Pick the specific board you're using and press **OK**.
+1. Pick the specific board you're using and click **OK**.
 
 1. Click the **Upload** button ![Upload button](img/upload_button.png) in the editor.
 
@@ -83,6 +83,8 @@ If the board still isn't appearing, please check the following:
 1. Make sure that you’ve installed the **Arduino Cloud for Chromebook** app, and not Arduino Create for Education.
 
 1. Verify the board is [compatible](https://support.arduino.cc/hc/en-us/articles/360014779899-Boards-compatible-with-the-Web-Editor).
+
+1. If you're using either **Nano RP2040 Connect** or **UNO WiFi Rev2**, please follow the special [setup instructions](https://support.arduino.cc/hc/en-us/articles/360014779899-Boards-compatible-with-the-Cloud-Editor#chromebook) for those boards.
 
 1. Ensure that the board is not [counterfeit](https://support.arduino.cc/hc/en-us/articles/360020652100-How-to-spot-a-counterfeit-Arduino).
 
