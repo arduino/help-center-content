@@ -1,5 +1,6 @@
 ---
 title: "How to delete Things in Arduino Cloud"
+id: 360003242899
 ---
 
 Learn how to delete Things in Arduino Cloud.
