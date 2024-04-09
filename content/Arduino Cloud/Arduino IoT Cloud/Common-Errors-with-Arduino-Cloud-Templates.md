@@ -22,22 +22,8 @@ You can find your custom libraries by opening the [Cloud Editor](https://create.
 
 ## Import Template button disabled {#button-disabled}
 
-Occasionally, the `Import Template` button might be disabled. This could occur if you've surpassed the limit of having more than two **Things** connected to the Cloud. To resolve this, simply remove one of the **Things** to free up a spot.
+Occasionally, the **Import Template** button might be disabled. This could occur if you've exceeded the quota of how many **Things** can be connected to the Cloud. To resolve this, you can [remove a few Things](https://support.arduino.cc/hc/en-us/articles/13369510226204-How-to-delete-Things-in-Arduino-Cloud) to free up space.
 
 ![Dialog explaining that the user is over their plan's quota](img/over_quota.png)
 
-### How to delete "Things" from Arduino Cloud
-
-1. Navigate to the tab labeled [Things](https://app.arduino.cc/things). It can be found on the sidebar menu to the left.
-
-1. Choose and select the **Things** you want to delete.
-
-1. In the bottom right corner, press the ![Trash Logo](img/Trash-logo.png) logo.
-
-    ![img](img/things_removal.png)
-
-1. Press `Yes, Delete`.
-
-    ![Depicts a dialog with a red "Yes, Delete" button](img/delete-thing.png)
-
-Now you can go back to the template you intended to import and give it another try.
+However, within the free plan, only two Things can be connected to the Cloud. If a template requires more than two free spots, you can upgrade the [subscription plan](https://cloud.arduino.cc/plans/) for your account.
