@@ -3,13 +3,19 @@ title: "Use Arduino with Chromebook"
 id: 360016495639
 ---
 
+> [!WARNING]
+> The **Arduino Cloud for Chromebook** has been removed from Google Play and is currently unavailable. We are actively working to resolve the issue.
+
 You can write and upload sketches on Chrome OS with the Cloud Editor in Arduino Cloud. The Cloud Editor has an extensive feature set similar to the desktop IDE. While many popular boards are compatible, you should check [the list of compatible boards here](https://support.arduino.cc/hc/en-us/articles/360014779899).
 
 ---
 
 ## Install Arduino Cloud for Chromebook
 
-To use Arduino boards on Chromebook, you need to install the **Arduino Cloud for Chromebook** app. This app handles serial communication with the board, and is replacing the previous Chrome Apps[^chrome-apps].
+> [!WARNING]
+> The **Arduino Cloud for Chromebook** has been removed from Google Play and is currently unavailable. We are actively working to resolve the issue.
+
+To use Arduino boards on Chromebook, you need to install the **Arduino Cloud for Chromebook** app. This app handles serial communication with the board and is replacing the previous Chrome Apps[^chrome-apps].
 
 Follow these steps to install Arduino Cloud for Chromebook:
 
@@ -17,7 +23,7 @@ Follow these steps to install Arduino Cloud for Chromebook:
 2. Click the **Install** button on the page.
 3. Choose the device and click **Install**.
 4. Find the app in the **Launcher** to open it.
-5. Sign into your Arduino account
+5. Sign in to your Arduino account
 
 <a id="compatible"></a>
 
@@ -40,28 +46,44 @@ The currently supported boards include:
 ## Use the Cloud Editor on Chromebook
 
 > [!IMPORTANT]
-> The first time you use your board with Chromebook, you need to allow access to the serial port.
+> The first time you use your board with a Chromebook, you need to allow access to the serial port.
 >
 > To do this, attempt to upload a sketch (even if no port is available).
 
 Follow these steps:
 
-1. Open **Arduino Cloud for Chromebook** from the Launcher or go to [create.arduino.cc/editor](https://create.arduino.cc/editor).
-1. If you're not signed into an Arduino account, you will be asked to do so.
-1. Connect a [compatible board](https://support.arduino.cc/hc/en-us/articles/360014779899#chromebook) to a USB port on your Chromebook.
-1. Open the board selector:
+1. Open the **Arduino Cloud for Chromebook** either from the Launcher or by visiting [create.arduino.cc/editor](create.arduino.cc/editor)
 
-   ![The Boards Dropdown in the Cloud Editor.](img/web-editor-boards-dropdown.png)
+1. If you're not already signed into your Arduino account, you'll be prompted to do so.
+
+1. Connect a [compatible board](https://support.arduino.cc/hc/en-us/articles/360014779899#chromebook) to one of the USB ports on your Chromebook.
 
 1. In the board selector menu, choose **Select Other Board & Port**
 
-1. Select the board that you are using (don't worry about the port).
+   ![The Boards Dropdown in the Cloud Editor.](img/web-editor-boards-dropdown.png)
 
-1. Click the **Upload** button. This will open the **Authorise USB connection** prompt.
+1. Pick the specific board you're using and click **OK**.
 
-1. Click **Select port**. This will open a ChromeOS prompt.
+1. Click the **Upload** button ![Upload button](img/upload_button.png) in the editor.
 
-1. Select the desired port and click **Connect**.
+1. That should open a **Authorise USB connection** window. Click **Select port**.
+
+   ![Authorise USB connection](img/Authorise-USB-connection.png)
+
+1. A **ChromeOS** window should appear. Select the desired port and click **Connect**.
+
+   ![ChromeOS window](img/usbpromptchrome.png)
+
+## Troubleshooting
+
+* Make sure your device is connected using a functional data USB cable and that one or more LEDs on the board are lit.
+* Even if no board is detected, try clicking the Upload button to open the **Authorise USB connection** prompt.
+* Make sure you’re using the [Arduino Cloud for Chromebook](https://play.google.com/store/apps/details?id=cc.arduino.create_editor) app, **not** the Arduino Create for Education Chrome app.
+* Verify that the board is [compatible](https://support.arduino.cc/hc/en-us/articles/360014779899-Boards-compatible-with-the-Web-Editor).
+* If you're using either **Nano RP2040 Connect** or **UNO WiFi Rev2**, please follow the special [setup instructions](https://support.arduino.cc/hc/en-us/articles/360014779899-Boards-compatible-with-the-Cloud-Editor#chromebook) for those boards.
+* Ensure that the board is not [counterfeit](https://support.arduino.cc/hc/en-us/articles/360020652100-How-to-spot-a-counterfeit-Arduino).
+
+---
 
 Learn more about the Cloud Editor:
 
