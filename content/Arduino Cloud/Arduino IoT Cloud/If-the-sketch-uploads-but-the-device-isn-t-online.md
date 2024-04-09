@@ -1,5 +1,6 @@
 ---
 title: "If the sketch uploads but the device isn’t online"
+id: 13459093156764
 ---
 
 > [!NOTE]
