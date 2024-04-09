@@ -67,9 +67,17 @@ const client = createZendeskClient({
 
 // Algolia
 import algoliasearch from 'algoliasearch';
+let algoliaIndex;
 if (!skipAlgolia) {
-    const algoliaIndex = algoliasearch(AlgoliaID, AlgoliaSecret)
+    algoliaIndex = algoliasearch(AlgoliaID, AlgoliaSecret)
         .initIndex(AlgoliaIndexName);
+    var algoliaExists = await algoliaIndex.exists();
+    if (algoliaExists) {
+        console.log('Algolia index exists.')
+    } else {
+        console.log('Algolia index does not exist, and will not be updated!')
+        skipAlgolia = true;
+    }
 }
 
 // HTML
@@ -619,7 +627,9 @@ async function deploy(zendeskSections, articles) {
                 }).wait();
             } catch (error) {
                 console.error("Couldn't save object in Algolia");
-                console.error(error);
+                if (verbose) {
+                    console.error(error);
+                }
             }
         }
     }));
