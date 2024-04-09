@@ -1,5 +1,5 @@
 ---
-title: "Common Errors with Arduino Cloud Templates"
+title: "If you can't import Arduino Cloud Templates"
 id: 4408887422994
 ---
 
