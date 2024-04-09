@@ -10,7 +10,7 @@ Learn the network requirements for Arduino Cloud.
 ## TCP and UDP ports used by Arduino Cloud
 
 > [!NOTE]
-> A home network with a default configuration will usually not prevent any Arduino Cloud connections. You do not need to add any of the configurations above unless you're experiencing problems, or will be using the service on a restricted network.
+> A home network with a default configuration will usually not prevent any Arduino Cloud connections. You do not need to add any of the configurations above unless you're experiencing problems or will be using the service on a restricted network.
 
 The Arduino Cloud uses the following domains and ports, which need to be whitelisted in your firewall.
 
@@ -26,7 +26,7 @@ You will also need to allow NTP access on port 123 UDP for `time.arduino.cc`.
 
 ## Using Arduino Cloud on school networks
 
-Internet access in Schools can vary depending on the end user, device type and the Wi-Fi network type you have installed in schools. Most schools today are switching to using a WEP2-Enterprise networks as a safe and a secure way to access the internet for students, teachers and other staff.
+Internet access in Schools can vary depending on the end user, device type, and the Wi-Fi network type you have installed in schools. Most schools today are switching to using a WEP2-Enterprise network as a safe and secure way to access the internet for students, teachers, and other staff.
 
 Setting up Arduino to access the internet via the school network can be challenging. This guide aims to walk you through the steps to connect your Arduino board to the school network and access our IoT features.
 
