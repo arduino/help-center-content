@@ -19,7 +19,7 @@ After completing the registration process, you should automatically receive a co
 
     In the email, you'll find a button labeled **Confirm Now**. Click it to complete the verification process.
 
-1. Everything should now function as intended, and your account should be successfully verified.
+Everything should now function as intended, and your account should be successfully verified.
 
 ## If you haven't received the confirmation email
 
