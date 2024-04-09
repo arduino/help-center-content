@@ -76,23 +76,12 @@ Follow these steps:
 
 ## Troubleshooting
 
-If the board still isn't appearing, please check the following:
-
-1. Ensure you've chosen the correct board in the board selector. Sometimes, the Cloud Editor might display a red cross icon and the name of a previously connected board:
-
-   ![Dropdown menu](img/WebEditor_Dropdown_menu.png)
-
-1. Make sure your device is powered on by checking if one or more LEDs are lit.
-
-1. Verify that your board is connected using a functional data USB cable.
-
-1. Make sure that you’ve installed the **Arduino Cloud for Chromebook** app, and not Arduino Create for Education.
-
-1. Verify the board is [compatible](https://support.arduino.cc/hc/en-us/articles/360014779899-Boards-compatible-with-the-Web-Editor).
-
-1. If you're using either **Nano RP2040 Connect** or **UNO WiFi Rev2**, please follow the special [setup instructions](https://support.arduino.cc/hc/en-us/articles/360014779899-Boards-compatible-with-the-Cloud-Editor#chromebook) for those boards.
-
-1. Ensure that the board is not [counterfeit](https://support.arduino.cc/hc/en-us/articles/360020652100-How-to-spot-a-counterfeit-Arduino).
+* Make sure your device is connected using a functional data USB cable and that one or more LEDs on the board are lit.
+* Even if no board is detected, try clicking the Upload button to open the **Authorise USB connection** prompt.
+* Make sure you’re using the [Arduino Cloud for Chromebook](https://play.google.com/store/apps/details?id=cc.arduino.create_editor) app, **not** the Arduino Create for Education Chrome app.
+* Verify that the board is [compatible](https://support.arduino.cc/hc/en-us/articles/360014779899-Boards-compatible-with-the-Web-Editor).
+* If you're using either **Nano RP2040 Connect** or **UNO WiFi Rev2**, please follow the special [setup instructions](https://support.arduino.cc/hc/en-us/articles/360014779899-Boards-compatible-with-the-Cloud-Editor#chromebook) for those boards.
+* Ensure that the board is not [counterfeit](https://support.arduino.cc/hc/en-us/articles/360020652100-How-to-spot-a-counterfeit-Arduino).
 
 ---
 
