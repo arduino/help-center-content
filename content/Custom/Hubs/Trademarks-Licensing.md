@@ -39,7 +39,7 @@ id: 10598087334428
   </div>
   <div class="actions-item">
     <img src="https://content.arduino.cc/assets/hc-uno.svg">
-    <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/13369565907740-Trademark-guide-for-compatible-products"></a>
+    <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/4677964202908-Trademark-guide-for-compatible-products"></a>
     <span class="link-chevron-right">Compatible products</span>
   </div>
 </div>
