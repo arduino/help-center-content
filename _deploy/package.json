@@ -9,7 +9,7 @@
   "author": "Sebastian Wikström",
   "license": "ISC",
   "dependencies": {
-    "algoliasearch": "^4.13.1",
+    "algoliasearch": "^4.23.2",
     "cli-color": "^2.0.3",
     "columnify": "^1.6.0",
     "commander": "^9.5.0",

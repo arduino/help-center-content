@@ -12,7 +12,7 @@ if (ZENDESK_USER && ZENDESK_PASS) {
     console.log('Zendesk credentials not found.');
     zendeskApiLimit = 200;
 }
-console.log(`API requests per minute: ${zendeskApiLimit}\n`);
+console.log(`API requests per minute: ${zendeskApiLimit}`);
 
 const AlgoliaID = process.env.ALGOLIA_APPLICATION_ID;
 const AlgoliaSecret = process.env.ALGOLIA_INDEXER_KEY;
@@ -49,7 +49,7 @@ const htmlSave = program.opts().htmlSave;
 const htmlDiff = program.opts().htmlDiff; // TODO
 const wait = program.opts().wait;
 const syncIndex = program.opts().syncIndex;
-const skipAlgolia = program.opts().skipAlgolia;
+var skipAlgolia = program.opts().skipAlgolia;
 
 // Set up Zendesk client
 import { createClient as createZendeskClient } from 'node-zendesk';
@@ -67,10 +67,23 @@ const client = createZendeskClient({
 
 // Algolia
 import algoliasearch from 'algoliasearch';
+let algoliaIndex;
 if (!skipAlgolia) {
-    const algoliaIndex = algoliasearch(AlgoliaID, AlgoliaSecret)
+    algoliaIndex = algoliasearch(AlgoliaID, AlgoliaSecret)
         .initIndex(AlgoliaIndexName);
+    try {
+        var algoliaExists = await algoliaIndex.exists();
+        if (algoliaExists) {
+            console.log('Algolia index exists.');
+        }
+    } catch (error) {
+        console.log('Algolia index does not exist, and will not be updated!');
+        skipAlgolia = true;
+    }
 }
+
+// Empty line
+console.log();
 
 // HTML
 import * as htmlparser2 from "htmlparser2";
@@ -619,7 +632,9 @@ async function deploy(zendeskSections, articles) {
                 }).wait();
             } catch (error) {
                 console.error("Couldn't save object in Algolia");
-                console.error(error);
+                if (verbose) {
+                    console.error(error);
+                }
             }
         }
     }));
