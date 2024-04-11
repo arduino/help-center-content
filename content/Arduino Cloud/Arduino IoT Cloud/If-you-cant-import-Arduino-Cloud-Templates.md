@@ -5,10 +5,10 @@ id: 4408887422994
 
 This guide aims to help you tackle common issues with [Arduino Cloud Templates](https://app.arduino.cc/templates)
 
+* [If the Import Template button is disabled](#button-disabled)
 * [Dealing with Library Conflicts](#conflict)
-* [Import Template button disabled](#button-disabled)
 
-## Import Template button disabled {#button-disabled}
+## If the Import Template button is disabled {#button-disabled}
 
 Occasionally, the **Import Template** button might be disabled. This could occur if you've exceeded the quota of how many **Things** can be connected to the Cloud. To resolve this, you can [remove a few Things](https://support.arduino.cc/hc/en-us/articles/13369510226204-How-to-delete-Things-in-Arduino-Cloud) to free up space.
 
@@ -16,7 +16,7 @@ Occasionally, the **Import Template** button might be disabled. This could occur
 
 However, within the free plan, only two Things can be connected to the Cloud. If a template requires more than two free spots, you can upgrade the [subscription plan](https://cloud.arduino.cc/plans/) for your account.
 
-## Dealing with Library Conflicts {#conflict}
+## Dealing with library conflicts {#conflict}
 
 With [Arduino Cloud templates](https://app.arduino.cc/templates) you can quickly create a project for a compatible board (such as the MKR WiFi 1010). When importing a template you may experience this error:
 
