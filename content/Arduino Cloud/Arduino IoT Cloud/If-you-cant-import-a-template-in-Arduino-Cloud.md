@@ -1,9 +1,11 @@
 ---
-title: "If you can't import Arduino Cloud Templates"
+title: "If you can't import a template in Arduino Cloud"
 id: 4408887422994
 ---
 
-This guide aims to help you tackle common issues with [Arduino Cloud Templates](https://app.arduino.cc/templates)
+Learn what to do if you experience a problem when importing [IoT Templates in Arduino Cloud](https://app.arduino.cc/templates).
+
+In this article:
 
 * [If the Import Template button is disabled](#button-disabled)
 * [Dealing with Library Conflicts](#conflict)
@@ -18,7 +20,7 @@ However, within the free plan, only two Things can be connected to the Cloud. If
 
 ## Dealing with library conflicts {#conflict}
 
-With [Arduino Cloud templates](https://app.arduino.cc/templates) you can quickly create a project for a compatible board (such as the MKR WiFi 1010). When importing a template you may experience this error:
+When importing a template you may experience this error:
 
 !['We were not able to upload the template sketch' error in Arduino Cloud. The file ThingsProperties.h is missing, throwing a 'No such file or directory' error.](img/IoT_Cloud_Template_Import_Error.PNG)
 
