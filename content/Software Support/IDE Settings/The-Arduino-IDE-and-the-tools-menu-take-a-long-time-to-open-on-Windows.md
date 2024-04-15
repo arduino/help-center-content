@@ -1,6 +1,7 @@
 ---
 title: "The Arduino IDE and the tools menu take a long time to open on Windows"
 id: 360017558720
+draft: true
 ---
 
 If the Arduino software takes a long time to start up and appears to freeze when you try to open the Tools menu, there is a conflict with another device on your system.

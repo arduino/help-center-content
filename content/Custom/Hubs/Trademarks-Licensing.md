@@ -17,7 +17,7 @@ id: 10598087334428
     <img src="https://content.arduino.cc/assets/hc-cross.svg">
     <p class="info-title ">Spot a counterfeit</p>
     <p>Practical guides to help you identify counterfeit products.</p>
-    <a class="link-chevron-right">How to spot a counterfeit Arduino</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360020652100-How-to-spot-a-counterfeit-Arduino">How to spot a counterfeit Arduino</a>
   </div>
 </div>
 <h2 id="h_01HPS6B8G2CJ38N2NQCHKQSS9C" class="center hub">Trademark Guides</h2>

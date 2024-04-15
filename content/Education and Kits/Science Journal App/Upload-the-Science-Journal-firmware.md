@@ -37,6 +37,7 @@ To use the Science Journal, it is necessary to use different libraries and examp
 | Arduino MKR WiFi 1010 (with Science Carrier Rev2)| Arduino_ScienceJournal | /ScienceKitR2/<em>PhysicsLabFirmware</em> |
 | Arduino Nano RP2040 Connect (by itself)    | Arduino_ScienceJournal | /ScienceKit/<em>RP2040ConnectFirmware</em> |
 | Arduino Nano RP2040 Connect (with Science Carrier R3)| Arduino_ScienceKitCarrier | /<em>ScienceJournal</em> |
+{.table-regular}
 
 <a id="using-the-cloud-editor"></a>
 
