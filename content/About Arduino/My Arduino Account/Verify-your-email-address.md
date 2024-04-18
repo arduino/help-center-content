@@ -9,18 +9,14 @@ After completing the registration process, you should automatically receive a co
 
 1. Sign in to your [Arduino account](https://www.arduino.cc/) in the top right corner.
 
-1. Look for a dialog box at the bottom of the screen. Press **Resend email**
+1. Look for a dialog box at the bottom of the screen with the text "Please follow the instructions on the email we sent you to activate your account". Click **Resend email**
 
     ![Resend mail dialog](img/resend-email-dialog.png)
 
-1. The email sent out should have a title similar to the one depicted below.
+1. Open your email inbox and look for an email from **auth@arduino.cc** with the subject "Verify your email".
 
-    ![Verification email](img/Verification-Email.png)
-
-    In the email, you'll find a button labeled **Confirm Now**. Click it to complete the verification process.
-
-Everything should now function as intended, and your account should be successfully verified.
+1. Open the email and click the **Confirm Now** button to complete the account registration.
 
 ## If you haven't received the confirmation email
 
-If you still haven't received the confirmation email, please escalate your case to the Arduino [support](https://www.arduino.cc/en/contact-us) team.
+If you still haven't received the confirmation email, please [contact us](https://www.arduino.cc/en/contact-us).
