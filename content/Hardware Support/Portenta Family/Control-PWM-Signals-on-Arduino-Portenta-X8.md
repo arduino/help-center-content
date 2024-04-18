@@ -12,7 +12,7 @@ Before you can use PWM control, let's ensure you're set up correctly.
 
 1. Run the command `adb.exe shell` to access the ADB shell.
 
-1.  Now you need to export a PWM channel. Use the command `echo <channel number> > export`.    
+1. Now you need to export a PWM channel. Use the command `echo <channel number> > export`.
 
     Remember to replace `<channel number>` with the slot number the cable is plugged into. For instance, if the cable is connected to slot 2, run `echo 2 > export`.
 
@@ -50,24 +50,20 @@ To enable or disable the PWM output, use the these commands:
 
 ## Checking PWM Parameters
 
-You can verify the current status for Duty cycle, Period, and Enable by using the `cat` command.
+You can verify the current status for **Duty cycle, Period, and Enable** by using the `cat` command.
 
 `cat duty_cycle / period / enable`
 
 The terminal should output their respective values.
 
-## Troubleshooting 
+## Troubleshooting
 
 ### Export failure
 
 If the export command fails, try running `sudo su -`. Then, navigate back to the PWM configuration directory using `cd /sys/class/pwm/pwmchip0`.
 
-Alternativly, try writing `sudo` before the command. 
+Alternatively, try writing `sudo` before the command.
 
 ### ADB tool missing
 
 If, for any reason, you're unable to locate the **ADB tool**, you can [download](https://developer.android.com/tools/releases/platform-tools#downloads) it from here and navigate to its directory instead.
-
-
-
-
