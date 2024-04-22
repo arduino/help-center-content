@@ -19,4 +19,10 @@ After completing the registration process, you should automatically receive a co
 
 ## If you haven't received the confirmation email
 
-If you haven't received the confirmation email yet, please check your spam folder. Alternatively, you can [contact us](https://www.arduino.cc/en/contact-us) for further assistance.
+Follow these steps:
+
+1. Make sure you're checking the correct email inbox.
+
+2. Check your spam folder.
+
+3. [Contact us](https://www.arduino.cc/en/contact-us) for further assistance.
