@@ -29,6 +29,17 @@ Not all boards have an enabled AREF pin, and it doesn't work the same way on all
   <tr>
     <td>
       <ul>
+        <li>GIGA</li>
+      </ul>
+    </td>
+    <td>
+        The analog reference is automatically selected when the AREF pin is connected to a voltage.
+        The GIGA doesn’t need to use analogReference() to indicate the reference since it automatically changes the state when a voltage is added.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <ul>
         <li>Mbed Nano boards (33 BLE, etc.)</li>
       </ul>
     </td>
