@@ -29,12 +29,11 @@ Not all boards have an enabled AREF pin, and it doesn't work the same way on all
   <tr>
     <td>
       <ul>
-        <li>GIGA</li>
+        <li>Arduino GIGA R1</li>
       </ul>
     </td>
     <td>
-        The analog reference is automatically selected when the AREF pin is connected to a voltage.
-        The GIGA doesn’t need to use analogReference() to indicate the reference since it automatically changes the state when a voltage is added.
+        Any external voltage applied to the AREF pin will be automatically used as the reference.
     </td>
   </tr>
   <tr>
