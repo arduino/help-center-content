@@ -1,16 +1,30 @@
 ---
-title: "Control PWM Signals on Arduino Portenta X8"
+title: "Use Linux PWM interface with Portenta X8"
 ---
 
-Controlling [PWM (Pulse Width Modulation)](https://www.kernel.org/doc/Documentation/pwm.txt) signals allows for precise adjustment of output voltages, making it a useful tool for motor control and LED brightness adjustment, and so on. In this guide, we'll walk through the steps to manage PWM signals for Arduino Portenta X8.
+Controlling PWM signals through [Linux PWM interface](https://www.kernel.org/doc/Documentation/pwm.txt) allows for precise adjustment of output voltages, making it a useful tool for motor control and LED brightness adjustment, and so on. In this guide, we'll walk through the steps to manage PWM signals for Arduino Portenta X8.
 
 ## Setup
 
 Before you can use PWM control, let's ensure you're set up correctly.
 
-1. Open your command prompt or terminal and navigate to the ADB directory. You can find it at `cd %localappdata%\Arduino15\packages\arduino\tools\adb\32.0.0.`
+1. Open your command prompt or terminal and navigate to the ADB directory.
 
-1. Run the command `adb.exe shell` to access the ADB shell.
+    **For Windows:**
+
+    1. Run `cd %localappdata%\Arduino15\packages\arduino\tools\adb\32.0.0.`.
+    1. Run `adb.exe shell`.
+
+    **For Mac:**
+
+    1. Run `cd ~/Library/Arduino15/packages/arduino/tools/adb/32.0.0`.
+    1. Run `./adb shell`.
+
+    **For Linux:**
+    1. Run `cd ~/.arduino15/packages/arduino/tools/adb/32.0.0`.
+    1. Run `./adb shell`.
+
+Once you're in the ADB environment, follow these steps:
 
 1. Now you need to export a PWM channel. Use the command `echo <channel number> > export`.
 
