@@ -4,7 +4,7 @@ id: 360016495639
 ---
 
 > [!WARNING]
-> The **Arduino Cloud for Chromebook** has been removed from Google Play and is currently unavailable. We are actively working to resolve the issue.
+> **Arduino Cloud for Chromebook** has been removed from Google Play and is currently unavailable. We are actively working to resolve the issue.
 
 You can write and upload sketches on Chrome OS with the Cloud Editor in Arduino Cloud. The Cloud Editor has an extensive feature set similar to the desktop IDE. While many popular boards are compatible, you should check [the list of compatible boards here](https://support.arduino.cc/hc/en-us/articles/360014779899).
 
@@ -13,7 +13,7 @@ You can write and upload sketches on Chrome OS with the Cloud Editor in Arduino 
 ## Install Arduino Cloud for Chromebook
 
 > [!WARNING]
-> The **Arduino Cloud for Chromebook** has been removed from Google Play and is currently unavailable. We are actively working to resolve the issue.
+> **Arduino Cloud for Chromebook** has been removed from Google Play and is currently unavailable. We are actively working to resolve the issue.
 
 To use Arduino boards on Chromebook, you need to install the **Arduino Cloud for Chromebook** app. This app handles serial communication with the board and is replacing the previous Chrome Apps[^chrome-apps].
 
