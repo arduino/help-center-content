@@ -44,20 +44,7 @@ All orders addressed to Americas, Asia and Oceania are shipped from Arduino's US
 
 ## Track an order
 
-1. Find the **"Order XXXXXX confirmed"** email sent to the email address provided for your order.
-2. Open the email and click **View your order**.
-
-   ![Order overview](img/order-overview_0.5.png)
-
-3. Track your order:
-
-   * Check the overview for key information (availability may vary depending on carrier).
-   * Find the **tracking number**. For most orders, clicking on it will show the shipment on the carrier's own tracking page. If not, look for the carrier's tracking page and search for the number there, or use a general tracking service:
-
-     * [https://www.trackingmore.com/](https://www.trackingmore.com/)
-     * [https://www.aftership.com/](https://www.aftership.com/)
-     * [https://www.track-trace.com/](https://www.track-trace.com/)
-     * [https://www.17track.net/](https://www.17track.net/)
+[Track your order](https://support.arduino.cc/hc/en-us/articles/13756849779228-Track-an-order){.link-chevron-right}
 
 <a id="deliveries-by-the-local-post"></a>
 
