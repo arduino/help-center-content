@@ -7,8 +7,8 @@ To open a sketch in the Cloud Editor, follow these steps:
 
 1. Choose a sketch to open in the Cloud Editor:
 
-    * **Create a new sketch:** Click on the Create button in the top-right corner and choose New Sketch.
-    * **Open a saved sketch:** Click on a sketch you want to open.
+    - **Create a new sketch:** Click on the Create button in the top-right corner and choose New Sketch.
+    - **Open a saved sketch:** Click on a sketch you want to open.
 
 Your sketch will automatically open in a new tab.
 
