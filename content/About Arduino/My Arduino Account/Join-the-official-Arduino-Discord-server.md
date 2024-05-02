@@ -17,7 +17,7 @@ To join the server, [click this link](https://discord.com/invite/jQJFwW7){.link-
 
 ## Using the server
 
-Please read the **[#welome](https://discord.com/channels/420594746990526466/549794917036326912)** and **[#code-of-conduct](https://discord.com/channels/420594746990526466/755251766605381743)** channels before posting.
+Please read the **[#welcome](https://discord.com/channels/420594746990526466/549794917036326912)** and **[#code-of-conduct](https://discord.com/channels/420594746990526466/755251766605381743)** channels before posting.
 
 **Highlighted channels:**
 
