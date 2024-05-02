@@ -30,11 +30,11 @@ You can open the status page for your order in two ways:
 
 3. Open the email and click **View your order**.
 
-![Order overview](img/order-overview_0.5.png)
-
 ---
 
 ## Using the order status page
+
+![Order overview](img/order-overview_0.5.png)
 
 On the order status page, you can:
 
