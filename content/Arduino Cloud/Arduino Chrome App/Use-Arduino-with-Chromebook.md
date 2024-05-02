@@ -10,7 +10,7 @@ You can write and upload sketches on Chrome OS with the Cloud Editor in Arduino 
 
 ---
 
-## Install Arduino Cloud for Chromebook
+## Install Arduino Cloud for Chromebook{#install-arduino-cloud-for-chromebook}
 
 > [!WARNING]
 > **Arduino Cloud for Chromebook** has been removed from Google Play and is currently unavailable. We are actively working to resolve the issue.
