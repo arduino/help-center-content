@@ -36,7 +36,7 @@ Secret keys cannot be recovered if lost. Make sure to save any Device ID and Sec
 
 3. Double-press the reset button on the board to put the board in [bootloader mode](https://support.arduino.cc/hc/en-us/articles/5779192727068-Reset-your-board#bootloader-mode), then click **Try Again**.
 
-4. Try uploading an Example sketch (such as _Examples > Built in > 01.Basics > Blink_) in the [Cloud Editor](https://create.arduino.cc/editor).
+4. Try uploading an Example sketch (such as _Examples > Built in > 01.Basics > Blink_) in the [Cloud Editor](https://app.arduino.cc/).
 
    * If your board isn't detected by the Cloud Editor, see [If your board does not appear in the port menu](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-does-not-appear-in-the-port-menu).
 

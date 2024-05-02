@@ -11,7 +11,7 @@ id: 9393241841308
   </div>
   <div class="actions-item">
     <img src="https://content.arduino.cc/assets/hc-web-editor.svg">
-    <a id="keep" href="https://create.arduino.cc/editor"></a>
+    <a id="keep" href="https://app.arduino.cc/"></a>
     <span class="link-external">Open Cloud Editor</span>
   </div>
   <div class="actions-item">

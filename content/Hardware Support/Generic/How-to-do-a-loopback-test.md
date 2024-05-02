@@ -32,7 +32,7 @@ A **loopback test** is a troubleshooting procedure to test the serial communicat
 
    * Wiring diagrams for UNO and Nano can be found in [Examples](#examples).
 
-5. Open Arduino IDE or the [Cloud Editor](https://create.arduino.cc/editor).
+5. Open Arduino IDE or the [Cloud Editor](https://app.arduino.cc/).
 
 6. Connect the board to your computer and select it with the Board selector. If your board is an Arduino Nano, you'll need to manually select "Arduino Nano". The Board selector is not available in IDE 1 – use the _Tools > Port_ and _Tools > Port_ menu options instead. To learn more, see [Select board and port in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE).
 

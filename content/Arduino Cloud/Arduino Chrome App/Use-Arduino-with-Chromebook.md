@@ -52,7 +52,7 @@ The currently supported boards include:
 
 Follow these steps:
 
-1. Open the **Arduino Cloud for Chromebook** either from the Launcher or by visiting [create.arduino.cc/editor](create.arduino.cc/editor)
+1. Open the **Arduino Cloud for Chromebook** either from the Launcher or by visiting the [Cloud Editor](https://app.arduino.cc/)
 
 1. If you're not already signed into your Arduino account, you'll be prompted to do so.
 

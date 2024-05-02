@@ -43,7 +43,7 @@ To use the Science Journal, it is necessary to use different libraries and examp
 
 ## Upload the firmware using the Cloud Editor
 
-1. Open the [Cloud Editor](https://create.arduino.cc/editor).
+1. Open the [Cloud Editor](https://app.arduino.cc/).
 2. Connect your board to your computer with a USB cable.
 3. Select your board in the board dropdown.
 
