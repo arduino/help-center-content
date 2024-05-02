@@ -5,8 +5,7 @@ id: 13756849779228
 
 Learn how to track orders made from the Arduino Store.
 
-> [!TIP]
-> If you made your order through Amazon, check [Amazon Customer Service](https://www.amazon.com/gp/help/customer/display.html?nodeId=GENAFPTNLHV7ZACW){.link-external}.
+If you made your order through Amazon, check [Amazon Customer Service](https://www.amazon.com/gp/help/customer/display.html?nodeId=GENAFPTNLHV7ZACW){.link-external}.
 
 ---
 
