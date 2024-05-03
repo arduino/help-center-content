@@ -76,7 +76,7 @@ If Arduino IDE fails to open, and you see the text `dlopen(): error loading libf
 
 * If you're using a Chromebook, see [Use Arduino with Chromebook](https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook).
 * If you're installing the legacy version, see these guides for [Windows](https://docs.arduino.cc/software/ide-v1/tutorials/Windows), [macOS](https://www.arduino.cc/en/Guide/macOS), [Linux](https://docs.arduino.cc/software/ide-v1/tutorials/Linux).
-* Consider using the [Cloud Editor](https://app.arduino.cc/) (you'll need to install the [Arduino Create Agent](https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Create-Agent)).
+* Consider using the [Cloud Editor](https://support.arduino.cc/hc/en-us/articles/13809101080732-Open-the-Cloud-Editor) (you'll need to install the [Arduino Create Agent](https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Create-Agent)).
 * Check the [Installation & Troubleshooting category](https://forum.arduino.cc/c/using-arduino/installation-troubleshooting/18) in the Arduino Forum.
 
 <p style="display:none;">

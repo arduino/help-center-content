@@ -33,7 +33,7 @@ In addition, Arduino Cloud Editor allows you to import sketches and files in the
 
 3. Import your sketchbook to the cloud:
 
-   Go to the [Cloud Editor](https://app.arduino.cc/). When you are logged in and ready, hit the import button on the sketchbook panel. A pop-up with some instructions on how to import files into the Cloud Editor will be displayed. Press “Import” to continue.
+   Go to the [Cloud Editor](https://support.arduino.cc/hc/en-us/articles/13809101080732-Open-the-Cloud-Editor). When you are logged in and ready, hit the import button on the sketchbook panel. A pop-up with some instructions on how to import files into the Cloud Editor will be displayed. Press “Import” to continue.
 
    You will now see a file system window, select your `Arduino.zip` pack. Wait for the import process to finish. If your sketchbook is big (containing lots of files), this may take a while.
 

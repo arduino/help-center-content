@@ -37,6 +37,7 @@ Follow these steps:
 
 You can now use the Cloud Editor and Arduino Cloud:
 
+* [Cloud Editor](https://support.arduino.cc/hc/en-us/articles/13809101080732-Open-the-Cloud-Editor)
 * [Arduino Cloud](https://app.arduino.cc/)
 
 ---
