@@ -1,10 +1,10 @@
 ---
-title: "Opta FAQ"
+title: "FAQ: Arduino Opta"
 ---
 
-The frequently asked questions covered in this article are focused on providing essential information about The Arduino Opta® and how to operate it with ease.
+The frequently asked questions covered in this article are focused on providing essential information about Arduino Opta® and how to operate it with ease.
 
-## FAQ
+---
 
 **What programming languages does Opta® support?**
 
@@ -68,7 +68,7 @@ Opta® is very versatile and can be used by OEM to control small industrial mach
 
 **Can data be logged? If so, how?**
 
-Yes, data logging is achievable using a USB-C® memory stick."
+Yes, data logging is achievable using a USB-C® memory stick.
 
 **What functions do Opta®'s LEDs have?**
 
