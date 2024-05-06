@@ -3,7 +3,7 @@ title: "If you can't access the Cloud Editor"
 id: 8825427680796
 ---
 
-When accessing the **Cloud Editor** ([create.arduino.cc/editor](https://support.arduino.cc/hc/en-us/articles/13809101080732-Open-the-Cloud-Editor)), you may encounter one of these issues:
+When accessing the [Cloud Editor](https://support.arduino.cc/hc/en-us/articles/13809101080732-Open-the-Cloud-Editor), you may encounter one of these issues:
 
 * You get signed out when trying to access the Cloud Editor
 * The Cloud Editor doesn't load
