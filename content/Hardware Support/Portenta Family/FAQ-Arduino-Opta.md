@@ -1,5 +1,6 @@
 ---
-title: "FAQ: Arduino Opta"
+title: FAQ: Arduino Opta
+id: 13870453088924
 ---
 
 The frequently asked questions covered in this article are focused on providing essential information about Arduino Opta® and how to operate it with ease.
