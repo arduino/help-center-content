@@ -2,39 +2,104 @@
 title: "Connect X8 to Wi-Fi using nmcli"
 ---
 
-To manually connect your board to Wi-Fi, you have to utilize the command-line tool `nmcli` through the Network Manager tool.
+Learn how to connect and configure a Wi-Fi connection for Portenta X8 using `nmcli` (Network Manager tool).
 
-## Setting up the Network Manager tool
+> [!TIP]
+> Portenta X8 features an [Out-of-the-box experience](https://docs.arduino.cc/tutorials/portenta-x8/user-manual/#out-of-the-box-experience) that helps you set up a Wi-Fi connection.
 
-The Network Manager tool should be available in the [Arduino15](https://support.arduino.cc/hc/en-us/articles/360018448279-Open-the-Arduino15-folder) folder. Here's the path: `%localappdata%\Arduino15\packages\arduino\tools\adb\32.0.0`
+---
 
-**For Windows:**
+## 1. Open the Android Debug Bridge shell
+
+The Network Manager tool is available in the [Arduino15 folder](https://support.arduino.cc/hc/en-us/articles/360018448279-Open-the-Arduino15-folder) if you've installed **Arduino Mbed OS Portenta Boards** package using Arduino IDE or Arduino CLI.
+
+**Windows:**
 
 1. Open Command Prompt.
 
-1. Use the `cd` command to navigate to the extracted folder's location. `cd %localappdata%\Arduino15\packages\arduino\tools\adb\32.0.0`.
+1. Run the following command to enter the `adb` folder:
 
-1. Run `adb.exe shell`.
+   ```
+   cd %localappdata%\Arduino15\packages\arduino\tools\adb
+   ```
 
-**For Mac:**
+1. Run this command to list the installed versions:
+
+   ```
+   dir
+   ```
+
+1. Open the installed version:
+
+   ```
+   cd <folder name>
+   ```
+
+1. Run adb:
+
+   ```
+   adb.exe shell
+   ```
+
+**macOS:**
 
 1. Open Terminal.
 
-1. Use the `cd` command to navigate to the extracted folder's location. `cd ~/Library/Arduino15/packages/arduino/tools/adb/32.0.0`.
+1. Run the following command to enter the `adb` folder:
 
-1. Run `./adb shell`.
+   ```
+   cd ~/Library/Arduino15/packages/arduino/tools/adb
+   ```
 
-**For Linux:**
+1. Run this command to list the installed versions:
+
+   ```
+   ls
+   ```
+
+1. Open the installed version:
+
+   ```
+   cd <folder name>
+   ```
+
+1. Run adb:
+
+   ```
+   ./adb shell
+   ```
+
+**Linux:**
 
 1. Open Terminal.
 
-1. Use the `cd` command to navigate to the extracted folder's location. `cd ~/.arduino15/packages/arduino/tools/adb/32.0.0`.
+1. Run the following command to enter the `adb` folder:
 
-1. Run `./adb shell`.
+   ```
+   cd ~/.arduino15/packages/arduino/tools/adb
+   ```
 
-If you don't have the Network Manager tool, you can download it [here](https://developer.android.com/tools/releases/platform-tools#downloads).
+1. Run this command to list the installed versions:
 
-## Manage Wi-Fi connections
+   ```
+   ls
+   ```
+
+1. Open the installed version:
+
+   ```
+   cd <folder name>
+   ```
+
+1. Run adb:
+
+   ```
+   ./adb shell
+   ```
+
+---
+
+## 2. Using nmcli to manage Wi-Fi connections
 
 Managing Wi-Fi connections allows you to create and delete custom connections on your board.
 
