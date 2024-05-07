@@ -9,7 +9,7 @@ When any or all of these buttons fail to respond appropriately to touch, the fol
 
 ## Open the Custom_Sensitivity sketch
 
-Calibration of the button sensitivity can be done in the Arduino IDE or in the [Arduino Cloud Editor](https://create.arduino.cc/editor).
+Calibration of the button sensitivity can be done in the Arduino IDE or in the [Arduino Cloud Editor](https://support.arduino.cc/hc/en-us/articles/13809101080732-Open-the-Cloud-Editor).
 
 ### Using the Arduino IDE
 

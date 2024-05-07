@@ -12,4 +12,4 @@ These are the available platforms you can use webhooks with:
 * [Google Script](https://script.google.com/home) > Allows you to interact with all your Google G-Suite files such as Google Sheets, Docs and more.
 * [Zapier](https://zapier.com/developer/documentation/v2/rest-hooks/) > With Zapier you can connect your APIs quickly with their visual builder and allows you to build an integration and preview it as a user in real time.
 
-If you’re new to webhooks and want an example to get started and understand things better, check this [sample project](https://create.arduino.cc/projecthub/Arduino_Genuino/arduino-iot-cloud-google-sheets-integration-71b6bc).
+If you’re new to webhooks and want an example to get started and understand things better, check this [sample project](https://projecthub.arduino.cc/Arduino_Genuino/arduino-iot-cloud-google-sheets-integration-3c0df1).
