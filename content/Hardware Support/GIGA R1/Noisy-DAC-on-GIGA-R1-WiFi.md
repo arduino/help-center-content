@@ -1,5 +1,5 @@
 ---
-title: "Noisy DAC on GIGA R1 WIFI"
+title: "Noisy DAC on GIGA R1 WiFi"
 ---
 
 When running a sketch on your GIGA R1 WiFi board that reads from storage from a USB drive a noise might be noticeable on the DAC especially when using the board's audio output where a slight hum can be detected.
