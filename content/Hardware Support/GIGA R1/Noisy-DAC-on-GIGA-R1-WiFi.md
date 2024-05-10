@@ -9,7 +9,6 @@ When running a sketch on your GIGA R1 WiFi board that reads from storage from a 
 * Add a capacitor between the AREF and GND Pins. Make sure when adding components or changing your circuits the board is unpowered.
 ![10pF Capacitor between AREF and GND](img/GIGA-R1-filter-DAC.png)
 
-
 ## Testing it out
 
 1. Upload the sketch [Audio playback](https://docs.arduino.cc/tutorials/giga-r1-wifi/giga-audio/#audio-playback)
