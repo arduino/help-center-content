@@ -11,7 +11,7 @@ Learn more about the delivery process:
 * <a href="#track-an-order">Track an order</a>.
 * <a href="#possible-fees">Possible additional fees charged by the carrier</a>.
 * <a href="#cancel-or-modify-an-order">Cancel or modify an order</a>.
-* <a href="#if-a-parcel-did-not-arrive">If a parcel did not arrive</a>.
+* <a href="#if-you-havent-received-your-delivery">If you haven't received your delivery</a>.
 
 ---
 
@@ -87,18 +87,26 @@ If you want to return your order and receive a refund you can reject to receive 
 
 ---
 
-<a id="if-a-parcel-did-not-arrive"></a>
+<a id="if-you-havent-received-your-delivery"></a>
 
-## If a parcel did not arrive
+## If you haven't received your delivery
 
-In some rare cases, an order might not be delivered to the customer even if it appears as delivered when tracking the parcel. This mostly happens when using shipping methods that don't have proof of delivery.
+In rare cases, an order might not reach its destination even when the tracking displays it as delivered. This is more common with shipping methods that don't offer proof of delivery.
 
-If the parcel did not arrive, please check the following before contacting [Arduino's customer support](https://www.arduino.cc/en/contact-us/):
+Here are a few steps to follow if a delivery is missing:
 
-* Check if other people living in the same delivery address or a neighbor have picked up the parcel.
-* Check around the entrance(s) of your residence, particularly on back porches, bushes, garages, grills, or other places that might protect your package from theft or weather.
+1. See if someone else at your delivery address or a nearby neighbor have picked up the parcel.
+
+1. Check for messages or updates from the shipping provider to see if your package might have been dropped off at a pickup point. You can also review the tracking information provided by the shipping partner.
+  ![Image of a link that leads to shipping informaiton](img/delivery_link.png)
+
+1. Ensure your address details are accurate and up to date.
+
+1. Check around the entrance(s) of your residence, particularly on back porches, bushes, garages, grills, or other places that might protect your package from theft or weather.
 
 > Note that carriers may also use plastic bags to protect your package from the weather.
+
+If you've completed these steps and still can't locate the missing package, please contact [Arduino's customer support](https://www.arduino.cc/en/contact-us/) within 30 day.
 
 ---
 
