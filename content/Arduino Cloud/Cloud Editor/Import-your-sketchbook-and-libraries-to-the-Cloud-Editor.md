@@ -19,9 +19,9 @@ Arduino Cloud Editor allows you to import sketches and files in the following fo
 
    On your PC find out where your sketchbook folder is (it is called ‘Arduino’ unless you renamed it) and you will find it under the following directory:
 
-   - Windows: it’s usually under `This PC/Documents/Arduino`
-   - macOS: `User/Documents/Arduino`
-   - Linux: `$HOME/Arduino`.
+- Windows: `C:\Users\{username}\Documents\Arduino`
+- macOS: `/Users/{username}/Documents/Arduino`
+- Linux: `/home/{username}/Arduino`
 
 1. Zip your sketchbook
 
