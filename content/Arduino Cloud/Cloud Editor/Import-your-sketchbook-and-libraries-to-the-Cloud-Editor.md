@@ -27,8 +27,6 @@ Arduino Cloud Editor allows you to import sketches and files in the following fo
 
    Make a `.zip` pack of your sketchbook, you should obtain a file called `Arduino.zip`. Make sure it is in `.zip` format, any other archive formats will not work.
 
-   ![Create ZIP file](img/ImportFiles1.jpg)
-
 1. Import your sketchbook to the Cloud
 
    Go to the [Sketch tab](https://app.arduino.cc/sketches). Click the **Create** button in the top right corner. Then click **Import local file** in the dropdown menu.

@@ -32,7 +32,7 @@ Learn how to troubleshoot possible issues when connecting a board to the Cloud E
 
 ### Classic Nano boards and boards with generic USB chips
 
-Classic Nano boards and some clone boards with generic USB chips will show up as **"Board"** in the board selector. When selecting a **"Board"** port you will be prompted to select the board type manually.
+Classic Nano boards and some clone boards with generic USB chips will show up as **"Unknown"** in the board selector. When selecting a **"Unknown"** port you will be prompted to select the board type manually.
 
 Note that:
 
