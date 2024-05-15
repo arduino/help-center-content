@@ -11,14 +11,13 @@ The frequently asked questions covered in this article are focused on providing 
 
     Opta® supports a variety of programming languages, including the Arduino programming language and standard IEC-61131-3 PLC programming languages such as Ladder Diagram (LD), Sequential Function Chart (SFC), Function Block Diagram (FBD), Structured Text (ST), and Instruction List (IL). This flexibility makes it suitable for automation engineers with different programming preferences.
 
-- **Where can I get documentation on IEC 61131-3 programming languages?**
+- **Where can I find documentation on IEC 61131-3 programming languages?**
 
-    To program Opta® using IEC 61131-3 programming languages, it is necessary to download a software, called [PLC IDE](https://www.arduino.cc/en/software#arduino-plc-ide). Tutorials and documentation can be found on the [Arduino PLC IDE Documentation page](https://docs.arduino.cc/software/plc-ide/) and an online manual is integrated in the software; it can be accessed from top menu bar, clicking on “Help”-->”Index”. This manual can be downloaded and stored locally or even printed as a reference and contains information on the programming environment overview and how to use it, projects and project elements management, programming languages use and functions as well as debugging tools info.
+    To program Opta® using IEC 61131-3 programming languages, download the software called [PLC IDE](https://www.arduino.cc/en/software#arduino-plc-ide). Tutorials and documentation are available on the [Arduino PLC IDE Documentation page](https://docs.arduino.cc/software/plc-ide/). An online manual is integrated into the software and can be accessed from the top menu bar by clicking on “Help” --> “Index.” This manual can be downloaded,  stored locally, or printed for reference. It contains information about the programming environment, project and project elements management, use of programming languages and functions, and debugging tools.
 
-- **Is is possible to migrate PLC code built on different software environments from other vendors into PLC IDE to make it work with Opta?**
+- **Is it possible to migrate PLC code built in different software environments from other vendors into PLC IDE for use with Opta?**
 
-    The IEC 61131-3 programming languages are standard and program organizational units (POUs) can be ported with a reasonable effort, as long as the original code does not imply proprietary parts (e.g. libraries) for which the source is not shared. Usually it is a matter of time dedicated to the copy, after managing variables creation and possible vendor-dependent function blocks re-writing.
-For ST language this is faster because it’s text and an editor copy usually works. For graphic languages this takes more time as the POUs must be rebuilt.
+    The IEC 61131-3 programming languages are standardized, and program organizational units (POUs) can be ported with reasonable effort, as long as the original code does not include proprietary parts (e.g., libraries) for which the source is not shared. Usually, it is a matter of dedicating time to copying the code, after managing variable creation and possibly rewriting vendor-dependent function blocks. For ST language, this process is faster because it’s text-based, and an editor copy usually works. For graphical languages, it takes more time as the POUs must be rebuilt.
 
 - **What are the connectivity options for the Opta® variants?**
 
@@ -62,7 +61,7 @@ For ST language this is faster because it’s text and an editor copy usually wo
 
 - **Why is the Simulation Mode disabled in PLC IDE?**
 
-    The Simulation Mode is not available in the PLC IDE due to the runtime implementation as, including the Arduino code, it would not be capable of simulating reliably that part.
+    The Simulation Mode is unavailable in the PLC IDE because the runtime implementation, including the Arduino code, would not reliably support simulation for that part.
 
 - **What input options are available on Opta®?**
 
