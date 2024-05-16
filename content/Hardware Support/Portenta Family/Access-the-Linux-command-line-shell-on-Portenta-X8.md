@@ -1,5 +1,6 @@
 ---
-title: "Access the Linux command-line shell on Portenta X8"
+title: Access the Linux command-line shell on Portenta X8
+id: 14013004356124
 ---
 
 Learn how to use Android Debug Bridge to access the command-line shell on Portenta X8.
