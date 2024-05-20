@@ -28,8 +28,8 @@ Learn how to troubleshoot possible issues when connecting a board to the Cloud E
     1. Open the Arduino Create Agent menu (Look for the ![Arduino Create Agent icon](img/create-agent-logo-mac.png) icon in the top-right of the menu bar of macOS).
     2. Click on the **Manage HTTPS certificate** menu and make sure that the certificate is installed and trusted.  
        If it’s not, you can click on the button "Install the certificate for Safari".
-    4. Enter the administrative credentials, if prompted.
-    5. Refresh the Safari browser window.
+    3. Enter the administrative credentials, if prompted.
+    4. Refresh the Safari browser window.
 
 ### Classic Nano boards and boards with generic USB chips
 
