@@ -18,7 +18,7 @@ Learn how to troubleshoot possible issues when connecting a board to the Cloud E
 
 1. Make sure to select the connected board in the board selector. Sometimes the Cloud Editor will show the red cross icon and the name of a board that has been previously connected:
 
-    ![Cloud Editor with red cross icon and detected board name showing in the board selector](img/WebEditor_Dropdown_menu.png)
+    ![Showcasing the board selector interface with a previously detected device highlighted](img/WebEditor_Dropdown_menu.png)
 
 2. Check that your device is powered. One or more more LEDs should be lit.
 3. Ensure you've connected your board with a working data USB cable.
@@ -32,9 +32,7 @@ Learn how to troubleshoot possible issues when connecting a board to the Cloud E
 
 ### Classic Nano boards and boards with generic USB chips
 
-Classic Nano boards and some clone boards with generic USB chips will show up as **"Board"** in the board selector. When selecting a "Board" port you will be prompted to select the board type manually.
-
-![Cloud Editor with port name showing in the board selector ](img/WebEditor_port_no_board_name.png)
+Classic Nano boards and some clone boards with generic USB chips will show up as **"Unknown"** in the board selector. When selecting a **"Unknown"** port you will be prompted to select the board type manually.
 
 Note that:
 

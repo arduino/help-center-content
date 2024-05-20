@@ -7,51 +7,31 @@ Several techniques can be used to make Arduino Cloud Editor pick a specific libr
 
 > See [this forum post](https://forum.arduino.cc/index.php?topic=684441.msg4605368#msg4605368) if you're interested in learning alternative methods to the technique described in this guide.
 
-1. From the menu on the left side of the Cloud Editor window, click "Libraries".
+1. From the menu on the left side of the Cloud Editor window, click on the "Libraries" tab.
 
    ![Library Tab](img/Library_Tab.png)
 
-2. Click the "Library Manager" button.
+1. Search for `DS18B20` in the search bar.
 
-   ![Library Manager](img/Library_Manager_Button.png)
-
-3. Search for "DS18B20".
-
-4. If the star to the right of the library is not already filled, click the star to add the library to your "Favorites".
+1. If the star to the right of the library is not already filled, click the star to add the library to your "Favorites".
 
    ![Add library to favorites](img/Favorite_Library.png)
 
-5. Click the "Done" button.
-
-6. From the menu on the left side of the Cloud Editor window, click "Libraries".
-
-7. From the Libraries pane of the Cloud Editor window, click the "Favorites" tab.
-
-   ![Library Tab](img/Library_Tab.png)
-
-8. Find "DS18B20" in the list of favorite libraries and hover the mouse pointer over `DS18B20`.
-
-9. Click the downward pointing triangle to the right of `DS18B20`.
-
-10. Click "Download Library".
+1. Click on the three dots and then "Download Library".
 
     ![Download Library](img/Download_Library.png)
 
-11. Click the upward pointing arrow button (Import) to the right side of the "Library Manager" button.
+1. Click the upward pointing arrow button (Import) above the search bar.
 
     ![Import Library](img/Import_Library.png)
 
-12. If you get a pop-up about importing your sketchbook, click the "Import" button.
+1. Select the downloaded library (DS18B20-1.0.0.zip).
 
-13. Select the downloaded library (DS18B20-1.0.0.zip).
+1. Click the "Open" button.
 
-14. Click the "Open" button.
-
-15. Wait for the Cloud Editor to display the notification that the library was successfully imported.
+1. Wait for the Cloud Editor to display the notification that the library was successfully imported.
 
     ![Download Library](img/Import_Successful.png)
-
-16. Click the "OK" button.
 
 This will cause the version of the library you imported to always be used by all sketches (1.0.0 in this case), so you may want to occasionally check to see if the library author has released a new version of the library and repeat the process with the new version in order to take advantage of any improvements or bug fixes that have been made to the library in the new release.
 
