@@ -24,11 +24,12 @@ Learn how to troubleshoot possible issues when connecting a board to the Cloud E
 3. Ensure you've connected your board with a working data USB cable.
 4. If you haven't done so already, [install Arduino Create Agent](https://create.arduino.cc/getting-started/plugin/welcome).
 5. [Check if the Arduino Create Agent is installed and running](https://support.arduino.cc/hc/en-us/articles/4980687506844-Check-if-the-Arduino-Create-Agent-is-installed-and-running).
-6. Check if HTTPS certificates have been installed:
-    1. Open the Arduino Create Agent menu (Look for the ![Arduino Create Agent icon](img/create-agent-logo-mac.png) icon in the top-right of the menu bar for macOS and Linux or in the bottom-right of the taskbar within the system tray, for Windows).
-    2. If the **Generate and Install HTTPS Certificates** option is available, click it. If it's disabled, the certificates are already installed.
-    3. Enter password if prompted.
-    4. Refresh the browser window.
+6. Check if the HTTPS certificate for macOS Safari has been installed:
+    1. Open the Arduino Create Agent menu (Look for the ![Arduino Create Agent icon](img/create-agent-logo-mac.png) icon in the top-right of the menu bar of macOS).
+    2. Click on the **Manage HTTPS certificate** menu and make sure that the certificate is installed and trusted.  
+       If it’s not, you can click on the button "Install the certificate for Safari".
+    4. Enter the administrative credentials, if prompted.
+    5. Refresh the Safari browser window.
 
 ### Classic Nano boards and boards with generic USB chips
 
