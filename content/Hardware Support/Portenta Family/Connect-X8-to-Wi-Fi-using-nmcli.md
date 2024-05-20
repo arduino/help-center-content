@@ -9,99 +9,13 @@ Learn how to connect and configure a Wi-Fi connection for Portenta X8 using `nmc
 
 ---
 
-## 1. Open the Android Debug Bridge shell
-
-The Network Manager tool is available in the [Arduino15 folder](https://support.arduino.cc/hc/en-us/articles/360018448279-Open-the-Arduino15-folder) if you've installed **Arduino Mbed OS Portenta Boards** package using Arduino IDE or Arduino CLI.
-
-**Windows:**
-
-1. Open Command Prompt.
-
-1. Run the following command to enter the `adb` folder:
-
-   ```
-   cd %localappdata%\Arduino15\packages\arduino\tools\adb
-   ```
-
-1. Run this command to list the installed versions:
-
-   ```
-   dir
-   ```
-
-1. Open the installed version:
-
-   ```
-   cd <folder name>
-   ```
-
-1. Run adb:
-
-   ```
-   adb.exe shell
-   ```
-
-**macOS:**
-
-1. Open Terminal.
-
-1. Run the following command to enter the `adb` folder:
-
-   ```
-   cd ~/Library/Arduino15/packages/arduino/tools/adb
-   ```
-
-1. Run this command to list the installed versions:
-
-   ```
-   ls
-   ```
-
-1. Open the installed version:
-
-   ```
-   cd <folder name>
-   ```
-
-1. Run adb:
-
-   ```
-   ./adb shell
-   ```
-
-**Linux:**
-
-1. Open Terminal.
-
-1. Run the following command to enter the `adb` folder:
-
-   ```
-   cd ~/.arduino15/packages/arduino/tools/adb
-   ```
-
-1. Run this command to list the installed versions:
-
-   ```
-   ls
-   ```
-
-1. Open the installed version:
-
-   ```
-   cd <folder name>
-   ```
-
-1. Run adb:
-
-   ```
-   ./adb shell
-   ```
-
----
-
-## 2. Using nmcli to manage Wi-Fi connections
+## Using nmcli to manage Wi-Fi connections
 
 Managing Wi-Fi connections allows you to create and delete custom connections on your board.
+
+### Open the Android Debug Bridge shell
+
+Before starting, open the [Android Debug Bridge shell](https://support.arduino.cc/hc/en-us/articles/14013004356124-Access-the-Linux-command-line-shell-on-Portenta-X8)
 
 ### Set up variables
 
