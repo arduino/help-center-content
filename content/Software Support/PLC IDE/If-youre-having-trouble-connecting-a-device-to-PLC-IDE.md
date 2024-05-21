@@ -6,7 +6,7 @@ id: 8824551178780
 ## Check this first
 
 * If you haven't done so, start by checking the [Arduino PLC IDE Setup and Board's License Activation](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#instructions) tutorial.
-* Make sure you've installed the **Arduino PLC IDE Tools** package, in addition to the main PLC application.
+* Make sure you've installed the latest version of the **Arduino PLC IDE** software.
 * Make sure you're using a working USB cable that supports data transfer.
 * When downloading the runtime, or connecting to the device, make sure you're [targeting the correct port](#about-ports).
 * When opening a project created with an earlier version of the PLC IDE, some issues may occur. Try creating a new project (**File > New Project**) to see if this resolve the issue.
@@ -92,7 +92,7 @@ Follow these steps:
 
 ### If nothing happens when downloading the runtime sketch
 
-1. Ensure you've installed the **Arduino PLC IDE Tools** from the [Arduino Software page](https://www.arduino.cc/en/software#arduino-plc-ide).
+1. Ensure you've installed the latest version of the **Arduino PLC IDE** software from the [Arduino Software page](https://www.arduino.cc/en/software#arduino-plc-ide).
 2. Restart PLC IDE.
 
 ### Error: "(DownloadSketch) Can not download sketch: COM port must be used!"
