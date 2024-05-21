@@ -19,6 +19,6 @@ Here are a few steps to follow if a delivery is missing:
 
 > Note that carriers may also use plastic bags to protect your package from the weather.
 
-### What to do next?
+## What to do next?
 
 If you've completed these steps and still can't locate the missing package, please contact [Arduino's customer support](https://www.arduino.cc/en/contact-us/) within 30 day.
