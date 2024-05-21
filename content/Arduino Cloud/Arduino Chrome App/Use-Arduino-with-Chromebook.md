@@ -4,16 +4,16 @@ id: 360016495639
 ---
 
 > [!WARNING]
-> The **Arduino Cloud for Chromebook** has been removed from Google Play and is currently unavailable. We are actively working to resolve the issue.
+> **Arduino Cloud for Chromebook** has been removed from Google Play and is currently unavailable. We are actively working to resolve the issue.
 
 You can write and upload sketches on Chrome OS with the Cloud Editor in Arduino Cloud. The Cloud Editor has an extensive feature set similar to the desktop IDE. While many popular boards are compatible, you should check [the list of compatible boards here](https://support.arduino.cc/hc/en-us/articles/360014779899).
 
 ---
 
-## Install Arduino Cloud for Chromebook
+## Install Arduino Cloud for Chromebook{#install-arduino-cloud-for-chromebook}
 
 > [!WARNING]
-> The **Arduino Cloud for Chromebook** has been removed from Google Play and is currently unavailable. We are actively working to resolve the issue.
+> **Arduino Cloud for Chromebook** has been removed from Google Play and is currently unavailable. We are actively working to resolve the issue.
 
 To use Arduino boards on Chromebook, you need to install the **Arduino Cloud for Chromebook** app. This app handles serial communication with the board and is replacing the previous Chrome Apps[^chrome-apps].
 
@@ -52,9 +52,16 @@ The currently supported boards include:
 
 Follow these steps:
 
-1. Open the **Arduino Cloud for Chromebook** either from the Launcher or by visiting [create.arduino.cc/editor](create.arduino.cc/editor)
+1. Open **Arduino Cloud for Chromebook** from the Launcher or go to [app.arduino.cc](https://app.arduino.cc/) in your browser.
 
 1. If you're not already signed into your Arduino account, you'll be prompted to do so.
+
+1. In the sidebar, select the **Sketches** tab.
+
+1. Choose a sketch to open in the Cloud Editor:
+
+   * **Create a new sketch:** Click on the Create button in the top-right corner and choose New Sketch.
+   * **Open a saved sketch:** Click on a sketch you want to open.
 
 1. Connect a [compatible board](https://support.arduino.cc/hc/en-us/articles/360014779899#chromebook) to one of the USB ports on your Chromebook.
 

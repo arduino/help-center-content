@@ -1,5 +1,6 @@
 ---
 title: "Use PWM with Portenta X8"
+id: 14086813925916
 ---
 
 Learn how to use Pulse Width Modulation (PWM) on Portenta X8.

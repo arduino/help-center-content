@@ -20,13 +20,12 @@ If you haven't done so, [install the Arduino Create Agent](https://create.arduin
 
 2. If you are using [Brave Browser](https://brave.com/), see [Use Arduino Cloud with Brave Browser](https://support.arduino.cc/hc/en-us/articles/10482021304988-Use-Arduino-Cloud-with-Brave-Browser).
 
-3. Make sure that the HTTPS Certificates are installed:
-    <ol type="I">
-      <li>Open the Arduino Create Agent menu (Look for the <img src="img/create-agent-logo-mac.png" alt="Arduino Create Agent icon"> icon in the top-right of the menu bar for macOS and Linux or in the bottom-right of the taskbar within the system tray, for Windows).</li>
-      <li>If the <b>Generate and Install HTTPS Certificates</b>option is available, click it. If it's disabled, the certificates are already installed.</li>
-      <li>Enter the password if prompted.</li>
-      <li>Refresh the browser window.</li>
-    </ol>
+3. **If you're using Safari on macOS:** Check if the HTTPS certificate for Safari has been installed:
+    1. Open the Arduino Create Agent menu (Look for the ![Arduino Create Agent icon](img/create-agent-logo-mac.png) icon in the top-right of the menu bar of macOS).
+    2. Click on the **Manage HTTPS certificate** menu and make sure that the certificate is installed and trusted.  
+       If it’s not, you can click on the button "Install the certificate for Safari".
+    3. Enter the administrative credentials, if prompted.
+    4. Refresh the Safari browser window.
 
 4. If you're using the [Create Agent on a Mac computer with an Apple Silicon processor](https://github.com/arduino/arduino-create-agent#apple-m1-support) (e.g. Apple M1 chip), make sure to [install Rosetta 2](https://support.apple.com/en-us/HT211861).
 

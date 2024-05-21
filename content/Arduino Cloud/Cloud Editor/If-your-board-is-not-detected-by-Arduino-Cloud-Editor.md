@@ -18,23 +18,22 @@ Learn how to troubleshoot possible issues when connecting a board to the Cloud E
 
 1. Make sure to select the connected board in the board selector. Sometimes the Cloud Editor will show the red cross icon and the name of a board that has been previously connected:
 
-    ![Cloud Editor with red cross icon and detected board name showing in the board selector](img/WebEditor_Dropdown_menu.png)
+    ![Showcasing the board selector interface with a previously detected device highlighted](img/WebEditor_Dropdown_menu.png)
 
 2. Check that your device is powered. One or more more LEDs should be lit.
 3. Ensure you've connected your board with a working data USB cable.
 4. If you haven't done so already, [install Arduino Create Agent](https://create.arduino.cc/getting-started/plugin/welcome).
 5. [Check if the Arduino Create Agent is installed and running](https://support.arduino.cc/hc/en-us/articles/4980687506844-Check-if-the-Arduino-Create-Agent-is-installed-and-running).
-6. Check if HTTPS certificates have been installed:
-    1. Open the Arduino Create Agent menu (Look for the ![Arduino Create Agent icon](img/create-agent-logo-mac.png) icon in the top-right of the menu bar for macOS and Linux or in the bottom-right of the taskbar within the system tray, for Windows).
-    2. If the **Generate and Install HTTPS Certificates** option is available, click it. If it's disabled, the certificates are already installed.
-    3. Enter password if prompted.
-    4. Refresh the browser window.
+6. **If you're using Safari on macOS:** Check if the HTTPS certificate for Safari has been installed:
+    1. Open the Arduino Create Agent menu (Look for the ![Arduino Create Agent icon](img/create-agent-logo-mac.png) icon in the top-right of the menu bar of macOS).
+    2. Click on the **Manage HTTPS certificate** menu and make sure that the certificate is installed and trusted.  
+       If it’s not, you can click on the button "Install the certificate for Safari".
+    3. Enter the administrative credentials, if prompted.
+    4. Refresh the Safari browser window.
 
 ### Classic Nano boards and boards with generic USB chips
 
-Classic Nano boards and some clone boards with generic USB chips will show up as **"Board"** in the board selector. When selecting a "Board" port you will be prompted to select the board type manually.
-
-![Cloud Editor with port name showing in the board selector ](img/WebEditor_port_no_board_name.png)
+Classic Nano boards and some clone boards with generic USB chips will show up as **"Unknown"** in the board selector. When selecting a **"Unknown"** port you will be prompted to select the board type manually.
 
 Note that:
 

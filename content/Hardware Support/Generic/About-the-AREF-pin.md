@@ -29,6 +29,16 @@ Not all boards have an enabled AREF pin, and it doesn't work the same way on all
   <tr>
     <td>
       <ul>
+        <li>Arduino GIGA R1</li>
+      </ul>
+    </td>
+    <td>
+        Any external voltage applied to the AREF pin will be automatically used as the reference.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <ul>
         <li>Mbed Nano boards (33 BLE, etc.)</li>
       </ul>
     </td>
