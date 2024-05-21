@@ -92,6 +92,8 @@ Follow these steps:
 
 ### If nothing happens when downloading the runtime sketch
 
+<!-- NOTE: Since missing PLC IDE Tools was the only known cause of this issue, it may no longer be relevant. -->
+
 1. Ensure you've installed the latest version of the **Arduino PLC IDE** software from the [Arduino Software page](https://www.arduino.cc/en/software#arduino-plc-ide).
 2. Restart PLC IDE.
 
