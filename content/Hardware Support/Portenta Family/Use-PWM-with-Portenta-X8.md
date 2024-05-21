@@ -4,7 +4,7 @@ title: "Use PWM with Portenta X8"
 
 Learn how to use Pulse Width Modulation (PWM) on Portenta X8.
 
->![NOTE]
+>[!NOTE]
 > The PWM pins on Portenta X8 are exposed via the high-density connector interface. A compatible carrier board (such as the [Portenta Breakout](https://docs.arduino.cc/hardware/portenta-breakout/)) is recommended. When Portenta X8 is connected to a carrier board, each channel corresponds to the `PWMx` pin on the carrier board.
 
 ---
