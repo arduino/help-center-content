@@ -9,97 +9,51 @@ Learn how to connect and configure a Wi-Fi connection for Portenta X8 using `nmc
 
 ---
 
-## Using nmcli to manage Wi-Fi connections
-
-Managing Wi-Fi connections allows you to create and delete custom connections on your board.
-
-### Open the Android Debug Bridge shell
+## Open the Android Debug Bridge shell
 
 Before starting, open the [Android Debug Bridge shell](https://support.arduino.cc/hc/en-us/articles/14013004356124-Access-the-Linux-command-line-shell-on-Portenta-X8)
 
-### Set up variables
+## View Wi-Fi Access points
 
-Define variables to customize your Wi-Fi connection
-
-```
-connectionName= <custom_connection_id>
-mySSID= <ssid>
-myPass= <password>
-```
-
-### Create connection
-
-With your variables set, you can establish a Wi-Fi connection using this command:
+To see a list of the Wi-Fi access points available, you can use the following command.
 
 ```
-nmcli con add type Wi-Fi ifname wlan0 con-name $connectionName ssid $mySSID password $myPass
+nmcli dev wifi list
 ```
+
+## Create a new Wi-Fi connection profile
+
+### Add Wi-Fi Connection Profile
+
+Use the `nmcli con add` command to add a new Wi-Fi connection profile.
+
+```
+nmcli con add con-name [connection-name] ifname wlp61s0 type wifi ssid [ssid] 
+```
+
+Replace [connection-name] with the prefered connection name and [ssid] with the name of the Wi-Fi.
+
+### Modify Wi-Fi Connection Profile
+
+Use the `nmcli con modify` command to change various settings of the network connection. For example, to rename an existing connection, use the following command.
+
+```
+nmcli con modify [old-connection-name] connection.id [new-connection-name]
+```
+
+Replace [old-connection-name] with the current name of the connection and [new-connection-name] with the new prefered name.
+
+## Connect to a network
+
+Once you've set up a connection profile, you can easily connect to the Wi-Fi using the following command.
+
+```
+nmcli con up [connection-name]
+```
+
+Replace [connection-name] with the name of the connection profile you created earlier.
 
 If the board successfully connects to Wi-Fi, [The Status LED should be green](https://docs.arduino.cc/tutorials/portenta-x8/user-manual/#first-use-of-your-portenta-x8).
-
-### Delete connection
-
-To remove a previously created connection, use the following command.
-
-```
-nmcli con del $connectionName
-```
-
-## For Enterprise Access Points
-
-When connecting to enterprise access points, the process differs slightly. Use these commands to create and manage connections for enterprise networks.
-
-### Set up variables
-
-Define variables to configure your enterprise Wi-Fi connection.
-
-```
-connectionName="<custom_connection_id>"
-mySSID="<ssid>"
-myUser="<user>"
-myPass="<password>"
-```
-
-### Create and configure connection
-
-With your variables set, use the following commands to configure the connection to the enterprise network.
-
-```
-nmcli con add type Wi-Fi ifname wlan0 con-name $connectionName ssid $mySSID
-nmcli con modify $connectionName +ipv4.method auto +802-1x.eap peap +802-1x.phase2-auth mschapv2 +802-1x.identity $myUser +802-1x.password $myPass +Wi-Fi-sec.key-mgmt wpa-eap
-```
-
-### Delete connection
-
-To remove a previously created enterprise connection, use the following command.
-
-```
-nmcli con del $connectionName
-```
-
-## Connecting or Disconnecting from an existing connection
-
-If you already have a connection set up, you can easily connect or disconnect using the following commands.
-
-### Connect
-
-```
-nmcli con up <connectionName>
-```
-
-### Disconnect
-
-```
-nmcli con down <connectionName>
-```
-
-## Rescanning Wi-Fi access points
-
-If you're having trouble connecting via the local web host or `nmcli`, you may need to refresh the list of available Wi-Fi networks. To do this, simply use the following command.
-
-`nmcli device Wi-Fi`
-
-This command instructs the system to search for nearby Wi-Fi networks again, which updates the list of available networks.
 
 ---
 
