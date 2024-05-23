@@ -21,6 +21,6 @@ Here are a few steps to follow if a delivery is missing:
 
 1. See if someone else at your delivery address or a nearby neighbor have picked up the parcel.
 
-## What to do next?
+## If you still can't find your package
 
-If you've completed these steps and still can't locate the missing package, please contact [Arduino's customer support](https://www.arduino.cc/en/contact-us/) within 30 day.
+If you've completed these steps and still can't locate the missing package, please contact [Arduino's customer support](https://www.arduino.cc/en/contact-us/) within 30 days.
