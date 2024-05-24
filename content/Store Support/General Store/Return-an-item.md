@@ -14,6 +14,7 @@ Arduino offers free returns for most items. Learn more about Arduino's return po
 * You have 30 days to [request a return](#request-a-return) from the date you receive it.
 * Only items that have been purchased directly from Arduino through the Arduino Store can be returned to Arduino.
 * Please ensure that the item you're returning is complete with all parts, documentation, and packaging.
+* Shipping charges are not refundable.
 
 Exceptions:
 
