@@ -13,7 +13,10 @@ The frequently asked questions covered in this article are focused on providing 
 
 - **Where can I find documentation on IEC 61131-3 programming languages?**
 
-    To program Opta® using IEC 61131-3 programming languages, download the software called [PLC IDE](https://www.arduino.cc/en/software#arduino-plc-ide). Tutorials and documentation are available on the [Arduino PLC IDE Documentation page](https://docs.arduino.cc/software/plc-ide/). An online manual is integrated into the software and can be accessed from the top menu bar by clicking on “Help” --> “Index.” This manual can be downloaded,  stored locally, or printed for reference. It contains information about the programming environment, project and project elements management, use of programming languages and functions, and debugging tools.
+    You can find documentation on the IEC 61131-3 programming languages here:
+    
+    * **Arduino Docs:** Check the [Programming Introduction with Arduino PLC IDE](https://docs.arduino.cc/software/plc-ide/tutorials/plc-programming-introduction/#iec-61131-3-languages) tutorial.
+    * **PLC IDE:** Select Help > Index in the top menu bar to open the **Arduino PLC IDE User Manual** and read Chapter 6 (EDITING THE SOURCE CODE).
 
 - **Is it possible to migrate PLC code built in different software environments from other vendors into PLC IDE for use with Opta?**
 
