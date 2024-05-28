@@ -8,7 +8,7 @@ This guide is intended to help you troubleshoot common Wi-Fi connectivity issues
 
 ### Use the 2.4 GHz Band for IoT Devices
 
-Arduino boards and most IoT devices work better on the 2.4 GHz band. The 2.4 GHz band offers better range and signal strength through obstacles compared to 5 GHz.
+Arduino boards and most IoT devices can only be used with 2.4 GHz band networks. The 2.4 GHz band offers better range and signal strength through obstacles compared to 5 GHz.
 
 ### How to Check if Your Network is 2.4 GHz
 
