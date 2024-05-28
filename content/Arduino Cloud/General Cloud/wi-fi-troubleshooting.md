@@ -52,6 +52,18 @@ If the Wi-Fi connection is not stable or not working at all, you might need to r
 
 1. Re-enter your Wi-Fi credentials with your Wi-Fi Name (SSID) and Password (Encryption Key). Ensure there are no typos and the credentials match those set on your router.
 
-1. Open the sketch and click **Upload** button to properly apply the new network settings to your device.
+1. Open the sketch and click the **Upload** button to properly apply the new network settings to your device.
 
 Additionally, you can check the console (serial) output for error messages. This can provide insight into what might be going wrong during the connection process.
+
+## 4. Check Your Power Supply
+
+Wi-Fi connectivity problems are often caused by insufficient power. Since Wi-Fi usage demands more power than normal operations, ensure your device is adequately powered.
+
+- USB hubs might not supply sufficient power, especially if multiple devices are connected. Connect your device directly to a USB port on your computer or a dedicated power source.
+
+- Ensure you are using a high-quality USB cable capable of delivering consistent power.
+
+- Verify that your power supply meets the necessary input voltage for your device. You can find hardware information for your device [here](https://docs.arduino.cc/hardware/).
+
+For more detailed information about power supplies, you can find additional guidance [here](https://support.arduino.cc/hc/en-us/articles/360018922259-What-power-supply-can-I-use-with-my-Arduino-board).
