@@ -1,9 +1,21 @@
 ---
-title: "How can I get my invoice?"
+title: "Find your receipt or invoice"
 id: 360016121859
 ---
 
-Learn how to get an invoice for an order when purchasing Arduino products from the Arduino Store or Amazon.
+When you make a purchase with us, your invoice or receipt is sent directly to the email address you provided at checkout.
+
+## How to find your receipt or invoice
+
+Check Your Inbox and look for an email from us. It should look something like this:
+
+- Sender: “Admin mail EU (admin.it@arduino.cc)” (system@sent-via.netsuite.com)
+
+- Subject: ARDUINO SRL - Invoice No. IT/2022/001215/OSS issued on 16/2/2022External
+
+This email is sent after your purchase is processed.
+
+If you can’t find the email, use the search function in your email client with either the subject, sender or our company name. Sometimes, emails can end up in your spam or junk folder. Be sure to check these folders if the invoice or receipt is not in your inbox.
 
 ## Arduino Store invoice
 
