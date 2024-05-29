@@ -44,7 +44,7 @@ Avoid using generic names like "default" or "home" to prevent interference and c
 
 ## 3. Reset Network Credentials
 
-If the Wi-Fi connection is not stable or not working at all, you might need to reset the [network credentials](https://support.arduino.cc/hc/en-us/articles/360016495559-Add-and-connect-a-device-to-Arduino-Cloud#:~:text=Click%20the%20Network,adding%20the%20device) for your Thing in Arduino Cloud.
+If the Wi-Fi connection is not working, you might need to reset the [network credentials](https://support.arduino.cc/hc/en-us/articles/360016495559-Add-and-connect-a-device-to-Arduino-Cloud#:~:text=Click%20the%20Network,adding%20the%20device) for your Thing in Arduino Cloud.
 
 1. Navigate to your [Thing](https://app.arduino.cc/things) that is experiencing Wi-Fi issues.
 
