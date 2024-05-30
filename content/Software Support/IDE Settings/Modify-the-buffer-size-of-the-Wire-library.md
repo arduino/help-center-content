@@ -13,8 +13,8 @@ To locate the `Wire.h` library in the Arduino installation path and modify its b
 
    * **Windows (IDE 2):** `C:\Users\{username}\AppData\Local\Arduino15\packages\arduino\hardware\avr\{version}\libraries\Wire\src\Wire.h`
    * **Windows (IDE 1.x):** `C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src\Wire.h`
-   * **macOS:** `~/Library/Arduino15/hardware/arduino/avr/libraries/Wire/src/Wire.h`
-   * **Linux:** `~/sketchbook/hardware/arduino/avr/libraries/Wire/src/Wire.h`
+   * **macOS:** `~/Library/Arduino15/packages/arduino/hardware/avr/{version}/libraries/Wire/src/Wire.h`
+   * **Linux:** `~/.arduino15/packages/arduino/hardware/avr/{version}/libraries/Wire/src/Wire.h`
 
 3. Open the file `Wire.h` with a text editor.
 
