@@ -17,9 +17,10 @@ Here are a few steps to follow if a delivery is missing:
 
 1. Check around the entrance(s) of your residence, particularly on back porches, bushes, garages, grills, or other places that might protect your package from theft or weather.
 
-    > Note that carriers may also use plastic bags to protect your package from the weather.
+    > [!NOTE]
+    > Carriers may use plastic bags to protect your package from the weather.
 
-1. See if someone else at your delivery address or a nearby neighbor have picked up the parcel.
+1. See if someone else at your delivery address or a nearby neighbor has picked up the parcel.
 
 ## If you still can't find your package
 

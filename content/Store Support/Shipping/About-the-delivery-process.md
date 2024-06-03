@@ -91,7 +91,7 @@ If you want to return your order and receive a refund you can reject to receive 
 
 ## If you haven't received your delivery
 
-If you haven't received your order yet, please click [here](https://support.arduino.cc/hc/en-us/articles/14085643116700-If-you-haven-t-received-your-delivery) for more information.
+[If you haven't received your delivery](https://support.arduino.cc/hc/en-us/articles/14085643116700-If-you-haven-t-received-your-delivery){.link-chevron-right}
 
 ---
 
