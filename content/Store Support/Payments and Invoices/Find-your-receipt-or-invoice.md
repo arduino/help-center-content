@@ -8,10 +8,10 @@ Learn how to find a receipt or invoice for your purchase.
 
 In this article:
 
-* [Find the receipt or invoice for an Arduino Store purchase](#arduino-store)
-* [Find the receipt or invoice for an Amazon purchase](#amazon)
+- [Find the receipt or invoice for an Arduino Store purchase](#arduino-store)
+- [Find the receipt or invoice for an Amazon purchase](#amazon)
 
-## Find the receipt or invoice for an Arduino Store purchase {#arduino-store}
+## Find receipt or invoice for an Arduino Store purchase {#arduino-store}
 
 When you make a purchase in the [Arduino Store](https://store.arduino.cc/), your invoice or receipt is sent to the email address you provided at checkout.
 
