@@ -1,5 +1,6 @@
 ---
-title: "If you experience noise with the digital-to-analog converter on GIGA R1 WiFi"
+title: If you experience noise with the digital-to-analog converter on GIGA R1 WiFi
+id: 14285969875868
 ---
 
 When running a sketch on your GIGA R1 WiFi board that accesses data from a USB drive, you may experience noise in the digital-to-analog converter (DAC) output. It can be particularly noticeable when outputting audio, where a slight hum may be discernible.
