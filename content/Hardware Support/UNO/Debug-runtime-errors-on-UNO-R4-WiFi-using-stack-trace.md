@@ -71,7 +71,7 @@ Install `addr2line` (optional):
 * **Linux:**
   1. Copy the command from the serial output.
   2. Paste the command into a text editor.
-  3. Replace the word `addr2line` with `.arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/arm-none-eabi-addr2line`.
+  3. Replace the word `addr2line` with `~/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/arm-none-eabi-addr2line`.
 
 ### 2. Running the addr2line command
 
