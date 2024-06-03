@@ -7,13 +7,23 @@ When you make a purchase with us, your invoice or receipt is sent to the email a
 
 ## Find your receipt or invoice
 
-Check your inbox and look for an email from us.
+Look for an email from us in your inbox. This email is sent after your purchase is processed. The sender details differ depending on whether you purchased from our EU or US store.
 
-- Sender: “Admin mail EU (admin.it@arduino.cc)” (system@sent-via.netsuite.com)
+**For the EU store:**
 
-- Subject: ARDUINO SRL - Invoice No. [Invoice Number] issued on [Date]
+- **Sender Name:** Admin mail EU (admin.it@arduino.cc)
 
-This email is sent after your purchase is processed.
+- **Sender Email:** system@sent-via.netsuite.com
+
+- **Email Subject:** ARDUINO SRL - Invoice No. [Invoice Number] issued on [Date]
+
+**For the US store:**
+
+- **Sender Name:** Support arduino (support@arduino.cc)
+
+- **Sender Email:** system@sent-via.netsuite.com
+
+- **Email Subject:** ARDUINO SRL - Invoice No. [Invoice Number] issued on [Date]
 
 If you can’t find the email, use the search function in your email client with the sender, subject, or company name. Check your spam or junk folder if it’s not in your inbox.
 
