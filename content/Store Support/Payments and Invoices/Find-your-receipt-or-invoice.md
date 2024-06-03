@@ -3,13 +3,21 @@ title: "Find your receipt or invoice"
 id: 360016121859
 ---
 
-When you make a purchase with us, your invoice or receipt is sent to the email address you provided at checkout.
 
-## Find your receipt or invoice
+Learn how to find a receipt or invoice for your purchase.
 
-Look for an email from us in your inbox. This email is sent after your purchase is processed. The sender details differ depending on whether you purchased from our EU or US store.
+In this article:
 
-**For the EU store:**
+* [Find the receipt or invoice for an Arduino Store purchase](#arduino-store)
+* [Find the receipt or invoice for an Amazon purchase](#amazon)
+
+## Find the receipt or invoice for an Arduino Store purchase {#arduino-store}
+
+When you make a purchase in the [Arduino Store](https://store.arduino.cc/), your invoice or receipt is sent to the email address you provided at checkout.
+
+The sender details differ depending on the region:
+
+**Europe and Africa:**
 
 - **Sender Name:** Admin mail EU (admin.it@arduino.cc)
 
@@ -17,7 +25,7 @@ Look for an email from us in your inbox. This email is sent after your purchase 
 
 - **Email Subject:** ARDUINO SRL - Invoice No. [Invoice Number] issued on [Date]
 
-**For the US store:**
+**America, Asia, and Oceania:**
 
 - **Sender Name:** Support arduino (support@arduino.cc)
 
@@ -27,7 +35,7 @@ Look for an email from us in your inbox. This email is sent after your purchase 
 
 If you can’t find the email, use the search function in your email client with the sender, subject, or company name. Check your spam or junk folder if it’s not in your inbox.
 
-## Access your Amazon invoice
+## Find the receipt or invoice for an Amazon purchase{#amazon}
 
 When you buy Arduino products on Amazon, an invoice is automatically generated using the information you provided during checkout. You can access the invoice shortly after your order ships.
 
