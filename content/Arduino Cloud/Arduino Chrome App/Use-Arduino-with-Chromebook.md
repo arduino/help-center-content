@@ -4,7 +4,7 @@ id: 360016495639
 ---
 
 > [!WARNING]
-> **Arduino Cloud for Chromebook** has been removed from Google Play and is currently unavailable. We are actively working to resolve the issue.
+> **Arduino Cloud for Chromebook** has been removed from Google Play and is currently unavailable. We are actively working to resolve the issue. In the meantime, you can use the [Arduino Create for Education extension](https://chrome.google.com/webstore/detail/elmgohdonjdampbcgefphnlchgocpaij){.link-external}.
 
 You can write and upload sketches on Chrome OS with the Cloud Editor in Arduino Cloud. The Cloud Editor has an extensive feature set similar to the desktop IDE. While many popular boards are compatible, you should check [the list of compatible boards here](https://support.arduino.cc/hc/en-us/articles/360014779899).
 
@@ -13,7 +13,7 @@ You can write and upload sketches on Chrome OS with the Cloud Editor in Arduino 
 ## Install Arduino Cloud for Chromebook{#install-arduino-cloud-for-chromebook}
 
 > [!WARNING]
-> **Arduino Cloud for Chromebook** has been removed from Google Play and is currently unavailable. We are actively working to resolve the issue.
+> **Arduino Cloud for Chromebook** has been removed from Google Play and is currently unavailable. We are actively working to resolve the issue. In the meantime, you can use the [Arduino Create for Education extension](https://chrome.google.com/webstore/detail/elmgohdonjdampbcgefphnlchgocpaij){.link-external}.
 
 To use Arduino boards on Chromebook, you need to install the **Arduino Cloud for Chromebook** app. This app handles serial communication with the board and is replacing the previous Chrome Apps[^chrome-apps].
 
@@ -45,11 +45,6 @@ The currently supported boards include:
 
 ## Use the Cloud Editor on Chromebook
 
-> [!IMPORTANT]
-> The first time you use your board with a Chromebook, you need to allow access to the serial port.
->
-> To do this, attempt to upload a sketch (even if no port is available).
-
 Follow these steps:
 
 1. Open **Arduino Cloud for Chromebook** from the Launcher or go to [app.arduino.cc](https://app.arduino.cc/) in your browser.
@@ -65,21 +60,13 @@ Follow these steps:
 
 1. Connect a [compatible board](https://support.arduino.cc/hc/en-us/articles/360014779899#chromebook) to one of the USB ports on your Chromebook.
 
-1. In the board selector menu, choose **Select Other Board & Port**
+1. In the board selector menu, click on the **Detect Device** button.
 
-   ![The Boards Dropdown in the Cloud Editor.](img/web-editor-boards-dropdown.png)
+   ![The Detect Device button.](img/detect-device-button.png)
 
-1. Pick the specific board you're using and click **OK**.
+1. Select the serial port for your board board you're using and click **Connect**. If you're unsure which serial port to use, try disconnecting and reconnecting your device. The serial port for your board will disappear and reappear in the list.
 
-1. Click the **Upload** button ![Upload button](img/upload_button.png) in the editor.
-
-1. That should open a **Authorise USB connection** window. Click **Select port**.
-
-   ![Authorise USB connection](img/Authorise-USB-connection.png)
-
-1. A **ChromeOS** window should appear. Select the desired port and click **Connect**.
-
-   ![ChromeOS window](img/usbpromptchrome.png)
+   ![ChromeOS serial port selection prompt with the text "app.arduino.cc wants to connect to a serial port"](img/allow.png)
 
 ## Troubleshooting
 
