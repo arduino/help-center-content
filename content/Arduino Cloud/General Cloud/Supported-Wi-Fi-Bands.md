@@ -17,7 +17,7 @@ Follow these steps to identify the frequency band of your Wi-Fi.
 
 1. Under the wireless network settings, click on the **Hardware properties** link.
 
-1. A properties page will open. Here you can find details about the wireless network, including the network band (GHz).
+1. A properties page will open. Here, you can find details about the wireless network, including the network band (GHz).
 
 **macOS:**
 
