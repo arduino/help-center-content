@@ -8,11 +8,13 @@ This guide is intended to help you troubleshoot common Wi-Fi connectivity issues
 
 read more about that [here](LINK)
 
-## 2. Unique SSID for Network
+## 2. Avoid common network names
 
 Avoid using generic names like "default" or "home" to prevent interference and confusion with neighboring networks.
 
 ## 3. Reset Network Credentials
+
+### Verifying or changing network credentials in Arduino Cloud
 
 If the Wi-Fi connection is not working, you might need to reset the [network credentials](https://support.arduino.cc/hc/en-us/articles/360016495559-Add-and-connect-a-device-to-Arduino-Cloud#:~:text=Click%20the%20Network,adding%20the%20device) for your Thing in Arduino Cloud.
 
@@ -26,7 +28,7 @@ If the Wi-Fi connection is not working, you might need to reset the [network cre
 
 Additionally, you can check the console (serial) output for error messages. This can provide insight into what might be going wrong during the connection process.
 
-## 4. Check Your Power Supply
+## 4. Check your Power Supply
 
 Wi-Fi connectivity problems are often caused by insufficient power. Since Wi-Fi usage demands more power than normal operations, ensure your device is adequately powered.
 
