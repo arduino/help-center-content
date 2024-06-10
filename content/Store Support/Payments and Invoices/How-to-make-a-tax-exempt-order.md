@@ -18,6 +18,20 @@ Customers who provide their company or school information in the designated fiel
 
 To place a tax-exempt order, follow these steps:
 
+### Europe and Africa
+
+1. Ensure you are logged into your account.
+
+1. Select the "I Need an Invoice" Option
+
+    ![Tax-exempt choice box](img/Eu-Store-Tax-Exempt.png)
+
+1. Input your VAT number in the designated field.
+
+1. Proceed with the checkout process as usual to complete your order.
+
+### America, Asia, and Oceania
+
 1. Reach out to our [customer service](https://www.arduino.cc/en/contact-us) and provide your tax-exempt documentation.
 
 1. Our team will verify your tax-exempt status.
