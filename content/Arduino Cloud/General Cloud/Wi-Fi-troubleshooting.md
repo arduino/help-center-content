@@ -6,7 +6,7 @@ This guide is intended to help you troubleshoot common Wi-Fi connectivity issues
 
 ## 1. Frequency Bands: 2.4 GHz vs 5 GHz
 
-read more about that [here](LINK)
+Learn more about it [here](https://support.arduino.cc/hc/en-us/articles/14144656051740-Supported-Wi-Fi-bands)
 
 ## 2. Avoid common network names
 
