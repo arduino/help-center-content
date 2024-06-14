@@ -8,7 +8,7 @@ id: 360016495639
 > **Arduino Cloud for Chromebook** has been removed from Google Play and is currently unavailable. We are actively working to resolve the issue.
 
 > [!TIP]
-> You can now use the Cloud Editor on ChromeOS directly in the Chrome browser. No installation of apps or extensions are required.
+> You can now use the Cloud Editor on ChromeOS directly in the Chrome browser. No installation of apps or extensions is required.
 >
 > [Use the Cloud Editor in the Chrome browser](#use-the-cloud-editor-in-the-chrome-browser){.link-chevron-right}
 <!-- markdownlint-enable MD028 -->
