@@ -38,11 +38,11 @@ The core can be downloaded with a web browser or by cloning the git repo.
 ### Using your web browser
 
 1. Download the git repo. In GitHub this is done by clicking `Code > Download ZIP`.
-2. Extract the core into `<sketchbook>/Arduino/hardware/<vendor>/<architecture>`.
+2. Extract the core into `<sketchbook>/hardware/<vendor>/<architecture>`.
 
 ### Using git
 
-Simply navigate into `Arduino/hardware/<vendor>` and clone the repo into a folder named `<architecture>`.
+Simply navigate into `<sketchbook>/hardware/<vendor>` and clone the repo into a folder named `<architecture>`.
 
 ```
 cd <sketchbook>/hardware/<vendor>

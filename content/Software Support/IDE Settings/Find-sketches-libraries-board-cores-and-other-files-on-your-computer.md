@@ -90,7 +90,7 @@ Board platforms installed with the Board Manager are stored inside the Arduino15
 1. Open the Arduino15 folder.
    * **Windows:** `C:\Users\{username}\AppData\Local\Arduino15`
    * **macOS:** `/Users/{username}/Library/Arduino15`
-   * **Linux:** `home/{username}/.arduino15`
+   * **Linux:** `/home/{username}/.arduino15`
 
    > For detailed instructions, see [Open the Arduino15 folder](https://support.arduino.cc/hc/en-us/articles/360018448279-Open-the-Arduino15-folder).
 

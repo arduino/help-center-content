@@ -11,6 +11,18 @@ The frequently asked questions covered in this article are focused on providing 
 
     Opta® supports a variety of programming languages, including the Arduino programming language and standard IEC-61131-3 PLC programming languages such as Ladder Diagram (LD), Sequential Function Chart (SFC), Function Block Diagram (FBD), Structured Text (ST), and Instruction List (IL). This flexibility makes it suitable for automation engineers with different programming preferences.
 
+- **Where can I find documentation on IEC 61131-3 programming languages?**
+
+    You can find documentation on the IEC 61131-3 programming languages here:
+
+  - **Arduino Docs:** Check the [Programming Introduction with Arduino PLC IDE](https://docs.arduino.cc/software/plc-ide/tutorials/plc-programming-introduction/#iec-61131-3-languages) tutorial.
+
+  - **PLC IDE:** Select Help > Index in the top menu bar to open the **Arduino PLC IDE User Manual** and read Chapter 6 (EDITING THE SOURCE CODE).
+
+- **Is it possible to migrate PLC code built in different software environments from other vendors into PLC IDE for use with Opta?**
+
+    The IEC 61131-3 programming languages are standardized, and program organizational units (POUs) can be ported with reasonable effort, as long as the original code does not include proprietary parts (e.g., libraries) for which the source is not shared. Usually, it is a matter of dedicating time to copying the code, after managing variable creation and possibly rewriting vendor-dependent function blocks. For ST language, this process is faster because it’s text-based, and an editor copy usually works. For graphical languages, it takes more time as the POUs must be rebuilt.
+
 - **What are the connectivity options for the Opta® variants?**
 
     The Opta® variants offer different connectivity options to meet various industry needs. All variants can connect to the Cloud or field devices using onboard Ethernet. Opta® Lite does not include RS-485 or wireless connectivity. Opta® RS485 supports RS-485 for Modbus RTU buses without wireless communication. Opta® Wi-Fi provides full wireless Wi-Fi® and Bluetooth® Low Energy connectivity for comprehensive and flexible communication options.
@@ -50,6 +62,10 @@ The frequently asked questions covered in this article are focused on providing 
 - **What is the cycle time for an Opta® programmed using IEC 61131-3 through PLC IDE?**
 
     PLC IDE offers two cyclical tasks. The Fast task's lowest cycle time, set as default, is 10ms, but it can also be configured to use a 20ms or 50ms execution period. A Slow task is also available, for less priority operations, with a 100ms execution period.
+
+- **Why is the Simulation Mode disabled in PLC IDE?**
+
+    The Simulation Mode is unavailable in the PLC IDE because the runtime implementation, including the Arduino code, would not reliably support simulation for that part.
 
 - **What input options are available on Opta®?**
 
