@@ -12,28 +12,7 @@ If you're using Chromebook, see [Use Arduino with Chromebook](https://support.ar
 
 ## Install the Arduino Create Agent
 
-Follow these steps:
-
-1. Open the **[Arduino Create agent installation page](https://create.arduino.cc/getting-started/plugin/welcome)**
-
-   ![Arduino Create agent installation page](img/create-agent-install-start_600px.png)
-
-1. Click **START**.
-
-1. Click **DOWNLOAD** to download the installer.
-
-1. Leave your web browser open, and open your downloads folder.
-
-1. Install the application:
-
-   * **Windows:** Double-click the .exe installer and follow the instructions.
-     * You may receive a security warning and be asked to approve installing a root certificate from Arduino. Choose **Yes** to install the certificate and proceed with the installation.
-   * **macOS:** Double-click the .dmg file. Drag ArduinoCreateAgent.app into the Applications folder shortcut.
-   * **Linux:** Extract the .tar.gz archive and double-click the .run file. Follow the instructions.
-
-1. To confirm that the Create Agent is running, open your web browser with the Arduino Installation page.
-
-1. When it's found, you will see this page. Click **NEXT** to finish the installation guide.
+> [Open the Arduino Create agent installation page](http://cloud.arduino.cc/download-agent){.link-chevron-right}
 
 You can now use the Cloud Editor and Arduino Cloud:
 
