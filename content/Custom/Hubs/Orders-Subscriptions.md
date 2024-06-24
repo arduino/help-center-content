@@ -41,8 +41,7 @@ id: 9396866125980
     <p>
       Learn more about replacement and return of products and services:
     </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016120419-Can-I-be-refunded-">About refunds</a>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014704319-Can-I-return-a-product-">About returns</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014704319-Return-an-item">Return an item</a>
   </div>
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-resistor.svg">
