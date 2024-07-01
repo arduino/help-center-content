@@ -28,7 +28,7 @@ id: 14416141314332
 
 1. Find a [Template](https://app.arduino.cc/templates) and click "Import Template" (If you have issues importing the template, you can find more information [here](https://support.arduino.cc/hc/en-us/articles/4408887422994-If-you-can-t-import-a-template-in-Arduino-Cloud))
 
-1. Plug in your device and wait for it be detected. Once the device is detected, click on 'Configure' to continue.
+1. Plug in your device and wait for it to be detected. Once the device is detected, click on 'Configure' to continue.
 
     ![Dialog box displaying that the device was found](img/Device_found.png)
 
@@ -50,4 +50,4 @@ id: 14416141314332
 
 1. Re-enter your Wi-Fi credentials with your Wi-Fi Name (SSID) and Password. Ensure there are no typos and the credentials match those set on your router.
 
-1. Open the sketch and click the Upload button to properly apply the new network settings to your device.
+1. Open the sketch and click the Upload button to apply the new network settings to your device properly.
