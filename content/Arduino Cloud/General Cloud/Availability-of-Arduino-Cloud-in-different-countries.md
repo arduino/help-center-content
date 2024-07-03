@@ -21,6 +21,6 @@ Arduino Cloud is not available in the following countries:
 Specifically, these restrictions apply:
 
 * You will be unable to purchase an Arduino Cloud plan.
-* Because some ancillary services used by Arduino Cloud may block access to these countries, using Arduino Cloud may not be possible even with the Free plan.
+* Due to potential restrictions from ancillary services used by Arduino Cloud, accessing Arduino Cloud may not be possible even with the Free plan.
 
 If you are in a different country or region and have issues accessing Arduino Cloud or purchasing an Arduino Cloud plan, please [contact us](https://www.arduino.cc/en/contact-us/).
