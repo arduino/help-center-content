@@ -15,11 +15,12 @@ Arduino Cloud is not available in the following countries:
 * Sudan
 * Syria
 * Ukraine
+* United Arab Emirates
 * Zimbabwe
 
 Specifically, these restrictions apply:
 
-* You will be unable to use Arduino Cloud or purchase an Arduino Cloud plan.
-* Because some ancillary services used by Arduino Cloud block access to these countries, using Arduino Cloud is not possible even with the Free plan.
+* You will be unable to purchase an Arduino Cloud plan.
+* Because some ancillary services used by Arduino Cloud may block access to these countries, using Arduino Cloud may not be possible even with the Free plan.
 
 If you are in a different country or region and have issues accessing Arduino Cloud or purchasing an Arduino Cloud plan, please [contact us](https://www.arduino.cc/en/contact-us/).
