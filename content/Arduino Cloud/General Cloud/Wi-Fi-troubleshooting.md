@@ -44,10 +44,10 @@ Additionally, you can check the console (serial) output for error messages. This
 
 Wi-Fi connectivity problems are often caused by insufficient power. Since Wi-Fi usage demands more power than other operations, ensure your device is adequately powered by:
 
-- USB hubs might not supply sufficient power, especially if multiple devices are connected. Connect your device directly to a USB port on your computer or a dedicated power source.
+- Connecting your device directly to a USB port on your computer or a dedicated power source. USB hubs might not supply sufficient power, especially if multiple devices are connected.
 
-- Ensure you are using a high-quality USB cable capable of delivering consistent power.
+- Ensuring you are using a high-quality USB cable capable of delivering consistent power.
 
-- Verify that your power supply meets the necessary input voltage for your device. You can find hardware information for your device [here](https://docs.arduino.cc/hardware/).
+- Verifying that your power supply meets the necessary input voltage for your device. You can find hardware information for your device [here](https://docs.arduino.cc/hardware/).
 
 For more detailed information about power supplies, you can find additional guidance [here](https://support.arduino.cc/hc/en-us/articles/360018922259-What-power-supply-can-I-use-with-my-Arduino-board).
