@@ -4,21 +4,15 @@ title: "How to make a tax-exempt order"
 
 This guide outlines the steps for placing a tax-exempt order.
 
-## Eligibility for Tax Exemption
+## Europe and Africa
 
-### Europe and Africa
+### Eligibility for Tax Exemption
 
 Customers with a VAT identification number valid in the VIES system will receive an invoice. Those without a valid VAT number for the VIES system will receive a standard cash sale receipt.
 
-### America, Asia, and Oceania
-
-Customers who provide their company or school information in the designated field at checkout will receive an invoice. If personal information is entered, a standard cash sale receipt will be issued.
-
-## How to make a Tax-Exempt order
+### How to make a Tax-Exempt order
 
 To place a tax-exempt order, follow these steps:
-
-### Europe and Africa
 
 1. Ensure you are logged into your account.
 
@@ -30,7 +24,13 @@ To place a tax-exempt order, follow these steps:
 
 1. Proceed with the checkout process as usual to complete your order.
 
-### America, Asia, and Oceania
+## America, Asia, and Oceania
+
+### Eligibility for Tax Exemption
+
+Customers who provide their company or school information in the designated field at checkout will receive an invoice. If personal information is entered, a standard cash sale receipt will be issued.
+
+### How to make a Tax-Exempt order
 
 1. Reach out to our [customer service](https://www.arduino.cc/en/contact-us) and provide your tax-exempt documentation.
 
