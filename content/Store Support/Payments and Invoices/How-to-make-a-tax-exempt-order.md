@@ -4,7 +4,12 @@ title: "How to make a tax-exempt order"
 
 This guide outlines the steps for placing a tax-exempt order.
 
-## Europe and Africa
+In this article:
+
+- [Europe and Africa](#eu-tax)
+- [America, Asia, and Oceania](#us-tax)
+
+## Europe and Africa {#eu-tax}
 
 ### Eligibility for Tax Exemption
 
@@ -24,7 +29,7 @@ To place a tax-exempt order, follow these steps:
 
 1. Proceed with the checkout process as usual to complete your order.
 
-## America, Asia, and Oceania
+## America, Asia, and Oceania {us-tax}
 
 ### Eligibility for Tax Exemption
 
