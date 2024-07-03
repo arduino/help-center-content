@@ -1,5 +1,6 @@
 ---
-title: "How to make a tax-exempt order"
+title: How to make a tax-exempt order
+id: 14755472001308
 ---
 
 This guide outlines the steps for placing a tax-exempt order.
