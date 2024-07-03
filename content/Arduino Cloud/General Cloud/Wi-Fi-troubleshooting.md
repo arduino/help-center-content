@@ -1,24 +1,24 @@
 ---
-title: "Wi-Fi troubleshooting"
+title: "If your Arduino device can’t connect to a Wi-Fi network"
 ---
 
-This guide is intended to help you troubleshoot common Wi-Fi connectivity issues with your devices. Follow the steps below to identify and resolve potential issues.
+Learn how to troubleshoot Wi-Fi connectivity issues if your Arduino device can't connect to a network. Check the sections below to identify and resolve potential issues.
 
-## 1. Frequency Bands: 2.4 GHz vs 5 GHz
+## 1. Connect to a 2.4 GHz network
 
 Learn more about it [here](https://support.arduino.cc/hc/en-us/articles/14144656051740-Supported-Wi-Fi-bands)
 
 ## 2. Avoid common network names
 
-Avoid using generic names like "default" or "home" to prevent interference and confusion with neighboring networks.
+Make sure your Wi-Fi network has a distinct name. Avoid using generic names like 'default' or 'home' to prevent your device from accidentally connecting to a different network with the same name, which can lead to performance issues.
 
-## 3. Reset Network Credentials
+## 3. Reset network credentials for your Thing
 
 ### Verifying or changing network credentials in Arduino Cloud
 
 If the Wi-Fi connection is not working, you might need to reset the [network credentials](https://support.arduino.cc/hc/en-us/articles/360016495559-Add-and-connect-a-device-to-Arduino-Cloud#:~:text=Click%20the%20Network,adding%20the%20device) for your Thing in Arduino Cloud.
 
-1. Navigate to your [Thing](https://app.arduino.cc/things) that is experiencing Wi-Fi issues.
+1. Navigate to the [Thing](https://app.arduino.cc/things) that is experiencing Wi-Fi issues.
 
 1. Under **Network**, click the button labeled "Change"
 
@@ -28,7 +28,7 @@ If the Wi-Fi connection is not working, you might need to reset the [network cre
 
 ### Veryfing or changing the credentials defined in the sketch
 
-To verify or change the network credentials directly defined in a sketch, whether the sketch was created in Arduino Cloud or or IDE, follow these steps:
+To verify or change the network credentials directly defined in a sketch, whether the sketch was created in Arduino Cloud or IDE, follow these steps:
 
 1. Locate the section in your Arduino sketch where the network credentials are defined. This is typically found in the main sketch file or inside an `arduino_secrets.h` file.
 
@@ -40,9 +40,9 @@ To verify or change the network credentials directly defined in a sketch, whethe
 
 Additionally, you can check the console (serial) output for error messages. This can provide insight into what might be going wrong during the connection process.
 
-## 4. Check your Power Supply
+## 4. Check your power supply
 
-Wi-Fi connectivity problems are often caused by insufficient power. Since Wi-Fi usage demands more power than normal operations, ensure your device is adequately powered.
+Wi-Fi connectivity problems are often caused by insufficient power. Since Wi-Fi usage demands more power than other operations, ensure your device is adequately powered by:
 
 - USB hubs might not supply sufficient power, especially if multiple devices are connected. Connect your device directly to a USB port on your computer or a dedicated power source.
 
