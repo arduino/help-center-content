@@ -6,7 +6,7 @@ Learn how to troubleshoot Wi-Fi connectivity issues if your Arduino device can't
 
 ## 1. Connect to a 2.4 GHz network
 
-Arduino boards and most IoT devices can only be used with 2.4 GHz networks. The 2.4 GHz band offers better range and signal strength through obstacles compared to the 5 GHz band. Learn [how to check if your network operates on the 2.4 GHz band](https://support.arduino.cc/hc/en-us/articles/14144656051740-Supported-Wi-Fi-bands)
+Arduino boards and most IoT devices can only be used with 2.4 GHz networks. The 2.4 GHz band offers better range and signal strength through obstacles compared to the 5 GHz band. Learn [how to check if your network operates on the 2.4 GHz band](https://support.arduino.cc/hc/en-us/articles/14144656051740-Supported-Wi-Fi-bands).
 
 > [!TIP]
 If your network operates on the 5 GHz band, a quick solution is to [create a 2.4 GHz network using the hotspot feature on an Android or iPhone device](https://support.arduino.cc/hc/en-us/articles/14144656051740-Supported-Wi-Fi-bands#create-hotspot).
