@@ -3,7 +3,12 @@ title: "Configure the network credentials of a Thing"
 id: 14416141314332
 ---
 
-## Configuring a Thing without previously set network credentials
+In this article:
+
+- [Configuring a Thing without preset network credentials](#without_preset)
+- [Configuring a Thing with preset network credentials](#preset)
+
+## Configuring a Thing without preset network credentials {#without_preset}
 
 1. Go to the [Things tab](https://app.arduino.cc/things) and click the "+Thing" button in the top right corner.
 
@@ -24,7 +29,7 @@ id: 14416141314332
     - Arduino with LoRa®: The credentials are added automatically.
     - ESP32 and ESP8266: Enter the secret key that was provided when adding the device.
 
-## Configuring a Thing with previously set network credentials
+## Configuring a Thing with preset network credentials {#preset}
 
 1. Go to the [Things tab](https://app.arduino.cc/things) and select the Thing that needs its network credentials updated.
 
