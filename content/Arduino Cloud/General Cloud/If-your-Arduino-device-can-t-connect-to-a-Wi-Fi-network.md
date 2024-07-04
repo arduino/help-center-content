@@ -26,7 +26,7 @@ If the Wi-Fi connection is not working, you might need to reset the [network cre
 
 1. Open the sketch and click the **Upload** button to properly apply the new network settings to your device.
 
-### Veryfing or changing the credentials defined in the sketch
+### Verifying or changing the credentials defined in the sketch
 
 To verify or change the network credentials directly defined in a sketch, whether the sketch was created in Arduino Cloud or IDE, follow these steps:
 
@@ -38,7 +38,7 @@ To verify or change the network credentials directly defined in a sketch, whethe
 
 1. Upload the modified sketch by clicking the Upload button in the Arduino IDE or Cloud Editor.
 
-Additionally, you can check the console (serial) output for error messages. This can provide insight into what might be going wrong during the connection process.
+Additionally, you can check Serial Monitor for error messages. This can provide insight into what might be going wrong during the connection process.
 
 ## 4. Check your power supply
 
