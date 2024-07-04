@@ -5,7 +5,12 @@ id: 14144656051740
 
 Arduino boards and most IoT devices can only be used with 2.4 GHz band networks. The 2.4 GHz band offers better range and signal strength through obstacles compared to 5 GHz.
 
-## How to check if your network is 2.4 GHz
+In this article:
+
+- [How to check if your network is 2.4 GHz](#about-network)
+- [Creating a 2.4 GHz network with a hotspot](#create-hotspot)
+
+## How to check if your network is 2.4 GHz {#about-network}
 
 Follow these steps to identify the frequency band of your Wi-Fi network.
 
@@ -25,7 +30,7 @@ Follow these steps to identify the frequency band of your Wi-Fi network.
 
 1. Look for the entry starting with **Channel**. This will specify if the network is in the 2.4 GHz or 5 GHz band.
 
-## Creating a 2.4 GHz network with a hotspot
+## Creating a 2.4 GHz network with a hotspot {#create-hotspot}
 
 If your network operates on the 5 GHz band, a quick solution is to create a 2.4 GHz network using the hotspot feature on an Android or iPhone device.
 
