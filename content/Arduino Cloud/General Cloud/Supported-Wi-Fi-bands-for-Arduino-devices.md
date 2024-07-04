@@ -36,44 +36,23 @@ If your network operates on the 5 GHz band, a quick solution is to create a 2.4 
 
 ### Android Devices
 
-1. Open Settings and go to Network & internet.
+1. Open the hotspot settings on your Android device. 
 
-1. Tap Hotspot & tethering or a similar option depending on your Android version.
-
-1. Select Mobile Hotspot and toggle it on.
-
-1. Look for an option similar to 'Band' to choose either 2.4 GHz or Automatic (which defaults to 2.4 GHz for compatibility with more devices).
+1. Look for an option similar to **Band** and select 2.4 GHz. 
 
 ![Andriod hotspot settings page](img/Andriod_hotspot_settings.png)
 
-1. Edit "Network name" and "Password" if needed.
 
-For additional details, read [this](https://support.google.com/android/answer/9059108)
+For more information about sharing a mobile connection using a hotspot on Android, see [this guide](https://support.google.com/android/answer/9059108).
 
-### iPhone 11 and Earlier
+### iPhone 
 
-iPhone 11 and earlier models automatically prioritize the 2.4 GHz band for hotspot connections.
-
-1. Open Settings and tap Personal Hotspot.
+1. Open **Settings** and tap **Personal Hotspot**.
 
 1. Toggle Personal Hotspot on.
 
-1. Edit the "Wi-Fi Password" if needed.
-
-For additional details, read [this](https://it-training.apple.com/tutorials/support/sup040/)
-
-### iPhone 12 and Later
-
-Personal Hotspot uses a 5GHz connection by default on iPhone 12 or later. You can turn on "Maximise Compatibility" to use a 2.4GHz connection.
-
-1. Open Settings and tap Personal Hotspot.
-
-1. Toggle Personal Hotspot on.
-
-1. Tap on Maximise Compatibility to enable the 2.4 GHz band for wider device compatibility.
-
-    ![The Maximise compatability setting toggeled on](img/Maximise_compatability.png)
+1. If this option is displayed, tap on **Maximise Compatibility** to use a 2.4 GHz connection (iPhone 11 and earlier models automatically prioritize the 2.4 GHz band for hotspot connections).
 
 1. Edit the "Wi-Fi Password" if needed.
 
-For additional details, read [this](https://it-training.apple.com/tutorials/support/sup040/)
+For more information about using a personal hotspot on iPhone, see [this guide](https://it-training.apple.com/tutorials/support/sup040/).
