@@ -6,9 +6,9 @@ In this article, you'll learn the step-by-step process for importing an Arduino 
 
 ## Import a Template
 
-1. Go to [ IoT Templates](https://app.arduino.cc/templates) and select a template.
+1. Go to [IoT Templates](https://app.arduino.cc/templates) and select a template.
 
-1. Click the **Import Template** button. 
+1. Click the **Import Template** button.
 
 1. Plug in your device and wait for it to be detected. Once the device is detected, click on **Configure** to continue.
 
@@ -21,9 +21,9 @@ In this article, you'll learn the step-by-step process for importing an Arduino 
 1. Once the device setup is complete, enter your network credentials.
 
     ![Dialog box for entering network credentials](img/Set_network_parameters.png)
-    
+
 ---
-    
+
 ## Still need help?
 
 * [If you can't import a template in Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/4408887422994-If-you-can-t-import-a-template-in-Arduino-Cloud)
