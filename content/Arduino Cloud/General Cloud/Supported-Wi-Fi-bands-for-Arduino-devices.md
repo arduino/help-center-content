@@ -36,16 +36,15 @@ If your network operates on the 5 GHz band, a quick solution is to create a 2.4 
 
 ### Android Devices
 
-1. Open the hotspot settings on your Android device. 
+1. Open the hotspot settings on your Android device.
 
-1. Look for an option similar to **Band** and select 2.4 GHz. 
+1. Look for an option similar to **Band** and select 2.4 GHz.
 
 ![Andriod hotspot settings page](img/Andriod_hotspot_settings.png)
 
-
 For more information about sharing a mobile connection using a hotspot on Android, see [this guide](https://support.google.com/android/answer/9059108).
 
-### iPhone 
+### iPhone
 
 1. Open **Settings** and tap **Personal Hotspot**.
 
