@@ -1,14 +1,14 @@
 ---
-title: "Configure the network credentials of a Thing"
+title: "Configure or change the network credentials of a Thing"
 id: 14416141314332
 ---
 
 In this article:
 
-- [Configuring a Thing without preset network credentials](#without_preset)
-- [Configuring a Thing with preset network credentials](#preset)
+- [Configure the network credentials of a Thing](#configure)
+- [Change the network credentials of a Thing](#change)
 
-## Configuring a Thing without preset network credentials {#without_preset}
+## Configure the network credentials of a Thing {#configure}
 
 1. Go to the [Things tab](https://app.arduino.cc/things) and click the "+Thing" button in the top right corner.
 
@@ -29,14 +29,18 @@ In this article:
     - Arduino with LoRa®: The credentials are added automatically.
     - ESP32 and ESP8266: Enter the secret key that was provided when adding the device.
 
-## Configuring a Thing with preset network credentials {#preset}
+## Change the network credentials of a Thing {#change}
 
 1. Go to the [Things tab](https://app.arduino.cc/things) and select the Thing that needs its network credentials updated.
 
-1. In your Thing's settings, find the Network section and click the button labeled "Change" to edit the network credentials.
+1. Go to the **Network Credentials** section and click the **Change** button.
 
     ![network credential information and a button labeled change ](img/Network_change.png)
 
-1. Re-enter your Wi-Fi credentials with your Wi-Fi Name (SSID) and Password. Ensure there are no typos and the credentials match those set on your router.
-
-1. Open the sketch and click the Upload button to apply the new network settings to your device properly.
+1. Enter your network credentials: 
+    - Wi-Fi: Enter your Wi-Fi name (SSID) and password (encryption key).
+    - If using ESP32 and ESP8266: Enter the secret key that was provided when adding the device.
+    - If using Arduino SIM: Use [these credentials](https://support.arduino.cc/hc/en-us/articles/360013825159-What-are-the-credentials-for-the-Arduino-SIM-card).
+    - If using Arduino with LoRa®: The credentials are added automatically.
+    
+ 1. Go to the **Sketch** tab in the top right and upload the sketch to load the credentials on the board.
