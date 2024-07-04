@@ -23,7 +23,7 @@ Follow these steps to identify the frequency band of your Wi-Fi network.
 
 1. Click on the Wi-Fi icon on the right side of the top navigation bar while holding down the Option/Alt key.
 
-1. Look for the entry starting with Channel. This will specify if the network is in the 2.4 GHz or 5 GHz band.
+1. Look for the entry starting with **Channel**. This will specify if the network is in the 2.4 GHz or 5 GHz band.
 
 ## Creating a 2.4 GHz network with a hotspot
 
