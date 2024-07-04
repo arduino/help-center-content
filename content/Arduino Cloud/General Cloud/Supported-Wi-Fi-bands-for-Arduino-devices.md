@@ -14,7 +14,7 @@ In this article:
 
 Follow these steps to identify the frequency band of your Wi-Fi network.
 
-###Windows
+### Windows
 
 1. Open the settings menu in Windows and select the **Network and Internet** section.
 
@@ -22,7 +22,7 @@ Follow these steps to identify the frequency band of your Wi-Fi network.
 
 1. A properties page will open. Here, you can find details about the wireless network, including the network band (GHz).
 
-###macOS
+### macOS
 
 1. Connect to the Wi-Fi network.
 
