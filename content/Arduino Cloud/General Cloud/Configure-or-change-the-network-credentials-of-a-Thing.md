@@ -16,9 +16,9 @@ In this article:
 
     ![Associated device section with select device button.](img/associated_device.png)
 
-1. Go to the **Network Credentials** section and click the **Configure** button.
+1. Go to the **Network** section and click the **Configure** button.
 
-    ![Network credential section with configure button.](img/Network_add.png)
+    ![Network section with configure button.](img/Network_add.png)
 
 1. Enter your network credentials:
 
@@ -33,7 +33,7 @@ In this article:
 
 1. Go to the [Things tab](https://app.arduino.cc/things) and select the Thing that needs its network credentials updated.
 
-1. Go to the **Network Credentials** section and click the **Change** button.
+1. Go to the **Network** section and click the **Change** button.
 
     ![Network credential information and a button labeled change.](img/Network_change.png)
 
