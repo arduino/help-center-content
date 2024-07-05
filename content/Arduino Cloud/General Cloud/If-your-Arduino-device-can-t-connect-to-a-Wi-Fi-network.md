@@ -1,5 +1,6 @@
 ---
-title: "If your Arduino device can’t connect to a Wi-Fi network"
+title: If your Arduino device can’t connect to a Wi-Fi network
+id: 14794496872732
 ---
 
 Learn how to troubleshoot Wi-Fi connectivity issues if your Arduino device can't connect to a network. Check the sections below to identify and resolve potential issues.
