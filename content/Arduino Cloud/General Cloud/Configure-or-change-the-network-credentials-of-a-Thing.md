@@ -14,11 +14,11 @@ In this article:
 
 1. If the Thing doesn't have an associated device, go to the **Associated Device** section and click the **Select Device** button. Get help [adding a device to Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/360016495559-Add-and-connect-a-device-to-Arduino-Cloud#upload-sketch) if needed.
 
-    ![associated device section with select device button](img/associated_device.png)
+    ![Associated device section with select device button.](img/associated_device.png)
 
 1. Go to the **Network Credentials** section and click the **Configure** button.
 
-    ![network credential section with configure button](img/Network_add.png)
+    ![Network credential section with configure button.](img/Network_add.png)
 
 1. Enter your network credentials:
 
@@ -35,7 +35,7 @@ In this article:
 
 1. Go to the **Network Credentials** section and click the **Change** button.
 
-    ![network credential information and a button labeled change ](img/Network_change.png)
+    ![Network credential information and a button labeled change.](img/Network_change.png)
 
 1. Enter your network credentials:
     - Wi-Fi: Enter your Wi-Fi name (SSID) and password (encryption key).
