@@ -3,10 +3,14 @@ title: "Configure or change the network credentials of a Thing"
 id: 14416141314332
 ---
 
+Learn how to configure or change the network credentials of a Thing in Arduino Cloud.
+
 In this article:
 
 - [Configure the network credentials of a new Thing](#configure)
 - [Change the network credentials of a Thing](#change)
+
+---
 
 ## Configure the network credentials of a new Thing {#configure}
 
