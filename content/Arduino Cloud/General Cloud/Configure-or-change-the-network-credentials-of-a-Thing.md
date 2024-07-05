@@ -5,10 +5,10 @@ id: 14416141314332
 
 In this article:
 
-- [Configure the network credentials of a Thing](#configure)
+- [Configure the network credentials of a new Thing](#configure)
 - [Change the network credentials of a Thing](#change)
 
-## Configure the network credentials of a Thing {#configure}
+## Configure the network credentials of a new Thing {#configure}
 
 1. Go to the [Things tab](https://app.arduino.cc/things) and select a Thing, or create a new Thing by clicking on the **+ Create Thing** button or the **+Thing** button in the top right corner.
 
