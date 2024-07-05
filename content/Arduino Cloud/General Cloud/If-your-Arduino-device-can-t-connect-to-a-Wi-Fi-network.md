@@ -4,12 +4,14 @@ title: "If your Arduino device can’t connect to a Wi-Fi network"
 
 Learn how to troubleshoot Wi-Fi connectivity issues if your Arduino device can't connect to a network. Check the sections below to identify and resolve potential issues.
 
+---
+
 ## 1. Connect to a 2.4 GHz network
 
 Arduino boards and most IoT devices can only be used with 2.4 GHz networks. The 2.4 GHz band offers better range and signal strength through obstacles compared to the 5 GHz band. Learn [how to check if your network operates on the 2.4 GHz band](https://support.arduino.cc/hc/en-us/articles/14144656051740-Supported-Wi-Fi-bands).
 
 > [!TIP]
-If your network operates on the 5 GHz band, a quick solution is to [create a 2.4 GHz network using the hotspot feature on an Android or iPhone device](https://support.arduino.cc/hc/en-us/articles/14144656051740-Supported-Wi-Fi-bands#create-hotspot).
+If your network operates on the 5 GHz band, a quick solution is to [create a 2.4 GHz network using the hotspot feature on an Android or iOS device](https://support.arduino.cc/hc/en-us/articles/14144656051740-Supported-Wi-Fi-bands#create-hotspot).
 
 ## 2. Avoid common network names
 
@@ -35,7 +37,7 @@ To verify or change the network credentials directly defined in a sketch, whethe
 
 1. Locate the section in your Arduino sketch where the network credentials are defined. This is typically in the main sketch file, the `arduino_secrets.h` file (for the IDE), or the **Secret** tab (for Arduino Cloud).
 
-1. Check the variables for SSID and password to ensure they match your network credentials. You may also need to modify key index if you're using a WEP encrypted network.
+1. Check the variables for SSID and password to ensure they match your network credentials. You may also need to modify the "key index" value if you're using a WEP encrypted network.
 
 1. After making any necessary changes, save the sketch.
 
@@ -51,6 +53,6 @@ Wi-Fi connectivity problems are often caused by insufficient power. Since Wi-Fi 
 
 - Ensuring you are using a high-quality USB cable capable of delivering consistent power.
 
-- Verifying that your power supply meets the necessary input voltage for your device. You can find hardware information for your device [here](https://docs.arduino.cc/hardware/).
+- Verifying that your power supply meets the necessary input voltage for your device. You can find hardware information for your device in [Arduino Docs](https://docs.arduino.cc/hardware/).
 
 For more detailed information about power supplies, you can find additional guidance [here](https://support.arduino.cc/hc/en-us/articles/360018922259-What-power-supply-can-I-use-with-my-Arduino-board).
