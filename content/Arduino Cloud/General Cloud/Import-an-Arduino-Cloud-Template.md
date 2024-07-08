@@ -24,7 +24,7 @@ In this article, you'll learn the step-by-step process for importing an Arduino 
 
 ---
 
-## Still need help?
+## Troubleshooting
 
 * [If you can't import a template in Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/4408887422994-If-you-can-t-import-a-template-in-Arduino-Cloud)
 * [If your device can't be added to Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/360019355679-If-your-device-can-t-be-added-to-Arduino-Cloud)
