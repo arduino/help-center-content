@@ -1,5 +1,6 @@
 ---
-title: "Import an Arduino Cloud Template"
+title: Import an Arduino Cloud Template
+id: 14826942993308
 ---
 
 In this article, you'll learn the step-by-step process for importing an Arduino Cloud template.
