@@ -3,7 +3,7 @@ title: "Find the activation code for an Arduino Education kit"
 id: 4402999992850
 ---
 
-Most Arduino Education kits do not require activation codes, and all online material and courses can be found by visiting [courses.arduino.cc](https://www.arduino.cc/education/courses/). However, [some kits](#kits) need an activation code to have full access to their respective courses.
+Most Arduino Education kits do not require activation codes, and all online learning content can be found by visiting [courses.arduino.cc](https://www.arduino.cc/education/courses/). However, [some kits](#kits) need an activation code to have full access to their respective courses.
 
 In this article:
 
