@@ -3,7 +3,7 @@ title: "Register an Arduino Education Kit"
 id: 4407393580818
 ---
 
- Most Arduino Education kits don't require registration, and all online learning content can be found by visiting [courses.arduino.cc](https://www.arduino.cc/education/courses/). However, some kits need to be registered to have full access to their respective courses. See [which kits need to be registered](https://support.arduino.cc/hc/en-us/articles/4402999992850-Where-is-the-activation-code-for-my-kit#kits). 
+ Most Arduino Education kits don't require registration, and all online learning content can be found by visiting [courses.arduino.cc](https://www.arduino.cc/education/courses/). However, some kits need to be registered to have full access to their respective courses. See [which kits need to be registered](https://support.arduino.cc/hc/en-us/articles/4402999992850-Where-is-the-activation-code-for-my-kit#kits).
 
  Follow the steps below to register your Arduino Education kit.
 
