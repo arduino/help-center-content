@@ -32,5 +32,5 @@ Your kit will be added to the space.
 
 ## Troubleshooting
 
-* [Find the activation code for your kit](https://support.arduino.cc/hc/en-us/articles/4402999992850-Where-is-the-activation-code-for-my-kit-)
-* [If the kit activation code does not work](https://support.arduino.cc/hc/en-us/articles/360017549580-If-the-kit-activation-code-does-not-work)
+* [Find the activation code for your kit](https://support.arduino.cc/hc/en-us/articles/4402999992850-Where-is-the-activation-code-for-my-kit-).
+* [If the kit activation code does not work](https://support.arduino.cc/hc/en-us/articles/360017549580-If-the-kit-activation-code-does-not-work).
