@@ -15,17 +15,15 @@ In this article:
 The following Arduino Education kits require an activation code to have full access to their respective courses:
 
 * Arduino Braccio ++
-* Arduino CTC 101 Program Full
 * Arduino CTC GO! Core Module
 * Arduino CTC GO! Motions Expansion Pack
 * Arduino Education Starter Kit
-* Arduino Engineering Kit
 * Arduino Engineering Kit Rev2
 * Arduino Explore IoT Kit
 * Arduino Greenhouse Kit
-* Arduino Oplà IoT Kit
-* Arduino Science Kit Physics Lab Rev2
 * Arduino Student Kit
+
+* Arduino Explore IoT Kit Rev2 offers two demo lessons, you'll need a Cloud School Plan to fully access the course.
 
 ## Find the activation code {#find-code}
 
