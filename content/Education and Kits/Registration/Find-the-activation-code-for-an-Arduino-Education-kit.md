@@ -3,16 +3,16 @@ title: "Find the activation code for an Arduino Education kit"
 id: 4402999992850
 ---
 
-Most Arduino Education kits do not require activation codes, and all online learning content can be found by visiting [courses.arduino.cc](https://www.arduino.cc/education/courses/). However, [some kits](#kits) need an activation code to have full access to their respective courses.
+Most Arduino Education kits do not require activation codes, and all online learning content can be found by visiting [courses.arduino.cc](https://www.arduino.cc/education/courses/). However, [some kits](#kits) require registration with an activation code for full access to their courses.
 
 In this article:
 
-* [Kits that need an activation code](#kits)
+* [Kits that require registration](#kits)
 * [Find the activation code](#find-code)
 
-## Kits that need an activation code {#kits}
+## Kits that require registration {#kits}
 
-The following Arduino Education kits require an activation code to have full access to their respective courses:
+The following Arduino Education kits require registration to have full access to their courses:
 
 * Arduino Braccio ++
 * Arduino CTC GO! Core Module
@@ -23,7 +23,11 @@ The following Arduino Education kits require an activation code to have full acc
 * Arduino Greenhouse Kit
 * Arduino Student Kit
 
-* Arduino Explore IoT Kit Rev2 offers two demo lessons, you'll need a Cloud School Plan to fully access the course.
+> [!NOTE]
+>
+> * The **Arduino CTC 101 Program Full** and the **Arduino Engineering Kit** include activation codes but no longer require registration since their courses are now free.
+> * The **Arduino Explore IoT Kit Rev2** includes two demo lessons. To access the full course, you need a [Cloud School Plan](https://cloud.arduino.cc/plans/).
+> * The **Arduino Oplà IoT Kit** includes a code for 12 free months of the [Cloud Maker Plan](https://cloud.arduino.cc/plans/). While the online content is free, some projects require a premium Cloud plan to support their templates.
 
 ## Find the activation code {#find-code}
 
