@@ -10,7 +10,7 @@ id: 4407393580818
 ## Register a kit
 
 > [!WARNING]
-> To share access to the kit, it needs to be added to a shared space.
+> To share access to the kit, it must be added to a shared space.
 >
 > If you need to transfer it after it's been added to a space, please [contact us](https://www.arduino.cc/en/contact-us/).
 
