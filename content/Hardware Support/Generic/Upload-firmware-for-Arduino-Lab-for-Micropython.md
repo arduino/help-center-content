@@ -12,7 +12,7 @@ These are some reasons you may want to upload firmware for Arduino Lab for Micro
 
 ## Supported Boards
 
-- Arduino Giga
+- Arduino GIGA R1 WiFi
 - Arduino Nano 33 BLE Sense
 - Arduino Nano ESP32
 - Arduino Nano RP2040 Connect
