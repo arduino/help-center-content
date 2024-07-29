@@ -10,7 +10,7 @@ The frequently asked questions covered in this article are focused on providing 
 
   The [SystemReady certification certificate](https://armkeil.blob.core.windows.net/developer/Files/pdf/certificate-list/arm-systemready-ir-certification-details-arduino.pdf) lists the firmware as "version pre-merge v85 / U-Boot 2021.04+fio+g38c3083e39."
 
-- **Where is Yocto distribution Build documented?**
+- **Where is the Yocto distribution Build documented?**
 
   Yocto distribution build is documented in the [Linux microPlatform Manifest](https://github.com/arduino/lmp-manifest)
 
@@ -35,7 +35,7 @@ The frequently asked questions covered in this article are focused on providing 
 
 - **Does the M4 support networking?**
 
-  Yes it does. All networking, including WiFi, BLE, and other connectivity types, is managed by the Linux side and made available to the M4 through RPC calls.
+  Yes, it does. All networking, including WiFi, BLE, and other connectivity types, is managed by the Linux side and made available to the M4 through RPC calls.
 
 - **Is there an easy way to communicate between the MCU and MPU environments?**
 
@@ -43,13 +43,13 @@ The frequently asked questions covered in this article are focused on providing 
 
 - **Will the IDE eventually support the Linux environment, perhaps for app development?**
 
-  No, the IDE is intended to be used with the Arduino side only.
+  No, the IDE is intended to be used only on the Arduino side.
 
 - **What can developers do with the Arduino version of Foundries.io?**
 
   Customers can install, create, and deploy custom and standard containers. Custom containers will be available on the Arduino/Foundries.io environment, while standard containers can be downloaded from Docker Hub.
 
-  To ensure security and consistency of the operating system over time, it is strongly discouraged to modify the Linux platform and drivers with an Arduino Cloud Pro subscription. If customers wish to make such modifications, they should purchase a complete factory from Foundries.io.
+  To ensure the security and consistency of the operating system over time, it is strongly discouraged that the Linux platform and drivers be modified with an Arduino Cloud Pro subscription. If customers wish to make such modifications, they should purchase a complete factory from Foundries.io.
 
 - **Should I use `apt-get` to install new software on the base image?**
 
@@ -75,7 +75,7 @@ The frequently asked questions covered in this article are focused on providing 
 
 - **What is the purpose of a new image in a Foundries factory?**
 
-  Portenta X8 boards use a Linux distribution that includes all necessary firmware, applications, and configurations for operation, while excluding unnecessary software. A new image is created to update the system, firmware, and applications. When a new image becomes available, it can be flashed onto the target board to apply these updates.
+  Portenta X8 boards use a Linux distribution that includes all necessary firmware, applications, and configurations for operation while excluding unnecessary software. A new image is created to update the system, firmware, and applications. When a new image becomes available, it can be flashed onto the target board to apply these updates.
 
 - **What is the difference between the web shell and ADB shell?**
 
@@ -89,7 +89,7 @@ The frequently asked questions covered in this article are focused on providing 
 
   After pulling a new container, you can use it by starting it with Docker commands. Containers provide an isolated environment, ensuring consistency across development, testing, and production. This makes them more portable and quicker to use compared to traditional development pipelines that replicate testing environments. Additionally, you can deploy Linux-based processes, track them through your Factory page, and manage them efficiently.
 
-- **How does Docker actually work? Is it like an OS or just a program running on Linux that manages apps?**
+- **How does Docker work? Is it like an OS or just a program running on Linux that manages apps?**
 
   [Docker](https://www.docker.com/) is a platform for managing applications using containers. Containers are isolated environments that encapsulate everything needed to run an application, making them portable and consistent across development, testing, and production environments.
 
