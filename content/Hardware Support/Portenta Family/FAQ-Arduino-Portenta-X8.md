@@ -1,6 +1,5 @@
 ---
 title: "FAQ: Arduino Portenta X8"
-id: 13870453088924
 ---
 
 The frequently asked questions covered in this article are focused on providing essential information about Arduino Portenta X8 and how to operate it with ease.
