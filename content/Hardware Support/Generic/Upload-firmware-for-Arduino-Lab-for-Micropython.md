@@ -1,5 +1,6 @@
 ---
 title: Upload firmware for Arduino Lab for Micropython
+id: 15156644171548
 ---
 
 These are some reasons you may want to upload firmware for Arduino Lab for Micropython:
