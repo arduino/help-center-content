@@ -21,21 +21,21 @@ If you cannot find the email, try checking your spam folder.
 
 To activate your certification code and start the exam, follow these steps:
 
-1.  Go to [Arduino Certification Portal](https://certifications.arduino.cc/).
+1. Go to [Arduino Certification Portal](https://certifications.arduino.cc/).
 
-1.  Select your preferred exam language.
+1. Select your preferred exam language.
 
     ![Dialog for picking exam language](img/exam_language.png)
 
-1.  Enter your exam activation code.
+1. Enter your exam activation code.
 
     ![Dialog for entering exam activation code](img/exam_certification_code.png)
 
-1.  Fill in your first and last name in the dedicated fields. Check the two checkmark boxes to agree to the terms.
+1. Fill in your first and last name in the dedicated fields. Check the two checkmark boxes to agree to the terms.
 
     ![Dialog for entering your name](img/name_dialog.png)
 
-1.  Now you're ready to start your exam!
+1. Now you're ready to start your exam!
 
     ![Dialog for starting the exam](img/start_exam.png)
 
