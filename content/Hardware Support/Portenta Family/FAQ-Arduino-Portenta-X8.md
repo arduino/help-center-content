@@ -43,17 +43,17 @@ The frequently asked questions covered in this article are focused on providing 
 
 - **Will the IDE eventually support the Linux environment, perhaps for app development?**
 
-  No, the IDE is intended to be used only on the Arduino side.
+  No, the IDE is only intended for the Arduino.
 
 - **What can developers do with the Arduino version of Foundries.io?**
 
-  Customers can install, create, and deploy custom and standard containers. Custom containers will be available on the Arduino/Foundries.io environment, while standard containers can be downloaded from Docker Hub.
+  You can install, create, and deploy custom and standard containers. Custom containers will be available on the Arduino/Foundries.io environment, while standard containers can be downloaded from Docker Hub.
 
   To ensure the security and consistency of the operating system over time, it is strongly discouraged that the Linux platform and drivers be modified with an Arduino Cloud Pro subscription. If customers wish to make such modifications, they should purchase a complete factory from Foundries.io.
 
 - **Should I use `apt-get` to install new software on the base image?**
 
-  No, `apt` is not available in the base image. Instead, you should use a Docker container where you can install the software you need.
+  No, `apt` is not available in the base image. Instead, you should use a Docker container to install the necessary software.
 
 - **Can I register the Portenta X8 with other cloud providers like Google or AWS?**
 
@@ -67,7 +67,7 @@ The frequently asked questions covered in this article are focused on providing 
 
 - **How does the Portenta X8 work with Arduino IoT Pro Cloud?**
 
-  Arduino IoT Pro Cloud for the X8 includes a Foundries.io subscription to the Secure & Scalable IoT Software Platform. This subscription enables customers to create a derivative factory for securely managing the Linux distribution and containers on Portenta X8 fleets through OTA updates. The subscription fee is based on batches of 50 devices. For example, if you have 100 devices, the fee will be equivalent to 2 batches of 50 devices each.
+  Arduino IoT Pro Cloud for the X8 includes a Foundries.io subscription to the Secure & Scalable IoT Software Platform. This subscription enables customers to create a derivative factory for securely managing the Linux distribution and containers on Portenta X8 fleets through OTA updates. The subscription fee is based on batches of 50 devices. For example, if you have 100 devices, the cost will be equivalent to 2 batches of 50 devices each.
 
 - **Where can I find the containers created by Arduino for the Portenta X8?**
 
@@ -75,7 +75,7 @@ The frequently asked questions covered in this article are focused on providing 
 
 - **What is the purpose of a new image in a Foundries factory?**
 
-  Portenta X8 boards use a Linux distribution that includes all necessary firmware, applications, and configurations for operation while excluding unnecessary software. A new image is created to update the system, firmware, and applications. When a new image becomes available, it can be flashed onto the target board to apply these updates.
+  Portenta X8 boards use a Linux distribution that includes all necessary firmware, applications, and operating configurations while excluding unnecessary software. A new image is created to update the system, firmware, and applications. When a new image becomes available, it can be flashed onto the target board to apply these updates.
 
 - **What is the difference between the web shell and ADB shell?**
 
@@ -83,7 +83,7 @@ The frequently asked questions covered in this article are focused on providing 
 
   The ADB shell, on the other hand, is a separate container and application used to access and control the X8 from a PC.
 
-- **When we pull a container to Docker (for example, Ubuntu), are they self-contained? After pulling a new container, how can we use it?**
+- **When we pull a container to Docker (for example, Ubuntu), are they self-contained? How can we use a new container after pulling a new one?**
 
   Yes, containers are self-contained in Docker. When you pull a container image, such as Ubuntu, it includes all the necessary files and dependencies required to run the containerized application.
 
@@ -93,8 +93,8 @@ The frequently asked questions covered in this article are focused on providing 
 
   [Docker](https://www.docker.com/) is a platform for managing applications using containers. Containers are isolated environments that encapsulate everything needed to run an application, making them portable and consistent across development, testing, and production environments.
 
-  Docker itself is not an operating system; rather, it runs as a program on a host operating system (such as Linux). It allows you to download, install, use, and share applications packaged as containers. You can find a wide range of container images on [hub.docker.com](https://hub.docker.com/).
+  Docker itself is not an operating system; rather, it runs as a program on a host operating system (such as Linux). It lets you download, install, use, and share applications packaged as containers. You can find a wide range of container images on [hub.docker.com](https://hub.docker.com/).
 
 - **When we update a factory image, does it also update the containers, such as Python?**
 
-  Yes, updating a factory image includes the latest applications, firmware, and configurations. This means that containers, including those for Python, will also be updated as part of the new image.
+  Yes, updating a factory image includes the latest applications, firmware, and configurations. This means containers, including those for Python, will be updated as part of the new image.
