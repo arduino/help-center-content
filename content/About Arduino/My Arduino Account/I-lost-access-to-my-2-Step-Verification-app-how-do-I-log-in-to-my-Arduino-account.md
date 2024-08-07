@@ -3,21 +3,21 @@ title: "I lost access to my 2-Step Verification app, how do I log in to my Ardui
 id: 360022029299
 ---
 
-When you first enable 2-Step Verification on your Arduino account, a single use, 24 digit, `Recovery code` will be provided. This code needs to be saved, since if you were to lose your 2-Step Verification app (e.g. you misplace or break your phone) you will need it to log in to your account.
+When you enable 2-Step Verification on your Arduino account, you're given a 24-digit recovery code. This code is crucial for accessing your account if you lose your verification app.
 
-## Where can I find my recovery code
+## How to locate your recovery code
 
 If you downloaded the file when you received your recovery code, it should be named 'Arduino 2-step verification recovery code'.
 
-The easiest way to find your recovery code file is by searching for it across your entire computer.
+The easiest way to find your recovery code file is by searching for it across your computer.
 
 **Windows:**
 
-1. Open File Explorer by clicking the folder icon on your taskbar or by pressing `Windows + E`.
+1. Open File Explorer by clicking the folder icon on your taskbar or press `Windows + E`.
 
-1. In the left sidebar, select "This PC" to search your entire computer.
+1. In the left sidebar, select **This PC** to search your entire computer.
 
-1. Type 'Arduino 2 step verification recovery code' in the search box located in the upper right corner of the File Explorer window and press Enter.
+1. Type **Arduino 2 step verification recovery code** in the search box in the upper right corner of the File Explorer window and press Enter.
 
 1. Wait for Windows to complete the search and display the results.
 
@@ -25,13 +25,13 @@ The easiest way to find your recovery code file is by searching for it across yo
 
 1. Click on the Spotlight icon (a magnifying glass) in the upper-right corner of your screen or press `Command + Space`.
 
-1. Type 'Arduino 2 step verification recovery code'.
+1. Type **Arduino 2 step verification recovery code**.
 
 1. Spotlight will display a list of matching files from your entire Mac.
 
 ## How do I use my recovery code?
 
-1. Log into your account.
+1. Log into your Arduino account.
 
 1. When prompted for 2-Step Verification, click 'Use recovery code'.
 
@@ -51,4 +51,4 @@ The easiest way to find your recovery code file is by searching for it across yo
 
 ## What should I do if I can't find my recovery code?
 
-If you can't find your recovery code, you will need to create a new account, as your previous one will no longer be accessible. We do not have any means to provide a new code or access to the old account.
+If you can't find your recovery code, you must create a new account, as your previous one will no longer be accessible. We do not have any means to provide a new code or access to the old account.
