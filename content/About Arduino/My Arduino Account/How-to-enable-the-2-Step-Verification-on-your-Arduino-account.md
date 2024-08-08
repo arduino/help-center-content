@@ -37,5 +37,3 @@ Arduino supports 2-step Verification via authenticator software such as _Authy_,
    > If you lose access to both your 2FA app and the recovery code, you will not be able to access your Arduino account, and Arduino support will be unable to assist you.
 
 1. Enter the code from your 2FA app one more time to complete the setup.
-
-1. Once all this is set, you are good to go! You have now the 2-Step Verification enabled on your Arduino account.
