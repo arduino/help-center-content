@@ -5,7 +5,7 @@ id: 13809101080732
 
 To open a sketch in the Cloud Editor, follow these steps:
 
-1. Go to [app.arduino.cc/sketches](app.arduino.cc/sketches).
+1. Go to [app.arduino.cc/sketches](https://app.arduino.cc/sketches).
 
 1. Choose a sketch to open in the Cloud Editor:
 
