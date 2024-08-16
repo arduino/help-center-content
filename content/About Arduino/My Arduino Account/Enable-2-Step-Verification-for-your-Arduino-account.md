@@ -1,5 +1,5 @@
 ---
-title: "How to enable the 2-Step Verification on your Arduino account"
+title: "Enable 2-Step Verification for your Arduino account"
 id: 360018131120
 ---
 

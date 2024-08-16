@@ -1,5 +1,5 @@
 ---
-title: "How to disable the 2-Step Verification on your Arduino account"
+title: "Disable 2-Step Verification for your Arduino account"
 id: 360016759779
 ---
 

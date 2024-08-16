@@ -1,5 +1,5 @@
 ---
-title: "I lost access to my 2-Step Verification app, how do I log in to my Arduino account?"
+title: "Recover an account protected by 2-Step Verification"
 id: 360022029299
 ---
 
