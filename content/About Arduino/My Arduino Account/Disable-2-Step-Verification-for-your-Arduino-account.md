@@ -5,6 +5,9 @@ id: 360016759779
 
 If you need to change your mobile device or perform a factory reset, you can disable 2-Step Verification for your Arduino account.
 
+> [!IMPORTANT]
+> To disable 2-Step Verification, you need to sign into your Arduino account. If you've lost access, see [Recover an account protected by 2-Step Verification](https://support.arduino.cc/hc/en-us/articles/360022029299).
+
 ---
 
 1. Go to your [Arduino account profile](https://id.arduino.cc/)
