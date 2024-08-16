@@ -10,7 +10,7 @@ If you need to change your mobile device or perform a factory reset, you can dis
 
 ---
 
-1. Go to your [Arduino account profile](https://id.arduino.cc/)
+1. Go to your [Arduino account profile](https://id.arduino.cc/).
 
 2. Click on **Disable** under the Security section. A message will be displayed stating that you will receive an email. It will send the email to the address listed in the account settings section.
 
