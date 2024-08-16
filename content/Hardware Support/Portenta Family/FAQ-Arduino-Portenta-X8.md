@@ -24,8 +24,10 @@ The frequently asked questions covered in this article are focused on providing 
 
   - Portenta X8 with the Portenta Breakout Carrier, by connecting to UART2
   - Portenta X8 with the Portenta Max Carrier, by connecting to the micro-USB DBG USB0
+  - Portenta X8 with the Mid Carrier, by connecting to UART2 using an FTDI serial adapter
+  - Portenta X8 with the Hat Carrier, by connecting to UART2 using an FTDI serial adapter
 
-  Once connected, open the console and press any key to access the bootloader.
+  Once connected, open a terminal or serial console application on your computer. Then press any key in the console to interrupt the boot process and access the bootloader.
 
   For the U-Boot repository, visit: GitHub - arduino/u-boot-imx.
 
