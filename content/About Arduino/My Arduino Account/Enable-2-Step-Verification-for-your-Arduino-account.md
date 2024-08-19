@@ -46,9 +46,9 @@ These are some popular choices:
 
    ![Recovery code written in code box and "I have safely recorded this code" check box](img/2FA_recoveryCode.png)
 
-   You will need the recovery code if you lose access to your 2FA app, such as if your phone is lost or broken.
+   You will need the recovery code if you lose access to your authenticator app, such as if your phone is lost or broken.
 
    > [!IMPORTANT]
-   > If you lose access to both your 2FA app and the recovery code, you will not be able to access your Arduino account, and Arduino support will be unable to assist you.
+   > If you lose access to both your authenticator app and the recovery code, you will not be able to access your Arduino account, and Arduino support will be unable to assist you.
 
-1. Enter the code from your 2FA app one more time to complete the setup.
+1. Enter the code from your authenticator app one more time to complete the setup.
