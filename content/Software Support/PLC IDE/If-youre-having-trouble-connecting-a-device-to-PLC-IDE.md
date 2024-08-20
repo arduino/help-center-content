@@ -27,12 +27,6 @@ id: 8824551178780
 
 It's important to understand which ports to target when configuring your PLC device connection.
 
-### List of ports
-
-#### Physical serial port (default)
-
-Initially, only this port will be available. Target this port when [downloading the runtime](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#4-download-the-runtime).
-
 ### How to identify which ports belong to your device
 
 If other devices connected to your computer have open serial ports, you need to determine which ports belong to your PLC device:
