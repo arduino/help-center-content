@@ -32,7 +32,8 @@ The currently supported boards include:
 You can use supported Arduino boards on ChromeOS in the following ways[^chrome-apps]:
 
 * [Use the Arduino Cloud Editor in the Chrome Browser](#use-the-cloud-editor-in-the-chrome-browser)
-* ~~[Use the Arduino Cloud for Chromebook app](https://play.google.com/store/apps/details?id=cc.arduino.create_editor)~~ (currently unavailable)
+<!-- Add link to Arduino Cloud for Chromebook when it becomes available  -->
+* ~~Use the Arduino Cloud for Chromebook app~~ (currently unavailable)
 
 <a id="compatible"></a>
 
