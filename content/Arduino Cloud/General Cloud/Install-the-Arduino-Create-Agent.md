@@ -16,7 +16,7 @@ Learn how to install the Arduino Create Agent on your computer.
 
 Open this page and follow the instructions:
 
-[Install the Arduino Create Agent](http://cloud.arduino.cc/download-agent){.link-chevron-right}
+[Install the Arduino Create Agent](https://cloud.arduino.cc/download-agent){.link-chevron-right}
 
 You can now use [the Cloud Editor and Arduino Cloud](https://docs.arduino.cc/arduino-cloud/guides/overview/).
 

@@ -34,7 +34,7 @@ These boards are supported:
 
 ## Cloud Editor on Windows, macOS, and Linux
 
-To use the Cloud Editor on Windows, macOS, and Linux, you need to install the <a class="link-up-right" href="https://create.arduino.cc/getting-started/plugin">Arduino Create Agent</a>.
+To use the Cloud Editor on Windows, macOS, and Linux, you need to install the <a class="link-up-right" href="https://create.arduino.cc/getting-started/plugin/welcome">Arduino Create Agent</a>.
 
 These boards are supported:
 
