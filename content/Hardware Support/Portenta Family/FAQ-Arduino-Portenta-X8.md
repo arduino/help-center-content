@@ -18,19 +18,6 @@ The frequently asked questions covered in this article are focused on providing 
 
   Yocto distribution layers and scripts are documented in the [Linux microPlatform Manifest](https://github.com/arduino/lmp-manifest)
 
-- **How can I access the bootloader console (U-Boot)?**
-
-  To access the bootloader console, you need one of the following setups:
-
-  - Portenta X8 with the Portenta Breakout Carrier, by connecting to UART2
-  - Portenta X8 with the Portenta Max Carrier, by connecting to the micro-USB DBG USB0
-  - Portenta X8 with the Mid Carrier, by connecting to UART2 using an FTDI serial adapter
-  - Portenta X8 with the Hat Carrier, by connecting to UART2 using an FTDI serial adapter
-
-  Once connected, open a terminal or serial console application on your computer. Then press any key in the console to interrupt the boot process and access the bootloader.
-
-  For the U-Boot repository, visit: GitHub - arduino/u-boot-imx.
-
 - **Can both Linux and Arduino environments perform I/O operations?**
 
   Yes, The STM32H7 will expose all the peripherals that can be accessed by both the M4 core and the Linux environment.
