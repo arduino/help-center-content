@@ -6,6 +6,7 @@ https://support.arduino.cc/hc/*
 
 # Returns 404 for some reason
 https://create.arduino.cc/iot/*
+https://create.arduino.cc/editor/*
 https://cloud.arduino.cc/home/resources
 https://cloud.arduino.cc/plans
 https://app.arduino.cc/resources
@@ -18,12 +19,7 @@ https://app.arduino.cc/space
 https://app.arduino.cc/plan-usage
 https://app.arduino.cc/sketches
 https://create.arduino.cc/getting-started/loragw/welcome
-https://create.arduino.cc/editor/arduino_support/68cca5d0-4f1b-45ea-b43d-f22b759555fa/preview
-https://create.arduino.cc/editor/arduino_support/55b72af7-5b59-43f1-b3f7-e02b47fbfce9/preview
-https://create.arduino.cc/editor/arduino_support/68cca5d0-4f1b-45ea-b43d-f22b759555fa/preview
 https://create.arduino.cc/example/builtin/01.Basics%5CBareMinimum/BareMinimum/preview?embed
-https://create.arduino.cc/editor/jojobaa/473fd181-12a3-4d42-bb56-c6adc385f457/preview?embed&snippet=L23-L34#L26
-https://create.arduino.cc/editor/jojobaa/473fd181-12a3-4d42-bb56-c6adc385f457/preview?embed&snippet=L35-L52#L46
 
 # "Network error: Forbidden" despite working redirect
 https://www.arduino.cc/en/Guide/Troubleshooting
@@ -32,7 +28,7 @@ https://www.aftership.com/
 # Returns 403 (but is accessible in browser)
 https://www.digikey.se/product-detail/en/jst-sales-america-inc/PHR-2/455-1165-ND/608607
 https://www.java.com/en/download/manual.jsp
-https://www.amazon.com/gp/help/customer/display.html?nodeId=GENAFPTNLHV7ZACW
+https://www.amazon.com/gp/help/customer/display.html*
 
 # Returns [TIMEOUT]
 
