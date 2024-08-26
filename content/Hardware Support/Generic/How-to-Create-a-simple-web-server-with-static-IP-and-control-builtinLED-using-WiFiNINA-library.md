@@ -38,9 +38,9 @@ This tutorial is about making a web server with static IP, using the web server 
 
     <!-- [Code Snippet](https://create.arduino.cc/editor/jojobaa/473fd181-12a3-4d42-bb56-c6adc385f457/preview?embed&snippet=L23-L34#L26)-->
 
-05. Make sure you add `WiFi.config(ip);` inside `void setup()`, like in the code below.
+05. Make sure you add `WiFi.config(ip);` inside `void setup()`, like in the code below:
 
-    <iframe src=https://create.arduino.cc/editor/jojobaa/473fd181-12a3-4d42-bb56-c6adc385f457/preview?embed&snippet=L23-L34#L26 style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+    <iframe src=https://create.arduino.cc/editor/jojobaa/473fd181-12a3-4d42-bb56-c6adc385f457/preview?embed&snippet=L35-L52#L46 style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
     <!-- [Code Snippet](https://create.arduino.cc/editor/jojobaa/473fd181-12a3-4d42-bb56-c6adc385f457/preview?embed&snippet=L35-L52#L46)-->
 
