@@ -1,5 +1,5 @@
 ---
-title: FAQ: Arduino Portenta X8
+title: "FAQ: Arduino Portenta X8"
 id: 15579050846364
 ---
 
