@@ -1,5 +1,5 @@
 ---
-title: If you're having trouble connecting a device to PLC IDE
+title: "If you're having trouble connecting a device to PLC IDE"
 id: 8824551178780
 ---
 
