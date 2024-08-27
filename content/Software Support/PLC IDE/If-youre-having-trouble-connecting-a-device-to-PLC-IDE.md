@@ -3,7 +3,7 @@ title: "If you're having trouble connecting a device to PLC IDE"
 id: 8824551178780
 ---
 
-## Essential Pre-Setup Checklist
+## Check this first
 
 - If you haven't done so, start by checking the [Arduino PLC IDE Setup and Board's License Activation](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#instructions) tutorial.
 
@@ -35,7 +35,7 @@ If other devices connected to your computer have open serial ports, you need to 
 1. Select **Project > Refresh current target** to refresh the list of ports.
 1. Open the runtime sketch download port menu, and take note of the available ports.
 
-![The runtime download widget.](img/plc-ide-runtime-ports.png)
+   ![The runtime download widget.](img/plc-ide-runtime-ports.png)
 
 1. Connect your PLC device.
 1. Again, select **Project > Refresh current target** to refresh the list of ports.
@@ -48,7 +48,7 @@ You can also use the **Device Manger** in Windows:
 1. Look for an **Arduino Opta** or **Portenta H7 MCUboot** container.
 1. Click to expand the container:
 
-![Arduino Opta ports in Device Manager.](img/device-manager.png)
+   ![Arduino Opta ports in Device Manager.](img/device-manager.png)
 
 1. Look for **USB Serial Device** items, and note the port names.
 
