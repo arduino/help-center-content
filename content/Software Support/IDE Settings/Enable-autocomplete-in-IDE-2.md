@@ -3,9 +3,11 @@ title: "Enable autocomplete in IDE 2"
 id: 4406711538450
 ---
 
-Arduino IDE 2 introduces an *Editor Quick Suggestions* feature for writing your code. Follow these steps to enable the feature.
+Arduino IDE 2 introduces *Editor Quick Suggestions*. When it is enabled, Arduino IDE will provide suggestions to automatically complete code as you type. Editor Quick Suggestions is sometimes referred to as "autocomplete".
 
-1. Open the IDE.
+Follow these steps to enable Editor Quick Suggestions:
+
+1. Open Arduino IDE.
 
 2. Open the Preferences window from the menu bar:
 
@@ -21,6 +23,6 @@ Arduino IDE 2 introduces an *Editor Quick Suggestions* feature for writing your 
 
 4. Click OK to save.
 
-the Editor Quick Suggestions is now enabled:
+Editor Quick Suggestions feature is now enabled:
 
 ![Testing Autocomplete](img/AutoComplete-example.png)
