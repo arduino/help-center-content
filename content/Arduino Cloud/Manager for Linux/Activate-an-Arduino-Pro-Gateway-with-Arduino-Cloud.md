@@ -5,7 +5,7 @@ id: 4407770369042
 
 ## Activate a gateway
 
-1. Open the [Arduino Pro Gateway Setup](https://create.arduino.cc/getting-started/loragw).
+1. Open the [Arduino Pro Gateway Setup](https://create.arduino.cc/getting-started/loragw/welcome).
 2. Name your device.
 3. Enter the **device code** (serial number). You'll find the code labeled **S/N** on top of the gateway.
 4. Click the **ACTIVATE** button (you may have to scroll down).

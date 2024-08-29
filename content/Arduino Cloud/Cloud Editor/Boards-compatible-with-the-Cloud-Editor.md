@@ -14,7 +14,8 @@ Find boards that can be used with the Cloud Editor on your system:
 
 ## Cloud Editor on Chromebook
 
-To use the Cloud Editor on Chromebook, you need to install the <a class="link-up-right" href="https://play.google.com/store/apps/details?id=cc.arduino.create_editor">Arduino Cloud for Chromebook</a> app.
+<!-- Arduino Cloud for Chromebook app is currently not available  -->
+<!--  To use the Cloud Editor on Chromebook, you need to install the <a class="link-up-right" href="https://play.google.com/store/apps/details?id=cc.arduino.create_editor">Arduino Cloud for Chromebook</a> app.-->
 
 These boards are supported:
 
@@ -34,7 +35,7 @@ These boards are supported:
 
 ## Cloud Editor on Windows, macOS, and Linux
 
-To use the Cloud Editor on Windows, macOS, and Linux, you need to install the <a class="link-up-right" href="https://create.arduino.cc/getting-started/plugin">Arduino Create Agent</a>.
+To use the Cloud Editor on Windows, macOS, and Linux, you need to install the <a class="link-up-right" href="https://create.arduino.cc/getting-started/plugin/welcome">Arduino Create Agent</a>.
 
 These boards are supported:
 

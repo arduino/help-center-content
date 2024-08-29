@@ -14,7 +14,7 @@ Learn about network coverage for the Arduino SIM service.
 
 Follow these steps to check if Arduino SIM has coverage in your country:
 
-1. Open [Pelion's global coverage map](https://pelion.com/pricing-and-coverage/coverage-map/).
+1. Open [Pelion's global coverage map](https://pelion.com/coverage/).
 
 2. Scroll down and review the **2G, 3G, 4G, and LPWAN Coverage Map**.
 

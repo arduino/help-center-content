@@ -6,7 +6,7 @@ id: 9393241841308
 <div class="actions-wrapper">
   <div class="actions-item">
     <img src="https://content.arduino.cc/assets/hc-code.svg">
-    <a id="keep" href="https://docs.arduino.cc/arduino-cloud/guides/cloud-editor"></a>
+    <a id="keep" href="https://docs.arduino.cc/arduino-cloud/guides/editor/"></a>
     <span class="link-up-right">Get started with Cloud Editor</span>
   </div>
   <div class="actions-item">

@@ -6,6 +6,7 @@ https://support.arduino.cc/hc/*
 
 # Returns 404 for some reason
 https://create.arduino.cc/iot/*
+https://create.arduino.cc/editor/*
 https://cloud.arduino.cc/home/resources
 https://cloud.arduino.cc/plans
 https://app.arduino.cc/resources
@@ -16,6 +17,9 @@ https://app.arduino.cc/templates
 https://app.arduino.cc/registration
 https://app.arduino.cc/space
 https://app.arduino.cc/plan-usage
+https://app.arduino.cc/sketches
+https://create.arduino.cc/getting-started/loragw/welcome
+https://create.arduino.cc/example/builtin/01.Basics%5CBareMinimum/BareMinimum/preview*
 
 # "Network error: Forbidden" despite working redirect
 https://www.arduino.cc/en/Guide/Troubleshooting
@@ -23,9 +27,20 @@ https://www.aftership.com/
 
 # Returns 403 (but is accessible in browser)
 https://www.digikey.se/product-detail/en/jst-sales-america-inc/PHR-2/455-1165-ND/608607
+https://www.java.com/en/download/manual.jsp
+https://www.amazon.com/gp/help/customer/display.html*
 
 # Returns [TIMEOUT]
 
 https://www.st.com/resource/en/datasheet/lsm9ds1.pdf
 https://www.st.com/en/development-tools/stlink-v3set.html
 https://www.st.com/en/development-tools/stm32cubeprog.html
+https://www.ups.com/it/en/support/shipping-support/shipping-services.page
+https://www.ups.com/it/en/support/contact-us.page
+https://www.dhl.com/us-en/home/customer-service.html
+https://www.dhl.com/us-en/home/ecommerce/shipping-services/international-shipping-services.html
+https://www.tindie.com/products/ataradov/cmsis-dap-compliant-swd-debugger/
+
+# Too many redirects
+
+https://shopify.com/43847352471/account/orders

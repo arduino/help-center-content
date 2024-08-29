@@ -9,7 +9,7 @@ These tools could also help you create a collaborative environment to write your
 
 ## 1. OpenProcessing
 
-[www.openprocessing.org](www.openprocessing.org/)
+[www.openprocessing.org](https://openprocessing.org/)
 
 OpenProcessing is an open gallery for your projects, just create an account and you can upload and execute your Processing sketches in the browser.
 
@@ -17,7 +17,7 @@ This website has the option to render your sketch using [p5js](https://p5js.org/
 
 ## 2. SketchPad
 
-[sketchpad.cc](sketchpad.cc/)
+[sketchpad.cc](https://sketchpad.cc/)
 
 SketchPad will help you create a collaborative environment to write code between multiple users by just sharing the URL of the project. It also allows to share code and embed it in websites.
 

@@ -210,7 +210,7 @@ All orders addressed to America, Asia and Oceania are shipped from Arduino's US 
     <th style="width:auto;text-align:center">Contact</th>
   </tr>
   <tr>
-    <td><a href="https://www.dhl.com/us-en/home/ecommerce-solutions/shipping-services.html">DHL Parcel International Standard</a></td>
+    <td><a href="https://www.dhl.com/us-en/home/ecommerce/shipping-services/international-shipping-services.html">DHL Parcel International Standard</a></td>
     <td>
       <li>Difficult to track packages</li>
       <li>Final delivery done by the local post</li>
