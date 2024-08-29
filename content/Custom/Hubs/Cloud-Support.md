@@ -29,13 +29,13 @@ id: 9347128757660
 <div class="info-wrapper">
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-create-agent.svg">
-    <p class="info-title">Arduino Create Agent</p>
+    <p class="info-title">Arduino Cloud Agent</p>
     <p>
       To use Arduino Cloud on regular systems (Windows, macOS, and Linux),
-      you need the Arduino Create Agent to connect your physical boards/devices
+      you need Arduino Cloud Agent to connect your physical boards/devices
       to the Cloud.
     </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Create-Agent">Install Arduino Create Agent</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Create-Agent">Install Arduino Cloud Agent</a>
   </div>
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-laptop.svg">
@@ -73,6 +73,7 @@ id: 9347128757660
       Cloud.
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360019355679-If-your-device-is-not-connecting-to-IoT-Cloud">If your device can't connect to Arduino Cloud</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/14794496872732-If-your-Arduino-device-can-t-connect-to-a-Wi-Fi-network"> If your Arduino device can’t connect to a Wi-Fi network</a>
   </div>
 </div>
 <h2 id="h_01HCZCGDKQM2KKSQZMQ9QSFVBT" class="center hub">Cloud features</h2>
@@ -81,8 +82,8 @@ id: 9347128757660
     <img src="https://content.arduino.cc/assets/hc-dashboard.svg">
     <p class="info-title">Dashboards &amp; Widgets</p>
     <p>
-      Use Dashboards in Arduino Cloud to easily monitor and control
-      your Arduino board from a web interface.
+      Use Dashboards in Arduino Cloud to easily monitor and control your Arduino
+      board from a web interface.
     </p>
     <a class="link-chevron-right" href="https://docs.arduino.cc/arduino-cloud/getting-started/dashboard-widgets">Learn about dashboards and the different widgets that can be used to monitor and control your board</a>
   </div>
@@ -96,6 +97,15 @@ id: 9347128757660
     </p>
     <a class="link-chevron-right" href="https://docs.arduino.cc/arduino-cloud/cloud-interface/triggers">Learn how to use Triggers</a>
   </div>
+  <div class="info-item">
+    <img src="https://content.arduino.cc/assets/Template_Cloud.svg">
+    <p class="info-title">Templates</p>
+    <p>
+      Templates are pre-configured projects that allow you to quickly set up
+      Arduino devices for the Arduino Cloud.
+    </p>
+    <a class="link-chevron-right" href="https://docs.arduino.cc/arduino-cloud/features/templates/">Learn more about Templates</a>
+  </div>
 </div>
 <h2 id="h_01HCZMQSVP53RTSDGTRWS3FGT1" class="center hub">Configuration</h2>
 <div class="info-wrapper">
@@ -103,6 +113,7 @@ id: 9347128757660
     <img src="https://content.arduino.cc/assets/hc-settings.svg">
     <p class="info-title">Configure a network for Arduino Cloud</p>
     <p>Learn more about network configuration in Arduino Cloud:</p>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/14144656051740-Supported-Wi-Fi-bands-for-Arduino-devices">Supported Wi-Fi bands for Arduino devices</a>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360017279260-Configure-your-network-for-Arduino-IoT-Cloud">Domains and ports to whitelist in your firewall</a>
   </div>
   <div class="info-item">
@@ -131,29 +142,6 @@ id: 9347128757660
     <img src="https://content.arduino.cc/assets/hc-cloud-iot.svg">
     <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/360021587259-Access-and-share-course-content"></a>
     <span class="link-chevron-right">Access and share course content</span>
-  </div>
-</div>
-<h2 id="h_01HCHRJQPXKWY3RWC5Z65DX8CJ" class="center hub">Arduino SIM card</h2>
-<div class="actions-wrapper">
-  <div class="actions-item">
-    <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/360021543440-How-to-activate-your-Arduino-SIM"></a>
-    <img src="https://content.arduino.cc/assets/hc-sim.svg">
-    <span class="link-chevron-right">Activate SIM Card</span>
-  </div>
-  <div class="actions-item">
-    <img src="https://content.arduino.cc/assets/hc-chart.svg">
-    <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/360016724060-How-to-check-the-data-usage-on-the-Arduino-Sim-card"></a>
-    <span class="link-chevron-right">Check data usage</span>
-  </div>
-  <div class="actions-item">
-    <img src="https://content.arduino.cc/assets/hc-GSM.svg">
-    <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/360016444999-Is-there-coverage-of-the-Arduino-SIM-card-in-my-country-"></a>
-    <span class="link-chevron-right">Check country data coverage</span>
-  </div>
-  <div class="actions-item">
-    <img src="https://content.arduino.cc/assets/hc-list.svg">
-    <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/360013825159-What-are-the-credentials-for-the-Arduino-SIM-card"></a>
-    <span class="link-chevron-right">SIM card credentials</span>
   </div>
 </div>
 <h2 id="h_01HCHRJQPXNPJR4C70CZ88DHJH" class="center hub">Search other topics</h2>
