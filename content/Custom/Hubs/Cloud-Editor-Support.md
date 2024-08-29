@@ -29,13 +29,13 @@ id: 9393241841308
 <div class="info-wrapper">
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-create-agent.svg">
-    <p class="info-title">Arduino Create Agent</p>
+    <p class="info-title">Arduino Cloud Agent</p>
     <p>
       To use Arduino Cloud on regular systems (Windows, macOS, and Linux),
-      you need the Arduino Create Agent to connect your physical boards/devices
+      you need the Arduino Cloud Agent to connect your physical boards/devices
       to the Cloud.
     </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Create-Agent">Install Arduino Create Agent</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Create-Agent">Install Arduino Cloud Agent</a>
   </div>
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-laptop.svg">
@@ -65,12 +65,12 @@ id: 9393241841308
     <p class="info-title">Problems using the editor</p>
     <p>
       As a first troubleshooting step when the Cloud Editor is not detecting
-      a board always make sure that the Arduino Create Agent is installed and
+      a board always make sure that the Arduino Cloud Agent is installed and
       running. Learn more about:
     </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360018131160-If-your-board-is-not-detected-by-Arduino-Web-Editor">If the board is not recognized</a>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016466600-If-the-Arduino-Create-Agent-isn-t-detected">If the Arduino Create Agent isn't detected</a>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/8825427680796-If-you-can-t-access-the-Web-Editor">If you can't access the Cloud Editor</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360018131160-If-your-board-is-not-detected-by-Arduino-Cloud-Editor">If the board is not recognized</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016466600-If-the-Arduino-Create-Agent-isn-t-detected">If the Arduino Cloud Agent isn't detected</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/8825427680796-If-you-can-t-access-the-Cloud-Editor">If you can't access the Cloud Editor</a>
   </div>
 </div>
 <h2 id="h_01HD21Q0JXNFAQB70C4BB6DTAZ" class="center hub">Resources</h2>
