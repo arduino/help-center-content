@@ -34,7 +34,8 @@ Follow these steps:
 
 ## Use addr2line to generate a stack trace
 
-> **Note:** `addr2line` is not available as a native Windows application, but can be run with <a class="link-external" href="https://learn.microsoft.com/en-us/windows/wsl/install">Windows Subsystem for Linux (WSL)</a>.
+> [!NOTE]
+> `addr2line` is not available as a native Windows application, but can be run with <a class="link-external" href="https://learn.microsoft.com/en-us/windows/wsl/install">Windows Subsystem for Linux (WSL)</a>.
 
 The `addr2line` utility is included in the **Arduino UNO R4 Boards** boards package. However, running it in this way requires modifying the command included in the output. For convenience, you may want to install `addr2line` on your system.
 
@@ -70,11 +71,12 @@ Install `addr2line` (optional):
 * **Linux:**
   1. Copy the command from the serial output.
   2. Paste the command into a text editor.
-  3. Replace the word `addr2line` with `.arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/arm-none-eabi-addr2line`.
+  3. Replace the word `addr2line` with `~/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/arm-none-eabi-addr2line`.
 
 ### 2. Running the addr2line command
 
-> **Note:** The sketch needs to have been compiled on the same computer you are running `addr2line` on.
+> [!NOTE]
+> The sketch needs to have been compiled on the same computer you are running `addr2line` on.
 
 * **Windows (WSL):**
   1. Open [Windows Powershell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.3).

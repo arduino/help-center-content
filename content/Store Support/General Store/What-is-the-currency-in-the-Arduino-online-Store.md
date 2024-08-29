@@ -3,11 +3,7 @@ title: "What is the currency in the Arduino online Store?"
 id: 360016120459
 ---
 
-The Arduino online store manages two different currencies depending on your location.
-
-First, check on which location you are by using the location icon at the top right corner and select the option accordingly, America/Asia/Oceania or Europe/Africa.
-
-![Store Location icon clicked](img/StoreLocationI.png)
+The Arduino online store manages two different currencies depending on your [selected location](https://support.arduino.cc/hc/en-us/articles/15529764047516).
 
 In case you have selected:
 

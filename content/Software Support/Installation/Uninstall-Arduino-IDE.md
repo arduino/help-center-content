@@ -10,8 +10,8 @@ Learn how to uninstall Arduino IDE.
 ## Uninstalling the application
 
 * **Windows:**
-  * In Windows 10: Open the start menu and find the Arduino application. Right-click on it and select **Uninstall**.
-  * Alternatively, open Explorer and run `C:\Program Files\Arduino IDE\Uninstall Arduino IDE.exe`. Or if you're using Arduino IDE 1.x, `C:\Program Files (x86)\Arduino\uninstall.exe`.
+  * In Windows 10/11: Open the start menu and find the Arduino application. Right-click on it and select **Uninstall**.
+  * Alternatively, [open the Arduino IDE installation folder in Explorer](https://support.arduino.cc/hc/en-us/articles/4412943340178-Open-the-Arduino-IDE-installation-folder#windows) and run the `Uninstall Arduino IDE.exe` (IDE 2) / `uninstall.exe` (IDE 1) executable.
 * **macOS:**
    1. Open Finder.
    2. Go to the `Applications` folder.
@@ -58,7 +58,7 @@ Default location:
 * **Windows:** `C:\Users\{username}\AppData\Local\Arduino15`. Open your Users folder in Explorer and look for a folder called `AppData`.
   * This folder is hidden by default. In newer versions of Windows, you can display hidden items by clicking the **View** tab, and checking _Hidden items_.
 * **macOS:** `/Users/{username}/Library/Arduino15`. Open Finder and navigate to the home folder `(/Users/{username})`. From the Finder menu bar, click on `View > Show View Options`, and tick _Show Library Folder_. The `Arduino15` folder can now be found in `{username}/Library`.
-* **Linux:** The folder is located in `home/{username}/.arduino15` and is hidden by default. To show it, click the hamburger button and check Show Hidden Files.
+* **Linux:** The folder is located in `/home/{username}/.arduino15` and is hidden by default. To show it, click the hamburger button and check Show Hidden Files.
 
 ### Configuration folder (.arduinoIDE)
 

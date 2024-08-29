@@ -9,7 +9,7 @@ When any or all of these buttons fail to respond appropriately to touch, the fol
 
 ## Open the Custom_Sensitivity sketch
 
-Calibration of the button sensitivity can be done in the Arduino IDE or in the [Arduino Web Editor](https://create.arduino.cc/editor).
+Calibration of the button sensitivity can be done in the Arduino IDE or in the [Arduino Cloud Editor](https://support.arduino.cc/hc/en-us/articles/13809101080732-Open-the-Cloud-Editor).
 
 ### Using the Arduino IDE
 
@@ -21,9 +21,9 @@ To calibrate the sensitivity of the capacitive buttons via the Arduino IDE, take
 
 3. Open *File > Examples > Arduino_MKRIoTCarrier > TouchPads > Custom_Sensitivity*.
 
-### Using the web editor
+### Using the Cloud Editor
 
-1. Open the Web editor
+1. Open the Cloud Editor
 
 2. Click on **Libraries** and search for "Arduino_MKRIoTCarrier" in the **Search Libraries** field.
 

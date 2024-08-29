@@ -10,7 +10,7 @@ Updating the firmware is required to use UNO R4 WiFi with Arduino Cloud, and can
 In this article:
 
 * [Use the Firmware Updater in Arduino IDE](#ide)
-* [Use IoT Cloud to update the firmware](#iot)
+* [Use Arduino Cloud to update the firmware](#iot)
 * [Use the updater script](#unor4wifi-updater)
 * [Run espflash directly](#espflash)
 
@@ -30,23 +30,24 @@ Follow these steps:
 
 3. In the top menu bar, open **Tools > Firmware Updater**.
 
-    ![Firmware Updater window displaying the board selection menu and the "check updates" button](img/firmware-updater-arduino-ide-2-select-a-board.png)
+   ![Firmware Updater window displaying the board selection menu and the "check updates" button](img/firmware-updater-arduino-ide-2-select-a-board.png)
 
 4. Select UNO R4 WiFi in the drop-down menu and click the **Check Updates** button.
 
-    ![Firmware Updater window displaying the board selection menu and the "check updates" button](img/firmware-updater-arduino-ide-2-check-updates.png)
+   ![Firmware Updater window displaying the board selection menu and the "check updates" button](img/firmware-updater-arduino-ide-2-check-updates.png)
 
-    > If your UNO R4 WiFi doesn't appear in the list, make sure it's securely connected with a working data USB cable, and try pressing the RST button on the board. If it still doesn't appear, it may be missing the USB bridge firmware. Follow the steps in [Run espflash directly](#run-espflash-directly) to resolve the issue.
+   > If your UNO R4 WiFi doesn't appear in the list, make sure it's securely connected with a working data USB cable, and try pressing the RST button on the board. If it still doesn't appear, it may be missing the USB bridge firmware. Follow the steps in [Run espflash directly](#espflash) to resolve the issue.
 
 5. Select the latest firmware version on the drop-down menu and click **Install**
 
-   > **Note:** Installation will overwrite any existing sketch on your board.
+   > [!NOTE]
+   > Installation will overwrite any existing sketch on your board.
 
     ![Firmware Updater window displaying selected firmware version and the "install" button](img/firmware-updater-arduino-ide-2-select-board-install.png)
 
 6. Wait until the text "Firmware successfully installed" is displayed.
 
-    !["Firmware successfully installed" message displaying on the Firmware Updater window](img/firmware-updater-arduino-ide-2-installation-successful.png)
+   !["Firmware successfully installed" message displaying on the Firmware Updater window](img/firmware-updater-arduino-ide-2-installation-successful.png)
 
 7. Disconnect and reconnect the UNO R4 WiFi board from your computer.
 
@@ -54,15 +55,15 @@ Follow these steps:
 
 8. Close the Firmware Updater by clicking the "x" in the top-right corner of the Firmware Updater window.
 
-    ![Closing the Firmware Updater window.](img/firmware-updater-arduino-ide-2-close.png)
+   ![Closing the Firmware Updater window.](img/firmware-updater-arduino-ide-2-close.png)
 
 ---
 
 <a id="iot"></a>
 
-## Use IoT Cloud to update the firmware
+## Use Arduino Cloud to update the firmware
 
-When you add a new device to IoT Cloud, the connectivity module firmware is automatically updated.
+When you add a new device to Arduino Cloud, the connectivity module firmware is automatically updated.
 
 <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/10501616961564-Update-connectivity-module-firmware-with-IoT-Cloud">Learn more</a>
 
@@ -83,7 +84,8 @@ The code repository for the firmware provides an [updater script](https://github
 1. Download <a class="link-download" href="https://github.com/arduino/uno-r4-wifi-usb-bridge/releases/latest/download/unor4wifi-update-windows.zip">unor4wifi-update-windows.zip</a>
 1. [Unzip](https://support.microsoft.com/windows/f6dde0a7-0fec-8294-e1d3-703ed85e7ebc) the downloaded file.
 1. Double-click on the `update.bat` file that is in the unzipped folder.
-   > **Note:** Depending on your Windows security settings, a **Windows protected your PC** dialog may open with this message:
+   > [!NOTE]
+   > Depending on your Windows security settings, a **Windows protected your PC** dialog may open with this message:
    >
    > _Microsoft Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk._
    >
@@ -280,8 +282,8 @@ Follow these steps:
    * **macOS:** Control-click on the unzipped `unor4wifi-update-macos` folder and select "**New Terminal at Folder**" from the context menu. A terminal window will open.
    * **Linux:** Open [a command line terminal](https://ubuntu.com/tutorials/command-line-for-beginners) in the extracted folder.
 1. Run the command:
-   * **Windows:** `bin\espflash write-bin -b 115200 0x0 firmware\UNOR4-WIFI-S3-0.3.0-rc1.bin`
-   * **macOS/Linux:** `./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-0.3.0-rc1.bin`
+   * **Windows:** `bin\espflash write-bin -b 115200 0x0 (Get-Item .\firmware\UNOR4-WIFI-S3-*.bin).FullName`
+   * **macOS/Linux:** `./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-*.bin`
 
 <!-- Instructions per OS
 
@@ -292,18 +294,18 @@ Follow these steps:
 1. Download <a class="link-download" href="https://github.com/arduino/uno-r4-wifi-usb-bridge/releases/latest/download/unor4wifi-update-windows.zip">unor4wifi-update-windows.zip</a>
 1. [Unzip](https://support.microsoft.com/windows/f6dde0a7-0fec-8294-e1d3-703ed85e7ebc) the downloaded file.
 1. Open the extracted `unor4wifi-update-windows` folder in Command Prompt.
-1. Run the following command: `bin\espflash write-bin -b 115200 0x0 firmware\UNOR4-WIFI-S3-0.3.0-rc1.bin`
+1. Run the following command: `bin\espflash write-bin -b 115200 0x0 (Get-Item .\firmware\UNOR4-WIFI-S3-*.bin).FullName`
 
 ### macOS
 
 1. Open the `unor4wifi-update-macos` in Terminal.
 
-2. Run the following command: `./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-0.3.0-rc1.bin`
+2. Run the following command: `./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-*.bin`
 
 Example output:
 
 ```
-sebastianwikstrom@mba unor4wifi-update-macos 4 % ./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-0.3.0-rc1.bin
+sebastianwikstrom@mba unor4wifi-update-macos 4 % ./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-*.bin
 
 [2023-10-12T12:34:07Z INFO ] Detected 6 serial ports
 [2023-10-12T12:34:07Z INFO ] Ports which match a known common dev board are highlighted
@@ -320,6 +322,6 @@ sebastianwikstrom@mba unor4wifi-update-macos 4 % ./bin/espflash write-bin -b 115
 
 1. Open the `unor4wifi-update-linux` in Terminal.
 
-2. Run the following command: `./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-0.3.0-rc1.bin`
+2. Run the following command: `./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-*.bin`
 
 -->

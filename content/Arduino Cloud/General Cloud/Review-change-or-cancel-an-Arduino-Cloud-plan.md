@@ -6,6 +6,7 @@ id: 4401881299090
 You can review, change or cancel your Arduino Cloud plan at any time:
 
 * [Review your current plans](#review)
+* [Understand which space each plan is associated to](#space-plan-association)
 * [Change payment method and billing info](#payment-and-billing)
 * [Modify a plan](#switch)
 * [Cancel a plan](#cancel)
@@ -21,9 +22,21 @@ You can review, change or cancel your Arduino Cloud plan at any time:
    * or clicking *![profile symbol](img/symbol_profile.png) > My Plans* from anywhere on the Arduino website (when signed in).
 2. Review your plans and the subscription period, payment method, and billing info for any paid plans.
 
-![Maker plan details](img/my-plans-subscription.png)
-
 If you are part of any Cloud spaces with School or Enterprise plans, they will also appear on this page.
+
+---
+
+<a id="space-plan-association"></a>
+
+## Understand where plan features are active
+
+Each plan is associated to one space in Arduino Cloud.
+
+On the [My plans](#review) page, you can what space the features for each plan is active in:
+
+* Individual plans (Entry, Maker, and Maker Plus) increase the limits of your **Private Space**.
+* Enterprise plans increase the limits of the shared space displayed below the text "Enterprise Plan".
+* School plans increase the limits of the shared space under "Plan details".
 
 ---
 
@@ -61,7 +74,7 @@ Payment or billing info for School and Enterprise plans can only be changed by t
 
 5. Click REVIEW PAYMENT INFORMATION to continue.
 
-> **Note:**
+> [!NOTE]
 >
 > * If the button is greyed out, the currently selected plan is already active with your account.
 > * The Entry plan is only available as a yearly option.
@@ -85,7 +98,8 @@ School and Enterprise plans can only be modified by the **subscription admin**.
 
 4. A confirmation message will be sent to the email address connected to your Arduino account.
 
-> **Note:** You will retain access to your paid features until the end of the billing cycle. See [Billing and feature changes when switching to a different Cloud plan](https://support.arduino.cc/hc/en-us/articles/4401874211730) for more information.
+> [!NOTE]
+> You will retain access to your paid features until the end of the billing cycle. See [Billing and feature changes when switching to a different Cloud plan](https://support.arduino.cc/hc/en-us/articles/4401874211730) for more information.
 
 School and Enterprise plans can only be canceled by the **subscription admin**.
 

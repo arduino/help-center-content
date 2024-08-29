@@ -12,7 +12,7 @@ if (ZENDESK_USER && ZENDESK_PASS) {
     console.log('Zendesk credentials not found.');
     zendeskApiLimit = 200;
 }
-console.log(`API requests per minute: ${zendeskApiLimit}\n`);
+console.log(`API requests per minute: ${zendeskApiLimit}`);
 
 const AlgoliaID = process.env.ALGOLIA_APPLICATION_ID;
 const AlgoliaSecret = process.env.ALGOLIA_INDEXER_KEY;
@@ -32,6 +32,8 @@ program
     .option('--cache-read [path]', 'read cached data', false)
     .option('--cache-save [path]', 'save cached data', false)
     .option('--html-save', 'save rendered HTML to disk', false)
+    .option('--skip-algolia', 'skip all Algolia actions', false)
+    .option('--html-diff', 'print rendered HTML diff', false)
     .option('-w, --wait <delay>', 'delay in seconds before fetching data')
     .option('-u, --syncIndex', 'check the entire search index for changes')
 program.parse();
@@ -43,8 +45,11 @@ const deployChanges = program.opts().deploy;
 const verbose = program.opts().verbose;
 const cacheRead = program.opts().cacheRead;
 const cacheSave = program.opts().cacheSave;
+const htmlSave = program.opts().htmlSave;
+const htmlDiff = program.opts().htmlDiff; // TODO
 const wait = program.opts().wait;
 const syncIndex = program.opts().syncIndex;
+var skipAlgolia = program.opts().skipAlgolia;
 
 // Set up Zendesk client
 import { createClient as createZendeskClient } from 'node-zendesk';
@@ -62,8 +67,23 @@ const client = createZendeskClient({
 
 // Algolia
 import algoliasearch from 'algoliasearch';
-const algoliaIndex = algoliasearch(AlgoliaID, AlgoliaSecret)
-    .initIndex(AlgoliaIndexName);
+let algoliaIndex;
+if (!skipAlgolia) {
+    algoliaIndex = algoliasearch(AlgoliaID, AlgoliaSecret)
+        .initIndex(AlgoliaIndexName);
+    try {
+        var algoliaExists = await algoliaIndex.exists();
+        if (algoliaExists) {
+            console.log('Algolia index exists.');
+        }
+    } catch (error) {
+        console.log('Algolia index does not exist, and will not be updated!');
+        skipAlgolia = true;
+    }
+}
+
+// Empty line
+console.log();
 
 // HTML
 import * as htmlparser2 from "htmlparser2";
@@ -73,8 +93,11 @@ import { convert } from 'html-to-text';
 
 // Markdown
 import hljs from 'highlight.js'; // https://highlightjs.org/
-import markdownItFootnotes from 'markdown-it-footnote';
 import MarkdownIt from 'markdown-it';
+import markdownItFootnotes from 'markdown-it-footnote';
+import markdownItAnchor from 'markdown-it-anchor';
+import markdownItAttrs from 'markdown-it-attrs';
+import markdownItGitHubAlerts from 'markdown-it-github-alerts';
 const md = new MarkdownIt({
         html: true,
         smartquotes: true,
@@ -91,6 +114,23 @@ const md = new MarkdownIt({
             return ''; // use external default escaping
         }
     })
+    .use(markdownItGitHubAlerts, {
+        classPrefix: 'callout',
+        icons: {
+            note: '<span class="callout-icon callout-icon-note"></span>',
+            tip: '<span class="callout-icon callout-icon-tip"></span>',
+            important: '<span class="callout-icon callout-icon-important"></span>',
+            warning: '<span class="callout-icon callout-icon-warning"></span>',
+            caution: '<span class="callout-icon callout-icon-caution"></span>'
+        }
+    })
+    .use(markdownItAnchor, {
+        tabIndex: false
+    })
+    .use(markdownItAttrs, {
+        allowedAttributes: ['id', 'class'],
+        slugify: uslug
+    })
     .use(markdownItFootnotes);
 import fm from 'front-matter';
 
@@ -105,6 +145,8 @@ import fs from 'fs';
 const fsPromises = fs.promises;
 import fetch from 'node-fetch';
 import FormData from 'form-data';
+import uslug from 'uslug';
+import diff from 'fast-diff';
 
 /* Run main function */
 main();
@@ -193,16 +235,10 @@ async function main() {
             throw error;
         }
 
-        /*
-        console.log(clc.underline(`\nWaiting for 60 second(s)...`));
-        await delay(60 * 1000);
-        console.log('Done.\n');
-        */
-
         console.log(clc.underline('\nFetching article attachments...'));
         try {
             await Promise.all([
-                exTime(getAllAttachmentsSync(localArticles)).then(result => {
+                exTime(getAllAttachmentsSync(zendeskArticles)).then(result => {
                     console.log(`Fetched ${result.data.length} article attachment lists in ${result.exTime} ms.`);
                     return result.data;
                 })
@@ -565,7 +601,7 @@ async function deploy(zendeskSections, articles) {
         }
 
         // Update Algolia
-        if (translationUpdates || articleUpdates) {
+        if ((translationUpdates || articleUpdates) && !skipAlgolia) {
             var sectionName = zendeskSections.find(s => s.id == a.zd.section_id).name;
             var contentClearText = convert(a.zd.body, {
                 selectors: [
@@ -596,7 +632,9 @@ async function deploy(zendeskSections, articles) {
                 }).wait();
             } catch (error) {
                 console.error("Couldn't save object in Algolia");
-                console.error(error);
+                if (verbose) {
+                    console.error(error);
+                }
             }
         }
     }));
@@ -627,7 +665,9 @@ async function deploy(zendeskSections, articles) {
         } catch (error) {
             console.error(`[${error.statusCode}] Archiving article "${article.zd.title}" (${article.zd.html_url})`);
         }
-        await algoliaIndex.deleteObject(article.zd.url);
+        if (!skipAlgolia) {
+            await algoliaIndex.deleteObject(article.zd.url);
+        }
     }
 }
 
@@ -658,7 +698,17 @@ function hasChanges(article) {
     }
 
     // Render body and compare
-    if (!compareHTML(makeHTML(article.md.body, attachmentReplacements, true), article.zd.body)) {
+    let localHTML = makeHTML(article.md.body, attachmentReplacements, true);
+    let zdHTML = article.zd.body;
+    if (htmlSave) {
+        let htmlFilePath = article.md.filepath.concat('.html')
+        fs.writeFileSync(root + '/' + htmlFilePath, localHTML, function (err) {
+            if (err) {
+                return console.log(err);
+            }
+        });
+    }
+    if (!compareHTML(localHTML, zdHTML)) {
         return true;
     }
 
@@ -720,7 +770,7 @@ function getAttachmentReplacements(article) {
             if (zdAttachment) { // Match found
                 attachmentReplacements.push({
                     "src": src,
-                    "target": zdAttachment.content_url
+                    "target": zdAttachment.content_url // .replace('/' + zdAttachment.file_name, '')
                 });
                 // Remove processed
                 zdAttachment.used = true;
@@ -904,17 +954,25 @@ function getAllAttachments(localArticles) {
     return Promise.all(attachment_promises);
 }
 
-async function getAllAttachmentsSync(localArticles) {
+async function getAllAttachmentsSync(zendeskArticles) {
     var attachmentLists = [];
-    for (const localArticle of localArticles) {
-        const id = localArticle.attributes.id;
-        const draft = localArticle.attributes.draft; // Will fail for drafts unless authenticated
+    for (const zendeskArticle of zendeskArticles) {
+        const id = zendeskArticle.id;
+        const draft = zendeskArticle.draft; // Will fail for drafts unless authenticated
         if (id) {
+            if (verbose) {
+                console.log('Fetching attachments for article ' + id);
+            }
             var result = await client.articleattachments.list(id);
-            attachmentLists.push({
-                "article_id": id,
-                "attachments": result.article_attachments
-            })
+            if (!result.article_attachments) {
+                console.log(`Warning: No article attachment array for article with ID ${id}`);
+                console.log(result);
+            } else {
+                attachmentLists.push({
+                    "article_id": id,
+                    "attachments": result.article_attachments
+                })
+            }
         }
     }
     return attachmentLists;
@@ -1055,4 +1113,24 @@ async function deleteOrphanedSearchObjects(articles) {
         o => o.objectID);
     const deleteResult = await algoliaIndex.deleteObjects(removeTheseObjectIDs)
     console.log(`Deleted ${deleteResult.objectIDs.length} objects.`);
+}
+
+function printHtmlDiff(oldHtml, newHtml) {
+    let htmlDiff = diff(oldHtml, newHtml);
+    for (var s of htmlDiff) {
+        switch (s[0]) {
+            case diff.EQUAL:
+              console.log(s[1]);
+              break;
+            case diff.INSERT:
+                console.log(clc.bgGreen(s[1]))
+                break;
+            case diff.DELETE:
+              console.log(clc.bgRed(s[1]));
+              break;
+            default:
+              throw new Error("This shouldn't happen");
+          }
+          
+    }
 }

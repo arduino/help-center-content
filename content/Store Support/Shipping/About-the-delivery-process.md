@@ -11,7 +11,7 @@ Learn more about the delivery process:
 * <a href="#track-an-order">Track an order</a>.
 * <a href="#possible-fees">Possible additional fees charged by the carrier</a>.
 * <a href="#cancel-or-modify-an-order">Cancel or modify an order</a>.
-* <a href="#if-a-parcel-did-not-arrive">If a parcel did not arrive</a>.
+* <a href="#if-you-havent-received-your-delivery">If you haven't received your delivery</a>.
 
 ---
 
@@ -44,20 +44,7 @@ All orders addressed to Americas, Asia and Oceania are shipped from Arduino's US
 
 ## Track an order
 
-1. Find the **"Order XXXXXX confirmed"** email sent to the email address provided for your order.
-2. Open the email and click **View your order**.
-
-   ![Order overview](img/order-overview_0.5.png)
-
-3. Track your order:
-
-   * Check the overview for key information (availability may vary depending on carrier).
-   * Find the **tracking number**. For most orders, clicking on it will show the shipment on the carrier's own tracking page. If not, look for the carrier's tracking page and search for the number there, or use a general tracking service:
-
-     * [https://www.trackingmore.com/](https://www.trackingmore.com/)
-     * [https://www.aftership.com/](https://www.aftership.com/)
-     * [https://www.track-trace.com/](https://www.track-trace.com/)
-     * [https://www.17track.net/](https://www.17track.net/)
+[Track your order](https://support.arduino.cc/hc/en-us/articles/13756849779228-Track-an-order){.link-chevron-right}
 
 <a id="deliveries-by-the-local-post"></a>
 
@@ -100,18 +87,11 @@ If you want to return your order and receive a refund you can reject to receive 
 
 ---
 
-<a id="if-a-parcel-did-not-arrive"></a>
+<a id="if-you-havent-received-your-delivery"></a>
 
-## If a parcel did not arrive
+## If you haven't received your delivery
 
-In some rare cases, an order might not be delivered to the customer even if it appears as delivered when tracking the parcel. This mostly happens when using shipping methods that don't have proof of delivery.
-
-If the parcel did not arrive, please check the following before contacting [Arduino's customer support](https://www.arduino.cc/en/contact-us/):
-
-* Check if other people living in the same delivery address or a neighbor have picked up the parcel.
-* Check around the entrance(s) of your residence, particularly on back porches, bushes, garages, grills, or other places that might protect your package from theft or weather.
-
-> Note that carriers may also use plastic bags to protect your package from the weather.
+[If you haven't received your delivery](https://support.arduino.cc/hc/en-us/articles/14085643116700-If-you-haven-t-received-your-delivery){.link-chevron-right}
 
 ---
 

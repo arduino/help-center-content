@@ -5,7 +5,8 @@ id: 360021571500
 
 Learn about the power supply requirements for the Arduino Edge Control.
 
-> **Note:** Operating the board without a CR2032 battery can cause unexpected behavior with the RESET button and damage the board.
+> [!NOTE]
+> Operating the board without a CR2032 battery can cause unexpected behavior with the RESET button and damage the board.
 
 ## Upload and run sketches
 

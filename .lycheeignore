@@ -6,9 +6,16 @@ https://support.arduino.cc/hc/*
 
 # Returns 404 for some reason
 https://create.arduino.cc/iot/*
-https://cloud.arduino.cc/home/registration
 https://cloud.arduino.cc/home/resources
 https://cloud.arduino.cc/plans
+https://app.arduino.cc/resources
+https://app.arduino.cc/devices
+https://app.arduino.cc/things
+https://app.arduino.cc/dashboards
+https://app.arduino.cc/templates
+https://app.arduino.cc/registration
+https://app.arduino.cc/space
+https://app.arduino.cc/plan-usage
 
 # "Network error: Forbidden" despite working redirect
 https://www.arduino.cc/en/Guide/Troubleshooting
@@ -16,3 +23,9 @@ https://www.aftership.com/
 
 # Returns 403 (but is accessible in browser)
 https://www.digikey.se/product-detail/en/jst-sales-america-inc/PHR-2/455-1165-ND/608607
+
+# Returns [TIMEOUT]
+
+https://www.st.com/resource/en/datasheet/lsm9ds1.pdf
+https://www.st.com/en/development-tools/stlink-v3set.html
+https://www.st.com/en/development-tools/stm32cubeprog.html

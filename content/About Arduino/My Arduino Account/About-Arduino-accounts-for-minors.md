@@ -14,6 +14,8 @@ They differ in the features that users can access and the way that Arduino handl
 
 ## Junior accounts
 
+> **Note:** The Web Editor is not currently supported for junior accounts.
+
 This type of account is intended for minors under the age of 14. Arduino does not process any [personal data](https://www.arduino.cc/en/privacy-policy/children-privacy-policy) that would allow users to be identified as a child under the age of 14.
 
 In order to [create a Junior Account](https://support.arduino.cc/hc/en-us/articles/360022234360-Create-an-Arduino-account-for-juniors#junior-request), the user is asked to choose a username and a picture (an Avatar) from a set of predetermined options, to enter a password of their choice, and to provide their date of birth.

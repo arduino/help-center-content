@@ -7,7 +7,7 @@ Learn how to open the Arduino IDE installation folder on your system.
 
 **Standard installations:**
 
-* [Windows](#windows-desktop)
+* [Windows](#windows)
 * [macOS](#macos)
 * [Linux](#linux)
 
@@ -17,9 +17,7 @@ Learn how to open the Arduino IDE installation folder on your system.
 
 ---
 
-<a id="windows"></a>
-
-## Windows
+## Windows {#windows}
 
 Depending on whether "All users" or "Only me" was selected during installation, these are the default installation paths:
 
@@ -58,9 +56,7 @@ If you're able to find Arduino IDE in the Task Bar, you can use this method:
 
 ---
 
-<a id="macos"></a>
-
-## macOS
+## macOS {#macos}
 
 The application files are packaged in an application bundle file named `Arduino IDE.app`, which is located inside the Applications folder (`/Applications`) by default.
 
@@ -83,9 +79,7 @@ The executable is located at `Arduino IDE.app/Contents/MacOS/Arduino IDE`.
 
 ---
 
-<a id="linux"></a>
-
-## Linux
+## Linux {#linux}
 
 ### AppImage
 
@@ -111,9 +105,7 @@ If `arduino` is available as a command in Terminal, you can use the `whereis` co
 
 ---
 
-<a id="windows-ms-store"></a>
-
-## Windows (Microsoft Store)
+## Windows (Microsoft Store) {#windows-ms-store}
 
 Arduino IDE is available as a Windows App in the Microsoft Store. It is installed to `C:\Program Files\WindowsApps` by default, with a folder name like `ArduinoLLC.ArduinoIDE_<VERSION>`, with a version number instead of "\<VERSION\>".
 

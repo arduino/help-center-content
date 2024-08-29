@@ -3,13 +3,18 @@ title: "Register an Arduino Education Kit"
 id: 4407393580818
 ---
 
-Learn how to activate your kit and access the online learning content for your Arduino Education kit.
+ Most Arduino Education kits do not require registration, and all online learning content can be found by visiting [courses.arduino.cc](https://www.arduino.cc/education/courses/). However, some kits require registration for full access to their courses. See [which kits must be registered](https://support.arduino.cc/hc/en-us/articles/4402999992850-Where-is-the-activation-code-for-my-kit#kits).
 
----
+ Follow the steps below to register your Arduino Education kit.
 
-1. Go to [cloud.arduino.cc/registration](https://cloud.arduino.cc/home/registration)[^1].
+## Register a kit
 
-   [^1]: You can also access this page anywhere on arduino.cc by selecting _![Arduino account symbol.](img/symbol_profile.png) > My Courses_ and clicking the **"Register Kit"** button.
+> [!WARNING]
+> To share access to the kit, it must be added to a shared space.
+>
+> If you need to transfer it after it's been added to a space, please [contact us](https://www.arduino.cc/en/contact-us/).
+
+1. Go to [app.arduino.cc/registration](https://app.arduino.cc/registration).
 
 2. Choose whether to add the kit to your private space, or add it to a shared space.
 
@@ -25,9 +30,7 @@ Learn how to activate your kit and access the online learning content for your A
 
 Your kit will be added to the space.
 
----
-
 ## Troubleshooting
 
-* [Find the activation code for your kit](https://support.arduino.cc/hc/en-us/articles/4402999992850-Where-is-the-activation-code-for-my-kit-)
-* [If the kit activation code does not work](https://support.arduino.cc/hc/en-us/articles/360017549580-If-the-kit-activation-code-does-not-work)
+* [Find the activation code for your kit](https://support.arduino.cc/hc/en-us/articles/4402999992850-Where-is-the-activation-code-for-my-kit-).
+* [If the kit activation code does not work](https://support.arduino.cc/hc/en-us/articles/360017549580-If-the-kit-activation-code-does-not-work).

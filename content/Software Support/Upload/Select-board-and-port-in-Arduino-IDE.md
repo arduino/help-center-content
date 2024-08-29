@@ -23,7 +23,8 @@ Port and board selection can be managed in two ways:
 
 ## Using the board selector
 
-> **Note:** The board selector is only available in IDE 2.
+> [!NOTE]
+> The board selector is only available in IDE 2.
 
 Follow these steps to use a connected board:
 
@@ -120,7 +121,8 @@ Follow these steps:
 
 ### Select port with Tools > Port
 
-> **Note:** In IDE 2, the _Tools > Port_ option will not display if Arduino IDE doesn't detect any ports[^1].
+> [!NOTE]
+> In IDE 2, the _Tools > Port_ option will not display if Arduino IDE doesn't detect any ports[^1].
 
 [^1]: [Issue #655](https://github.com/arduino/arduino-ide/issues/655)
 

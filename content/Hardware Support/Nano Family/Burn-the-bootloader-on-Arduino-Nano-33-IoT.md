@@ -3,7 +3,8 @@ title: Burn the bootloader on Arduino Nano 33 IoT
 id: 8991429732124
 ---
 
-> **Note:** The methods described here are intended for advanced users and require specialized equipment.
+> [!NOTE]
+> The methods described here are intended for advanced users and require specialized equipment.
 
 Learn about the ways to burn the bootloader on the Arduino Nano 33 IoT.
 
@@ -19,7 +20,8 @@ In this article:
 
 ## Connecting to the test points on the Nano 33 IoT
 
-> **Note:** Improper soldering can void the warranty. [Contact us](https://www.arduino.cc/en/contact-us/) before soldering if your board is under warranty.
+> [!NOTE]
+> Improper soldering can void the warranty. [Contact us](https://www.arduino.cc/en/contact-us/) before soldering if your board is under warranty.
 
 To burn the bootloader on Arduino Nano 33 IoT, we need to use the **SWD (Serial Wire Debug)** interface. On the Nano 33 IoT, the two main pins for this interface (SWDIO/SWCLK) is available via test points on the bottom of the board, near the Arduino logo:
 

@@ -15,6 +15,8 @@ The RESET button is a white or blue push button located on top of your Arduino b
 
 ---
 
+<a id="bootloader-mode"></a>
+
 ## Bootloader mode (double-press)
 
 On some boards (such as those of the MKR Family and newer Nano boards), pressing the RESET button twice in quick succession will put the board in _bootloader mode_. Instead of running a sketch the Arduino will wait until a sketch is uploaded. While in bootloader mode, an orange LED will fade in and out.

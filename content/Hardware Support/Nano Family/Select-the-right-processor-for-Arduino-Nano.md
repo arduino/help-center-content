@@ -3,7 +3,7 @@ title: "Select the right processor for Arduino Nano"
 id: 4401874304274
 ---
 
-When [Arduino Nano](https://docs.arduino.cc/hardware/nano) is selected in Arduino IDE or the Arduino Web Editor, you will have an additional option to specify the processor on the board. You may need to change this setting if you're using an older Arduino Nano or a third-party Nano board.
+When [Arduino Nano](https://docs.arduino.cc/hardware/nano) is selected in Arduino IDE or the Arduino Cloud Editor, you will have an additional option to specify the processor on the board. You may need to change this setting if you're using an older Arduino Nano or a third-party Nano board.
 
 ---
 
@@ -35,7 +35,7 @@ If you don't know which bootloader or processor is on your board, you can test t
 
 ---
 
-## Select processor in the Web Editor
+## Select processor in the Cloud Editor
 
 1. Click the "board & port" selection menu.
 

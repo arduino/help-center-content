@@ -1,36 +1,31 @@
 ---
-title: If you're having trouble connecting a device to PLC IDE
+title: "If you're having trouble connecting a device to PLC IDE"
 id: 8824551178780
 ---
 
 ## Check this first
 
-* If you haven't done so, start by checking the [Arduino PLC IDE Setup and Board's License Activation](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#instructions) tutorial.
-* Make sure you've installed the **Arduino PLC IDE Tools** package, in addition to the main PLC application.
-* Make sure you're using a working USB cable that supports data transfer.
-* When downloading the runtime, or connecting to the device, make sure you're [targeting the correct port](#about-ports).
-* When opening a project created with an earlier version of the PLC IDE, some issues may occur. Try creating a new project (**File > New Project**) to see if this resolve the issue.
-* You need **valid license** to download code to the device:
-  * Licenses for Portenta Machine Control are [available in the store](https://store.arduino.cc/products/plc-key-portenta-machine-control). Instructions for license activation [are available here](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#6-license-activation-with-product-key-portenta-machine-control).
-  * Arduino Opta is a pre-licensed product, just follow the [activation instructions](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#7-license-activation-with-pre-licensed-products-opta).
+- If you haven't done so, start by checking the [Arduino PLC IDE Setup and Board's License Activation](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#instructions) tutorial.
+
+- Ensure you've installed the latest version of the **Arduino PLC IDE** software.
+
+- Ensure you use a USB cable that supports data transfer.
+
+- When downloading the runtime, or connecting to the device, ensure you're [targeting the correct port](#about-ports).
+
+- When opening a project created with an earlier version of the PLC IDE, some issues may occur. Try creating a new project (**File > New Project**) to see if this resolves the issue.
+
+- You need **valid license** to download the code to the device:
+
+  - Licenses for Portenta Machine Control are [available in the store](https://store.arduino.cc/products/plc-key-portenta-machine-control). Instructions for license activation [are available here](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#6-license-activation-with-product-key-portenta-machine-control).
+
+  - Arduino Opta is a pre-licensed product, just follow the [activation instructions](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#7-license-activation-with-pre-licensed-products-opta).
 
 ---
-
-<a id="about-ports"></a>
 
 ## About port selection
 
 It's important to understand which ports to target when configuring your PLC device connection.
-
-### List of ports
-
-#### Physical serial port (default)
-
-Initially, only this port will be available. Target this port when [downloading the runtime](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#4-download-the-runtime).
-
-#### Virtual serial port (created by runtime)
-
-When the runtime has been downloaded to your device, an additional (virtual) port will appear. Because the virtual port is created after the serial port, it will usually have a **higher port number**. Target this port when [configuring the Modbus communication](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#5-connect-to-the-device).
 
 ### How to identify which ports belong to your device
 
@@ -92,7 +87,9 @@ Follow these steps:
 
 ### If nothing happens when downloading the runtime sketch
 
-1. Ensure you've installed the **Arduino PLC IDE Tools** from the [Arduino Software page](https://www.arduino.cc/en/software#arduino-plc-ide).
+<!-- NOTE: Since missing PLC IDE Tools was the only known cause of this issue, it may no longer be relevant. -->
+
+1. Ensure you've installed the latest version of the **Arduino PLC IDE** software from the [Arduino Software page](https://www.arduino.cc/en/software#arduino-plc-ide).
 2. Restart PLC IDE.
 
 ### Error: "(DownloadSketch) Can not download sketch: COM port must be used!"
@@ -104,4 +101,5 @@ When downloading the runtime sketch, this error may appear in the console:
 ```
 
 It can occur if the wrong port is selected in the manual sketch download widget. If you're unsure which port to use, see [About ports in PLC IDE](#about-ports).
+
 <!-- markdownlint-disable-file HC001 -->

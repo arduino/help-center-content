@@ -3,7 +3,7 @@ title: "Build failed for project 'ArduinoIoTCloud-Basic' using an ESP8266"
 id: 4406565090706
 ---
 
-The Arduino IoT Cloud is not compatible with all never version of the ESP8266 boards core platform. The recommended version of the core platform for the Arduino IoT Cloud is core version **2.5.0**.
+Arduino Cloud is not compatible with all newer versions of the ESP8266 boards core platform. The recommended version of the core platform for the Arduino Cloud is core version **2.5.0**.
 
 For core versions **3.0.0** and above is selected for some newer ESP8266 boards, this compilation error can occur:
 

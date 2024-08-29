@@ -51,11 +51,12 @@ Full path: `/Users/{username}/Library/Arduino15`
 
 ## Linux
 
-The folder is located in `home/{username}/.arduino15` and is hidden by default. To show it, click the hamburger button and check _Show Hidden Files_. You may have to scroll down to see it since files with the `.` prefix may be listed after the others.
+The folder is located in `/home/{username}/.arduino15` and is hidden by default. To show it, click the hamburger button and check _Show Hidden Files_. You may have to scroll down to see it since files with the `.` prefix may be listed after the others.
 
 ![Enabling hidden files in the Files application on Ubuntu.](img/ubuntu-files-hidden.png)
 
-> **Note:** By default the folder is hidden; therefore, if you're unable to locate the Arduino15 folder please refer to the bottom of the page.
+> [!NOTE]
+> By default the folder is hidden; therefore, if you're unable to locate the .arduino15 folder please refer to the bottom of the page.
 
 ---
 

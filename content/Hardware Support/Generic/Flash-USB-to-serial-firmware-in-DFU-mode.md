@@ -51,7 +51,8 @@ Within the platform directory, the usb to serial firmware is found in `firmwares
    dfu-programmer atmega8u2 read
    ```
 
-   > **Note:** For older versions of dfu-programmer, replace `read` with `dump` for the commands above.
+   > [!NOTE]
+   > For older versions of dfu-programmer, replace `read` with `dump` for the commands above.
 
    One of these command should read the memory successfully, and print it to terminal or indicate if it's empty. Use the name from the successful command in the following steps.
 
