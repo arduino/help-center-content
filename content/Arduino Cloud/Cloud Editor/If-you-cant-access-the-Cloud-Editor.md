@@ -13,6 +13,6 @@ When accessing the [Cloud Editor](https://support.arduino.cc/hc/en-us/articles/1
 
 Check the following:
 
-* Use a supported account type. The Cloud Editor is currently not available when signed in with a [junior account](https://support.arduino.cc/hc/en-us/articles/4839080453148-About-Arduino-accounts-for-minors).
+* If you are using a [junior account](https://support.arduino.cc/hc/en-us/articles/4839080453148-About-Arduino-accounts-for-minors#Junior-accounts), use the [dedicated sign-in page](app.arduino.cc/minors). 
 * Ensure JavaScript is enabled in your browser.
 * Check the status tracker. To see if there are any ongoing incidents, go to [status.arduino.cc](https://status.arduino.cc/) and check **Arduino Cloud > Editor**.
