@@ -32,7 +32,7 @@ id: 9347128757660
     <p class="info-title">Arduino Cloud Agent</p>
     <p>
       To use Arduino Cloud on regular systems (Windows, macOS, and Linux),
-      you need Arduino Cloud Agent to connect your physical boards/devices
+      you need the Arduino Cloud Agent to connect your physical boards/devices
       to the Cloud.
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Create-Agent">Install Arduino Cloud Agent</a>
