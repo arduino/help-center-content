@@ -1,5 +1,5 @@
 ---
-title: "Check your Arduino Cloud version"
+title: "Check your Arduino Cloud Agent version"
 id: 4407002993426
 ---
 
