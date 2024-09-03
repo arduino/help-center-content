@@ -11,9 +11,9 @@ Learn how to uninstall the Arduino Cloud Agent from your computer.
 
 1. Open the `C:\Users\{username}\AppData\Roaming\ArduinoCloudAgent`.
 
-2. Double-click `uninstall.exe`.
+1. Double-click `uninstall.exe`.
 
-3. When the uninstallation is complete you can remove the folder and any remaining files.
+1. When the uninstallation is complete you can remove the folder and any remaining files.
 
 ---
 
@@ -21,16 +21,16 @@ Learn how to uninstall the Arduino Cloud Agent from your computer.
 
 1. Open the Applications folder.
 
-2. Remove `ArduinoCloudAgent.app`.
+1. Remove `ArduinoCloudAgent.app`.
 
-Older versions of the agent can be uninstalled by removing the following files or folders:
+   Older versions of the agent can be uninstalled by removing the following files or folders:
 
-* `/Applications/ArduinoCreateAgent.app`
-* `Users/{username}/Applications/ArduinoCreateAgent`
+   - `/Applications/ArduinoCreateAgent.app`
+   - `Users/{username}/Applications/ArduinoCreateAgent`
 
-3. Click **Yes** to confirm. If asked, allow **osascript** to make changes.
+1. Click **Yes** to confirm. If asked, allow **osascript** to make changes.
 
-4. When the uninstallation is complete you can remove the folder and any remaining files.
+1. When the uninstallation is complete you can remove the folder and any remaining files.
 
 ---
 
@@ -38,9 +38,9 @@ Older versions of the agent can be uninstalled by removing the following files o
 
 1. Open the `home/{username}/ArduinoCloudAgent`.
 
-2. Double-click on the `uninstall` file and follow the instructions.
+1. Double-click on the `uninstall` file and follow the instructions.
 
-3. When the uninstallation is complete you can remove the folder and any remaining files.
+1. When the uninstallation is complete you can remove the folder and any remaining files.
 
 ---
 
