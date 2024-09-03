@@ -41,7 +41,7 @@ The error can occur if an older installation is present. Follow these steps:
 
 2. Open the Applications folder (`~/Applications`) within your user folder.
 
-3. Manually remove the ArduinoCloudAgent folder, or run the `uninstall.app` inside it.
+3. Manually remove the ArduinoCreateAgent folder, or run the `uninstall.app` inside it.
 
 Try launching Arduino Cloud Agent again.
 

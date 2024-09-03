@@ -3,7 +3,7 @@ title: "Uninstall the Arduino Cloud Agent"
 id: 360014869840
 ---
 
-Use the included uninstaller to remove the Cloud Agent from your computer.
+Learn how to uninstall the Arduino Cloud Agent from your computer.
 
 ---
 
@@ -19,9 +19,14 @@ Use the included uninstaller to remove the Cloud Agent from your computer.
 
 ## macOS
 
-1. Open the `Users/{username}/Applications/ArduinoCloudAgent`.
+1. Open the Applications folder.
 
-2. Double-click `uninstall.app`.
+2. Remove `ArduinoCloudAgent.app`.
+
+Older versions of the agent can be uninstalled by removing the following files or folders:
+
+* `/Applications/ArduinoCreateAgent.app`
+* `Users/{username}/Applications/ArduinoCreateAgent`
 
 3. Click **Yes** to confirm. If asked, allow **osascript** to make changes.
 
