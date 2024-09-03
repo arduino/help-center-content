@@ -62,7 +62,7 @@ To get more information about the error, we need to check the console output. Se
 
    ![Scrolling right in the console panel to reveal more output.](img/ide-compilation-error-exit-status-1-2.png)
 
-   In this case, the error was caused by a missing `setup()` function.
+   In this case, the error was caused by a [missing `setup()` function](#required-functions).
 
 ---
 
