@@ -1,6 +1,6 @@
 ---
 title: Error on MKR CAN Shield silk
-id: 
+id: 15712165175068
 ---
 
 An issue has been identified with the silk (the printed text and markings) on some Arduino MKR CAN Shield boards, where the CANL and CANH pins are mislabeled on the bottom silk, causing the labels to be swapped. To avoid confusion:
