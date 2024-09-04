@@ -5,11 +5,21 @@ id: 4402764401554
 
 Learn about compilation errors in your sketch and how to resolve them.
 
+In this article:
+
+* [Quick checks](#quick-checks)
+* [How to interpret an error message](#how-to-interpret-an-error-message)
+* [Troubleshoot a specific error](#troubleshoot-a-specific-error)
+
 ---
+
+<a id="quick-checks"></a>
 
 ## Quick checks
 
 * Make sure your error occurs during compilation by clicking ![Verify button](img/symbol_verify2.png) **Verify** instead of ![Upload button](img/symbol_upload2.png) **Upload**. This will compile the sketch without attempting to upload it. If your error only occurs when uploading, see [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch).
+
+* Make sure you have the right board selected in the board selector or the _Tools > Board_ menu. See [Select board and port in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE) for more information.
 
 * A successful compilation will always finish with this message (the storage space and memory values might differ depending on the board used):
 
@@ -20,40 +30,43 @@ Learn about compilation errors in your sketch and how to resolve them.
 
 * A sketch always needs to include a `setup()` and `loop()` function, even if they're not being used. You can use _File > Examples > 1.Basics > BareMinimum_ as a template.
 
-* Libraries added with `#include` need to be installed. Try searching for the library name in the Library Manager (_Tools > Manage Libraries..._).
+* Libraries added with `#include` need to be installed. Learn how to [add libraries to Arduino IDE](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE).
 
 ---
 
-## Interpreting the error message
+<a id="interpret"></a>
 
-Arduino IDE displays compilation messages differently depending on the version:
+## How to interpret an error message
 
-1. Check the IDE error message.
-   * In IDE 1.x, it is displayed above the console window.
-   * In IDE 2, it is displayed in a bottom-right pop-up.
-   Sometimes, preceding lines can be more informative — check the console output.
+To get more information about the error, we need to check the console output. See the example below:
 
-2. Check the console output.
-   * Compilation errors will often reference the row and column where the error was triggered, i.g. `Blink:29:1` (line 29, 1 column).
-   * You may have to scroll or expand the window width to see the entire message.
+1. If a pop-up notification is still showing, close it by clicking the **x** in the top-right corner.
 
-3. Look for highlights in the editor:
-   * In IDE 1.x, the **line** where the error occurred is highlighted in red.
-   * In IDE 2, the **character** where the error occurred is underlined in red.
-   * The line causing the error may be before the line where it was triggered. In the example above, line 28 is missing a semicolon (`;`), but the error will be triggered by the unexpected closing bracket (`}`) in line 29.
+   ![Closing the pop-up notification.](img/ide-compilation-error-exit-status-1-x.png)
 
-   <table class="img-captions">
-     <tr>
-        <td><img src="https://content.arduino.cc/assets/ide1-syntax-error-output-highlighted.png" alt="Compilation error in IDE 1.8.13, due to a missing semicolon."></td>
-        <td><img src="https://content.arduino.cc/assets/ide2-syntax-error-output-highlighted.png" alt="Compilation error in IDE 2.0.0-3c6, due to a missing semicolon."></td>
-     </tr>
-     <tr>
-        <td>Error output in IDE 1.x.</td>
-        <td>Error output in IDE 2.</td>
-     </tr>
-   </table>
+2. Find the console output panel.
+
+   ![The error output in the console panel.](img/ide-compilation-error-exit-status-1-1.png)
+
+3. Read the first few lines. The following generic messages may appear near the end of the output:
+
+   * `collect2: error: ld returned 1 exit status`
+   * `exit status 1`
+   * `Compilation error: exit status 1`
+
+   These generic error messages indicate that the compilation process failed but don't provide specific details about the error, so it's important to read the lines before them.
+
+4. Look for lines starting with file paths. At this point, you may need to resize the window or scroll to the right to reveal the full lines. These files will often be pointing at `main.cpp` function, or a temporary copy of your sketch.
+
+5. In this example, the message <code>...main.ccp:43: undefined reference to \`setup'</code> is the most informative:
+
+   ![Scrolling right in the console panel to reveal more output.](img/ide-compilation-error-exit-status-1-2.png)
+
+   In this case, the error was caused by a [missing `setup()` function](#required-functions).
 
 ---
+
+<a id="troubleshoot"></a>
 
 ## Troubleshoot a specific error
 
