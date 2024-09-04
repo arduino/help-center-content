@@ -24,6 +24,6 @@ Learn how to check if the **Arduino Cloud Agent** is installed and running on yo
 3. _Install or reinstall the agent._ If you can't find the application, follow the [online installation guide](https://create.arduino.cc/getting-started/plugin/welcome) to install the agent.
 
 [^1]: Older versions of the agent can be found at:
-
-* `/Applications/ArduinoCreateAgent.app`
-* `Users/{username}/Applications/ArduinoCreateAgent`
+      
+      * `/Applications/ArduinoCreateAgent.app`
+      * `Users/{username}/Applications/ArduinoCreateAgent`
