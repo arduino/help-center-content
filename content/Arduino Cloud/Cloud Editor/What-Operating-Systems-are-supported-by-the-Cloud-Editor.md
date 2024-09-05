@@ -5,7 +5,7 @@ id: 4402082543378
 
 Arduino Cloud Editor can be accessed through a web browser, allowing you to easily read, edit, and verify your code anywhere.
 
-To use the Cloud Editor on **Windows, macOS, and Linux**, you need the Arduino Create Agent to connect your physical boards/devices to the Cloud. Follow the steps in [the Arduino Create Agent installation guide](https://create.arduino.cc/getting-started/plugin/welcome) to set it up.
+To use the Cloud Editor on **Windows, macOS, and Linux**, you need the Arduino Cloud Agent to connect your physical boards/devices to the Cloud. Follow the steps in [the Arduino Cloud Agent installation guide](https://create.arduino.cc/getting-started/plugin/welcome) to set it up.
 
 If you are using **Chrome OS**, see [Use Arduino with Chromebook](https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook).
 
