@@ -50,9 +50,12 @@ This error indicates that the device's memory partition table is improperly form
 
 Follow these steps:
 
-1. Run the memory formatting sketch for your device architecture.
-1. Reinitialize the storage with this Sketch: [QSPIFormat.ino](https://github.com/arduino/ArduinoCore-mbed/blob/main/libraries/STM32H747_System/examples/QSPIFormat/QSPIFormat.ino)
-1. Reinstall the SSL certificates with this Sketch: [WiFiFirmwareUpdater](https://github.com/arduino/ArduinoCore-mbed/tree/main/libraries/STM32H747_System/examples/WiFiFirmwareUpdater)
+* If you're using **Arduino GIGA R1 WiFi** or **Portenta H7**:
+  1. Reinitialize the storage with this Sketch: [QSPIFormat.ino](https://github.com/arduino/ArduinoCore-mbed/blob/main/libraries/STM32H747_System/examples/QSPIFormat/QSPIFormat.ino)
+  1. Reinstall the SSL certificates with this Sketch: [WiFiFirmwareUpdater](https://github.com/arduino/ArduinoCore-mbed/tree/main/libraries/STM32H747_System/examples/WiFiFirmwareUpdater)
+
+* If you're using **Arduino Opta**: Follow [these instructions](https://docs.arduino.cc/tutorials/opta/memory-partitioning/#partitioning-the-memory-of-an-opta).
+* If you're using  **Portenta Machine Control**: Follow these [instructions](https://docs.arduino.cc/tutorials/opta/memory-partitioning/#partitioning-the-memory-of-a-portenta-machine-control).
 
 > [!TIP]
 > If you're using GIGA R1 WiFi, see [Configure GIGA R1 WiFi for Over-The-Air (OTA) uploads](https://support.arduino.cc/hc/en-us/articles/12370721200540-Configure-GIGA-R1-WiFi-for-Over-The-Air-OTA-uploads).
