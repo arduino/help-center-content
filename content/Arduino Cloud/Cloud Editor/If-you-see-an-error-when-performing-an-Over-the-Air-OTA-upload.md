@@ -65,7 +65,6 @@ Follow these steps:
 
 1. Ensure that the board has a stable connection to Arduino Cloud.
 1. Avoid extensive calls to the `delay()` function or other blocking code inside the `loop()` function of your sketch.
-1. Try deactivating the watchdog timer on the device.
 
 ### Board error - otadownloadfail {#otadownloadfail}
 
@@ -112,7 +111,6 @@ This error means that the device restarted with a SHA (fw identifier) that is di
 Follow these steps:
 
 1. Check if the sketch running on the device is unstable and causes frequent restarts.
-1. Try deactivating the watchdog timer on the device.
 
 ### SHA256 Unknown - Unknown Firmware detected after restart. {#sha256unknown}
 
