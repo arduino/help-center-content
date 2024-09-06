@@ -15,21 +15,6 @@ In this article:
 * [Identifying the OTA error message](#identify-error)
 * [Error reference for OTA uploads](#errors)
 
-<!--
-
-TODO: Make list of URLs with anchors
-
-#sha256unknown
-#sha256mismatch
-#otastorageinitfail
-#serverconnecterrorfail
-#otaheadercrcfail
-#otadownloadfail
-#errorwriteupdatefilefail
-#httpresponsefail
-
--->
-
 ---
 
 ## Identifying the OTA error message {#identify-error}
@@ -41,8 +26,6 @@ Follow these steps:
 1. Find the console panel. If it is hidden, show it by clicking the button in the bottom-right corner.
 2. Find the line that starts with "SHA256" or "Board error".
 3. Find the instructions for that error in the [error reference](#errors).
-
-<!-- TODO: Update image -->
 
 <img src="img/ota-error-sha.png" width=800px/>
 
