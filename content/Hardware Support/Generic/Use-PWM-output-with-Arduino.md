@@ -30,6 +30,33 @@ void loop() {
 
 ---
 
+## Change the PWM resolution
+
+You can modify the resolution of PWM signals using the `analogWriteResolution()` function. By default, the resolution is 8 bits, meaning values passed to `analogWrite()` can range between 0-255, which ensures backward compatibility with AVR-based boards.
+
+To change the resolution, use `analogWriteResolution(bits)`, where `bits` determines the resolution in bits, ranging from 1 to 32. If the resolution set is higher than your board’s capabilities, extra bits will be discarded. If it's lower than your board’s capabilities, the missing bits will be padded with zeros
+
+```arduino
+void setup() {
+  Serial.begin(9600);
+  pinMode(11, OUTPUT);
+}
+
+void loop() {
+  int sensorVal = analogRead(A0);  // Read the analog input from A0
+
+  // Set PWM resolution to 12 bits
+  analogWriteResolution(12);
+  analogWrite(12, map(sensorVal, 0, 1023, 0, 4095));
+
+  // Print the mapped 12-bit PWM value to the serial monitor
+  Serial.print("12-bit PWM value: ");
+  Serial.print(map(sensorVal, 0, 1023, 0, 4095));
+}
+```
+
+---
+
 ## Recommended PWM pins
 
 ### Overview for common boards
