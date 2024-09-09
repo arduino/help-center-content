@@ -3,7 +3,7 @@ title: "Reset the firmware on Nano RP2040 Connect"
 id: 4404168794514
 ---
 
-If your Nano RP2040 Connect isn't recognized by your computer or fails to power up after a firmware update or sketch upload, performing a firmware reset may resolve the issue. Follow the steps below to reset the firmware: 
+If your Nano RP2040 Connect isn't recognized by your computer or fails to power up after a firmware update or sketch upload, performing a firmware reset may resolve the issue. Follow the steps below to reset the firmware:
 
 1. Connect the board to your computer via USB.
 
