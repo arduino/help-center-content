@@ -15,7 +15,7 @@ Here's a basic example:
 
 ```arduino
 int ledPin = 9;      // LED connected to digital pin 9
-int analogPin = 3;   // potentiometer connected to analog pin 3
+int analogPin = A0;  // potentiometer connected to analog pin A0
 int val = 0;         // variable to store the read value
 
 void setup() {
