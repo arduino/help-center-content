@@ -7,7 +7,7 @@ If your Nano RP2040 Connect isn't recognized by your computer or fails to power 
 
 1. Connect the board to your computer via USB.
 
-1. Double-tap the reset button to enter bootloader mode (Alternatively, connect a jumper wire between the **REC** and **GND** pins). This will open RP2040's mass storage folder on your computer.
+1. Double-tap the reset button to enter bootloader mode (Alternatively, connect a jumper wire between the **REC** and **GND** pins, then press the reset button). This will open RP2040's mass storage folder on your computer.
 
 1. If you used a jumper wire, remove it while the mass storage folder is still open.
 
