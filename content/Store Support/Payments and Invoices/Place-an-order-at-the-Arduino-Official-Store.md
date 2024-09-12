@@ -7,7 +7,7 @@ To learn how to place an order, see [how to buy on Arduino Official Store](https
 
 > [!NOTE]
 > If you are a distributor, please use the **distributor's store**.
-> 
+>
 > * **[Enroll as a distributor](https://www.arduino.cc/en/become-distributor)**
 > * **[Sign in to the distributor's store](https://distribution.arduino.cc/)**
 >
