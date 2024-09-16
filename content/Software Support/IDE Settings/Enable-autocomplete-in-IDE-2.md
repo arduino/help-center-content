@@ -15,9 +15,7 @@ Follow these steps to enable Editor Quick Suggestions:
 
    * Windows/Linux: **File > Preferences**
 
-   * macOS: **Arduino IDE > Preferences**[^1]
-
-   [^1]: If you're using Arduino IDE 2.1 or older, this option may be called **Arduino IDE > Settings**. ([#2022](https://github.com/arduino/arduino-ide/issues/2022))
+   * macOS: **Arduino IDE > Settings**
 
 3. Check the box next to *Editor Quick Suggestions*.
 
