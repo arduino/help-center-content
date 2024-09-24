@@ -88,3 +88,7 @@ The frequently asked questions covered in this article are focused on providing 
 - **When we update a factory image, does it also update the containers, such as Python?**
 
   Yes, updating a factory image includes the latest applications, firmware, and configurations. This means containers, including those for Python, will be updated as part of the new image.
+
+- **What is the maximum microSD card capacity supported for the Portenta X8?**
+
+  The Portenta X8, powered by the NXP i.MX 8M Mini (i.MX8MM) processor, supports microSD cards up to **2TB**, which is the maximum capacity defined by the SDXC (Secure Digital eXtended Capacity) standard.
