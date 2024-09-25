@@ -30,9 +30,7 @@ Follow these steps:
 1. Open Preferences using the menu bar:
 
    * Windows/Linux: **File > Preferences**
-   * macOS: **Arduino IDE > Preferences**[^2]
-
-   [^2]: If you're using Arduino IDE 2.1 or older, this option may be called **Arduino IDE > Settings**. ([#2022](https://github.com/arduino/arduino-ide/issues/2022))
+   * macOS: **Arduino IDE > Settings**
 
 2. Find the **Additional boards manager URLs** setting toward the bottom.
 

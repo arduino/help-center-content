@@ -11,9 +11,7 @@ Verbose output is enabled in Preferences.
 
 1. Open Preferences
    - Windows/Linux: **File > Preferences**
-   - macOS: **Arduino IDE > Preferences**[^1]
-
-   [^1]: If you're using Arduino IDE 2.1 or older, this option may be called **Arduino IDE > Settings**. ([#2022](https://github.com/arduino/arduino-ide/issues/2022))
+   - macOS: **Arduino IDE > Settings**
 
 2. For the verbose output setting, tick **compilation**, **upload**, or both.
 

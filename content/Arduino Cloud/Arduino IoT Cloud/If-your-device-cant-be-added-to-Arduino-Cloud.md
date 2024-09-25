@@ -29,10 +29,10 @@ Secret keys cannot be recovered if lost. Make sure to save any Device ID and Sec
 
 1. Make sure you're using a [compatible device](https://support.arduino.cc/hc/en-us/articles/360016077320-What-devices-can-be-used-with-Arduino-IoT-Cloud-).
 
-2. [Check if the Arduino Create Agent is installed and running](https://support.arduino.cc/hc/en-us/articles/4980687506844-Check-if-the-Arduino-Create-Agent-is-installed-and-running), then click **Try again**.
+2. [Check if the Arduino Cloud Agent is installed and running](https://support.arduino.cc/hc/en-us/articles/4980687506844), then click **Try again**.
 
    > [!NOTE]
-   > If you're using a **Chromebook** and [Arduino Cloud for Chromebook](https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook), there's no need to install the Arduino Create Agent.
+   > If you're using a **Chromebook** and [Arduino Cloud for Chromebook](https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook), there's no need to install the Arduino Cloud Agent.
 
 3. Double-press the reset button on the board to put the board in [bootloader mode](https://support.arduino.cc/hc/en-us/articles/5779192727068-Reset-your-board#bootloader-mode), then click **Try Again**.
 
@@ -46,7 +46,7 @@ Secret keys cannot be recovered if lost. Make sure to save any Device ID and Sec
 
 1. Close any instances of Arduino IDE and other applications that may be using the port.
 
-2. [Check if the Arduino Create Agent is installed and running](https://support.arduino.cc/hc/en-us/articles/4980687506844-Check-if-the-Arduino-Create-Agent-is-installed-and-running). If you're using [Arduino Cloud for Chromebook](https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook), you can skip this step.
+2. [Check if the Arduino Cloud Agent is installed and running](https://support.arduino.cc/hc/en-us/articles/4980687506844). If you're using [Arduino Cloud for Chromebook](https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook), you can skip this step.
 
 3. Reconnect the device to the computer and make sure the power LED lights up.
 
@@ -66,13 +66,13 @@ Solve the issue by updating to the latest firmware version using the **Firmware 
 
 <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360013896579-Use-the-Firmware-Updater-in-Arduino-IDE">Update the firmware in Arduino IDE</a>
 
-### "Arduino Create Agent not found"
+### "Arduino Cloud Agent not found"
 
 > [!NOTE]
 > If you're using a **Chromebook** and [Arduino Cloud for Chromebook](https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook), you can skip this step.
 
 1. If you haven't done so already, [install the agent](https://create.arduino.cc/getting-started/plugin/welcome).
-2. If you have installed the agent but still encounter this warning, see [If Arduino Create Agent isn't detected](https://support.arduino.cc/hc/en-us/articles/360016466600-Warning-To-upload-a-sketch-via-USB-port-make-sure-the-Agent-is-installed-and-running-on-this-computer).
+2. If you have installed the agent but still encounter this warning, see [If Arduino Cloud Agent isn't detected](https://support.arduino.cc/hc/en-us/articles/360016466600-Warning-To-upload-a-sketch-via-USB-port-make-sure-the-Agent-is-installed-and-running-on-this-computer).
 
 ---
 

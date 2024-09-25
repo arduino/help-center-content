@@ -1,9 +1,9 @@
 ---
-title: "If you get 'destination ${windows_folder_startup) resolved to an empty value' when installing the Create Agent"
+title: "If you get 'destination ${windows_folder_startup) resolved to an empty value' when installing the Cloud Agent"
 id: 4408893456914
 ---
 
-When installing the Arduino Create Agent, the following may occur:
+When installing the Arduino Cloud Agent, the following may occur:
 
 ![There has been an Error.
 Error trying to install file: destination ${windows_folder_startup) resolved to an empty value

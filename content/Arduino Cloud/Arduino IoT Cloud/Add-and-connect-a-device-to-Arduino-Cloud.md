@@ -11,7 +11,7 @@ Connecting a new device to Arduino Cloud consists of three steps:
 2. [Configure the device as a Thing](#create-thing). This will generate a sketch that can be uploaded to the device, allowing it to connect to Arduino Cloud.
 3. [Upload the sketch to the device](#upload-sketch). Upload the Thing sketch to the device.
 
-You'll need an Arduino account and the [Arduino Create Agent](https://support.arduino.cc/hc/en-us/articles/360014869820) installed and running on your computer.
+You'll need an Arduino account and the [Arduino Cloud Agent](https://support.arduino.cc/hc/en-us/articles/360014869820) installed and running on your computer.
 
 ---
 

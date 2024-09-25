@@ -61,4 +61,3 @@ For more information, see [Arduino devices with LoRaWAN® connectivity](https://
 ## Further reading
 
 * [LoRaWAN® (The Things Network)](https://www.thethingsnetwork.org/docs/lorawan/)
-* [What are LoRa® and LoRaWAN®? (LoRa Developer Portal)](https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-and-lorawan)

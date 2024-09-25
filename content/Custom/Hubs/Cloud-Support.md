@@ -35,7 +35,7 @@ id: 9347128757660
       you need the Arduino Cloud Agent to connect your physical boards/devices
       to the Cloud.
     </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Create-Agent">Install the Arduino Cloud Agent</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014869820">Install the Arduino Cloud Agent</a>
   </div>
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-laptop.svg">
