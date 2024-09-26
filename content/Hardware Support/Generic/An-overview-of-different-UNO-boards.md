@@ -88,7 +88,7 @@ See also: [Overview of the Arduino UNO Components](https://docs.arduino.cc/tutor
 
 <!-- ### Arduino UNO R3 SMD <!-- SKU: A000073 -->
 
-<img src="https://cdn.shopify.com/s/files/1/0438/4735/2471/products/A000073_00.front_643x483.jpg?v=1637829596" width=400px>
+<img src="img/Arduino_UNO_R3_SMD_Front.png" width=400px>
 
 **Arduino UNO R3 SMD**\
 Microcontroller: ATmega328P\
