@@ -16,6 +16,7 @@ Accepted payment methods differ between products in the [Store](https://store.ar
 
 ## Educational institutions
 
+> [!NOTE]
 > Conditions for the Arduino Digital Store may differ. Contact us for up-to-date information.
 
 List of accepted payment methods:
@@ -25,6 +26,7 @@ List of accepted payment methods:
 
 ## Companies
 
+> [!NOTE]
 > Conditions for the Arduino Digital Store may differ. Contact us for up-to-date information.
 
 List of accepted payment methods:

@@ -9,4 +9,5 @@ To use the Cloud Editor on **Windows, macOS, and Linux**, you need the Arduino C
 
 If you are using **Chrome OS**, see [Use Arduino with Chromebook](https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook).
 
+> [!NOTE]
 > To install the agent on other systems, you will have to compile it yourself. You can find the agent's [source code on GitHub](https://github.com/arduino/arduino-create-agent). If you are compiling for Raspberry Pi, you can consult [this tutorial written by our developers](https://github.com/arduino/arduino-create-agent/wiki/How-to-compile-on-Raspberry-Pi).

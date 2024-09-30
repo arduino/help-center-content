@@ -10,6 +10,7 @@ There are two ways to sign up for an account:
 * [Email](#email)
 * [SSO (Single Sign On)](#sso)
 
+> [!NOTE]
 > Users under the age of 14 need to [sign up for a junior account](https://support.arduino.cc/hc/en-us/articles/360022234360).
 
 ---
@@ -20,6 +21,7 @@ There are two ways to sign up for an account:
 
    ![The sign in button on arduino.cc](img/arduino-cc-sign-in-button.png)
 
+   > [!NOTE]
    > If another account is signed in, click the ![Profile icon](img/symbol_profile.png) profile button and select 'Sign Out' first.
 
 2. Below the **Sign In** button, find the text "Don't have an account yet?", and click on **Create one** to proceed.
@@ -30,6 +32,7 @@ There are two ways to sign up for an account:
 
    ![Entering date of birth.](img/arduino-account-sign-up-dob.png)
 
+   > [!NOTE]
    > Users under the age of 14 need to [sign up for a junior account](https://support.arduino.cc/hc/en-us/articles/360022234360).
 
 4. Enter the following:
@@ -50,6 +53,7 @@ There are two ways to sign up for an account:
 
    ![Email confirming account creation.](img/arduino-account-welcome-email.png)
 
+   > [!NOTE]
    > If you don't see the email in your main inbox, please check the spam folder.
 
 You can review your account and configure your account on [the profile page](https://id.arduino.cc/).
@@ -62,6 +66,7 @@ Alternatively, you can sign in using an identity provider such as Google or Face
 
 1. Go to [arduino.cc](https://www.arduino.cc/) and click Sign In in the top-right to open the [sign-in page](https://login.arduino.cc/login).
 
+   > [!NOTE]
    > If another account is signed in, click the ![Profile icon](img/symbol_profile.png) profile button and select 'Sign Out'.
 
    ![Sign-in button highlighted](img/arduino-cc-sign-in-button.png)

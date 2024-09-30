@@ -33,4 +33,5 @@ Most educational kits include a *Troubleshooting* or *Not Working* section on ea
 
 * [Contact us](https://www.arduino.cc/en/contact-us/).
 
-> Please provide a concise description of the problem and include this information (when applicable): Board name, Operating System, IDE or Cloud Agent version, and error output.
+    > [!NOTE]
+    > Please provide a concise description of the problem and include this information (when applicable): Board name, Operating System, IDE or Cloud Agent version, and error output.

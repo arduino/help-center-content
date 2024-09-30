@@ -5,6 +5,7 @@ id: 4407002993426
 
 By default, the Arduino Cloud Agent updates automatically. To ensure you have the latest version, or for any other purpose, you can check which version is installed by following the steps for your system below.
 
+> [!NOTE]
 > The latest release number can be found in the [source repository](https://github.com/arduino/arduino-create-agent).
 
 ## Windows

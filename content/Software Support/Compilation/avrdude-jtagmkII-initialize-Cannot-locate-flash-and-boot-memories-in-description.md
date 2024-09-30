@@ -3,6 +3,7 @@ title: "avrdude: jtagmkII_initialize(): Cannot locate 'flash' and 'boot' memorie
 id: 4405239282578
 ---
 
+> [!NOTE]
 > This error has mostly been reported for the _Arduino Nano Every_
 
 When a sketch is successfully compiled and uploaded, the Arduino IDE console output may indicate

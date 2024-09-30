@@ -15,6 +15,7 @@ This kit comes with a complete set of 8 Internet of Things projects ready to tur
 * Comes with 8 out of the box guided projects
 * Build custom connected devices that can be controlled with your mobile phone
 
+> [!NOTE]
 > More info in its [Arduino store page](https://store.arduino.cc/products/arduino-opla-iot-kit)
 
 ## The Explore IoT Kit
@@ -30,6 +31,7 @@ learning-by-doing approach. Step-by-step, students will acquire knowledge by con
 * Complete guides for both students & teachers
 * Comes with storage box for repeated use in the classroom
 
+> [!NOTE]
 > More info in its [Arduino store page](https://store.arduino.cc/products/arduino-explore-iot-kit)
 
 ## Both kits include

@@ -3,6 +3,7 @@ title: "Use a custom theme for Arduino IDE 1"
 id: 4408893497362
 ---
 
+> [!NOTE]
 > Custom themes are currently not supported for Arduino IDE 2.
 
 Learn how to install a .zip packaged theme for Arduino IDE 1.
@@ -27,7 +28,8 @@ Learn how to install a .zip packaged theme for Arduino IDE 1.
 
 4. Drag and drop the custom theme .zip file into the `theme` subfolder you created.
 
-   > Note: The custom theme must be in the root of the .zip file, **NOT** in a subfolder.
+   > [!NOTE]
+   > The custom theme must be in the root of the .zip file, **NOT** in a subfolder.
 
    * The folder structure should look as follows:
 

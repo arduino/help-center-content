@@ -34,4 +34,5 @@ The MKR Vidor 4000 [Camera enabling example](https://docs.arduino.cc/tutorials/m
 
 4. When the video stream is active and it is routed to the **HDMI** port, you can stop the video opening the serial monitor and typing **STOP**. This activates the `vcam.end();` function.
 
+> [!NOTE]
 > If get an upload error, reset the board and try again.

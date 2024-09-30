@@ -23,7 +23,8 @@ The Science Journal can be used with the following boards:
 * Arduino Nano 33 BLE Sense Rev2
 * Arduino Nano RP2040 Connect (by itself, or with the Science Carrier R3)
 
-> Note: The MKR WiFi 1010 needs to be connected using the Science Carrier, which is only available in the [Arduino Science Kit Physics Lab](https://store.arduino.cc/products/arduino-science-kit-physics-lab).
+> [!NOTE]
+> The MKR WiFi 1010 needs to be connected using the Science Carrier, which is only available in the [Arduino Science Kit Physics Lab](https://store.arduino.cc/products/arduino-science-kit-physics-lab).
 
 <a id="set-up-your-board"></a>
 

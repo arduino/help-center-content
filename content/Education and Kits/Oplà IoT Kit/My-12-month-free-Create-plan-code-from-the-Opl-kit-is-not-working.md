@@ -5,6 +5,7 @@ id: 4412950847506
 
 The [Arduino Oplà IoT Kit](https://store.arduino.cc/opla-iot-kit) comes with 12 free months of the Arduino Cloud Maker Plan. Follow the steps below to activate your discounted plan.
 
+> [!NOTE]
 > If you already have an active paid plan, we recommend you wait until the end of your subscription period before changing to the Maker plan. If your currently active plan is a Maker plan, you will have to cancel it and sign up again to activate the discount code.
 
 ---
