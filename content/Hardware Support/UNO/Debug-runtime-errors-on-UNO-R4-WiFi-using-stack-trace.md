@@ -34,13 +34,13 @@ Follow these steps:
 
 ## Use addr2line to generate a stack trace
 
-The `addr2line` utility is included in the **Arduino UNO R4 Boards** boards package. However, running it in this way requires modifying the command included in the output. For convenience, you may want to install `addr2line` on your system or adding a shortcut:
+The `addr2line` utility is included in the **Arduino UNO R4 Boards** board package. However, running it in this way requires modifying the command included in the output. For convenience, you may want to install `addr2line` on your system or add a shortcut:
 
 Add `addr2line` to the command line:
 
 * **Windows:** Add a shortcut to the `addr2line` executable.
 
-  1. Open Command Prompt as Adminstrator.
+  1. Open Command Prompt as Administrator.
   2. Run this command:
 
      `mklink C:\Windows\System32\addr2line.exe %UserProfile%\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\7-2017q4\bin\arm-none-eabi-addr2line.exe`
