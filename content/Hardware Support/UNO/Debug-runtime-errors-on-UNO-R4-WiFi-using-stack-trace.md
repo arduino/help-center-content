@@ -13,7 +13,7 @@ Follow these steps:
 
 1. Ensure that a serial connection must be initiated before the error occurs, by calling [Serial.begin()](https://www.arduino.cc/reference/en/language/functions/communication/serial/begin/) in your sketch. You can include this code inside the beginning of the `setup()` function:
 
-   ```
+   ```arduino
    Serial.begin(115200);
    while (!Serial);
    ```
@@ -34,14 +34,17 @@ Follow these steps:
 
 ## Use addr2line to generate a stack trace
 
-> [!NOTE]
-> `addr2line` is not available as a native Windows application, but can be run with <a class="link-external" href="https://learn.microsoft.com/en-us/windows/wsl/install">Windows Subsystem for Linux (WSL)</a>.
+The `addr2line` utility is included in the **Arduino UNO R4 Boards** board package. However, running it in this way requires modifying the command included in the output. For convenience, you may want to install `addr2line` on your system or add a shortcut:
 
-The `addr2line` utility is included in the **Arduino UNO R4 Boards** boards package. However, running it in this way requires modifying the command included in the output. For convenience, you may want to install `addr2line` on your system.
+Add `addr2line` to the command line:
 
-Install `addr2line` (optional):
+* **Windows:** Add a shortcut to the `addr2line` executable.
 
-* **Windows (WSL):** `addr2line` is not available as a native Windows application, but can be run with <a class="link-external" href="https://learn.microsoft.com/en-us/windows/wsl/install">Windows Subsystem for Linux (WSL)</a>. The Ubuntu distribution of Linux is installed by default and should come with `addr2line`.
+  1. Open Command Prompt as Administrator.
+  2. Run this command:
+
+     `mklink C:\Windows\System32\addr2line.exe %UserProfile%\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\7-2017q4\bin\arm-none-eabi-addr2line.exe`
+
 * **macOS:** `addr2line` can be installed with [Homebrew](https://brew.sh/) by running `brew install binutils` in Terminal.
 * **Linux:** `addr2line` may already be installed on your system. Otherwise, run `apt-get install binutils` in Terminal (Ubuntu, Debian), or see [command-not-found.com/addr2line](https://command-not-found.com/addr2line) for other distributions.
 
@@ -49,20 +52,16 @@ Install `addr2line` (optional):
 
 **If addr2line is installed on your system:**
 
-* **Windows (WSL):**
-  1. Copy the command from the serial output.
-  2. Paste the command into a text editor.
-  3. Replace `C:` with `/mnt/c` and replace all backslashes (`\`) with forward slashes (`/`).
+* **Windows:**  Copy the command from the serial output (no modification required).
 * **macOS:** Copy the command from the serial output (no modification required).
 * **Linux:** Copy the command from the serial output (no modification required).
 
 **Using the addr2line from the board package:**
 
-* **Windows (WSL):**
+* **Windows:**
   1. Copy the command from the serial output.
   2. Paste the command into a text editor.
-  3. Replace the word `addr2line` with `/mnt/c/Users/User/Appdata/Local/Arduino15/packages/arduino/tools/arm-none-eabi-gcc/7-2017q4/bin/arm-none-eabi-addr2line`
-  4. For the file path after the `-e` flag, replace `C:` with `/mnt/c` and replace all backslashes (`\`) with forward slashes (`/`).
+  3. Replace the word `addr2line` with `%UserProfile%\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\7-2017q4\bin\arm-none-eabi-addr2line.exe`
 
 * **macOS:**
   1. Copy the command from the serial output.
@@ -78,11 +77,10 @@ Install `addr2line` (optional):
 > [!NOTE]
 > The sketch needs to have been compiled on the same computer you are running `addr2line` on.
 
-* **Windows (WSL):**
-  1. Open [Windows Powershell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.3).
-  2. Type `Ubuntu` into Windows Powershell and press <kbd>Enter</kbd>.
-  3. Paste the modified command into Windows Powershell by right-clicking on the window.
-  4. Press <kbd>Enter</kbd> to run the command.
+* **Windows:**
+  1. Open Command Prompt.
+  2. Paste the command into Command Prompt by right-clicking on the window.
+  3. Press <kbd>Enter</kbd> to run the command.
 * **macOS:**
   1. Open Terminal.
   2. Press <kbd>⌘</kbd> + <kbd>V</kbd> to paste the command.
