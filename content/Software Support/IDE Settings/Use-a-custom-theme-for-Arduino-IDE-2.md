@@ -2,27 +2,36 @@
 title: "Use a custom theme for Arduino IDE 2"
 ---
 
-## How to get custom theme
-
-1. If open, close all Arduino IDE windows.
+## Obtaining themes
 
 1. Go to [Visual Studio Market Place](https://marketplace.visualstudio.com/search?target=VSCode&category=Themes&sortBy=Installs) and find a Theme of your liking.
 
-1. Under the heading *Resources*, Click Download Extension
+1. Under the heading *Resources*, Click **Download Extension**
 
     > [!NOTE]
-    > Don't click the big *Install* button. The theme will just open in Visual Studio Code. We need the actual file of the extension
+    > Don't click the big *Install* button. The theme will just open in Visual Studio Code. We need the actual file of the theme
 
-1. Now open the `plugins` folder for the Arduino IDE.
+## Installation
 
-    Windows: `\AppData\Local\Programs\Arduino IDE\resources\app\plugins`
+1. If open, close Arduino IDE
 
-    macOS: resources/app/plugin
+1. Create a folder named `plugins` under the folder called `.arduinoIDE`.
 
-1. Copy and paste the downloaded file to the folder.
+    Windows: `C:\Users\<username>\.arduinoIDE\plugins`
 
-1. Open Arduino IDE again and open the preferences page by clicking File>Preferences
+    Linux: `~/.arduinoIDE/`
+
+    macOS: `~/.arduinoIDE/`
+
+    > [!NOTE]
+    > The `.arduinoIDE` folder is hidden by default. You can make it visible by pressing the `Command` + `Shift` + `.` keyboard shortcut.
+
+1. Copy the downloaded file to the plugins folder you created.
+
+1. Select File > Preferences from the Arduino IDE menus
 
 1. Under theme, Select your new theme
 
-![custom theme](img/custom-theme.png)
+    ![custom theme](img/custom-theme.png)
+
+1. Save the changed by clicking `OK`
