@@ -9,8 +9,8 @@ Updating the firmware may be necessary to resolve issues with Modulino nodes.
 
 In this article:
 
-- [Update Modulino firmware in Arduino IDE](#update-modulino-firmware-in-arduino-ide)
-- [Update Modulino firmware in Arduino Cloud Editor](#update-modulino-firmware-in-arduino-cloud-editor)
+* [Update Modulino firmware in Arduino IDE](#ide)
+* [Update Modulino firmware in Arduino Cloud Editor](#iot)
 
 ---
 
