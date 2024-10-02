@@ -9,18 +9,18 @@ Updating the firmware may be necessary to resolve issues with Modulino nodes.
 
 In this article:
 
-- [Update Modulino firmware in Arduino IDE 2](#update-modulino-firmware-in-arduino-ide-2)
-- [Update Modulino firmware in Arduino Cloud Editor](#update-modulino-firmware-in-arduino-cloud-editor)
+- [Update Modulino firmware in Arduino IDE](#ide)
+- [Update Modulino firmware in Arduino Cloud Editor](#iot)
 
 ---
 
 <a id="ide"></a>
 
-## Update Modulino firmware in Arduino IDE 2
+## Update Modulino firmware in Arduino IDE
 
 1. Connect the Modulino to your Arduino UNO R4 WiFi.
 
-2. Connect the board to your computer and open Arduino IDE 2.
+2. Connect the board to your computer and open Arduino IDE.
 
 3. [Go to the Library Manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE) and install the [Modulino](https://www.arduino.cc/reference/en/libraries/modulino/) and [ArduinoGraphics](https://www.arduino.cc/reference/en/libraries/arduinographics/) libraries.
 
