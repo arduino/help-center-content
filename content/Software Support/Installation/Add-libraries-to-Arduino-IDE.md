@@ -63,7 +63,7 @@ Learn how to add libraries to Arduino IDE.
 4. Restart Arduino IDE.
 
 > [!NOTE]
-> Note that adding a library to the "libraries" folder in the sketchbook will override other previously installed library versions.
+> Adding a library to the "libraries" folder in the sketchbook will override other previously installed library versions.
 
 ---
 

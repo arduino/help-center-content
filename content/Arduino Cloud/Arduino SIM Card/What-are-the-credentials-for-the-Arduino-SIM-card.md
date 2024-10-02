@@ -25,4 +25,4 @@ Here are the credentials for the Arduino Sim:
  </table>
 
 > [!NOTE]
-> Note: Arduino Sim takes 24 hours to get activated after the registration and a confirmation email will be sent.
+> Arduino Sim takes 24 hours to get activated after the registration and a confirmation email will be sent.

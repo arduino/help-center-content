@@ -16,6 +16,6 @@ Once the Boards Manager is open, search for the name of your board or the name o
 ![Updating Core available](img/How_to_update_the_core_of_your_Arduino_board_1.png)
 
 > [!NOTE]
-> Note: If `Update` is not visible this would indicate that you have an updated core and no further action would be needed.
+> If `Update` is not visible, this would indicate that you have an updated core, and no further action would be needed.
 
 ![Updating Core not available](img/How_to_update_the_core_of_your_Arduino_board_2.png)

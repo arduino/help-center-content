@@ -53,7 +53,7 @@ There are two ways to sign up for an account:
 
    ![Email confirming account creation.](img/arduino-account-welcome-email.png)
 
-   > [!NOTE]
+   > [!TIP]
    > If you don't see the email in your main inbox, please check the spam folder.
 
 You can review your account and configure your account on [the profile page](https://id.arduino.cc/).
