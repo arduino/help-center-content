@@ -3,9 +3,6 @@ title: "Use a custom theme for Arduino IDE 1"
 id: 4408893497362
 ---
 
-> [!NOTE]
-> Custom themes are currently not supported for Arduino IDE 2.
-
 Learn how to install a .zip packaged theme for Arduino IDE 1.
 
 ---
