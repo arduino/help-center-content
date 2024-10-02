@@ -10,4 +10,3 @@ When a new version of mdns-discovery is available, it will automatically be inst
 ## Further reading
 
 * [mdns-discovery (GitHub)](https://github.com/arduino/mdns-discovery)
-
