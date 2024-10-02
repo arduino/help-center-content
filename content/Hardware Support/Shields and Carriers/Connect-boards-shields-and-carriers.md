@@ -15,6 +15,7 @@ Devices from the **MKR** and **Classic** family can easily be connected and "sta
 * To connect a carrier, insert the board's male header pins into the female connectors on the carrier.
 * To connect a shield, insert the shield's male header pins into the female connectors on the board.
 
+> [!NOTE]
 > Multiple shields can be connected to one board but depending on your project, you may want to consider the ordering. If you're a shield for measuring light intensity, you may want to attach it on top, to not obstruct its sensors.
 
 Follow these steps to connect MKR or Classic devices:

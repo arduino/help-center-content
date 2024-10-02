@@ -13,7 +13,8 @@ The following boards use either an Atmega16U2 or Atmega8U2 chip as a USB-to-seri
 
 The converter chip firmware can be flashed with a computer by setting the board to **DFU mode** (Device Firmware Update).
 
-> Note that this article does _not_ apply to the Uno WiFi Rev2, which uses a different chip with closed source firmware.
+> [!NOTE]
+> This article does _not_ apply to the Uno WiFi Rev2, which uses a different chip with closed source firmware.
 
 ## 1. Get the firmware
 
@@ -84,6 +85,7 @@ Next we'll flash the drivers using FLIP.
 
 02. Open FLIP.
 
+    > [!NOTE]
     > Opening the application may prompt a 'Could not find a Java Virtual Machine' error. In this case, [install Java Runtime Environment](https://www.java.com/en/download/manual.jsp) with the **Windows Online** option.
 
 03. Select the device name you identified earlier (ATmega16U2 or ATmega8U2).

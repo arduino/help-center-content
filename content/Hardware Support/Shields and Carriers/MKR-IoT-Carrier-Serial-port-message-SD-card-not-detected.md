@@ -9,6 +9,7 @@ Even if there is no specific line in the main code stating to write this message
 
 This message comes from the MKR IoT library included in the code when using the carrier as `#include <Arduino_MKRIoTCarrier.h>`, and it's displayed when initializing and testing the Carrier's different sensors and actuators.
 
+> [!NOTE]
 > If you want to check more in depth what's in the library, all the files are available in our github.
 > Check here the [Arduino_MKRIoTCarrier.cpp file](https://github.com/arduino-libraries/Arduino_MKRIoTCarrier/blob/master/src/Arduino_MKRIoTCarrier.cpp#L84).
 

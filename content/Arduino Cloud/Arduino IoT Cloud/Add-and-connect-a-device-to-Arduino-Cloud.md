@@ -3,6 +3,7 @@ title: "Add and connect a device to Arduino Cloud"
 id: 360016495559
 ---
 
+> [!NOTE]
 > Also see [Getting Started With the Arduino Cloud](https://docs.arduino.cc/cloud/iot-cloud/tutorials/iot-cloud-getting-started) in Arduino Docs.
 
 Connecting a new device to Arduino Cloud consists of three steps:

@@ -9,6 +9,7 @@ When [Arduino Nano](https://docs.arduino.cc/hardware/nano) is selected in Arduin
 
 ## About the processor options
 
+> [!NOTE]
 > Original Arduino Nano boards use the ATmega328P microcontroller, but those sold in 2018 or later come with an updated bootloader. For this reason, the **Arduino AVR Boards** package has **two** versions of ATmega328P available (v1.16.21 and later).
 
 Three processor options are available:

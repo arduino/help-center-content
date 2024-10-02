@@ -8,6 +8,7 @@ This article covers the issue of counterfeit boards – how to identify them and
 * **Compatible:** When a third-party product has copied the open-source hardware design and uses its own brand name. No problem!
 * **Counterfeit:** When a third-party product uses the Arduino name and/or logo directly on the product, or in the store, to deceive customers. Not cool!
 
+> [!NOTE]
 > It is fine for compatible brands to *reference* Arduino, in order for their customers to easily identify what type of product it is. Read more about trademark use in relation to compatible products [here](https://support.arduino.cc/hc/en-us/sections/360004749260-Compatible-Products).
 
 ## How to identify a counterfeit board

@@ -24,6 +24,7 @@ Depending on whether "All users" or "Only me" was selected during installation, 
 * **All users:** `C:\Program Files\Arduino IDE`
 * **Only me:** `C:\Users\%USERNAME%\AppData\Local\Programs\Arduino IDE`
 
+> [!NOTE]
 > Prior to IDE 2, the application name was `Arduino`, with `C:\Program Files (x86)\Arduino` being the default path.
 
 ### Navigate to the installation folder in File Explorer

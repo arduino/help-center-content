@@ -9,9 +9,9 @@ The MKR IoT Carrier is equipped with a [HTS221](https://www.arduino.cc/en/Refere
 
 Use another source to get the temperature of the room (e.g. Thermostat, Smartphone). Compare the temperature from your chosen source to the one of the HTS221 sensor by subtracting the two. Save the difference as your offset to be used for calibration adjustment.
 
-> Example: Temperature reading from secondary source 28°C and the HTS221 sensor is 23°C. Therefore, (28°C - 23°C = 5°C) offset = 5°C.
+**Example:** Temperature reading from secondary source 28°C and the HTS221 sensor is 23°C. Therefore, (28°C - 23°C = 5°C) offset = 5°C.
 
-The above would indicate that the HTS221 sensor is 5°C less than the actual temperature; therefore, we will offset the difference in the following sections.
+The example above would indicate that the HTS221 sensor is 5°C less than the actual temperature; therefore, we will offset the difference in the following sections.
 
 ## 2. Calibrate the temperature
 

@@ -39,6 +39,7 @@ Learn how to reduce the size and memory usage of your sketch.
 
 * **Store constant data in storage instead of memory** with [PROGMEM](https://www.arduino.cc/reference/en/language/variables/utilities/progmem/).
 
+> [!NOTE]
 > Arduino sketches are written in the Arduino language, which is based on standard C++. Therefore, using general C++ optimization techniques will help.
 
 ## Additional options

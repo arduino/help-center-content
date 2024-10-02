@@ -9,6 +9,7 @@ Learn how to download and install the desktop-based Arduino IDE.
 
 ## Installation instructions
 
+> [!NOTE]
 > If you're using a Chromebook, see [Use Arduino with Chromebook](https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook).
 
 ### Windows

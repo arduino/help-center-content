@@ -11,6 +11,7 @@ This article will show you how to connect your Arduino Cloud to an IFTTT webhook
 * An [IFTTT account](https://ifttt.com/)
 * A 'Thing' that you want to configure with IFTTT.
 
+> [!NOTE]
 > For a general overview of Arduino Cloud, see [this page](https://www.arduino.cc/en/IoT/HomePage).
 
 ## Creating an applet in IFTTT
