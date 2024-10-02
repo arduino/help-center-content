@@ -28,7 +28,7 @@ In this article:
 
 5. Click ![Upload button](img/symbol_upload2.png) **Upload** to upload the sketch to your Arduino UNO R4 WiFi.
 
-6. The firmware update is complete when the sketch is successfully uploaded to the board.
+6. The firmware update is complete when the sketch is successfully uploaded to the board and the text `PAS` is displayed on the LED matrix.
 
 7. You can now test the Modulino by uploading an example from **File > Examples > Modulino**.
 
