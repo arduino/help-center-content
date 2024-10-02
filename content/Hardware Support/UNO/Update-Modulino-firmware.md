@@ -9,8 +9,8 @@ Updating the firmware may be necessary to resolve issues with Modulino nodes.
 
 In this article:
 
-- [Update Modulino firmware in Arduino IDE](#ide)
-- [Update Modulino firmware in Arduino Cloud Editor](#iot)
+- [Update Modulino firmware in Arduino IDE](#update-modulino-firmware-in-arduino-ide)
+- [Update Modulino firmware in Arduino Cloud Editor](#update-modulino-firmware-in-arduino-cloud-editor)
 
 ---
 
@@ -52,6 +52,6 @@ In this article:
 
 6. Click ![Upload button](img/symbol_upload_cloud.png) **Upload** to upload the sketch to your Arduino UNO R4 WiFi.
 
-7. The firmware update is complete when the sketch is successfully uploaded to the board.
+7. The firmware update is complete when the sketch is successfully uploaded to the board and the text `PAS` is displayed on the LED matrix.
 
 8. You can now test the Modulino by [importing a Modulino Template](https://support.arduino.cc/hc/en-us/articles/14826942993308-Import-an-Arduino-Cloud-Template).
