@@ -25,25 +25,19 @@ In this article:
    > [!NOTE]
    > On smaller screens, use the ![Hamburger menu icon](img/Hamburger_menu.png) menu in the top right and select **Request a Quote** at the bottom.
 
-3. Enter the SKU number or item name, specify the quantity, and click **Add Item**.
+3. Fill out the form:
 
-   ![Form for adding items, with fields for SKU or item name, quantity, and an 'Add Item' button](img/Distributors_add_items.png)
+   * _Add items._ Enter the SKU number or item name, specify the quantity, and click **Add Item**.
 
-4. To add more items, repeat step 3 for each additional item.
+     Repeat for each additional item.
 
-5. Enter the shipping address.
+   * _Choose a Shipping Address._ Enter the shipping address information.
 
-   ![Form for choosing a shipping address, including fields for full name, company (optional), and address](img/Distributors_add_shipping_address.png)
+   * _Comments (optional)._ Provide additional information about your request.
 
-6. If necessary, add comments to the quote request in the textbox at the bottom of the page.
+4. Click on the **Submit Quote Request** button.
 
-   ![Comments section with a text box for adding remarks to the quote request, with a maximum limit of 999 characters](img/Distributors_comments_section.png)
-
-7. Click on the **Submit Quote Request** button.
-
-   !['Submit Quote Request' button](img/Distributors_submit_quote_request_button.png)
-
-8. A confirmation message will appear when your quote request has been submitted.
+5. A confirmation message will appear when your quote request has been submitted.
 
    ![Confirmation message for a successfully placed quote request, showing quote ID, expected contact timeline, and buttons for 'Request a New Quote' or 'See Your Quotes'](img/Distributors_confirmation_message.png)
 
