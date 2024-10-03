@@ -1,6 +1,6 @@
 ---
-title: "Update Modulino firmware"
-id: 
+title: Update Modulino firmware
+id: 16205756022172
 ---
 
 Learn how to update the firmware of a [Modulino node](https://store-usa.arduino.cc/products/plug-and-make-kit?srsltid=AfmBOopomr-DZVLRzl_VhXSSemiNa75qfABCHjqhvLQs7vz9_2PLgQN9#:~:text=technology%20%E2%80%93%20and%20yours.-,What%20are%20Modulino%C2%AE%3F,-Modulino%C2%AE%20are%20sensors).
