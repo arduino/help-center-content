@@ -1,5 +1,6 @@
 ---
-title: "Reset the flash memory on STM32H747-based devices"
+title: Reset the flash memory on STM32H747-based devices
+id: 16206977438748
 ---
 
 Learn how to reset the QSPI flash memory for STM32H747-based Arduino devices by uploading a utility sketch. The sketch will remove any previous partitioning scheme, and recreate the factory-defined partition scheme. Finally, the latest connectivity firmware and TLS certificates are reinstalled.
