@@ -1,9 +1,9 @@
 ---
-title: "Set a board to DFU mode"
+title: "Set a UNO (Rev1 and Rev3) or Mega board to DFU (Device Firmware Update) mode"
 id: 4410804625682
 ---
 
-UNO (except WiFi Rev2) and Mega boards use either an Atmega16U2 or Atmega8U2 chip as a USB-to-serial converter. By setting a board to **DFU mode** you can [upload USB-to-Serial firmware to the chip](https://support.arduino.cc/hc/en-us/articles/4408887452434-Flash-USB-to-serial-firmware-in-DFU-mode).
+UNO (Rev1 and Rev3), and Mega boards use either an Atmega16U2 or Atmega8U2 chip as a USB-to-serial converter. By setting a board to **DFU mode** (Device Firmware Update) you can [upload USB-to-Serial firmware to the chip](https://support.arduino.cc/hc/en-us/articles/4408887452434-Flash-USB-to-serial-firmware-in-DFU-mode).
 
 1. Connect the board to your computer
 
@@ -17,7 +17,7 @@ The board will reset to DFU mode.
 
 <h2 id="rev1">Short the HWB line (Rev1 models)</h2>
 
-If you're using an Rev1 model, you also need to assert and hold the **HWB line**:
+If you're using a Rev1 model, you also need to assert and hold the **HWB line**:
 
 1. Find the two HWB pads on the back of the board.
 
@@ -35,4 +35,4 @@ The board will reset to DFU mode.
 
 ## Further reading
 
-* [Flash USB-to-Serial firmware in DFU mode](https://support.arduino.cc/hc/en-us/articles/4408887452434-Flash-USB-to-serial-firmware-in-DFU-mode).
+* [Flash USB-to-Serial firmware in Device Firmware Update (DFU) mode](https://support.arduino.cc/hc/en-us/articles/4408887452434-Flash-USB-to-serial-firmware-in-DFU-mode).
