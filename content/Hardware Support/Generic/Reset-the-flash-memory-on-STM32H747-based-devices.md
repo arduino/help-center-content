@@ -4,7 +4,11 @@ title: "Reset the flash memory on STM32H747-based devices"
 
 Learn how to reset the QSPI flash memory for STM32H747-based Arduino devices by uploading a utility sketch. The sketch will remove any previous partitioning scheme, and recreate the factory-defined partition scheme. Finally, the latest connectivity firmware and TLS certificates are reinstalled.
 
-This procedure can help resolve issues with storage or connectivity.
+You may want to use this procedure to:
+
+* Restore the factory-defined memory allocation for full support of Arduino IDE or Arduino Cloud.
+* Resolve issues with storage or connectivity.
+  * To use your device with PLC IDE, you will need to [reinstall the runtime](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license/#3-download-the-runtime).
 
 Supported devices:
 
