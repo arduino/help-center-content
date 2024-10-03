@@ -11,7 +11,7 @@ The following boards use either an Atmega16U2 or Atmega8U2 chip as a USB-to-seri
 * Arduino Mega2560 Rev3
 * Arduino MegaADK Rev3
 
-The converter chip firmware in these boards can be flashed with a computer by setting the board to **DFU mode** (Device Firmware Update).
+The converter chip firmware in these boards can be flashed with a computer by setting the board to **DFU mode** (Device Firmware Update). You may want to use this procedure to restore USB-to-serial functionality if the converter has become corrupted or is not working properly, and resolve communication issues between the board and your computer.
 
 > [!NOTE]
 > This article does _not_ apply to the UNO WiFi Rev2, UNO R4 WiFi, and UNO R4 Minima.
