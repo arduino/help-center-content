@@ -25,7 +25,7 @@ Supported devices:
 
    * Arduino IDE: Extract the .zip into your [Sketchbook](https://support.arduino.cc/hc/en-us/articles/4412950938514-Open-the-Sketchbook-folder). Ensure both `memory_partitioning.ino` and `certificates.h` are inside a folder named `memory_partitioning`.
 
-   * Cloud Editor: Open the [Sketches tab](https://app.arduino.cc/sketches) and click on the **Create** button in the top-right corner. Select **Import local file**.
+   * Cloud Editor: Open the [Sketches tab](https://app.arduino.cc/sketches) and click on the **Create** button in the top-right corner. Select **Import local file** in the dropdown menu and import `memory_partitioning.zip`.
 
 1. Open the imported sketch in your editor.
 
