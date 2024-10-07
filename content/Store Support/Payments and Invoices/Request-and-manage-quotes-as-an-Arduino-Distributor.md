@@ -8,7 +8,7 @@ Learn how to request and manage quotes as an Arduino Distributor in the [Arduino
 In this article:
 
 * [Request a quote](#request)
-* [Overview and manage quotes](#overview)
+* [View and manage quotes](#view)
 
 ---
 
@@ -46,7 +46,7 @@ In this article:
 
 ---
 
-<a id="overview"></a>
+<a id="view"></a>
 
 ## View and manage quotes
 
