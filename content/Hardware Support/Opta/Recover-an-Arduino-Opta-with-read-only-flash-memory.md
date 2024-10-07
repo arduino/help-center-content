@@ -13,7 +13,6 @@ The write protection can be removed by uploading a recovery sketch.
 
 ----
 
-
 Follow these steps:
 
 1. Download or copy the [unlockOptaNORFlash.ino](https://github.com/manchoz/unbrick-recover-readonly-flash-arduino-opta/blob/master/unlockOptaNORFlash/unlockOptaNORFlash.ino)[^1] sketch from GitHub.
