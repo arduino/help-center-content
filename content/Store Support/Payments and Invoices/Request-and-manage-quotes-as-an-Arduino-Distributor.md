@@ -18,7 +18,7 @@ In this article:
 
 1. Log in to the [Arduino B2B Store](https://distribution.arduino.cc/).
 
-2. Click the **Request a Quote** button in the top right corner.
+2. Click on the **Request a Quote** button in the top right corner.
 
    ![Arduino B2B Store navigation menu highlighting the 'Request a Quote' button, alongside the 'Welcome [User Name]' and 'Quick Order' buttons](img/Distributors_Request_a_quote_button.png)
 
