@@ -7,13 +7,12 @@ In certain situations, the QSPI flash memory on the Arduino Opta may become conf
 The QSPI flash is likely read-only if:
 
 * You are unable to erase or overwrite the QSPI flash memory.
-* You encounter an `Error formatting OTA partition` message when attempting to [partitioning the memory](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices).
+* You encounter an `Error formatting OTA partition` message when attempting to [partition the memory](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices).
 
 The write protection can be removed by uploading a recovery sketch.
 
 ----
 
-<!--  -->
 
 Follow these steps:
 
@@ -23,12 +22,12 @@ Follow these steps:
 
 1. Open the sketch in your editor:
 
-   * Arduino IDE: Do one of the following:
+   * In Arduino IDE, do one of the following:
 
      * Create a new sketch and paste the entire unlockOptaNORFlash sketch into the editor.
      * Copy the .ino file into your [Sketchbook](https://support.arduino.cc/hc/en-us/articles/4412950938514-Open-the-Sketchbook-folder). Ensure that `unlockOptaNORFlash.ino` is inside a folder named `unlockOptaNORFlash`.
 
-   * Cloud Editor: Open the [Sketches tab](https://app.arduino.cc/sketches) and click on the **Create** button in the top-right corner. Select **Import local file** in the dropdown menu and import `unlockOptaNORFlash.ino`.
+   * In Cloud Editor, open the [Sketches tab](https://app.arduino.cc/sketches) and click on the **Create** button in the top-right corner. Select **Import local file** in the dropdown menu and import `unlockOptaNORFlash.ino`.
 
 1. Connect your Opta to your computer and select it in the editor.
 
