@@ -48,7 +48,7 @@ In this article:
 
 <a id="overview"></a>
 
-## Overview and manage quotes
+## View and manage quotes
 
 Follow the steps below to check the details of a quote or download it as a PDF.
 
