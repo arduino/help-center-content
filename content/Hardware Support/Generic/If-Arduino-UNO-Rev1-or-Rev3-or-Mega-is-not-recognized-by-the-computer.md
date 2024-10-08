@@ -1,5 +1,5 @@
 ---
-title: "If Arduino UNO (Rev1 or Rev3) or Mega is not recognized by the computer"
+title: "If Arduino UNO (Rev3 or earlier) or Mega is not recognized by the computer"
 id: 4411209176722
 ---
 
