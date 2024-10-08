@@ -28,7 +28,7 @@ Follow these steps:
 
    * In Cloud Editor, open the [Sketches tab](https://app.arduino.cc/sketches) and click on the **Create** button in the top-right corner. Select **Import local file** in the dropdown menu and import `unlockOptaNORFlash.ino`.
 
-1. Connect your Opta to your computer and select it in the editor.
+1. Connect your Opta to your computer and select it in the editor. If your Opta does not appear on a port, press the **RESET** button twice in quick succession.
 
 1. ![Upload button](img/symbol_upload2.png) **Upload** the sketch.
 
