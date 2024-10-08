@@ -26,7 +26,7 @@ Within the platform directory, the usb to serial firmware is found in `firmwares
 | Arduino Mega2560 Rev3 | Arduino-usbserial-atmega16u2-Mega2560-Rev3.hex |
 | Arduino MegaADK Rev3  | Arduino-usbserial-atmega16u2-MegaADK-Rev3.hex  |
 | Arduino UNO Rev3      | Arduino-usbserial-atmega16u2-Uno-Rev3.hex      |
-| Arduino UNO (Rev1)    | Arduino-usbserial-uno.hex                      |
+| Arduino UNO (Rev1/Rev2)    | Arduino-usbserial-uno.hex                      |
 | Arduino Mega          | Arduino-usbserial-mega.hex                     |
 
 ## 2. Program the chip with the firmware
