@@ -1,5 +1,5 @@
 ---
-title: "Set a UNO (Rev1 and Rev3) or Mega board to DFU (Device Firmware Update) mode"
+title: "Set the Atmega16U2/8U2 chip on UNO (Rev3 or earlier) and Mega boards to DFU mode"
 id: 4410804625682
 ---
 
