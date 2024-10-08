@@ -35,4 +35,4 @@ The board will reset to DFU mode.
 
 ## Further reading
 
-* [Flash USB-to-Serial firmware in Device Firmware Update (DFU) mode](https://support.arduino.cc/hc/en-us/articles/4408887452434-Flash-USB-to-serial-firmware-in-DFU-mode).
+* [Flash the USB-to-serial firmware for UNO (Rev3 and earlier) and Mega boards](https://support.arduino.cc/hc/en-us/articles/4408887452434-Flash-USB-to-serial-firmware-in-DFU-mode).
