@@ -1,5 +1,5 @@
 ---
-title: "Flash USB-to-serial firmware in DFU (Device Firmware Update) mode"
+title: "Flash the USB-to-serial firmware for UNO (Rev3 and earlier) and Mega boards"
 id: 4408887452434
 ---
 
