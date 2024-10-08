@@ -3,7 +3,7 @@ title: "Set the Atmega16U2/8U2 chip on UNO (Rev3 or earlier) and Mega boards to 
 id: 4410804625682
 ---
 
-UNO (Rev1 and Rev3), and Mega boards use either an Atmega16U2 or Atmega8U2 chip as a USB-to-serial converter. By setting a board to **DFU mode** (Device Firmware Update) you can [upload USB-to-Serial firmware to the chip](https://support.arduino.cc/hc/en-us/articles/4408887452434-Flash-USB-to-serial-firmware-in-DFU-mode).
+UNO (Rev3 or earlier), and Mega boards use either an Atmega16U2 or Atmega8U2 chip as a USB-to-serial converter. By setting a board to **DFU mode** (Device Firmware Update) you can [upload USB-to-Serial firmware to the chip](https://support.arduino.cc/hc/en-us/articles/4408887452434-Flash-USB-to-serial-firmware-in-DFU-mode).
 
 1. Connect the board to your computer
 
