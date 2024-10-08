@@ -5,8 +5,7 @@ id: 4408887452434
 
 The following boards use either an Atmega16U2 or Atmega8U2 chip as a USB-to-serial converter:
 
-* Arduino UNO (Rev1)
-* Arduino UNO Rev3
+* Arduino UNO (Rev3 or earlier)
 * Arduino Mega
 * Arduino Mega2560 Rev3
 * Arduino MegaADK Rev3
