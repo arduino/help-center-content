@@ -23,7 +23,7 @@ Calibrating the internal sensor can correct these inaccuracies, giving you more 
 
 Once you have determined the offset, you can adjust the temperature readings in your sketch. Locate the part of the code that retrieves the temperature value and subtract the offset. For example:
 
-```
+```arduino
 float temperature = sensor.readTemperature(); // Function to get temperature from the sensor
 
 float offset = 5; // Your calculated offset
