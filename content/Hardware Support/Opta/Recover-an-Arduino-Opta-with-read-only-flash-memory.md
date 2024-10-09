@@ -1,5 +1,6 @@
 ---
 title: "Recover an Arduino Opta with read-only flash memory"
+id: 16289852333212
 ---
 
 In certain situations, the QSPI flash memory on the Arduino Opta may become configured as read-only.
