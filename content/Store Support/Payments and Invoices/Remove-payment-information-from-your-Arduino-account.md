@@ -2,8 +2,6 @@
 title: "Remove payment information from your Arduino account"
 ---
 
-## Remove a payment method
-
 1. Navigate to [Arduino.cc](https://www.arduino.cc/) and ensure that you're logged into your Arduino account.
 
 1. Click on your profile icon located on the top right of the screen
