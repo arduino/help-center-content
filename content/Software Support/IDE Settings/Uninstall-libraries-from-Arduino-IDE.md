@@ -7,8 +7,8 @@ Learn how to uninstall Arduino libraries, whether through the Library Manager fo
 
 In this article:
 
-* [Uninstall libraries using the Library Manager(requires IDE 2)](#library-manager). 
-* [Remove libraries manually using file manager](#file-manager).
+* [Uninstall libraries using the Library Manager(requires IDE 2)](#library-manager)
+* [Remove libraries manually using file manager](#file-manager)
 
 ---
 
@@ -34,8 +34,7 @@ The Library Manager in Arduino IDE 2 can be used to uninstall individual librari
 5. Confirm that you want to uninstall the library by clicking **Yes**.
 
 > [!NOTE]
-> If a newer version of the library is available, the **Remove** button will be replaced by an **Update** button. To remove the library in this case, click the three dots in the top-right corner and select **Remove**. 
-
+> If a newer version of the library is available, the **Remove** button will be replaced by an **Update** button. To remove the library in this case, click the three dots in the top-right corner and select **Remove**.
 
 ## Remove libraries manually using file manager {#file-manager}
 
