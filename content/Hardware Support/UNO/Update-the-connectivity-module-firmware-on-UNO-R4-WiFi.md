@@ -3,22 +3,18 @@ title: Update the connectivity module firmware on UNO R4 WiFi
 id: 9670986058780
 ---
 
-Learn how to update the firmware of the ESP32-S3 connectivity module on the UNO R4 WiFi.
-
-Updating the firmware is required to use UNO R4 WiFi with Arduino Cloud, and can resolve issues with UNO R4 WiFi not being detected by Arduino IDE and other development tools.
+Learn how to update the firmware of the ESP32-S3 connectivity module on the UNO R4 WiFi. This firmware is required to use your board with Arduino Cloud and for the board to be correctly detected on a USB port by Arduino development tools.
 
 In this article:
 
 * [Use the Firmware Updater in Arduino IDE](#ide)
-* [Use Arduino Cloud to update the firmware](#iot)
-* [Use the updater script](#unor4wifi-updater)
-* [Run espflash directly](#espflash)
+* [Use Arduino Cloud to update the firmware](#cloud)
+* [Use the "updater" script](#unor4wifi-updater)
+* [If you can't update the firmware](#if-you-cant-update-the-firmware)
 
 ---
 
-<a id="ide"></a>
-
-## Use the Firmware Updater in Arduino IDE
+## Use the Firmware Updater in Arduino IDE {#ide}
 
 Updating the connectivity firmware is easy when using the Firmware Updater in Arduino IDE 2.2.1 or later.
 
@@ -36,9 +32,9 @@ Follow these steps:
 
    ![Firmware Updater window displaying the board selection menu and the "check updates" button](img/firmware-updater-arduino-ide-2-check-updates.png)
 
-   > If your UNO R4 WiFi doesn't appear in the list, make sure it's securely connected with a working data USB cable, and try pressing the RST button on the board. If it still doesn't appear, it may be missing the USB bridge firmware. Follow the steps in [Run espflash directly](#espflash) to resolve the issue.
+   > If your UNO R4 WiFi doesn't appear in the list, make sure it's securely connected with a working data USB cable, and try pressing the RST button on the board. If it still doesn't appear, it may be missing the USB bridge firmware. Follow [these instructions](https://support.arduino.cc/hc/en-us/articles/16379769332892) to resolve the issue.
 
-5. Select the latest firmware version on the drop-down menu and click **Install**
+5. Select the latest firmware version on the drop-down menu and click **Install**.
 
    > [!NOTE]
    > Installation will overwrite any existing sketch on your board.
@@ -59,19 +55,15 @@ Follow these steps:
 
 ---
 
-<a id="iot"></a>
-
-## Use Arduino Cloud to update the firmware
+## Use Arduino Cloud to update the firmware {#cloud}
 
 When you add a new device to Arduino Cloud, the connectivity module firmware is automatically updated.
 
-<a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/10501616961564-Update-connectivity-module-firmware-with-IoT-Cloud">Learn more</a>
+[Update connectivity module firmware with Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/10501616961564-Update-connectivity-module-firmware-with-IoT-Cloud){.link-chevron-right}
 
 ---
 
-<a id="unor4wifi-updater"></a>
-
-## Use the updater script <!-- TODO -->
+## Use the "updater" script {#unor4wifi-updater}
 
 The code repository for the firmware provides an [updater script](https://github.com/arduino/uno-r4-wifi-usb-bridge/tree/main/unor4wifi-updater) that can be used as an alternative to the above options.
 
@@ -260,68 +252,10 @@ If you get a `VCRUNTIME140.dII was not found` error, download and install the <a
 
 ---
 
-<a id="espflash"></a>
+<a id="espflash"></a> <!-- This section previously contained the full procedure, keep this for old URLs -->
 
-## Run espflash directly
+## If you can't update the firmware {#if-you-cant-update-the-firmware}
 
-The above methods will not work if the board cannot be identified as a UNO R4 WiFi. This can happen if the custom firmware for the ESP32-S3 connectivity module is missing completely, or is not functioning correctly. However, the board can still be restored by [running espflash directly](https://github.com/arduino/uno-r4-wifi-usb-bridge/tree/main/unor4wifi-updater#option-2).
+The above methods will not work if the board cannot be identified as a UNO R4 WiFi. This can happen if the custom firmware for the ESP32-S3 connectivity module is missing completely, or is not functioning correctly. However, the board can still be restored using the espflash utility:
 
-Follow these steps:
-
-1. Unplug any non-essential USB devices from your computer.
-1. Short the pins highlighted in the image using a jumper wire:
-
-   ![The GND and Download ESP32 pins.](img/esp32-data-pins.png)
-1. Connect the UNO R4 WiFi board to your computer with the USB cable.
-1. Download and extract the .ZIP file for your system:
-   * <a class="link-download" href="https://github.com/arduino/uno-r4-wifi-usb-bridge/releases/latest/download/unor4wifi-update-windows.zip">unor4wifi-update-windows.zip</a>
-   * <a class="link-download" href="https://github.com/arduino/uno-r4-wifi-usb-bridge/releases/latest/download/unor4wifi-update-macos.zip">unor4wifi-update-macos.zip</a>
-   * <a class="link-download" href="https://github.com/arduino/uno-r4-wifi-usb-bridge/releases/latest/download/unor4wifi-update-linux.zip">unor4wifi-update-linux.zip</a>
-1. Open your system's command line application inside the extracted folder.
-   * **Windows:** Hold <kbd>⇧Shift</kbd> and right-click any blank space inside the extracted folder. In the context menu, select **Open command window here / Open PowerShell window here**.
-   * **macOS:** Control-click on the unzipped `unor4wifi-update-macos` folder and select "**New Terminal at Folder**" from the context menu. A terminal window will open.
-   * **Linux:** Open [a command line terminal](https://ubuntu.com/tutorials/command-line-for-beginners) in the extracted folder.
-1. Run the command:
-   * **Windows:** `bin\espflash write-bin -b 115200 0x0 (Get-Item .\firmware\UNOR4-WIFI-S3-*.bin).FullName`
-   * **macOS/Linux:** `./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-*.bin`
-
-<!-- Instructions per OS
-
-### Windows
-
-1. Unplug any non-essential USB devices from your computer.
-1. Connect the UNO R4 WiFi board to your computer with the USB cable.
-1. Download <a class="link-download" href="https://github.com/arduino/uno-r4-wifi-usb-bridge/releases/latest/download/unor4wifi-update-windows.zip">unor4wifi-update-windows.zip</a>
-1. [Unzip](https://support.microsoft.com/windows/f6dde0a7-0fec-8294-e1d3-703ed85e7ebc) the downloaded file.
-1. Open the extracted `unor4wifi-update-windows` folder in Command Prompt.
-1. Run the following command: `bin\espflash write-bin -b 115200 0x0 (Get-Item .\firmware\UNOR4-WIFI-S3-*.bin).FullName`
-
-### macOS
-
-1. Open the `unor4wifi-update-macos` in Terminal.
-
-2. Run the following command: `./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-*.bin`
-
-Example output:
-
-```
-sebastianwikstrom@mba unor4wifi-update-macos 4 % ./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-*.bin
-
-[2023-10-12T12:34:07Z INFO ] Detected 6 serial ports
-[2023-10-12T12:34:07Z INFO ] Ports which match a known common dev board are highlighted
-[2023-10-12T12:34:07Z INFO ] Please select a port
-❯ /dev/cu.wlan-debug
-  /dev/tty.wlan-debug
-  /dev/cu.MOMENTUMTW2
-  /dev/tty.MOMENTUMTW2
-  /dev/cu.Bluetooth-Incoming-Port
-  /dev/tty.Bluetooth-Incoming-Port
-```
-
-### Linux
-
-1. Open the `unor4wifi-update-linux` in Terminal.
-
-2. Run the following command: `./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-*.bin`
-
--->
+[Restore the connectivity firmware on UNO R4 WiFi with espflash](https://support.arduino.cc/hc/en-us/articles/16379769332892){.link-chevron-right}
