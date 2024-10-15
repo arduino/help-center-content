@@ -13,9 +13,9 @@ The message is spurious and **does not** indicate a failed sketch upload or any 
 
 In this article:
 
-* [About the warning message]()
-* [How to tell if the sketch was uploaded]()
-* [How to handle the message]()
+* [About the warning message](#about)
+* [How to tell if the sketch was uploaded](#how-to-tell-if-the-sketch-was-uploaded)
+* [What you can do](#what-you-can-do)
 
 ---
 
@@ -41,7 +41,7 @@ If the sketch upload fails, this will be indicated by other error messages, like
 
 ---
 
-## What you can do
+## What you can do {#what-you-can-do}
 
 These are some things you can do if you encounter the warning message:
 
@@ -55,7 +55,10 @@ These are some things you can do if you encounter the warning message:
 
   avrdude done.  Thank you.
   ```
+
   To enable verbose output, see [Use verbose output in the Arduino IDE](https://support.arduino.cc/hc/en-us/articles/4407705216274-Use-verbose-output-in-the-Arduino-IDE).
 
 * Use a third-party board package with a newer version of avrdude, such as [MegaCoreX](https://github.com/MCUdude/MegaCoreX).
   * Installation instructions for MegaCoreX can be found [here](https://github.com/MCUdude/MegaCoreX?tab=readme-ov-file#boards-manager-installation).
+
+<!-- markdownlint-disable-file HC006 -->
