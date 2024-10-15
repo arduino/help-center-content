@@ -9,6 +9,8 @@ id: 8824551178780
 
 - Ensure you've installed the latest version of the **Arduino PLC IDE** software.
 
+- Ensure that you have full administrative privileges when running PLC IDE.
+
 - Ensure you use a USB cable that supports data transfer.
 
 - When downloading the runtime, or connecting to the device, ensure you're [targeting the correct port](#about-ports).

@@ -13,6 +13,7 @@ id: 4407770369042
 
 ![The Pro Gateway setup activation page.](img/lora-gateway-connect-activating.png)
 
+> [!NOTE]
 > Refresh the page if the activation appears to be stuck.
 
 Your device should now appear in your Linux devices.

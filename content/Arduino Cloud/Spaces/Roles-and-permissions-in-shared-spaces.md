@@ -18,6 +18,7 @@ These spaces have _Student_, _Teacher_, and _Admin_ member roles.
 * Can access courses that are shared in the Space
 * Expanded account features and limits offered by the School plan
 
+> [!NOTE]
 > You can compare the Free and School plan by going to [arduino.cc/cloud/plans](https://cloud.arduino.cc/plans) and clicking the "For Schools" tab.
 
 ### Teachers

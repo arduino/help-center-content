@@ -11,7 +11,8 @@ Arduino Cloud Editor allows you to import sketches and files in the following fo
 - Libraries in `.zip` format.
 - Zipped folders containing sketches and libraries.
 
-> Note: Make sure your libraries are in a folder called ‘libraries’. Be sure not to mix sketches and libraries in the same folder.
+> [!NOTE]
+> Make sure your libraries are in a folder called ‘libraries’. Be sure not to mix sketches and libraries in the same folder.
 
 ## Steps
 

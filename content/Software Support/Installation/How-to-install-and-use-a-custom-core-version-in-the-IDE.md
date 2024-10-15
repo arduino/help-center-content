@@ -9,6 +9,7 @@ In this guide, we'll create the appropriate folder structure and install a core.
 
 ## 1. Creating the folder structure
 
+> [!NOTE]
 > You can skip this step if you already have a folder.
 
 In the commands below, `<sketchbook>` refers to the location of your sketchbook folder. It is typically located in the `Arduino` subfolder of your Documents folder, but you can find the location in the IDE preferences under `Sketchbook location`.
@@ -68,6 +69,7 @@ The Mbed OS, SAMD, and megaAVR boards platforms (as well as AVR in the near futu
 
 ### Installing the ArduinoCore-API
 
+> [!NOTE]
 > You can skip this step if you already have the ArduinoCore-API installed, or if it's not needed by your platform.
 
 Download and extract the API, or clone it, into a directory of your choice.

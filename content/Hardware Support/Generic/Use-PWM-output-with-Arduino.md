@@ -15,7 +15,7 @@ Here's a basic example:
 
 ```arduino
 int ledPin = 9;      // LED connected to digital pin 9
-int analogPin = 3;   // potentiometer connected to analog pin 3
+int analogPin = A0;  // potentiometer connected to analog pin A0
 int val = 0;         // variable to store the read value
 
 void setup() {
@@ -27,6 +27,17 @@ void loop() {
   analogWrite(ledPin, val / 4); // analogRead values go from 0 to 1023, analogWrite values from 0 to 255
 }
 ```
+
+---
+
+## Change the PWM resolution
+
+Depending on your board's core, you can modify the resolution of PWM signals using the [`analogWriteResolution()`](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWriteResolution/) function. By default, the resolution is 8 bits, meaning that values passed to the `analogWrite()` function range between 0 and 255, which ensures backward compatibility with AVR-based boards.
+
+To change the resolution, use `analogWriteResolution(bits)`, where `bits` determines the resolution in bits, ranging from 1 to 32. [See an example code](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWriteResolution/#example-code).
+
+> [!NOTE]
+> If the resolution set is higher than your board’s capabilities, the extra bits will be discarded. If it's lower than your board’s capabilities, the missing bits will be padded with zeros.
 
 ---
 

@@ -117,6 +117,7 @@ This error can happen if the board on the selected port has been disconnected fr
 
 2. If using the classic Nano, try selecting a different processor in _Tools > Processor_.
 
+> [!NOTE]
 > On Windows, you can [manually set a port for the board](https://support.arduino.cc/hc/en-us/articles/360016420140#set-COM-port) to stop it from being reassigned.
 
 ---

@@ -9,6 +9,7 @@ Learn more about the different shipping methods available in the Arduino Store.
 * Shipments to the [USA](#usa).
 * Shipments to [America (excl. USA), Asia and Oceania](#america-asia-oceania).
 
+> [!NOTE]
 > Delivery time changes depending on the selected carrier and destination country as indicated in the checkout phase. Carrier delivery time does not include the order processing period. Arduino Srl and Arduino LLC cannot be held responsible for the carrier's late deliveries.
 
 ---
