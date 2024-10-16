@@ -7,7 +7,7 @@ Learn how to uninstall Arduino libraries, whether through the Library Manager fo
 
 In this article:
 
-* [Uninstall libraries using the Library Manager(requires IDE 2)](#library-manager)
+* [Uninstall libraries using the Library Manager](#library-manager)
 * [Remove libraries manually using file manager](#file-manager)
 
 ---

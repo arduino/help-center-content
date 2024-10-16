@@ -38,7 +38,7 @@ In this article:
 
 ## Importing a .zip Library{zip-library}
 
-1. In the menu bar, go to `Sketch > Include Library > Add .ZIP Library...`
+1. In the menu bar, go to *Sketch > Include Library > Add .ZIP Library...*
 
 2. You will be prompted to select the library you want to add. Navigate to the .zip file's location and open it.
 
