@@ -32,7 +32,7 @@ If you are part of any Cloud spaces with School or Enterprise plans, they will a
 
 Each plan is associated to one space in Arduino Cloud.
 
-On the [My plans](#review) page, you can what space the features for each plan is active in:
+On the [My plans](https://digital-store.arduino.cc/subscriptions/plans) page, you can what space the features for each plan is active in:
 
 * Individual plans (Entry, Maker, and Maker Plus) increase the limits of your **Private Space**.
 * Enterprise plans increase the limits of the shared space displayed below the text "Enterprise Plan".
