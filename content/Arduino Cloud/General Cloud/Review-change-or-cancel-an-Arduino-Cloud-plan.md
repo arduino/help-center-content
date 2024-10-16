@@ -6,7 +6,7 @@ id: 4401881299090
 You can review, change or cancel your Arduino Cloud plan at any time:
 
 * [Review your current plans](#review)
-* [Understand which space each plan is associated to](#space-plan-association)
+* [Understand where plan features are active](#space-plan-association)
 * [Change payment method and billing info](#payment-and-billing)
 * [Modify a plan](#switch)
 * [Cancel a plan](#cancel)
@@ -30,10 +30,7 @@ If you are part of any Cloud spaces with School or Enterprise plans, they will a
 
 ## Understand where plan features are active
 
-Each plan is associated to one space in Arduino Cloud. Go to [My plans](https://digital-store.arduino.cc/subscriptions/plans) to see 
-
-
-On the [My plans](https://digital-store.arduino.cc/subscriptions/plans) page, you can see what space the features for each plan is active in:
+Each plan is associated with a specific space in Arduino Cloud. Go to [My Plans](https://digital-store.arduino.cc/subscriptions/plans) to see where the features of each plan are active:
 
 * Individual plans (Entry, Maker, and Maker Plus) increase the limits of your **Private Space**.
 * Enterprise plans increase the limits of the shared space displayed below the text "Enterprise Plan".
