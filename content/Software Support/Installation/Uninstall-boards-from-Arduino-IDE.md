@@ -7,42 +7,32 @@ The Boards Manager provides the most convenient way to remove unwanted or unused
 
 The following instructions to uninstall is not limited to the core in this example; it equally would be applicable to both official Arduino and third party cores.
 
+In this article:
+
+- [Uninstall using the Boards Manager](#uninstall_board)
+- [Uninstall by directly deleting files](#delete_files)
+
 ---
 
-## Uninstall using the Boards Manager
-
-> [!NOTE]
-> In Arduino IDE 1.x, the "Arduino AVR Boards" package is bundled with [the application files](https://support.arduino.cc/hc/en-us/articles/4412943340178-Open-the-Arduino-IDE-installation-folder) and cannot be uninstalled using the Boards Manager.
+## Uninstall using the Boards Manager{#uninstall_board}
 
 The Boards Manager provides the most convenient way to remove unwanted or unused boards.
 
-1. **Open the Boards Manager:**
-
-   * In the menu bar, select _Tools > Board > Boards Manager..._
-   * In IDE 2, you can also click on the ![Boards Manager icon](img/symbol_board.png) button in the sidebar.
+1. In the menu bar, select *Tools > Board > Boards Manager...* or you can also click on the ![Boards Manager icon](img/symbol_board.png) button in the sidebar.
 
 2. Filter the results by typing in the text field, and find the board package you want to uninstall.
 
-3. **Uninstall the library:**
+3. Click the **Remove** button.
 
-   * In Arduino IDE 1.x, click the **Remove** button.
+   ![Uninstalling AVR Boards package.](img/uninstall-board.png)
 
-   * In Arduino IDE 2, hover over the "Installed" label to reveal the **Uninstall** button, and click it.
-
-   ![Uninstalling the SAMD package in Arduino IDE 1 and IDE 2.](img/uninstall-board.png)
-   _The Library Manager looks slightly different depending on what version of the IDE you are using._
-
-4. Confirm that you want to uninstall the board package.
+4. Confirm that you want to uninstall the library by clicking **Yes**.
 
 5. Wait while Arduino IDE uninstalls the board package.
 
-If you want to remove many packages, or are unsure which packages are installed, it will be more efficient to [delete the files directly](#delete-files).
-
 ---
 
-<a id="delete-files"></a>
-
-## Uninstall by directly deleting files
+## Uninstall by directly deleting files{#delete_files}
 
 The files can also be removed directly with your system's file manager application:
 
@@ -60,4 +50,4 @@ The files can also be removed directly with your system's file manager applicati
 
 ## Further reading
 
-* [Add boards to Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360016119519)
+- [Add boards to Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360016119519)
