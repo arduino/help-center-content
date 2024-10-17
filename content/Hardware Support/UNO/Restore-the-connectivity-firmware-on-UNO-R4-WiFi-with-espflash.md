@@ -31,8 +31,8 @@ Follow these steps:
    * **Windows:** `bin\espflash write-bin -b 115200 0x0 (Get-Item .\firmware\UNOR4-WIFI-S3-*.bin).FullName`
    * **macOS/Linux:** `./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-*.bin`
      > [!NOTE]
-     > You may need to adjust your system's security settings to allow this command if you encounter a warning pop-up. To proceed, go to _System Preferences > Privacy & Security_, and under _Security_, click _Allow Anyway_ to allow espflash to run . 
-   
+     > You may need to adjust your system's security settings to allow this command if you encounter a warning pop-up. To proceed, go to _System Preferences > Privacy & Security_, and under _Security_, click _Allow Anyway_ to allow espflash to run.
+
 1. The terminal window might now show a list of the serial ports present on your computer. Use the arrow keys on your keyboard to select the port for the board and then press the <kbd>**Enter**</kbd> key.
    * **Windows:** The board will have a name like "USB Serial Device".
    * **macOS:** The board will be named "USB JTAG_serial debug unit". Two ports with this name will be available, select the port that starts with `/dev/cu.usbmodem*`. <!-- TODO: Same for Linux, probably. Confirm this. -->
@@ -61,5 +61,3 @@ Follow these steps:
 1. Close the terminal window.
 1. Disconnect the USB cable of the **UNO R4 WiFi** board from your computer.
 1. Connect the **UNO R4 WiFi** board to your computer with the USB cable again.
-
-<!-- `/dev/cu.usbmodem13301 - USB JTAG_serial debug unit` -->
