@@ -3,7 +3,7 @@ title: "Add boards to Arduino IDE"
 id: 360016119519
 ---
 
-A **board core** (or just *board* for short) is a collection of files needed to compile and upload sketches for a board. Cores are contained in *packages* and can be installed using the Board Manager.
+A **board core** (or just _board_ for short) is a collection of files needed to compile and upload sketches for a board. Cores are contained in _packages_ and can be installed using the Board Manager.
 
 In this article:
 
@@ -17,7 +17,7 @@ In this article:
 
 Official Arduino cores can be conveniently installed with the Boards Manager tool.
 
-1. In the menu bar, select *Tools > Board > Boards Manager...* or you can also click on the ![Boards Manager icon](img/symbol_board.png) button in the sidebar.
+1. In the menu bar, select _Tools > Board > Boards Manager..._ or you can also click on the ![Boards Manager icon](img/symbol_board.png) button in the sidebar.
 
 2. Either search for the package name (e.g. "megaAVR"), or the board (e.g. "Uno", "MKR1000", or "Portenta"), by typing in the search field.
 
@@ -25,13 +25,14 @@ Official Arduino cores can be conveniently installed with the Boards Manager too
 
 4. Click **Install** (the latest version is selected by default).
 
+   > [!NOTE]
    > If the package is already installed, you will instead have the option of installing a different version.
 
 5. Wait for the installation to complete.
 
    ![Board Manager](img/board-manager-install-ide2.png)
 
-You can now select boards from the installed packages in the *Tools > Board* menu:
+You can now select boards from the installed packages in the _Tools > Board_ menu:
 
 ![Selecting Arduino Nano Every from the megaAVR package in Arduino IDE.](img/ide_menu_tools_board_megaAVR_nano_every.png)
 
