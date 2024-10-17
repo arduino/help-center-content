@@ -46,7 +46,7 @@ If the sketch upload fails, this will be indicated by other error messages, like
 These are some things you can do if you encounter the warning message:
 
 * Ignore the warning message. It will not prevent your sketch from uploading.
-* Enable verbose upload output. This will not remove the warning, but the additional console output from avrdude will provide clearer confirmation of a successful upload. When verbose upload output is enable, a successful sketch upload will look something like this:
+* Enable verbose upload output. This will not remove the warning, but the additional console output from avrdude will provide clearer confirmation of a successful upload. When verbose upload output is enabled, a successful sketch upload will look something like this:
 
   ```
   Writing | ################################################## | 100% 0.01s
