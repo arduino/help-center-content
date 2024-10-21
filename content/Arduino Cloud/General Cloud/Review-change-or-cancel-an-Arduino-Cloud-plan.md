@@ -3,7 +3,9 @@ title: "Review, change, or cancel an Arduino Cloud plan"
 id: 4401881299090
 ---
 
-You can review, change or cancel your Arduino Cloud plan at any time:
+You can review, change or cancel your Arduino Cloud plan at any time.
+
+In this article:
 
 * [Review your current plans](#review)
 * [Understand where plan features are active](#space-plan-association)
