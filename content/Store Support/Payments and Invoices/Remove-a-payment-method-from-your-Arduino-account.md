@@ -24,9 +24,8 @@ Learn how to remove a payment method from your Arduino account.
 
 1. Click on **Review Payment Information**.
 
-![Review Payment Information Button bottom right corner](img/review-payment-information-button.png)
+    ![Review Payment Information Button bottom right corner](img/review-payment-information-button.png)
 
 1. Under the **Payment Method** section, select the payment method and click **Delete**.
 
-1. Select **Yes, Delete** in the pop-up. 
-
+1. Select **Yes, Delete** in the pop-up.
