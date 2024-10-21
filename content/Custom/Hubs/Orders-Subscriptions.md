@@ -88,10 +88,10 @@ id: 9396866125980
     </p>
   </div>
 </div>
-<h2 id="h_01JAFD11AJJ7AZWX3902RVBY8R" class="center hub">Search other topics</h2>
+<h2 class="center hub">Search other topics</h2>
 <div class="search">
-  <form class="search search-full" role="search" data-search="data-search" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get">
+  <form class="search search-full" role="search" data-search="" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get">
     <img class="search-icon" src="https://content.arduino.cc/assets/hc-search.svg">
     <input name="utf8" type="hidden" value="✓" autocomplete="off"><input id="query" role="combobox" type="search" name="query" placeholder="How can we help?" autocomplete="off" aria-label="Search" aria-autocomplete="both" aria-expanded="false" aria-owns="2a88cedd-5eb4-4ed7-bdf9-834d77880f1c">
   </form>
-</div>
+  
