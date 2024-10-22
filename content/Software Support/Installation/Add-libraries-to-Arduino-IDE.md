@@ -19,7 +19,7 @@ In this article:
 1. Do one of the following:
 
    - In the menu bar, select _Tools > Manage Libraries..._
-   - In IDE 2, you can also click on the ![Library Manager icon](img/symbol_library.png) button in the sidebar.
+   - In the sidebar, click on the ![Library Manager icon](img/symbol_library.png) button.
 
 2. Filter the available libraries by typing something (such as a library name) in the text field above the listed libraries.
 
@@ -76,6 +76,6 @@ When the library has been installed you can do the following:
 
 - [Uninstall a library from Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360016077340-Uninstall-a-library-from-Arduino-IDE)
 
-- [Installing libraries in the Arduino IDE 2](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library) on Arduino Docs
+- [Installing libraries in the Arduino IDE](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library) on Arduino Docs
 
 - About [#include](https://www.arduino.cc/reference/en/language/structure/further-syntax/include/)
