@@ -1,9 +1,9 @@
 ---
-title: "Restore the connectivity firmware on UNO R4 WiFi with espflash"
+title: "Restore the USB connectivity firmware on UNO R4 WiFi with espflash"
 id: 16379769332892
 ---
 
-The UNO R4 WiFi has a ESP32-S3 chip, which handles the USB-to-serial communication. The firmware for this chip can normally be upgraded [using Arduino IDE or Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/9670986058780-Update-the-connectivity-module-firmware-on-UNO-R4-WiFi#iot), but if this is not possible the firmware can be restored using **espflash**.
+The UNO R4 WiFi has a ESP32-S3 chip, which handles the USB-to-serial communication. The firmware for this chip can normally be upgraded [using Arduino IDE or Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/9670986058780-Update-the-connectivity-module-firmware-on-UNO-R4-WiFi), but if this is not possible the firmware can be restored using **espflash**.
 
 You may want to use this procedure if:
 
@@ -14,11 +14,17 @@ You may want to use this procedure if:
 
 Follow these steps:
 
-1. Unplug any non-essential USB devices from your computer.
-1. Short the pins highlighted in the image using a jumper wire:
+1. Unplug UNO R4 WiFi and any non-essential USB devices from your computer.
+1. On the board, find the **GND** and **Download** pins on the 6-pin header next to the USB-C connector:
 
    ![The GND and Download ESP32 pins.](img/esp32-data-pins.png)
-1. Maintain the short between these pins as you connect the UNO R4 WiFi board to your computer with a USB cable.
+1. Connect the board to your computer while shorting the GND and Download pins.
+
+   * This can easily be done by connecting a female-to-female jumper wire between the two pins.
+   * If you don't have a female-to-female jumper wire, you can use some other pointy, conductive object (such as one end of a male-to-male jumper wire) and position to have contact with both pins. You can release the short after you've connected the board to your computer.
+1. The ESP32 should now be in Download mode, which allows firmware to be flashed.
+
+   * You may get a system message about a new device being connected. If prompted, allow it to connect.
 1. Download and extract the .ZIP file for your system:
    * [unor4wifi-update-windows.zip](https://github.com/arduino/uno-r4-wifi-usb-bridge/releases/latest/download/unor4wifi-update-windows.zip){.link-download}
    * [unor4wifi-update-macos.zip](https://github.com/arduino/uno-r4-wifi-usb-bridge/releases/latest/download/unor4wifi-update-macos.zip){.link-download}
@@ -60,4 +66,5 @@ Follow these steps:
 
 1. Close the terminal window.
 1. Disconnect the USB cable of the **UNO R4 WiFi** board from your computer.
+1. Ensure that the Download pin is no longer shorted.
 1. Connect the **UNO R4 WiFi** board to your computer with the USB cable again.
