@@ -9,22 +9,21 @@ Learn how to remove a payment method from your Arduino account.
 
 ---
 
-1. Navigate to [Arduino.cc](https://www.arduino.cc/) and ensure that you're logged into your Arduino account.
+1. Open the **My Plans** page by either:
 
-1. Click on your profile icon located on the top right of the screen
-
-1. Click on **My Plans**
+   - Visiting [digital-store.arduino.cc/subscriptions/plans](https://digital-store.arduino.cc/subscriptions/plans).
+   - Clicking your profile icon at the top of any Arduino page (when signed in), then selecting My Plans from the dropdown.
 
 1. Click on **Modify Plans**
 
 1. Select any plan from the available options.
 
-    > [!NOTE]
-    > This step is necessary to access the payment settings; the specific plan you choose won't affect the process.
+   > [!NOTE]
+   > This step is necessary to access the payment settings; the specific plan you choose won't affect the process.
 
 1. Click on **Review Payment Information**.
 
-    ![Review Payment Information Button bottom right corner](img/review-payment-information-button.png)
+   ![Review Payment Information Button bottom right corner](img/review-payment-information-button.png)
 
 1. Under the **Payment Method** section, select the payment method and click **Delete**.
 
