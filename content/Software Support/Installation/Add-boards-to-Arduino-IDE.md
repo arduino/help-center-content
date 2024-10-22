@@ -17,7 +17,7 @@ In this article:
 
 Official Arduino cores can be conveniently installed with the Boards Manager tool.
 
-1. In the menu bar, select _Tools > Board > Boards Manager..._ or you can also click on the ![Boards Manager icon](img/symbol_board.png) button in the sidebar.
+1. In the menu bar, select _Tools > Board > Boards Manager..._ ,or click on the ![Boards Manager icon](img/symbol_board.png) button in the sidebar.
 
 2. Either search for the package name (e.g. "megaAVR"), or the board (e.g. "Uno", "MKR1000", or "Portenta"), by typing in the search field.
 
