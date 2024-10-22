@@ -8,7 +8,7 @@ Learn how to uninstall Arduino libraries, whether through the Library Manager fo
 In this article:
 
 * [Uninstall libraries using the Library Manager](#library-manager)
-* [Remove libraries manually using file manager](#file-manager)
+* [Remove libraries manually using the file manager](#file-manager)
 
 ---
 
@@ -16,7 +16,7 @@ In this article:
 
 The Library Manager in Arduino IDE 2 can be used to uninstall individual libraries:
 
-1. Click the ![Library Manager button](img/symbol_library.png) **Library Manager** button or select _Tools > Manage Libraries..._ in the menu bar.
+1. Click the ![Library Manager button](img/symbol_library.png) **Library Manager** button in the sidebar, or select _Tools > Manage Libraries..._ in the menu bar.
 
 2. Filter your search:
 
@@ -27,7 +27,7 @@ The Library Manager in Arduino IDE 2 can be used to uninstall individual librari
 
 3. Find the library in the search results. Note that the results are listed alphabetically.
 
-4. Click the **Remove** Button
+4. Click the **Remove** button.
 
    ![Uninstalling the AlPlc_Opta library.](img/ide2-library-manager-uninstall.png)
 
@@ -36,7 +36,7 @@ The Library Manager in Arduino IDE 2 can be used to uninstall individual librari
 > [!NOTE]
 > If a newer version of the library is available, the **Remove** button will be replaced by an **Update** button. To remove the library in this case, click the three dots in the top-right corner and select **Remove**.
 
-## Remove libraries manually using file manager{#file-manager}
+## Remove libraries manually using the file manager{#file-manager}
 
 This method allows you to remove many libraries at once. It works for all types of libraries and versions of Arduino IDE.
 
