@@ -1,5 +1,6 @@
 ---
-title: "Remove a payment method from your Arduino account"
+title: Remove a payment method from your Arduino account
+id: 16515654633756
 ---
 
 Learn how to remove a payment method from your Arduino account.
