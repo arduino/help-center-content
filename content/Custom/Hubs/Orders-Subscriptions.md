@@ -36,6 +36,14 @@ id: 9396866125980
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/14085643116700-If-you-haven-t-received-your-delivery">Find out what to do if your package is missing</a>
   </div>
+  <div class="info-item ">
+    <img src="https://content.arduino.cc/assets/hc-cloud.svg">
+    <p class="info-title ">Your Arduino Cloud plan</p>
+    <p>
+      Learn how to review, change, or cancel your Arduino Cloud plan.
+    </p>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4401881299090-Review-change-or-cancel-your-Arduino-Cloud-plan">Manage your Cloud plan</a>
+  </div>
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-Card.svg">
     <p class="info-title">Payment methods</p>
@@ -55,15 +63,7 @@ id: 9396866125980
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4409759302290-Place-an-order-at-the-Arduino-Official-Store">How to buy on the Arduino Official Store</a>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/14755472001308-How-to-make-a-tax-exempt-order">Place a tax-exempt order</a>
   </div>
-  <div class="info-item ">
-    <img src="https://content.arduino.cc/assets/hc-cloud.svg">
-    <p class="info-title ">Your Arduino Cloud plan</p>
-    <p>
-      Learn how to review, change, or cancel your Arduino Cloud plan.
-    </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4401881299090-Review-change-or-cancel-your-Arduino-Cloud-plan">Manage your Cloud plan</a>
-  </div>
-    <div class="info-item">
+  <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-resistor.svg">
     <p class="info-title">Education Kit components</p>
     <p>
@@ -80,7 +80,7 @@ id: 9396866125980
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360022125620-Request-and-manage-quotes-as-an-Arduino-Distributor">Request and manage quotes as an Arduino Distributor</a>
   </div>
-   <div class="info-item info-big">
+  <div class="info-item info-big">
     <p class="info-title ">Arduino's billing information</p>
     <p>
       If you need Arduino’s billing details to complete an order for a school or organization, you can find them on our transparency page:
