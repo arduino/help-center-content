@@ -10,7 +10,7 @@ id: 9396866125980
     <span class="link-chevron-right">Track your order</span>
   </div>
   <div class="actions-item">
-    <img src="https://content.arduino.cc/assets/hc-list.svg">
+    <img src="https://content.arduino.cc/assets/hc-invoice3.svg">
     <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/360016121859-How-can-I-get-my-invoice-"></a>
     <span class="link-chevron-right">Get your invoice</span>
   </div>
