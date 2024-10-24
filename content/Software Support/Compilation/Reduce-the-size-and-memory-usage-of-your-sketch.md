@@ -37,7 +37,7 @@ Learn how to reduce the size and memory usage of your sketch.
 * **Minimize array sizes.** Don't declare larger arrays than needed.
 * **Check your libraries** to save storage. Avoid [including](https://www.arduino.cc/reference/tr/language/structure/further-syntax/include/) large libraries unless you need to. Save storage by implementing your own code that only does what you need.
 
-* **Store constant data in storage instead of memory** with [PROGMEM](https://www.arduino.cc/reference/en/language/variables/utilities/progmem/).
+* **Store constant data in storage instead of memory** with [PROGMEM](https://docs.arduino.cc/language-reference/en/variables/utilities/PROGMEM/).
 
 > [!NOTE]
 > Arduino sketches are written in the Arduino language, which is based on standard C++. Therefore, using general C++ optimization techniques will help.

@@ -30,7 +30,7 @@ You can then set the value for each channel with the [`digitalWrite(pin, value)`
 > [!IMPORTANT]
 > The RGB pins are **active-low**. This means that the pin is activated (turning on the LED) when the voltage is low.
 
-To control the brightness or produce different colors, use the [`analogWrite(pin, value)`](https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/) function. For the `value` parameter, you can use a number from `0` to `255`. Because the RGB pins are active-low, a value of `0` will activate the pin's LED at full brightness, while a value of `255` turns it off completely.
+To control the brightness or produce different colors, use the [`analogWrite(pin, value)`](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/) function. For the `value` parameter, you can use a number from `0` to `255`. Because the RGB pins are active-low, a value of `0` will activate the pin's LED at full brightness, while a value of `255` turns it off completely.
 
 * `analogWrite(LEDG, 255)` – turn the GREEN LED **off**.
 * `analogWrite(LEDB, 128)` – turn the RED channel **off**.

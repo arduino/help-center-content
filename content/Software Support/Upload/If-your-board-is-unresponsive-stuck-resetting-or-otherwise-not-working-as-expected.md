@@ -11,7 +11,7 @@ Learn what to do if your board appears to be running a sketch, but is not behavi
 
 2. Check the power supply. If your board is powered by a USB cable, try using a different cable, or a different USB port on your computer. If using an external power supply, try using a USB cable.
 
-3. Check your sketch for incorrect use of [Watchdog](https://www.arduino.cc/reference/en/libraries/watchdog/) resets or other declared reset functions that can cause the board to reset unexpectedly. If you're able to upload your sketch but it's not working as expected, debug your if, for and while statements with [Serial.print()](https://www.arduino.cc/reference/en/language/functions/communication/serial/print/) and check the Serial Monitor. Make sure you're not assigning values to an array outside its declared length.
+3. Check your sketch for incorrect use of [Watchdog](https://www.arduino.cc/reference/en/libraries/watchdog/) resets or other declared reset functions that can cause the board to reset unexpectedly. If you're able to upload your sketch but it's not working as expected, debug your if, for and while statements with [Serial.print()](https://docs.arduino.cc/language-reference/en/functions/communication/Serial/print/) and check the Serial Monitor. Make sure you're not assigning values to an array outside its declared length.
 
 4. Reset the memory. Copy and paste the [BareMinimum](https://www.arduino.cc/en/Tutorial/BuiltInExamples/BareMinimum) sketch below or open it with _File > Examples > 01.Basics > BareMinimum in Arduino IDE. Then, double-tap the RESET button to put the board in bootloader mode. If it's detected on a port, upload the sketch.
 
