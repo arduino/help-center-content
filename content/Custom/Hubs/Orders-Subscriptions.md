@@ -6,18 +6,18 @@ id: 9396866125980
 <div class="actions-wrapper">
   <div class="actions-item">
     <img src="https://content.arduino.cc/assets/hc-Truck.svg">
-    <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/5340909969948-About-the-delivery-process"></a>
-    <span class="link-chevron-right">About the delivery process</span>
+    <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/13756849779228-Track-your-order"></a>
+    <span class="link-chevron-right">Track your order</span>
   </div>
   <div class="actions-item">
-    <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/5340856700188-Available-shipping-methods"></a>
-    <img src="https://content.arduino.cc/assets/hc-Box.svg">
-    <span class="link-chevron-right">Available shipping methods</span>
+    <img src="https://content.arduino.cc/assets/hc-invoice3.svg">
+    <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/360016121859-How-can-I-get-my-invoice-"></a>
+    <span class="link-chevron-right">Get your invoice</span>
   </div>
   <div class="actions-item">
-    <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/360016121879-Accepted-payment-methods"></a>
-    <img src="https://content.arduino.cc/assets/hc-Card.svg">
-    <span class="link-chevron-right">Accepted payment methods</span>
+    <img src="https://content.arduino.cc/assets/hc-undo.svg" width="68" height="68">
+    <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/360014704319-Return-an-item"></a>
+    <span class="link-chevron-right">Return an item</span>
   </div>
   <div class="actions-item">
     <img src="https://content.arduino.cc/assets/hc-arduino-cloud-hub.svg">
@@ -27,87 +27,63 @@ id: 9396866125980
 </div>
 <div class="info-wrapper">
   <div class="info-item">
-    <!--<img src="https://content.arduino.cc/assets/hc-warning.svg">-->
-    <p class="info-title">Not receiving emails from Arduino?</p>
+    <img src="https://content.arduino.cc/assets/hc-help.svg" width="68" height="68">
+    <p class="info-title">If you haven't received your delivery</p>
     <p>
-      Learn more about possible solutions for issues with receiving Arduino
-      emails.
+      In rare cases, an order might not reach its destination even when the
+      tracking displays it as delivered. This is more common with shipping
+      methods that don’t offer proof of delivery.
     </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360018415520-I-am-not-receiving-any-Arduino-emails">Read the article</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/14085643116700-If-you-haven-t-received-your-delivery">Find out what to do if your package is missing</a>
+  </div>
+  <div class="info-item ">
+    <img src="https://content.arduino.cc/assets/hc-cloud.svg">
+    <p class="info-title ">Your Arduino Cloud plan</p>
+    <p>
+      Learn how to review, change, or cancel your Arduino Cloud plan.
+    </p>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4401881299090-Review-change-or-cancel-your-Arduino-Cloud-plan">Manage your Cloud plan</a>
   </div>
   <div class="info-item">
-    <!--<img src="https://content.arduino.cc/assets/hc-Turn.svg">-->
-    <p class="info-title">About refunds and returns</p>
-    <p>
-      Learn more about replacement and return of products and services:
-    </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360014704319-Return-an-item">Return an item</a>
+    <img src="https://content.arduino.cc/assets/hc-Card.svg">
+    <p class="info-title">Payment methods</p>
+    <p>Accepted payment methods vary between products in the Arduino Store and subscriptions in the Digital Store, as well as whether you are buying as an individual, educational institution, or company.</p>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016121879-Accepted-payment-methods">View accepted payment methods</a>
+  </div>
+  <div class="info-item">
+    <img src="https://content.arduino.cc/assets/hc-Box.svg">
+    <p class="info-title">Shipping methods</p>
+    <p>Learn more about the available shipping methods for different regions. Delivery times vary based on carriers and destination countries.</p>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/5340856700188-Available-shipping-methods">Explore shipping methods</a>
+  </div>
+  <div class="info-item">
+   <img src="https://content.arduino.cc/assets/hc-order.svg" width="68" height="68">
+    <p class="info-title ">Place an order</p>
+    <p>Learn how to place an order on the Arduino Official Store.</p>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4409759302290-Place-an-order-at-the-Arduino-Official-Store">How to buy on the Arduino Official Store</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/14755472001308-How-to-make-a-tax-exempt-order">Place a tax-exempt order</a>
   </div>
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-resistor.svg">
     <p class="info-title">Education Kit components</p>
     <p>
-      Find replacements if a component is broken or missing from an Education
-      kit:
+      Sometimes, components from an Education kit may be missing, broken, or you might need additional parts. Learn how to troubleshoot these issues or find replacement components for your kit.
     </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4406561528210-If-an-Arduino-Education-kit-component-is-missing-or-not-working">If a component is missing or not working</a>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4409205367186-Find-replacement-components-for-your-Arduino-Education-kit">Replacement components for your kit</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4406561528210-If-an-Arduino-Education-kit-component-is-missing-or-not-working">If a component is missing or broken</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4409205367186-Find-replacement-components-for-your-Arduino-Education-kit">Find replacement components for your kit</a>
   </div>
-  <div class="info-item">
-    <img src="https://content.arduino.cc/assets/hc-list.svg">
-    <p class="info-title">Get your invoice</p>
-    <p>
-      Learn how to get your invoice after purchasing Arduino products from
-      the Arduino Store or Amazon.
-    </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016121859-How-can-I-get-my-invoice-">Read the guide</a>
-  </div>
-</div>
-<h2 class="center hub">Subscriptions</h2>
-<div class="info-wrapper">
   <div class="info-item ">
-    <img src="https://content.arduino.cc/assets/hc-cloud.svg">
-    <p class="info-title ">Your Arduino Cloud plan</p>
+    <p class="info-title ">Request Distributor quotes</p>
     <p>
-      Learn how to review, change or cancel an Arduino Cloud plan, and learn
-      more about billing and feature changes when switching to a different
-      Cloud plan.
+      If you're an Arduino Distributor, you can request quotes in the Arduino
+      B2B Store, view their status, and download them as PDFs.
     </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4401881299090-Review-change-or-cancel-your-Arduino-Cloud-plan">Modify your Cloud plan</a>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4401874211730-Billing-and-feature-changes-when-switching-to-a-different-Cloud-plan">Billing and feature changes when modifying a Cloud plan</a>
-  </div>
-  <div class="info-item">
-    <img src="https://content.arduino.cc/assets/hc-sim.svg">
-    <p class="info-title ">Modify an Arduino SIM card subscription</p>
-    <p>
-      Learn how to pause or cancel your Arduino SIM card subscription:
-    </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016077300-How-to-modify-Arduino-SIM-card-subscription">Read the guide</a>
-  </div>
-</div>
-<h2 class="center hub">Orders</h2>
-<div class="info-wrapper">
-  <div class="info-item ">
-    <p class="info-title ">Get a quote from Arduino</p>
-    <p>
-      Learn how to get a quote from Arduino as an individual buyer, a company,
-      or a school, or as a distributor:
-    </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360022125620-How-to-receive-a-quote-from-us-Individuals-Companies-and-Schools">Read the guide</a>
-  </div>
-  <div class="info-item">
-    <p class="info-title ">Place an order</p>
-    <p>
-      Learn how to place an order as an educator, business, or distributor.
-    </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4409759302290-Place-an-order-as-an-educator-business-or-distributor">Read the guide</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360022125620-Request-and-manage-quotes-as-an-Arduino-Distributor">Request and manage quotes as an Arduino Distributor</a>
   </div>
   <div class="info-item info-big">
     <p class="info-title ">Arduino's billing information</p>
     <p>
-      In case you need this information to complete an order for a school or
-      organization, Arduino’s billing details can be found in our transparency
-      page:
+      If you need Arduino’s billing details to complete an order for a school or organization, you can find them on our transparency page:
       <a class="link-up-right" href="https://store.arduino.cc/transparency">Arduino’s Billing Details</a>
     </p>
   </div>
