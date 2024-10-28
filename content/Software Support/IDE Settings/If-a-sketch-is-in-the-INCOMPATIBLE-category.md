@@ -15,6 +15,6 @@ To use a sketch from this library, a supported board must be selected. To find o
 
 ![Searching for 'ArduinoMotorCarrier' in the Library Manager.](img/INCOMPATIBLE_library_manager.png)
 
-For Arduino libraries, this will open the [Arduino Library Reference](https://www.arduino.cc/reference/en/libraries/).
+For Arduino libraries, this will open the [Arduino Library Reference](https://docs.arduino.cc/libraries/).
 
 ![Reference page for the ArduinoMotorCarrier library.](img/library-reference.png)

@@ -3,7 +3,7 @@ title: "Use the library for Portenta Machine Control"
 id: 4404060840338
 ---
 
-The **[Arduino_PortentaMachineControl](https://www.arduino.cc/reference/en/libraries/arduino_portentamachinecontrol/)** library enables efficient management of Portenta Machine Control features.
+The **[Arduino_PortentaMachineControl](https://docs.arduino.cc/libraries/arduino_portentamachinecontrol/)** library enables efficient management of Portenta Machine Control features.
 
 > [!IMPORTANT]
 > This library has officially replaced the older **Arduino_MachineControl** library.

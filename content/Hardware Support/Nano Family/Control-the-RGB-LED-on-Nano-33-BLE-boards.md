@@ -22,7 +22,7 @@ You can easily access the pins using these predefined constants:
 * `LEDG` – green channel pin (P23)
 * `LEDB` – blue channel pin (P24)
 
-You can then set the value for each channel with the [`digitalWrite(pin, value)`](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/) function:
+You can then set the value for each channel with the [`digitalWrite(pin, value)`](https://docs.arduino.cc/language-reference/en/functions/digital-io/digitalwrite/) function:
 
 * `digitalWrite(LEDR, LOW)` – turn the RED LED **on**.
 * `digitalWrite(LEDR, HIGH)` – turn the RED LED **off**.

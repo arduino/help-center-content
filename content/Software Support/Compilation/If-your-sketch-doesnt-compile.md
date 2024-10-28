@@ -238,7 +238,7 @@ These errors can occur when brackets (`{` and `}` are incorrectly used.
 
 * Arduino sketches are written in the Arduino language, which is based on standard C++ language. Most likely you will find a wealth of resources by searching `C++ <error message>` in your search engine.
 
-* For help with functions specific to Arduino, see the [Arduino functions reference](https://www.arduino.cc/reference/en/).
+* For help with functions specific to Arduino, see the [Arduino functions reference](https://docs.arduino.cc/language-reference/).
 
 * Visit the [Programming Questions category](https://forum.arduino.cc/c/20) in the Arduino forum. Start by reading the pinned threads which will contain useful information on how to best post a question.
 

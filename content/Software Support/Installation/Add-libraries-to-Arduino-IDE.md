@@ -78,4 +78,4 @@ When the library has been installed you can do the following:
 
 - [Installing libraries in the Arduino IDE](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library) on Arduino Docs
 
-- About [#include](https://www.arduino.cc/reference/en/language/structure/further-syntax/include/)
+- About [#include](https://docs.arduino.cc/language-reference/en/structure/further-syntax/include/)

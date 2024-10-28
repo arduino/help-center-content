@@ -35,7 +35,7 @@ Learn how to reduce the size and memory usage of your sketch.
   * If a variable needs to be shared between multiple functions, consider passing it as a parameter.
 * **Avoid recursive code** to reduce memory usage. Use iterative functions instead.
 * **Minimize array sizes.** Don't declare larger arrays than needed.
-* **Check your libraries** to save storage. Avoid [including](https://www.arduino.cc/reference/tr/language/structure/further-syntax/include/) large libraries unless you need to. Save storage by implementing your own code that only does what you need.
+* **Check your libraries** to save storage. Avoid [including](https://docs.arduino.cc/language-reference/en/structure/further-syntax/include/) large libraries unless you need to. Save storage by implementing your own code that only does what you need.
 
 * **Store constant data in storage instead of memory** with [PROGMEM](https://docs.arduino.cc/language-reference/en/variables/utilities/PROGMEM/).
 

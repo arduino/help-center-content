@@ -41,7 +41,7 @@ The following boards have Bluetooth Low Energy connectivity:
 * UNO WiFi Rev2
 * UNO R4 WiFi
 
-Enable it with the [ArduinoBLE library](https://www.arduino.cc/reference/en/libraries/arduinoble/).
+Enable it with the [ArduinoBLE library](https://docs.arduino.cc/libraries/arduinoble/).
 
 Although the communication modules on these boards can also use Bluetooth _Classic_, it is not currently supported by official firmware or libraries.
 

@@ -25,7 +25,7 @@ Try this to check for and avoid runtime errors:
   * Using **IDE 2:** On the toolbar menu, go to `File > Examples > 01.Basics` and choose the *Blink* sketch. Click the ![Upload button](img/symbol_upload.png) **Upload** button.
   * Using **Cloud Editor:** On the left-most sidebar, go to `Examples > 01.Basics` and choose the *Blink* sketch. Click the ![Cloud Editor upload button.](img/symbol_upload-web.png) **Upload** button.
 * Take care to not assign values or read from outside the range of a declared array.
-* Debug the code by inserting [`Serial.print()`](https://docs.arduino.cc/language-reference/en/functions/communication/Serial/print/) calls and checking the Serial Monitor. Use this method to check what values get assigned to important variables and when the code branches, e.g. on an `if()` statement. Consider using the [ArduinoTrace](https://www.arduino.cc/reference/en/libraries/arduinotrace/) to make this process simpler.
+* Debug the code by inserting [`Serial.print()`](https://docs.arduino.cc/language-reference/en/functions/communication/Serial/print/) calls and checking the Serial Monitor. Use this method to check what values get assigned to important variables and when the code branches, e.g. on an `if()` statement. Consider using the [ArduinoTrace](https://docs.arduino.cc/libraries/arduinotrace/) to make this process simpler.
 
 ## 2. Check the power supply
 
