@@ -9,7 +9,7 @@ Learn how to use PWM (Pulse Width Modulation) output with Arduino.
 
 ## Using PWM in your sketch
 
-Add PWM output to your sketch using the [analogWrite()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/) function.
+Add PWM output to your sketch using the [analogWrite()](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/) function.
 
 Here's a basic example:
 

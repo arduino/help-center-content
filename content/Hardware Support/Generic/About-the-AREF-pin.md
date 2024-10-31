@@ -22,8 +22,8 @@ Not all boards have an enabled AREF pin, and it doesn't work the same way on all
         <li>Arduino megaAVR Boards (Uno WiFi Rev2)</li>
       </ul>
     <td>
-      <p>External reference voltage can be read from the AREF pin. Enable it by calling <a href="https://www.arduino.cc/reference/en/language/functions/analog-io/analogreference/">analogReference()</a> with the appropriate option for your board, i.e. <code>analogReference(EXTERNAL)</code> for AVR boards.</p>
-      <blockquote><b>Note:</b> To avoid damaging your board, read the library reference's <a href="https://www.arduino.cc/reference/en/language/functions/analog-io/analogreference/#_notes_and_warnings">notes and warnings</a> section before using an external reference voltage.</blockquote>
+      <p>External reference voltage can be read from the AREF pin. Enable it by calling <a href="https://docs.arduino.cc/language-reference/en/functions/analog-io/analogReference/">analogReference()</a> with the appropriate option for your board, i.e. <code>analogReference(EXTERNAL)</code> for AVR boards.</p>
+      <blockquote><b>Note:</b> To avoid damaging your board, read the library reference's <a href="https://docs.arduino.cc/language-reference/en/functions/analog-io/analogReference/#notes-and-warnings">notes and warnings</a> section before using an external reference voltage.</blockquote>
     </td>
   </tr>
   <tr>

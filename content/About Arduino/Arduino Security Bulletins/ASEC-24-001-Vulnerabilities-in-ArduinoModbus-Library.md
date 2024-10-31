@@ -34,13 +34,13 @@ For these reasons, we highly recommend updating to the latest library version to
 
 ## Action Required
 
-Update the component's library to [ArduinoModbus 1.0.9](https://github.com/arduino-libraries/ArduinoModbus/releases/tag/1.0.9) or later as described by the official documentation available [here](https://www.arduino.cc/reference/en/libraries/arduinomodbus/).
+Update the component's library to [ArduinoModbus 1.0.9](https://github.com/arduino-libraries/ArduinoModbus/releases/tag/1.0.9) or later as described by the official documentation available [here](https://docs.arduino.cc/libraries/arduinomodbus/).
 
 ## Additional information
 
 For further information visit the following links:
 
-* [https://www.arduino.cc/reference/en/libraries/arduinomodbus/](https://www.arduino.cc/reference/en/libraries/arduinomodbus/)
+* [https://docs.arduino.cc/libraries/arduinomodbus/](https://docs.arduino.cc/libraries/arduinomodbus/)
 * [https://nvd.nist.gov/vuln/detail/CVE-2019-14463](https://nvd.nist.gov/vuln/detail/CVE-2019-14463)
 * [https://nvd.nist.gov/vuln/detail/CVE-2022-0367](https://nvd.nist.gov/vuln/detail/CVE-2022-0367)
 * [https://github.com/arduino-libraries/ArduinoModbus/releases/tag/1.0.9](https://github.com/arduino-libraries/ArduinoModbus/releases/tag/1.0.9)

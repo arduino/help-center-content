@@ -11,10 +11,10 @@ Some Arduino boards come with an embedded Inertial Measurement Unit (IMU) in the
 
 | Library                                                                             | Boards                                                |
 |-------------------------------------------------------------------------------------|-------------------------------------------------------|
-| [Arduino_LSM9DS1](https://www.arduino.cc/reference/en/libraries/arduino_lsm9ds1/)   | Arduino Nano 33 BLE Sense                             |
-| [Arduino_LSM6DS3](https://www.arduino.cc/reference/en/libraries/arduino_lsm9ds1/)   | Arduino Nano 33 IoT  <br>Arduino Uno WiFi Rev2        |
-| [Arduino_LSM6DSOX](https://www.arduino.cc/reference/en/libraries/arduino_lsm6dsox/) | Arduino Nano RP2040 Connect  <br>Arduino Nicla Vision |
-| [MKRIMU](https://www.arduino.cc/reference/en/libraries/mkrimu)                      | Arduino MKR IMU Shield                                |
+| [Arduino_LSM9DS1](https://docs.arduino.cc/libraries/arduino_lsm9ds1/)   | Arduino Nano 33 BLE Sense                             |
+| [Arduino_LSM6DS3](https://docs.arduino.cc/libraries/arduino_lsm9ds1/)   | Arduino Nano 33 IoT  <br>Arduino Uno WiFi Rev2        |
+| [Arduino_LSM6DSOX](https://docs.arduino.cc/libraries/arduino_lsm6dsox/) | Arduino Nano RP2040 Connect  <br>Arduino Nicla Vision |
+| [MKRIMU](https://docs.arduino.cc/libraries/mkrimu/)                      | Arduino MKR IMU Shield                                |
 
 ---
 

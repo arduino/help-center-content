@@ -20,6 +20,6 @@ The repeated output can be avoided in two ways:
 
 ## Further reading
 
-* [Serial.read()](https://www.arduino.cc/reference/en/language/functions/communication/serial/read/) in Arduino reference
+* [Serial.read()](https://docs.arduino.cc/language-reference/en/functions/communication/Serial/read/) in Arduino reference
 * [Serial input basics](https://forum.arduino.cc/t/serial-input-basics-updated/382007) in the Arduino Forum
 * [If you get unexpected zeroes using Serial.parseInt() or Serial.parseFloat()](https://support.arduino.cc/hc/en-us/articles/4407876044434-If-you-get-unexpected-zeroes-using-Serial-parseInt-or-Serial-parseFloat-)

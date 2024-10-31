@@ -3,7 +3,7 @@ title: "About ADC reference voltage on Portenta H7"
 id: 4753980038812
 ---
 
-The **analog-to-digital converter** (ADC) on Portenta H7 switches between internal and external reference voltage automatically, so unlike some other boards, [analogReference()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogreference/) should **not** be used.
+The **analog-to-digital converter** (ADC) on Portenta H7 switches between internal and external reference voltage automatically, so unlike some other boards, [analogReference()](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogReference/) should **not** be used.
 
 <a id="internal-reference"></a>
 
