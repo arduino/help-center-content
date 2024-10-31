@@ -5,22 +5,28 @@ id: 15156644171548
 
 These are some reasons you may want to upload firmware for Arduino Lab for Micropython:
 
-- Enable MicroPython on boards that initially come with the Arduino bootloader.
+* Enable MicroPython on boards that initially come with the Arduino bootloader.
 
-- Restore MicroPython firmware after an Arduino sketch has been flashed.
+* Restore MicroPython firmware after an Arduino sketch has been flashed.
 
-- Update the MicroPython firmware to a newer version.
+* Update the MicroPython firmware to a newer version.
 
 ## Supported Boards
 
-- Arduino GIGA R1 WiFi
-- Arduino Nano 33 BLE Sense
-- Arduino Nano ESP32
-- Arduino Nano RP2040 Connect
-- Arduino Nicla Vision
-- Arduino Portenta C33
-- Arduino Portenta H7
-- Arduino Primo
+* Arduino GIGA R1 WiFi
+* Arduino Nano 33 BLE
+* Arduino Nano 33 BLE Rev2
+* Arduino Nano 33 BLE Sense
+* Arduino Nano 33 BLE Sense Rev2
+* Arduino Nano ESP32
+* Arduino Nano RP2040 Connect
+* Arduino Nicla Vision
+* Arduino Opta RS485
+* Arduino Opta WiFi
+* Arduino Portenta C33
+* Arduino Portenta H7
+* Arduino Portenta H7 Lite
+* Arduino Portenta H7 Lite Connected
 
 ## Instructions
 
