@@ -18,7 +18,7 @@ Learn what to do if your Arduino board is missing from the board selector or fro
 
 * **Missing Board**: If your Arduino board is missing from the board selector or from the Tools > Port menu in Arduino IDE, proceed to the instructions below.
 
-### 1. Check board connection
+### 2. Check board connection
 
 A common reason for a board not being detected is an issue with the USB connection. Follow the steps below to ensure a proper setup:
 
@@ -29,7 +29,7 @@ A common reason for a board not being detected is an issue with the USB connecti
 * *Check power*: Verify that your device powers on—at least one LED should be lit.
 * *Disconnect jumper cables*: Remove any jumper cables connected to the board’s pins, as they may interfere with detection.
 
-### 2. Try a bootloader reset if your board supports it
+### 3. Try a bootloader reset if your board supports it
 
 If the board is still not detected, it might be stuck in a state where it cannot communicate on the port. For some boards (such as those in the MKR Family and newer Nano boards), pressing the RESET button twice in quick succession will activate bootloader mode. Follow the steps below to perform a bootloader reset:
 
@@ -43,7 +43,7 @@ If the board is still not detected, it might be stuck in a state where it cannot
 
 4. Check the board selector or _Tools > Port_ again to see if your board is now detected.
 
-### 3. Check for additional system information
+### 4. Check for additional system information
 
 If Arduino IDE is not displaying a port for your board, you may still get some information by using a dedicated software utility:
 
