@@ -18,7 +18,7 @@ The Arduino IDE scans the ports on your computer for devices that might be compa
 
 * **Identified Devices**: If the Arduino IDE recognizes a device as an Arduino board, it displays the board and port in the board selector. In the _Tools > Port_ menu, the board name appears after the port name, enclosed in parentheses.
 
-* **"Unidentified Devices**: In some cases, the port information is not sufficient to determine the type of board that's connected, or if the connected device is a compatible board at all. In this case, the device will appear as "Unknown" in the board selector, and only the port name will be shown in the _Tools > Port_ menu.
+* **Unidentified Devices**: In some cases, the port information is not sufficient to determine the type of board that's connected, or if the connected device is a compatible board at all. In this case, the device will appear as "Unknown" in the board selector, and only the port name will be shown in the _Tools > Port_ menu.
 
 > [!NOTE]
 > In earlier versions of Arduino IDE 2, the _Tools > Port_ menu option would only be displayed if at least one device was detected on a port. This was fixed in version 2.0.4[^2.0.4].
