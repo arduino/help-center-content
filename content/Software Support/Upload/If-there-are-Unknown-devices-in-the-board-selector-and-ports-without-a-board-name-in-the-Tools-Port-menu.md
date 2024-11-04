@@ -1,5 +1,5 @@
 ---
-title: "If there are "Unknown" devices in the board selector and ports without a board name in the Tools > Port menu"
+title: "If there are \"Unknown\" devices in the board selector and ports without a board name in the Tools > Port menu"
 id: 4412955149586
 ---
 
@@ -48,7 +48,7 @@ The types of unidentified ports shown by Arduino IDE can be grouped in two categ
 
 ## Troubleshooting steps {#troubleshooting}
 
-### Disconnect and reconnect your board to check its port {#disconnect-reconnect-procedure}
+### 1. Disconnect and reconnect your board to check its port {#disconnect-reconnect-procedure}
 
 **Using the board selector:**
 
@@ -68,7 +68,7 @@ The types of unidentified ports shown by Arduino IDE can be grouped in two categ
 
 4. Open the _Tools > Port_ menu. The port your board is connected to should now appear as a new port in the list.
 
-### Configure an unidentified board {#configuring-an-unidentified-board}
+### 2. Configure an unidentified board {#configuring-an-unidentified-board}
 
 If you've determined which port belongs to your board:
 
@@ -84,7 +84,7 @@ If you've determined which port belongs to your board:
 
 **Using the _Tools > Board_ menu**:
 
-1. Open the Tools > Board menu.
+1. Open the _Tools > Board_ menu.
 
 1. Choose the board you want to use.
 

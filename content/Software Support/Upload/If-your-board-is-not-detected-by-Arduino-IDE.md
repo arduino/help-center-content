@@ -41,7 +41,7 @@ If the board is still not detected, it might be stuck in a state where it cannot
 
 4. Check the board selector or _Tools > Port_ again to see if your board is now detected.
 
-### 4. Check if your board appears as "Unknown" or as a board with a different name
+### 4. Check for "Unknown" or incorrect board name
 
 * **Unknown Devices**: If the board selector in Arduino IDE displays “Unknown” devices, refer to [If there are “Unknown” devices in the board selector and without a board name in the Tools > Port menu](addlink) instead.
 
@@ -90,9 +90,9 @@ If Arduino IDE is not displaying a port for your board, you can use a dedicated 
 
 Here are some cases to look out for:
 
-* **Classic Nano** : If you're using a **classic Nano**, but it's being detected as "USB Serial Port" <!-- on Windows --> or another generic name, the FTDI drivers may be missing. To solve the issue, follow [install the FTDI drivers](https://support.arduino.cc/hc/en-us/articles/4411305694610-Install-or-update-FTDI-drivers).
+* If you're using a **classic Nano**, and it's recognized by your computer as "USB Serial Port" <!-- on Windows --> or another generic name, the FTDI drivers may be missing. To solve the issue, follow [install the FTDI drivers](https://support.arduino.cc/hc/en-us/articles/4411305694610-Install-or-update-FTDI-drivers).
 
-* If you're using an **UNO (Rev3 or earlier)** or **Mega** board, missing or corrupted USB-to-Serial firmware may cause the board to be recognized as any of the following:
+* If you're using an **UNO (Rev3 or earlier)** or **Mega** board, missing or corrupted USB-to-Serial firmware may cause your computer to recognize the board as one of the following:
 
   * Unknown Device
   * Composite Device
