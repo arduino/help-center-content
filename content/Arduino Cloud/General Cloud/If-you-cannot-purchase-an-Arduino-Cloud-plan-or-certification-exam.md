@@ -1,5 +1,5 @@
 ---
-title: "If you cannot purchase an Arduino Cloud plan, SIM subscription, or certification exam"
+title: "If you cannot purchase an Arduino Cloud plan or certification exam"
 id: 4409540316178
 ---
 
