@@ -8,25 +8,23 @@ Learn what to do if your Arduino board is missing from the board selector or fro
 > [!NOTE]
 > If you're using Arduino Cloud Editor, see [If your board is not detected by Arduino Cloud Editor](https://support.arduino.cc/hc/en-us/articles/360018131160-If-your-board-is-not-detected-by-Arduino-Cloud-Editor).
 
-## Troubleshooting
+## Troubleshooting steps
 
-### 1. Identify the problem
+### 1. Disconnect and reconnect your board
 
-* **Incorrect Board Identification**: If Arduino IDE incorrectly identifies your board with a generic name or as a different board type, see [If Arduino IDE detects a different board than the one you've connected](https://support.arduino.cc/hc/en-us/articles/12070802257436-If-Arduino-IDE-detects-a-different-board-than-the-one-you-ve-connected) instead.
-
-* **Unknown Devices**: If the board selector in Arduino IDE displays “Unknown” devices, refer to [If there are “Unknown” devices in the board selector and without a board name in the Tools > Port menu](add link) instead.
-
-* **Missing Board**: If your Arduino board is missing from the board selector or from the Tools > Port menu in Arduino IDE, proceed to the instructions below.
+  1. Disconnect and reconnect your board to reset its power.
+  1. Check for any system notifications that may prompt you to grant USB device permissions, and allow them if they appear.
+  1. If the Tools > Port menu is open, close and reopen it to refresh the list of available devices.
 
 ### 2. Check board connection
 
-A common reason for a board not being detected is an issue with the USB connection. Follow the steps below to ensure a proper setup:
+A common reason for a board not being detected is an issue with the USB connection. Follow the instructions below to ensure a proper setup:
 
 * *Use a Data USB Cable*: Connect your board with a data USB cable, not a charging-only cable.
-* *Test the USB Cable*: Check that the USB cable is not damaged. You can verify this by testing the cable with another device or by trying a different cable.
-* *Connect directly*: connect the board directly into your computer instead of through a USB hub.
-* *Try a Different USB Port*: If the board is still not detected, connect it to a different USB port on your computer.
-* *Check power*: Verify that your device powers on—at least one LED should be lit.
+* *Test the USB Cable*: Confirm the cable is working by testing it with another device or trying a different cable.
+* *Connect directly*: Connect the board directly to your computer instead of through a USB hub.
+* *Try a Different USB Port*: If the board is still not detected, try a different USB port on your computer.
+* *Check power*: Verify that at least one LED on your board lights on.
 * *Disconnect jumper cables*: Remove any jumper cables connected to the board’s pins, as they may interfere with detection.
 
 ### 3. Try a bootloader reset if your board supports it
@@ -35,17 +33,23 @@ If the board is still not detected, it might be stuck in a state where it cannot
 
 1. Find the reset button on the board.
 
-2. Press the button two times in succession.
+2. Press the button two times in quick succession.
 
    ![The RESET button on Arduino Zero with an "x2" label graphic.](img/zero-reset-button-double.png)
 
-3. An orange LED will fade in and out, indicating that the board is in bootloader mode,
+3. An on-board LED will fade in and out, indicating that the board is in bootloader mode.
 
 4. Check the board selector or _Tools > Port_ again to see if your board is now detected.
 
-### 4. Check for additional system information
+### 4. Check if your board appears as "Unknown" or as a board with a different name
 
-If Arduino IDE is not displaying a port for your board, you may still get some information by using a dedicated software utility:
+* **Unknown Devices**: If the board selector in Arduino IDE displays “Unknown” devices, refer to [If there are “Unknown” devices in the board selector and without a board name in the Tools > Port menu](addlink) instead.
+
+* **Incorrect Board Identification**: If Arduino IDE incorrectly identifies your board with a generic name or as a different board type, see [If Arduino IDE detects a different board than the one you've connected](https://support.arduino.cc/hc/en-us/articles/12070802257436-If-Arduino-IDE-detects-a-different-board-than-the-one-you-ve-connected) instead.
+
+### 5. Check for additional system information
+
+If Arduino IDE is not displaying a port for your board, you can use a dedicated software utility to confirm whether the board is recognized by your computer:
 
 <table>
   <tbody>
@@ -84,8 +88,18 @@ If Arduino IDE is not displaying a port for your board, you may still get some i
   </tbody>
 </table>
 
-> [!TIP]
-> You can use this information to determine if the board is being detected by the computer but not by the Arduino IDE.
+Here are some cases to look out for:
+
+* **Classic Nano** : If you're using a **classic Nano**, but it's being detected as "USB Serial Port" <!-- on Windows --> or another generic name, the FTDI drivers may be missing. To solve the issue, follow [install the FTDI drivers](https://support.arduino.cc/hc/en-us/articles/4411305694610-Install-or-update-FTDI-drivers).
+
+* If you're using an **UNO (Rev3 or earlier)** or **Mega** board, missing or corrupted USB-to-Serial firmware may cause the board to be recognized as any of the following:
+
+  * Unknown Device
+  * Composite Device
+  * ATmega16u2 DFU
+  * Atmega8U2 DFU
+
+  To solve the issue, [flash the USB-to-serial firmware](https://support.arduino.cc/hc/en-us/articles/4408887452434-Flash-the-USB-to-serial-firmware-for-UNO-Rev3-and-earlier-and-Mega-boards).
 
 ---
 
