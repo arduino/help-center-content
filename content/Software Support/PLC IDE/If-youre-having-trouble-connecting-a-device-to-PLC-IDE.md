@@ -13,7 +13,7 @@ id: 8824551178780
 
 - Ensure you use a USB cable that supports data transfer.
 
-- When downloading the runtime, or connecting to the device, ensure you're [targeting the correct port](#about-ports).
+- When downloading the runtime, or connecting to the device, ensure you're [targeting the correct port](https://support.arduino.cc/hc/en-us/articles/16724283965596).
 
 - When opening a project created with an earlier version of the PLC IDE, some issues may occur. Try creating a new project (**File > New Project**) to see if this resolves the issue.
 
@@ -25,83 +25,112 @@ id: 8824551178780
 
 ---
 
-## About port selection
+## Troubleshooting common issues
 
-It's important to understand which ports to target when configuring your PLC device connection.
+### Installing PLC IDE
 
-### How to identify which ports belong to your device
+- **"User cancelled installation"**
 
-If other devices connected to your computer have open serial ports, you need to determine which ports belong to your PLC device:
+   This error occurs when the installation is interrupted before the Arduino IDE Tools Setup Wizard completes.
 
-1. Disconnect your PLC device from your computer.
-1. Select **Project > Refresh current target** to refresh the list of ports.
-1. Open the runtime sketch download port menu, and take note of the available ports.
+   Restart the installation process and ensure that you allow the Setup Wizard to finish without interruption.
 
-   ![The runtime download widget.](img/plc-ide-runtime-ports.png)
+- **"Fatal eror during installation"**
 
-1. Connect your PLC device.
-1. Again, select **Project > Refresh current target** to refresh the list of ports.
-1. Open the runtime sketch download port menu, and take note of any new ports.
+   This error typically appears when attempting to install the PLC IDE without an internet connection.
 
-You can also use the **Device Manger** in Windows:
-
-1. Open the Device Manager.
-1. Select **View > Devices by container**.
-1. Look for an **Arduino Opta** or **Portenta H7 MCUboot** container.
-1. Click to expand the container:
-
-   ![Arduino Opta ports in Device Manager.](img/device-manager.png)
-
-1. Look for **USB Serial Device** items, and note the port names.
+   Connect to the internet and try the installation again. The installer requires an active connection to download necessary components.
 
 ---
 
-## Solutions for specific problems
+### Download the runtime
 
-### If the "On-Line > Set up communications" and "On-line > Connect" options are disabled
+- **"Error: Cannot download sketch file (error code: 1)"**
 
-These options are only available when a project is open. Select **File > New Project** to create a new project.
+   This error may occur when attempting to download the runtime sketch.
 
-### Error: “Unable to start the communication”
+   Solutions:
+  - [Verify that the correct port is selected in the manual sketch download widget.](https://support.arduino.cc/hc/en-us/articles/16724283965596)
 
-When choosing **On-line > Set up communications** you may get this error message:
+  - Double-tap the device’s reset button to put it in bootloader mode. First, try selecting the correct COM port. If that doesn’t work, set the Port to “Automatic (BootLoader)” and attempt to download the sketch again.
 
-```
-Unable to start the communication
-Choose 'On-line / Set up communication' to configure it
-```
+  - Close any applications that might be blocking the port, such as the Arduino IDE serial monitor.
 
-Resolve the issue by selecting **On-line > Set up communication** and checking the settings. See [Connect to the Device](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#5-connect-to-the-device) for help.
+  - [Reformat the QSPI flash memory](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices)
 
-### Error: Cannot download sketch file (error code: 1)
+  - Create a new project and attempt to download the runtime again.
 
-When downloading the runtime sketch, you may get this error:
+- **"Error: "(DownloadSketch) Can not download sketch: COM port must be used!""**
 
-```
-Cannot download sketch file (error code: 1)
-```
+   This error occurs when no COM port is selected.
 
-Follow these steps:
+   [Select the correct COM port in the manual sketch download widget](https://support.arduino.cc/hc/en-us/articles/16724283965596) and attempt the download again.
 
-1. Double-tap the reset button on the device to set it to **bootloader mode**, and try downloading the sketch again.
-2. Close any applications that may be blocking the port, such as the serial monitor in Arduino IDE.
-3. [Check the port selection](#about-ports).
+- **If nothing happens when downloading the runtime sketch**
 
-### If nothing happens when downloading the runtime sketch
+  - Ensure you've installed the latest version of the Arduino PLC IDE software from the Arduino Software page.
 
-<!-- NOTE: Since missing PLC IDE Tools was the only known cause of this issue, it may no longer be relevant. -->
+  - Verify the "T" Folder Exists
 
-1. Ensure you've installed the latest version of the **Arduino PLC IDE** software from the [Arduino Software page](https://www.arduino.cc/en/software#arduino-plc-ide).
-2. Restart PLC IDE.
+      `C:\Users\<Profile-Name>\AppData\Local\T`
 
-### Error: "(DownloadSketch) Can not download sketch: COM port must be used!"
+      If you can't find this folder, Copy it from the computers Admin profile (which requires access authorization e.g. admin password), and then pasting it in the same path on the user profile.
 
-When downloading the runtime sketch, this error may appear in the console:
+  - Restart PLC IDE.
 
-```
-(DownloadSketch) Can not download sketch: COM port must be used!
-```
+---
 
-It can occur if the wrong port is selected in the manual sketch download widget. If you're unsure which port to use, see [About ports in PLC IDE](#about-ports).
+### Connect to device
+
+- **If the "On-Line > Set up communications" and "On-line > Connect" options are disabled**
+
+   These options are only available when a project is open. Select **File > New Project** to create a new project.
+
+- **Error: “Unable to start the communication”**
+
+   When choosing **On-line > Set up communications** you may get this error message:
+
+   ```
+   Unable to start the communication
+   Choose 'On-line / Set up communication' to configure it
+   ```
+
+   Resolve the issue by selecting **On-line > Set up communication** and checking the settings. See [Connect to the Device](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#5-connect-to-the-device) for help.
+
+- **“Error” in bottom right corner on first use of the board**
+
+   [Reformat the QSPI flash memory.](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices)
+
+---
+
+### License activation
+
+When activating the license for Arduino Opta or Portenta Machine Control, the following errors may occur:
+
+- **Opta**
+
+   After clicking “Activate PLC Runtime”:
+   `Could not activate licenses for the following products: AIPC_Arduino_Opta`
+
+- **Portenta Machine Control**
+
+   Online activation: `Error #29 activating AlPLC_Arduino_PMC: Generic parameters error`
+
+   Offline activation: `Could not activate licenses for the following products: AIPC_Arduino_PMC`
+
+Solutions:
+
+- Upload the [Memory Partitioning sketch](https://docs.arduino.cc/tutorials/opta/memory-partitioning/) using Arduino IDE. Then, try to activate the license again.
+
+- If you are using a company-owned computer, please follow these steps:
+
+   1. Temporarily disable any antivirus software running on your system.
+
+   1. Temporarily disable the firewall on your computer.
+
+   1. Attempt the license activation process again.
+
+   > [!NOTE]
+   > Corporate networks and security programs can sometimes interfere with license activation. By temporarily disabling these protective measures, you may be able to complete the activation successfully.
 
 <!-- markdownlint-disable-file HC001 -->
