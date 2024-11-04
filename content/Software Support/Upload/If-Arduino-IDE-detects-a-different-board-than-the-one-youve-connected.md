@@ -9,7 +9,6 @@ In this article:
 
 * [Reset manual board selection](#manual-selection)
 * [If your UNO R4 WiFi or Nano ESP32 is identified as a generic ESP32 board](#generic-esp32)
-* [If Arduino UNO (Rev3 or earlier), Mega, or classic Nano is misidentified](#misidentified-uno-mega-nano)
 
 ---
 
