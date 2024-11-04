@@ -32,14 +32,15 @@ These are some reasons you may want to upload firmware for Arduino Lab for Micro
 
 1. Download the [MicroPython Installer](https://github.com/arduino/lab-micropython-installer/releases/latest) for your operating system:
 
-    - **Windows:** Download the `.exe` file labeled 'Windows' and run the installer.
+    * **Windows:** Download the `.exe` file labeled 'Windows' and run the installer.
 
-    - **macOS:** Download the `.zip` file labeled 'macOS', extract the zip file, and move the application to your Applications folder.
+    * **macOS:** Download the `.zip` file labeled 'macOS', extract the zip file, and move the application to your Applications folder.
 
-    - **Linux:** Download the `.deb` file labeled 'Linux' and install it using your package manager.
-        - `sudo dpkg -i [file name]`.
+    * **Linux:** Download the `.deb` file labeled 'Linux' and install it using your package manager:
 
-    - **NuGet Package:** Download the `.nupkg` file if you are using NuGet for package management.
+      `sudo dpkg -i [file name]`.
+
+    * **NuGet Package:** Download the `.nupkg` file if you are using NuGet for package management.
 
 1. Launch the Firmware Installer tool.
 
