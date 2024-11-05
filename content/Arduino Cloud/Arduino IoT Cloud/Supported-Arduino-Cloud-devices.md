@@ -7,7 +7,7 @@ When you [add a supported board as a Arduino Cloud device](https://support.ardui
 
 In this article:
 
-* [Boards with Arduino Cloud support](#boards-with-arduino-cloud-support)
+* [Arduino devices with Arduino Cloud support](#arduino-devices-with-arduino-cloud-support)
 * [Use your smartphone with Arduino Cloud](#use-your-smartphone-with-arduino-cloud)
 * [Linux devices]({#linux-devices)
 
