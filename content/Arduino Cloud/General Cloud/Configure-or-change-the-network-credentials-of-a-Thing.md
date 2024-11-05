@@ -28,7 +28,6 @@ In this article:
 
     - Wi-Fi: Enter your Wi-Fi name (SSID) and password (encryption key).
     - If using ESP32 and ESP8266: Enter the secret key that was provided when adding the device.
-    - If using Arduino SIM: Use [these credentials](https://support.arduino.cc/hc/en-us/articles/360013825159-What-are-the-credentials-for-the-Arduino-SIM-card).
     - If using Arduino with LoRa®: The credentials are added automatically.
 
 1. Go to the **Sketch** tab in the top right and upload the sketch to load the credentials on the board.
@@ -44,7 +43,6 @@ In this article:
 1. Enter your network credentials:
     - Wi-Fi: Enter your Wi-Fi name (SSID) and password (encryption key).
     - If using ESP32 and ESP8266: Enter the secret key that was provided when adding the device.
-    - If using Arduino SIM: Use [these credentials](https://support.arduino.cc/hc/en-us/articles/360013825159-What-are-the-credentials-for-the-Arduino-SIM-card).
     - If using Arduino with LoRa®: The credentials are added automatically.
 
 1. Go to the **Sketch** tab in the top right and upload the sketch to load the credentials on the board.

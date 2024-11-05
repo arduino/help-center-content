@@ -61,7 +61,6 @@ You'll need an Arduino account and the [Arduino Cloud Agent](https://support.ard
    * Click the **Network configure** button and enter the network credentials.
 
       * _Wi-Fi:_ Enter your Wi-Fi name (SSID) and password (encryption key).
-      * _Arduino SIM:_ [Use these credentials](https://support.arduino.cc/hc/en-us/articles/360013825159-What-are-the-credentials-for-the-Arduino-SIM-card).
       * _Arduino with LoRa<sup>®</sup>:_ The credentials are added automatically.
       * _ESP32 and ESP8266:_ Enter the secret key that was provided when adding the device.
 
