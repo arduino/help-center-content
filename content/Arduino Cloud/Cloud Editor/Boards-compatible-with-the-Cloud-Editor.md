@@ -12,7 +12,7 @@ Find boards that can be used with the Cloud Editor on your system:
 
 ## Windows, macOS, and Linux {#desktop}
 
-**All Arduino board are supported.** Additionally, a wide range of ESP32 and ESP8266 boards are supported.
+**All Arduino boards are supported.** Additionally, a wide range of ESP32 and ESP8266 boards are supported.
 
 To upload sketches, the [Arduino Cloud Agent](https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Cloud-Agent) needs to be installed and running.
 
