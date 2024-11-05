@@ -1,5 +1,6 @@
 ---
 title: "About the Arduino IoT Cloud Remote app"
+id: 16690170383900
 ---
 
 With the **Arduino IoT Cloud Remote** app, you can use your smartphone as an IoT device in Arduino Cloud.
