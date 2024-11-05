@@ -8,8 +8,8 @@ When you [add a supported board as a Arduino Cloud device](https://support.ardui
 In this article:
 
 * [Arduino devices with Arduino Cloud support](#arduino-devices-with-arduino-cloud-support)
-* [Use your smartphone with Arduino Cloud](#use-your-smartphone-with-arduino-cloud)
-* [Linux devices]({#linux-devices)
+* [Use your smartphone with Arduino Cloud](#third-party-devices-with-arduino-cloud-support)
+* [Manually configure a device without support](#manually-configure-a-device-without-support)
 
 > [!TIP]<!-- TODO -->
 > See [Boards compatible with the Cloud Editor](https://support.arduino.cc/hc/en-us/articles/360014779899).
