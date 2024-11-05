@@ -19,9 +19,9 @@ id: 8824551178780
 
 - You need **valid license** to download the code to the device:
 
-  - Licenses for Portenta Machine Control are [available in the store](https://store.arduino.cc/products/plc-key-portenta-machine-control). Instructions for license activation [are available here](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#6-license-activation-with-product-key-portenta-machine-control).
+- Licenses for Portenta Machine Control are [available in the store](https://store.arduino.cc/products/plc-key-portenta-machine-control). Instructions for license activation [are available here](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#6-license-activation-with-product-key-portenta-machine-control).
 
-  - Arduino Opta is a pre-licensed product, just follow the [activation instructions](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#7-license-activation-with-pre-licensed-products-opta).
+- Arduino Opta is a pre-licensed product, follow the [activation instructions](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#7-license-activation-with-pre-licensed-products-opta).
 
 ---
 
@@ -33,13 +33,13 @@ id: 8824551178780
 
    This error occurs when the installation is interrupted before the Arduino IDE Tools Setup Wizard completes.
 
-   Restart the installation process and ensure that you allow the Setup Wizard to finish without interruption.
+   Restart the installation process and ensure you allow the Setup Wizard to finish without interruption.
 
-- **"Fatal eror during installation"**
+- **"Fatal error during installation"**
 
    This error typically appears when attempting to install the PLC IDE without an internet connection.
 
-   Connect to the internet and try the installation again. The installer requires an active connection to download necessary components.
+   Connect to the internet and try the installation again. The installer requires an active connection to download the necessary components.
 
 ---
 
@@ -54,13 +54,13 @@ id: 8824551178780
 
   - Double-tap the device’s reset button to put it in bootloader mode. First, try selecting the correct COM port. If that doesn’t work, set the Port to “Automatic (BootLoader)” and attempt to download the sketch again.
 
-  - Close any applications that might be blocking the port, such as the Arduino IDE serial monitor.
+  - Close any applications blocking the port, such as the Arduino IDE serial monitor.
 
   - [Reformat the QSPI flash memory](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices)
 
   - Create a new project and attempt to download the runtime again.
 
-- **"Error: "(DownloadSketch) Can not download sketch: COM port must be used!""**
+- **"Error: "(DownloadSketch) Can not download sketch: COM port must be used!"**
 
    This error occurs when no COM port is selected.
 
@@ -74,7 +74,7 @@ id: 8824551178780
 
       `C:\Users\<Profile-Name>\AppData\Local\T`
 
-      If you can't find this folder, Copy it from the computers Admin profile (which requires access authorization e.g. admin password), and then pasting it in the same path on the user profile.
+      If you can't find this folder, Copy it from the computer's Admin profile (which requires access authorization, e.g., the admin password) and paste it into the same path on the user profile.
 
   - Restart PLC IDE.
 
@@ -97,7 +97,7 @@ id: 8824551178780
 
    Resolve the issue by selecting **On-line > Set up communication** and checking the settings. See [Connect to the Device](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#5-connect-to-the-device) for help.
 
-- **“Error” in bottom right corner on first use of the board**
+- **“Error” in the bottom right corner on first use of the board**
 
    [Reformat the QSPI flash memory.](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices)
 
@@ -131,6 +131,6 @@ Solutions:
    1. Attempt the license activation process again.
 
    > [!NOTE]
-   > Corporate networks and security programs can sometimes interfere with license activation. By temporarily disabling these protective measures, you may be able to complete the activation successfully.
+   > Corporate networks and security programs can sometimes interfere with license     activation. By temporarily disabling these protective measures, you may be able to complete the activation successfully.
 
 <!-- markdownlint-disable-file HC001 -->
