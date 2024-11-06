@@ -3,7 +3,7 @@ title: Reset the Arduino bootloader on the Nano ESP32
 id: 9810414060188
 ---
 
-Learn how to reset the default Arduino bootloader on the Nano ESP32 using Arduino IDE.
+Learn how to reset the default Arduino bootloader on the Nano ESP32.
 
 These are some reasons you may want to reset the bootloader:
 
@@ -13,16 +13,13 @@ These are some reasons you may want to reset the bootloader:
 In this article:
 
 * [Option 1: Using the bootloader mode](#bootloader-mode)
-* [Option 2: Use the Esptool programmer option](#esp32-download-mode)
-
-> [!TIP]
-> Before you begin, it is recommended to have the latest version of the **Arduino ESP32 Boards** or **esp32** boards package installed using the Board Manager.
+* [Option 2: Use the Esptool programmer option in Arduino IDE](#esp32-download-mode)
 
 ---
 
 ## Option 1: Using bootloader mode {#bootloader-mode}
 
-The quickest way to reset your Arduino Nano ESP32 is by activating the bootloader mode.
+The quickest way to reset your Arduino Nano ESP32 is by activating the bootloader mode and uploading any sketch.
 
 Follow these steps:
 
@@ -33,13 +30,16 @@ Follow these steps:
 
 2. Check the on-board LED near the RST button:
    * **If the LED pulses slowly in green[^colors]:** The board is in bootloader mode. Go to the next step.
-   * **If the LED is off:** Repeat step 1 or try [Option 2: Use the Esptool programmer option](#esp32-download-mode).
+   * **If the LED is off:** Repeat step 1 or try [Option 2: Use the Esptool programmer option in Arduino IDE](#esp32-download-mode).
 3. Select Arduino Nano ESP32 in Arduino IDE or the Cloud Editor.
 4. Upload any sketch to restore the standard Arduino bootloader.
 
 ---
 
-## Option 2: Use the Esptool programmer option {#esp32-download-mode}
+## Option 2: Use the Esptool programmer option in Arduino IDE {#esp32-download-mode}
+
+> [!TIP]
+> Before you begin, it is recommended to have the latest version of the **Arduino ESP32 Boards** or **esp32** boards package installed using the Board Manager.
 
 Follow these steps:
 
@@ -87,3 +87,5 @@ Try this:
 * Ensure you are uploading the sketch by selecting **Sketch > Upload Using Programmer** and not by clicking the regular Upload button.
 
 [^colors]: On some earlier versions of the Nano ESP32, the LED will be blue instead of green, and yellow instead of purple.
+
+<!-- markdownlint-disable-file HC001 -->
