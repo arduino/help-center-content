@@ -25,98 +25,96 @@ id: 8824551178780
 
 ---
 
-## Troubleshooting common issues
+## If PLC IDE installation fails
 
-### Installing PLC IDE
+### "User cancelled installation"
 
-- **"User cancelled installation"**
+This error occurs when the installation is interrupted before the Arduino IDE Tools Setup Wizard completes.
 
-   This error occurs when the installation is interrupted before the Arduino IDE Tools Setup Wizard completes.
+Restart the installation process and ensure you allow the Setup Wizard to finish without interruption.
 
-   Restart the installation process and ensure you allow the Setup Wizard to finish without interruption.
+### "Fatal error during installation"
 
-- **"Fatal error during installation"**
+This error typically appears when attempting to install the PLC IDE without an internet connection.
 
-   This error typically appears when attempting to install the PLC IDE without an internet connection.
-
-   Connect to the internet and try the installation again. The installer requires an active connection to download the necessary components.
+Connect to the internet and try the installation again. The installer requires an active connection to download the necessary components.
 
 ---
 
-### Download the runtime
+## If Manual sketch download fails for setup and re-installation
 
-- **"Error: Cannot download sketch file (error code: 1)"**
+### Error: "Cannot download sketch file (error code: 1)"
 
-   This error may occur when attempting to download the runtime sketch.
+This error may occur when attempting to download the runtime sketch.
 
-   Solutions:
-  - [Verify that the correct port is selected in the manual sketch download widget.](https://support.arduino.cc/hc/en-us/articles/16724283965596)
+Solutions:
 
-  - Double-tap the device’s reset button to put it in bootloader mode. First, try selecting the correct COM port. If that doesn’t work, set the Port to “Automatic (BootLoader)” and attempt to download the sketch again.
+1. [Verify that the correct port is selected in the manual sketch download widget.](https://support.arduino.cc/hc/en-us/articles/16724283965596)
 
-  - Close any applications blocking the port, such as the Arduino IDE serial monitor.
+1. Double-tap the device’s reset button to put it in bootloader mode. First, try selecting the correct COM port. If that doesn’t work, set the Port to “Automatic (BootLoader)” and attempt to download the sketch again.
 
-  - [Reformat the QSPI flash memory](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices)
+1. Close any applications blocking the port, such as the Arduino IDE serial monitor.
 
-  - Create a new project and attempt to download the runtime again.
+1. [Reformat the QSPI flash memory](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices)
 
-- **"Error: "(DownloadSketch) Can not download sketch: COM port must be used!"**
+1. Create a new project and attempt to download the runtime again.
 
-   This error occurs when no COM port is selected.
+### Error: "(DownloadSketch) Can not download sketch: COM port must be used!"
 
-   [Select the correct COM port in the manual sketch download widget](https://support.arduino.cc/hc/en-us/articles/16724283965596) and attempt the download again.
+This error occurs when no COM port is selected.
 
-- **If nothing happens when downloading the runtime sketch**
+[Select the correct COM port in the manual sketch download widget](https://support.arduino.cc/hc/en-us/articles/16724283965596) and attempt the download again.
 
-  - Ensure you've installed the latest version of the Arduino PLC IDE software from the Arduino Software page.
+### If nothing happens when downloading the runtime
 
-  - Verify the "T" Folder Exists
+1. Ensure you've installed the latest version of the Arduino PLC IDE software from the Arduino Software page.
 
-      `C:\Users\<Profile-Name>\AppData\Local\T`
+1. Verify the "T" Folder Exists
 
-      If you can't find this folder, Copy it from the computer's Admin profile (which requires access authorization, e.g., the admin password) and paste it into the same path on the user profile.
+   `C:\Users\<Profile-Name>\AppData\Local\T`
 
-  - Restart PLC IDE.
+   If you can't find this folder, Copy it from the computer's Admin profile (which requires access authorization, e.g., the admin password) and paste it into the same path on the user profile.
 
----
-
-### Connect to device
-
-- **If the "On-Line > Set up communications" and "On-line > Connect" options are disabled**
-
-   These options are only available when a project is open. Select **File > New Project** to create a new project.
-
-- **Error: “Unable to start the communication”**
-
-   When choosing **On-line > Set up communications** you may get this error message:
-
-   ```
-   Unable to start the communication
-   Choose 'On-line / Set up communication' to configure it
-   ```
-
-   Resolve the issue by selecting **On-line > Set up communication** and checking the settings. See [Connect to the Device](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#5-connect-to-the-device) for help.
-
-- **“Error” in the bottom right corner on first use of the board**
-
-   [Reformat the QSPI flash memory.](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices)
+1. Restart PLC IDE.
 
 ---
 
-### License activation
+## If there is an issue connecting to a device
+
+### If the "On-Line > Set up communications" and "On-line > Connect" options are disabled
+
+These options are only available when a project is open. Select **File > New Project** to create a new project.
+
+### Error: “Unable to start the communication”
+
+When choosing **On-line > Set up communications** you may get this error message:
+
+```
+Unable to start the communication
+Choose 'On-line / Set up communication' to configure it
+```
+
+Resolve the issue by selecting **On-line > Set up communication** and checking the settings. See [Connect to the Device](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#5-connect-to-the-device) for help.
+
+### “Error” in the bottom right corner on first use of the board
+
+[Reformat the QSPI flash memory.](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices)
+
+---
+
+## If there is an issue activating the license
 
 When activating the license for Arduino Opta or Portenta Machine Control, the following errors may occur:
 
-- **Opta**
+### Opta
 
-   After clicking “Activate PLC Runtime”:
-   `Could not activate licenses for the following products: AIPC_Arduino_Opta`
+After clicking “Activate PLC Runtime”: `Could not activate licenses for the following products: AIPC_Arduino_Opta`
 
-- **Portenta Machine Control**
+### Portenta Machine Control
 
-   Online activation: `Error #29 activating AlPLC_Arduino_PMC: Generic parameters error`
+- Online activation: `Error #29 activating AlPLC_Arduino_PMC: Generic parameters error`
 
-   Offline activation: `Could not activate licenses for the following products: AIPC_Arduino_PMC`
+- Offline activation: `Could not activate licenses for the following products: AIPC_Arduino_PMC`
 
 Solutions:
 
@@ -124,13 +122,13 @@ Solutions:
 
 - If you are using a company-owned computer, please follow these steps:
 
-   1. Temporarily disable any antivirus software running on your system.
+  1.  Temporarily disable any antivirus software running on your system.
 
-   1. Temporarily disable the firewall on your computer.
+  1.  Temporarily disable the firewall on your computer.
 
-   1. Attempt the license activation process again.
+  1.  Attempt the license activation process again.
 
-   > [!NOTE]
-   > Corporate networks and security programs can sometimes interfere with license     activation. By temporarily disabling these protective measures, you may be able to complete the activation successfully.
+  > [!NOTE]
+  > Corporate networks and security programs may interfere with license activation. Disabling these temporarily can help complete the process.
 
 <!-- markdownlint-disable-file HC001 -->
