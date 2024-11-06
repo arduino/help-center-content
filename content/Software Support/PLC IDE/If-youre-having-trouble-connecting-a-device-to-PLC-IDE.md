@@ -122,11 +122,11 @@ Solutions:
 
 - If you are using a company-owned computer, please follow these steps:
 
-  1.  Temporarily disable any antivirus software running on your system.
+  1. Temporarily disable any antivirus software running on your system.
 
-  1.  Temporarily disable the firewall on your computer.
+  1. Temporarily disable the firewall on your computer.
 
-  1.  Attempt the license activation process again.
+  1. Attempt the license activation process again.
 
   > [!NOTE]
   > Corporate networks and security programs may interfere with license activation. Disabling these temporarily can help complete the process.
