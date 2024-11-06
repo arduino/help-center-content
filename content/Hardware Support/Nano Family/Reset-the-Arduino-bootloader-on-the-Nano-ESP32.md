@@ -59,7 +59,7 @@ Follow these steps:
 
 7. Open the **Tools > Programmer** menu.
 
-8. Click on and the **Esptool** option to select it.
+8. Click on the **Esptool** option to select it.
 
 9. Select **Sketch > Upload Using Programmer** to begin uploading the firmware.
 
