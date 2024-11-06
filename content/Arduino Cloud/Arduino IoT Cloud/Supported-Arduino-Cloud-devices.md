@@ -3,7 +3,7 @@ title: "Supported Arduino Cloud devices"
 id: 360016077320
 ---
 
-When you [add a supported board as a Arduino Cloud device](https://support.arduino.cc/hc/en-us/articles/360016495559-Add-and-connect-a-device-to-Arduino-Cloud), you can <!-- TODO -->
+Learn about boards that can be [configured as IoT devices in Arduino Cloud](https://support.arduino.cc/hc/en-us/articles/360016495559-Add-and-connect-a-device-to-Arduino-Cloud).
 
 In this article:
 
@@ -11,8 +11,8 @@ In this article:
 * [Use your smartphone with Arduino Cloud](#third-party-devices-with-arduino-cloud-support)
 * [Manually configure a device without support](#manually-configure-a-device-without-support)
 
-> [!TIP]<!-- TODO -->
-> See [Boards compatible with the Cloud Editor](https://support.arduino.cc/hc/en-us/articles/360014779899).
+> [!TIP]
+> Many boards without support for IoT features can still be used in the Cloud Editor. See [Boards compatible with the Cloud Editor](https://support.arduino.cc/hc/en-us/articles/360014779899).
 
 ---
 
