@@ -5,35 +5,42 @@ id: 15156644171548
 
 These are some reasons you may want to upload firmware for Arduino Lab for Micropython:
 
-- Enable MicroPython on boards that initially come with the Arduino bootloader.
+* Enable MicroPython on boards that initially come with the Arduino bootloader.
 
-- Restore MicroPython firmware after an Arduino sketch has been flashed.
+* Restore MicroPython firmware after an Arduino sketch has been flashed.
 
-- Update the MicroPython firmware to a newer version.
+* Update the MicroPython firmware to a newer version.
 
 ## Supported Boards
 
-- Arduino GIGA R1 WiFi
-- Arduino Nano 33 BLE Sense
-- Arduino Nano ESP32
-- Arduino Nano RP2040 Connect
-- Arduino Nicla Vision
-- Arduino Portenta C33
-- Arduino Portenta H7
-- Arduino Primo
+* Arduino GIGA R1 WiFi
+* Arduino Nano 33 BLE
+* Arduino Nano 33 BLE Rev2
+* Arduino Nano 33 BLE Sense
+* Arduino Nano 33 BLE Sense Rev2
+* Arduino Nano ESP32
+* Arduino Nano RP2040 Connect
+* Arduino Nicla Vision
+* Arduino Opta RS485
+* Arduino Opta WiFi
+* Arduino Portenta C33
+* Arduino Portenta H7
+* Arduino Portenta H7 Lite
+* Arduino Portenta H7 Lite Connected
 
 ## Instructions
 
 1. Download the [MicroPython Installer](https://github.com/arduino/lab-micropython-installer/releases/latest) for your operating system:
 
-    - **Windows:** Download the `.exe` file labeled 'Windows' and run the installer.
+    * **Windows:** Download the `.exe` file labeled 'Windows' and run the installer.
 
-    - **macOS:** Download the `.zip` file labeled 'macOS', extract the zip file, and move the application to your Applications folder.
+    * **macOS:** Download the `.zip` file labeled 'macOS', extract the zip file, and move the application to your Applications folder.
 
-    - **Linux:** Download the `.deb` file labeled 'Linux' and install it using your package manager.
-        - `sudo dpkg -i [file name]`.
+    * **Linux:** Download the `.deb` file labeled 'Linux' and install it using your package manager:
 
-    - **NuGet Package:** Download the `.nupkg` file if you are using NuGet for package management.
+      `sudo dpkg -i [file name]`.
+
+    * **NuGet Package:** Download the `.nupkg` file if you are using NuGet for package management.
 
 1. Launch the Firmware Installer tool.
 
