@@ -1,6 +1,6 @@
 ---
-title: "About Manager for Linux in Arduino Cloud"
-id:
+title: About Manager for Linux in Arduino Cloud
+id: 16853355736732
 ---
 
 > [!WARNING]
