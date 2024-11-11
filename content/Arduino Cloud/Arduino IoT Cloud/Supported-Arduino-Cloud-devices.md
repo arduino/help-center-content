@@ -8,7 +8,7 @@ Learn about boards that can be [configured as IoT devices in Arduino Cloud](http
 In this article:
 
 * [Arduino devices with Arduino Cloud support](#arduino-devices-with-arduino-cloud-support)
-* [Use your smartphone with Arduino Cloud](#third-party-devices-with-arduino-cloud-support)
+* [Third-party devices with Arduino Cloud support](#third-party-devices-with-arduino-cloud-support)
 * [Manually configure a device without support](#manually-configure-a-device-without-support)
 
 > [!TIP]
