@@ -1,5 +1,5 @@
 ---
-title: Update Modulino firmware
+title: "Update the firmware of a Modulino node"
 id: 16205756022172
 ---
 
