@@ -1,5 +1,5 @@
 ---
-title: "If there are \"Unknown\" devices in the board selector and ports without a board name in the Tools > Port menu"
+title: "If there are \"Unknown\" devices in the board selector or ports without a board name in the Tools > Port menu"
 id: 4412955149586
 ---
 
