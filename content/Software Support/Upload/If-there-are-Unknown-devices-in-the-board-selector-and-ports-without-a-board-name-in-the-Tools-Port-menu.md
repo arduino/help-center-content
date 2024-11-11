@@ -53,7 +53,7 @@ The types of unidentified ports shown by Arduino IDE can be grouped in two categ
 
 1. Connect your board to your computer.
 
-**If you're using IDE 1, the board selector won't be available. Use the _Tools > Port_ menu instead:**
+**Using the _Tools > Board_ menu**:
 
 1. Disconnect your board from your computer.
 
