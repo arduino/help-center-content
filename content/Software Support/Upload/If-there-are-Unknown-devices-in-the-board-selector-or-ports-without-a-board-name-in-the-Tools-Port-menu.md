@@ -1,6 +1,6 @@
 ---
-title: "If there are \"Unknown\" devices in the board selector or ports without a board name in the Tools > Port menu"
-id:
+title: If there are "Unknown" devices in the board selector or ports without a board name in the Tools > Port menu
+id: 16884223752220
 ---
 
 Learn how to troubleshoot and resolve cases where the Arduino IDE shows "Unknown" devices or fails to assign a board name in the board selector and _Tools > Port_ menu.
