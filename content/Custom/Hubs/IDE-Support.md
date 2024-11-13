@@ -47,7 +47,7 @@ id: 9207690465436
     <img src="https://content.arduino.cc/assets/hc-USB.svg">
     <p class="info-title">Board not detected?</p>
     <p>Read more about:</p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-does-not-appear-on-a-port-in-Arduino-IDE">If your board does not appear on a port</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-is-not-detected-by-Arduino-IDE">If your board is not detected by Arduino IDE</a>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016495679-Fix-port-access-on-Linux">Fix port access on Linux</a>
   </div>
   <div class="info-item">

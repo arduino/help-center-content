@@ -43,7 +43,7 @@ If the board is still not detected, it might be stuck in a state where it cannot
 
 ### 4. Check for "Unknown" or incorrect board name
 
-* **Unknown Devices**: If the board selector in Arduino IDE displays “Unknown” devices, refer to [If there are “Unknown” devices in the board selector and without a board name in the Tools > Port menu](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-there-are-Unknown-devices-in-the-board-selector-or-ports-without-a-board-name-in-the-Tools-Port-menu) instead.
+* **Unknown Devices**: If the board selector in Arduino IDE displays “Unknown” devices, refer to [If there are “Unknown” devices in the board selector or without a board name in the Tools > Port menu](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-there-are-Unknown-devices-in-the-board-selector-or-ports-without-a-board-name-in-the-Tools-Port-menu) instead.
 
 * **Incorrect Board Identification**: If Arduino IDE incorrectly identifies your board with a generic name or as a different board type, see [If Arduino IDE detects a different board than the one you've connected](https://support.arduino.cc/hc/en-us/articles/12070802257436-If-Arduino-IDE-detects-a-different-board-than-the-one-you-ve-connected) instead.
 
