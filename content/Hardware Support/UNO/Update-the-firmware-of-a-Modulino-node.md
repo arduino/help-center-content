@@ -24,7 +24,7 @@ In this article:
 
 3. [Go to the Library Manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE) and install the [Modulino](https://docs.arduino.cc/libraries/modulino/) and [ArduinoGraphics](https://docs.arduino.cc/libraries/arduinographics/) libraries.
 
-4. In the top menu bar, open **File > Examples > Modulino > Utililities > FirmwareUpdater**.
+4. In the top menu bar, open **File > Examples > Modulino > Utilities > FirmwareUpdater**.
 
 5. Click ![Upload button](img/symbol_upload2.png) **Upload** to upload the sketch to your Arduino UNO R4 WiFi.
 
