@@ -14,9 +14,7 @@ In this article:
 
 ---
 
-<a id="ide"></a>
-
-## Update Modulino firmware in Arduino IDE
+## Update Modulino firmware in Arduino IDE {#ide}
 
 1. Connect the Modulino to your Arduino UNO R4 WiFi.
 
@@ -34,9 +32,7 @@ In this article:
 
 ---
 
-<a id="iot"></a>
-
-## Update Modulino firmware in Arduino Cloud Editor
+## Update Modulino firmware in Arduino Cloud Editor {#iot}
 
 1. Connect the Modulino to your Arduino UNO R4 WiFi.
 
