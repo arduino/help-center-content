@@ -1,5 +1,5 @@
 ---
-title: Update Modulino firmware
+title: "Update the firmware of a Modulino node"
 id: 16205756022172
 ---
 
@@ -14,9 +14,7 @@ In this article:
 
 ---
 
-<a id="ide"></a>
-
-## Update Modulino firmware in Arduino IDE
+## Update Modulino firmware in Arduino IDE {#ide}
 
 1. Connect the Modulino to your Arduino UNO R4 WiFi.
 
@@ -24,7 +22,7 @@ In this article:
 
 3. [Go to the Library Manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE) and install the [Modulino](https://docs.arduino.cc/libraries/modulino/) and [ArduinoGraphics](https://docs.arduino.cc/libraries/arduinographics/) libraries.
 
-4. In the top menu bar, open **File > Examples > Modulino > Utililities > FirmwareUpdater**.
+4. In the top menu bar, open **File > Examples > Modulino > Utilities > FirmwareUpdater**.
 
 5. Click ![Upload button](img/symbol_upload2.png) **Upload** to upload the sketch to your Arduino UNO R4 WiFi.
 
@@ -34,24 +32,19 @@ In this article:
 
 ---
 
-<a id="iot"></a>
-
-## Update Modulino firmware in Arduino Cloud Editor
+## Update Modulino firmware in Arduino Cloud Editor {#iot}
 
 1. Connect the Modulino to your Arduino UNO R4 WiFi.
 
-2. Connect the board to your computer and [open the Cloud Editor](https://support.arduino.cc/hc/en-us/articles/13809101080732-Open-the-Cloud-Editor).
+2. Connect the board to your computer.
 
-3. Go to the **Examples** tab on the left-side panel, and select **From Libraries**.
+3. Open the FirmwareUpdater example:
 
-4. Search for "Modulino" and open **Modulino > Utililities > FirmwareUpdater**.
+    * Click [here to open it directly](https://app.arduino.cc/sketches/examples?nav=Examples&eid=modulino_0_4_2%2Fexamples%2FUtilities%2FFirmwareUpdater&slid=modulino_0_4_2){.link-external}
+    * Alternatively, open the Cloud Editor, go to **Examples > From Libraries**, search for "Modulino," and open **Modulino > Utilities > FirmwareUpdater**.
 
-5. Copy the "FirmwareUpdater" example to a new sketch.
+4. Click ![Upload button](img/symbol_upload_cloud.png) **Upload** to upload the sketch to your Arduino UNO R4 WiFi.
 
-    !["Examples" tab in Cloud Editor showing Modulino examples, with 'FirmwareUpdater' selected and 'Copy in your sketches' highlighted](img/modulino_firmwareUpdater.png)
+5. The firmware update is complete when the sketch is successfully uploaded to the board and the text `PAS` is displayed on the LED matrix.
 
-6. Click ![Upload button](img/symbol_upload_cloud.png) **Upload** to upload the sketch to your Arduino UNO R4 WiFi.
-
-7. The firmware update is complete when the sketch is successfully uploaded to the board and the text `PAS` is displayed on the LED matrix.
-
-8. You can now test the Modulino by [importing a Modulino Template](https://support.arduino.cc/hc/en-us/articles/14826942993308-Import-an-Arduino-Cloud-Template).
+6. You can now test the Modulino by [importing a Modulino Template](https://support.arduino.cc/hc/en-us/articles/14826942993308-Import-an-Arduino-Cloud-Template).
