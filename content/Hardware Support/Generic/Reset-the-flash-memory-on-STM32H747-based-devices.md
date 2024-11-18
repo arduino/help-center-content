@@ -10,9 +10,6 @@ You may want to use this procedure to:
 * Restore the factory-defined memory allocation for full support of Arduino IDE or Arduino Cloud.
 * Resolve issues with storage or connectivity.
 
-> [!IMPORTANT]
-> Resetting the flash memory will remove the PLC IDE runtime. [Reinstall the runtime](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license/#3-download-the-runtime) to continue using PLC IDE with your device.
-
 Supported devices:
 
 * Arduino GIGA R1 WiFi
@@ -25,7 +22,10 @@ Supported devices:
 
 ---
 
-**Follow these steps:**
+> [!IMPORTANT]
+> Resetting the flash memory will remove the PLC IDE runtime. [Reinstall the runtime](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license/#3-download-the-runtime) to continue using PLC IDE with your device.
+
+Follow these steps:
 
 1. Download the following sketch:
 
@@ -51,3 +51,5 @@ Supported devices:
    Firmware and certificates updated!
    It's now safe to reboot or disconnect your board.
    ```
+
+Check if the problem persists. If you're using PLC IDE, you'll first need to [reinstall the runtime](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license/#3-download-the-runtime). If you're using an Arduino Opta and still encounter issues, the memory may have write protection enabled. Follow the instructions in [Recover an Arduino Opta with read-only flash memory](https://support.arduino.cc/hc/en-us/articles/16289852333212-Recover-an-Arduino-Opta-with-read-only-flash-memory), then repeat the steps above.
