@@ -13,6 +13,7 @@ You may want to use this procedure to:
 Supported devices:
 
 * Arduino GIGA R1 WiFi
+* Arduino Opta Lite
 * Arduino Opta RS485
 * Arduino Opta WiFi
 * Arduino Portenta H7
