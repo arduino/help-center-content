@@ -3,29 +3,27 @@ title: "If you're having trouble connecting a device to PLC IDE"
 id: 8824551178780
 ---
 
-## Check this first
+Learn what do to do if you having an issue using your device with PLC IDE.
 
-- If you haven't done so, start by checking the [Arduino PLC IDE Setup and Board's License Activation](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#instructions) tutorial.
+> ![TIP]
+> If you're just getting started with PLC IDE, see [Arduino® PLC IDE Setup & Device License Activation](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license/).
 
-- Ensure you've installed the latest version of the **Arduino PLC IDE** software.
+In this article:
 
-- Ensure that you have full administrative privileges when running PLC IDE.
-
-- Ensure you use a USB cable that supports data transfer.
-
-- When downloading the runtime, or connecting to the device, ensure you're [targeting the correct port](https://support.arduino.cc/hc/en-us/articles/16724283965596).
-
-- When opening a project created with an earlier version of the PLC IDE, some issues may occur. Try creating a new project (**File > New Project**) to see if this resolves the issue.
-
-- You need **valid license** to download the code to the device:
-
-  - Licenses for Portenta Machine Control are [available in the store](https://store.arduino.cc/products/plc-key-portenta-machine-control). Instructions for license activation [are available here](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#6-license-activation-with-product-key-portenta-machine-control).
-
-  - Arduino Opta is a pre-licensed product, follow the [activation instructions](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#7-license-activation-with-pre-licensed-products-opta).
+- [If the PLC IDE installation fails](#if-the-plc-ide-installation-fails)
+- [If you can't find the serial port for your device]()
+- [If you can't install the runtime](#if-you-cant-install-the-runtime)
+- [If you see an error when downloading](#if-you-see-an-error-when-downloading)
+- [If there is an issue activating the license](#if-there-is-an-issue-activating-the-license)
 
 ---
 
-## If PLC IDE installation fails
+## If the PLC IDE installation fails
+
+In this section:
+
+- ["User cancelled installation"](#user-cancelled-installation)
+- ["Fatal error during installation"](#fatal-error-during-installation)
 
 ### "User cancelled installation"
 
@@ -41,45 +39,56 @@ Connect to the internet and try the installation again. The installer requires a
 
 ---
 
-## If Manual sketch download fails for setup and re-installation
+## If you can't find the serial port for your device{if-you-cant-find-the-serial-port-for-your-device}
 
-### Error: "Cannot download sketch file (error code: 1)"
+### If you don't know which port to use
 
-This error may occur when attempting to download the runtime sketch.
+[Find the correct port for your device in PLC IDE](https://support.arduino.cc/hc/en-us/articles/16724283965596-Find-the-correct-port-for-your-device-in-PLC-IDE){.link-chevron-right}
 
-Solutions:
+### If no COM port is available
 
-1. [Verify that the correct port is selected in the manual sketch download widget.](https://support.arduino.cc/hc/en-us/articles/16724283965596)
+Follow these steps:
 
-1. Double-tap the device’s reset button to put it in bootloader mode. First, try selecting the correct COM port. If that doesn’t work, set the Port to “Automatic (BootLoader)” and attempt to download the sketch again.
-
-1. Close any applications blocking the port, such as the Arduino IDE serial monitor.
-
-1. [Reformat the QSPI flash memory](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices)
-
-1. Create a new project and attempt to download the runtime again.
-
-### Error: "(DownloadSketch) Can not download sketch: COM port must be used!"
-
-This error occurs when no COM port is selected.
-
-[Select the correct COM port in the manual sketch download widget](https://support.arduino.cc/hc/en-us/articles/16724283965596) and attempt the download again.
-
-### If nothing happens when downloading the runtime
-
-1. Ensure you've installed the latest version of the Arduino PLC IDE software from the Arduino Software page.
-
-1. Verify the "T" Folder Exists
-
-   `C:\Users\<Profile-Name>\AppData\Local\T`
-
-   If you can't find this folder, Copy it from the computer's Admin profile (which requires access authorization, e.g., the admin password) and paste it into the same path on the user profile.
-
-1. Restart PLC IDE.
+1. Ensure your device is connected using a working data USB cable.
+2. Do a bootloader reset <!-- TODO -->
 
 ---
 
-## If there is an issue connecting to a device
+## If you can't install the runtime
+
+In this section:
+
+- [If nothing happens when downloading the runtime](#if-nothing-happens-when-downloading-the-runtime)
+- [If there is an error when installing the runtime](#if-there-is-an-error-when-installing-the-runtime)
+
+### If nothing happens when downloading the runtime
+
+Try selecting the Resources tab in the Output panel.
+
+1. Under the Output panel, select the **Resources** tab.
+
+1. Follow the linked instructions if you see any of these errors:
+
+   - [Error: "Cannot download sketch file error code: 1"](#error-cannot-download-sketch-file-error-code-1)
+   - [Cannot generate profile file error message: Error: Path not found](#cannot-generate-profile-file-error-message-error-path-not-found)
+
+1. Ensure you've installed the latest version of the Arduino PLC IDE software from the Arduino Software page.
+
+1. Restart PLC IDE.
+
+### If there is an error when installing the runtime
+
+See the [If you see an error when downloading](#if-you-see-an-error-when-downloading) section.
+
+---
+
+## If you can't connect to the device
+
+In this section:
+
+- [If the "On-Line > Set up communications" and "On-line > Connect" options are disabled](#if-the-on-line--set-up-communications-and-on-line--connect-options-are-disabled)
+- [Error: “Unable to start the communication”](#error-unable-to-start-the-communication)
+
 
 ### If the "On-Line > Set up communications" and "On-line > Connect" options are disabled
 
@@ -96,27 +105,69 @@ Choose 'On-line / Set up communication' to configure it
 
 Resolve the issue by selecting **On-line > Set up communication** and checking the settings. See [Connect to the Device](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license#5-connect-to-the-device) for help.
 
+---
+
+## If you see an error when downloading
+
+In this section:
+
+- [Error: "Cannot download sketch file error code: 1"](#error-cannot-download-sketch-file-error-code-1)
+- [Cannot generate profile file error message: Error: Path not found](#cannot-generate-profile-file-error-message-error-path-not-found)
+- [Error: invalid path creating config dir](#error-invalid-path-creating-config-dir)
+- [“Error” in the bottom right corner on first use of the board](#error-in-the-bottom-right-corner-on-first-use-of-the-board)
+
+### Error pop-up: "Cannot download sketch file (error code: 1)"
+
+This error may occur when attempting to download the runtime sketch.
+
+Solutions:
+
+1. [Verify that the correct port is selected in the manual sketch download widget.](https://support.arduino.cc/hc/en-us/articles/16724283965596)
+
+1. Double-tap the device’s reset button to put it in bootloader mode. First, try selecting the correct COM port. If that doesn’t work, set the Port to “Automatic (BootLoader)” and attempt to download the sketch again.
+
+1. Close any applications blocking the port, such as the Arduino IDE serial monitor.
+
+1. [Reformat the QSPI flash memory](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices)
+
+1. Create a new project and attempt to download the runtime again.
+
+
+### Cannot generate profile file (error message: Error: Path not found)
+
+If you see this error, it means that the sketch.yaml file is missing from `C:\Users\<Profile-Name>\AppData\Local\T\sketch.yaml`.
+
+### Error: invalid path creating config dir
+
+You may see this error:
+
+`Error: invalid path creating config dir: C:\Users\Sweden UX\AppData\Local\T\A error: mkdir C:\Users\<User>\AppData: Cannot create a file when that file already exists.`
+
+This error can occur when the `arduino-cli.yaml` file is copied from another user.
+
+Do one of the following:
+
+* Delete`arduino-cli.yaml` to use the standard Arduino CLI configuration.
+* Open `arduino-cli.yaml` in a text editor and change all paths to use your own user folder.
+
 ### “Error” in the bottom right corner on first use of the board
 
-[Reformat the QSPI flash memory.](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices)
+Follow these steps:
+
+1. In the Output panel, open the **Resources** tab and check for error messages.
+2. [Reformat the QSPI flash memory.](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices)
 
 ---
 
 ## If there is an issue activating the license
 
-When activating the license for Arduino Opta or Portenta Machine Control, the following errors may occur:
+When activating the license you may see one of these errors:
 
-### Opta
+* `Could not activate licenses for the following products: AIPC_Arduino_Opta`
+* `Error #29 activating AlPLC_Arduino_PMC: Generic parameters error`
+* `Could not activate licenses for the following products: AIPC_Arduino_PMC`
 
-After clicking “Activate PLC Runtime”: `Could not activate licenses for the following products: AIPC_Arduino_Opta`
-
-### Portenta Machine Control
-
-- Online activation: `Error #29 activating AlPLC_Arduino_PMC: Generic parameters error`
-
-- Offline activation: `Could not activate licenses for the following products: AIPC_Arduino_PMC`
-
-Solutions:
+Try the following:
 
 - Upload the [Memory Partitioning sketch](https://docs.arduino.cc/tutorials/opta/memory-partitioning/) using Arduino IDE. Then, try to activate the license again.
 
@@ -128,7 +179,7 @@ Solutions:
 
   1. Attempt the license activation process again.
 
-  > [!NOTE]
-  > Corporate networks and security programs may interfere with license activation. Disabling these temporarily can help complete the process.
+> [!NOTE]
+> Corporate networks and security programs may interfere with license activation. Disabling these temporarily can help complete the process.
 
 <!-- markdownlint-disable-file HC001 -->
