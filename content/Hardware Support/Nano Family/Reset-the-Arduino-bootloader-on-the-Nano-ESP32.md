@@ -10,33 +10,7 @@ These are some reasons you may want to reset the bootloader:
 * Update the Arduino bootloader already on the board. This can resolve issues with Nano ESP32 being misidentified as other ESP32 boards.
 * Restore the ability to upload regular Arduino sketches to a Nano ESP32 that has been flashed with the MicroPython firmware.
 
-In this article:
-
-* [Option 1: Using the bootloader mode](#bootloader-mode)
-* [Option 2: Use the Esptool programmer option in Arduino IDE](#esp32-download-mode)
-
 ---
-
-## Option 1: Using bootloader mode {#bootloader-mode}
-
-The quickest way to reset your Arduino Nano ESP32 is by activating the bootloader mode and uploading any sketch.
-
-Follow these steps:
-
-1. Press the RST button two times, waiting 0.3 to 1 second between each press.
-
-   > [!IMPORTANT]
-   > The timing between presses is different compared to bootloader mode on most other Arduino boards. If bootloader mode won’t activate, try adjusting your timing.
-
-2. Check the on-board LED near the RST button:
-   * **If the LED pulses slowly in green[^colors]:** The board is in bootloader mode. Go to the next step.
-   * **If the LED is off:** Repeat step 1 or try [Option 2: Use the Esptool programmer option in Arduino IDE](#esp32-download-mode).
-3. Select Arduino Nano ESP32 in Arduino IDE or the Cloud Editor.
-4. Upload any sketch to restore the standard Arduino bootloader.
-
----
-
-## Option 2: Use the Esptool programmer option in Arduino IDE {#esp32-download-mode}
 
 > [!TIP]
 > Before you begin, it is recommended to have the latest version of the **Arduino ESP32 Boards** or **esp32** boards package installed using the Board Manager.
@@ -72,9 +46,9 @@ Follow these steps:
 
 10. Press the **RST** button on top of the board to exit firmware download mode.
 
-### Troubleshooting
+## Troubleshooting
 
-#### dfu-util: No DFU capable USB device available
+### dfu-util: No DFU capable USB device available
 
 If you see this error, it means that the sketch is still being uploading with the regular upload process.
 
