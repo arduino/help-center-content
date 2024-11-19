@@ -23,7 +23,7 @@ You may want to try this procedure if:
 
 The firmware is included in the **Arduino AVR Boards** package. When it's installed, you can find the firmware inside the [Arduino15 folder](https://support.arduino.cc/hc/en-us/articles/360018448279-Where-can-I-find-the-Arduino15-folder-):
 
-* Windows: `%USERPROFILE%\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\firmware\firmwares\atmegaxxu2\arduino-usbserial`
+* Windows: `%USERPROFILE%\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\firmwares\atmegaxxu2\arduino-usbserial`
 * macoS: `~/Library/Arduino15/packages/arduino/hardware/avr/1.8.6/firmwares/atmegaxxu2/arduino-usbserial`
 * Linux: `~/.arduino15/packages/arduino/hardware/avr/1.8.6/firmwares/atmegaxxu2/arduino-usbserial`
 
@@ -156,7 +156,7 @@ Follow these steps:
 ##### UNO R3 on Windows
 
 ```
-dfu-programmer.exe atmega16u2 flash %USERPROFILE%\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\firmware\firmwares\atmegaxxu2\arduino-usbserial\Arduino-usbserial-atmega16u2-Uno-Rev3.hex
+dfu-programmer.exe atmega16u2 flash %USERPROFILE%\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\firmwares\atmegaxxu2\arduino-usbserial\Arduino-usbserial-atmega16u2-Uno-Rev3.hex
 ```
 
 ##### UNO R3 on macOS
@@ -174,7 +174,7 @@ dfu-programmer atmega16u2 flash ~/.arduino15/packages/arduino/hardware/avr/1.8.6
 ##### Mega2560 Rev3 on Windows
 
 ```
-dfu-programmer.exe atmega16u2 flash %USERPROFILE%\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\firmware\firmwares\atmegaxxu2\arduino-usbserial\Arduino-usbserial-atmega16u2-Mega2560-Rev3.hex
+dfu-programmer.exe atmega16u2 flash %USERPROFILE%\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\firmwares\atmegaxxu2\arduino-usbserial\Arduino-usbserial-atmega16u2-Mega2560-Rev3.hex
 ```
 
 ##### Mega2560 Rev3 on macOS
