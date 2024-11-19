@@ -56,7 +56,7 @@ Follow these steps:
 
 1. Connect the board to your computer
 
-1. **If you're a "Rev 1" board:** If you're using an older revision (UNO Rev1 or Mega Rev1), you need to also assert and hold the **HWB line**. Find the two HWB pads on the back of the board and short them using something conductive, like a piece of wire.
+1. **If you're using a "Rev 1" board:** If you're using an older revision (UNO Rev1 or Mega Rev1), you need to also assert and hold the **HWB line**. Find the two HWB pads on the back of the board and short them using something conductive, like a piece of wire.
 
    ![The HWB pads on the UNO Rev1.](img/UNO-DFU-HWB-line.png)
 
