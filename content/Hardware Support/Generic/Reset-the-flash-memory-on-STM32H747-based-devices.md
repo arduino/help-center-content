@@ -15,10 +15,13 @@ You may want to use this procedure to:
 
 Supported devices:
 
-* GIGA R1 WiFi
-* Opta
-* Portenta H7
-* Portenta Machine Control
+* Arduino GIGA R1 WiFi
+* Arduino Opta RS485
+* Arduino Opta WiFi
+* Arduino Portenta H7
+* Arduino Portenta H7 Lite
+* Arduino Portenta H7 Lite Connected
+* Arduino Portenta Machine Control
 
 ---
 

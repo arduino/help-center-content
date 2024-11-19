@@ -8,7 +8,7 @@ The [Arduino MKR GSM 1400](https://store.arduino.cc/arduino-mkr-gsm-1400-1415) h
 ## What you'll need
 
 * An Arduino MKR GSM 1400
-* An [activated SIM card from Arduino](https://support.arduino.cc/hc/en-us/articles/360021543440) or some other service provider.
+* A SIM card with GSM/3G service
 * A GSM/3G antenna with a micro UFL connector (such as the one included in the [cellular kit](https://store.arduino.cc/arduino-sim-mkr-gsm-1400-cellular-kit-1417)).
 
 ---
@@ -57,28 +57,7 @@ The micro UFL port and the SIM tray are highlighted respectively in the image be
 
    ![The "Configure" button, under "Network".](img/IoT-SIM-configure-network-2.png)
 
-5. Enter your network parameters. If you are configuring an Arduino SIM, use the following parameters:
-
-   <table>
-    <tr>
-      <th>APN</th>
-      <td>prepay.pelion</td>
-    </tr>
-    <tr>
-      <th>PIN</th>
-      <td>0000</td>
-    </tr>
-    <tr>
-      <th>Username</th>
-      <td>arduino</td>
-    </tr>
-    <tr>
-      <th>Password</th>
-      <td>arduino</td>
-    </tr>
-   </table>
-
-   Otherwise, use the parameters provided by your SIM provider.
+5. Enter the network parameters provided by your SIM provider.
 
 6. Click the **SAVE** button.
 

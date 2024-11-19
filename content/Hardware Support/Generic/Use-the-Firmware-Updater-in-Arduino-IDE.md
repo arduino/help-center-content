@@ -13,22 +13,20 @@ In this article:
 
 ---
 
-<a id="arduino-ide-2"></a>
-
-## Arduino IDE (2.2.0 or later)
+## Arduino IDE (2.2.0 or later) {#arduino-ide-2}
 
 ### Supported boards
 
-The Firmware Updater tool in Arduino IDE supports[^deprecated] these boards and modules:
+The Firmware Updater tool in Arduino IDE supports these boards[^deprecated]:
 
-| Board                 | Module   |
-|-----------------------|----------|
-| Arduino UNO R4 WiFi   | ESP32-S3 |
-| Arduino Portenta C33  | ESP32-C3 |
-| Arduino MKR WiFi 1010 | NINA     |
-| Arduino NANO 33 IoT   | NINA     |
-| Arduino Uno WiFi Rev2 | NINA     |
-| Arduino Nano RP2040   | NINA     |
+|            Board            |   Module  |
+|:----------------------------|:----------|
+| Arduino MKR WiFi 1010       | NINA-W102 |
+| Arduino Nano 33 IoT         | NINA-W102 |
+| Arduino Nano RP2040 Connect | NINA-W102 |
+| Arduino Portenta C33        | ESP32-C3  |
+| Arduino UNO R4 WiFi         | ESP32-S3  |
+| Arduino UNO WiFi Rev2       | NINA-W102 |
 
 [^deprecated]: MKR 1000 WiFi and MKR Vidor 4000 are not supported in Arduino IDE 2.2.0 / Arduino Firmware Uploader 2.4 or later. To update these boards, use Arduino IDE [2.2.1](https://github.com/arduino/arduino-ide/releases/tag/2.1.1) or Arduino Firmware Uploader [2.3.0](https://github.com/arduino/arduino-fwuploader/releases/tag/2.3.0). For more information, see the [Arduino Firmware Uploader user documentation](https://arduino.github.io/arduino-fwuploader/latest/deprecated/).
 
@@ -61,7 +59,8 @@ Follow these steps to update your board's wireless connectivity firmware using A
 
 7. If you're using the **UNO R4 WiFi**, disconnect and reconnect the board from your computer.
 
-   > **Warning:** After flashing the firmware on the UNO R4 WiFi, the board will remain in **ESP Download** mode until you disconnect and reconnect it from your computer. If you upload a sketch while the board is in ESP Mode, it will erase the special firmware that lets the ESP32 chip function as an USB bridge.
+   > [!WARNING]
+   > After flashing the firmware on the UNO R4 WiFi, the board will remain in **ESP Download** mode until you disconnect and reconnect it from your computer. If you upload a sketch while the board is in ESP Mode, it will erase the special firmware that lets the ESP32 chip function as an USB bridge.
 
 8. Close the Firmware Updater by clicking the "x" in the top-right corner of the Firmware Updater window.
 
@@ -71,9 +70,7 @@ Follow these steps to update your board's wireless connectivity firmware using A
 
 ---
 
-<a id="arduino-ide-1"></a>
-
-## Arduino IDE 1.8.19
+## Arduino IDE 1.8.19 {#arduino-ide-1}
 
 > [!NOTE]
 > Arduino IDE 1.8.19 is no longer being maintained and uses an older version of the Arduino Firmware Uploader. Because of this, it does not support newer boards like UNO R4 WiFi or Portenta C33.
@@ -100,8 +97,6 @@ To update the firmware in Arduino IDE 1.8.19, follow these steps:
 
 ---
 
-<a id="other"></a>
+## Other methods for updating firmware {#other}
 
-## Other methods for updating firmware
-
-* To use the **arduino-fwuploader** CLI utility, check the <a class="link-external" href="https://arduino.github.io/arduino-fwuploader/latest/">Arduino Firmware Uploader user documentation</a>.
+To use the **arduino-fwuploader** CLI utility, check the <a class="link-external" href="https://arduino.github.io/arduino-fwuploader/latest/">Arduino Firmware Uploader user documentation</a>.

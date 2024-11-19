@@ -1,5 +1,5 @@
 ---
-title: "If you cannot purchase an Arduino Cloud plan, SIM subscription, or certification exam"
+title: "If you cannot purchase an Arduino Cloud plan or certification exam"
 id: 4409540316178
 ---
 
@@ -13,13 +13,6 @@ These restrictions apply to affected countries and regions:
 * You are still welcome to use the free plan.
 
  ![Purchase option is grayed out](img/purchase-option-is-grayed-out.png)
-
-## Arduino SIM
-
-* You cannot activate a trial or sign up for a paid subscription.
-* If the 'Activate your free trial' button is clicked, an **ITEM NOT AVAILABLE** message will appear.
-
-![Pop-up window when signing clicking 'Activate your free trial': "ITEM NOT AVAILABLE: Unfortunately this item is not currently available in your country or region. We apologize for the inconvenience."](img/item-not-available-in-your-country-SIM.png)
 
 ## Arduino Certification Exam
 
