@@ -79,9 +79,9 @@ If both the Internal sensors and the board sensor categories are expanded, they 
 
 ### Ensure your libraries are updated
 
-If you’re experiencing connectivity issues, it may be due to outdated libraries. Verify in that the `Arduino_ScienceJournal` and `Arduino_BMI270_BMM150` libraries are both updated to their latest version in the Library Manager in Arduino IDE.
+If you’re experiencing connectivity issues, it may be due to outdated libraries. Verify in that the `Arduino_ScienceJournal` and `Arduino_BMI270_BMM150` libraries are both updated to their latest version in the [Library Manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE#library-manager) in Arduino IDE.
 
-If the libraries aren’t available in the Library Manager, you can download and install the latest versions manually:
+Alternatively, you can download and [manually install](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE#manual-installation) the latest versions from the releases pages:
 
-- [Arduino_ScienceJournal](https://github.com/arduino-libraries/Arduino_ScienceJournal/releases/tag/1.3.0)
-- [Arduino_BMI270_BMM150](https://github.com/arduino-libraries/Arduino_BMI270_BMM150/releases/tag/1.2.1)
+- [Arduino_ScienceJournal](https://github.com/arduino-libraries/Arduino_ScienceJournal/releases) {.link-external}
+- [Arduino_BMI270_BMM150](https://github.com/arduino-libraries/Arduino_BMI270_BMM150/releases) {.link-external}
