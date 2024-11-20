@@ -5,10 +5,10 @@ id: 4407749620370
 
 Learn how to connect a board to the Arduino Science Journal app. In this article:
 
-* [Compatible boards](#compatible-boards)
-* [Set up your board](#set-up-your-board)
-* [Connect the Science Journal app](#connect-the-science-journal-app)
-* [Troubleshooting](#troubleshooting)
+- [Compatible boards](#compatible-boards)
+- [Set up your board](#set-up-your-board)
+- [Connect the Science Journal app](#connect-the-science-journal-app)
+- [Troubleshooting](#troubleshooting)
 
 ---
 
@@ -18,10 +18,10 @@ Learn how to connect a board to the Arduino Science Journal app. In this article
 
 The Science Journal can be used with the following boards:
 
-* Arduino MKR WiFi 1010 (with the Science Carrier, or Science Carrier Rev2)
-* Arduino Nano 33 BLE Sense
-* Arduino Nano 33 BLE Sense Rev2
-* Arduino Nano RP2040 Connect (by itself, or with the Science Carrier R3)
+- Arduino MKR WiFi 1010 (with the Science Carrier, or Science Carrier Rev2)
+- Arduino Nano 33 BLE Sense
+- Arduino Nano 33 BLE Sense Rev2
+- Arduino Nano RP2040 Connect (by itself, or with the Science Carrier R3)
 
 > [!NOTE]
 > The MKR WiFi 1010 needs to be connected using the Science Carrier, which is only available in the [Arduino Science Kit Physics Lab](https://store.arduino.cc/products/arduino-science-kit-physics-lab).
@@ -32,8 +32,8 @@ The Science Journal can be used with the following boards:
 
 1. **Upload the Science Journal firmware:**
 
-   * If your board came with a Science Kit, **it will have the the required firmware out-of-the-box**.
-   * If you're using a board not included in a Science Kit, an individually bought board replacement, or have flashed the board with different firmware, see [Upload the Science Journal firmware](https://support.arduino.cc/hc/en-us/articles/4408029337746-Upload-the-Science-Journal-firmware).
+   - If your board came with a Science Kit, **it will have the the required firmware out-of-the-box**.
+   - If you're using a board not included in a Science Kit, an individually bought board replacement, or have flashed the board with different firmware, see [Upload the Science Journal firmware](https://support.arduino.cc/hc/en-us/articles/4408029337746-Upload-the-Science-Journal-firmware).
 
 2. **If you're using a Science Carrier:** Connect the board to the Science Carrier, ensuring that the pins (e.g., A1, A2) align properly.
 
@@ -76,3 +76,12 @@ Under **Available Devices**, the arrow next to Arduino Boards should be pointing
 If both the Internal sensors and the board sensor categories are expanded, they can be mistaken for a single category. Try swiping up, and tap to collapse the Internal sensors category. Your board may appear below.
 
 ![Finding the added device.](img/SJ-v2-missing-board-middle.gif)
+
+### Ensure your libraries are updated
+
+If you’re experiencing connectivity issues, it may be due to outdated libraries. Verify in that the `Arduino_ScienceJournal` and `Arduino_BMI270_BMM150` libraries are both updated to their latest version in the [Library Manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE#library-manager) in Arduino IDE.
+
+Alternatively, you can download and [manually install](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE#manual-installation) the latest versions from the releases pages:
+
+- [Arduino_ScienceJournal](https://github.com/arduino-libraries/Arduino_ScienceJournal/releases) {.link-external}
+- [Arduino_BMI270_BMM150](https://github.com/arduino-libraries/Arduino_BMI270_BMM150/releases) {.link-external}
