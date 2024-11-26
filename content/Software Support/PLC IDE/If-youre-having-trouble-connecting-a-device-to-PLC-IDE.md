@@ -10,36 +10,30 @@ Learn what do to do if you having an issue using your device with PLC IDE.
 
 In this article:
 
-- [If the PLC IDE installation fails](#if-the-plc-ide-installation-fails)
-- [If you can't find the serial port for your device]()
+- [If you can't find the serial port for your device{if-you-cant-find-the-serial-port-for-your-device}](#if-you-cant-find-the-serial-port-for-your-deviceif-you-cant-find-the-serial-port-for-your-device)
+  - [If you don't know which port to use](#if-you-dont-know-which-port-to-use)
+  - [If no COM port is available](#if-no-com-port-is-available)
 - [If you can't install the runtime](#if-you-cant-install-the-runtime)
+  - [If nothing happens when downloading the runtime](#if-nothing-happens-when-downloading-the-runtime)
+  - [If there is an error when installing the runtime](#if-there-is-an-error-when-installing-the-runtime)
+- [If you can't connect to the device](#if-you-cant-connect-to-the-device)
+  - [If the "On-Line > Set up communications" and "On-line > Connect" options are disabled](#if-the-on-line--set-up-communications-and-on-line--connect-options-are-disabled)
+  - [Error: “Unable to start the communication”](#error-unable-to-start-the-communication)
 - [If you see an error when downloading](#if-you-see-an-error-when-downloading)
+  - [Error pop-up: "Cannot download sketch file error code: 1"](#error-pop-up-cannot-download-sketch-file-error-code-1)
+  - [Cannot generate profile file error message: Error: Path not found](#cannot-generate-profile-file-error-message-error-path-not-found)
+  - [Error: invalid path creating config dir](#error-invalid-path-creating-config-dir)
+  - [“Error” in the bottom right corner on first use of the board](#error-in-the-bottom-right-corner-on-first-use-of-the-board)
 - [If there is an issue activating the license](#if-there-is-an-issue-activating-the-license)
 
 ---
 
-## If the PLC IDE installation fails
+## If you can't find the serial port for your device
 
 In this section:
 
-- ["User cancelled installation"](#user-cancelled-installation)
-- ["Fatal error during installation"](#fatal-error-during-installation)
-
-### "User cancelled installation"
-
-This error occurs when the installation is interrupted before the Arduino IDE Tools Setup Wizard completes.
-
-Restart the installation process and ensure you allow the Setup Wizard to finish without interruption.
-
-### "Fatal error during installation"
-
-This error typically appears when attempting to install the PLC IDE without an internet connection.
-
-Connect to the internet and try the installation again. The installer requires an active connection to download the necessary components.
-
----
-
-## If you can't find the serial port for your device{if-you-cant-find-the-serial-port-for-your-device}
+- [If you don't know which port to use](#if-you-dont-know-which-port-to-use)
+- [If no COM port is available](#if-no-com-port-is-available)
 
 ### If you don't know which port to use
 
@@ -49,8 +43,13 @@ Connect to the internet and try the installation again. The installer requires a
 
 Follow these steps:
 
-1. Ensure your device is connected using a working data USB cable.
-2. Do a bootloader reset <!-- TODO -->
+1. Ensure your device is connected using a working data USB cable. Connect your board with a data USB cable, not a charging-only cable.
+1. Disconnect and reconnect your board to reset its power.
+1. Check for any system notifications that may prompt you to grant USB device permissions, and allow them if they appear.
+1. Confirm the cable is working by testing it with another device or trying a different cable.
+1. Connect the board directly to your computer instead of through a USB hub.
+1. If the board is still not detected, try a different USB port on your computer.
+1. Press the `RESET` button twice to put it into Bootloader mode. On the Opta, the button is located in a small hole, similar to those on a router, so you'll need a pointed object. On the PMC, it's a standard button that you can press directly.
 
 ---
 
@@ -88,7 +87,6 @@ In this section:
 
 - [If the "On-Line > Set up communications" and "On-line > Connect" options are disabled](#if-the-on-line--set-up-communications-and-on-line--connect-options-are-disabled)
 - [Error: “Unable to start the communication”](#error-unable-to-start-the-communication)
-
 
 ### If the "On-Line > Set up communications" and "On-line > Connect" options are disabled
 
@@ -132,7 +130,6 @@ Solutions:
 
 1. Create a new project and attempt to download the runtime again.
 
-
 ### Cannot generate profile file (error message: Error: Path not found)
 
 If you see this error, it means that the sketch.yaml file is missing from `C:\Users\<Profile-Name>\AppData\Local\T\sketch.yaml`.
@@ -147,8 +144,8 @@ This error can occur when the `arduino-cli.yaml` file is copied from another use
 
 Do one of the following:
 
-* Delete`arduino-cli.yaml` to use the standard Arduino CLI configuration.
-* Open `arduino-cli.yaml` in a text editor and change all paths to use your own user folder.
+- Delete`arduino-cli.yaml` to use the standard Arduino CLI configuration.
+- Open `arduino-cli.yaml` in a text editor and change all paths to use your own user folder.
 
 ### “Error” in the bottom right corner on first use of the board
 
@@ -163,9 +160,9 @@ Follow these steps:
 
 When activating the license you may see one of these errors:
 
-* `Could not activate licenses for the following products: AIPC_Arduino_Opta`
-* `Error #29 activating AlPLC_Arduino_PMC: Generic parameters error`
-* `Could not activate licenses for the following products: AIPC_Arduino_PMC`
+- `Could not activate licenses for the following products: AIPC_Arduino_Opta`
+- `Error #29 activating AlPLC_Arduino_PMC: Generic parameters error`
+- `Could not activate licenses for the following products: AIPC_Arduino_PMC`
 
 Try the following:
 
