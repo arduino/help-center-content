@@ -10,20 +10,10 @@ Learn what do to do if you having an issue using your device with PLC IDE.
 
 In this article:
 
-- [If you can't find the serial port for your device{if-you-cant-find-the-serial-port-for-your-device}](#if-you-cant-find-the-serial-port-for-your-deviceif-you-cant-find-the-serial-port-for-your-device)
-  - [If you don't know which port to use](#if-you-dont-know-which-port-to-use)
-  - [If no COM port is available](#if-no-com-port-is-available)
+- [If you can't find the serial port for your device](#if-you-cant-find-the-serial-port-for-your-device)
 - [If you can't install the runtime](#if-you-cant-install-the-runtime)
-  - [If nothing happens when downloading the runtime](#if-nothing-happens-when-downloading-the-runtime)
-  - [If there is an error when installing the runtime](#if-there-is-an-error-when-installing-the-runtime)
 - [If you can't connect to the device](#if-you-cant-connect-to-the-device)
-  - [If the "On-Line > Set up communications" and "On-line > Connect" options are disabled](#if-the-on-line--set-up-communications-and-on-line--connect-options-are-disabled)
-  - [Error: “Unable to start the communication”](#error-unable-to-start-the-communication)
 - [If you see an error when downloading](#if-you-see-an-error-when-downloading)
-  - [Error pop-up: "Cannot download sketch file error code: 1"](#error-pop-up-cannot-download-sketch-file-error-code-1)
-  - [Cannot generate profile file error message: Error: Path not found](#cannot-generate-profile-file-error-message-error-path-not-found)
-  - [Error: invalid path creating config dir](#error-invalid-path-creating-config-dir)
-  - [“Error” in the bottom right corner on first use of the board](#error-in-the-bottom-right-corner-on-first-use-of-the-board)
 - [If there is an issue activating the license](#if-there-is-an-issue-activating-the-license)
 
 ---
