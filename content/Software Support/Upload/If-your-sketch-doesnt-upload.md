@@ -64,7 +64,7 @@ You can stop the sketch from running the sketch by activing the board's **bootlo
    ![The RESET button on Arduino Zero with an "x2" label graphic.](img/zero-reset-button-double.png)
 
 1. An on-board LED will fade in and out, indicating that the board is in bootloader mode.
-1. Check the board selector or _Tools > Port_ again to see if your board is now detected.
+1. Select the correct port for your board from the _Tools > Port_ menu or the board selector, as the port may change when the bootloader runs.
 
 [Back to top](#top)
 
