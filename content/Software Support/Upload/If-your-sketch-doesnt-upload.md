@@ -31,7 +31,7 @@ Make sure the correct board and port are selected. You can do this using the boa
 > [!TIP]
 > If you're unsure which port is being used, try disconnecting and reconnecting your board. Then, close and reopen the board selector or the _Tools > Port_ menu to refresh the list.
 
-* If your board does not appear in the list or if the _Tools > Port_ option is missing, see [If your board does not appear in the port menu](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-does-not-appear-in-the-port-menu).
+* If your board does not appear in the list or if the _Tools > Port_ option is disabled, see [If your board is not detected by Arduino IDE](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-is-not-detected-by-Arduino-IDE).
 
 [Back to top](#top)
 
