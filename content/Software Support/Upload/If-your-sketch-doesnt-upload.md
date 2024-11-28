@@ -69,6 +69,7 @@ After each step, try uploading your sketch again.
 
 1. Ensure only one instance of the Arduino IDE and serial monitor is active, and close other applications that may be using the serial port.
 1. If the issue persists, restart your computer.
+1. If you are using Linux, see [Fix port access on Linux](https://support.arduino.cc/hc/en-us/articles/360016495679-Fix-port-access-on-Linux).
 1. If none of the above worked, see [Find and stop process blocking a port](https://support.arduino.cc/hc/en-us/articles/4407830972050-Find-and-stop-process-blocking-a-port) for advanced troubleshooting.
 
 [Back to top](#top)
@@ -77,10 +78,10 @@ After each step, try uploading your sketch again.
 
 If your board is detected by Arduino IDE but uploads fail, corrupted files might be the cause. To solve this:
 
-1. Delete the [Arduino15](https://support.arduino.cc/hc/en-us/articles/360021325733-Uninstall-Arduino-IDE#Arduino15) folder and the [libraries](https://support.arduino.cc/hc/en-us/articles/360021325733-Uninstall-Arduino-IDE#sketchbook) subfolder.
-2. Restart Arduino IDE.
-3. [Reinstall the board package](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE).
-4. Try uploading your sketch again.
+1. Delete the [Arduino15](https://support.arduino.cc/hc/en-us/articles/360018448279-Open-the-Arduino15-folder) folder.
+1. Restart Arduino IDE.
+1. [Reinstall the board package](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE).
+1. Try uploading your sketch again.
 
 [Back to top](#top)
 
