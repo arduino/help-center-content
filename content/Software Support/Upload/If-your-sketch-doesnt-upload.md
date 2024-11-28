@@ -79,7 +79,8 @@ If your board is detected by Arduino IDE but uploads fail, corrupted files might
 
 1. Delete the [Arduino15](https://support.arduino.cc/hc/en-us/articles/360021325733-Uninstall-Arduino-IDE#Arduino15) folder and the [libraries](https://support.arduino.cc/hc/en-us/articles/360021325733-Uninstall-Arduino-IDE#sketchbook) subfolder.
 2. Restart Arduino IDE.
-3. Try uploading your sketch again.
+3. [Reinstall the board package](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE).
+4. Try uploading your sketch again.
 
 [Back to top](#top)
 
