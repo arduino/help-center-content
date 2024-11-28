@@ -97,8 +97,8 @@ If your board is detected by Arduino IDE but uploads fail, corrupted files might
 
 Common upload errors often involve **dfu-util** and **avrdude** utilities. Learn how to solve:
 
-* [dfu-util errors during upload](https://support.arduino.cc/hc/en-us/articles/11011849739804-dfu-util-errors-when-uploading-exit-status-74#exit-status-74){.link-chevron-right}
-* ['Error: avrdude' during upload](https://support.arduino.cc/hc/en-us/articles/4401874331410--Error-avrdude-when-uploading#avrdude-stk500_recv-and-stk500_getsync){.link-chevron-right}
+* [dfu-util errors during upload](https://support.arduino.cc/hc/en-us/articles/11011849739804-dfu-util-errors-when-uploading-exit-status-74){.link-chevron-right}
+* ['Error: avrdude' during upload](https://support.arduino.cc/hc/en-us/articles/4401874331410--Error-avrdude-when-uploading){.link-chevron-right}
 
 [Back to top](#top)
 
