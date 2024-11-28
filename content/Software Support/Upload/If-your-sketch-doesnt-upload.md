@@ -53,7 +53,7 @@ Follow the instructions below to ensure a proper setup. After each step, try upl
 
 Many Arduino boards have native USB functionality. On these boards, USB communication is handled by the same microcontroller that runs the sketch. This means that the sketch running on the board may interfere with the upload process, for example by causing the board to reset.
 
-You can stop the sketch from running the sketch by activing the board's **bootloader**.
+You can stop the sketch from running by activing the board's **bootloader**.
 
 > [!NOTE]
 > AVR-based boards like UNO R3, Mega, and the classic Nano have dedicated USB-to-serial chips, which allow sketches to be uploaded regardless of the sketch currently running on the main microcontroller. These boards do not have a bootloader mode.
@@ -95,7 +95,7 @@ If your board is detected by Arduino IDE but uploads fail, corrupted files might
 > [!NOTE]
 > _Exit status 1_ only indicates that the upload process has failed. Look for the preceding lines in the error output for more specific information about the failure.
 
-Common errors often involve **dfu-util** and **avrdude** utilities. Learn how to solve:
+Common upload errors often involve **dfu-util** and **avrdude** utilities. Learn how to solve:
 
 * [dfu-util errors during upload](https://support.arduino.cc/hc/en-us/articles/11011849739804-dfu-util-errors-when-uploading-exit-status-74#exit-status-74){.link-chevron-right}
 * ['Error: avrdude' during upload](https://support.arduino.cc/hc/en-us/articles/4401874331410--Error-avrdude-when-uploading#avrdude-stk500_recv-and-stk500_getsync){.link-chevron-right}
