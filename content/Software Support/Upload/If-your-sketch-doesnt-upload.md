@@ -51,7 +51,12 @@ Follow the instructions below to ensure a proper setup. After each step, try upl
 
 ### Try a bootloader reset if your board supports it {#bootloader-reset}
 
-If you still can't upload sketches, your board might be stuck in a state where it cannot communicate on the port. For some boards (such as those in the MKR Family and newer Nano boards), pressing the RESET button twice in quick succession will activate bootloader mode. Follow the steps below to perform a bootloader reset:
+Many Arduino boards have native USB functionality. On these boards, USB communication is handled by the same microcontroller that runs the sketch. This means that the sketch running on the board may interfere with the upload process, for example by causing the board to reset.
+
+You can stop the sketch from running the sketch by activing the board's **bootloader**.
+
+> [!NOTE]
+> AVR-based boards like UNO R3, Mega, and the classic Nano have dedicated USB-to-serial chips, which allow sketches to be uploaded regardless of the sketch currently running on the main microcontroller. These boards do not have a bootloader mode.
 
 1. Find the reset button on the board.
 1. Press the button two times in quick succession.
