@@ -3,7 +3,7 @@ title: "If you're having trouble connecting a device to PLC IDE"
 id: 8824551178780
 ---
 
-Learn what to do if you having an issue using your device with PLC IDE.
+Learn what to do if you're having an issue using your device with PLC IDE.
 
 > ![TIP]
 > If you're just getting started with PLC IDE, see [Arduino® PLC IDE Setup & Device License Activation](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license/).
@@ -41,7 +41,7 @@ In some cases, it may be challenging to determine which serial port belongs to y
 
 1. If two ports are open, and they are numbered COM<N> and COM<N+1> (for example, COM20 and COM21), it's likely that both are created by your PLC device. Choose the **lower-numbered port** when configuring PLC IDE.
 2. If many ports are available, try disconnecting other USB devices that may be using serial communication and select **Project > Refresh current target** to refresh the list of ports.
-3. If you're still unsure what port to choose, see [Find the correct port for your device in PLC IDE](https://support.arduino.cc/hc/en-us/articles/16724283965596-Find-the-correct-port-for-your-device-in-PLC-IDE).
+3. If you're still unsure what port to choose, see [Identify the serial port of your PLC device](https://support.arduino.cc/hc/en-us/articles/16724283965596).
 
 ### If your device does not appear on any port
 

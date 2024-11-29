@@ -1,5 +1,5 @@
 ---
-title: "Identifying the correct Serial Port for your PLC device"
+title: "Identify the serial port of your PLC device"
 id: 16724283965596 
 ---
 
