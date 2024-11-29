@@ -11,9 +11,9 @@ Learn what to do if you experience an issue using your Opta or Portenta Machine 
 In this article:
 
 - [If you can't find the serial port for your device](#if-you-cant-find-the-serial-port-for-your-device)
-- [If you can't install the runtime](#if-you-cant-install-the-runtime)
-- [If you can't connect to the device](#if-you-cant-connect-to-the-device)
-- [If you see an error when programming the device](#if-you-see-an-error-when-downloading)
+- [If there's an issue when you install the runtime](#if-theres-an-issue-when-you-install-the-runtime)
+- [If there's an issue when you connect to the device](#if-theres-an-issue-when-you-connect-to-the-device)
+- [If you see an error when programming the device](#if-you-see-an-error-when-programming-the-device)
 - [If there is an issue activating the license](#if-there-is-an-issue-activating-the-license)
 
 ---
@@ -58,7 +58,7 @@ Try these steps in order. Refresh the list of ports after each step by selecting
 
 ---
 
-## If you can't install the runtime
+## If there's an issue when you install the runtime
 
 In this section:
 
@@ -67,7 +67,7 @@ In this section:
 
 ### If there is an error when installing the runtime
 
-See the [If you see an error when downloading](#if-you-see-an-error-when-downloading) section.
+See the [If you see an error when programming the device](#if-you-see-an-error-when-programming-the-device) section.
 
 ### If nothing happens when downloading the runtime
 
@@ -86,7 +86,7 @@ Follow these steps:
 
 ---
 
-## If you can't connect to the device
+## If there's an issue when you connect to the device
 
 Learn what to do if you are unable to connect to the device.
 
