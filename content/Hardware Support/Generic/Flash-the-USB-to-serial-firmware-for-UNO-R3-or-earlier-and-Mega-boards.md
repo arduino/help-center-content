@@ -148,10 +148,10 @@ Follow these steps:
 
 -->
 
-#### Examples commands for dfu-programmer
+#### Example commands for dfu-programmer
 
 > [!NOTE]
-> The examples assumes that version 1.8.6 of Arduino AVR Boards is installed.
+> The examples assume that version 1.8.6 of Arduino AVR Boards is installed.
 
 ##### UNO R3 on Windows
 
@@ -199,7 +199,7 @@ Before you begin:
 
 1. Expand the **libusb-win32-devices** category. If it is missing, [follow these steps](#install-libusb-win32) before proceeding.
 
-1. Take a note of the device name, which should be either **ATmega16U2** and **ATmega8U2**.
+1. Take a note of the device name, which should be either **ATmega16U2** or **ATmega8U2**.
 
 Now flash the firmware using FLIP:
 
@@ -224,7 +224,7 @@ Now flash the firmware using FLIP:
 
 1. Select your driver `.hex` file and click 'OK'.
 
-1. For Operational Flow, check check **Erase**, **Program**, and **Verify** (this is the default setting).
+1. For Operational Flow, check **Erase**, **Program**, and **Verify** (this is the default setting).
 
     ![Operational flow selections.](img/atmel-flip-operational-flow.png)
 
@@ -238,7 +238,7 @@ Now flash the firmware using FLIP:
 
 1. Disconnect and reconnect the board to your computer.
 
-## Install the libusb-win32 driver in Device Manager {#install-libusb-win32}
+#### Install the libusb-win32 driver in Device Manager {#install-libusb-win32}
 
 1. Look for an **Unknown Device** under 'Other Devices'. Disconnect all devices except the board if multiple unknown devices are available.
 
