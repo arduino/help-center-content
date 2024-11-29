@@ -13,7 +13,7 @@ In this article:
 - [If you can't find the serial port for your device](#if-you-cant-find-the-serial-port-for-your-device)
 - [If you can't install the runtime](#if-you-cant-install-the-runtime)
 - [If you can't connect to the device](#if-you-cant-connect-to-the-device)
-- [If you see an error when downloading](#if-you-see-an-error-when-downloading)
+- [If you see an error when programming the device](#if-you-see-an-error-when-downloading)
 - [If there is an issue activating the license](#if-there-is-an-issue-activating-the-license)
 
 ---
@@ -127,7 +127,9 @@ Follow these steps:
 
 ---
 
-## If you see an error when downloading
+## If you see an error when programming the device
+
+When there is an issue installing the runtime or downloading your code to the device, error messages may appear in the **Resources** tab of the **Output** console.
 
 In this section:
 
@@ -135,6 +137,9 @@ In this section:
 - [Cannot generate profile file error message: Error: Path not found](#cannot-generate-profile-file-error-message-error-path-not-found)
 - [Error: invalid path creating config dir](#error-invalid-path-creating-config-dir)
 - [“Error” in the bottom right corner on first use of the board](#error-in-the-bottom-right-corner-on-first-use-of-the-board)
+
+> [!NOTE]
+> If you see a **dfu-util** warning or error that's not in this list, see [dfu-util errors when uploading (exit status 74)](https://support.arduino.cc/hc/en-us/articles/11011849739804-dfu-util-errors-when-uploading-exit-status-74).
 
 ### Error pop-up: "Cannot download sketch file (error code: 1)"
 
