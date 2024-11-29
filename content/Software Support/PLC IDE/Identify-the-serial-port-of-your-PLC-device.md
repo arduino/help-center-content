@@ -15,7 +15,10 @@ Learn how to find the serial port to use for your device in PLC IDE.
 1. Open a project.
 1. Disconnect your PLC device from your computer.
 1. Select **Project > Refresh current target** to refresh the list of ports.
-1. Find the Find the panel “DEVICE-NAME Configuration” panel for your device.
+1. Find the “DEVICE-NAME Configuration” panel for your device.
+
+   ![The Device Configuration panel in PLC IDE.](img/plc-ide-configuration-panel-location.png)
+
 1. If necessary, scroll down inside the configuration panel until your see “Other” section.
 
    ![The runtime download widget in PLC IDE.](img/plc-ide-runtime-widget-location.png)
