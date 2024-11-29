@@ -218,13 +218,9 @@ When activating the license you may see one of these errors:
 Try the following:
 
 - [Reformat the QSPI flash memory](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices). Then, try to activate the license again.
-
 - If you are using a company-owned computer, please follow these steps:
-
   1. Temporarily disable any antivirus software running on your system.
-
   1. Temporarily disable the firewall on your computer.
-
   1. Attempt the license activation process again.
 
 > [!NOTE]
