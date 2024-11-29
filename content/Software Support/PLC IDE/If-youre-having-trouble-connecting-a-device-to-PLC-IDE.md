@@ -1,9 +1,9 @@
 ---
-title: "If you're having trouble connecting a device to PLC IDE"
+title: "If PLC IDE isn't working with your device"
 id: 8824551178780
 ---
 
-Learn what to do if you're having an issue using your device with PLC IDE.
+Learn what to do if you experience an issue using your Opta or Portenta Machine Control with PLC IDE.
 
 > ![TIP]
 > If you're just getting started with PLC IDE, see [Arduino® PLC IDE Setup & Device License Activation](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license/).
