@@ -117,10 +117,13 @@ PLC IDE may become unresponsive if there isn't a response on the targeted port.
 
 Follow these steps:
 
-1. Select **On-line > Set up communication**.
-1. Click on **Properties** to open the Modbus configuration.
-1. Under Communication, ensure the right **Port** is selected.
-1. See the [If you can't find the serial port for your device](#if-you-cant-find-the-serial-port-for-your-device) section for help finding the right port.
+1. Ensure the correct port is configured for the Modbus protocol:
+   1. Select **On-line > Set up communication**.
+   1. Click on **Properties** to open the Modbus configuration.
+   1. Under Communication, ensure the right **Port** is selected.
+   1. See the [If you can't find the serial port for your device](#if-you-cant-find-the-serial-port-for-your-device) section for help finding the right port.
+1. Close other applications that may be using the port, such as the Serial Monitor in Arduino IDE.
+1. Restart your computer.
 
 ---
 
