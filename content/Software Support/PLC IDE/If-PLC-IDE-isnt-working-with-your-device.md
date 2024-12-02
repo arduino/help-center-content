@@ -5,7 +5,7 @@ id: 8824551178780
 
 Learn what to do if you experience an issue using your Opta or Portenta Machine Control with PLC IDE.
 
-> ![TIP]
+> [!TIP]
 > If you're just getting started with PLC IDE, see [Arduino® PLC IDE Setup & Device License Activation](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license/).
 
 In this article:
