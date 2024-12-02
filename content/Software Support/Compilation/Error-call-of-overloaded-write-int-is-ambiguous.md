@@ -19,4 +19,4 @@ To solve this problem, you can force the function to read the provided value as 
  Serial.write((byte) 0x00);
 ```
 
-It is always recommended to use the [print() function](https://www.arduino.cc/reference/en/language/functions/communication/serial/print/) instead, as explained in the [Serial.write() function](https://www.arduino.cc/reference/en/language/functions/communication/serial/write/) reference page.
+It is always recommended to use the [print() function](https://docs.arduino.cc/language-reference/en/functions/communication/Serial/print/) instead, as explained in the [Serial.write() function](https://docs.arduino.cc/language-reference/en/functions/communication/Serial/write/) reference page.

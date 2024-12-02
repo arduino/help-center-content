@@ -11,7 +11,7 @@ The UNO R4 WiFi uses [CmBacktrace](https://github.com/armink/CmBacktrace) to pri
 
 Follow these steps:
 
-1. Ensure that a serial connection must be initiated before the error occurs, by calling [Serial.begin()](https://www.arduino.cc/reference/en/language/functions/communication/serial/begin/) in your sketch. You can include this code inside the beginning of the `setup()` function:
+1. Ensure that a serial connection must be initiated before the error occurs, by calling [Serial.begin()](https://docs.arduino.cc/language-reference/en/functions/communication/Serial/begin/) in your sketch. You can include this code inside the beginning of the `setup()` function:
 
    ```arduino
    Serial.begin(115200);
@@ -109,7 +109,7 @@ Follow these steps:
 2. Open the sketch in Arduino IDE and find the line number from the previous step (the number is displayed to the left of each line).
 3. Analyze the row where the error occurred and try to understand what may be triggering the error.
 
-   * If you're not sure, use the [Serial.println()](https://www.arduino.cc/reference/en/language/functions/communication/serial/println/) function to output the values of any variables being used. Then upload the sketch again, and use the serial output to see what the states of those variables were before the error occurred.
+   * If you're not sure, use the [Serial.println()](https://docs.arduino.cc/language-reference/en/functions/communication/Serial/println/) function to output the values of any variables being used. Then upload the sketch again, and use the serial output to see what the states of those variables were before the error occurred.
 
    * To see from where the function was called, look at the preceding function call in the `addr2line` output.
 

@@ -36,7 +36,7 @@ After making the modifications, save the changes and upload the modified sketch 
 
 ### Learn more
 
-* [Library documentation for Arduino_BMI270_BMM150](https://www.arduino.cc/reference/en/libraries/arduino_bmi270_bmm150/)
+* [Library documentation for Arduino_BMI270_BMM150](https://docs.arduino.cc/libraries/arduino_hs300x/)
 * [Nano 33 BLE Sense Rev2 Cheat Sheet – IMU](https://docs.arduino.cc/tutorials/nano-33-ble-sense-rev2/cheat-sheet#imu)
 
 ---

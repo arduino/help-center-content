@@ -45,13 +45,13 @@ UNO R4 boards maintain the same mechanical and electrical compatibility, allowin
 
 ### Can I use my sketch developed for UNO R3 with an UNO R4 board?
 
-Yes, if your sketch was developed using the [Arduino API](https://www.arduino.cc/reference/en/).
+Yes, if your sketch was developed using the [Arduino API](https://docs.arduino.cc/language-reference/).
 
 If your sketch uses instructions specific to the AVR architecture, they will have to be changed to ensure compatibility.
 
 ### Are libraries for UNO R3 also compatible with the UNO R4 boards?
 
-Libraries that are based on the [Arduino API](https://www.arduino.cc/reference/en/) will work as is.
+Libraries that are based on the [Arduino API](https://docs.arduino.cc/language-reference/) will work as is.
 
 Libraries that use AVR-specific instructions are not compatible with the architecture of UNO R4 boards. However, there are libraries that have already been ported as part of our early adopters program.
 

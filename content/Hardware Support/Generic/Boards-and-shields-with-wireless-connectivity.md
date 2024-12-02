@@ -3,70 +3,74 @@ title: "Boards and shields with wireless connectivity"
 id: 4407129094546
 ---
 
-The following is meant for an overview **only** and does not take precedence over specifications in [Arduino Store](https://store.arduino.cc/) or [Arduino Docs](https://docs.arduino.cc/).
+There is a wide range of Arduino devices that support Wi-Fi, Bluetooth<sup>®</sup> Low Energy, and other types of wireless connectivity.
+
+In this article:
+
+* [Wi-Fi enabled devices](#wifi)
+* [Bluetooth Low Energy enabled devices](#ble)
+* [Devices with other types of connectivity](#other)
 
 ---
 
-## Boards with wireless connectivity
+## Wi-Fi enabled devices {#wifi}
 
-### Wi-Fi
+**Boards:**
 
-* MKR VIDOR 4000
-* MKR WiFi 1010
-* Nano 33 IoT
-* Nano ESP32
-* Nano RP2040 Connect
-* Nicla Vision
-* Portenta H7
-* Portenta H7 Lite Connected
-* Portenta X8
-* UNO WiFi Rev2
-* UNO R4 WiFi
+* Arduino GIGA R1 WiFi
+* Arduino MKR Vidor 4000
+* Arduino MKR WiFi 1010
+* Arduino MKR1000
+* Arduino Nano 33 IoT
+* Arduino Nano ESP32
+* Arduino Nicla Vision
+* Arduino Opta WiFi
+* Arduino Portenta C33
+* Arduino Portenta H7
+* Arduino Portenta H7 Lite Connected
+* Arduino Portenta X8
+* Arduino UNO R4 WiFi
+* Arduino UNO WiFi Rev2
 
-### Bluetooth<sup>®</sup>
+**Shields:**
 
-The following boards have Bluetooth Low Energy connectivity:
-
-* MKR Vidor 4000
-* MKR WiFi 1010
-* Nano 33 BLE
-* Nano 33 BLE Sense
-* Nano 33 IoT
-* Nano ESP32
-* Nano RP2040 Connect
-* Nicla Sense ME
-* Portenta H7
-* Portenta H7 Lite Connected
-* Portenta X8
-* UNO WiFi Rev2
-* UNO R4 WiFi
-
-Enable it with the [ArduinoBLE library](https://www.arduino.cc/reference/en/libraries/arduinoble/).
-
-Although the communication modules on these boards can also use Bluetooth _Classic_, it is not currently supported by official firmware or libraries.
-
-### Narrowband communication
-
-* MKR NB 1500
-
-### GSM/3G
-
-* MKR GSM 1400
-
-### Sigfox
-
-* MKR FOX 1200
-
----
-
-## Shields with wireless connectivity
-
-* Arduino WiFi Shield
 * Portenta Vision Shield - LoRa
 * Portenta Cat. M1/NB IoT GNSS Shield
 
 ---
 
-## Carriers with wireless connectivity
+## Bluetooth Low Energy enabled devices {#ble}
 
-* Portenta Max Carrier
+**Boards:**
+
+* Arduino GIGA R1 WiFi
+* Arduino MKR Vidor 4000
+* Arduino MKR WiFi 1010
+* Arduino Nano 33 BLE
+* Arduino Nano 33 BLE Rev2
+* Arduino Nano 33 BLE Sense
+* Arduino Nano 33 BLE Sense Rev2
+* Arduino Nano Matter
+* Arduino Nano RP2040 Connect
+* Arduino Nicla Sense ME
+* Arduino Portenta H7
+* Arduino Portenta H7 Lite Connected
+* Arduino Portenta X8
+* Arduino UNO R4 WiFi
+
+> [!NOTE]
+> Some of the communication modules on these boards may also support Bluetooth Classic. However, this is not supported by official firmware or libraries.
+
+---
+
+## Devices with other types of connectivity {#other}
+
+**Boards:**
+
+* Arduino MKR NB 1500 – Narrowband communication
+* Arduino MKR GSM 1400 – GSM/3G
+* Arduino MKR FOX 1200 – Sigfox
+
+**Carriers:**
+
+* Portenta Max Carrier – LoRa, CAT-M1, NB-IoT

@@ -11,8 +11,8 @@ The microcontroller on the Nano RP2040 Connect has four analog pins, connected t
 
 **Pins A0–A3** are connected to the board's microcontroller (Raspberry Pi RP2040). These pins can be used like analog pins on most other Arduino boards:
 
-* Write to a pin with [analogWrite()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/)
-* Read from a pin with [analogRead()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/)
+* Write to a pin with [analogWrite()](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/)
+* Read from a pin with [analogRead()](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogRead/)
 
 If possible, try to use these pins for your project.
 
@@ -51,7 +51,7 @@ _*With WIFINina firmware 1.4.8 or earlier, the range for these pins are 0.0–1.
 
 ## Increase the analogRead resolution
 
-The `analogRead()` function returns 10-bit values (0–1023) by default. You can increase the resolution to 12-bit (0–4095) with the [analogReadResolution()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogreadresolution/) function. Just add this code to your `setup()` function:
+The `analogRead()` function returns 10-bit values (0–1023) by default. You can increase the resolution to 12-bit (0–4095) with the [analogReadResolution()](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogReadResolution/) function. Just add this code to your `setup()` function:
 
 ```arduino
 analogReadResolution(12);

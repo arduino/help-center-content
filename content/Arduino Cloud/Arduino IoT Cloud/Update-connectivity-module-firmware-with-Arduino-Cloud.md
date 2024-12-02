@@ -7,13 +7,13 @@ Arduino Cloud uses the Arduino Firmware Uploader tool to update supported connec
 
 These boards and modules are supported[^unorev2][^deprecated]:
 
-| Board                 | Module   |
-|-----------------------|----------|
-| Arduino UNO R4 WiFi   | ESP32-S3 |
-| Arduino Portenta C33  | ESP32-C3 |
-| Arduino MKR WiFi 1010 | NINA     |
-| Arduino NANO 33 IoT   | NINA     |
-| Arduino Nano RP2040   | NINA     |
+|            Board            |   Module  |
+|:----------------------------|:----------|
+| Arduino MKR WiFi 1010       | NINA-W102 |
+| Arduino Nano 33 IoT         | NINA-W102 |
+| Arduino Nano RP2040 Connect | NINA-W102 |
+| Arduino Portenta C33        | ESP32-C3  |
+| Arduino UNO R4 WiFi         | ESP32-S3  |
 
 [^unorev2]: Arduino UNO WiFi Rev2 is not supported in Arduino Cloud. [Use the Firmware Updater in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360013896579-Use-the-Firmware-Updater-in-Arduino-IDE) or the [Arduino Firmware Uploader tool](https://github.com/arduino/arduino-fwuploader) instead.
 

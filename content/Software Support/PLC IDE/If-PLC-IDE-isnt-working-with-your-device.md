@@ -31,9 +31,9 @@ In this section:
 There are two contexts where you need to specify a serial port target.
 
 - _When installing the runtime._
-- _When configuring the Modbus protocol._
+- _When configuring the Modbus protocol in 'Set up communication'._
 
-When the runtime has been installed, two serial ports may appear. When installing the runtime, the choice of port doesn't matter. When configuring the Modbus protocol, you should select the **lower-numbered** port as the target.
+When the runtime has been installed, two serial ports may appear. The choice of port during installation doesn't doesn't matter. However, when configuring the Modbus protocol, it is generally recommended to select the **lower-numbered** port as the target, although in some cases, the port numbering may not follow this order.
 
 ### If you don't know which port to use
 
