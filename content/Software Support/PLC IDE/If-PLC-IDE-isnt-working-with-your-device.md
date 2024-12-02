@@ -109,7 +109,15 @@ Unable to start the communication
 Choose 'On-line / Set up communication' to configure it
 ```
 
-Resolve the issue by selecting **On-line > Set up communication** and checking the settings. See [Connect to the Device](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license/#4-connect-to-the-device) for help.
+Follow these steps:
+
+1. Ensure the correct port is configured for the Modbus protocol:
+   1. Select **On-line > Set up communication**.
+   1. Click on **Properties** to open the Modbus configuration.
+   1. Under Communication, ensure the right **Port** is selected.
+   1. See the [If you can't find the serial port for your device](#if-you-cant-find-the-serial-port-for-your-device) section for help finding the right port.
+1. Close other applications that may be using the port of your PLC device, such as the Serial Monitor in Arduino IDE.
+1. Restart your computer.
 
 ### If PLC IDE becomes unresponsive when connecting to the device
 
@@ -122,7 +130,7 @@ Follow these steps:
    1. Click on **Properties** to open the Modbus configuration.
    1. Under Communication, ensure the right **Port** is selected.
    1. See the [If you can't find the serial port for your device](#if-you-cant-find-the-serial-port-for-your-device) section for help finding the right port.
-1. Close other applications that may be using the port, such as the Serial Monitor in Arduino IDE.
+1. Close other applications that may be using the port of your PLC device, such as the Serial Monitor in Arduino IDE.
 1. Restart your computer.
 
 ---
