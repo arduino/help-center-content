@@ -80,9 +80,7 @@ Follow these steps:
 
 The header of the downloaded file does not match the expected one, likely indicating that the file was corrupted during the download.
 
-Follow these steps:
-
-1. Try to upload the sketch again.
+To resolve this issue, upload the sketch again.
 
 ### Board error - otastorageinitfail {#otastorageinitfail}
 
@@ -102,17 +100,13 @@ This error indicates that the device's memory partition table is improperly form
 
 This error occurs when the device fails to connect to the firmware download endpoint.
 
-Follow these steps:
-
-1. Ensure that the board has a stable connection to Arduino Cloud.
+To resolve this issue, ensure that the board has a stable connection to Arduino Cloud.
 
 ### SHA256 mismatch - Unable to apply the new firmware. Previous firmware detected after restart {#sha256mismatch}
 
 This error means that the device restarted with a SHA (fw identifier) that is different from the target one and the SHA is equal to the one installed when the OTA process is started. This usually happens when the device restarts during the OTA process.
 
-Follow these steps:
-
-1. Check if the sketch running on the device is unstable and causes frequent restarts.
+To resolve this issue, check if the sketch running on the device is unstable and causing frequent restarts.
 
 ### SHA256 Unknown - Unknown Firmware detected after restart. {#sha256unknown}
 
