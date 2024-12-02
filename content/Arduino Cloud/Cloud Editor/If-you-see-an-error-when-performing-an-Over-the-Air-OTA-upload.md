@@ -50,9 +50,6 @@ This error indicates that the device's memory partition table is improperly form
 
 To resolve this issue, see [Reset the flash memory on STM32H747-based devices](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices).
 
-> [!TIP]
-> If you're using GIGA R1 WiFi, see [Configure GIGA R1 WiFi for Over-The-Air (OTA) uploads](https://support.arduino.cc/hc/en-us/articles/12370721200540-Configure-GIGA-R1-WiFi-for-Over-The-Air-OTA-uploads).
-
 ### Board error - httpresponsefail {#httpresponsefail}
 
 This error can occur if the OTA update fails during the firmware download.
@@ -101,7 +98,11 @@ To resolve this issue, ensure that the board has a stable connection to Arduino 
 
 This error means that the device restarted with a SHA (fw identifier) that is different from the target one and the SHA is equal to the one installed when the OTA process is started. This usually happens when the device restarts during the OTA process.
 
-To resolve this issue, check if the sketch running on the device is unstable and causing frequent restarts.
+Follow these steps:
+
+1. Ensure the device is connected to a stable and uninterrupted power source.
+1. Upload a simple example sketch (such as BareMinimum) to prevent any resets caused by faulty code.
+1. If you're unable to program the device, try putting it in bootloader mode.
 
 ### SHA256 Unknown - Unknown Firmware detected after restart. {#sha256unknown}
 
