@@ -62,32 +62,32 @@ Yes, if your sketch was developed using the [Arduino API](https://docs.arduino.c
 
 ## Technical specifications comparison {#tech-specs}
 
-| Feature                        |          Arduino UNO R3          |     Arduino UNO R4 Minima     |      Arduino UNO R4 WiFi      |
-|--------------------------------|:--------------------------------:|:-----------------------------:|:-----------------------------:|
-| Microcontroller                |            ATmega328P            | Renesas RA4M1 (Arm Cortex-M4) | Renesas RA4M1 (Arm Cortex-M4) |
-| Wi-Fi/Bluetooth LE             |                No                |               No              |       ESP32-S3-MINI-1-N8      |
-| USB Connector                  |               USB-B              |             USB-C             |             USB-C             |
-| Mouse/Keyboard Emulation (HID) |                No                |              Yes              |              Yes              |
-| Real-Time Clock (RTC)          |                No                |              Yes              |              Yes              |
-| Built-in LED Pin               |                13                |               No              |               No              |
-| Digital I/O Pins               |                14                |               14              |               14              |
-| Analog input pins              |                 6                |               6               |               6               |
-| PWM pins                       |                 6                |               6               |               6               |
-| DAC                            |                No                |           1 (12-bit)          |           1 (12-bit)          |
-| External interrupts            |                No                |              2,3              |              2,3              |
-| UART                           |                Yes               |              Yes              |              Yes              |
-| I2C                            |                Yes               |              Yes              |              Yes              |
-| SPI                            |                Yes               |              Yes              |              Yes              |
-| CAN                            |                No                |              Yes              |              Yes              |
-| Qwiic connector                |                No                |               No              |              Yes              |
-| OFF pin                        |                No                |               No              |              Yes              |
-| VRTC pin                       |                No                |               No              |              Yes              |
-| LED Matrix                     |                No                |               No              |       12x8 (96 red LEDs)      |
-| Operating voltage              |                5V                |               5V              |               5V              |
-| Input voltage (VIN)            |               7-12V              |             6-24V             |             6-24V             |
-| DC Current per I/O Pin         |               20mA               |              8mA              |              8mA              |
-| Clock speed                    |               16MHz              |             48MHz             |             48MHz             |
-| Memory                         | 2kB SRAM, 32kB FLASH, 1kB EEPROM |     256kB Flash, 32kB RAM     |     256kB Flash, 32kB RAM     |
-| MCU Resolution                 |               8-bit              |             32-bit            |             32-bit            |
+| Feature                  |          Arduino UNO R3          |     Arduino UNO R4 Minima     |      Arduino UNO R4 WiFi      |
+|--------------------------|:--------------------------------:|:-----------------------------:|:-----------------------------:|
+| Microcontroller          |            ATmega328P            | Renesas RA4M1 (Arm Cortex-M4) | Renesas RA4M1 (Arm Cortex-M4) |
+| Wi-Fi/Bluetooth LE       |                No                |               No              |       ESP32-S3-MINI-1-N8      |
+| USB Connector            |               USB-B              |             USB-C             |             USB-C             |
+| Mouse/Keyboard Emulation |                No                |              Yes              |              Yes              |
+| Real-Time Clock          |                No                |              Yes              |              Yes              |
+| Built-in LED Pin         |                13                |               No              |               No              |
+| Digital I/O Pins         |                14                |               14              |               14              |
+| Analog input pins        |                 6                |               6               |               6               |
+| PWM pins                 |                 6                |               6               |               6               |
+| DAC                      |                No                |           1 (12-bit)          |           1 (12-bit)          |
+| External interrupts      |                No                |              2,3              |              2,3              |
+| UART                     |                Yes               |              Yes              |              Yes              |
+| I2C                      |                Yes               |              Yes              |              Yes              |
+| SPI                      |                Yes               |              Yes              |              Yes              |
+| CAN                      |                No                |              Yes              |              Yes              |
+| Qwiic connector          |                No                |               No              |              Yes              |
+| OFF pin                  |                No                |               No              |              Yes              |
+| VRTC pin                 |                No                |               No              |              Yes              |
+| LED Matrix               |                No                |               No              |       12x8 (96 red LEDs)      |
+| Operating voltage        |                5V                |               5V              |               5V              |
+| Input voltage            |               7-12V              |             6-24V             |             6-24V             |
+| DC Current per I/O Pin   |               20mA               |              8mA              |              8mA              |
+| Clock speed              |               16MHz              |             48MHz             |             48MHz             |
+| Memory                   | 2kB SRAM, 32kB FLASH, 1kB EEPROM |     256kB Flash, 32kB RAM     |     256kB Flash, 32kB RAM     |
+| MCU Resolution           |               8-bit              |             32-bit            |             32-bit            |
 
 <!-- markdownlint-disable-file HC001 -->
