@@ -62,205 +62,32 @@ Yes, if your sketch was developed using the [Arduino API](https://docs.arduino.c
 
 ## Technical specifications comparison {#tech-specs}
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0mi1{background-color:#F6F9F9;font-weight:bold;text-align:left;vertical-align:bottom}
-.tg .tg-kz3h{background-color:#F6F9F9;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-4bam{background-color:#FFF;text-align:center;vertical-align:bottom}
-.tg .tg-8pu1{background-color:#F6F9F9;font-weight:bold;text-align:center;vertical-align:bottom}
-.tg .tg-8d8j{text-align:center;vertical-align:bottom}
-.tg .tg-7yig{background-color:#FFF;text-align:center;vertical-align:top}
-</style>
-<table class="tg"><thead>
-  <tr>
-    <th class="tg-8pu1" colspan="6"><span style="font-weight:bold;background-color:#F6F9F9">Board</span></th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">Arduino UNO R3</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">Arduino UNO R4 Minima</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">Arduino UNO R4 WiFi</span></td>
-  </tr>
-  <tr>
-    <td class="tg-8pu1" colspan="6"><span style="font-weight:bold;background-color:#F6F9F9">Microcontroller</span></td>
-  </tr>
-  <tr>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">ATmega328P</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">Renesas RA4M1 (Arm Cortex-M4)</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">Renesas RA4M1 (Arm Cortex-M4)</span></td>
-  </tr>
-  <tr>
-    <td class="tg-8pu1" colspan="6"><span style="font-weight:bold;background-color:#F6F9F9">Radio Module (WiFi/Bluetooth)</span></td>
-  </tr>
-  <tr>
-    <td class="tg-8d8j" colspan="2">No</td>
-    <td class="tg-8d8j" colspan="2">No</td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">ESP32-S3-MINI-1-N8</span></td>
-  </tr>
-  <tr>
-    <td class="tg-8pu1" colspan="6"><span style="font-weight:bold;background-color:#F6F9F9">USB Connector</span></td>
-  </tr>
-  <tr>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">USB-B</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">USB-C</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">USB-C</span></td>
-  </tr>
-  <tr>
-    <td class="tg-8pu1" colspan="6"><span style="font-weight:bold;background-color:#F6F9F9">Mouse/Keyboard Emulation (HID)</span></td>
-  </tr>
-  <tr>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">No</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">Yes</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">Yes</span></td>
-  </tr>
-  <tr>
-    <td class="tg-8pu1" colspan="6"><span style="font-weight:bold;background-color:#F6F9F9">Real-Time Clock (RTC)</span></td>
-  </tr>
-  <tr>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">No</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">Yes</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">Yes</span></td>
-  </tr>
-  <tr>
-    <td class="tg-8pu1" colspan="6"><span style="font-weight:bold;background-color:#F6F9F9">Pins</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">Built-in LED Pin</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">13</span></td>
-    <td class="tg-8d8j" colspan="2">No</td>
-    <td class="tg-8d8j" colspan="2">No</td>
-  </tr>
-  <tr>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">Digital I/O Pins</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">14</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">14</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">14</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">Analog input pins</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">6</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">6</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">6</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">PWM pins</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">6</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">6</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">6</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">DAC</span></td>
-    <td class="tg-8d8j">No</td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">1</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">1</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">External interrupts</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">No</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">2,3</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">2,3</span></td>
-  </tr>
-  <tr>
-    <td class="tg-8pu1" colspan="6"><span style="font-weight:bold;background-color:#F6F9F9">Communication</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">UART</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">Yes</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">Yes</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">Yes</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">I2C</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">Yes</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">Yes</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">Yes</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">SPI</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">Yes</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">Yes</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">Yes</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">CAN</span></td>
-    <td class="tg-8d8j">No</td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">Yes</span></td>
-    <td class="tg-4bam" colspan="2"><span style="font-weight:normal;background-color:#FFF">Yes</span></td>
-  </tr>
-  <tr>
-    <td class="tg-8pu1" colspan="6"><span style="font-weight:bold;background-color:#F6F9F9">Power</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">I/O Voltage</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">5V</span></td>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">Circuit operating voltage</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">5 V</span></td>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">Circuit operating voltage</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">5 V (ESP32-S3 is 3.3 V)</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">Input voltage (nominal)</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">7-12V</span></td>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">Input voltage (VIN)</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">6-24 V</span></td>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">Input voltage (VIN)</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">6-24 V</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">DC Current per I/O Pin</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">20 mA</span></td>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">DC Current per I/O Pin</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">8 mA</span></td>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">DC Current per I/O Pin</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">8 mA</span></td>
-  </tr>
-  <tr>
-    <td class="tg-8pu1" colspan="6"><span style="font-weight:bold;background-color:#F6F9F9">Clock speed</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">ATmega328P</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">16 MHz</span></td>
-    <td class="tg-kz3h" rowspan="2">RA4M1</td>
-    <td class="tg-7yig" rowspan="2">48 MHz</td>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">RA4M1</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">48 MHz</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">ATmega16U2</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">16 MHz</span></td>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">ESP32-S3-MINI-1-N8</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">up to 240 MHz</span></td>
-  </tr>
-  <tr>
-    <td class="tg-8pu1" colspan="6"><span style="font-weight:bold;background-color:#F6F9F9">Memory</span></td>
-  </tr>
-  <tr>
-    <td class="tg-kz3h" rowspan="2">ATmega328P</td>
-    <td class="tg-7yig" rowspan="2">2KB SRAM, 32KB FLASH, 1KB EEPROM</td>
-    <td class="tg-kz3h" rowspan="2">RA4M1</td>
-    <td class="tg-7yig" rowspan="2">256 kB Flash, 32 kB RAM</td>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">RA4M1</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">256 kB Flash, 32 kB RAM</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">ESP32-S3-MINI-1-N8</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">384 kB ROM, 512 kB SRAM</span></td>
-  </tr>
-  <tr>
-    <td class="tg-8pu1" colspan="6"><span style="font-weight:bold;background-color:#F6F9F9">MCU Resolution</span></td>
-  </tr>
-  <tr>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">ATmega328P</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">8-bit</span></td>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">RA4M1</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">32-bit</span></td>
-    <td class="tg-0mi1"><span style="font-weight:bold;background-color:#F6F9F9">RA4M1</span></td>
-    <td class="tg-4bam"><span style="font-weight:normal;background-color:#FFF">32-bit</span></td>
-  </tr>
-</tbody></table>
+| Feature                        |          Arduino UNO R3          |     Arduino UNO R4 Minima     |      Arduino UNO R4 WiFi      |
+|--------------------------------|:--------------------------------:|:-----------------------------:|:-----------------------------:|
+| Microcontroller                |            ATmega328P            | Renesas RA4M1 (Arm Cortex-M4) | Renesas RA4M1 (Arm Cortex-M4) |
+| Wi-Fi/Bluetooth LE             |                No                |               No              |       ESP32-S3-MINI-1-N8      |
+| USB Connector                  |               USB-B              |             USB-C             |             USB-C             |
+| Mouse/Keyboard Emulation (HID) |                No                |              Yes              |              Yes              |
+| Real-Time Clock (RTC)          |                No                |              Yes              |              Yes              |
+| Built-in LED Pin               |                13                |               No              |               No              |
+| Digital I/O Pins               |                14                |               14              |               14              |
+| Analog input pins              |                 6                |               6               |               6               |
+| PWM pins                       |                 6                |               6               |               6               |
+| DAC                            |                No                |           1 (12-bit)          |           1 (12-bit)          |
+| External interrupts            |                No                |              2,3              |              2,3              |
+| UART                           |                Yes               |              Yes              |              Yes              |
+| I2C                            |                Yes               |              Yes              |              Yes              |
+| SPI                            |                Yes               |              Yes              |              Yes              |
+| CAN                            |                No                |              Yes              |              Yes              |
+| Qwiic connector                |                No                |               No              |              Yes              |
+| OFF pin                        |                No                |               No              |              Yes              |
+| VRTC pin                       |                No                |               No              |              Yes              |
+| LED Matrix                     |                No                |               No              |       12x8 (96 red LEDs)      |
+| Operating voltage              |                5V                |               5V              |     5V (ESP32-S3 is 3.3V)     |
+| Input voltage (VIN)            |               7-12V              |             6-24V             |             6-24V             |
+| DC Current per I/O Pin         |               20mA               |              8mA              |              8mA              |
+| Clock speed                    |               16MHz              |             48MHz             |             48MHz             |
+| Memory                         | 2kB SRAM, 32kB FLASH, 1kB EEPROM |     256kB Flash, 32kB RAM     |     256kB Flash, 32kB RAM     |
+| MCU Resolution                 |               8-bit              |             32-bit            |             32-bit            |
 
 <!-- markdownlint-disable-file HC001 -->
