@@ -83,7 +83,7 @@ Yes, if your sketch was developed using the [Arduino API](https://docs.arduino.c
 | OFF pin                        |                No                |               No              |              Yes              |
 | VRTC pin                       |                No                |               No              |              Yes              |
 | LED Matrix                     |                No                |               No              |       12x8 (96 red LEDs)      |
-| Operating voltage              |                5V                |               5V              |     5V (ESP32-S3 is 3.3V)     |
+| Operating voltage              |                5V                |               5V              |               5V              |
 | Input voltage (VIN)            |               7-12V              |             6-24V             |             6-24V             |
 | DC Current per I/O Pin         |               20mA               |              8mA              |              8mA              |
 | Clock speed                    |               16MHz              |             48MHz             |             48MHz             |
