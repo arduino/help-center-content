@@ -8,8 +8,8 @@ Learn about the differences between the Arduino UNO R3, UNO R4 Minima and UNO R4
 In this article:
 
 - [Board overview](#overview)
-- [Compatibility](#compatibility)
 - [Technical specifications comparison](#tech-specs)
+- [FAQs](#faq)
 
 ---
 
@@ -23,25 +23,46 @@ The UNO R4 boards maintain the same form factor, pinout and 5 V operating voltag
 
 - **UNO R4 WiFi**: Equipped with WiFi and Bluetooth connectivity, it is ideal for IoT and wireless projects. The Qwiic I2C Connector and 12x8 Red LED Matrix enable project creation without soldering, manual wiring, or using a breadboard.
 
+## Technical specifications comparison {#tech-specs}
+
+| Feature                  |          Arduino UNO R3          |     Arduino UNO R4 Minima     |      Arduino UNO R4 WiFi      |
+|--------------------------|:--------------------------------:|:-----------------------------:|:-----------------------------:|
+| Microcontroller          |            ATmega328P            | Renesas RA4M1 (Arm Cortex-M4) | Renesas RA4M1 (Arm Cortex-M4) |
+| Wi-Fi/Bluetooth LE       |                No                |               No              |       ESP32-S3-MINI-1-N8      |
+| USB Connector            |               USB-B              |             USB-C             |             USB-C             |
+| Mouse/keyboard emulation |                No                |              Yes              |              Yes              |
+| Real-Time Clock          |                No                |              Yes              |              Yes              |
+| Built-in LED Pin         |                13                |               No              |               No              |
+| Digital I/O Pins         |                14                |               14              |               14              |
+| Analog input pins        |                 6                |               6               |               6               |
+| PWM pins                 |                 6                |               6               |               6               |
+| DAC                      |                No                |           1 (12-bit)          |           1 (12-bit)          |
+| External interrupts      |                No                |              2,3              |              2,3              |
+| UART                     |                Yes               |              Yes              |              Yes              |
+| I2C                      |                Yes               |              Yes              |              Yes              |
+| SPI                      |                Yes               |              Yes              |              Yes              |
+| CAN                      |                No                |              Yes              |              Yes              |
+| Qwiic connector          |                No                |               No              |              Yes              |
+| OFF pin                  |                No                |               No              |              Yes              |
+| VRTC pin                 |                No                |               No              |              Yes              |
+| LED matrix               |                No                |               No              |       12x8 (96 red LEDs)      |
+| Operating voltage        |                5V                |               5V              |               5V              |
+| Input voltage            |               7-12V              |             6-24V             |             6-24V             |
+| DC current per I/O Pin   |               20mA               |              8mA              |              8mA              |
+| Clock speed              |               16MHz              |             48MHz             |             48MHz             |
+| Memory                   | 2kB SRAM, 32kB FLASH, 1kB EEPROM |     256kB Flash, 32kB RAM     |     256kB Flash, 32kB RAM     |
+| MCU resolution           |               8-bit              |             32-bit            |             32-bit            |
+| ADC resolution           |              10-bit              |             14-bit            |             14-bit            |
+
+## FAQs {#faq}
+
 ### Does the UNO R4 replace the UNO R3?
 
 No, the Arduino UNO R3 will still be available and supported for makers who want to work with its 8-bit AVR microcontroller.
 
-### Selected differences
+### What board package should I install for the UNO R4?
 
-#### Different behavior on runtime errors
-
-If the board encounters a runtime error while running an uploaded sketch, you need to double-press the reset button to put it into bootloader mode before uploading a new sketch.
-
-Note that unlike some Mbed OS boards, runtime errors do not result in a flashing LED.
-
-The UNO R4 WiFi board features an error-catching mechanism that detects operations that caused a runtime crash, as opposed to the usual silent behavior of a crashed board.
-
-#### Different board package
-
-Previous UNO boards (except the UNO WiFi Rev2) were AVR-based, and used the **Arduino AVR Boards** package. For UNO R4, install the **Arduino UNO R4 Boards** package.
-
-## Compatibility {#compatibility}
+For UNO R4, install the **Arduino UNO R4 Boards** package. Previous UNO boards (except the UNO WiFi Rev2) were AVR-based, and used the **Arduino AVR Boards** package.
 
 ### Can I use hardware compatible with the UNO R3 with an UNO R4 board?
 
@@ -59,35 +80,5 @@ Yes, if your sketch was developed using the [Arduino API](https://docs.arduino.c
 - Libraries that are based on the [Arduino API](https://docs.arduino.cc/language-reference/) will work as is.
 
 - Libraries that use AVR-specific instructions are not compatible with the architecture of UNO R4 boards. However, some of these libraries have already been ported. For more details, refer to the [UNO R4 Library Compatibility repository](https://github.com/arduino/uno-r4-library-compatibility).
-
-## Technical specifications comparison {#tech-specs}
-
-| Feature                  |          Arduino UNO R3          |     Arduino UNO R4 Minima     |      Arduino UNO R4 WiFi      |
-|--------------------------|:--------------------------------:|:-----------------------------:|:-----------------------------:|
-| Microcontroller          |            ATmega328P            | Renesas RA4M1 (Arm Cortex-M4) | Renesas RA4M1 (Arm Cortex-M4) |
-| Wi-Fi/Bluetooth LE       |                No                |               No              |       ESP32-S3-MINI-1-N8      |
-| USB Connector            |               USB-B              |             USB-C             |             USB-C             |
-| Mouse/Keyboard Emulation |                No                |              Yes              |              Yes              |
-| Real-Time Clock          |                No                |              Yes              |              Yes              |
-| Built-in LED Pin         |                13                |               No              |               No              |
-| Digital I/O Pins         |                14                |               14              |               14              |
-| Analog input pins        |                 6                |               6               |               6               |
-| PWM pins                 |                 6                |               6               |               6               |
-| DAC                      |                No                |           1 (12-bit)          |           1 (12-bit)          |
-| External interrupts      |                No                |              2,3              |              2,3              |
-| UART                     |                Yes               |              Yes              |              Yes              |
-| I2C                      |                Yes               |              Yes              |              Yes              |
-| SPI                      |                Yes               |              Yes              |              Yes              |
-| CAN                      |                No                |              Yes              |              Yes              |
-| Qwiic connector          |                No                |               No              |              Yes              |
-| OFF pin                  |                No                |               No              |              Yes              |
-| VRTC pin                 |                No                |               No              |              Yes              |
-| LED Matrix               |                No                |               No              |       12x8 (96 red LEDs)      |
-| Operating voltage        |                5V                |               5V              |               5V              |
-| Input voltage            |               7-12V              |             6-24V             |             6-24V             |
-| DC Current per I/O Pin   |               20mA               |              8mA              |              8mA              |
-| Clock speed              |               16MHz              |             48MHz             |             48MHz             |
-| Memory                   | 2kB SRAM, 32kB FLASH, 1kB EEPROM |     256kB Flash, 32kB RAM     |     256kB Flash, 32kB RAM     |
-| MCU Resolution           |               8-bit              |             32-bit            |             32-bit            |
 
 <!-- markdownlint-disable-file HC001 -->
