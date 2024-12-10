@@ -40,7 +40,7 @@ Secret keys cannot be recovered if lost. Make sure to save any Device ID and Sec
 
    * If your board isn't detected by the Cloud Editor, see [If your board does not appear in the port menu](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-does-not-appear-in-the-port-menu).
 
-   * If you get an error message when uploading, see [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch).
+   * If you get an error message when uploading, see [If your sketch doesn't upload](https://support.arduino.cc/hc/en-us/articles/4403365313810-If-your-sketch-doesn-t-upload).
 
 ### "We were not able to configure your device<br>Something went wrong!"
 

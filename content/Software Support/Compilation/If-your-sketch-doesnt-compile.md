@@ -17,7 +17,7 @@ In this article:
 
 ## Quick checks
 
-* Make sure your error occurs during compilation by clicking ![Verify button](img/symbol_verify2.png) **Verify** instead of ![Upload button](img/symbol_upload2.png) **Upload**. This will compile the sketch without attempting to upload it. If your error only occurs when uploading, see [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch).
+* Make sure your error occurs during compilation by clicking ![Verify button](img/symbol_verify2.png) **Verify** instead of ![Upload button](img/symbol_upload2.png) **Upload**. This will compile the sketch without attempting to upload it. If your error only occurs when uploading, see [If your sketch doesn't upload](https://support.arduino.cc/hc/en-us/articles/4403365313810-If-your-sketch-doesn-t-upload).
 
 * Make sure you have the right board selected in the board selector or the _Tools > Board_ menu. See [Select board and port in Arduino IDE](https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE) for more information.
 

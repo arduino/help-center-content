@@ -163,5 +163,5 @@ Your sketch will start running on the board. It will run again each time the boa
 ## Troubleshooting
 
 * Make sure you've followed the steps before, especially selecting the board and port correctly.
-* If you can't find your board in the port menu, or if the _Tools > Port_ port menu is missing, see [If your board does not appear in the port menu](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-does-not-appear-in-the-port-menu).
-* If you get an upload error, see [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch).
+* If you can't find your board in board selector or in the _Tools > Port_  menu, see [If your board is not detected by Arduino IDE](https://support.arduino.cc/hc/en-us/articles/4412955149586-If-your-board-is-not-detected-by-Arduino-IDE).
+* If you experience upload issues, see [If your sketch doesn't upload](https://support.arduino.cc/hc/en-us/articles/4403365313810-If-your-sketch-doesn-t-upload).

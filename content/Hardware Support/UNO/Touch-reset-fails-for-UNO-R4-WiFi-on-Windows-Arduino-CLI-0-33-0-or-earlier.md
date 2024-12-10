@@ -17,7 +17,7 @@ To use your UNO R4 WiFi on Windows, make sure your software is up to date:
 * The Cloud Agent updates to the latest version automatically. <a class="link-up-right" href="https://support.arduino.cc/hc/en-us/articles/4407002993426">Check your Arduino Cloud Agent version</a> to verify that you're running 1.3.2 or later. If it's not updating, try restarting the application, or <a class="link-up-right" href="https://support.arduino.cc/hc/en-us/articles/360014869820">manually installing the latest version</a>.
 * If you are using Arduino CLI, run `arduino-cli upgrade`.
 
-If you're still see errors when uploading, check **[Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch)**.
+If you still experience issues when uploading, check [If your sketch doesn't upload](https://support.arduino.cc/hc/en-us/articles/4403365313810-If-your-sketch-doesn-t-upload).
 
 [^github-issue-renesas]: [Upload broken for the Uno R4 WiFi on Windows #10](https://github.com/arduino/ArduinoCore-renesas/issues/10)
 

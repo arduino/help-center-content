@@ -31,4 +31,4 @@ If the sketch fails to compile, start by looking for other errors printed later 
 
 ## Further reading
 
-* [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch)
+* [If your sketch doesn't upload](https://support.arduino.cc/hc/en-us/articles/4403365313810-If-your-sketch-doesn-t-upload)
