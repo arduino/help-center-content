@@ -3,7 +3,7 @@ title: "If your board is unresponsive, stuck resetting, or otherwise not working
 id: 360016420160
 ---
 
-Learn what to do if your board appears to be running a sketch, but is not behaving as expected. If you're trying to upload a sketch but are getting an error in Arduino IDE, see [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch) instead.
+Learn what to do if your board appears to be running a sketch, but is not behaving as expected. If you're trying to upload a sketch but are getting an error in Arduino IDE, see [If your sketch doesn't upload](https://support.arduino.cc/hc/en-us/articles/4403365313810-If-your-sketch-doesn-t-upload) instead.
 
 ---
 

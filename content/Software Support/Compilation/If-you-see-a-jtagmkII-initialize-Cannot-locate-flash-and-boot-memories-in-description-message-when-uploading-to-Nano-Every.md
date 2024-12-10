@@ -37,7 +37,7 @@ Global variables use 22 bytes (0%) of dynamic memory, leaving 6122 bytes for loc
 avrdude: jtagmkII_initialize(): Cannot locate "flash" and "boot" memories in description
 ```
 
-If the sketch upload fails, this will be indicated by other error messages, like `avrdude: jtagmkII_getsync(): sign-on command: status -1`. See [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch) for help.
+If the sketch upload fails, this will be indicated by other error messages, like `avrdude: jtagmkII_getsync(): sign-on command: status -1`. See [If your sketch doesn't upload](https://support.arduino.cc/hc/en-us/articles/4403365313810-If-your-sketch-doesn-t-upload) for help.
 
 ---
 

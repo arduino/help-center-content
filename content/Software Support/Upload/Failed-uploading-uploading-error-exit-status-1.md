@@ -26,7 +26,7 @@ Most upload problems can be resolved by doing the following:
 
 * **If you're on Linux**, and are experiencing issues where the boards seems to disconnect mid-upload, you may need to [configure udev rules](https://support.arduino.cc/hc/en-us/articles/9004359328796).
 
-For more troubleshooting tips, see [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch).
+For more troubleshooting tips, see [If your sketch doesn't upload](https://support.arduino.cc/hc/en-us/articles/4403365313810-If-your-sketch-doesn-t-upload).
 
 ---
 
@@ -44,4 +44,4 @@ These are some errors that may  appear in the console output:
 * If you're getting `avrdude: stk500_recv(): programmer is not responding` and `avrdude: stk500_getsync() attempt x of 10: not in sync` errors, [follow these instructions](https://support.arduino.cc/hc/en-us/articles/4401874331410--Error-avrdude-when-uploading#avrdude-stk500_recv-and-stk500_getsync).
 * If you're getting `avrdude: ser_open(): can’t open device` errors, make sure you've selected the right port, and close any other applications that may be using the port.
 * For other errors that start with `avrdude`, see ['Error: avrdude' when uploading](https://support.arduino.cc/hc/en-us/articles/4401874331410--Error-avrdude-when-uploading).
-* For help with troubleshooting upload problems in general, see [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch).
+* For help with troubleshooting upload problems in general, see [If your sketch doesn't upload](https://support.arduino.cc/hc/en-us/articles/4403365313810-If-your-sketch-doesn-t-upload).
