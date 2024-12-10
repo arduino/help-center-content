@@ -7,9 +7,9 @@ Learn about the differences between the Arduino UNO R3, UNO R4 Minima and UNO R4
 
 In this article:
 
-- Board overview (#overview)
-- Compatibility (#compatibility)
-- Technical specifications comparison (#tech-specs)
+- [Board overview](#overview)
+- [Compatibility](#compatibility)
+- [Technical specifications comparison](#tech-specs)
 
 ---
 
