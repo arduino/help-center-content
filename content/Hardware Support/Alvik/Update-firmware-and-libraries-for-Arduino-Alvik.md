@@ -15,7 +15,7 @@ Keeping your Alvik’s firmware updated ensures it has the latest features, bug 
 
 1. Go to the [Arduino Alvik Updater](https://alvikupdate.arduino.cc/)
 
-1. Turn on your Alvik robot and connect the NanoESP32 to your Computer with a USB-C cable.
+1. Turn on your Alvik robot and connect the Nano ESP32 to your Computer with a USB-C cable.
 
 1. Click on the 'Connect' button.
 
@@ -62,7 +62,7 @@ If the update button seems unresponsive or does not continue loading:
 
 1. **Verify the Board Port in Arduino Lab for MicroPython**
 
-    Alvik is often not displayed as "Alvik" in the dialog window. It may sometimes appear as "NanoESP32" or under another name, with the port listed in parentheses e.g., (COM29) on Windows or (ttyACM0) on Chromebook. If there are multiple options, you can confirm which port corresponds to your Alvik by connecting it to Arduino Lab for MicroPython.
+    Alvik is often not displayed as "Alvik" in the dialog window. It may sometimes appear as "Nano ESP32" or under another name, with the port listed in parentheses e.g., (COM29) on Windows or (ttyACM0) on Chromebook. If there are multiple options, you can confirm which port corresponds to your Alvik by connecting it to Arduino Lab for MicroPython.
 
 1. **Reconnect the Board**
 
