@@ -5,11 +5,11 @@ Keeping your Alvik’s firmware updated ensures it has the latest features, bug 
 
 - [How to Update your Alvik](#how-to-update-your-alvik)
 - [What does the Alvik Updater do?](#what-does-the-alvik-updater-do)
-    - [What Alvik Updater Will Do](#what-alvik-updater-will-do)
-    - [What Alvik Updater Will Not Do](#what-alvik-updater-will-not-do)
+  - [What Alvik Updater Will Do](#what-alvik-updater-will-do)
+  - [What Alvik Updater Will Not Do](#what-alvik-updater-will-not-do)
 - [Troubleshooting](#troubleshooting)
-    - [If the update seems to have stopped](#if-the-update-seems-to-have-stopped)
-    - [If your Alvik doesn’t appear in the dialog window](#if-your-alvik-doesnt-appear-in-the-dialog-window)
+  - [If the update seems to have stopped](#if-the-update-seems-to-have-stopped)
+  - [If your Alvik doesn’t appear in the dialog window](#if-your-alvik-doesnt-appear-in-the-dialog-window)
 
 ## How to Update your Alvik
 
