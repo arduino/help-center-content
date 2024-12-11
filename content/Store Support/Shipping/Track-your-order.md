@@ -15,7 +15,10 @@ You can open the status page for your order in two ways:
 
 **From the orders page:**
 
-1. Open the [Shopify orders page](https://shopify.com/43847352471/account/orders).
+1. Open the **Shopify orders page** for your region:
+
+   * [Europe/Africa](https://shopify.com/43847352471/account/orders){.link-external}
+   * [America/Asia/Oceania](https://shopify.com/50616893647/account/orders){.link-external}
 
 2. Sign in with the email you use for your Arduino account.
 
