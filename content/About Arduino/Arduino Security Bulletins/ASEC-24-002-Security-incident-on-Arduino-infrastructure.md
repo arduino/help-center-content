@@ -1,5 +1,6 @@
 ---
-title: "ASEC-24-002 - Security incident on Arduino infrastructure"
+title: ASEC-24-002 - Security incident on Arduino infrastructure
+id: 17406271222684
 ---
 
 Bulletin ID: ASEC-24-002  
