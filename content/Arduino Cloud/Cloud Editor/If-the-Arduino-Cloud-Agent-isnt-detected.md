@@ -24,7 +24,7 @@ To resolve this issue, follow the [troubleshooting steps](#troubleshooting) belo
 
 3. **Brave Browser Users:** If you are using [Brave Browser](https://brave.com/), see [Use Arduino Cloud with Brave Browser](https://support.arduino.cc/hc/en-us/articles/10482021304988-Use-Arduino-Cloud-with-Brave-Browser) for specific instructions.
 
-4. **Safari on macOS Users:** Ensure the HTTPS certificate for Safari is installed:  
+4. **Safari on macOS Users:** Ensure the HTTPS certificate for Safari is installed:
     1. Open the Arduino Cloud Agent menu (Look for the ![Arduino Cloud Agent icon](img/cloud-agent-logo-mac.png) icon in the top-right of the menu bar of macOS).
     2. Click on the *Manage HTTPS certificate* menu and make sure that the certificate is installed and trusted.  
        If it’s not, you can click on the button "Install the certificate for Safari".
