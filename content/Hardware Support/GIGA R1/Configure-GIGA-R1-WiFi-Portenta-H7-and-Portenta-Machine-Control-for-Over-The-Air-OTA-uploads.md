@@ -19,9 +19,6 @@ Follow these steps if you experience any of these errors when attempting an OTA 
 
 ## 1. Connect your board to Arduino IDE
 
-> [!IMPORTANT]
-> The required sketch examples are currently not available in the Web Editor.
-
 1. Open Arduino IDE.
 
 1. Connect the board to your computer with a USB-C cable.
