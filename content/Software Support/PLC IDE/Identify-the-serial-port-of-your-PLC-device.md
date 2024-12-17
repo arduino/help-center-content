@@ -60,4 +60,5 @@ If you are unsure which of the two ports to use when configuring the device in A
        Partition stop 1048576
   [...]
   ```
+
 * _The virtual Modbus port_ will not print anything to serial on boot.
