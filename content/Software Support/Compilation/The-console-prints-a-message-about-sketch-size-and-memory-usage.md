@@ -49,7 +49,7 @@ Some upload tools and protocols may not print any message in the console to indi
 
 Unless the console output **ends** with a `Failed upload` error message, the upload process was probably successful. **If you're unsure, try using the board in your project and see if it works as expected**, or upload a simple example like Blink (File > Examples > 01.Basics > Blink).
 
-If a `Failed uploading` error did occur, it's important to note that it's not related to sketch size and memory usage. Instead, see [Errors when uploading a sketch](https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch) for help with troubleshooting uploads.
+If a `Failed uploading` error did occur, it's important to note that it's not related to sketch size and memory usage. Instead, see [If your sketch doesn't upload](https://support.arduino.cc/hc/en-us/articles/4403365313810-If-your-sketch-doesn-t-upload) for help with troubleshooting uploads.
 
 ![IDE 2 with a message about sketch storage space and dynamic memory usage and failed upload error printed on the console](img/ide2_upload_error_no-upload-port-provided.png)
 
