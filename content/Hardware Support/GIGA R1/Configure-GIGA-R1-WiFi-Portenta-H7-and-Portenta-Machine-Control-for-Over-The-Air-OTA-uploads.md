@@ -7,6 +7,7 @@ Learn how to enable [Over-The-Air (OTA) uploads](https://docs.arduino.cc/arduino
 
 * GIGA R1 WiFi
 * Portenta H7
+* Portenta H7 Lite
 * Portenta Machine Control
 
 Follow these steps if you experience any of these errors when attempting an OTA upload:
