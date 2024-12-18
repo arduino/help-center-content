@@ -7,23 +7,25 @@ Learn how to check if the **Arduino Cloud Agent** is installed and running on yo
 
 ---
 
-1. _Make sure the agent is not paused._ Look for the ![Arduino Cloud Agent icon](img/cloud-agent-logo-mac.png) icon in the top-right of the menu bar (macOS and Linux) or bottom-right of the taskbar (Windows), usually within the system tray:
+1. **Find and start the Cloud Agent:** Try searching for "Arduino Cloud Agent" or looking for it in your application menu. Alternatively, use the system's file browser and look in the default installation paths:
 
-   ![The Cloud Agent in the system tray on Windows.](img/cloud-agent-system-tray.png)
+   * *Windows:* `C:\Users\{username}\AppData\Roaming\ArduinoCloudAgent\Arduino_Cloud_Agent.exe`
 
-   If you find it, click it. If a _Resume Agent_ option is available, the agent is currently paused. Click _Resume Agent_ to resume.
+   * *macOS:* `/Applications/ArduinoCloudAgent.app` [^1]
 
-2. _Find and start the application_. Try searching for "Arduino Cloud Agent" or looking for it in your application menu. Alternatively, use the system's file browser and look in the default installation paths:
+   * *Linux* `home/{username}/ArduinoCloudAgent/ArduinoCloudAgent`
 
-   * **Windows:** `C:\Users\{username}\AppData\Roaming\ArduinoCloudAgent\Arduino_Cloud_Agent.exe`
+   If you **can't find the application**, follow the [online installation guide](https://create.arduino.cc/getting-started/plugin/welcome) to install the agent.
 
-   * **macOS:** `/Applications/ArduinoCloudAgent.app` [^1]
+2. **Make sure the Cloud Agent is running:**
 
-   * **Linux** `home/{username}/ArduinoCloudAgent/ArduinoCloudAgent`
+   * **Find the Cloud Agent icon:**  Look for the ![Arduino Cloud Agent icon](img/cloud-agent-logo-mac.png) icon. On *macOS* and *Linux*, it is located in the top-right corner of the menu bar. On *Windows*, you will find it in the bottom-right corner of the taskbar, usually within the system tray.
 
-3. _Install or reinstall the agent._ If you can't find the application, follow the [online installation guide](https://create.arduino.cc/getting-started/plugin/welcome) to install the agent.
+     ![The Cloud Agent in the system tray on Windows.](img/cloud-agent-system-tray.png)
 
-[^1]: Older versions of the agent can be found at:
+   * **Resume if paused:** Click the ![Arduino Cloud Agent icon](img/cloud-agent-logo-mac.png) icon to open the menu. If you see the option _Resume Agent_, it indicates the agent is paused. Click _Resume Agent_ to resume.
+
+[^1]: In macOS, older versions of the agent can be found at:
 
       * `/Applications/ArduinoCreateAgent.app`
       * `Users/{username}/Applications/ArduinoCreateAgent`
