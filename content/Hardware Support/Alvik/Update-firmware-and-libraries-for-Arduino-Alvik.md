@@ -31,6 +31,8 @@ The Alvik Updater will not restore default demo examples, remove any projects or
 
    !["Connect to serial port" dialog window on PC and Chromebook](img/connect-to-serial-port.png)
 
+   You can disconnect and reconnect the device to verify the correct port in the serial port dialog.
+
    > [!NOTE]
    > The appearance of this window may vary depending on your operating system. Similarly, the port you need to select might differ in name or format.
 
@@ -56,7 +58,7 @@ If the update button seems unresponsive or does not continue loading:
 
 1. **Verify the board port in Arduino Lab for MicroPython**
 
-   Alvik is often not displayed as "Alvik" in the dialog window. It may sometimes appear as "Nano ESP32" or under another name, with the port listed in parentheses e.g., (COM29) on Windows or (ttyACM0) on Chromebook. If there are multiple options, you can confirm which port corresponds to your Alvik by connecting it to Arduino Lab for MicroPython.
+   Alvik is often not displayed as "Alvik" in the dialog window. It may sometimes appear as "Nano ESP32" or under another name, with the port listed in parentheses e.g., (COM29) on Windows or (ttyACM0) on Chromebook. If there are multiple options, you can confirm which port corresponds to your Alvik by connecting it to Arduino Lab for MicroPython. Alternatively, you can disconnect and reconnect the device to quickly verify the correct port in the serial port dialog.
 
 1. **Reconnect the board**
 
