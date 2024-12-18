@@ -2,7 +2,9 @@
 title: "Update firmware and libraries for Arduino Alvik"
 ---
 
-Keeping your Alvik’s firmware updated ensures it has the latest features, bug fixes, and performance improvements. Regular updates also help maintain compatibility with other software, ensuring optimal performance for your robot. In this article, we will explain what the Alvik Updater does and how to use it effectively.
+Keeping your Alvik’s firmware updated ensures it has the latest features, bug fixes, and performance improvements. Learn how to update your Arduino Alvik with the Alvik Updater.
+
+In this article:
 
 - [About Alvik Updater](#about-alvik-updater)
 - [How to update your Alvik](#how-to-update-your-alvik)
