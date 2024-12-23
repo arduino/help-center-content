@@ -20,7 +20,7 @@ If you need to restore the default examples on your Alvik device, follow the ste
 
 1. Navigate to the folder you just extracted, then open the 'examples' folder and go to the 'demo' subfolder.
 
-    ![Path to Demo folder](img/demo_folder_path.png)
+   ![Path to Demo folder](img/demo_folder_path.png)
 
 1. Connect your Alvik device to your computer and select it. The folders on the device will now become visible
 
@@ -28,7 +28,7 @@ If you need to restore the default examples on your Alvik device, follow the ste
 
 1. A dialog window will appear, notifying you that you are about to overwrite the file. Click 'OK' to confirm.
 
-    ![Dialog windows overwrite notification](img/overwrite-window.png)
+   ![Dialog windows overwrite notification](img/overwrite-window.png)
 
 1. Repeat this process for the remaining files in the extracted folder.
 
