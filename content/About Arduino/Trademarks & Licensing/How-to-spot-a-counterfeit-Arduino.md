@@ -163,13 +163,6 @@ Look out for phrases like "clone" or "for Arduino". These phrases are normally u
 * Non-matching photos. A closeup may depict an official Arduino board, while a wider image of the kit may include the actual counterfeit.
 * Photos that are angled or blurry so it is difficult to see the details.
 
-### Manufacturing and distribution
-
-* Arduino is the only manufacturer of Arduino products.
-* There are no special versions of Arduino boards released in specific geographical regions, e.g. an "official Chinese version”.
-* All Arduino boards are assembled in Italy.
-* See [this page](https://store.arduino.cc/distributors) for information on our official distributors around the world.
-
 ### Pricing
 
 If an Arduino product is being sold online for less than in the Arduino store, it may be a counterfeit.
