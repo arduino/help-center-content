@@ -54,7 +54,7 @@ If you see this error, it means that the sketch is still being uploading with th
 
 Try this:
 
-* Ensure that the **Esptool** option is selected in the **Sketch > Upload Using Programmer** menu. It needs to be actively selected, even if no other options are available. You will know the Esptool option is selected if a checkmark is displayed next to the name.
+* Ensure that the **Esptool** option is selected in the **Tools > Programmer** menu. It needs to be actively selected, even if no other options are available. You will know the Esptool option is selected if a checkmark is displayed next to the name.
 
   ![The Esptool option in the Tools > Programmer menu. A checkmark indicates that the option is currently selected.](img/esptool-selected.png)
 
