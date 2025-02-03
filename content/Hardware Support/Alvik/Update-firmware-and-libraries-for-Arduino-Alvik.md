@@ -60,13 +60,13 @@ If the update button seems unresponsive or does not continue loading:
 
    Alvik is often not displayed as "Alvik" in the dialog window. It may sometimes appear as "Nano ESP32" or under another name, with the port listed in parentheses e.g., (COM29) on Windows or (ttyACM0) on Chromebook. If there are multiple options, you can confirm which port corresponds to your Alvik by connecting it to Arduino Lab for MicroPython. Alternatively, you can disconnect and reconnect the device to quickly verify the correct port in the serial port dialog.
 
-1. **Reconnect the board**
+1. **Reconnect Alvik**
 
-   - Disconnect and reconnect your board to reset its power.
+   - Disconnect and reconnect your alvik to reset its power.
    - Look for any system notifications requesting USB device permissions and grant them if prompted.
 
 1. **Check the board connection**
 
    - Ensure you’re using a data USB cable, not a charging-only cable.
-   - Connect the board directly to your computer, bypassing any USB hubs.
-   - If the board still isn’t detected, try a different USB port.
+   - Connect the Alvik directly to your computer, bypassing any USB hubs.
+   - If the Alvik still isn’t detected, try a different USB port.
