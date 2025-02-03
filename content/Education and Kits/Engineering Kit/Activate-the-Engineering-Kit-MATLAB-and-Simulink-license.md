@@ -11,7 +11,7 @@ Learn how to activate the one-year individual license for MATLAB and Simulink fr
 
    ![The information sheet with the activation code highlighted.](img/MathLabCodeRedeem01.png)
 
-2. Go to the [MathWorks Engineering Kit page](https://mathworks.com/arduino-kit-rev2-license). If not signed in, click **Sign in or create account** and proceed with the instructions. Note that this is an individual license that can only be activated with one account.
+2. Go to the [MathWorks Engineering Kit page](https://se.mathworks.com/campaigns/products/arduino-kit-rev2-license.html). If not signed in, click **Sign in or create account** and proceed with the instructions. Note that this is an individual license that can only be activated with one account.
 
    ![The MathWorks Engineering Kit page. A button labeled "Sign in or create account" is highlighted.](img/MathLabCodeRedeem02.png)
 

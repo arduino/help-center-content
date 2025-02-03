@@ -26,4 +26,4 @@ The Arduino Engineering Kit is developed in collaboration with MathWorks® to pr
 ### For issues or questions about MATLAB and Simulink
 
 * Check official [MATLAB Answers](https://se.mathworks.com/matlabcentral/answers/index) from Mathworks.
-* Contact [MathWorks Support](https://mathworks.com/support/contact_us.html).
+* Contact [MathWorks Support](https://se.mathworks.com/support/contact_us.html).
