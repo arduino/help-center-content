@@ -1,5 +1,6 @@
 ---
-title: "Update firmware and libraries for Arduino Alvik"
+title: Update firmware and libraries for Arduino Alvik
+id: 18309882557724
 ---
 
 Keeping your Alvik’s firmware updated ensures it has the latest features, bug fixes, and performance improvements. Learn how to update your Arduino Alvik with the Alvik Updater.
