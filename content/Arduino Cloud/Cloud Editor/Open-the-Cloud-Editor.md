@@ -17,4 +17,4 @@ Your sketch will automatically open in a new tab.
 To get started with uploading sketches to your Arduino board:
 
 - **For Windows, macOS, or Linux:** [Install the Arduino Cloud Agent](https://support.arduino.cc/hc/en-us/articles/360014869820).
-- **For Chromebook:** See ['Use Arduino with Chromebook'](https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook).
+- **For Chromebook:** See [Use Arduino with Chromebook](https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook).
