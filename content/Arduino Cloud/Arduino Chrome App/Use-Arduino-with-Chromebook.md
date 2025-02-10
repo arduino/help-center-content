@@ -4,8 +4,6 @@ id: 360016495639
 ---
 
 <!-- markdownlint-disable MD028 -->
-> [!IMPORTANT]
-> **Arduino Cloud for Chromebook** has been removed from Google Play and is currently unavailable. We are actively working to resolve the issue.
 
 > [!TIP]
 > You can now use the Cloud Editor on ChromeOS directly in the Chrome browser. No installation of apps or extensions is required.
@@ -32,8 +30,7 @@ The currently supported boards include:
 You can use supported Arduino boards on ChromeOS in the following ways[^chrome-apps]:
 
 * [Use the Arduino Cloud Editor in the Chrome Browser](#use-the-cloud-editor-in-the-chrome-browser)
-<!-- Add link to Arduino Cloud for Chromebook when it becomes available  -->
-* ~~Use the Arduino Cloud for Chromebook app~~ (currently unavailable)
+* [Use the Arduino Cloud for Chromebook app](#use-the-arduino-cloud-for-chromebook-app)
 
 <a id="compatible"></a>
 
@@ -81,7 +78,19 @@ Follow these steps:
 
      ![Saving the sketch to the RP2040 mass storage device.](img/rp2040-save-file.png)
 
----
+## Use the Arduino Cloud for Chromebook app {#use-the-arduino-cloud-for-chromebook-app}
+
+### Follow these steps to install Arduino Cloud for Chromebook:
+
+   1. Open [Arduino Cloud for Chromebook (Google Play)](https://play.google.com/store/apps/details?id=cc.arduino.create_editor){.link-external}
+   2. Click the **Install** button on the page.
+   3. Choose the device and click **Install**.
+   4. Find the app in the **Launcher** to open it.
+   5. Sign in to your Arduino account
+
+### How to use:
+
+
 
 ## Troubleshooting
 
