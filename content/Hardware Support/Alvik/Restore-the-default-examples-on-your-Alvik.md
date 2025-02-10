@@ -1,5 +1,6 @@
 ---
 title: "Restore the default examples on your Alvik"
+id: 18424527396508
 ---
 
 If you need to restore the default examples on your Alvik device, follow the steps to download the necessary files and overwrite the existing ones. This process will reset your Alvik device to its original configuration, ensuring you have the default example files in place.
