@@ -22,7 +22,7 @@ If you need to restore the default examples on your Alvik device, follow the ste
 
    ![Path to Demo folder](img/demo_folder_path.png)
 
-1. Connect your Alvik device to your computer and select it. The folders on the device will now become visible
+1. Connect your Alvik device to your computer and select it. The folders on the device will now become visible.
 
 1. Select one of the files from the extracted folder, then click the ![ ](img/left-arrow.png) arrow button to upload it.
 
