@@ -3,6 +3,15 @@ title: "Use Arduino with Chromebook"
 id: 360016495639
 ---
 
+In this article:
+* [About Arduino on Chromebook](#about-arduino-on-chromebook)
+* [Install the Arduino Cloud for Chromebook App](#install-arduino-cloud-for-chromebook-app)
+* [Use the Arduino Cloud Editor](#use-the-cloud-editor)
+
+---
+
+## About Arduino on Chromebook {#about-arduino-on-chromebook}
+
 <!-- markdownlint-disable MD028 -->
 
 > [!TIP]
@@ -12,10 +21,6 @@ id: 360016495639
 <!-- markdownlint-enable MD028 -->
 
 You can write and upload sketches on ChromeOS with the Cloud Editor in Arduino Cloud. The Cloud Editor has an extensive feature set similar to the desktop IDE. While many popular boards are compatible, you should check [the list of compatible boards here](https://support.arduino.cc/hc/en-us/articles/360014779899).
-
----
-
-## About Arduino on Chromebook
 
 The currently supported boards include:
 
@@ -27,24 +32,27 @@ The currently supported boards include:
 * Arduino RP2040 Connect
 * Arduino UNO WiFi Rev2
 
-You can use supported Arduino boards on ChromeOS in the following ways[^chrome-apps]:
-
-* [Use the Arduino Cloud Editor in the Chrome Browser](#use-the-cloud-editor-in-the-chrome-browser)
-* [Use the Arduino Cloud for Chromebook app](#use-the-arduino-cloud-for-chromebook-app)
-
-<a id="compatible"></a>
-
 [Learn more about boards compatible with the Cloud Editor](https://support.arduino.cc/hc/en-us/articles/360014779899-Boards-compatible-with-the-Web-Editor){.link-chevron-right}
 
-[^chrome-apps]: The previous "Chrome Apps" are no longer supported, but are still available in the Chrome web store. See <a class="link-external" href="https://chrome.google.com/webstore/detail/arduino-create/dcgicpihgkmccjigalccipmjlnjopdfe">Arduino Create</a> and <a class="link-external" href="https://chrome.google.com/webstore/detail/elmgohdonjdampbcgefphnlchgocpaij">Arduino Create for Education</a>. Note that Chrome Apps will be fully [deprecated](https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html)
+> [!NOTE]
+> The previous "Chrome Apps" are no longer supported, but are still available in the Chrome web store. See <a class="link-external" href="https://chrome.google.com/webstore/detail/arduino-create/dcgicpihgkmccjigalccipmjlnjopdfe">Arduino Create</a> and <a class="link-external" href="https://chrome.google.com/webstore/detail/elmgohdonjdampbcgefphnlchgocpaij">Arduino Create for Education</a>. Note that Chrome Apps will be fully [deprecated](https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html)
 
 ---
 
-## Use the Cloud Editor in the Chrome browser {#use-the-cloud-editor-in-the-chrome-browser}
+## Install the Arduino Cloud for Chromebook app {#install-arduino-cloud-for-chromebook-app}
+
+   1. Open [Arduino Cloud for Chromebook (Google Play)](https://play.google.com/store/apps/details?id=cc.arduino.create_editor){.link-external}
+   2. Click the **Install** button on the page.
+   3. Choose the device and click **Install**.
+   4. Find the app in the **Launcher** to open it.
+   5. Sign in to your Arduino account
+
+
+## Use the Cloud Editor {#use-the-cloud-editor}
 
 Follow these steps:
 
-1. Open the Chrome browser and go to [app.arduino.cc](https://app.arduino.cc/).
+1. To start, go to [app.arduino.cc](https://app.arduino.cc/) or open the [Arduino Cloud for Chromebook app](https://play.google.com/store/apps/details?id=cc.arduino.create_editor).
 
 1. In the sidebar, select the **Sketches** tab.
 
@@ -77,19 +85,6 @@ Follow these steps:
    * **If a Save File dialog opens:** Select **RPI-RP2** and click **Save**.
 
      ![Saving the sketch to the RP2040 mass storage device.](img/rp2040-save-file.png)
-
-## Use the Arduino Cloud for Chromebook app {#use-the-arduino-cloud-for-chromebook-app}
-
-### Follow these steps to install Arduino Cloud for Chromebook:
-
-   1. Open [Arduino Cloud for Chromebook (Google Play)](https://play.google.com/store/apps/details?id=cc.arduino.create_editor){.link-external}
-   2. Click the **Install** button on the page.
-   3. Choose the device and click **Install**.
-   4. Find the app in the **Launcher** to open it.
-   5. Sign in to your Arduino account
-
-### How to use:
-
 
 
 ## Troubleshooting
