@@ -4,6 +4,7 @@ id: 360016495639
 ---
 
 In this article:
+
 * [About Arduino on Chromebook](#about-arduino-on-chromebook)
 * [Install the Arduino Cloud for Chromebook App](#install-arduino-cloud-for-chromebook-app)
 * [Use the Arduino Cloud Editor](#use-the-cloud-editor)
@@ -47,7 +48,6 @@ The currently supported boards include:
    4. Find the app in the **Launcher** to open it.
    5. Sign in to your Arduino account
 
-
 ## Use the Cloud Editor {#use-the-cloud-editor}
 
 Follow these steps:
@@ -85,7 +85,6 @@ Follow these steps:
    * **If a Save File dialog opens:** Select **RPI-RP2** and click **Save**.
 
      ![Saving the sketch to the RP2040 mass storage device.](img/rp2040-save-file.png)
-
 
 ## Troubleshooting
 
