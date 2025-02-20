@@ -3,6 +3,8 @@ title: "Use Arduino with Chromebook"
 id: 360016495639
 ---
 
+Learn how to write and upload Arduino sketches on Chromebooks running ChromeOS.
+
 In this article:
 
 * [About Arduino on Chromebook](#about-arduino-on-chromebook)
@@ -13,17 +15,9 @@ In this article:
 
 ## About Arduino on Chromebook {#about-arduino-on-chromebook}
 
-<!-- markdownlint-disable MD028 -->
+You can create and upload sketches on ChromeOS using the Arduino Cloud Editor.
 
-> [!TIP]
-> You can now use the Cloud Editor on ChromeOS directly in the Chrome browser. No installation of apps or extensions is required.
->
-> [Use the Cloud Editor in the Chrome browser](#use-the-cloud-editor-in-the-chrome-browser){.link-chevron-right}
-<!-- markdownlint-enable MD028 -->
-
-You can write and upload sketches on ChromeOS with the Cloud Editor in Arduino Cloud. The Cloud Editor has an extensive feature set similar to the desktop IDE. While many popular boards are compatible, you should check [the list of compatible boards here](https://support.arduino.cc/hc/en-us/articles/360014779899).
-
-The currently supported boards include:
+The following boards are supported when using the Cloud Editor on ChromeOS:
 
 * Arduino UNO R4 Minima
 * Arduino UNO R4 WiFi
@@ -34,9 +28,6 @@ The currently supported boards include:
 * Arduino UNO WiFi Rev2
 
 [Learn more about boards compatible with the Cloud Editor](https://support.arduino.cc/hc/en-us/articles/360014779899-Boards-compatible-with-the-Web-Editor){.link-chevron-right}
-
-> [!NOTE]
-> The previous "Chrome Apps" are no longer supported, but are still available in the Chrome web store. See <a class="link-external" href="https://chrome.google.com/webstore/detail/arduino-create/dcgicpihgkmccjigalccipmjlnjopdfe">Arduino Create</a> and <a class="link-external" href="https://chrome.google.com/webstore/detail/elmgohdonjdampbcgefphnlchgocpaij">Arduino Create for Education</a>. Note that Chrome Apps will be fully [deprecated](https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html)
 
 ---
 
