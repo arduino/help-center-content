@@ -22,9 +22,9 @@ The Arduino Cloud uses the following domains and ports, which need to be whiteli
 
 You will also need to allow NTP access on port 123 UDP for `time.arduino.cc`.
 
-## Over-the-Air updates
+### Over-the-Air updates
 
-Some networks may require additional configuration to enable Over-the-Air (OTA) updates. In these cases, these endpoints should be used by boards to download new firmware.
+Some networks may require additional configuration to enable Over-the-Air (OTA) updates. In these cases, these endpoints should be whitelisted:
 
 | Domain                    | Port |
 | ------------------------- | ---- |
