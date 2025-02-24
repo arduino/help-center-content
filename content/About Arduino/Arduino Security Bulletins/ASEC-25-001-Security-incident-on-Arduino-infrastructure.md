@@ -1,5 +1,6 @@
 ---
-title: "ASEC-25-001 - Security incident on Arduino infrastructure"
+title: ASEC-25-001 - Security incident on Arduino infrastructure
+id: 18669669929244
 ---
 
 Bulletin ID: ASEC-25-001  
