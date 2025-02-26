@@ -1,8 +1,8 @@
 ---
-title: Upload Arduino sketches to boards with MicroPython firmware
+title: Resetting boards with MicroPython Firmware to upload Arduino sketches
 ---
 
-Uploading Arduino sketches to boards running MicroPython is simple, and in many cases, you can do it without removing the existing firmware manually.
+Uploading an Arduino sketch to a board running MicroPython is straightforward. In fact, there is no need for a separate process to remove the MicroPython runtime. When you upload an Arduino sketch, it automatically overwrites the existing firmware, effectively restoring the board to standard Arduino functionality.
 
 ## Boards with MicroPython support
 
@@ -41,6 +41,6 @@ Uploading Arduino sketches to boards running MicroPython is simple, and in many 
 
 1. Open any Arduino development tool like Arduino IDE
 
-2. Select your board. If it does not appear, set your board to bootloader mode by double-pressing the reset button.
+2. Select your board. If it doesn't appear, set your board to bootloader mode by double-pressing the reset button.
 
 3. Upload BareMinimum, or any other Arduino sketch.
