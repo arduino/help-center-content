@@ -1,5 +1,6 @@
 ---
-title: "ASEC-25-002 - Arduino-CLI v1.2.0 update resolves vulnerabilities in go-git library"
+title: ASEC-25-002 - Arduino-CLI v1.2.0 update resolves vulnerabilities in go-git library
+id: 18707958449692
 ---
 
 Bulletin ID: ASEC-25-002  
