@@ -1,5 +1,5 @@
 ---
-title: "If PLC IDE isn't working with your device"
+title: "If PLC IDE isn't working with your Opta or Portenta Machine Control"
 id: 8824551178780
 ---
 
