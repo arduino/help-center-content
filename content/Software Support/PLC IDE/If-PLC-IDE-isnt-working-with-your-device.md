@@ -109,7 +109,6 @@ Unable to start the communication
 Choose 'On-line / Set up communication' to configure it
 ```
 
-Follow these steps:
 
 1. Ensure the correct port is configured for the Modbus protocol:
    1. Select **On-line > Set up communication**.
@@ -117,7 +116,6 @@ Follow these steps:
    1. Under Communication, ensure the right **Port** is selected.
    1. See the [If you can't find the serial port for your device](#if-you-cant-find-the-serial-port-for-your-device) section for help finding the right port.
 1. Close other applications that may be using the port of your PLC device, such as the Serial Monitor in Arduino IDE.
-1. Restart your computer.
 
 ### If PLC IDE becomes unresponsive when connecting to the device
 
