@@ -162,6 +162,15 @@ In this section:
 > [!NOTE]
 > If you see a **dfu-util** warning or error that's not in this list, see [dfu-util errors when uploading (exit status 74)](https://support.arduino.cc/hc/en-us/articles/11011849739804-dfu-util-errors-when-uploading-exit-status-74).
 
+<!-- Prevent MD028 linter rule from triggering -->
+
+> [!IMPORTANT]
+> Verify that the following paths are allowed by your antivirus software:
+>
+> - `C:\Program Files (x86)\Arduino PLC IDE`
+> - `C:\Program Files\Arduino PLC IDE Tools`
+> - `%LOCALAPPDATA%\T`
+
 ### Error pop-up: "Cannot download sketch file (error code: 1)"
 
 This error may occur when attempting to download the runtime sketch.
