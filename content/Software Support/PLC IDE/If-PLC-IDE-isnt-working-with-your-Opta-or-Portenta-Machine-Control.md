@@ -18,7 +18,7 @@ In this article:
 
 ---
 
-## If you can't find the serial port for your device
+## If you can't find the serial port for your device {#if-you-cant-find-the-serial-port-for-your-device}
 
 In this section:
 
@@ -58,7 +58,7 @@ Try these steps in order. Refresh the list of ports after each step by selecting
 
 ---
 
-## If there's an issue when you install the runtime
+## If there's an issue when you install the runtime {#if-theres-an-issue-when-you-install-the-runtime}
 
 In this section:
 
@@ -86,7 +86,7 @@ Follow these steps:
 
 ---
 
-## If there's an issue when you connect to the device
+## If there's an issue when you connect to the device {#if-theres-an-issue-when-you-connect-to-the-device}
 
 Learn what to do if you are unable to connect to the device.
 
@@ -147,7 +147,7 @@ Follow these steps:
 
 ---
 
-## If you see an error when programming the device
+## If you see an error when programming the device {#if-you-see-an-error-when-programming-the-device}
 
 When there is an issue installing the runtime or downloading your code to the device, error messages may appear in the **Resources** tab of the **Output** console.
 
@@ -243,7 +243,7 @@ Review the code and try again.
 
 ---
 
-## If there is an issue activating the license
+## If there is an issue activating the license {#if-there-is-an-issue-activating-the-license}
 
 When activating the license you may see one of these errors:
 
