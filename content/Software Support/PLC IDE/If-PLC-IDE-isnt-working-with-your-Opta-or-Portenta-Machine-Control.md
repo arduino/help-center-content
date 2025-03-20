@@ -109,13 +109,27 @@ Unable to start the communication
 Choose 'On-line / Set up communication' to configure it
 ```
 
+Try again after each step:
 
-1. Ensure the correct port is configured for the Modbus protocol:
-   1. Select **On-line > Set up communication**.
-   1. Click on **Properties** to open the Modbus configuration.
-   1. Under Communication, ensure the right **Port** is selected.
-   1. See the [If you can't find the serial port for your device](#if-you-cant-find-the-serial-port-for-your-device) section for help finding the right port.
-1. Close other applications that may be using the port of your PLC device, such as the Serial Monitor in Arduino IDE.
+1. Close other applications that may be using the port of your PLC device, such as the Serial Monitor in Arduino IDE. Alternatively, try restarting your computer.
+1. Ensure the correct port is configured for the Modbus protocol.
+
+   Do one of the following:
+
+   - Reinstall the runtime in bootloader mode to automatically configure the port:
+     1. Double-press the RESET button.
+     1. If a green LED is pulsing, the device is now in bootloader mode.
+     1. Find the panel “<Device name> Configuration” panel for your device:
+     1. If necessary, scroll down inside the configuration panel until you see the “Other” section.
+     1. Open the Port menu and select **Automatic (bootloader)**.
+     1. Click on **Download**.
+     1. The process is complete when a line like this appears in the **Resources tab** of the **Output** panel:
+        `C:\Users\USERNAME\Documents\TestProjectOpta\LLSketch\LLSketch.ino: sketch file downloaded`
+   - Manually configure the correct port:
+     1. Select **On-line > Set up communication**.
+     1. Click on **Properties** to open the Modbus configuration.
+     1. Under Communication, ensure the right **Port** is selected.
+     1. See the [If you can't find the serial port for your device](#if-you-cant-find-the-serial-port-for-your-device) section for help finding the right port.
 
 ### If PLC IDE becomes unresponsive when connecting to the device
 
