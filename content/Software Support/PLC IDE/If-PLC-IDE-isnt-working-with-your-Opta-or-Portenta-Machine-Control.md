@@ -157,6 +157,7 @@ In this section:
 - [Cannot generate profile file error message: Error: Path not found](#cannot-generate-profile-file-error-message-error-path-not-found)
 - [Error: invalid path creating config dir](#error-invalid-path-creating-config-dir)
 - [“Error” in the bottom right corner on first use of the board](#error-in-the-bottom-right-corner-on-first-use-of-the-board)
+- [Cannot compile Sketch file (error code: -1)](#cannot-compile-sketch-file)
 
 > [!NOTE]
 > If you see a **dfu-util** warning or error that's not in this list, see [dfu-util errors when uploading (exit status 74)](https://support.arduino.cc/hc/en-us/articles/11011849739804-dfu-util-errors-when-uploading-exit-status-74).
@@ -224,6 +225,12 @@ Follow these steps:
 1. In the Output panel, open the **Resources** tab and check for error messages.
 2. [Reformat the QSPI flash memory](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices).
 3. Reinstall the runtime and try again.
+
+### Cannot compile Sketch file (error code: -1)
+
+This means there is a syntax error in the Arduino Sketch.
+
+Review the code and try again.
 
 ---
 
