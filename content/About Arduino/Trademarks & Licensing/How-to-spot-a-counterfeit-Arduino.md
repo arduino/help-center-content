@@ -9,57 +9,85 @@ This article covers the issue of counterfeit boards – how to identify them and
 * **Counterfeit:** When a third-party product uses the Arduino name and/or logo directly on the product, or in the store, to deceive customers. Not cool!
 
 > [!NOTE]
-> It is fine for compatible brands to *reference* Arduino, in order for their customers to easily identify what type of product it is. Read more about trademark use in relation to compatible products [here](https://support.arduino.cc/hc/en-us/sections/360004749260-Compatible-Products).
+> It is fine for compatible brands to *reference* Arduino, in order for their customers to easily identify what type of product it is. Read more about trademark use in relation to compatible products [here](https://support.arduino.cc/hc/en-us/articles/4677964202908-Trademark-guide-for-compatible-products?_gl=1*eqme6q*_up*MQ..*_ga*MTk3NzU3MjcxOC4xNzQyOTc3ODcx*_ga_NEXN8H46L5*MTc0Mjk3Nzg3MS4xLjEuMTc0Mjk3Nzg3Ny4wLjAuODM4OTIxNDg2).
 
-## How to identify a counterfeit board
+## Table of contents
+1. [At the first glance](#at-the-first-glance)
+2. [Pricing](#pricing)
+3. [Naming and descriptions](#naming-and-descriptions)
+4. [Product photos](#product-photos)
+5. [Packaging](#packaging)
+6. [Color and silkscreen](#color-and-silkscreen)
+7. [Logos and fonts](#logos-and-fonts)
+8. [Why buy original Arduino products?](#why-buy-original-arduino-products)
 
-### Packaging
+The tips below are intended for you as a customer, whether you have already bought or are planning on buying an Arduino product. By reading the contents of this article, you will be able to find out if an Arduino product of your interest is an original Arduino product, a compatible product, or in fact a counterfeit.
 
-Individually sold Arduino boards come packaged in a compact, well-made cardboard box.
+> [!NOTE]
+> There are three trusted ways of buying an original Arduino product:
+* via **[Arduino Store](https://store.arduino.cc/)**: even if you’re not shopping there, you can use it as a reference for product names, colors, and prices,
+* via Arduino’s official **[Amazon storefront](https://www.amazon.com/stores/Arduino/page/E4CD2702-3533-4B57-8BE2-6786AA74DC08?ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_sto)**,
+* via an **authorized reseller** of Arduino products, the list is available [here](https://store.arduino.cc/pages/distributors?srsltid=AfmBOoqsTcAm6WJViIrV49PnUJcVt3zQ2cxOoA8UbE0c_B-e4VhKmleN).
 
-* The top side should have a graphic of the board.
-* The bottom side should list specifications for the board.
+Below you will find the main indicators of original and non-original Arduino products. 
 
-![Arduino UNO Rev3 box in three different angels.](img/counterfeit/uno-r3-box-in-three-angles.png)
+## At the first glance
 
-Counterfeits may come packaged in cheaper and generic packaging, like a plastic antistatic bag or zipper bag.
+You can almost already tell if the board you are looking at is original or not by the following: product price, product pictures, listing name and description.
 
-### Color and silkscreen
+> [!NOTE]
+> Remember to always use the official **[Arduino Store](https://store.arduino.cc/)** as a reference.
 
-The silkscreen is a layer of ink trace that contains logos, symbols, and text used to identify components. It also provides the board with a background color. Many of our most popular boards, particularly the [Arduino UNO Rev3](https://store.arduino.cc/arduino-uno-rev3) (which has the most counterfeits) are today produced with our new teal color. Virtually all counterfeits still use the blue color, and this can be a straightforward way of identifying a counterfeit.
+## Pricing
 
-<table class="img-captions">
-  <tr>
-     <td><img src="https://content.arduino.cc/assets/Arduino_UNO_Rev3_Ok.jpg" alt="Original UNO Rev 3 (front)"></td>
-     <td><img src="https://content.arduino.cc/assets/Arduino_UNO_Rev3_back_Ok.jpg" alt="Counterfeit UNO Rev 3 (back)"></td>
-  </tr>
-  <tr>
-     <td>Original UNO Rev 3 (front)</td>
-     <td>Original UNO Rev 3 (back)</td>
-  </tr>
-  <tr>
-     <td><img src="https://content.arduino.cc/assets/Arduino_Due_front_OK.jpg" alt="Original Due (front)"></td>
-     <td><img src="https://content.arduino.cc/assets/Arduino_Due_back_OK.jpg" alt="Original Due (back)"></td>
-  </tr>
-  <tr>
-     <td>Original Due (front)</td>
-     <td>Original Due (back)</td>
-  </tr>
-</table>
+Significant price differences between the official Arduino store and another seller might indicate a product is a counterfeit or a compatible board and **not** an official Arduino product.
 
-### Logos and fonts
+## Naming and descriptions
 
-Key indicators of an original board are:
+Look out for phrases like “clone” or “for Arduino”. These phrases are normally used to identify non-Arduino boards and components. They can be compatible boards and not counterfeits, but they are **not** original Arduino products.
 
-* The registered mark (®) next to the logo.
-* Quality print with well-defined letters.
-* Same font used for all text on the board.
+## Product photos
 
-Conversely, key indicators of a counterfeit board are:
+* Photos of one product depict several products instead.
+* Photos are angled or blurry to conceal details.
+* Listing photos do not match customer review photos.
 
-* The trademark symbol (™) next to the logo.
-* Lower quality print. The first letter in “Arduino” is often “filled in” due to poor quality control.
-* Different fonts used for text printed on the board.
+## Packaging
+
+* Individually sold Arduino boards come packaged in a compact, well-made cardboard box.
+    * The top side should have a graphic of the board.
+    * The bottom side should list technical specifications for the board.
+* Counterfeits may come packaged in cheaper and generic packaging, like a plastic antistatic bag or zipper bag.
+
+![Arduino UNO R3 box in three different angles.](img/counterfeit/uno-r3-box-in-three-angles.png)
+![Arduino Nano Matter box in three different angles.](img/counterfeit/nano-matter-box-in-three-angles.png)
+
+* Official Arduino kits come in well-made branded cardboard or hard plastic boxes, see examples below.
+* Counterfeit kits may come packaged in cheaper packaging with each component coming in a plastic antistatic bag. 
+
+![Arduino Starter Kit and PLC Starter Kit packaging.](/img/counterfeit/kits-boxes.png)
+
+## Color and silkscreen
+
+The silkscreen is a layer of ink trace that contains logos, symbols, and text used to identify components. It also provides the board with a background color. Below you can find a breakdown of the original silk colors for our most popular products. Any other silk color may indicate a counterfeit. Please refer to the [Arduino Store](https://store.arduino.cc/) to see the correct silk color for a board you are planning on purchasing.
+
+|  | UNO R3 | UNO R4 Minima | UNO R4 WiFi | Nano | Due | Nano 33 BLE Rev2 | Nano ESP32 | Pro products |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Front | ![Arduino UNO R3 (front)](/img/counterfeit/A000066_front.03.jpg) | ![Arduino UNO R4 Minima (front)](/img/counterfeit/ABX00080_03.front.jpg) | ![Arduino UNO R4 WiFi (front)](/img/counterfeit/ABX00087_03.front.jpg) | ![Arduino Nano (front)](/img/counterfeit/A000005_03.front.jpg) | ![Arduino Due (front)](/img/counterfeit/A000062_front.jpg) | ![Arduino Nano 33 BLE Rev2 (front)](/img/counterfeit/ABX00069_03.front.jpg) | ![Arduino Nano ESP32 (front)](/img/counterfeit/ABX00092_03.front.jpg) | ![Arduino Portenta C33 (front)](/img/counterfeit/ABX00074_03.front.jpg) |
+| Back | ![Arduino UNO R3 (back)](/img/counterfeit/A000066_back.04.jpg) | ![Arduino UNO R4 Minima (back)](/img/counterfeit/ABX00080_04.back.jpg) | ![Arduino UNO R4 WiFi (back)](/img/counterfeit/ABX00087_04.back.jpg) | ![Arduino Nano (back)](/img/counterfeit/A000005_04.back.jpg) | ![Arduino Due (back)](/img/counterfeit/A000062_back.jpg) | ![Arduino Nano 33 BLE Rev2 (back)](/img/counterfeit/ABX00069_04.back.jpg) | ![Arduino Nano ESP32 (back)](/img/counterfeit/ABX00092_04.back.jpg) | ![Arduino Portenta C33 (front)](/img/counterfeit/ABX00074_04.back.jpg) |
+
+## Logos and fonts
+
+* Logo: 
+    * Original boards have the registered mark (®) next to the logo,
+    * Counterfeits often use the trademark symbol (™) next to the logo,
+* Quality: 
+    * Original boards have high quality print with well-defined letters, 
+    * Counterfeits have lower quality, e.g. the first letter in “Arduino” is often “filled in” due to poor quality control;
+* Fonts:
+    * Original boards use the same font for all text on the board,
+    * Counterfeits use different fonts on the same board.
+
 
 <table class="img-captions">
   <tr>
@@ -85,87 +113,7 @@ When you carefully observe the font in which 'Arduino' is written you can find a
   </tr>
 </table>
 
-### Board components
-
-On counterfeit boards the overall execution can be poorly made, e.g. the components are sloping.
-
-![Counterfeit board with sloping components](img/counterfeit/Board_with_sloping_components.jpg "Counterfeit board with sloping components")
-
-**The PTC fuse** (depicted below) should be a custom golden-black, with "501K" or similar printed on it, or the Arduino infinity symbol on newer boards. On a counterfeit, it may be a generic component, with a green color or otherwise different.
-
-<table class="img-captions">
-  <tr>
-    <td><img src="https://content.arduino.cc/assets/501_rev3.png" alt="Original PTC fuse"></td>
-    <td><img src="https://content.arduino.cc/assets/501_Ok.jpg" alt="Original PTC fuse"></td>
-    <td><img src="https://content.arduino.cc/assets/501_Fake.jpg" alt="Counterfeit PTC fuse"></td>
-  </tr>
-  <tr>
-    <td>Original board</td>
-    <td>Original board</td>
-    <td>Counterfeit</td>
-  </tr>
-</table>
-
-**LED indicator lights** can also indicate a counterfeit. Arduino boards use the following colors for on-board LEDs:
-
-* Green for power.
-* Yellow for most other signaling.
-* RGB LEDs for some newer boards.
-
-A board using a red LED for power or signaling indicates a counterfeit.
-
-### Examples
-
-<table class="img-captions">
-  <tr>
-    <td><img src="https://content.arduino.cc/assets/Arduino_UNO_Rev3_Ok.jpg" alt="Original Arduino UNO Rev3"></td>
-    <td><img src="https://content.arduino.cc/assets/Arduino_UNO_Fake.jpg" alt="Counterfeit Arduino UNO Rev3"></td>
-  </tr>
-  <tr>
-    <td>Arduino UNO Rev3</td>
-    <td>Counterfeit UNO</td>
-  </tr>
-  <tr>
-    <td><img src="https://content.arduino.cc/assets/Uno_SMD_Ok.jpg" alt="Original Arduino UNO SMD"></td>
-    <td><img src="https://content.arduino.cc/assets/Uno_SMD_Fake.jpg" alt="Counterfeit UNO SMD"></td>
-  </tr>
-  <tr>
-    <td>Arduino UNO SMD</td>
-    <td>Counterfeit UNO SMD</td>
-  </tr>
-  <tr>
-  <tr>
-    <td><img src="https://content.arduino.cc/assets/Mega_Ok.jpg" alt="Original Arduino Mega"></td>
-    <td><img src="https://content.arduino.cc/assets/MEGA_front_fake.png" alt="Counterfeit Mega"></td>
-  </tr>
-  <tr>
-    <td>Arduino Mega</td>
-    <td>Counterfeit Mega</td>
-  </tr>
-  <tr>
-</table>
-
-## How to avoid buying a counterfeit board
-
-These tips can help you avoid buying a counterfeit in the first place.
-
-### Use the Arduino store as a reference
-
-Even if you're not using the [Arduino Store](https://store.arduino.cc/), it is still a useful reference for product names, colors, and prices.
-
-### Naming and descriptions
-
-Look out for phrases like "clone" or "for Arduino". These phrases are normally used to identify non-Arduino boards and components. They can be compatible boards and not counterfeits, but they are **not** original Arduino products.
-
-### Photos
-
-* Photos taken from the Arduino Store.
-* Non-matching photos. A closeup may depict an official Arduino board, while a wider image of the kit may include the actual counterfeit.
-* Photos that are angled or blurry so it is difficult to see the details.
-
-### Pricing
-
-If an Arduino product is being sold online for less than in the Arduino store, it may be a counterfeit.
+## Why buy original Arduino products?
 
 Please note that purchasing an official Arduino product will support:
 
@@ -176,5 +124,7 @@ Please note that purchasing an official Arduino product will support:
 * Quality control
 * Community management
 * Publishing tutorials
-* Make donations to other open-source projects
+* Making donations to other open-source projects
 * Hosting and maintaining websites and forums for millions of users
+
+Remember that technical support is provided **only** for official Arduino products.
