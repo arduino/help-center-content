@@ -65,7 +65,7 @@ Look out for phrases like “clone” or “for Arduino”. These phrases are no
 ![Arduino Nano Matter box in three different angles.](img/counterfeit/nano-matter-box-in-three-angles.png)
 
 * Official Arduino kits come in well-made branded cardboard or hard plastic boxes, see examples below.
-* Counterfeit kits may come packaged in cheaper packaging with each component coming in a plastic antistatic bag. 
+* Counterfeit kits may come packaged in cheaper packaging with each component coming in a plastic antistatic bag.
 
 ![Arduino Starter Kit and PLC Starter Kit packaging.](/img/counterfeit/kits-boxes.png)
 
@@ -83,7 +83,7 @@ The silkscreen is a layer of ink trace that contains logos, symbols, and text us
 * Logo:
   * Original boards have the registered mark (®) next to the logo,
   * Counterfeits often use the trademark symbol (™) next to the logo,
-* Quality: 
+* Quality:
   * Original boards have high quality print with well-defined letters,
   * Counterfeits have lower quality, e.g. the first letter in “Arduino” is often “filled in” due to poor quality control;
 * Fonts:
