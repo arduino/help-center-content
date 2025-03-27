@@ -12,6 +12,7 @@ This article covers the issue of counterfeit boards – how to identify them and
 > It is fine for compatible brands to *reference* Arduino, in order for their customers to easily identify what type of product it is. Read more about trademark use in relation to compatible products [here](https://support.arduino.cc/hc/en-us/articles/4677964202908-Trademark-guide-for-compatible-products?_gl=1*eqme6q*_up*MQ..*_ga*MTk3NzU3MjcxOC4xNzQyOTc3ODcx*_ga_NEXN8H46L5*MTc0Mjk3Nzg3MS4xLjEuMTc0Mjk3Nzg3Ny4wLjAuODM4OTIxNDg2).
 
 ## Table of contents
+
 1. [At the first glance](#at-the-first-glance)
 2. [Pricing](#pricing)
 3. [Naming and descriptions](#naming-and-descriptions)
@@ -25,11 +26,12 @@ The tips below are intended for you as a customer, whether you have already boug
 
 > [!NOTE]
 > There are three trusted ways of buying an original Arduino product:
+
 * via **[Arduino Store](https://store.arduino.cc/)**: even if you’re not shopping there, you can use it as a reference for product names, colors, and prices,
 * via Arduino’s official **[Amazon storefront](https://www.amazon.com/stores/Arduino/page/E4CD2702-3533-4B57-8BE2-6786AA74DC08?ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_sto)**,
 * via an **authorized reseller** of Arduino products, the list is available [here](https://store.arduino.cc/pages/distributors?srsltid=AfmBOoqsTcAm6WJViIrV49PnUJcVt3zQ2cxOoA8UbE0c_B-e4VhKmleN).
 
-Below you will find the main indicators of original and non-original Arduino products. 
+Below you will find the main indicators of original and non-original Arduino products.
 
 ## At the first glance
 
@@ -55,8 +57,8 @@ Look out for phrases like “clone” or “for Arduino”. These phrases are no
 ## Packaging
 
 * Individually sold Arduino boards come packaged in a compact, well-made cardboard box.
-    * The top side should have a graphic of the board.
-    * The bottom side should list technical specifications for the board.
+  * The top side should have a graphic of the board.
+  * The bottom side should list technical specifications for the board.
 * Counterfeits may come packaged in cheaper and generic packaging, like a plastic antistatic bag or zipper bag.
 
 ![Arduino UNO R3 box in three different angles.](img/counterfeit/uno-r3-box-in-three-angles.png)
@@ -78,16 +80,15 @@ The silkscreen is a layer of ink trace that contains logos, symbols, and text us
 
 ## Logos and fonts
 
-* Logo: 
-    * Original boards have the registered mark (®) next to the logo,
-    * Counterfeits often use the trademark symbol (™) next to the logo,
+* Logo:
+  * Original boards have the registered mark (®) next to the logo,
+  * Counterfeits often use the trademark symbol (™) next to the logo,
 * Quality: 
-    * Original boards have high quality print with well-defined letters, 
-    * Counterfeits have lower quality, e.g. the first letter in “Arduino” is often “filled in” due to poor quality control;
+  * Original boards have high quality print with well-defined letters,
+  * Counterfeits have lower quality, e.g. the first letter in “Arduino” is often “filled in” due to poor quality control;
 * Fonts:
-    * Original boards use the same font for all text on the board,
-    * Counterfeits use different fonts on the same board.
-
+  * Original boards use the same font for all text on the board,
+  * Counterfeits use different fonts on the same board.
 
 <table class="img-captions">
   <tr>
