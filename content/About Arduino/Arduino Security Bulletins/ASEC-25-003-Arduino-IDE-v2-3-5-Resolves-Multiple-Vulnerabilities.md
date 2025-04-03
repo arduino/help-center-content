@@ -1,5 +1,6 @@
 ---
-title: "ASEC-25-003 - Arduino-IDE v2.3.5 Resolves Multiple Vulnerabilities"
+title: ASEC-25-003 - Arduino-IDE v2.3.5 Resolves Multiple Vulnerabilities
+id: 19367547630748
 ---
 
 Bulletin ID: ASEC-25-003  
