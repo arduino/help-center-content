@@ -67,7 +67,7 @@ Look out for phrases like “clone” or “for Arduino”. These phrases are no
 * Official Arduino kits come in well-made branded cardboard or hard plastic boxes, see examples below.
 * Counterfeit kits may come packaged in cheaper packaging with each component coming in a plastic antistatic bag.
 
-![Arduino Starter Kit and PLC Starter Kit packaging.](/img/counterfeit/kits-boxes.png)
+![Arduino Starter Kit and PLC Starter Kit packaging.](img/counterfeit/kits-boxes.png)
 
 ## Color and silkscreen
 
@@ -75,8 +75,8 @@ The silkscreen is a layer of ink trace that contains logos, symbols, and text us
 
 |  | UNO R3 | UNO R4 Minima | UNO R4 WiFi | Nano | Due | Nano 33 BLE Rev2 | Nano ESP32 | Pro products |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Front | ![Arduino UNO R3 (front)](/img/counterfeit/A000066_front.03.jpg) | ![Arduino UNO R4 Minima (front)](/img/counterfeit/ABX00080_03.front.jpg) | ![Arduino UNO R4 WiFi (front)](/img/counterfeit/ABX00087_03.front.jpg) | ![Arduino Nano (front)](/img/counterfeit/A000005_03.front.jpg) | ![Arduino Due (front)](/img/counterfeit/A000062_front.jpg) | ![Arduino Nano 33 BLE Rev2 (front)](/img/counterfeit/ABX00069_03.front.jpg) | ![Arduino Nano ESP32 (front)](/img/counterfeit/ABX00092_03.front.jpg) | ![Arduino Portenta C33 (front)](/img/counterfeit/ABX00074_03.front.jpg) |
-| Back | ![Arduino UNO R3 (back)](/img/counterfeit/A000066_back.04.jpg) | ![Arduino UNO R4 Minima (back)](/img/counterfeit/ABX00080_04.back.jpg) | ![Arduino UNO R4 WiFi (back)](/img/counterfeit/ABX00087_04.back.jpg) | ![Arduino Nano (back)](/img/counterfeit/A000005_04.back.jpg) | ![Arduino Due (back)](/img/counterfeit/A000062_back.jpg) | ![Arduino Nano 33 BLE Rev2 (back)](/img/counterfeit/ABX00069_04.back.jpg) | ![Arduino Nano ESP32 (back)](/img/counterfeit/ABX00092_04.back.jpg) | ![Arduino Portenta C33 (front)](/img/counterfeit/ABX00074_04.back.jpg) |
+| Front | ![Arduino UNO R3 (front)](img/counterfeit/A000066_front.03.jpg) | ![Arduino UNO R4 Minima (front)](img/counterfeit/ABX00080_03.front.jpg) | ![Arduino UNO R4 WiFi (front)](img/counterfeit/ABX00087_03.front.jpg) | ![Arduino Nano (front)](img/counterfeit/A000005_03.front.jpg) | ![Arduino Due (front)](img/counterfeit/A000062_front.jpg) | ![Arduino Nano 33 BLE Rev2 (front)](img/counterfeit/ABX00069_03.front.jpg) | ![Arduino Nano ESP32 (front)](img/counterfeit/ABX00092_03.front.jpg) | ![Arduino Portenta C33 (front)](img/counterfeit/ABX00074_03.front.jpg) |
+| Back | ![Arduino UNO R3 (back)](img/counterfeit/A000066_back.04.jpg) | ![Arduino UNO R4 Minima (back)](img/counterfeit/ABX00080_04.back.jpg) | ![Arduino UNO R4 WiFi (back)](img/counterfeit/ABX00087_04.back.jpg) | ![Arduino Nano (back)](img/counterfeit/A000005_04.back.jpg) | ![Arduino Due (back)](img/counterfeit/A000062_back.jpg) | ![Arduino Nano 33 BLE Rev2 (back)](img/counterfeit/ABX00069_04.back.jpg) | ![Arduino Nano ESP32 (back)](img/counterfeit/ABX00092_04.back.jpg) | ![Arduino Portenta C33 (front)](img/counterfeit/ABX00074_04.back.jpg) |
 
 ## Logos and fonts
 
