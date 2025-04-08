@@ -13,14 +13,13 @@ This article covers the issue of counterfeit boards – how to identify them and
 
 ## Table of contents
 
-1. [At the first glance](#at-the-first-glance)
-2. [Pricing](#pricing)
-3. [Naming and descriptions](#naming-and-descriptions)
-4. [Product photos](#product-photos)
-5. [Packaging](#packaging)
-6. [Color and silkscreen](#color-and-silkscreen)
-7. [Logos and fonts](#logos-and-fonts)
-8. [Why buy original Arduino products?](#why-buy-original-arduino-products)
+1. [Pricing](#pricing)
+2. [Naming and descriptions](#naming-and-descriptions)
+3. [Product photos](#product-photos)
+4. [Packaging](#packaging)
+5. [Color and silkscreen](#color-and-silkscreen)
+6. [Logos and fonts](#logos-and-fonts)
+7. [Why buy original Arduino products?](#why-buy-original-arduino-products)
 
 The tips below are intended for you as a customer, whether you have already bought or are planning on buying an Arduino product. By reading the contents of this article, you will be able to find out if an Arduino product of your interest is an original Arduino product, a compatible product, or in fact a counterfeit.
 
@@ -32,13 +31,6 @@ The tips below are intended for you as a customer, whether you have already boug
 * via an **authorized reseller** of Arduino products, the list is available [here](https://store.arduino.cc/pages/distributors?srsltid=AfmBOoqsTcAm6WJViIrV49PnUJcVt3zQ2cxOoA8UbE0c_B-e4VhKmleN).
 
 Below you will find the main indicators of original and non-original Arduino products.
-
-## At the first glance
-
-You can almost already tell if the board you are looking at is original or not by the following: product price, product pictures, listing name and description.
-
-> [!NOTE]
-> Remember to always use the official **[Arduino Store](https://store.arduino.cc/)** as a reference.
 
 ## Pricing
 
@@ -56,18 +48,24 @@ Look out for phrases like “clone” or “for Arduino”. These phrases are no
 
 ## Packaging
 
+### Boards
+
 * Individually sold Arduino boards come packaged in a compact, well-made cardboard box.
   * The top side should have a graphic of the board.
   * The bottom side should list technical specifications for the board.
-* Counterfeits may come packaged in cheaper and generic packaging, like a plastic antistatic bag or zipper bag.
 
 ![Arduino UNO R3 box in three different angles.](img/counterfeit/uno-r3-box-in-three-angles.png)
 ![Arduino Nano Matter box in three different angles.](img/counterfeit/nano-matter-box-in-three-angles.png)
 
+* Counterfeits may come packaged in cheaper and generic packaging, like a plastic antistatic bag or zipper bag.
+
+### Kits
+
 * Official Arduino kits come in well-made branded cardboard or hard plastic boxes, see examples below.
-* Counterfeit kits may come packaged in cheaper packaging with each component coming in a plastic antistatic bag.
 
 ![Arduino Starter Kit and PLC Starter Kit packaging.](/img/counterfeit/kits-boxes.png)
+
+* Counterfeit kits may come packaged in cheaper packaging with each component coming in a plastic antistatic bag.
 
 ## Color and silkscreen
 
