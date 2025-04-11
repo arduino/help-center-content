@@ -118,7 +118,7 @@ When you carefully observe the font in which "Arduino" is written you can find a
   </tr>
 </table>
 
-## Why buy original Arduino products?
+## Why buy original Arduino products? {#why-buy-original-arduino-products}
 
 Please note that purchasing an official Arduino product will support:
 
