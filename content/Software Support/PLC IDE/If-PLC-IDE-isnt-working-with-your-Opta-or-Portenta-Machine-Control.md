@@ -1,5 +1,5 @@
 ---
-title: "If PLC IDE isn't working with your device"
+title: "If PLC IDE isn't working with your Opta or Portenta Machine Control"
 id: 8824551178780
 ---
 
@@ -18,7 +18,7 @@ In this article:
 
 ---
 
-## If you can't find the serial port for your device
+## If you can't find the serial port for your device {#if-you-cant-find-the-serial-port-for-your-device}
 
 In this section:
 
@@ -58,7 +58,7 @@ Try these steps in order. Refresh the list of ports after each step by selecting
 
 ---
 
-## If there's an issue when you install the runtime
+## If there's an issue when you install the runtime {#if-theres-an-issue-when-you-install-the-runtime}
 
 In this section:
 
@@ -86,7 +86,7 @@ Follow these steps:
 
 ---
 
-## If there's an issue when you connect to the device
+## If there's an issue when you connect to the device {#if-theres-an-issue-when-you-connect-to-the-device}
 
 Learn what to do if you are unable to connect to the device.
 
@@ -109,15 +109,27 @@ Unable to start the communication
 Choose 'On-line / Set up communication' to configure it
 ```
 
-Follow these steps:
+Try again after each step:
 
-1. Ensure the correct port is configured for the Modbus protocol:
-   1. Select **On-line > Set up communication**.
-   1. Click on **Properties** to open the Modbus configuration.
-   1. Under Communication, ensure the right **Port** is selected.
-   1. See the [If you can't find the serial port for your device](#if-you-cant-find-the-serial-port-for-your-device) section for help finding the right port.
-1. Close other applications that may be using the port of your PLC device, such as the Serial Monitor in Arduino IDE.
-1. Restart your computer.
+1. Close other applications that may be using the port of your PLC device, such as the Serial Monitor in Arduino IDE. Alternatively, try restarting your computer.
+1. Ensure the correct port is configured for the Modbus protocol.
+
+   Do one of the following:
+
+   - Reinstall the runtime in bootloader mode to automatically configure the port:
+     1. Double-press the RESET button.
+     1. If a green LED is pulsing, the device is now in bootloader mode.
+     1. Find the panel “<Device name> Configuration” panel for your device:
+     1. If necessary, scroll down inside the configuration panel until you see the “Other” section.
+     1. Open the Port menu and select **Automatic (bootloader)**.
+     1. Click on **Download**.
+     1. The process is complete when a line like this appears in the **Resources tab** of the **Output** panel:
+        `C:\Users\USERNAME\Documents\TestProjectOpta\LLSketch\LLSketch.ino: sketch file downloaded`
+   - Manually configure the correct port:
+     1. Select **On-line > Set up communication**.
+     1. Click on **Properties** to open the Modbus configuration.
+     1. Under Communication, ensure the right **Port** is selected.
+     1. See the [If you can't find the serial port for your device](#if-you-cant-find-the-serial-port-for-your-device) section for help finding the right port.
 
 ### If PLC IDE becomes unresponsive when connecting to the device
 
@@ -135,7 +147,7 @@ Follow these steps:
 
 ---
 
-## If you see an error when programming the device
+## If you see an error when programming the device {#if-you-see-an-error-when-programming-the-device}
 
 When there is an issue installing the runtime or downloading your code to the device, error messages may appear in the **Resources** tab of the **Output** console.
 
@@ -145,9 +157,19 @@ In this section:
 - [Cannot generate profile file error message: Error: Path not found](#cannot-generate-profile-file-error-message-error-path-not-found)
 - [Error: invalid path creating config dir](#error-invalid-path-creating-config-dir)
 - [“Error” in the bottom right corner on first use of the board](#error-in-the-bottom-right-corner-on-first-use-of-the-board)
+- [Cannot compile Sketch file (error code: -1)](#cannot-compile-sketch-file)
 
 > [!NOTE]
 > If you see a **dfu-util** warning or error that's not in this list, see [dfu-util errors when uploading (exit status 74)](https://support.arduino.cc/hc/en-us/articles/11011849739804-dfu-util-errors-when-uploading-exit-status-74).
+
+<!-- Prevent MD028 linter rule from triggering -->
+
+> [!IMPORTANT]
+> Verify that the following paths are allowed by your antivirus software:
+>
+> - `C:\Program Files (x86)\Arduino PLC IDE`
+> - `C:\Program Files\Arduino PLC IDE Tools`
+> - `%LOCALAPPDATA%\T`
 
 ### Error pop-up: "Cannot download sketch file (error code: 1)"
 
@@ -213,9 +235,15 @@ Follow these steps:
 2. [Reformat the QSPI flash memory](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices).
 3. Reinstall the runtime and try again.
 
+### Cannot compile Sketch file (error code: -1)
+
+This means there is a syntax error in the Arduino Sketch.
+
+Review the code and try again.
+
 ---
 
-## If there is an issue activating the license
+## If there is an issue activating the license {#if-there-is-an-issue-activating-the-license}
 
 When activating the license you may see one of these errors:
 

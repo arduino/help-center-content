@@ -17,10 +17,19 @@ The Arduino Cloud uses the following domains and ports, which need to be whiteli
 | Domain                    | Port |
 | ------------------------- | ---- |
 | `mqtts-up.iot.arduino.cc` | 8884 |
-| `mqtts-sa.iot.arduino.cc` | 8883 |
+| `mqtts-sa.iot.arduino.cc` | 8885 |
 | `wss.iot.arduino.cc`      | 8443 |
 
 You will also need to allow NTP access on port 123 UDP for `time.arduino.cc`.
+
+### Over-the-Air updates
+
+Some networks may require additional configuration to enable Over-the-Air (OTA) updates. In these cases, these endpoints should be whitelisted:
+
+| Domain                    | Port |
+| ------------------------- | ---- |
+| `boards-int.arduino.cc`   | 443  |
+| `boards-v2.arduino.cc`    | 443  |
 
 ---
 

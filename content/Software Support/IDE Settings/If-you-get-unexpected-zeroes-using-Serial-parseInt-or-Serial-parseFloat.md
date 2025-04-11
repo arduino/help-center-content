@@ -13,4 +13,4 @@ If your `loop()` function is calling the parsing function when `Serial.available
 You can solve the problem by:
 
 - Selecting **No line ending** in the Serial Monitor.
-- Using the [Serial.read()](https://docs.arduino.cc/language-reference/en/functions/communication/Serial/read/) and define your own logic for reading the buffer.
+- Using the [Serial.read()](https://docs.arduino.cc/language-reference/en/functions/communication/serial/read/) and define your own logic for reading the buffer.

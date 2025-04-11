@@ -14,7 +14,7 @@ To open a sketch in the Cloud Editor, follow these steps:
 
 Your sketch will automatically open in a new tab.
 
-To upload sketches to connected Arduino boards, please install the following software:
+To get started with uploading sketches to your Arduino board:
 
 - **For Windows, macOS, or Linux:** [Install the Arduino Cloud Agent](https://support.arduino.cc/hc/en-us/articles/360014869820).
-- **For Chromebook:** [Install Arduino Cloud for Chromebook](https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook#install-arduino-cloud-for-chromebook).
+- **For Chromebook:** See [Use Arduino with Chromebook](https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook).
