@@ -8,7 +8,7 @@ This article covers the issue of counterfeit boards – how to identify them and
 In this article:
 
 * [About counterfeits](#about-counterfeits)
-* [Counterfeits: warning signs](#counterfeits-warning-signs)
+* [Common signs of counterfeit Arduino products](#common-signs-of-counterfeit-arduino-products)
 * [Why buy original Arduino products?](#why-buy-original-arduino-products)
 
 > [!NOTE]
@@ -32,7 +32,7 @@ Let us first differentiate between compatible and counterfeit boards.
 
 ---
 
-## Counterfeits: warning signs
+## Common signs of counterfeit Arduino products
 
 Below you will find the main indicators of original and non-original Arduino products:
 
