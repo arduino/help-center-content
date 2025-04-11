@@ -54,13 +54,14 @@ Look out for phrases like “clone” or “for Arduino”. These phrases are no
 ### Product photos
 
 A common way to deceive customers is by adding confusing images to the listing of a counterfeit product. Look out for the following:
+
 * Photos of one product depict several products instead.
 * Photos are angled or blurry to conceal details.
 * Listing photos do not match customer review photos.
 
 ### Packaging
 
-An almost telltale indicator of a counterfeit is its packaging. The section below dives into board packaging and kit packaging. 
+An almost telltale indicator of a counterfeit is its packaging. The section below dives into board packaging and kit packaging.
 
 #### Boards
 
