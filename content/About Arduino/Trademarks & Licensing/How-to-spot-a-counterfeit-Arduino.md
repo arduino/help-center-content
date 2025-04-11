@@ -25,10 +25,10 @@ The tips below are intended for you as a customer, whether you have already boug
 
 > [!NOTE]
 > There are three trusted ways of buying an original Arduino product:
-
-* via **[Arduino Store](https://store.arduino.cc/)**: even if you’re not shopping there, you can use it as a reference for product names, colors, and prices,
-* via Arduino’s official **[Amazon storefront](https://www.amazon.com/stores/Arduino/page/E4CD2702-3533-4B57-8BE2-6786AA74DC08?ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_sto)**,
-* via an **authorized reseller** of Arduino products, the list is available [here](https://store.arduino.cc/pages/distributors?srsltid=AfmBOoqsTcAm6WJViIrV49PnUJcVt3zQ2cxOoA8UbE0c_B-e4VhKmleN).
+>
+> * via **[Arduino Store](https://store.arduino.cc/)**: even if you’re not shopping there, you can use it as a reference for product names, colors, and prices,
+> * via Arduino’s official **[Amazon storefront](https://www.amazon.com/stores/Arduino/page/E4CD2702-3533-4B57-8BE2-6786AA74DC08?ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_sto)**,
+> * via an **authorized reseller** of Arduino products, the list is available [here](https://store.arduino.cc/pages/distributors?srsltid=AfmBOoqsTcAm6WJViIrV49PnUJcVt3zQ2cxOoA8UbE0c_B-e4VhKmleN).
 
 Below you will find the main indicators of original and non-original Arduino products.
 
@@ -83,7 +83,7 @@ The silkscreen is a layer of ink trace that contains logos, symbols, and text us
   * Counterfeits often use the trademark symbol (™) next to the logo,
 * Quality:
   * Original boards have high quality print with well-defined letters,
-  * Counterfeits have lower quality, e.g. the first letter in “Arduino” is often “filled in” due to poor quality control;
+  * Counterfeits have lower quality, e.g. the first letter in “Arduino” is often “filled in” due to poor quality control,
 * Fonts:
   * Original boards use the same font for all text on the board,
   * Counterfeits use different fonts on the same board.
@@ -101,7 +101,7 @@ The silkscreen is a layer of ink trace that contains logos, symbols, and text us
   </tr>
 </table>
 
-When you carefully observe the font in which 'Arduino' is written you can find a difference between the original and counterfeits. Counterfeits tend to overlook or not be able to reproduce the same quality.
+When you carefully observe the font in which "Arduino" is written you can find a difference between the original and counterfeits. Counterfeits tend to overlook or not be able to reproduce the same quality.
 
 <table class="img-captions">
   <tr>
