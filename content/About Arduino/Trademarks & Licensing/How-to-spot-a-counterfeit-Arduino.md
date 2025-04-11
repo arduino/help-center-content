@@ -3,12 +3,12 @@ title: "How to spot a counterfeit Arduino"
 id: 360020652100
 ---
 
-This article covers the issue of counterfeit boards – how to identify them and warning signs to look out for in stores.
+This article covers the issue of counterfeit boards – how to identify them and warning signs to look out for in stores. The material presented here is useful for those who have already bought or are planning on buying an Arduino product.
 
 In this article:
 
-* [About counterfeits](#about-counterfeits-boards)
-* [Identifying counterfeits](#identifying-counterfeits)
+* [About counterfeits](#about-counterfeits)
+* [Counterfeits: warning signs](#counterfeits-warning-signs)
 * [Why buy original Arduino products?](#why-buy-original-arduino-products)
 
 > [!NOTE]
@@ -20,7 +20,7 @@ In this article:
 
 ---
 
-## About counterfeits boards
+## About counterfeits
 
 Let us first differentiate between compatible and counterfeit boards.
 
@@ -32,7 +32,7 @@ Let us first differentiate between compatible and counterfeit boards.
 
 ---
 
-## Identifying counterfeits
+## Counterfeits: warning signs
 
 Below you will find the main indicators of original and non-original Arduino products:
 
@@ -42,8 +42,6 @@ Below you will find the main indicators of original and non-original Arduino pro
 4. [Packaging](#packaging)
 5. [Color and silkscreen](#color-and-silkscreen)
 6. [Logos and fonts](#logos-and-fonts)
-
-<!-- The tips below are intended for you as a customer, whether you have already bought or are planning on buying an Arduino product. By reading the contents of this article, you will be able to find out if an Arduino product of your interest is an original Arduino product, a compatible product, or in fact a counterfeit. -->
 
 ### Pricing
 
@@ -55,11 +53,14 @@ Look out for phrases like “clone” or “for Arduino”. These phrases are no
 
 ### Product photos
 
+A common way to deceive customers is by adding confusing images to the listing of a counterfeit product. Look out for the following:
 * Photos of one product depict several products instead.
 * Photos are angled or blurry to conceal details.
 * Listing photos do not match customer review photos.
 
 ### Packaging
+
+An almost telltale indicator of a counterfeit is its packaging. The section below dives into board packaging and kit packaging. 
 
 #### Boards
 
@@ -96,6 +97,8 @@ Nano ESP32       | ![Arduino Nano ESP32 (front)](img/counterfeit/ABX00092_03.fro
 Pro products     | ![Arduino Portenta C33 (front)](img/counterfeit/ABX00074_03.front.jpg)     | ![Arduino Portenta C33 (front)](img/counterfeit/ABX00074_04.back.jpg)
 
 ### Logos and fonts
+
+Sometimes a thorough visual check is needed to see if a product is a counterfeit. Pay close attention to logos, print quality and fonts used on the board silk.
 
 * Logo:
   * Original boards have the registered mark (®) next to the logo,
