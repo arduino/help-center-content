@@ -71,10 +71,16 @@ Look out for phrases like “clone” or “for Arduino”. These phrases are no
 
 The silkscreen is a layer of ink trace that contains logos, symbols, and text used to identify components. It also provides the board with a background color. Below you can find a breakdown of the original silk colors for our most popular products. Any other silk color may indicate a counterfeit. Please refer to the [Arduino Store](https://store.arduino.cc/) to see the correct silk color for a board you are planning on purchasing.
 
-|  | UNO R3 | UNO R4 Minima | UNO R4 WiFi | Nano | Due | Nano 33 BLE Rev2 | Nano ESP32 | Pro products |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Front | ![Arduino UNO R3 (front)](img/counterfeit/A000066_front.03.jpg) | ![Arduino UNO R4 Minima (front)](img/counterfeit/ABX00080_03.front.jpg) | ![Arduino UNO R4 WiFi (front)](img/counterfeit/ABX00087_03.front.jpg) | ![Arduino Nano (front)](img/counterfeit/A000005_03.front.jpg) | ![Arduino Due (front)](img/counterfeit/A000062_front.jpg) | ![Arduino Nano 33 BLE Rev2 (front)](img/counterfeit/ABX00069_03.front.jpg) | ![Arduino Nano ESP32 (front)](img/counterfeit/ABX00092_03.front.jpg) | ![Arduino Portenta C33 (front)](img/counterfeit/ABX00074_03.front.jpg) |
-| Back | ![Arduino UNO R3 (back)](img/counterfeit/A000066_back.04.jpg) | ![Arduino UNO R4 Minima (back)](img/counterfeit/ABX00080_04.back.jpg) | ![Arduino UNO R4 WiFi (back)](img/counterfeit/ABX00087_04.back.jpg) | ![Arduino Nano (back)](img/counterfeit/A000005_04.back.jpg) | ![Arduino Due (back)](img/counterfeit/A000062_back.jpg) | ![Arduino Nano 33 BLE Rev2 (back)](img/counterfeit/ABX00069_04.back.jpg) | ![Arduino Nano ESP32 (back)](img/counterfeit/ABX00092_04.back.jpg) | ![Arduino Portenta C33 (front)](img/counterfeit/ABX00074_04.back.jpg) |
+Board            | Front                                                                                        | Back
+---              | ---                                                                                          | ---
+UNO R3           | ![Arduino UNO R3 (front)](https://content.arduino.cc/assets/A000066_front.03.jpg)            | ![Arduino UNO R3 (back)](https://content.arduino.cc/assets/A000066_back.04.jpg)
+UNO R4 Minima    | ![Arduino UNO R4 Minima (front)](https://content.arduino.cc/assets/ABX00080_03.front.jpg)    | ![Arduino UNO R4 Minima (back)](https://content.arduino.cc/assets/ABX00080_04.back.jpg)
+UNO R4 WiFi      | ![Arduino UNO R4 WiFi (front)](https://content.arduino.cc/assets/ABX00087_03.front.jpg)      | ![Arduino UNO R4 WiFi (back)](https://content.arduino.cc/assets/ABX00087_04.back.jpg)
+Nano             | ![Arduino Nano (front)](https://content.arduino.cc/assets/A000005_03.front.jpg)              | ![Arduino Nano (back)](https://content.arduino.cc/assets/A000005_04.back.jpg)
+Due              | ![Arduino Due (front)](https://content.arduino.cc/assets/A000062_front.jpg)                  | ![Arduino Due (back)](https://content.arduino.cc/assets/A000062_back.jpg)
+Nano 33 BLE Rev2 | ![Arduino Nano 33 BLE Rev2 (front)](https://content.arduino.cc/assets/ABX00069_03.front.jpg) | ![Arduino Nano 33 BLE Rev2 (back)](https://content.arduino.cc/assets/ABX00069_04.back.jpg)
+Nano ESP32       | ![Arduino Nano ESP32 (front)](https://content.arduino.cc/assets/ABX00092_03.front.jpg)       | ![Arduino Nano ESP32 (back)](https://content.arduino.cc/assets/ABX00092_04.back.jpg)
+Pro products     | ![Arduino Portenta C33 (front)](https://content.arduino.cc/assets/ABX00074_03.front.jpg)     | ![Arduino Portenta C33 (front)](https://content.arduino.cc/assets/ABX00074_04.back.jpg)
 
 ## Logos and fonts
 
