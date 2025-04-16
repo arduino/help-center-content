@@ -12,6 +12,8 @@ These are some reasons you may want to reset the bootloader:
 
 ---
 
+<a id="reset-the-bootloader"></a>
+
 > [!TIP]
 > Before you begin, it is recommended to have the latest version of the **Arduino ESP32 Boards** or **esp32** boards package installed using the Board Manager.
 
@@ -35,16 +37,30 @@ Follow these steps:
 
 8. Click on the **Esptool** option to select it.
 
-9. Select **Sketch > Upload Using Programmer** to begin uploading the firmware.
+9. Select **Tools > Burn Bootloader** to erase the flash memory.
+
+   > [!WARNING]
+   > Any data saved by sketches or MicroPython will be lost. Optionally, you can try skipping this step to preserve saved data.
+   >
+   > If you still experience issues with the upload process, or if the board is still not recognized, try repeating the procedure with this step included.
 
    The process is complete when you see these lines:
 
    ```
-   Leaving...
+   Chip erase completed successfully in 2.7s
    Hard resetting via RTS pin...
    ```
 
-10. Press the **RST** button on top of the board to exit firmware download mode.
+10. Select **Sketch > Upload Using Programmer** to begin uploading the firmware.
+
+    The process is complete when you see these lines:
+
+    ```
+    Leaving...
+    Hard resetting via RTS pin...
+    ```
+
+11. Press the **RST** button on top of the board to exit firmware download mode.
 
 ## Troubleshooting
 
@@ -60,18 +76,14 @@ Try this:
 
 * Ensure you are uploading the sketch by selecting **Sketch > Upload Using Programmer** and not by clicking the regular Upload button.
 
-### Must double-click the RESET pin to reload a sketch, or the board is only recognized once
+### If the board is only recognized once or requires a double-press reset to upload a sketch
 
-Some users report having to double-click the RESET button every time they want to load a new sketch because their board is not recognized after the first upload.
+This issue can be caused by old data on the flash memory interfering with the Arduino bootloader.
 
-This issue can be caused by previous data on the Flash memory confusing the Arduino bootloader. Most of the Flash memory is intentionally NOT erased by the above process, to preserve as much user data as possible.
+To resolve the issue, follow the full [bootloader flashing procedure](#reset-the-bootloader), including the **Tools > Burn Bootloader** step.
 
-To resolve this issue, you can following the same steps as above, but with a slight modification: before uploading the firmware in Step 9, select **Tools > Burn Bootloader**. This will erase all sectors of the Flash memory.
-
-   > [!WARNING]
-   > Any data saved by sketches or Micropython in the user partition will be lost.
-
-After erasing the Flash, proceed with the rest of the Arduino bootloader upload as usual.
+> [!WARNING]
+> Any data saved by sketches or Micropython in the user partition will be lost.
 
 [^colors]: On some earlier versions of the Nano ESP32, the LED will be blue instead of green, and yellow instead of purple.
 
