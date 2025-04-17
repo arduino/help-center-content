@@ -25,7 +25,7 @@ You can gain access to courses in different ways:
 
 Any paid Cloud plan will grant access to all courses:
 
-* **Individual plan:** When you sign up for a paid individual Cloud plan (Entry, Maker, Maker Plus), you can access all courses when viewing your Private space.
+* **Individual plan:** When you sign up for a paid individual Cloud plan (Maker), you can access all courses when viewing your Private space.
 * **School Plan:** When a shared space is upgraded with a School plan, all members of that space can access all courses when viewing that space.
 
 To learn how to switch between spaces and view courses, see [View a course](#view-your-courses).
