@@ -36,8 +36,9 @@ Follow these steps:
 1. Run the command:
    * **Windows:** `bin\espflash write-bin -b 115200 0x0 (Get-Item .\firmware\UNOR4-WIFI-S3-*.bin).FullName`
    * **macOS/Linux:** `./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-*.bin`
-     > [!NOTE]
-     > You may need to adjust your system's security settings to allow this command if you encounter a warning pop-up. To proceed, go to _System Preferences > Privacy & Security_, and under _Security_, click _Allow Anyway_ to allow espflash to run.
+
+   > [!NOTE]
+   > If you're using macOS, you may need to adjust your system's security settings to allow this command if you encounter a warning pop-up. To proceed, go to _System Settings > Privacy & Security_, and under _Security_, click _Allow Anyway_ to allow espflash to run.
 
 1. The terminal window might now show a list of the serial ports present on your computer. Use the arrow keys on your keyboard to select the port for the board and then press the <kbd>**Enter**</kbd> key.
    * **Windows:** The board will have a name like "USB Serial Device".
