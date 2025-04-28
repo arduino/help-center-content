@@ -4,7 +4,7 @@ id: 360017090920
 draft: false
 ---
 
-You can delete your Arduino account at any time. Learn what you should know before deleting your Arduino account, and how to requesst account deletion.
+You can delete your Arduino account at any time. Learn what you should know before deleting your Arduino account, and how to request account deletion.
 
 In this article:
 
