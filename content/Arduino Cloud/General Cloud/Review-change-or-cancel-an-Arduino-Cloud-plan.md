@@ -7,11 +7,28 @@ You can review, change or cancel your Arduino Cloud plan at any time.
 
 In this article:
 
+* [About Cloud plans](#about)
 * [Review your current plans](#review)
-* [Understand where plan features are active](#space-plan-association)
 * [Change payment method and billing info](#payment-and-billing)
 * [Modify a plan](#switch)
 * [Cancel a plan](#cancel)
+
+---
+
+<a id="space-plan-association"></a>
+
+## About Arduino Cloud plans {#about}
+
+> [!NOTE]
+> All premium features for individual users are now consolidated into a single **Maker plan**. Arduino Cloud can still be used with the Free plan, but Entry and Maker Plus plans are no longer offered to new customers.
+
+Cloud plans enable or improve the features of a single space in Arduino Cloud:
+
+* Individual plans increase the limits of your **Private Space**.
+* Enterprise plans increase the limits of the shared space displayed below the text "Enterprise Plan".
+* School plans increase the limits of the shared space under "Plan details".
+
+See [Review your current plans](https://digital-store.arduino.cc/subscriptions/plans) to understand where the features of each plan are active.
 
 ---
 
@@ -19,24 +36,13 @@ In this article:
 
 ## Review your current plans
 
-1. Open the **My Plans** page by:
-   * going directly to [digital-store.arduino.cc/subscriptions/plans](https://digital-store.arduino.cc/subscriptions/plans)
-   * or clicking *![profile symbol](img/symbol_profile.png) > My Plans* from anywhere on the Arduino website (when signed in).
+1. Do any of the following to open the **My Plans** page:
+   * _Direct URL:_ Open [digital-store.arduino.cc/subscriptions/plans](https://digital-store.arduino.cc/subscriptions/plans) in your browser.
+   * _In Arduino Cloud:_ Open the menu in the top-left and choose **Billing & Subscriptions**.
+   * _On other Arduino web pages:_: Select *![profile symbol](img/symbol_profile.png) > My Plans* in the top-right.
 2. Review your plans and the subscription period, payment method, and billing info for any paid plans.
 
 If you are part of any Cloud spaces with School or Enterprise plans, they will also appear on this page.
-
----
-
-<a id="space-plan-association"></a>
-
-## Understand where plan features are active
-
-Each plan is associated with a specific space in Arduino Cloud. Go to [My Plans](https://digital-store.arduino.cc/subscriptions/plans) to see where the features of each plan are active:
-
-* Individual plans (Entry, Maker, and Maker Plus) increase the limits of your **Private Space**.
-* Enterprise plans increase the limits of the shared space displayed below the text "Enterprise Plan".
-* School plans increase the limits of the shared space under "Plan details".
 
 ---
 
@@ -44,9 +50,10 @@ Each plan is associated with a specific space in Arduino Cloud. Go to [My Plans]
 
 ## Change payment method and billing info
 
-1. Open the **My Plans** page by:
-   * going directly to [digital-store.arduino.cc/subscriptions/plans](https://digital-store.arduino.cc/subscriptions/plans)
-   * or clicking *![profile symbol](img/symbol_profile.png) > My Plans* from anywhere on the Arduino website (when signed in).
+1. Do any of the following to open the **My Plans** page:
+   * _Direct URL:_ Open [digital-store.arduino.cc/subscriptions/plans](https://digital-store.arduino.cc/subscriptions/plans) in your browser.
+   * _In Arduino Cloud:_ Open the menu in the top-left and choose **Billing & Subscriptions**.
+   * _On other Arduino web pages:_: Select *![profile symbol](img/symbol_profile.png) > My Plans* in the top-right.
 2. Under **Payment method**, click CHANGE to update your payment method.
 3. Under **Billing info**, click CHANGE to update your billing info.
 
@@ -60,15 +67,17 @@ Payment or billing info for School and Enterprise plans can only be changed by t
 
 ## Modify a plan
 
-> [!NOTE]
->
-> * School and Enterprise plans can only be modified by the **subscription admin**.
->
-> * If you need to upgrade from an Individual to an Enterprise plan, [contact us](https://www.arduino.cc/en/contact-us/) for assistance.
+Before you begin:
 
-1. Open the **My Plans** page by:
-   * going directly to [digital-store.arduino.cc/subscriptions/plans](https://digital-store.arduino.cc/subscriptions/plans)
-   * or clicking *![profile symbol](img/symbol_profile.png) > My Plans* from anywhere on the Arduino website (when signed in).
+* School and Enterprise plans can only be modified by the **subscription admin**.
+* If you need to upgrade from an Individual to an Enterprise plan, [contact us](https://www.arduino.cc/en/contact-us/) for assistance.
+
+Follow these steps:
+
+1. Do any of the following to open the **My Plans** page:
+   * _Direct URL:_ Open [digital-store.arduino.cc/subscriptions/plans](https://digital-store.arduino.cc/subscriptions/plans) in your browser.
+   * _In Arduino Cloud:_ Open the menu in the top-left and choose **Billing & Subscriptions**.
+   * _On other Arduino web pages:_: Select *![profile symbol](img/symbol_profile.png) > My Plans* in the top-right.
 2. Find the plan you want to change.
 3. Click MODIFY PLAN.
 
@@ -76,13 +85,12 @@ Payment or billing info for School and Enterprise plans can only be changed by t
 
 4. Select your plan and billing frequency. You can switch to any plan you like, except the one that's currently active with your account.
 
-   !["Monthly" and "Maker Plus" options selected in the "Modify plan" page](img/modify-plan.png)
+5. Do any of the following:
 
-   > [!NOTE]
-   >
-   > * The Entry plan is only available as a yearly option.
+   * Switch between Monthly and Yearly billling frequency.
+   * Switch to a different plan (if available).
 
-5. Click REVIEW PAYMENT INFORMATION to continue.
+6. Click REVIEW PAYMENT INFORMATION to continue.
 
 ### Schedule of plan changes
 
@@ -97,11 +105,12 @@ For more information, see [Billing and feature changes when switching to a diffe
 
 ## Cancel a plan
 
-1. Open the **My Plans** page by:
-   * going directly to [digital-store.arduino.cc/subscriptions/plans](https://digital-store.arduino.cc/subscriptions/plans)
-   * or clicking *![profile symbol](img/symbol_profile.png) > My Plans* from anywhere on the Arduino website (when signed in).
+1. Do any of the following to open the **My Plans** page:
+   * _Direct URL:_ Open [digital-store.arduino.cc/subscriptions/plans](https://digital-store.arduino.cc/subscriptions/plans) in your browser.
+   * _In Arduino Cloud:_ Open the menu in the top-left and choose **Billing & Subscriptions**.
+   * _On other Arduino web pages:_: Select *![profile symbol](img/symbol_profile.png) > My Plans* in the top-right.
 2. Find the plan you want to cancel.
-3. Click 'Cancel plan'.
+3. Click Cancel plan.
 
    ![Cancelling a Cloud plan.](img/my-plans-cancel.png)
 
