@@ -1,5 +1,6 @@
 ---
-title: "Find the temperature sensor in your Arduino Starter Kit"
+title: Find the temperature sensor in your Arduino Starter Kit
+id: 20389692700700
 ---
 
 A temperature sensor will change its voltage output depending on the temperature of the
