@@ -95,6 +95,7 @@ Follow these steps:
 1. Ensure the device is connected to a stable and uninterrupted power source.
 1. Upload a simple example sketch (such as BareMinimum) to prevent any resets caused by faulty code.
 1. If you're unable to program the device, try putting it in bootloader mode.
+1. If you're using Opta Ethernet, enable chunked downloads by adding `ArduinoCloud.setOTAChunkMode();` to the `setup()` function in your sketch, immediately after the line `ArduinoCloud.begin(ArduinoIoTPreferredConnection);`.
 
 ### SHA256 Unknown - Unknown Firmware detected after restart. {#sha256unknown}
 
