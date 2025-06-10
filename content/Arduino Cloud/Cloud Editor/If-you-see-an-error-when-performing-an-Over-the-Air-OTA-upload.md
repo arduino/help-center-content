@@ -95,7 +95,7 @@ Follow these steps:
 1. Ensure the device is connected to a stable and uninterrupted power source.
 1. Upload a simple example sketch (such as BareMinimum) to prevent any resets caused by faulty code.
 1. If you're unable to program the device, try putting it in bootloader mode.
-1. If you’re using an Opta, Portenta H7, or Portenta C33 and connecting over Ethernet, enable chunked downloads by adding `ArduinoCloud.setOTAChunkMode();` to the `setup()` function in your sketch, immediately after the line `ArduinoCloud.begin(ArduinoIoTPreferredConnection);`.<!-- NOTE: The ethernet network stack can become unresponsive downloading the OTA, resulting in the sha256 error. The chunked download was developed as a possible workaround for Opta, but it applies to all Mbed OS boards using ethernet connection. It can also be enabled when connecting over Wi-Fi, but no improvement has been observed in these cases. -->
+1. If you’re using an Opta, Portenta H7, or Portenta C33 and connecting over Ethernet, enable chunked downloads by adding `ArduinoCloud.setOTAChunkMode();` to the `setup()` function in your sketch, immediately after the line `ArduinoCloud.begin(ArduinoIoTPreferredConnection);`.<!-- NOTE: The ethernet network stack can become unresponsive downloading the OTA file, resulting in the sha256 error. The chunked download was developed as a possible workaround for Opta, but it applies to all Mbed OS boards using Ethernet connection. It can also be enabled when connecting over Wi-Fi, but no improvement has been observed in these cases. -->
 
 ### SHA256 Unknown - Unknown Firmware detected after restart. {#sha256unknown}
 
