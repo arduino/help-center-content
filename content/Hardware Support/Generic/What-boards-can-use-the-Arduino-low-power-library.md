@@ -16,4 +16,4 @@ The [Arduino low power library](https://www.arduino.cc/en/Reference/ArduinoLowPo
 * [MKR VIDOR 4000](https://store.arduino.cc/arduino-mkr-vidor-4000)
 * [Nano 33 IoT](https://store.arduino.cc/arduino-nano-33-iot)
 * [Nano 33 BLE](https://store.arduino.cc/arduino-nano-33-ble)
-* [Nano 33 BLE Sense Rev2](https://store.arduino.cc/en-se/products/nano-33-ble-sense-rev2)
+* [Nano 33 BLE Sense Rev2](https://store.arduino.cc/products/nano-33-ble-sense-rev2)

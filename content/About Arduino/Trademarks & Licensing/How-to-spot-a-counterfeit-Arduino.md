@@ -15,7 +15,7 @@ In this article:
 > There are three trusted ways of buying an original Arduino product:
 >
 > * via **[Arduino Store](https://store.arduino.cc/)**: even if you’re not shopping there, you can use it as a reference for product names, colors, and prices,
-> * via Arduino’s official **[Amazon storefront](https://www.amazon.com/stores/Arduino/page/E4CD2702-3533-4B57-8BE2-6786AA74DC08?ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_sto)**,
+> * via Arduino’s official **[Amazon storefront](https://www.amazon.com/stores/Arduino/page/E4CD2702-3533-4B57-8BE2-6786AA74DC08)**,
 > * via an **authorized reseller** of Arduino products, the list is available [here](https://store.arduino.cc/pages/distributors?srsltid=AfmBOoqsTcAm6WJViIrV49PnUJcVt3zQ2cxOoA8UbE0c_B-e4VhKmleN).
 
 ---

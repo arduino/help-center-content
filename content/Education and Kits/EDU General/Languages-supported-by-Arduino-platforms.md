@@ -175,8 +175,8 @@ The application is developed in English, but includes community-provided transla
 
 For more information about language support, see the translation projects:
 
-* [Arduino IDE 1 translation project](https://www.transifex.com/mbanzi/arduino-ide-15/)
-* [Arduino IDE 2 translation project](https://www.transifex.com/arduino-1/ide2/)
+* [Arduino IDE 1 translation project](https://explore.transifex.com/mbanzi/arduino-ide-15/)
+* [Arduino IDE 2 translation project](https://explore.transifex.com/arduino-1/ide2/)
 
 ### Arduino IoT Cloud Remote app
 
