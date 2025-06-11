@@ -15,7 +15,7 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v1
         with:
-          args: --no-progress --verbose --require-https 'content/*/*/*.md'
+          args: --no-progress --verbose --require-https 'content/*/*/*.md' --max-retries 0 --max-concurrency 1
           fail: true
         env:
           CLICOLOR_FORCE: 1
