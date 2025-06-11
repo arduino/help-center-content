@@ -3,7 +3,7 @@ title: "avrdude: ser_open(): can't set com-state for COMn"
 id: 13148652511260
 ---
 
-An "`avrdude: ser_open(): can't set com-state for COMn`" error can occur when uploading to the boards that use specific batches of the [WCH CH340 USB chip](https://www.wch-ic.com/products/CH340.html). The problem only occurs when using the latest version of the CH340 driver, and can be solved by installing a previous release.
+An "`avrdude: ser_open(): can't set com-state for COMn`" error can occur when uploading to Arduino-compatible boards that use specific batches of the **WCH CH340 USB chip**. The problem only occurs when using the latest version of the CH340 driver, and can be solved by installing a previous release.
 
 ---
 

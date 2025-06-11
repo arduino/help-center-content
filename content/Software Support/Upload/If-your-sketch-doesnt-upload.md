@@ -109,7 +109,7 @@ Common upload errors often involve **dfu-util** and **avrdude** utilities. Learn
   * Ensure the [correct processor is selected](https://support.arduino.cc/hc/en-us/articles/4401874304274-Select-the-right-processor-for-Arduino-Nano).
   * You might need to [install FTDI drivers manually](https://support.arduino.cc/hc/en-us/articles/4411305694610-Install-or-update-FTDI-drivers).
 
-* **Boards with the [WCH CH340 USB chip](https://www.wch-ic.com/products/CH340.html)**: See [avrdude: ser_open(): can't set com-state for COMn](https://support.arduino.cc/hc/en-us/articles/13148652511260-avrdude-ser-open-can-t-set-com-state-for-COMn).
+* **Third-party boards with the WCH CH340 USB chips**: See [avrdude: ser_open(): can't set com-state for COMn](https://support.arduino.cc/hc/en-us/articles/13148652511260-avrdude-ser-open-can-t-set-com-state-for-COMn).
 
 [Back to top](#top)
 
