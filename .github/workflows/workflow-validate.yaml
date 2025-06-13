@@ -1,4 +1,4 @@
-name: validate
+name: validate content
 
 on:
   repository_dispatch:
