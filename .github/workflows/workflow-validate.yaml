@@ -1,4 +1,4 @@
-name: validate
+name: validate content
 
 on:
   repository_dispatch:
@@ -6,6 +6,8 @@ on:
   push:
     branches:
       - master
+    paths:
+      - 'content/**'
   pull_request:
     types: [opened, synchronize, ready_for_review, reopened]
 
@@ -14,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v4
 
       - name: Markdownlint
         run: |
@@ -31,7 +33,7 @@ jobs:
       ZENDESK_PASS: ${{ secrets.ZENDESK_TOKEN }}
 
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v4
 
       - name: Preview changes
         run: |
