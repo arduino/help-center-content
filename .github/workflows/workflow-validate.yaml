@@ -7,7 +7,7 @@ on:
     branches:
       - master
     paths:
-      - content
+      - 'content/**'
   pull_request:
     types: [opened, synchronize, ready_for_review, reopened]
 
