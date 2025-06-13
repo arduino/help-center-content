@@ -6,6 +6,8 @@ on:
   push:
     branches:
       - master
+    paths:
+      - content
   pull_request:
     types: [opened, synchronize, ready_for_review, reopened]
 
