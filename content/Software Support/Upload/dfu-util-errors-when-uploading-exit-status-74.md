@@ -13,6 +13,8 @@ In this article:
 * [`Failed uploading: uploading error: exit status 74`](#exit-status-74)
 * [`dfu-util: No DFU capable USB device available`](#no-dfu-capable-usb-device-available)
 * [`dfu-util: Cannot open DFU device {vid}:{pid} found on devnum {n} (LIBUSB_ERROR_ACCESS)`](#libusb-error-access)
+* [`dfu-util: Cannot open DFU device {vid}:{pid} found on devnum {n} (LIBUSB_ERROR_NOT_FOUND)`](#dfu-util-cannot-open-dfu-device-{vid}{pid}-found-on-devnum-{n}-libusberrornotfound)
+* [`dfu-util: Error during download get_status (LIBUSB_ERROR_PIPE)`](dfu-util-error-during-download-getstatus-libusberrorpipe)
 * [`dfu-util: More than one DFU capable USB device found!`](#more-than-one-dfu-capable-usb-device)
 * [`Warning: Invalid DFU suffix signature`](#invalid-dfu-suffix-signature)
 
@@ -44,11 +46,56 @@ Follow these steps to resolve the error:
 
 ## `dfu-util: Cannot open DFU device {vid}:{pid} found on devnum {n} (LIBUSB_ERROR_ACCESS)`
 
-The message varies depending on the board you are using.
-
 On Linux, this error can be caused by missing udev rules (This is more likely to be the cause if the error appears on the first time you're uploading from the system).
 
-   <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/9005041052444-Fix-udev-rules-on-Linux">Fix udev rules on Linux</a>
+<a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/9005041052444-Fix-udev-rules-on-Linux">Fix udev rules on Linux</a>
+
+---
+
+<a id="dfu-util-cannot-open-dfu-device-{vid}{pid}-found-on-devnum-{n}-libusberrornotfound"></a>
+
+## `dfu-util: Cannot open DFU device {vid}:{pid} found on devnum {n} (LIBUSB_ERROR_NOT_FOUND)`
+
+This error can be caused by missing drivers.
+
+You may have missing drivers if:
+
+* You have only used your board with Arduino Cloud. While Arduino IDE automatically installs required drivers when installing the board platform, this doesn't happen if you use Arduino Cloud.
+* The driver installation was blocked by User Account Control (Windows).
+
+Try this:
+
+1. If you don’t have it yet, [install Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE).
+
+2. In Arduino IDE, go to Tools > Board > Boards Manager.
+
+3. Find the board package by searching for your board's name. If you need help, see [
+Add boards to Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE).
+
+4. Install the board package. If it's already installed, [uninstall it](https://support.arduino.cc/hc/en-us/articles/4407225360018-Uninstall-boards-from-Arduino-IDE) first.
+
+5. If prompted, approve the installation of "dpinst-amd64.exe" and other drivers by clicking Yes on the pop-up.
+
+6. Wait for the "Successfully installed platform" message.
+
+<!-- https://forum.arduino.cc/t/error-no-dfu-capable-usb-device-available/1321727/3 -->
+
+---
+
+<a id="dfu-util-error-during-download-getstatus-libusberrorpipe"></a>
+
+## `dfu-util: Error during download get_status (LIBUSB_ERROR_PIPE)`
+
+When uploading a sketch, you may see this error:
+
+```
+dfu-util: Error during download get_status (LIBUSB_ERROR_PIPE)
+```
+
+Follow these steps:
+
+1. Ensure your board is firmly connected using a working USB cable.
+2. Close other applications that may be blocking or interrupting the upload, such as other instances of Arduino IDE or Arduino Cloud, port monitoring tools, or other development tools that may be using the port.
 
 ---
 
