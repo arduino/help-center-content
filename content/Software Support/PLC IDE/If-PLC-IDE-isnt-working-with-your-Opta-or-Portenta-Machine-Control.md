@@ -149,8 +149,6 @@ Follow these steps:
 
 ## If you see an error when programming the device {#if-you-see-an-error-when-programming-the-device}
 
-
-
 When there is an issue installing the runtime or downloading your code to the device, error messages may appear in the **Resources** tab of the **Output** console.
 
 In this section:
