@@ -8,8 +8,8 @@ Learn how to write and upload Arduino sketches on Chromebooks running ChromeOS.
 In this article:
 
 * [About Arduino on Chromebook](#about-arduino-on-chromebook)
-* [Install the Arduino Cloud for Chromebook App (Optional)](#install-arduino-cloud-for-chromebook-app)
-* [Use the Arduino Cloud Editor](#use-the-cloud-editor)
+* [Optional: Install the Arduino Cloud for Chromebook App](#install-arduino-cloud-for-chromebook-app)
+* [Use the Arduino Cloud Editor on Chromebook](#use-the-cloud-editor)
 
 ---
 
@@ -31,15 +31,23 @@ The following boards are supported when using the Cloud Editor on ChromeOS:
 
 ---
 
-## Install the Arduino Cloud for Chromebook app (Optional){#install-arduino-cloud-for-chromebook-app}
+## Optional: Install the Arduino Cloud for Chromebook App{#install-arduino-cloud-for-chromebook-app}
 
-   1. Open [Arduino Cloud for Chromebook (Google Play)](https://play.google.com/store/apps/details?id=cc.arduino.create_editor){.link-external}
-   2. Click the **Install** button on the page.
-   3. Choose the device and click **Install**.
-   4. Find the app in the **Launcher** to open it.
-   5. Sign in to your Arduino account
+Arduino Cloud can be used directly in your browser, or in the dedicated **Arduino Cloud for Chromebook** app.
 
-## Use the Cloud Editor {#use-the-cloud-editor}
+[![](img/GetItOnGooglePlay_Badge_Web_color_English.png)](https://play.google.com/store/apps/details?id=cc.arduino.create_editor)
+
+Installation instructions:
+
+1. Open the app in Google Play by clicking the link above, or by searching for "Arduino Cloud for Chromebook" in Google Play.
+2. Click the **Install** button on the page.
+3. Choose the device and click **Install**.
+4. Find the app in the **Launcher** to open it.
+5. Sign in to your Arduino account.
+
+---
+
+## Use the Arduino Cloud Editor on Chromebook {#use-the-cloud-editor}
 
 Follow these steps:
 
