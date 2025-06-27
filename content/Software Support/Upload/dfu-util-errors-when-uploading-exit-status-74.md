@@ -40,6 +40,16 @@ Follow these steps to resolve the error:
 
 2. Make sure the device you're using is properly connected with a working USB data cable. Try using a different USB cable, and avoid using USB hubs if possible.
 
+3. Try putting the board in bootloader mode:
+
+   1. Find the board's **reset button** and press it two times in quick succession.
+
+   2. An onboard LED will fade in and out, indicating that the board is in bootloader mode.
+
+   3. Select the correct port for your board from the Tools > Port menu or the board selector, as the port may change when the bootloader runs.
+
+   4. Try uploading the sketch again.
+
 ---
 
 <a id="libusb-error-access"></a>
