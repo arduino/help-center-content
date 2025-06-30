@@ -35,7 +35,7 @@ The following boards are supported when using the Cloud Editor on ChromeOS:
 
 Arduino Cloud can be used directly in your browser, or in the dedicated **Arduino Cloud for Chromebook** app.
 
-[![](img/GetItOnGooglePlay_Badge_Web_color_English.png)](https://play.google.com/store/apps/details?id=cc.arduino.create_editor)
+[![Get it on Google Play.](img/GetItOnGooglePlay_Badge_Web_color_English.png)](https://play.google.com/store/apps/details?id=cc.arduino.create_editor)
 
 Installation instructions:
 
