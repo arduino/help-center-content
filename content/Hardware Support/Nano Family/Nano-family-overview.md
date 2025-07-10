@@ -110,14 +110,9 @@ Some boards in the Nano family have pads that can be soldered or cut to change t
 
 ### VUSB pads
 
-It is possible to [enable 5 V power on the VUSB or VBUS pin on Nano boards](https://support.arduino.cc/hc/en-us/articles/360014779679-Enable-5-V-power-on-the-VUSB-or-VBUS-pin-on-Nano-boards) that operate at 3.3 V. On all of these boards (except the Nano ESP32), two VUSB pads must be shorted in order to enable the VUSB pin. On the Nano ESP 32, the VBUS pin is enabled by default and these two pads are not present.
+On Nano boards that operate at 3.3 V, USB power (~5 V) can be supplied directly to the VUSB/VBUS/5V pin. On some boards, a VUSB jumper pad must be bridged to enable this pin.
 
-<table>
-  <tr>
-    <td><img src="img/nano-33-ble-rev2-vusb-pin.png" alt="The VUSB pads on the Nano 33 BLE Sense"></td>
-    <td><img src="img/nano-esp32-vbus-pin.png" alt="The VBUS pin on Nano ESP32"></td>
-  </tr>
-</table>
+[Supply USB power via the VUSB, VBUS or 5V pin on Nano boards](https://support.arduino.cc/hc/en-us/articles/360014779679){.link-chevron-right}
 
 ### I2C pads
 
