@@ -30,7 +30,7 @@ To place a tax-exempt order, follow these steps:
 
 1. Proceed with the checkout process as usual to complete your order.
 
-## America, Asia, and Oceania {us-tax}
+## America, Asia, and Oceania {#us-tax}
 
 ### Eligibility for Tax Exemption
 
