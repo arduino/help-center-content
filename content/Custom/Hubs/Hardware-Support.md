@@ -99,12 +99,6 @@ id: 9264736457500
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4406856349970-Select-board-and-port-in-Arduino-IDE">Select a board/port</a>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4407225360018-Uninstall-boards-from-Arduino-IDE">Uninstall board</a>
   </div>
-  <!--<div class="info-item">
-    <img src="https://content.arduino.cc/assets/hc-resistor.svg">
-    <p class="info-title">Resistor color codes</p>
-    <p>Learn how to read resistor color codes.</p>
-    <a class="link-chevron-right" href="#hardware">Read the article</a>
-  </div>-->
 </div>
 <div class="info-wrapper">
   <div class="info-item">
