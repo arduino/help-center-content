@@ -14,7 +14,7 @@ In this article:
 * [`dfu-util: No DFU capable USB device available`](#no-dfu-capable-usb-device-available)
 * [`dfu-util: Cannot open DFU device {vid}:{pid} found on devnum {n} (LIBUSB_ERROR_ACCESS)`](#libusb-error-access)
 * [`dfu-util: Cannot open DFU device {vid}:{pid} found on devnum {n} (LIBUSB_ERROR_NOT_FOUND)`](#dfu-util-cannot-open-dfu-device-{vid}{pid}-found-on-devnum-{n}-libusberrornotfound)
-* [`dfu-util: Error during download get_status (LIBUSB_ERROR_PIPE)`](dfu-util-error-during-download-getstatus-libusberrorpipe)
+* [`dfu-util: Error during download get_status (LIBUSB_ERROR_PIPE)`](#dfu-util-error-during-download-getstatus-libusberrorpipe)
 * [`dfu-util: More than one DFU capable USB device found!`](#more-than-one-dfu-capable-usb-device)
 * [`Warning: Invalid DFU suffix signature`](#invalid-dfu-suffix-signature)
 

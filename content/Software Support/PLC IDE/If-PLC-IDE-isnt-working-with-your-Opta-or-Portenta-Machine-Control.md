@@ -78,7 +78,8 @@ Follow these steps:
 1. Follow the linked instructions if you see any of these errors:
    - [Cannot generate profile file error message: Error: Path not found](#cannot-generate-profile-file-error-message-error-path-not-found)
    - [Error: invalid path creating config dir](#error-invalid-path-creating-config-dir)
-   - If you see a different error, see the [If you see an error when downloading](#if-you-see-an-error-when-downloading) section.
+
+   If you see a different error, see the [If you see an error when programming the device](#if-you-see-an-error-when-programming-the-device) section.
 
 1. Restart PLC IDE.
 
