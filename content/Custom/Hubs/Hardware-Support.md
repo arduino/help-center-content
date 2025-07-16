@@ -33,11 +33,6 @@ id: 9264736457500
     <a id="keep" href="https://support.arduino.cc/hc/en-us/sections/360004767859-Portenta-Family"></a>
     <span class="link-chevron-right">Portenta</span>
   </div>
-  <!-- <div class="actions-item">
-    <img src="https://content.arduino.cc/assets/hc-opta.png">
-    <a id="keep" href="#code"></a>
-		<span  class="link-chevron-right">Opta</span>
-  </div>-->
 </div>
 <h2 class="center hub">General troubleshooting</h2>
 <div class="info-wrapper">
@@ -56,13 +51,6 @@ id: 9264736457500
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/5779192727068-Reset-your-board">Read the article</a>
   </div>
-  <!-- <div class="info-item info-big">
-    <p class="info-title">Troubleshooting guide</p>
-    <p>
-      General Arduino troubleshooting checklist.
-      <a class="link-chevron-right" href="#code">Read the guide</a>
-    </p>
-  </div>-->
 </div>
 <div class="info-wrapper">
   <div class="info-item">
