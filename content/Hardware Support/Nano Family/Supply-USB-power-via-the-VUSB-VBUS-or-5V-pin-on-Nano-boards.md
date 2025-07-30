@@ -7,9 +7,9 @@ Many Arduino Nano boards are powered by 3.3 V but include a dedicated pin—labe
 
 In this article:
 
-* [Before you begin](#before-you-begin)
-* [Solder VUSB jumper pads (if required)](#solder-vusb-jumper-pads)
-* [Use the VUSB or VBUS Pin](#use-the-vusb-or-vbus-pin)
+- [Before you begin](#before-you-begin)
+- [Requirements for supported boards](#requirements-for-supported-boards)
+- [Solder VUSB jumper pads if required](#solder-vusb-jumper-pads)
 
 ---
 
@@ -18,9 +18,9 @@ In this article:
 > [!WARNING]
 > Do not connect the VUSB/VBUS/5V pin to any of the other pins on the board.
 
-* The VUSB/VBUS/5V pin outputs power directly from the USB connector when enabled.
-* Power from the USB supply can range from 4.4 V to 5.5 V, per USB specifications.
-* Do not connect the VUSB/VBUS/5V pin to any of the other pins on the board. Supplying 5 V to other pins can permanently damage the board.
+- The VUSB/VBUS/5V pin outputs power directly from the USB connector when enabled.
+- Power from the USB supply can range from 4.4 V to 5.5 V, per USB specifications.
+- Do not connect the VUSB/VBUS/5V pin to any of the other pins on the board. Supplying 5 V to other pins can permanently damage the board.
 
 ---
 
@@ -28,8 +28,8 @@ In this article:
 
 There are two main requirements for using the "VUSB" pin:
 
-* The board must be powered via USB. If you power the board through other means—such as a battery connected to Vin or a 3.3 V supply—the pin will not output anything.
-* On some boards, the VUSB line must be enabled by connecting a pair of jumper pads.
+- The board must be powered via USB. If you power the board through other means—such as a battery connected to Vin or a 3.3 V supply—the pin will not output anything.
+- On some boards, the VUSB line must be enabled by connecting a pair of jumper pads.
 
 The table below summarizes which Nano boards support 5 V output, what the output pin is called, and whether any action is required to enable it.
 
