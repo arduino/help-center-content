@@ -1,5 +1,6 @@
 ---
 title: "Compilation error: Invalid FQBN: board \"X\" not found"
+id: 21448454878748
 ---
 
 > [!IMPORTANT]
