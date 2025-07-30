@@ -33,15 +33,15 @@ There are two main requirements for using the "VUSB" pin:
 
 The table below summarizes which Nano boards support 5 V output, what the output pin is called, and whether any action is required to enable it.
 
-| Board                          | 5 V output pin | How to enable                                       |
-|:-------------------------------|:---------------|:----------------------------------------------------|
+| Board                          | 5 V output pin | How to enable                                                    |
+|:-------------------------------|:---------------|:-----------------------------------------------------------------|
 | Arduino Nano 33 BLE            | VUSB           | [Enable by soldering VUSB jumper pads](#solder-vusb-jumper-pads) |
 | Arduino Nano 33 BLE Rev2       | VUSB           | [Enable by soldering VUSB jumper pads](#solder-vusb-jumper-pads) |
 | Arduino Nano 33 BLE Sense      | VUSB           | [Enable by soldering VUSB jumper pads](#solder-vusb-jumper-pads) |
 | Arduino Nano 33 BLE Sense Rev2 | VUSB           | [Enable by soldering VUSB jumper pads](#solder-vusb-jumper-pads) |
 | Arduino Nano 33 IoT            | VUSB           | [Enable by soldering VUSB jumper pads](#solder-vusb-jumper-pads) |
-| Arduino Nano ESP32             | VBUS           | Enabled by default                                  |
-| Arduino Nano Matter            | 5V             | Enabled by default                                  |
+| Arduino Nano ESP32             | VBUS           | Enabled by default                                               |
+| Arduino Nano Matter            | 5V             | Enabled by default                                               |
 | Arduino Nano RP2040 Connect    | VBUS           | [Enable by soldering VUSB jumper pads](#solder-vusb-jumper-pads) |
 
 > [!TIP]
