@@ -7,9 +7,9 @@ Many Arduino Nano boards are powered by 3.3 V but include a dedicated pin—labe
 
 In this article:
 
-* [Before you begin](#before-you-begin)
-* [Solder VUSB jumper pads (if required)](#solder-vusb-jumper-pads)
-* [Use the VUSB or VBUS Pin](#use-the-vusb-or-vbus-pin)
+- [Before you begin](#before-you-begin)
+- [Requirements for supported boards](#requirements-for-supported-boards)
+- [Solder VUSB jumper pads if required](#solder-vusb-jumper-pads)
 
 ---
 
