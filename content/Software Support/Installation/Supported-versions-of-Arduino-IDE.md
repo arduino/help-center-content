@@ -20,7 +20,9 @@ In this article:
 
 ## Arduino IDE 2.x (Latest)
 
-Arduino actively develops and supports Arduino IDE 2. Each new release delivers feature enhancements, bug fixes, and important security patches. To keep your projects compatible with the latest Arduino boards and libraries, update regularly and install the newest release as soon as it becomes available. By staying current, you ensure the smoothest development experience and receive the highest level of support.
+Arduino IDE 2 is faster and more user-friendly, featuring a smart editor with auto-completion and syntax highlighting. It also includes a built-in debugger, improved project navigation, and streamlined board and library management. IDE 2 is the only version currently under active development by Arduino.
+
+Each new release delivers feature enhancements, bug fixes, and important security patches. Use the latest version to ensure the smoothest development experience and receive the highest level of support.
 
 [Download the latest version of Arduino IDE from the software page](https://www.arduino.cc/en/software/){.link-chevron-right}
 
