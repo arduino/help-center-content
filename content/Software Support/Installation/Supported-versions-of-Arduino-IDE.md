@@ -1,5 +1,6 @@
 ---
-title: "Supported versions of Arduino IDE"
+title: Supported versions of Arduino IDE
+id: 22301294333084
 ---
 
 Arduino IDE 2 was fully released in September 2022, and is the actively developed and recommended desktop environment for Arduino. While IDE 2 was still in development, Arduino also maintained a version of IDE 1, so users could choose between the familiar experience of the classic IDE and the modern features of IDE 2.
