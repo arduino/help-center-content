@@ -5,64 +5,61 @@ id: 360022234360
 
 Minors under the age of 14 need parental consent to sign up for an Arduino account. This is called a **junior account**.
 
-* Adults can [create junior accounts from their profile page](#adult-create).
-* Juniors can also [request permission from their parents](#junior-request).
+In this article:
+
+* [Create a junior account for your child](#adult-create)
+* [Request an account from your parent](#junior-request)
 
 ---
 
-<h2 id="adult-create">Sign up your junior from an adult account</h2>
+## Create a junior account for your child {#adult-create}
 
-1. Go to the [Profile page](https://id.arduino.cc/). Sign in if prompted or, if you haven't done so, [create an Arduino account](https://support.arduino.cc/hc/en-us/articles/360016724040).
+1. Sign into [id.arduino.cc/minors](https://id.arduino.cc/minors).
 
-2. Under _Junior Accounts_, click on **Set Up Junior Account**.
+2. Find the _Your Junior Accounts_ section.
 
-   ![The Junior Accounts section on the profile page.](img/profile-page-without-junior-account.png)
+3. Select **Add Account**.
 
-3. Enter the following profile info:
+4. Configure the new junior account:
 
-   * Optional: Change the avatar.
-   * Optional: Regenerate the randomly assigned username.
-   * **Required:** Enter a password.
-   * **Required:** Enter the junior's date of birth.
+   * Select an avatar (optional)
+   * Regenerate the randomly assigned username (optional)
+   * Enter a password.
+   * Enter the junior's date of birth (DD/MM/YYYY).
 
    When done, click **Next**.
 
-   ![Creating a new junior account.](img/create-junior-account-as-parent.png)
+   > [!IMPORTANT]
+   > If you are unable to proceed, ensure that the password meets the requirements.
 
-4. Agree to the terms of parental consent and click Create Account.
+5. Agree to the terms of parental consent and click Create Account.
 
-The junior account will be created and added to the Junior Accounts section.
-
-![The Junior Accounts section on the profile page with one associated junior account.](img/profile-page-with-junior-account.png)
+The junior account will be created and added to the list of your junior accounts.
 
 ---
 
-<h2 id="junior-request">Request permission as a junior</h2>
+## Request an account from your parent {#junior-request}
 
-1. Go to [arduino.cc](https://www.arduino.cc/) and click Sign In in the top-right to open the [sign-in page](https://login.arduino.cc/login).
+1. Go to [junior.arduino.cc](https://junior.arduino.cc/).
 
-   ![The sign in button on arduino.cc](img/arduino-cc-sign-in-button.png)
+   > [!NOTE]
+   > If another account is signed in, click the profile button and select Sign Out first.
 
-   > If another account is signed in, click the ![Profile icon](img/symbol_profile.png) profile button and select 'Sign Out' first.
+2. Below the Sign In button, and click on **Create your account** to proceed.
 
-2. Below the **Sign In** button, find the text "Don't have an account yet?", and click on **Create one** to proceed.
+3. Enter your date of birth (DD/MM/YYYY) and click **Next**.
 
-   ![The arduino.cc sign in page. An arrow highlights the link for signing up with email,.](img/arduino-account-sign-in-create-button.png)
+4. Configure the new junior account:
 
-3. Enter your date of birth, then click on Next.
+   * Select an avatar (optional)
+   * Regenerate the randomly assigned username (optional)
+   * Enter a password.
 
-   ![Entering date of birth.](img/arduino-account-sign-up-dob.png)
+   When done, click **Next**.
 
-4. Enter the following profile info:
+   > [!IMPORTANT]
+   > If you are unable to proceed, ensure that the password meets the requirements.
 
-   * Optional: Change the avatar.
-   * Optional: Regenerate your randomly assigned username.
-   * **Required:** Enter a password.
-
-   ![Signing up to Arduino.](img/create-junior-account-as-junior.png)
-
-5. Type in your parent's email address in both fields. Make sure that you provide the correct email address. Click on **Send Email**.
-
-   ![Entering parent email address.](img/create-junior-account-parent-email.png)
+5. Type in and confirm your parent's email address.
 
 An email will be sent to your parent with instructions on how to finalize your account.

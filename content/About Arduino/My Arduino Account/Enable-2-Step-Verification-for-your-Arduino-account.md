@@ -21,19 +21,17 @@ These are some popular choices:
 
 ## Enable 2-Step Verification
 
-1. Log in to your account and go to [your profile](https://id.arduino.cc/).
+1. Sign into [id.arduino.cc/security](https://id.arduino.cc/security).
 
-1. In the Security section, find the 2-Step Verification option and click on **Activate**.
+1. Find the _2 steps verification_ section.
 
-   ![Security section highlighted in the profile page](img/Profile_Security.png)
+1. Click **Activate** to begin the activation process for 2 step verification.
 
 1. Open your preferred authenticator app (e.g., Authy, Google Authenticator, Microsoft Authenticator).
 
-1. A window will display a QR code. This code is used to configure your account with an authenticator app.
+   Add a new account in the authenticator app, scan the displayed QR code in the window and click **Next**.
 
    ![QR code for configuration of Authenticator app](img/2FA_QRcode.png)
-
-   Add a new account in the authenticator app and scan the QR code displayed in the window and click **Next**.
 
    > [!TIP]
    > If you can't scan the QR code, click "Can't scan the barcode?" to view the code in text format. Save this code as a one-time password for Arduino in your authenticator app.
