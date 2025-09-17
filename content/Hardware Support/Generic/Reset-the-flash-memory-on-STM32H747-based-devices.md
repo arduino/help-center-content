@@ -15,27 +15,27 @@ In this article:
 
 <!-- TOC -->
 
-- [Available partitioning schemes](#available-partitioning-schemes)
-- [Use the default partitioning scheme](#use-the-default-partitioning-scheme)
-- [Use the partitioning scheme for Arduino PLC IDE](#use-the-partitioning-scheme-for-arduino-plc-ide)
+- [Available partition schemes](#available-partition-schemes)
+- [Use the default partition scheme](#use-the-default-partition-scheme)
+- [Use the partition scheme for Arduino PLC IDE](#use-the-partition-scheme-for-arduino-plc-ide)
 - [Troubleshooting](#troubleshooting)
 
 <!-- /TOC -->
 
 ---
 
-## Available partitioning schemes
+## Available partition schemes
 
-| Partitioning scheme | Description                                                                                                                         |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| [Default partitioning scheme](#partition-your-device-for-arduino-cloud-or-other-applications)    | Required for full Arduino Cloud support. |
-| [Arduino PLC IDE](#partition-your-device-for-arduino-plc-ide)                                 | Compatible with Arduino PLC IDE 1.0.8.                    |
+| Partition scheme | Description                                                                                               |
+|---------------------|--------------------------------------------------------------------------------------------------------|
+| [Default partition scheme](#use-the-default-partition-scheme)    | Required for full Arduino Cloud support.                  |
+| [Arduino PLC IDE](#use-the-partition-scheme-for-arduino-plc-ide) | Compatible with Arduino PLC IDE 1.0.8.                    |
 
 ---
 
-## Use the default partitioning scheme
+## Use the default partition scheme
 
-This partitioning scheme supports the latest Arduino Cloud features, and is recommended unless you are using your device with Arduino PLC IDE.
+This partition scheme supports the latest Arduino Cloud features, and is recommended unless you are using your device with Arduino PLC IDE.
 
 Supported devices:
 
@@ -50,7 +50,7 @@ Supported devices:
 
 Follow these steps:
 
-1. Open the partitioning sketch:
+1. Open the memory partitioning sketch:
 
    - Arduino IDE: Ensure that you are using the [latest version of the board package](https://support.arduino.cc/hc/en-us/articles/4404691106066-Update-board-packages-in-Arduino-IDE), then select File > Examples > STM32H747_System > QSPIFormat.
 
@@ -71,9 +71,9 @@ Follow these steps:
 
 ---
 
-## Use the partitioning scheme for Arduino PLC IDE
+## Use the partition scheme for Arduino PLC IDE
 
-The default memory partitioning scheme is not compatible with Arduino PLC IDE 1.0.8.
+The default memory partition scheme is not compatible with Arduino PLC IDE 1.0.8.
 
 Supported devices:
 
