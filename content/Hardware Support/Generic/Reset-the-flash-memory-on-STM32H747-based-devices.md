@@ -30,7 +30,7 @@ Follow these steps:
 
 1. Download the following sketch:
 
-   [memory_partitioning.zip](https://docs.arduino.cc/3147be35e0c40957022af51f015c3e4d/memory_partitioning.zip){.link-download}
+   [memory_partitioning.zip](https://content.arduino.cc/assets/memory_partitioning.zip){.link-download}
 
 1. Open the sketch in your editor:
 

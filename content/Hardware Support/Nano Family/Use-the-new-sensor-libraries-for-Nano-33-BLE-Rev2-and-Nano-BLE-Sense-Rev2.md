@@ -75,7 +75,7 @@ After making the modifications, save the changes and upload the modified sketch 
 
 ### Learn more
 
-* [Library documentation for Arduino_HS300x](https://reference.arduino.cc/reference/en/libraries/arduino_hs300x/)
+* [Library documentation for Arduino_HS300x](https://docs.arduino.cc/libraries/arduino_hs300x/)
 * [Learn more about the temperature and humidity sensor in Arduino Docs](https://docs.arduino.cc/tutorials/nano-33-ble-sense-rev2/cheat-sheet#temperature-and-humidity-sensor)
 
 <!-- markdownlint-disable-file HC001 -->

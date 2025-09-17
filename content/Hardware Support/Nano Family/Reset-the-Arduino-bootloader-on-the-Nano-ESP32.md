@@ -8,35 +8,11 @@ Learn how to reset the default Arduino bootloader on the Nano ESP32.
 These are some reasons you may want to reset the bootloader:
 
 * Update the Arduino bootloader already on the board. This can resolve issues with Nano ESP32 being misidentified as other ESP32 boards.
-* Restore the ability to upload regular Arduino sketches to a Nano ESP32 that has been flashed with the MicroPython firmware.
-
-In this article:
-
-* [Option 1: Using the bootloader mode](#bootloader-mode)
-* [Option 2: Use the Esptool programmer option in Arduino IDE](#esp32-download-mode)
+* Restore the ability to upload regular Arduino sketches to a Nano ESP32 that has been flashed with MicroPython or other third-party firmware images.
 
 ---
 
-## Option 1: Using bootloader mode {#bootloader-mode}
-
-The quickest way to reset your Arduino Nano ESP32 is by activating the bootloader mode and uploading any sketch.
-
-Follow these steps:
-
-1. Press the RST button two times, waiting 0.3 to 1 second between each press.
-
-   > [!IMPORTANT]
-   > The timing between presses is different compared to bootloader mode on most other Arduino boards. If bootloader mode won’t activate, try adjusting your timing.
-
-2. Check the on-board LED near the RST button:
-   * **If the LED pulses slowly in green[^colors]:** The board is in bootloader mode. Go to the next step.
-   * **If the LED is off:** Repeat step 1 or try [Option 2: Use the Esptool programmer option in Arduino IDE](#esp32-download-mode).
-3. Select Arduino Nano ESP32 in Arduino IDE or the Cloud Editor.
-4. Upload any sketch to restore the standard Arduino bootloader.
-
----
-
-## Option 2: Use the Esptool programmer option in Arduino IDE {#esp32-download-mode}
+<a id="reset-the-bootloader"></a>
 
 > [!TIP]
 > Before you begin, it is recommended to have the latest version of the **Arduino ESP32 Boards** or **esp32** boards package installed using the Board Manager.
@@ -61,30 +37,53 @@ Follow these steps:
 
 8. Click on the **Esptool** option to select it.
 
-9. Select **Sketch > Upload Using Programmer** to begin uploading the firmware.
+9. Select **Tools > Burn Bootloader** to erase the flash memory.
+
+   > [!WARNING]
+   > Any data saved by sketches or MicroPython will be lost. Optionally, you can try skipping this step to preserve saved data.
+   >
+   > If you still experience issues with the upload process, or if the board is still not recognized, try repeating the procedure with this step included.
 
    The process is complete when you see these lines:
 
    ```
-   Leaving...
+   Chip erase completed successfully in 2.7s
    Hard resetting via RTS pin...
    ```
 
-10. Press the **RST** button on top of the board to exit firmware download mode.
+10. Select **Sketch > Upload Using Programmer** to begin uploading the firmware.
 
-### Troubleshooting
+    The process is complete when you see these lines:
 
-#### dfu-util: No DFU capable USB device available
+    ```
+    Leaving...
+    Hard resetting via RTS pin...
+    ```
+
+11. Press the **RST** button on top of the board to exit firmware download mode.
+
+## Troubleshooting
+
+### dfu-util: No DFU capable USB device available
 
 If you see this error, it means that the sketch is still being uploading with the regular upload process.
 
 Try this:
 
-* Ensure that the **Esptool** option is selected in the **Sketch > Upload Using Programmer** menu. It needs to be actively selected, even if no other options are available. You will know the Esptool option is selected if a checkmark is displayed next to the name.
+* Ensure that the **Esptool** option is selected in the **Tools > Programmer** menu. It needs to be actively selected, even if no other options are available. You will know the Esptool option is selected if a checkmark is displayed next to the name.
 
   ![The Esptool option in the Tools > Programmer menu. A checkmark indicates that the option is currently selected.](img/esptool-selected.png)
 
 * Ensure you are uploading the sketch by selecting **Sketch > Upload Using Programmer** and not by clicking the regular Upload button.
+
+### If the board is only recognized once or requires a double-press reset to upload a sketch
+
+This issue can be caused by old data on the flash memory interfering with the Arduino bootloader.
+
+To resolve the issue, follow the full [bootloader flashing procedure](#reset-the-bootloader), including the **Tools > Burn Bootloader** step.
+
+> [!WARNING]
+> Any data saved by sketches or Micropython in the user partition will be lost.
 
 [^colors]: On some earlier versions of the Nano ESP32, the LED will be blue instead of green, and yellow instead of purple.
 

@@ -46,7 +46,7 @@ Lora and LoRaWAN are generally **not** suitable for:
 
 Note that a compatible Portenta board is required.
 
-* [Portenta Vision Shield - LoRa®](https://store.arduino.cc/products/arduino-portenta-vision-shield-lora%C2%AE) (together with a Portenta H7 board)
+* [Portenta Vision Shield - LoRa®](https://store.arduino.cc/products/portenta-vision-shield-lora%C2%AE) (together with a Portenta H7 board)
 * [Portenta Max Carrier](https://store.arduino.cc/products/portenta-max-carrier)
 
 **Gateways:**

@@ -48,15 +48,7 @@ In this section:
 
 This error indicates that the device's memory partition table is improperly formatted.
 
-* If you're using **Arduino GIGA R1 WiFi** or **Portenta H7**:
-  1. Reinitialize the storage with this Sketch: [QSPIFormat.ino](https://github.com/arduino/ArduinoCore-mbed/blob/main/libraries/STM32H747_System/examples/QSPIFormat/QSPIFormat.ino)
-  1. Reinstall the SSL certificates with this Sketch: [WiFiFirmwareUpdater](https://github.com/arduino/ArduinoCore-mbed/tree/main/libraries/STM32H747_System/examples/WiFiFirmwareUpdater)
-
-* If you're using **Arduino Opta**: Follow [these instructions](https://docs.arduino.cc/tutorials/opta/memory-partitioning/#partitioning-the-memory-of-an-opta).
-* If you're using  **Portenta Machine Control**: Follow these [instructions](https://docs.arduino.cc/tutorials/opta/memory-partitioning/#partitioning-the-memory-of-a-portenta-machine-control).
-
-> [!TIP]
-> If you're using GIGA R1 WiFi, see [Configure GIGA R1 WiFi for Over-The-Air (OTA) uploads](https://support.arduino.cc/hc/en-us/articles/12370721200540-Configure-GIGA-R1-WiFi-for-Over-The-Air-OTA-uploads).
+To resolve this issue, see [Reset the flash memory on STM32H747-based devices](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices).
 
 ### Board error - httpresponsefail {#httpresponsefail}
 
@@ -80,31 +72,19 @@ Follow these steps:
 
 The header of the downloaded file does not match the expected one, likely indicating that the file was corrupted during the download.
 
-Follow these steps:
-
-1. Try to upload the sketch again.
+To resolve this issue, upload the sketch again.
 
 ### Board error - otastorageinitfail {#otastorageinitfail}
 
 This error indicates that the device's memory partition table is improperly formatted.
 
-* If you're using **Arduino GIGA R1 WiFi** or **Portenta H7**:
-  1. Reinitialize the storage with this Sketch: [QSPIFormat.ino](https://github.com/arduino/ArduinoCore-mbed/blob/main/libraries/STM32H747_System/examples/QSPIFormat/QSPIFormat.ino)
-  1. Reinstall the SSL certificates with this Sketch: [WiFiFirmwareUpdater](https://github.com/arduino/ArduinoCore-mbed/tree/main/libraries/STM32H747_System/examples/WiFiFirmwareUpdater)
-
-* If you're using **Arduino Opta**: Follow [these instructions](https://docs.arduino.cc/tutorials/opta/memory-partitioning/#partitioning-the-memory-of-an-opta).
-* If you're using  **Portenta Machine Control**: Follow these [instructions](https://docs.arduino.cc/tutorials/opta/memory-partitioning/#partitioning-the-memory-of-a-portenta-machine-control).
-
-> [!TIP]
-> If you're using GIGA R1 WiFi, see [Configure GIGA R1 WiFi for Over-The-Air (OTA) uploads](https://support.arduino.cc/hc/en-us/articles/12370721200540-Configure-GIGA-R1-WiFi-for-Over-The-Air-OTA-uploads).
+To resolve this issue, see [Reset the flash memory on STM32H747-based devices](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices).
 
 ### Board error - serverconnecterrorfail {#serverconnecterrorfail}
 
 This error occurs when the device fails to connect to the firmware download endpoint.
 
-Follow these steps:
-
-1. Ensure that the board has a stable connection to Arduino Cloud.
+To resolve this issue, ensure that the board has a stable connection to Arduino Cloud.
 
 ### SHA256 mismatch - Unable to apply the new firmware. Previous firmware detected after restart {#sha256mismatch}
 
@@ -112,7 +92,10 @@ This error means that the device restarted with a SHA (fw identifier) that is di
 
 Follow these steps:
 
-1. Check if the sketch running on the device is unstable and causes frequent restarts.
+1. Ensure the device is connected to a stable and uninterrupted power source.
+1. Upload a simple example sketch (such as BareMinimum) to prevent any resets caused by faulty code.
+1. If you're unable to program the device, try putting it in bootloader mode.
+1. If you’re using an Opta, Portenta H7, or Portenta C33 and connecting over Ethernet, enable chunked downloads by adding `ArduinoCloud.setOTAChunkMode();` to the `setup()` function in your sketch, immediately after the line `ArduinoCloud.begin(ArduinoIoTPreferredConnection);`.<!-- NOTE: The ethernet network stack can become unresponsive downloading the OTA file, resulting in the sha256 error. The chunked download was developed as a possible workaround for Opta, but it applies to all Mbed OS boards using Ethernet connection. It can also be enabled when connecting over Wi-Fi, but no improvement has been observed in these cases. -->
 
 ### SHA256 Unknown - Unknown Firmware detected after restart. {#sha256unknown}
 

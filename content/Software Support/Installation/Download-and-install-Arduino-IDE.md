@@ -3,7 +3,13 @@ title: "Download and install Arduino IDE"
 id: 360019833020
 ---
 
-Learn how to download and install the desktop-based Arduino IDE.
+Learn how to download and install the desktop-based Arduino IDE for Windows, macOS, or Linux.
+
+In this article:
+
+* [Installation instructions](#installation-instructions)
+* [Additional download options](#additional-download-options)
+* [If you need help](#if-you-need-help)
 
 ---
 

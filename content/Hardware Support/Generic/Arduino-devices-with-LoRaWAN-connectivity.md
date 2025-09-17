@@ -16,7 +16,7 @@ These Arduino devices can serve as nodes or gateways in LoRaWAN networks.
 
 Note that a compatible Portenta board is required.
 
-* [Portenta Vision Shield - LoRa®](https://store.arduino.cc/products/arduino-portenta-vision-shield-lora%C2%AE)
+* [Portenta Vision Shield - LoRa®](https://store.arduino.cc/products/portenta-vision-shield-lora%C2%AE)
 * [Portenta Max Carrier](https://store.arduino.cc/products/portenta-max-carrier)
 
 ## Gateways

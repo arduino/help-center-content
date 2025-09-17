@@ -63,7 +63,7 @@ When you add a new device to Arduino Cloud, the connectivity module firmware is 
 
 ---
 
-## Use the Arduino Firmware Uploader CLI utility {#unor4wifi-updater}
+## Use the Arduino Firmware Uploader CLI utility {#cli}
 
 Arduino IDE and Arduino Cloud both employ the **Arduino Firmware Uploader** tool. If you prefer, you can use it directly as a command-line application. You can find the [user documenation here](https://arduino.github.io/arduino-fwuploader/2.4/).
 

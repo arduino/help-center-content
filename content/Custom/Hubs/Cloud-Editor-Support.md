@@ -50,15 +50,13 @@ id: 9393241841308
 <h2 id="h_01HD21Q0JX5MHGQ2WAJD7ZND9B" class="center hub">Troubleshooting</h2>
 <div class="info-wrapper">
   <div class="info-item">
-    <img src="https://content.arduino.cc/assets/hc-text-clean.svg">
-    <p class="info-title">If you get a console error</p>
+    <img src="https://content.arduino.cc/assets/hc-warning.svg">
+    <p class="info-title">Can't compile or upload?</p>
     <p>
-      The easiest way to find a solution for a specific error is to copy the
-      error description from the console, and paste it on the search bar. You
-      can also read more about:
+      Issues can occur when compiling or uploading a sketch. If an error message appears in the console, a quick way to find a solution is to copy and paste it into the search bar. Learn how to:
     </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4403365313810-Errors-when-uploading-a-sketch">Errors when uploading a sketch</a>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4402764401554-Compilation-errors-when-uploading">If your sketch doesn’t compile</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4402764401554-If-your-sketch-doesn-t-compile">Fix compilation issues</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4403365313810-If-your-sketch-doesn-t-upload">Fix upload issues</a>
   </div>
   <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-USB.svg">

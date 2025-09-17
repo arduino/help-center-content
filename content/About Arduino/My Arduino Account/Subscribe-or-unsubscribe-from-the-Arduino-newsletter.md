@@ -5,13 +5,15 @@ id: 4405005271964
 
 Learn how to subscribe or unsubscribe from the Arduino newsletter.
 
+---
+
 ## Subscribe or unsubscribe from your profile page
 
-1. Go to [id.arduino.cc](https://id.arduino.cc/) and sign in.
+1. Sign into [id.arduino.cc/security](https://id.arduino.cc/security).
 
-2. Scroll down and find the _Privacy Settings_ category.
+2. Find the _Privacy Settings_ section.
 
-3. Check or uncheck the _I confirm my consent to receive your newsletter_ option.
+3. Under _Marketing Consents_, check or uncheck the **Confirm to receive Arduino newsletter** option.
 
 ## Unsubscribe from an email
 
