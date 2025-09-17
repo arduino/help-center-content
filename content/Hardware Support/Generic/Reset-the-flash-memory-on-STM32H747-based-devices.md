@@ -62,10 +62,51 @@ Follow these steps:
 
 1. Click the ![Serial Monitor button](img/symbol_monitor.png) **Serial Monitor** button in the top-right corner or select Tools > Serial Monitor (Arduino IDE only).
 
-1. Open the Serial Monitor. When this message appears, the process is complete:
+1. You should see the text below in the serial monitor. If the serial monitor is empty, ensure the sketch has finished uploading and press the RST button on the device to restart the sketch.
 
    ```
-   Firmware and certificates updated!
+   WARNING! Running the sketch all the content of the QSPI flash will be erased.
+   The following partitions will be created:
+   Partition 1: WiFi firmware and certificates 1MB
+   Partition 2: OTA 5MB
+   Partition 3: Provisioning KVStore 1MB
+   Partition 4: User data / OPTA PLC runtime 7MB
+   Do you want to proceed? Y/[n]
+   ```
+
+1. Type "Y" into the Serial Monitor and press <kbd>Enter</kbd> to proceed.
+
+1. The following should now appear in the serial monitor:
+
+   ```
+   Do you want to perform a full erase of the QSPI flash before proceeding? Y/[n]
+   Note: Full flash erase can take up to one minute.
+   ```
+
+   Type "Y" into the Serial Monitor and press <kbd>Enter</kbd> to confirm (recommended).
+
+1. The following should now appear in the serial monitor:
+
+   ```
+   Do you want to restore the WiFi firmware and certificates? Y/[n]
+   ```
+
+   Type "Y" into the Serial Monitor and press <kbd>Enter</kbd> to confirm (recommended).
+
+1. The following should now appear in the serial monitor:
+
+   ```
+   Do you want to use LittleFS to format user data partition? Y/[n]
+   If No, FatFS will be used to format user partition.
+   Note: LittleFS is not supported by the OPTA PLC runtime.
+   ```
+
+   Type "Y" into the Serial Monitor and press <kbd>Enter</kbd> to confirm (recommended).
+
+1. The process is complete when this message appears in the serial monitor:
+
+   ```
+   QSPI Flash formatted!
    It's now safe to reboot or disconnect your board.
    ```
 
@@ -98,7 +139,7 @@ Follow these steps:
 
 1. Connect your device to your computer and select the device in the editor.
 
-1. Click ![Upload button](img/symbol_upload2.png) **Upload** to upload the sketch to the device.
+1. Click ![Upload button](img/symbol_upload2.png) **Upload** to upload the sketch to the device. The partitioning and firmware update process will begin automatically when the sketch starts running.
 
 1. Click the ![Serial Monitor button](img/symbol_monitor.png) **Serial Monitor** button in the top-right corner or select Tools > Serial Monitor (IDE only).
 
