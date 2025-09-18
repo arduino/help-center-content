@@ -51,7 +51,7 @@ If you still can't add the device, use Arduino IDE to the Cloud Editor to progra
 
 ### If you're configuring the device over Bluetooth
 
-* Understand that Bluetooth setup requires the board to be running the Arduino Cloud provisioning sketch, which is preloaded on boards shipped after DATE <!-- TODO -->. When the board is running this sketch, the on-board LED will flash with a "heartbeat" pulse that turns solid when connecting to Arduino Cloud. If your board is not running this sketch, you first need to configure it using USB (Serial).
+* Understand that Bluetooth setup requires the board to be running the Arduino Cloud provisioning sketch. When the board is running this sketch, the on-board LED will flash with a "heartbeat" pulse that turns solid when connecting to Arduino Cloud. If your board is not running this sketch, you first need to configure it using USB (Serial).
 * If your board is running the provisioning sketch but still isn't detected, try resetting the Cloud configuration:
 
    * **Arduino Opta:** Press and hold the user button (BTN_USER) until the LED (LED_USER) turns off.
