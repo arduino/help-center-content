@@ -114,7 +114,7 @@ Follow these steps:
 
 ## Use the partition scheme for Arduino PLC IDE
 
-The default memory partition scheme is not compatible with Arduino PLC IDE 1.0.8.
+This partition scheme is compatible with Arduino PLC IDE 1.0.8.
 
 Supported devices:
 
