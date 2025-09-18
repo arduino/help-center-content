@@ -78,7 +78,8 @@ Follow these steps:
 1. Follow the linked instructions if you see any of these errors:
    - [Cannot generate profile file error message: Error: Path not found](#cannot-generate-profile-file-error-message-error-path-not-found)
    - [Error: invalid path creating config dir](#error-invalid-path-creating-config-dir)
-   - If you see a different error, see the [If you see an error when downloading](#if-you-see-an-error-when-downloading) section.
+
+   If you see a different error, see the [If you see an error when programming the device](#if-you-see-an-error-when-programming-the-device) section.
 
 1. Restart PLC IDE.
 
@@ -153,11 +154,11 @@ When there is an issue installing the runtime or downloading your code to the de
 
 In this section:
 
-- [Error: "Cannot download sketch file error code: 1"](#error-cannot-download-sketch-file-error-code-1)
+- [Error pop-up: "Cannot download sketch file error code: 1"](#error-cannot-download-sketch-file-error-code-1)
 - [Cannot generate profile file error message: Error: Path not found](#cannot-generate-profile-file-error-message-error-path-not-found)
 - [Error: invalid path creating config dir](#error-invalid-path-creating-config-dir)
 - [“Error” in the bottom right corner on first use of the board](#error-in-the-bottom-right-corner-on-first-use-of-the-board)
-- [Cannot compile Sketch file (error code: -1)](#cannot-compile-sketch-file)
+- [Cannot compile Sketch file error code: -1](#cannot-compile-sketch-file)
 
 > [!NOTE]
 > If you see a **dfu-util** warning or error that's not in this list, see [dfu-util errors when uploading (exit status 74)](https://support.arduino.cc/hc/en-us/articles/11011849739804-dfu-util-errors-when-uploading-exit-status-74).
@@ -171,7 +172,7 @@ In this section:
 > - `C:\Program Files\Arduino PLC IDE Tools`
 > - `%LOCALAPPDATA%\T`
 
-### Error pop-up: "Cannot download sketch file (error code: 1)"
+### Error pop-up: "Cannot download sketch file (error code: 1)" {#error-cannot-download-sketch-file-error-code-1}
 
 This error may occur when attempting to download the runtime sketch.
 
@@ -235,7 +236,7 @@ Follow these steps:
 2. [Reformat the QSPI flash memory](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices).
 3. Reinstall the runtime and try again.
 
-### Cannot compile Sketch file (error code: -1)
+### Cannot compile Sketch file (error code: -1) {#cannot-compile-sketch-file}
 
 This means there is a syntax error in the Arduino Sketch.
 
