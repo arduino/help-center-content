@@ -13,8 +13,8 @@ Learn what to do if there's a problem adding your device to Arduino Cloud.
 1. [Check your USB cable and peripherals](#2-check-your-usb-cable-and-peripherals)
 1. [Rule out hardware issues](#3-rule-out-hardware-issues)
 1. [Reset the sketch](#4-reset-the-sketch)
-1. [Stop applications that may be using the device](#stop-applications-that-may-be-using-the-device)
-1. [Manually partition your memory Arduino device for Arduino Cloud](#5-manually-partition-your-memory-arduino-device-for-arduino-cloud)
+1. [Stop applications that may be using the device](#5-stop-applications-that-may-be-using-the-device)
+1. [Manually partition your memory Arduino device for Arduino Cloud](#6-manually-partition-your-memory-arduino-device-for-arduino-cloud)
 
 ---
 
@@ -54,8 +54,8 @@ If you still can't add the device, use Arduino IDE to the Cloud Editor to progra
 * Understand that Bluetooth setup requires the board to be running the Arduino Cloud provisioning sketch. When the board is running this sketch, the on-board LED will flash with a "heartbeat" pulse that turns solid when connecting to Arduino Cloud. If your board is not running this sketch, you first need to configure it using USB (Serial).
 * If your board is running the provisioning sketch but still isn't detected, try resetting the Cloud configuration:
 
-   * **Arduino Opta:** Press and hold the user button (BTN_USER) until the LED (LED_USER) turns off.
-   * **UNO R4 WiFi:** Connect Pin 2 to GND until the LED turns off.
+  * **Arduino Opta:** Press and hold the user button (BTN_USER) until the LED (LED_USER) turns off.
+  * **UNO R4 WiFi:** Connect Pin 2 to GND until the LED turns off.
 
 ## 5. Stop applications that may be using the device
 
@@ -76,9 +76,6 @@ Try this:
 If you still encounter the issue, follow the steps in [Find and stop process blocking a port](https://support.arduino.cc/hc/en-us/articles/4407830972050-Find-and-stop-process-blocking-a-port) to identify and stop the application that's using the port.
 
 <!-- The Serial Monitor in the Cloud Editor will automatically be closed -->
-
-
-
 
 ---
 
@@ -103,6 +100,5 @@ If your device has a corrupted or outdated partition scheme, you may encounter o
 * A “Storage Initialization Fail!” error is displayed when you attempt to add the device on Arduino Cloud.
 
 You can resolve these issues by [repartitioning the memory with a supported partition scheme](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices).
-
 
 <!-- markdownlint-disable-file HC001 -->
