@@ -21,11 +21,14 @@ Learn what to do if there's a problem adding your device to Arduino Cloud.
 
 ## 1. Quick checks {#quick-checks}
 
-* Try disconnecting and reconnecting your device from your computer or power source.
-* Confirm that the device is powered by checking that the power LED is lit.
-  * _Exception:_ The Arduino Opta does not have a power LED. The device can be powered even if no LEDs are lit.
-* If prompted, allow the device to connect to your computer.
-* If Arduino IDE is running, ensure that the serial monitor is closed, or simply close Arduino IDE.
+Try this first to solve common issues:
+
+1. Disconnect and reconnect your device to the computer.
+1. If prompted, allow the device to connect.
+1. Verify that the device is powered by checking the power LED.
+   * _Exception:_ The Arduino Opta has no power LED, so it may be powered even if no LEDs are lit.
+1. Close Arduino IDE or any other application that may be using the device.
+1. Try adding your device in Arduino Cloud again.
 
 ## 2. Check your USB cable and peripherals {#check-your-usb-cable-and-peripherals}
 
