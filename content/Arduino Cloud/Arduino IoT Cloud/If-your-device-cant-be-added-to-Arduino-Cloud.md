@@ -13,6 +13,7 @@ Learn what to do if there's a problem adding your device to Arduino Cloud.
 1. [Check your USB cable and peripherals](#check-your-usb-cable-and-peripherals)
 1. [Rule out hardware issues](#rule-out-hardware-issues)
 1. [Reset the sketch](#reset-the-sketch)
+1. [Install drivers and configuration files](#install-drivers-and-configuration-files)
 1. [Stop applications that may be using the device](#stop-applications-that-may-be-using-the-device)
 1. [Manually partition your memory Arduino device for Arduino Cloud](#manually-partition-your-memory-arduino-device-for-arduino-cloud)
 
@@ -57,7 +58,28 @@ If you still can't add the device, use Arduino IDE to the Cloud Editor to progra
   * **Arduino Opta:** Press and hold the user button (BTN_USER) until the LED (LED_USER) turns off.
   * **UNO R4 WiFi:** Connect Pin 2 to GND until the LED turns off.
 
-## 5. Stop applications that may be using the device {#stop-applications-that-may-be-using-the-device}
+## 5. Install drivers and configuration files {#install-drivers-and-configuration-files}
+
+> [!NOTE]
+> Skip this step if you're on macOS.
+
+Missing drivers or configuration files can cause a device to not be detected, or to fail during sketch upload. The Arduino Cloud Agent may not currently install all required drivers or configuration files for every device. The issue can be fixed by using Arduino IDE to install the required board package at least once.
+
+If your board is not detected in Arduino Cloud, first install its board package using Arduino IDE or Arduino CLI to ensure that all drivers and rules are properly configured.
+
+Follow these steps:
+
+1. [Install Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE).
+2. [Use Arduino IDE to install the board package for your device](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE).
+3. If prompted, allow the installation of the required drivers (Windows only).
+4. Try uploading a basic sketch like Blink.ino (File > Examples 01.Basics > Blink).
+
+If you are able to upload a sketch using Arduino IDE, the required drivers and configuration files are installed.
+
+> [!TIP]
+> If you're on Linux, you can also download and run the necessary script directly if you prefer. [Learn more](https://support.arduino.cc/hc/en-us/articles/9005041052444-Fix-udev-rules-on-Linux).
+
+## 6. Stop applications that may be using the device {#stop-applications-that-may-be-using-the-device}
 
 When configuring your device over serial (USB), other applications can prevent Arduino Cloud from communicating with the device.
 
@@ -77,9 +99,7 @@ If you still encounter the issue, follow the steps in [Find and stop process blo
 
 <!-- The Serial Monitor in the Cloud Editor will automatically be closed -->
 
----
-
-## 6. Manually partition your memory Arduino device for Arduino Cloud {#manually-partition-your-memory-arduino-device-for-arduino-cloud}
+## 7. Manually partition your memory Arduino device for Arduino Cloud {#manually-partition-your-memory-arduino-device-for-arduino-cloud}
 
 The following Arduino Cloud devices have QSPI memory:
 
