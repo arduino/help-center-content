@@ -1,5 +1,6 @@
 ---
 title: Upload a sketch to a board running MicroPython
+id: 22545229351964
 ---
 
 Uploading a sketch to an Arduino board running MicroPython is straightforward. You don’t need to manually uninstall MicroPython—uploading a sketch automatically replaces the existing firmware and restores the board’s standard Arduino functionality. If you’d like to switch back to MicroPython, simply [reinstall the MicroPython firmware](https://support.arduino.cc/hc/en-us/articles/15156644171548-Upload-firmware-for-Arduino-Lab-for-Micropython).
