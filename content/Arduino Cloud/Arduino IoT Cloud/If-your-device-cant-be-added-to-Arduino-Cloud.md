@@ -11,7 +11,7 @@ Learn what to do if there's a problem adding your device to Arduino Cloud.
 
 1. [Quick checks](#quick-checks)
 1. [Check your USB cable and peripherals](#check-your-usb-cable-and-peripherals)
-1. [Rule out hardware issues](#rule-out-hardware-issues)
+1. [Disconnect shields, carriers and external circuitry](#disconnect-shields-carriers-and-external-circuitry)
 1. [Reset the sketch](#reset-the-sketch)
 1. [Install drivers and configuration files](#install-drivers-and-configuration-files)
 1. [Stop applications that may be using the device](#stop-applications-that-may-be-using-the-device)
@@ -32,12 +32,17 @@ Try this first to solve common issues:
 
 ## 2. Check your USB cable and peripherals {#check-your-usb-cable-and-peripherals}
 
+Connection issues can be caused by faulty or incompatible cables or USB accessories:
+
 * Ensure you're using a working USB cable that supports data transfer. If possible, try using a different cable.
 * Ensure that any USB hubs or docks are powered and working. If possible, try connecting the device directly to your computer.
 
-## 3. Rule out hardware issues {#rule-out-hardware-issues}
+## 3. Disconnect shields, carriers and external circuitry {#disconnect-shields-carriers-and-external-circuitry}
 
-* Detach the device from any shield/carrier or external circuitry.
+External hardware can interfere with power, reset, or serial communication, preventing uploads:
+
+* Detach the device from any shield or carrier.
+* Disconnect jumper cables and external circuitry.
 
 ## 4. Reset the sketch {#reset-the-sketch}
 
