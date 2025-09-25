@@ -59,5 +59,5 @@ Additional information may be available on the product page in the [Arduino Stor
 
 ## Still need help?
 
-* The [project guidance category](https://forum.arduino.cc/c/using-arduino/19) or in one of the [hardware categories](https://forum.arduino.cc/c/12) in the Arduino Forum.
+* The [project guidance category](https://forum.arduino.cc/c/projects/general-guidance/19) or in one of the [hardware categories](https://forum.arduino.cc/c/official-hardware/12) in the Arduino Forum.
 * [Contact us](https://www.arduino.cc/en/contact-us/).

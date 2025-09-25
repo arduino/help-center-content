@@ -40,7 +40,7 @@ The junior account will be created and added to the list of your junior accounts
 
 ## Request an account from your parent {#junior-request}
 
-1. Go to [junior.arduino.cc](https://junior.arduino.cc/).
+1. Go to [app.arduino.cc/minors](http://app.arduino.cc/minors).
 
    > [!NOTE]
    > If another account is signed in, click the profile button and select Sign Out first.

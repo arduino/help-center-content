@@ -7,7 +7,7 @@ On Linux, missing udev[^1] rules can result in failed uploads, as Arduino IDE (a
 
 The board package typically includes a script that is run during installation, which sets the appropriate udev rules. If this script didn't run correctly, or if the rules were removed, they can be configured by running the script manually:
 
-[^1]: <https://manpages.ubuntu.com/manpages/xenial/man7/udev.7.html>
+[^1]: <https://manpages.ubuntu.com/manpages/questing/en/man7/udev.7.html>
 
 <table style="display: table;">
 <thead>
