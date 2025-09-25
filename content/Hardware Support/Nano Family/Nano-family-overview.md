@@ -23,49 +23,68 @@ The table below presents an overview of the pinout differences visible on the bo
   <tr>
     <th>Board</th>
     <th>"RST/REC/B1" pin</th>
-    <th>“AREF/ B0” pin</th>
+    <th>“REF/ B0” pin</th>
     <th>“5V/ VUSB/ VBUS” pin</th>
   </tr>
   <tr>
     <td>Nano</td>
     <td>RST</td>
-    <td>AREF</td>
+    <td>REF</td>
     <td>5V</td>
   </tr>
   <tr>
     <td>Nano Every</td>
     <td>RST</td>
-    <td>AREF</td>
+    <td>REF</td>
     <td>5V</td>
   </tr>
   <tr>
     <td>Nano 33 BLE</td>
     <td>RST</td>
-    <td>AREF</td>
+    <td>REF</td>
+    <td>VUSB</td>
+  </tr>
+    <tr>
+    <td>Nano 33 BLE Rev2</td>
+    <td>RST</td>
+    <td>REF</td>
     <td>VUSB</td>
   </tr>
   <tr>
     <td>Nano 33 BLE Sense</td>
     <td>RST</td>
-    <td>AREF</td>
+    <td>REF</td>
     <td>VUSB</td>
   </tr>
   <tr>
     <td>Nano 33 BLE Sense Rev2</td>
     <td>RST</td>
-    <td>AREF</td>
+    <td>REF</td>
     <td>VUSB</td>
   </tr>
   <tr>
     <td>Nano 33 IoT</td>
     <td>RST</td>
-    <td>AREF</td>
+    <td>REF</td>
     <td>VUSB</td>
+  </tr>
+    <tr>
+    <td>Nano Matter</td>
+    <td>B1 (Boot 1)</td>
+    <td>B0 (Boot 0)</td>
+    <td>5V</td>
+  </tr>
+    </tr>
+    <tr>
+    <td>Nano R4</td>
+    <td>B1 (Boot 1)</td>
+    <td>B0 (Boot 0)</td>
+    <td>5V</td>
   </tr>
   <tr>
     <td>Nano RP2040 Connect</td>
     <td>REC</td>
-    <td>AREF</td>
+    <td>REF</td>
     <td>VUSB</td>
   </tr>
   <tr>
@@ -90,6 +109,7 @@ The boards in the Nano Family operate at different voltages:
 
 * Arduino Nano
 * Arduino Nano Every
+* Arduino Nano R4
 
 **Boards that operate at 3.3 V:**
 
@@ -97,6 +117,7 @@ The boards in the Nano Family operate at different voltages:
 * Arduino Nano 33 BLE Sense
 * Arduino Nano 33 BLE Sense Rev2
 * Arduino Nano 33 IoT
+* Arduino Nano Matter
 * Arduino Nano RP2040 Connect
 * Arduino Nano ESP32
 
@@ -104,9 +125,15 @@ The boards in the Nano Family operate at different voltages:
 
 <a id="surface-mount-pads"></a>
 
-## Surface mount pads
+## Jumper pads
 
-Some boards in the Nano family have pads that can be soldered or cut to change the board's configuration.
+Some boards in the Nano family have jumper pads that can be soldered or cut to reroute connections and modify the board's default behavior.
+
+### 3.3V pads
+
+Some Nano boards that operate at 3.3 V have an exposed trace that can be cut to bypass the step down converter. This disables the USB port, but allows you to power the board directly with a 3.3 V source for lower power consumption.
+
+[Nano boards that can be powered directly with 3.3 V](https://support.arduino.cc/hc/en-us/articles/360014735580-Nano-boards-that-can-be-powered-directly-with-3-3-V){.link-chevron-right}
 
 ### VUSB pads
 
