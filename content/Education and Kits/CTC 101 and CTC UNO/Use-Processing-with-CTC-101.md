@@ -35,7 +35,7 @@ These tools could also help you create a collaborative environment to write your
 - [SketchPad](https://sketchpad.cc/){.link-external}
 
   SketchPad will help you create a collaborative environment to write code between multiple users by just sharing the URL of the project. It also allows to share code and embed it in websites.
-  
+
   An interesting feature is that you can keep track of your code's versions, useful when you want to go back to any of the past interactions.
 
 ---
