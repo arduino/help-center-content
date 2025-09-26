@@ -9,13 +9,9 @@ To learn how to use the Arduino AI Assistant, see [About the Arduino AI Assistan
 
 In this article:
 
-<!-- TOC -->
-
 - [How answers are generated](#how-answers-are-generated)
 - [Is my code or personal information used to train the Assistant?](#is-my-code-or-personal-information-used-to-train-the-assistant)
 - [Terms of use](#terms-of-use)
-
-<!-- /TOC -->
 
 ## How answers are generated
 
@@ -37,7 +33,7 @@ The primary way Arduino improves the model output is through prompt engineering 
 
 Arduino also uses a system prompt to instruct the AI model on how to handle requests, stay relevant, and avoid certain topics. Guardrails provided by AWS Bedrock are in place to avoid the generation of dangerous content.
 
-## Is my code or personal information used to train the Assistant?
+## Is my code or personal information used to train the Assistant? {#is-my-code-or-personal-information-used-to-train-the-assistant}
 
 No, your sketch and your interactions with the assistant prompt are not used for further training of the backend GenAI model.
 
