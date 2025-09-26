@@ -240,7 +240,7 @@ These errors can occur when brackets (`{` and `}` are incorrectly used.
 
 * For help with functions specific to Arduino, see the [Arduino functions reference](https://docs.arduino.cc/language-reference/).
 
-* Visit the [Programming Questions category](https://forum.arduino.cc/c/20) in the Arduino forum. Start by reading the pinned threads which will contain useful information on how to best post a question.
+* Visit the [Programming category](https://forum.arduino.cc/c/20) in the Arduino forum. Start by reading the pinned threads which will contain useful information on how to best post a question.
 
 * See [Troubleshooting Guide For Arduino > Compiling](https://per1234.github.io/ino-troubleshooting/compiling.html).
 

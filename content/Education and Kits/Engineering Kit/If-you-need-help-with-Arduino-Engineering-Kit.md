@@ -19,7 +19,7 @@ The Arduino Engineering Kit is developed in collaboration with MathWorks® to pr
 
 ### For Arduino products and services
 
-- Check the Arduino forum's [Engineering Kit section](https://forum.arduino.cc/c/hardware/arduino-education-kits/arduino-engineering-kit/149).
+- Check the Arduino forum's [Engineering Kit section](https://forum.arduino.cc/c/official-hardware/education/engineering-kit/149).
 - Search for your issue in the [Arduino Help Center](https://support.arduino.cc/hc/en-us).
 - [Contact us](https://www.arduino.cc/en/contact-us/).
 

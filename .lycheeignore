@@ -23,6 +23,9 @@ https://create.arduino.cc/getting-started/loragw/welcome
 https://create.arduino.cc/example/builtin/01.Basics%5CBareMinimum/BareMinimum/preview*
 https://digital-store.arduino.cc/certification/purchase/exam-type*
 https://digital-store.arduino.cc/subscriptions/plans
+https://id.arduino.cc/security
+https://id.arduino.cc/minors
+http://app.arduino.cc/minors
 
 
 # "Network error: Forbidden" despite working redirect
@@ -57,6 +60,7 @@ https://www.tindie.com/products/ataradov/cmsis-dap-compliant-swd-debugger/
 https://shopify.com/43847352471/account/orders
 https://shopify.com/50616893647/account/orders
 https://www.nongnu.org/avr-libc/user-manual/FAQ.html#faq_cplusplus
+https://forum.arduino.cc/c/*
 
 # [429] Failed: Network error: Too Many Requests
 
