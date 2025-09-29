@@ -9,33 +9,42 @@ Learn what to do if there's a problem adding your device to Arduino Cloud.
 
 ## Try these steps in order
 
-1. [Quick checks](#1-quick-checks)
-1. [Check your USB cable and peripherals](#2-check-your-usb-cable-and-peripherals)
-1. [Rule out hardware issues](#3-rule-out-hardware-issues)
-1. [Reset the sketch](#4-reset-the-sketch)
+1. [Quick checks](#quick-checks)
+1. [Check your USB cable and peripherals](#check-your-usb-cable-and-peripherals)
+1. [Disconnect shields, carriers and external circuitry](#disconnect-shields-carriers-and-external-circuitry)
+1. [Reset the sketch](#reset-the-sketch)
+1. [Install drivers and configuration files](#install-drivers-and-configuration-files)
 1. [Stop applications that may be using the device](#stop-applications-that-may-be-using-the-device)
-1. [Manually partition your memory Arduino device for Arduino Cloud](#5-manually-partition-your-memory-arduino-device-for-arduino-cloud)
+1. [Manually partition your memory Arduino device for Arduino Cloud](#manually-partition-your-memory-arduino-device-for-arduino-cloud)
 
 ---
 
-## 1. Quick checks
+## 1. Quick checks {#quick-checks}
 
-* Try disconnecting and reconnecting your device from your computer or power source.
-* Confirm that the device is powered by checking that the power LED is lit.
-  * _Exception:_ The Arduino Opta does not have a power LED. The device can be powered even if no LEDs are lit.
-* If prompted, allow the device to connect to your computer.
-* If Arduino IDE is running, ensure that the serial monitor is closed, or simply close Arduino IDE.
+Try this first to solve common issues:
 
-## 2. Check your USB cable and peripherals
+1. Disconnect and reconnect your device to the computer.
+1. If prompted, allow the device to connect.
+1. Verify that the device is powered by checking the power LED.
+   * _Exception:_ The Arduino Opta has no power LED, so it may be powered even if no LEDs are lit.
+1. Close Arduino IDE or any other application that may be using the device.
+1. Try adding your device in Arduino Cloud again.
+
+## 2. Check your USB cable and peripherals {#check-your-usb-cable-and-peripherals}
+
+Connection issues can be caused by faulty or incompatible cables or USB accessories:
 
 * Ensure you're using a working USB cable that supports data transfer. If possible, try using a different cable.
 * Ensure that any USB hubs or docks are powered and working. If possible, try connecting the device directly to your computer.
 
-## 3. Rule out hardware issues
+## 3. Disconnect shields, carriers and external circuitry {#disconnect-shields-carriers-and-external-circuitry}
 
-* Detach the device from any shield/carrier or external circuitry.
+External hardware can interfere with power, reset, or serial communication, preventing uploads:
 
-## 4. Reset the sketch
+* Detach the device from any shield or carrier.
+* Disconnect jumper cables and external circuitry.
+
+## 4. Reset the sketch {#reset-the-sketch}
 
 A bad sketch or a non-working Cloud configuration can prevent your computer from programming the board.
 
@@ -51,13 +60,34 @@ If you still can't add the device, use Arduino IDE to the Cloud Editor to progra
 
 ### If you're configuring the device over Bluetooth
 
-* Understand that Bluetooth setup requires the board to be running the Arduino Cloud provisioning sketch, which is preloaded on boards shipped after DATE <!-- TODO -->. When the board is running this sketch, the on-board LED will flash with a "heartbeat" pulse that turns solid when connecting to Arduino Cloud. If your board is not running this sketch, you first need to configure it using USB (Serial).
+* Understand that Bluetooth setup requires the board to be running the Arduino Cloud provisioning sketch. When the board is running this sketch, the on-board LED will flash with a "heartbeat" pulse that turns solid when connecting to Arduino Cloud. If your board is not running this sketch, you first need to configure it using USB (Serial).
 * If your board is running the provisioning sketch but still isn't detected, try resetting the Cloud configuration:
 
-   * **Arduino Opta:** Press and hold the user button (BTN_USER) until the LED (LED_USER) turns off.
-   * **UNO R4 WiFi:** Connect Pin 2 to GND until the LED turns off.
+  * **Arduino Opta:** Press and hold the user button (BTN_USER) until the LED (LED_USER) turns off.
+  * **UNO R4 WiFi:** Connect Pin 2 to GND until the LED turns off.
 
-## 5. Stop applications that may be using the device
+## 5. Install drivers and configuration files {#install-drivers-and-configuration-files}
+
+> [!NOTE]
+> Skip this step if you're on macOS.
+
+Missing drivers or configuration files can cause a device to not be detected, or to fail during sketch upload. The Arduino Cloud Agent may not currently install all required drivers or configuration files for every device. The issue can be fixed by using Arduino IDE to install the required board package at least once.
+
+If your board is not detected in Arduino Cloud, first install its board package using Arduino IDE or Arduino CLI to ensure that all drivers and rules are properly configured.
+
+Follow these steps:
+
+1. [Install Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE).
+2. [Use Arduino IDE to install the board package for your device](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE).
+3. If prompted, allow the installation of the required drivers (Windows only).
+4. Try uploading a basic sketch like Blink.ino (File > Examples 01.Basics > Blink).
+
+If you are able to upload a sketch using Arduino IDE, the required drivers and configuration files are installed.
+
+> [!TIP]
+> If you're on Linux, you can also download and run the necessary script directly if you prefer. [Learn more](https://support.arduino.cc/hc/en-us/articles/9005041052444-Fix-udev-rules-on-Linux).
+
+## 6. Stop applications that may be using the device {#stop-applications-that-may-be-using-the-device}
 
 When configuring your device over serial (USB), other applications can prevent Arduino Cloud from communicating with the device.
 
@@ -77,12 +107,7 @@ If you still encounter the issue, follow the steps in [Find and stop process blo
 
 <!-- The Serial Monitor in the Cloud Editor will automatically be closed -->
 
-
-
-
----
-
-## 6. Manually partition your memory Arduino device for Arduino Cloud
+## 7. Manually partition your memory Arduino device for Arduino Cloud {#manually-partition-your-memory-arduino-device-for-arduino-cloud}
 
 The following Arduino Cloud devices have QSPI memory:
 
@@ -103,6 +128,5 @@ If your device has a corrupted or outdated partition scheme, you may encounter o
 * A “Storage Initialization Fail!” error is displayed when you attempt to add the device on Arduino Cloud.
 
 You can resolve these issues by [repartitioning the memory with a supported partition scheme](https://support.arduino.cc/hc/en-us/articles/16206977438748-Reset-the-flash-memory-on-STM32H747-based-devices).
-
 
 <!-- markdownlint-disable-file HC001 -->

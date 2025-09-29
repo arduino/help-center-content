@@ -5,9 +5,13 @@ id: 360016822039
 
 After completing the registration process, you should automatically receive a confirmation email in your inbox. It's an important step to finalize your account setup. If for some reason you haven't received the confirmation email, follow these steps to resend the email and complete the verification process.
 
+---
+
 ## Resend the verification email
 
-1. Sign in to your [Arduino account](https://www.arduino.cc/) in the top right corner.
+Follow these steps:
+
+1. Sign into [id.arduino.cc](https://id.arduino.cc/).
 
 1. Look for a dialog box at the bottom of the screen with the text "Please follow the instructions on the email we sent you to activate your account". Click **Resend email**
 
@@ -17,7 +21,7 @@ After completing the registration process, you should automatically receive a co
 
 1. Open the email and click the **Confirm Now** button to complete the account registration.
 
-## If you haven't received the confirmation email
+## If you haven't received the verification email
 
 Follow these steps:
 

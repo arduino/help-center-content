@@ -3,21 +3,20 @@ title: "Change your location in the Arduino Store"
 id: 15529764047516
 ---
 
-When viewing items in the Arduino Store, the prices and availability of products will be displayed based on your location. Learn how to change your location in the Arduino Store.
+When viewing items in the Arduino Store, the prices and availability of products will be displayed based on your selected country or location. Learn how to view and change your location in the Arduino Store.
 
 ---
 
 Follow these steps:
 
-1. Click the **Change location** button in the top-right.
+1. Open [store.arduino.cc](https://support.arduino.cc/hc/en-us/articles/15529764047516-Change-your-location-in-the-Arduino-Store) in your browser.
 
-   ![The "Change location" button in the Arduino Store.](img/change-location.png)
+1. Your currently selected location is displayed in the bottom-left corner:
 
-2. Find your country in the list of countries.
+   ![Button with the Italian flag and the text "Italy".](img/selected-location.png)
 
-   > [!TIP]
-   > You can filter the list of countries by typing into the text field above the list.
-   >
-   > ![Filtering the list of countries for "Italy".](img/change-location-italy.png)
+1. To change it, click the displayed location and then select a new one from the list.
 
-3. Click on a country to select it.
+   You can filter the list of countries by typing into the text field above the list:
+
+   ![Filtering the list of countries for "Sw".](img/change-location-sw.png)
