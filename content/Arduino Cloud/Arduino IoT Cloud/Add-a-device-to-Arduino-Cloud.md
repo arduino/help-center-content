@@ -3,10 +3,7 @@ title: "Add a device to Arduino Cloud"
 id: 360016495559
 ---
 
-> [!NOTE]
-> Also see [Getting Started With the Arduino Cloud](https://docs.arduino.cc/cloud/iot-cloud/tutorials/iot-cloud-getting-started) in Arduino Docs.
-
-You'll need an Arduino account and the [Arduino Cloud Agent](https://support.arduino.cc/hc/en-us/articles/360014869820) installed and running on your computer.
+Learn how to add supported devices to Arduino Cloud. For a more comprehensive introduction to Arduino Cloud, see [Getting Started With the Arduino Cloud](https://docs.arduino.cc/cloud/iot-cloud/tutorials/iot-cloud-getting-started).
 
 In this article:
 
@@ -21,7 +18,9 @@ For troubleshooting, see [If your device can't be added to Arduino Cloud](https:
 
 ## Add an Arduino board via serial (USB)
 
-The Arduino Cloud agent needs to be running. The board needs to be connected to your computer over USB. Ensure that no serial monitors or other tools are blocking the port.
+All Arduino boards supported by Arduino Cloud can be added via USB from a computer running the [Arduino Cloud Agent](https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Cloud-Agent).
+
+Follow these steps:
 
 1. Open the [Devices tab](https://app.arduino.cc/devices) in Arduino Cloud.
 
@@ -60,9 +59,7 @@ The Arduino Cloud agent needs to be running. The board needs to be connected to 
 
 ## Add an Arduino board via Bluetooth
 
-You can add supported devices via Bluetooth if they are running the preflashed [provisioning sketch](https://docs.arduino.cc/arduino-cloud/hardware/device-provisioning/).
-
-If your board is running a different sketch, [add it via USB instead](add-an-arduino-board-via-serial-usb).
+You can add supported devices via Bluetooth if they are running the preflashed [provisioning sketch](https://docs.arduino.cc/arduino-cloud/hardware/device-provisioning/). When this sketch is active, the onboard LED blinks in a heartbeat pattern (one long pulse followed by two short pulses). If your board is running a different sketch, [add it via USB instead](add-an-arduino-board-via-serial-usb).
 
 Supported boards:
 
