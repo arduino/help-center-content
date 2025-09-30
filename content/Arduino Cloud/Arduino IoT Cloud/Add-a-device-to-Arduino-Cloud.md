@@ -60,7 +60,9 @@ The Arduino Cloud agent needs to be running. The board needs to be connected to 
 
 ## Add an Arduino board via Bluetooth
 
-Some Arduino boards can be added via Bluetooth.
+You can add supported devices via Bluetooth if they are running the preflashed [provisioning sketch](https://docs.arduino.cc/arduino-cloud/hardware/device-provisioning/).
+
+If your board is running a different sketch, [add it via USB instead](add-an-arduino-board-via-serial-usb).
 
 Supported boards:
 
