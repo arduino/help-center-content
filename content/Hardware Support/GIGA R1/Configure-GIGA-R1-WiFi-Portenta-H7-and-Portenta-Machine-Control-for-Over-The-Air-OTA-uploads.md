@@ -5,15 +5,15 @@ id: 12370721200540
 
 Learn how to enable [Over-The-Air (OTA) uploads](https://docs.arduino.cc/arduino-cloud/features/ota-getting-started/) for:
 
-* GIGA R1 WiFi
-* Portenta H7
-* Portenta H7 Lite
-* Portenta Machine Control
+- GIGA R1 WiFi
+- Portenta H7
+- Portenta H7 Lite
+- Portenta Machine Control
 
 Follow these steps if you experience any of these errors when attempting an OTA upload:
 
-* `Error while mounting the filesystem. Err = -5`
-* `Arduino_Portenta_OTA::begin() failed with error code -3`
+- `Error while mounting the filesystem. Err = -5`
+- `Arduino_Portenta_OTA::begin() failed with error code -3`
 
 ---
 
