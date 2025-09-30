@@ -1,5 +1,6 @@
 ---
 title: Associate a Thing to a device
+id: 22654874442396
 ---
 
 Learn how to add or change the associated device of a Thing in Arduino Cloud.
