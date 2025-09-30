@@ -1,5 +1,6 @@
 ---
-title: "Install the PLC runtime"
+title: Install the PLC runtime
+id: 22664715399452
 ---
 
 The **PLC runtime** runs on your PLC device and enables the Arduino PLC IDE to communicate with it. Learn how to install the PLC runtime on your device.
