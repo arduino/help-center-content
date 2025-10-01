@@ -3,6 +3,17 @@ title: "About LoRa and LoRaWAN"
 id: 4402394268562
 ---
 
+In this article:
+
+<!-- TOC -->
+
+- [What is LoRa and LoRaWAN?](#what-is-lora-and-lorawan)
+- [Suitable use cases](#suitable-use-cases)
+- [Arduino devices with LoRa connectivity](#arduino-devices-with-lora-connectivity)
+- [Further reading](#further-reading)
+
+<!-- /TOC -->
+
 ---
 
 ## What is LoRa and LoRaWAN?
