@@ -16,7 +16,7 @@ For troubleshooting, see [If your device can't be added to Arduino Cloud](https:
 
 ---
 
-## Add an Arduino board via serial (USB)
+## Add an Arduino board via serial (USB) {#add-an-arduino-board-via-serial-usb}
 
 All Arduino boards supported by Arduino Cloud can be added via USB from a computer running the [Arduino Cloud Agent](https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Cloud-Agent).
 
