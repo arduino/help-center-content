@@ -48,24 +48,7 @@ Lora and LoRaWAN are generally **not** suitable for:
 
 ## Arduino devices with LoRa connectivity
 
-**Boards:**
-
-* [Arduino MKR WAN 1300 (LoRa® connectivity)](https://store.arduino.cc/products/arduino-mkr-wan-1300-lora-connectivity)
-* [Arduino MKR WAN 1310](https://store.arduino.cc/products/arduino-mkr-wan-1310)
-
-**Shields and carriers for Portenta boards:**
-
-Note that a compatible Portenta board is required.
-
-* [Portenta Vision Shield - LoRa®](https://store.arduino.cc/products/portenta-vision-shield-lora%C2%AE) (together with a Portenta H7 board)
-* [Portenta Max Carrier](https://store.arduino.cc/products/portenta-max-carrier)
-
-**Gateways:**
-
-* [WisGate Edge PRO](https://store.arduino.cc/products/wisgate-edge-pro)
-* [WisGate Edge Lite 2](https://store.arduino.cc/products/wisgate-edge-lite2)
-
-For more information, see [Arduino devices with LoRaWAN® connectivity](https://support.arduino.cc/hc/en-us/articles/4403398854418-Arduino-devices-with-LoRaWAN-connectivity).
+See [Arduino devices with LoRaWAN® connectivity](https://support.arduino.cc/hc/en-us/articles/4403398854418-Arduino-devices-with-LoRaWAN-connectivity).
 
 ---
 
