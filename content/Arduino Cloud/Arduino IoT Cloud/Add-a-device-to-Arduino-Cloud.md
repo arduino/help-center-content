@@ -59,7 +59,7 @@ Follow these steps:
 
 ## Add an Arduino board via Bluetooth
 
-You can add supported devices via Bluetooth if they are running the preflashed [provisioning sketch](https://docs.arduino.cc/arduino-cloud/hardware/device-provisioning/). When this sketch is active, the onboard LED blinks in a heartbeat pattern (one long pulse followed by two short pulses). If your board is running a different sketch, [add it via USB instead](add-an-arduino-board-via-serial-usb).
+You can add supported devices via Bluetooth if they are running the preflashed [provisioning sketch](https://docs.arduino.cc/arduino-cloud/hardware/device-provisioning/). When this sketch is active, the onboard LED blinks in a heartbeat pattern (one long pulse followed by two short pulses). If your board is running a different sketch, [add it via USB instead](#add-an-arduino-board-via-serial-usb).
 
 Supported boards:
 
