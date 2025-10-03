@@ -13,9 +13,7 @@ In this article:
 
 ---
 
-<a id="r4"></a>
-
-## UNO R4 boards
+## UNO R4 boards {#r4}
 
 The new **Arduino UNO R4 Boards** use a **Renesas RA4M1 32-bit Arm® Cortex®-M4 processor**.
 
@@ -50,9 +48,7 @@ Documentation: [UNO R4 Minima](https://docs.arduino.cc/hardware/uno-r4-minima)
 
 ---
 
-<a id="uno"></a>
-
-## UNO R3 (inc. older revisions, SMD)
+## UNO R3 (inc. older revisions, SMD) {#uno}
 
 While "Arduino UNO" was also the name of the [first Arduino UNO board model](#arduino-uno), it is now more often used to refer to any board with these characteristics:
 
@@ -140,11 +136,9 @@ Documentation: [ARDUINO UNO](https://docs.arduino.cc/retired/other/arduino-older
 
 The original UNO board. It is sometimes referred to as the "R1" or "Rev1" version to distinguish it from later versions.
 
-<a id="uno-wifi"></a>
-
 ---
 
-## UNO WiFi, UNO WiFi Rev2
+## UNO WiFi, UNO WiFi Rev2 {#uno-wifi}
 
 See also: [Arduino UNO R4 WiFi](#r4-wifi).
 
@@ -177,11 +171,9 @@ A version of the UNO R3 with an ESP8266 Wi-Fi module.
 
 Not to be confused with the **Arduino UNO WiFi Rev2**.
 
-<a id="uno-mini"></a>
-
 ---
 
-## UNO Mini Limited Edition
+## UNO Mini Limited Edition {#uno-mini}
 
 <!-- ### UNO Mini Limited Edition -->
 
@@ -195,11 +187,9 @@ Documentation: [UNO Mini Limited Edition](https://docs.arduino.cc/hardware/uno-m
 
 This limited edition UNO board comes in a smaller form factor, and has a USB-C connector.
 
-<a id="compatible"></a>
-
 ---
 
-## Arduino-compatible "UNO" boards by other manufacturers
+## Arduino-compatible "UNO" boards by other manufacturers {#compatible}
 
 There exists a variety of clone and derivative boards, as well as other products marketed as "Arduino-compatible", with "UNO" in the name.
 
