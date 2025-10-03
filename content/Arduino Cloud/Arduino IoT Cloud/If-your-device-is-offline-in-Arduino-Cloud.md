@@ -13,9 +13,9 @@ Before you begin:
 In this article:
 
 - [Check power and restart](#check-power-and-restart)
-- [Verify and reupload the Thing sketch](#verify-and-reupload-the-thing-sketch)
+- [Verify network credentials and reupload the Thing sketch](#verify-network-credentials-and-reupload-the-thing-sketch)
 - [Check your network settings](#check-your-network-settings)
-- [Check the serial output](#verify-and-reupload-the-thing-sketch)
+- [Check the serial output](#check-the-serial-output)
 - [Delete the device](#delete-the-device)
 
 ---
@@ -78,7 +78,7 @@ Connect to your device via USB and read the serial output for additional informa
 1. Select your device in the editor.
 1. Open the Serial Monitor.
 1. Read the output to better understand what happens as your device tries to connect to Arduino Cloud.
-1. If your device is not sending any serial output, try pressing the reset button on your device to restart the sketch. If you still don't see any output, the device may not be running the Cloud sketch. See [Verify and reupload the Thing sketch](#verify-and-reupload-the-thing-sketch).
+1. If your device is not sending any serial output, try pressing the reset button on your device to restart the sketch. If you still don't see any output, the device may not be running the Cloud sketch. In that case, [verify your network credentials and reupload the Thing sketch](#verify-network-credentials-and-reupload-the-thing-sketch).
 
 ![Reading the serial output from a Cloud sketch in Arduino IDE](img/arduino-cloud-serial.png)
 
