@@ -3,8 +3,11 @@ title: "An overview of different UNO boards"
 id: 7901453165724
 ---
 
+Since the release of the original AVR-based Arduino UNO, the UNO family has expanded to include a wide range of boards that share the same pin layout.
+
 In this article:
 
+* [UNO Q](#uno-q)
 * [UNO R4 Boards](#r4)
 * [UNO (R3 and earlier revisions, SMD variant)](#uno)
 * [UNO WiFi, UNO WiFi Rev2](#uno-wifi)
@@ -13,11 +16,24 @@ In this article:
 
 ---
 
-<a id="r4"></a>
+## UNO Q {#uno-q}
 
-## UNO R4 boards
+The **Arduino UNO Q** is a powerful single-board computer (SBC) that runs a full Linux environment (Debian OS), powered by the **Qualcomm Dragonwing™ QRB2210** system-on-chip (SoC).
 
-The new **Arduino UNO R4 Boards** use a **Renesas RA4M1 32-bit Arm® Cortex®-M4 processor**.
+<img src="img/ABX00162_03.front.jpg" width=400px>
+
+**Arduino UNO Q**\
+Microprocessor: Qualcomm Dragonwing™ QRB2210\
+Microcontroller: R7FA4M1AB3C\
+Board core: `Arduino UNO Q (Arduino Zephyr Boards)`\
+Store page: [Arduino UNO Q](https://store.arduino.cc/uno-q)
+Documentation: [UNO Q](https://docs.arduino.cc/hardware/uno-q)
+
+---
+
+## UNO R4 boards {#r4}
+
+The **Arduino UNO R4 Boards** use a **Renesas RA4M1 32-bit Arm® Cortex®-M4 processor**.
 
 * Unlike previous UNO boards, they do not use 8-bit AVR processors.
 * They use a different board package (Arduino UNO R4 Boards).
@@ -50,9 +66,7 @@ Documentation: [UNO R4 Minima](https://docs.arduino.cc/hardware/uno-r4-minima)
 
 ---
 
-<a id="uno"></a>
-
-## UNO R3 (inc. older revisions, SMD)
+## UNO R3 (inc. older revisions, SMD) {#uno}
 
 While "Arduino UNO" was also the name of the [first Arduino UNO board model](#arduino-uno), it is now more often used to refer to any board with these characteristics:
 
@@ -140,11 +154,9 @@ Documentation: [ARDUINO UNO](https://docs.arduino.cc/retired/other/arduino-older
 
 The original UNO board. It is sometimes referred to as the "R1" or "Rev1" version to distinguish it from later versions.
 
-<a id="uno-wifi"></a>
-
 ---
 
-## UNO WiFi, UNO WiFi Rev2
+## UNO WiFi, UNO WiFi Rev2 {#uno-wifi}
 
 See also: [Arduino UNO R4 WiFi](#r4-wifi).
 
@@ -177,11 +189,9 @@ A version of the UNO R3 with an ESP8266 Wi-Fi module.
 
 Not to be confused with the **Arduino UNO WiFi Rev2**.
 
-<a id="uno-mini"></a>
-
 ---
 
-## UNO Mini Limited Edition
+## UNO Mini Limited Edition {#uno-mini}
 
 <!-- ### UNO Mini Limited Edition -->
 
@@ -195,11 +205,9 @@ Documentation: [UNO Mini Limited Edition](https://docs.arduino.cc/hardware/uno-m
 
 This limited edition UNO board comes in a smaller form factor, and has a USB-C connector.
 
-<a id="compatible"></a>
-
 ---
 
-## Arduino-compatible "UNO" boards by other manufacturers
+## Arduino-compatible "UNO" boards by other manufacturers {#compatible}
 
 There exists a variety of clone and derivative boards, as well as other products marketed as "Arduino-compatible", with "UNO" in the name.
 
