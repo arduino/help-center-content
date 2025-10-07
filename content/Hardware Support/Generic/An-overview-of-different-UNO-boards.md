@@ -3,8 +3,11 @@ title: "An overview of different UNO boards"
 id: 7901453165724
 ---
 
+Since the release of the original AVR-based Arduino UNO, the UNO family has expanded to include a wide range of boards that share the same pin layout.
+
 In this article:
 
+* [UNO Q](#uno-q)
 * [UNO R4 Boards](#r4)
 * [UNO (R3 and earlier revisions, SMD variant)](#uno)
 * [UNO WiFi, UNO WiFi Rev2](#uno-wifi)
@@ -13,9 +16,24 @@ In this article:
 
 ---
 
+## UNO Q {#uno-q}
+
+The **Arduino UNO Q** is a powerful single-board computer (SBC) that runs a full Linux environment (Debian OS), powered by the **Qualcomm Dragonwing™ QRB2210** system-on-chip (SoC).
+
+<img src="img/ABX00162_03.front.jpg" width=400px>
+
+**Arduino UNO Q**\
+Microprocessor: Qualcomm Dragonwing™ QRB2210\
+Microcontroller: R7FA4M1AB3C\
+Board core: `Arduino UNO Q (Arduino Zephyr Boards)`\
+Store page: [Arduino UNO Q](https://store.arduino.cc/uno-q)
+Documentation: [UNO Q](https://docs.arduino.cc/hardware/uno-q)
+
+---
+
 ## UNO R4 boards {#r4}
 
-The new **Arduino UNO R4 Boards** use a **Renesas RA4M1 32-bit Arm® Cortex®-M4 processor**.
+The **Arduino UNO R4 Boards** use a **Renesas RA4M1 32-bit Arm® Cortex®-M4 processor**.
 
 * Unlike previous UNO boards, they do not use 8-bit AVR processors.
 * They use a different board package (Arduino UNO R4 Boards).
