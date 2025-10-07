@@ -26,7 +26,7 @@ The **Arduino UNO Q** is a powerful single-board computer (SBC) that runs a full
 Microprocessor: Qualcomm Dragonwing™ QRB2210\
 Microcontroller: R7FA4M1AB3C\
 Board core: `Arduino UNO Q (Arduino Zephyr Boards)`\
-Store page: [Arduino UNO Q](https://store.arduino.cc/uno-q)
+Store page: [Arduino UNO Q](https://store.arduino.cc/products/uno-q)\
 Documentation: [UNO Q](https://docs.arduino.cc/hardware/uno-q)
 
 ---
