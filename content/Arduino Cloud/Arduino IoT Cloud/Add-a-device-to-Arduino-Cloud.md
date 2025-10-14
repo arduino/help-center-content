@@ -16,7 +16,7 @@ For troubleshooting, see [If your device can't be added to Arduino Cloud](https:
 
 ---
 
-## Add an Arduino board via serial (USB)
+## Add an Arduino board via serial (USB) {#add-an-arduino-board-via-serial-usb}
 
 All Arduino boards supported by Arduino Cloud can be added via USB from a computer running the [Arduino Cloud Agent](https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Cloud-Agent).
 
@@ -59,7 +59,7 @@ Follow these steps:
 
 ## Add an Arduino board via Bluetooth
 
-You can add supported devices via Bluetooth if they are running the preflashed [provisioning sketch](https://docs.arduino.cc/arduino-cloud/hardware/device-provisioning/). When this sketch is active, the onboard LED blinks in a heartbeat pattern (one long pulse followed by two short pulses). If your board is running a different sketch, [add it via USB instead](add-an-arduino-board-via-serial-usb).
+You can add supported devices via Bluetooth if they are running the preflashed [provisioning sketch](https://docs.arduino.cc/arduino-cloud/hardware/device-provisioning/). When this sketch is active, the onboard LED blinks in a heartbeat pattern (one long pulse followed by two short pulses). If your board is running a different sketch, [add it via USB instead](#add-an-arduino-board-via-serial-usb).
 
 Supported boards:
 
