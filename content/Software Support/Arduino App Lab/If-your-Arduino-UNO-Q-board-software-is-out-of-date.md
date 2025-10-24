@@ -1,5 +1,6 @@
 ---
 title: If your Arduino UNO Q board software is out of date
+id: 23170731875740
 ---
 
 The first Arduino UNO Q boards were shipped with an older software that can't be fully updated by Arduino App Lab. When connecting to a board with outdated software, Arduino App Lab will not be able to fully update it, which can cause certain issues. On Windows, Arduino App Lab may fail to connect to a board with outdated software.
