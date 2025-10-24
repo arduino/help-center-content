@@ -9,14 +9,10 @@ Learn how to tell if your board has outdated software and how to resolve the iss
 
 In this article:
 
-<!-- TOC -->
-
 - [Recognize outdated software](#recognize-outdated-software)
 - [“Error checking for updates” when updating on Windows](#error-checking-for-updates-when-updating-on-windows)
 - [Other symptoms of an outdated software on any OS](#other-symptoms-of-an-outdated-software-on-any-os)
 - [Flash a new Linux image](#flash-a-new-linux-image)
-
-<!-- /TOC -->
 
 ---
 
@@ -28,7 +24,7 @@ When connecting to a UNO Q in App Lab, or when running App Lab on the UNO Q Sing
 
 ---
 
-## “Error checking for updates” when updating on Windows
+## “Error checking for updates” when updating on Windows {#error-checking-for-updates-when-updating-on-windows}
 
 Arduino App Lab on Windows may fail to update to a board with the outdated image. In this case, you will see an **“Error checking for updates”** message.
 
@@ -39,7 +35,7 @@ To successfully update the board, you can:
 
 ---
 
-## Other symptoms of an outdated software (on any OS)
+## Other symptoms of an outdated software (on any OS) {#other-symptoms-of-an-outdated-software-on-any-os}
 
 Even if you are able to connect to a UNO Q running an outdated image, you may encounter one or more of the following issues:
 
