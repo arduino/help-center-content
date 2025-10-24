@@ -8,7 +8,6 @@ In this article:
 
 - [If your board is not detected via USB](#if-your-board-is-not-detected-via-usb)
 - [If your board is not detected via Wi-Fi](#if-your-board-is-not-detected-via-wi-fi)
-- [If your board is still not detected](#if-your-board-is-not-detected-via-wi-fi)
 
 ---
 
