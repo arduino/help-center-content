@@ -18,7 +18,7 @@ In this article:
 
 ## Recognize outdated software
 
-When connecting to a UNO Q in App Lab, or when running App Lab on the UNO Q Single-Board Computer mode, App Lab will display a message warning that your "board software is out of date", and that you should update your board software using the Arduino Flasher Tool.
+When connecting to a UNO Q in App Lab, or when running App Lab on the UNO Q Single-Board Computer mode, App Lab will display a message warning that your "board software is out of date", and that you should update your board software using the Arduino Flasher CLI.
 
 ![Software updates warning in Arduino App Lab: "Your board software is out of date. You may experience missing features or functional issues"](img/app-lab-board-software-is-out-of-date.png)
 
