@@ -3,7 +3,7 @@ title: If your Arduino UNO Q is not detected by Arduino App Lab
 id: 23170726082332
 ---
 
-When Arduino App Lab starts, it will look for Arduino UNO Q boards connected on a USB port, [TODO]
+When Arduino App Lab starts, it will look for Arduino UNO Q boards connected on a USB port or available on a Wi-Fi network. Learn what to do if your board is not detected.
 
 In this article:
 
