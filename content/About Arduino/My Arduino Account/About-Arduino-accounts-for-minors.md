@@ -6,13 +6,11 @@ id: 4839080453148
 Arduino offers two types of accounts for minors (including students):
 
 * [Junior accounts](#Junior-accounts). For users below 14 years old (“Junior Accounts”).
-* [Restricted accounts](#Regular-accounts). For users at least 14 and under 16 years old (“Restricted Accounts”).
+* [Restricted accounts](#Restricted-accounts). For users at least 14 and under 16 years old (“Restricted Accounts”).
 
 They differ in the features that users can access and the way that Arduino handles [personal data](https://www.arduino.cc/en/privacy-policy/). Both account types require the minor's account to be linked to a person exercising parental authority (for convenience, we refer to this person as a “parent”). Learn more about Arduino accounts for minors below.
 
-<a id="Junior-accounts"></a>
-
-## Junior Accounts
+## Junior Accounts {#Junior-accounts}
 
 This type of account is intended for minors under the age of 14. A junior account can be created by a parent or at the request of the minor (with parental consent) at **[app.arduino.cc/minors](https://app.arduino.cc/minors)**.
 
@@ -34,11 +32,11 @@ The browsing activity of Junior Accounts will not be visible to Arduino.
 
 ### Upgrading to a Restricted account 
 
-After turning 14, users of Junior accounts will be prompted to upgrade to a [Restricted Account](#Regular-accounts), for users who are at least 14 and below 16 years old. When a Junior Account is upgraded to a Restricted Account, the user will be prompted to provide a username of their own choosing and an email address that will be linked to their account.
+After turning 14, users of Junior accounts will be prompted to upgrade to a [Restricted Account](#Restricted-accounts), for users who are at least 14 and below 16 years old. When a Junior Account is upgraded to a Restricted Account, the user will be prompted to provide a username of their own choosing and an email address that will be linked to their account.
 
-<a id="Regular-accounts"></a>
+<a id="Regular-accounts"></a><!-- Legacy id-->
 
-## Restricted Accounts
+## Restricted Accounts {#Restricted-accounts}
 
 The process for creating a Restricted Account is the same as that for creating a Junior Account above, and requires parental consent.  However, with a Restricted Account, the user has access to all the services available on the Arduino website, such as the on-line shop, Arduino Cloud, Arduino Project Hub, Arduino Forum, Arduino Blog, Arduino Day, Arduino Education products, Arduino Certification, the Contributor License Agreement program and the other development and educational instruments available on the Website and on the Apps.
 
