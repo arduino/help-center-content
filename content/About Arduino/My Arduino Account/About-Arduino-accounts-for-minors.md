@@ -42,7 +42,7 @@ The process for creating a Restricted Account is the same as that for creating a
 
 A Restricted Account can be created by a parent or at the request of the minor (with parental consent) at **[app.arduino.cc/minors](https://app.arduino.cc/minors)**.
 
-For a minor to [create a Restricted Account](https://support.arduino.cc/hc/en-us/articles/360022234360-Create-an-Arduino-account-for-juniors#junior-request), the user is asked to choose a username and a picture (an Avatar) from a set of predetermined options, to enter a password of their choice, and to provide their date of birth. Usernames and avatars will not include any directly identifiable information relating to users.
+For a minor to [create a Restricted Account](https://support.arduino.cc/hc/en-us/articles/360022234360-Create-an-Arduino-account-for-juniors#junior-request), the user is asked to choose a username and a picture (an Avatar) from a set of predetermined options, to enter a password of their choice, and to provide their date of birth.
 
 When the minor initiates creation of the account, it is necessary to provide a parent’s email, and the parent must approve the account creation. Arduino will process the [personal data](https://www.arduino.cc/en/privacy-policy/) of the parent. The parent will need to create an account if they don’t already have one in order to approve the creation of the Restricted Account. If after 30 days the parent or guardian hasn’t created an account and approved creation of the Restricted Account, the Restricted Account will not be created and all data provided will be deleted promptly. 
 
