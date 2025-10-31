@@ -12,7 +12,7 @@ They differ in the features that users can access and the way that Arduino handl
 
 ## Junior Accounts {#Junior-accounts}
 
-This type of account is intended for minors under the age of 14. A junior account can be created by a parent or at the request of the minor (with parental consent) at **[app.arduino.cc/minors](https://app.arduino.cc/minors)**.
+This type of account is intended for minors under the age of 14. A junior account can be created by a parent, or at the request of the minor (with parental consent) at **[app.arduino.cc/minors](https://app.arduino.cc/minors)**.
 
 For a minor to [create a Junior Account](https://support.arduino.cc/hc/en-us/articles/360022234360-Create-an-Arduino-account-for-juniors#junior-request), the user is asked to choose a username and a picture (an Avatar) from a set of predetermined options, to enter a password of their choice, and to provide their date of birth. Usernames and avatars will not include any directly identifiable information relating to users.
 
@@ -25,12 +25,12 @@ The browsing activity of Junior Accounts will not be visible to Arduino.
 **With a Junior Account, users are able to:**
 
 * Access Educational products and services intended for middle school students (view the full list on [Arduino Education](https://www.arduino.cc/education)).
-* Download and use Arduino IDE (Integrated Development Environment)
+* Download and use Arduino IDE (Integrated Development Environment).
 * Download and use the Arduino Science Journal App. Use the Science Journal Apps only for creating experiments saved locally in the App. Sharing functionality with Google Drive is not made available to Junior Accounts.
 * Obtain Arduino Certification.
 * You may also visit the blog and forum but may not post comments.
 
-### Upgrading to a Restricted account 
+### Upgrading to a Restricted Account {#Upgrading-to-a-Restricted-Account}
 
 After turning 14, users of Junior accounts will be prompted to upgrade to a [Restricted Account](#Restricted-accounts), for users who are at least 14 and below 16 years old. When a Junior Account is upgraded to a Restricted Account, the user will be prompted to provide a username of their own choosing and an email address that will be linked to their account.
 
@@ -46,13 +46,13 @@ For a minor to [create a Restricted Account](https://support.arduino.cc/hc/en-us
 
 When the minor initiates creation of the account, it is necessary to provide a parent’s email, and the parent must approve the account creation. Arduino will process the [personal data](https://www.arduino.cc/en/privacy-policy/) of the parent. The parent will need to create an account if they don’t already have one in order to approve the creation of the Restricted Account. If after 30 days the parent or guardian hasn’t created an account and approved creation of the Restricted Account, the Restricted Account will not be created and all data provided will be deleted promptly. 
 
-A parent can also initiate creation of the account by [creating a junior account for the minor](https://support.arduino.cc/hc/en-us/articles/360022234360-Create-an-Arduino-account-for-juniors#adult-create). If the minor is at least 14 and below 16 years, as indicated by the date of birth provided by the parent, the Junior Account the minor will be prompted to upgrade as described in Upgrading to a Restricted Account.
+A parent can also [initiate creation of the account from their profile page](https://support.arduino.cc/hc/en-us/articles/360022234360-Create-an-Arduino-account-for-juniors#adult-create). If the minor is at least 14 and below 16 years, as indicated by the date of birth provided by the parent, the minor will be prompted to upgrade as described in [Upgrading to a Restricted Account](#Upgrading-to-a-Restricted-Account).
 
 The browsing activity of Restricted Accounts will not be visible to Arduino.
 
 ## Further reading
 
-* [Create an Arduino account for juniors](https://support.arduino.cc/hc/en-us/articles/360022234360-Create-an-Arduino-account-for-juniors#junior-request)
+* [Create an Arduino account for a minor](https://support.arduino.cc/hc/en-us/articles/360022234360#junior-request)
 * [Delete an Arduino account](https://support.arduino.cc/hc/en-us/articles/360017090920)
 * [Children's Privacy Policy](https://www.arduino.cc/en/privacy-policy/children-privacy-policy)
 * [Privacy Policy](https://www.arduino.cc/en/privacy-policy)

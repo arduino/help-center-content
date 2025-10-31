@@ -1,9 +1,9 @@
 ---
-title: "Create an Arduino account for juniors"
+title: "Create an Arduino account for a minor"
 id: 360022234360
 ---
 
-Minors under the age of 14 need parental consent to sign up for an Arduino account. This is called a **junior account**.
+Minors under the age of 14 need parental consent to sign up for an Arduino account.
 
 In this article:
 
@@ -12,7 +12,7 @@ In this article:
 
 ---
 
-## Create a junior account for your child {#adult-create}
+## Create an account for your child {#adult-create}
 
 1. Sign into [id.arduino.cc/minors](https://id.arduino.cc/minors).
 
@@ -20,12 +20,12 @@ In this article:
 
 3. Select **Add Account**.
 
-4. Configure the new junior account:
+4. Configure the new account:
 
    * Select an avatar (optional)
    * Regenerate the randomly assigned username (optional)
    * Enter a password.
-   * Enter the junior's date of birth (DD/MM/YYYY).
+   * Enter the minor's date of birth (DD/MM/YYYY).
 
    When done, click **Next**.
 
@@ -34,7 +34,7 @@ In this article:
 
 5. Agree to the terms of parental consent and click Create Account.
 
-The junior account will be created and added to the list of your junior accounts.
+The account will be created and added to the list of your junior accounts.
 
 ---
 
@@ -49,7 +49,7 @@ The junior account will be created and added to the list of your junior accounts
 
 3. Enter your date of birth (DD/MM/YYYY) and click **Next**.
 
-4. Configure the new junior account:
+4. Configure the new account:
 
    * Select an avatar (optional)
    * Regenerate the randomly assigned username (optional)
