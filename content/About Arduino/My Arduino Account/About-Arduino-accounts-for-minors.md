@@ -12,7 +12,7 @@ They differ in the features that users can access and the way that Arduino handl
 
 ## Junior Accounts {#Junior-accounts}
 
-This type of account is intended for minors under the age of 14. A junior account can be created by a parent, or at the request of the minor (with parental consent) at **[app.arduino.cc/minors](https://app.arduino.cc/minors)**.
+This type of account is intended for minors under the age of 14. A junior account can be created by a parent, or at the request of the minor (with parental consent) at **[junior.arduino.cc](https://junior.arduino.cc)**.
 
 For a minor to [create a Junior Account](https://support.arduino.cc/hc/en-us/articles/360022234360-Create-an-Arduino-account-for-juniors#junior-request), the user is asked to choose a username and a picture (an Avatar) from a set of predetermined options, to enter a password of their choice, and to provide their date of birth. Usernames and avatars will not include any directly identifiable information relating to users.
 
@@ -40,7 +40,7 @@ After turning 14, users of Junior accounts will be prompted to upgrade to a [Res
 
 The process for creating a Restricted Account is the same as that for creating a Junior Account above, and requires parental consent.  However, with a Restricted Account, the user has access to all the services available on the Arduino website, such as the on-line shop, Arduino Cloud, Arduino Project Hub, Arduino Forum, Arduino Blog, Arduino Day, Arduino Education products, Arduino Certification, the Contributor License Agreement program and the other development and educational instruments available on the Website and on the Apps.
 
-A Restricted Account can be created by a parent or at the request of the minor (with parental consent) at **[app.arduino.cc/minors](https://app.arduino.cc/minors)**.
+A Restricted Account can be created by a parent or at the request of the minor (with parental consent) at **[junior.arduino.cc](https://junior.arduino.cc)**.
 
 For a minor to [create a Restricted Account](https://support.arduino.cc/hc/en-us/articles/360022234360-Create-an-Arduino-account-for-juniors#junior-request), the user is asked to choose a username and a picture (an Avatar) from a set of predetermined options, to enter a password of their choice, and to provide their date of birth.
 
