@@ -6,12 +6,12 @@ id: 360016724040
 An Arduino account gives you full access to all Arduino websites, apps, and services.
 
 > [!NOTE]
-> Users under the age of 14 need to [sign up for a junior account](https://support.arduino.cc/hc/en-us/articles/360022234360).
+> Users under the age of 16 need to [sign up for an Arduino account for minors](https://support.arduino.cc/hc/en-us/articles/360022234360).
 
 In this article:
 
 - [Sign up with email](#email)
-- [Sign up with your Google, GitHub, or Apple account)](#sso)
+- [Sign up with your Google, GitHub, or Apple account](#sso)
 - [Next steps](#next-steps)
 
 ---
@@ -28,6 +28,7 @@ Follow these steps:
 
    - _Email_
    - _Password_
+   - _Username_
 
 1. Confirm that you've read the _Privacy Policy_ and accept the _Terms of Service_.
 
@@ -60,7 +61,11 @@ Follow these steps:
 
 1. Follow the instructions to authenticate with the SSO provider.
 
-1. Select a username and approve the required  click **Create Account**.
+1. Select a username.
+
+1. Confirm that you've read the _Privacy Policy_ and accept the _Terms of Service_.
+
+1. Click **Create Account** to complete the account registration.
 
 ---
 
