@@ -15,6 +15,7 @@ Arduino Cloud is not available in the following countries:
 * Sudan
 * Syria
 * Ukraine
+* Venezuela
 * Zimbabwe
 
 Specifically, these restrictions apply:
