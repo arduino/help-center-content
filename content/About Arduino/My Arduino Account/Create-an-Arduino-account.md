@@ -6,7 +6,7 @@ id: 360016724040
 An Arduino account gives you full access to all Arduino websites, apps, and services.
 
 > [!NOTE]
-> Users under the age of 16 need to [sign up for an Arduino account for minors](https://support.arduino.cc/hc/en-us/articles/360022234360).
+> Users under the age of 18 need to [sign up for an Arduino account for minors](https://support.arduino.cc/hc/en-us/articles/360022234360).
 
 In this article:
 
