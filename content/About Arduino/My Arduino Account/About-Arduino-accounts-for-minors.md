@@ -6,7 +6,7 @@ id: 4839080453148
 Arduino offers two types of accounts for minors (including students):
 
 * [Junior accounts](#Junior-accounts). For users below 14 years old (“Junior Accounts”).
-* [Restricted accounts](#Restricted-accounts). For users at least 14 and under 16 years old (“Restricted Accounts”).
+* [Restricted accounts](#Restricted-accounts). For users at least 14 and under 18 years old (“Restricted Accounts”).
 
 They differ in the features that users can access and the way that Arduino handles [personal data](https://www.arduino.cc/en/privacy-policy/). Both account types require the minor's account to be linked to a person exercising parental authority (for convenience, we refer to this person as a “parent”). Learn more about Arduino accounts for minors below.
 
@@ -32,7 +32,7 @@ The browsing activity of Junior Accounts will not be visible to Arduino.
 
 ### Upgrading to a Restricted Account {#Upgrading-to-a-Restricted-Account}
 
-After turning 14, users of Junior accounts will be prompted to upgrade to a [Restricted Account](#Restricted-accounts), for users who are at least 14 and below 16 years old. When a Junior Account is upgraded to a Restricted Account, the user will be prompted to provide a username of their own choosing and an email address that will be linked to their account.
+After turning 14, users of Junior accounts will be prompted to upgrade to a [Restricted Account](#Restricted-accounts), for users who are at least 14 and below 18 years old. When a Junior Account is upgraded to a Restricted Account, the user will be prompted to provide a username of their own choosing and an email address that will be linked to their account.
 
 <a id="Regular-accounts"></a><!-- Legacy id-->
 
@@ -46,7 +46,7 @@ For a minor to [create a Restricted Account](https://support.arduino.cc/hc/en-us
 
 When the minor initiates creation of the account, it is necessary to provide a parent’s email, and the parent must approve the account creation. Arduino will process the [personal data](https://www.arduino.cc/en/privacy-policy/) of the parent. The parent will need to create an account if they don’t already have one in order to approve the creation of the Restricted Account. If after 30 days the parent or guardian hasn’t created an account and approved creation of the Restricted Account, the Restricted Account will not be created and all data provided will be deleted promptly.
 
-A parent can also [initiate creation of the account from their profile page](https://support.arduino.cc/hc/en-us/articles/360022234360-Create-an-Arduino-account-for-juniors#adult-create). If the minor is at least 14 and below 16 years, as indicated by the date of birth provided by the parent, the minor will be prompted to upgrade as described in [Upgrading to a Restricted Account](#Upgrading-to-a-Restricted-Account).
+A parent can also [initiate creation of the account from their profile page](https://support.arduino.cc/hc/en-us/articles/360022234360-Create-an-Arduino-account-for-juniors#adult-create). If the minor is at least 14 and below 18 years, as indicated by the date of birth provided by the parent, the minor will be prompted to upgrade as described in [Upgrading to a Restricted Account](#Upgrading-to-a-Restricted-Account).
 
 The browsing activity of Restricted Accounts will not be visible to Arduino.
 
