@@ -1,31 +1,31 @@
 // @ts-check
 
-"use strict";
+'use strict';
 
-const markdownlintRulesDir = "../..//node_modules/markdownlint/lib/"
-const { addError, forEachInlineChild } = require(markdownlintRulesDir + "../helpers");
-
-var glob = require("glob");
+const fs = require('fs');
 const path = require('path');
-// TODO: https://stackoverflow.com/a/2186565
-const filePaths = glob.sync('content/**/*');
-let normPaths = [];
-for (var filePath of filePaths) {
-  normPaths.push(path.normalize(filePath));
-}
 
 module.exports = {
-  "names": [ "HC002", "no-missing-images" ],
-  "description": "Image does not exist",
-  "tags": [ "images" ],
-  "function": function HC002(params, onError) {
-    forEachInlineChild(params, "image", function forToken(token) {
-      var dir = path.dirname(params.name);
-      var imgPath = path.join(dir, token.attrs[0][1]);
+  names: ['HC002', 'image-file-exists'],
+  description: 'Image does not exist',
+  tags: ['images'],
+  function: function HC002(params, onError) {
+    // The fileDir property is dynamically added by the main linter script.
+    // It contains the directory of the markdown file being processed.
+    const fileDir = this.fileDir || '';
 
-      if (!normPaths.includes(path.normalize(imgPath))) {
-        addError(onError, token.lineNumber, null, imgPath);
-      }
-    });
+    params.tokens
+      .filter((token) => token.type === 'image')
+      .forEach((image) => {
+        const imageSrc = image.attrGet('src');
+
+        // Continue only if the src exists and is not an external URL
+        if (imageSrc && !/^(https?|file):/.test(imageSrc)) {
+          const imagePath = path.resolve(fileDir, imageSrc);
+          if (!fs.existsSync(imagePath)) {
+            onError({ lineNumber: image.lineNumber, detail: `Image does not exist [${imagePath}]` });
+          }
+        }
+      });
   }
 };

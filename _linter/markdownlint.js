@@ -1,137 +1,100 @@
-const markdownlint = require("markdownlint");
-const glob = require("glob");
+#!/usr/bin/env node
+
+'use strict';
+
+const markdownlint = require('markdownlint');
+const glob = require('glob');
 const fs = require('fs');
+const path = require('path');
 const YAML = require('yaml');
-const ruleURLs = {
+
+const projectRoot = path.join(__dirname, '..');
+
+const ruleURLs = Object.freeze({
   'hc': 'https://github.com/arduino/help-center-content/blob/main/_linter/markdownlint/Rules.md',
   'md': 'https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md'
-};
-
-// Get markdown file paths
-let files = glob.sync('content/**/*.md');
-
-// Get custom rules
-
-const customRules = require('./markdownlint/rules/rules.js');
-
-// get config
-const configJSON = fs.readFileSync('./_linter/markdownlint.yml', 'utf8')
-const configYAML = YAML.parse(configJSON);
-
-const options = {
-  "config": configYAML,
-  "files": files,
-  "customRules": customRules
-};
-
-console.log('🕵️  Validating ' + files.length + ' articles...');
-
-function isEmpty(obj) {
-    return Object.keys(obj).length === 0;
-}
-
-function pad(num, size) {
-    num = num.toString();
-    while (num.length < size) num = "0" + num;
-    return num;
-}
-
-function assign(obj, keyPath, value) {
-  lastKeyIndex = keyPath.length-1;
-  for (var i = 0; i < lastKeyIndex; ++ i) {
-    key = keyPath[i];
-    if (!(key in obj)){
-      obj[key] = {}
-    }
-    obj = obj[key];
-  }
-  obj[keyPath[lastKeyIndex]] = value;
-}
+});
 
 function getErrorMessage(error) {
-
-  errorMessage = ' ' + error.lineNumber + ': '
-  + error.ruleNames[0] + ': ' + error.ruleDescription;
-  if (error.errorContext !== null) {
-    errorMessage += ' [' + error.errorContext + ']';
+  let message = ` ${error.lineNumber}: ${error.ruleNames[0]}: ${error.ruleDescription}`;
+  if (error.errorContext) {
+    message += ` [${error.errorContext}]`;
   }
-
-  return errorMessage;
+  return message;
 }
 
-markdownlint(options, function callback(err, result) {
+async function main() {
+  // Get markdown file paths
+  const files = glob.sync('content/**/*.md', { cwd: projectRoot });
 
-  if (!err) {
+  // Get custom rules
+  const customRules = require('./markdownlint/rules/rules.js');
 
-    var violatedRules = new Set();
+  // get config
+  const configYAML = YAML.parse(fs.readFileSync(path.join(__dirname, 'markdownlint.yml'), 'utf8'));
 
-    var errorCount = 0;
-    var errorArticleCount = 0;
+  const options = {
+    config: configYAML,
+    files: files.map(file => path.join(projectRoot, file)),
+    customRules: customRules,
+    resultVersion: 3
+  };
 
-    var errorLines = "";
+  console.log(`🕵️  Validating ${files.length} articles...`);
 
-    var resultObject = {};
+  try {
+    const result = await markdownlint.promises.markdownlint(options);
 
-    for (var file in result) {
-      var errors = result[file];
+    const violatedRules = new Set();
+    let errorCount = 0;
+    let errorArticleCount = 0;
+    const errorLines = [];
 
-      if(errors.length > 0 ) {
+    for (const file of Object.keys(result)) {
+      const errors = result[file];
+      if (errors.length > 0) {
+        errorArticleCount++;
+        const relativeFile = path.relative(process.cwd(), file);
+        errorLines.push(relativeFile);
 
         // Sort by line number
-        errors.sort(function(a, b) {
-          return a.lineNumber - b.lineNumber;
-        });
+        errors.sort((a, b) => a.lineNumber - b.lineNumber);
 
-        let fileSplit = file.split('/');
+        for (const error of errors) {
+          errorLines.push(getErrorMessage(error));
+          errorCount++;
 
-        var errorSet = {};
-
-        errorLines += file + '\n';
-
-        for (var i = 0; i < errors.length; i++) {
-          var error = errors[i];
-          
-          errorLines += getErrorMessage(error) + '\n';
+          // Pass file directory to custom rules
+          error.rule.fileDir = path.dirname(file);
 
           // make rule violation row
           const anchor = error.ruleNames[0].toLowerCase();
-          const URL = ruleURLs[anchor.substring(0,2)];
-          violatedRules.add(
-            error.ruleNames[0] + ': ' + URL + '#' + anchor
-          );
-
-          errorCount++;
+          const ruleType = anchor.substring(0, 2);
+          const URL = ruleURLs[ruleType];
+          if (URL) {
+            violatedRules.add(`${error.ruleNames[0]}: ${URL}#${anchor}`);
+          }
         }
-        // Assign errors
-        assign(resultObject, fileSplit, errorSet);
-        errorArticleCount++;
       }
     }
 
-    const errorMsg = errorCount + ' errors found in '
-    + errorArticleCount + ' articles';
-  if (errorCount === 0) {
-    console.log('\x1b[42m' + errorMsg + '\x1b[0m');
-    process.exit(0);
-  } else {
-    console.log();
-    console.log('🚫 ' + '\x1b[31m\x1b[4m' + errorMsg + '\x1b[0m');
-    console.log(errorLines);
-
-    if (violatedRules.size > 0) {
-      console.log();
-      const msg1 = '📝 The following rules were violated:';
-      console.log(msg1);
-
-      for (var rule of violatedRules) {
-        console.log('\x1b[36m%s\x1b[0m', rule);
-      }
+    const errorMsg = `${errorCount} errors found in ${errorArticleCount} articles`;
+    if (errorCount === 0) {
+      console.log(`\x1b[42m${errorMsg}\x1b[0m`);
+      process.exit(0);
     }
 
+    console.log(`\n🚫 \x1b[31m\x1b[4m${errorMsg}\x1b[0m`);
+    console.log(errorLines.join('\n'));
+    console.log('\n📝 The following rules were violated:');
+    for (const rule of violatedRules) {
+      console.log('\x1b[36m%s\x1b[0m', rule);
+    }
     process.exit(-1);
+  } catch (err) {
+    console.error('An error occurred during linting:', err);
+    process.exit(1);
   }
+}
 
-  } else {
-    throw err;
-  }
-});
+main();
