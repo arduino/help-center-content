@@ -10,9 +10,12 @@ module.exports = {
   description: 'Image does not exist',
   tags: ['images'],
   function: function HC002(params, onError) {
-    // The fileDir property is dynamically added by the main linter script.
-    // It contains the directory of the markdown file being processed.
-    const fileDir = this.fileDir || '';
+
+    // Get the full path of the Markdown file being linted
+    const markdownFilePath = params.name; 
+    
+    // Extract the directory path of the Markdown file
+    const markdownFileDir = path.dirname(markdownFilePath);
 
     params.tokens
       .filter((token) => token.type === 'image')
@@ -21,7 +24,7 @@ module.exports = {
 
         // Continue only if the src exists and is not an external URL
         if (imageSrc && !/^(https?|file):/.test(imageSrc)) {
-          const imagePath = path.resolve(fileDir, imageSrc);
+          const imagePath = path.resolve(markdownFileDir, imageSrc);
           if (!fs.existsSync(imagePath)) {
             onError({ lineNumber: image.lineNumber, detail: `Image does not exist [${imagePath}]` });
           }

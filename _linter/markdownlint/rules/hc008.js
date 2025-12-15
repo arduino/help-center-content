@@ -3,7 +3,7 @@
 "use strict";
 
 const markdownlintRulesDir = "../..//node_modules/markdownlint/lib/";
-const { addErrorDetailIf, filterTokens, frontMatterHasTitle } = require(markdownlintRulesDir + "../helpers");
+const { addErrorDetailIf, frontMatterHasTitle } = require(markdownlintRulesDir + "../helpers");
 
 const path = require("path");
 

@@ -6,10 +6,7 @@
 //  includesSorted } = require("../helpers");
 // const { lineMetadata } = require("./cache");
 
-const markdownlintRulesDir = "../..//node_modules/markdownlint/lib/"
-const { addError, filterTokens, forEachHeading, forEachLine,
-  includesSorted, frontMatterHasTitle} = require(markdownlintRulesDir + "../helpers");
-const { lineMetadata } = require(markdownlintRulesDir + "./cache");
+const { addError } = require("markdownlint/helpers");
 
 const longLineRePrefix = "^.{";
 const longLineRePostfixRelaxed = "}.*\\s.*$";

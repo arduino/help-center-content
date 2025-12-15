@@ -2,11 +2,11 @@
 
 'use strict';
 
-const markdownlint = require('markdownlint');
 const glob = require('glob');
 const fs = require('fs');
 const path = require('path');
 const YAML = require('yaml');
+const markdownIt = require('markdown-it');
 
 const projectRoot = path.join(__dirname, '..');
 
@@ -37,13 +37,15 @@ async function main() {
     config: configYAML,
     files: files.map(file => path.join(projectRoot, file)),
     customRules: customRules,
-    resultVersion: 3
+    resultVersion: 3,
+    markdownItFactory: () => markdownIt({ "html": true })
   };
-
+  
   console.log(`🕵️  Validating ${files.length} articles...`);
 
   try {
-    const result = await markdownlint.promises.markdownlint(options);
+    const { lint } = await import('markdownlint/sync');
+    const result = lint(options);
 
     const violatedRules = new Set();
     let errorCount = 0;
@@ -63,9 +65,6 @@ async function main() {
         for (const error of errors) {
           errorLines.push(getErrorMessage(error));
           errorCount++;
-
-          // Pass file directory to custom rules
-          error.rule.fileDir = path.dirname(file);
 
           // make rule violation row
           const anchor = error.ruleNames[0].toLowerCase();

@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/arduino/help-center-content/blob/main/_linter",
   "dependencies": {
-    "glob": "^7.2.0",
-    "markdown-it": "^12.2.0",
-    "markdownlint": "^0.25.1",
-    "yaml": "^1.10.2"
+    "glob": "^13.0.0",
+    "markdown-it": "^14.1.0",
+    "markdownlint": "^0.40.0",
+    "yaml": "^2.8.2"
   }
 }
