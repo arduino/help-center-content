@@ -15,7 +15,7 @@ The table below lists each component, its purpose, and a link to its GitHub repo
 | remoteocd                  | Upload tool (hosted mode)                             | [arduino/remoteocd](https://github.com/arduino/remoteocd)                       |
 | App examples               | Documentation                                         | [arduino/app-examples](https://github.com/arduino/app-examples)                 |
 | Preinstalled Bricks        | App components                                        | [arduino/preinstalled-bricks](https://github.com/arduino/preinstalled-bricks)   |
-| arduino/ArduinoCore-zephyr | "UNO Q Board" platform                                | [arduino/ArduinoCore-zephyr](https://github.com/arduino/ArduinoCore-zephyr)     |
+| arduino/ArduinoCore-zephyr | "Arduino UNO Q Board" platform                        | [arduino/ArduinoCore-zephyr](https://github.com/arduino/ArduinoCore-zephyr)     |
 | Arduino_RouterBridge       | Arduino library for sketch communication w/ Linux     | [arduino/Arduino_RouterBridge](https://github.com/arduino/Arduino_RouterBridge) |
 | Arduino_RPClite            | Arduino library for sketch communication w/ Linux     | [arduino/Arduino_RPClite](https://github.com/arduino/Arduino_RPClite)           |
 | Arduino Flasher CLI        | Manual Linux image updates                            | [arduino/arduino-flasher-cli](https://github.com/arduino/arduino-flasher-cli)   |
