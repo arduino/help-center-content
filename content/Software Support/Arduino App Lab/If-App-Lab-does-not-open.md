@@ -11,7 +11,7 @@ In this article:
 <!-- TOC -->
 
 - [Make sure the WebKit2 library is installed](#make-sure-the-webkit2-library-is-installed)
-- [Try launching App Lab in Terminal](#try-launching-app-lab-in-terminal)
+- [Launch App Lab in Terminal](#launch-app-lab-in-terminal)
 
 <!-- /TOC -->
 
@@ -34,7 +34,6 @@ Resolve the issue by installing the library:
 
 If the library was already installed, check for other errors by [launching App Lab in Terminal](#try-launching-app-lab-in-terminal).
 
-
 ## Launch App Lab in Terminal
 
 If App Lab still isn't launching, you can try opening the application from Terminal, to reveal error output not visible when launching the application normally.
@@ -49,7 +48,7 @@ Follow these steps:
 
 1. Observe the Terminal output.
 
-   * If you see this error, you are still missing the WebKitGTK library.
+   - If you see this error, you are still missing the WebKitGTK library.
 
      ```
      ./arduino-app-lab: error while loading shared libraries: libwebkit2gtk-4.1.so.0: cannot open shared object file: No such file or directory
@@ -57,4 +56,4 @@ Follow these steps:
 
      Follow the steps in [Make sure the WebKit2 library is installed](#make-sure-the-webkit2-library-is-installed).
 
-   * For other issues, try seraching the Arduino Help Center or [contacting Arduino Support](https://www.arduino.cc/en/contact-us/).
+   - For other issues, try seraching the Arduino Help Center or [contacting Arduino Support](https://www.arduino.cc/en/contact-us/).
