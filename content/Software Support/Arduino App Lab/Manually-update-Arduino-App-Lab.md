@@ -1,5 +1,6 @@
 ---
-title: "Manually update Arduino App Lab"
+title: Manually update Arduino App Lab
+id: 24305472458652
 ---
 
 Normally, Arduino App Lab is automatically updated when a new version is released. If you need to manually update App Lab, you can download and install the latest version from the Arduino website.
