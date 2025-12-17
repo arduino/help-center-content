@@ -17,7 +17,6 @@ Follow these steps:
    - **macOS:** Open the `.dmg` file from your Downloads folder. Drag and drop Arduino App Lab into your Applications folder.
    - **Linux:** Extract the downloaded `.tar.gz` archive. Optionally, move the folder to your Application folder, or wherever you had previously installed App Lab.
 1. If prompted, allow the installation to overwrite the old version of the application.
-
-After that, you will have the latest version of Arduino App Lab installed on your computer.
+1. Launch Arduino App Lab to confirm the update was successful. You can see the version number by the title bar of the Arduino App Lab window. For example, if you are running version 0.3.0, the window title will be **Arduino App Lab - 0.3.0**.
 
 To learn more about how to install and set up Arduino App Lab, see [Getting Started with Arduino App Lab](https://docs.arduino.cc/software/app-lab/tutorials/getting-started).
