@@ -17,9 +17,6 @@ In this article:
 
 ---
 
-> [!NOTE]
-> To ensure compatibility and prevent issues, App Lab needs to check for updates when you connect a board or start App Lab in standalone mode. This process requires an internet connection. An option to skip updates is planned for a future Arduino App Lab release.
-
 ## Updates are required
 
 To ensure compatibility and prevent issues, App Lab needs to check for updates when you connect a board or start App Lab in standalone mode. This process requires an internet connection. An option to skip updates is planned for a future Arduino App Lab release.
