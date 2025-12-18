@@ -2,7 +2,7 @@
 title: ASEC-25-004 - Arduino-IDE v2.3.7 Resolves Multiple Vulnerabilities
 ---
 
-Bulletin ID: ASEC-25-004
+Bulletin ID: ASEC-25-004  
 Date: Dec 18, 2025  
 Product/Component: Arduino-IDE  
 Affected versions: \<= 2.3.6  
