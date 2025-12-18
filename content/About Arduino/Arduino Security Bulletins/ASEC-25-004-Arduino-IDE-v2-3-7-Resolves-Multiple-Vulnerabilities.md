@@ -13,10 +13,10 @@ Fixed version: \>= 2.3.7
 A new version of the Arduino IDE is now available at the following link: [Arduino IDE v2.3.7 Release](https://github.com/arduino/arduino-ide/releases/tag/2.3.7).
 
 This release includes following updates:
+
 * A dedicated security fix for the [CVE-2025-64724](https://nvd.nist.gov/vuln/detail/CVE-2025-64724) vulnerability that affects all Arduino IDE versions before version v2.3.7. Further details are available in the official security advisory at the following link: [GHSA-3fvj-pgqw-fgw6](https://github.com/arduino/arduino-ide/security/advisories/GHSA-3fvj-pgqw-fgw6).
+
 * Moreover, a dedicated security fix for the [CVE-2025-64725](https://nvd.nist.gov/vuln/detail/CVE-2025-64725) vulnerability that affects all Arduino IDE versions before version v2.3.7. Further details are available in the official security advisory at the following link: [GHSA-vf5j-xhwq-8vqj](https://github.com/arduino/arduino-ide/security/advisories/GHSA-vf5j-xhwq-8vqj).
-
-
 
 ## Action Required
 
