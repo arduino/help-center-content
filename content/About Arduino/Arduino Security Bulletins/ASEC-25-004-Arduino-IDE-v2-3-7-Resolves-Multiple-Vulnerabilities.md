@@ -16,7 +16,7 @@ This release includes following updates:
 
 * A dedicated security fix for the [CVE-2025-64724](https://nvd.nist.gov/vuln/detail/CVE-2025-64724) vulnerability that affects all Arduino IDE versions before version v2.3.7. Further details are available in the official security advisory at the following link: [GHSA-3fvj-pgqw-fgw6](https://github.com/arduino/arduino-ide/security/advisories/GHSA-3fvj-pgqw-fgw6).
 
-* Moreover, a dedicated security fix for the [CVE-2025-64725](https://nvd.nist.gov/vuln/detail/CVE-2025-64725) vulnerability that affects all Arduino IDE versions before version v2.3.7. Further details are available in the official security advisory at the following link: [GHSA-vf5j-xhwq-8vqj](https://github.com/arduino/arduino-ide/security/advisories/GHSA-vf5j-xhwq-8vqj).
+* Moreover, a dedicated security fix for the [CVE-2025-64723](https://nvd.nist.gov/vuln/detail/CVE-2025-64723) vulnerability that affects all Arduino IDE versions before version v2.3.7. Further details are available in the official security advisory at the following link: [GHSA-vf5j-xhwq-8vqj](https://github.com/arduino/arduino-ide/security/advisories/GHSA-vf5j-xhwq-8vqj).
 
 ## Action Required
 
@@ -35,7 +35,7 @@ For further details regarding the resolved vulnerabilities, refer to the followi
 * [Arduino-IDE v2.3.7 Release](https://github.com/arduino/arduino-ide/releases/tag/2.3.7)
 * [CVE-2025-64724](https://nvd.nist.gov/vuln/detail/CVE-2025-64724)
 * [GHSA-3fvj-pgqw-fgw6](https://github.com/arduino/arduino-ide/security/advisories/GHSA-3fvj-pgqw-fgw6)
-* [CVE-2025-64725](https://nvd.nist.gov/vuln/detail/CVE-2025-64725)
+* [CVE-2025-64723](https://nvd.nist.gov/vuln/detail/CVE-2025-64723)
 * [GHSA-vf5j-xhwq-8vqj](https://github.com/arduino/arduino-ide/security/advisories/GHSA-vf5j-xhwq-8vqj)
 
 For any questions or support, please refer to the [Arduino-IDE GitHub repository](https://github.com/arduino/arduino-ide) or the official support channels.
