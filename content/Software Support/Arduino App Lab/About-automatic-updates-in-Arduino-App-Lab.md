@@ -79,4 +79,4 @@ When you connect to a board in Arduino App Lab, it automatically checks for upda
 ## Troubleshooting
 
 - If you see a **"Your board software is out of date”** warning, you need to manually flash the Linux image. See [If your Arduino UNO Q board software is out of date](https://support.arduino.cc/hc/en-us/articles/23170731875740-If-your-Arduino-UNO-Q-board-software-is-out-of-date).
-- If the update process completed but without updating App Lab to the latest version, you can [update App Lab manually](#manually-update-arduino-app-lab).
+- If the update process completed but without updating App Lab to the latest version, you can [update App Lab manually](https://support.arduino.cc/hc/en-us/articles/24305472458652-Manually-update-Arduino-App-Lab).
