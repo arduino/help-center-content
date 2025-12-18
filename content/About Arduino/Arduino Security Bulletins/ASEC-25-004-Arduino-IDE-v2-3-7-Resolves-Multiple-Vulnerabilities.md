@@ -24,7 +24,7 @@ To ensure security and stability, users are advised to update Arduino-IDE to ver
 
 **Update Steps:**
 
-1. Download the latest version from the official release page: [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
+1. Download the latest version from the official release page: [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software/#ide-download-section)
 2. Follow the installation instructions provided in the documentation.
 3. Verify that the update was successful.
 
