@@ -1,5 +1,6 @@
 ---
-title: "If App Lab does not open on Linux"
+title: If App Lab does not open on Linux
+id: 24333370402076
 ---
 
 If you’re running App Lab on Linux, the application will not be able to launch if the WebKit2 library is not installed. Learn how to install the library and diagnose other potential issues.
