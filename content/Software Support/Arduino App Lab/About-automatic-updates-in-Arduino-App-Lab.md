@@ -30,6 +30,8 @@ It's important to understand the difference between updating Arduino App Lab and
 - **Board software update:** The software that runs on your Arduino board (like the Arduino UNO Q). This include the Arduino App Lab installation on the board, which can be run standalone mode.
 - **Arduino App Lab (on PC):** The application running on your computer. Updates for App Lab bring new features, bug fixes, and performance improvements to the application itself.
 
+[Learn more about the software components for Arduino App Lab](https://support.arduino.cc/hc/en-us/articles/24358702846748-Code-repositories-for-Arduino-App-Lab-components){.link-chevron-right}
+
 ---
 
 ## Trigger an automatic update in Arduino App Lab
