@@ -1,5 +1,6 @@
 ---
 title: About automatic updates in Arduino App Lab
+id: 24360072322972
 ---
 
 Arduino App Lab is updated regularly with new features and bug fixes. When a new version is available, App Lab will automatically ask you to update.
