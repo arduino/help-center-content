@@ -19,7 +19,7 @@ The project board is included with the following kits:
 * Breadboard
 * The orange, plastic base
 * 3 x nuts (M3)
-* 3 x srews (M3 x 12 mm)
+* 3 x screws (M3 x 12 mm)
 
 > [!TIP]
 > The nuts and scews are included with the kit and can be found in the electronic components box.
@@ -44,7 +44,7 @@ In this section:
 
 1. Take the plastic sheet and carefully separate the pieces from the sheet by twisting and pressing on them.
 
-2. When you're finished you should have the following pieces:
+2. When you're finished, you should have the following pieces:
 
     <img src="img/project-board-pieces.png" alt="The separated plastic pieces." width=300px/>
 
