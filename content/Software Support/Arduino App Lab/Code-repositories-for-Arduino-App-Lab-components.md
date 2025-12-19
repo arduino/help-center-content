@@ -8,7 +8,7 @@ The table below lists each component, its purpose, and a link to its GitHub repo
 
 | Component                  | Purpose                                               | Repository                                                                      |
 |----------------------------|-------------------------------------------------------|---------------------------------------------------------------------------------|
-| Arduino App Lab            | App development                                       | Not public at this time.                                                        |
+| Arduino App Lab            | App development                                       | [arduino/arduino-app-lab](https://github.com/arduino/arduino-app-lab)           |
 | Arduino App CLI            | App management                                        | [arduino/arduino-app-cli](https://github.com/arduino/arduino-app-cli)           |
 | Arduino CLI                | Compile and upload sketch, manage sketch dependencies | [arduino/arduino-cli](https://github.com/arduino/arduino-cli)                   |
 | arduino-router             | Linux communication w/ sketch                         | [arduino/arduino-router](https://github.com/arduino/arduino-router)             |
