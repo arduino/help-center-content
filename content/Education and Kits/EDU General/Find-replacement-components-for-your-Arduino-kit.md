@@ -43,5 +43,5 @@ The project book included in the [Arduino Starter Kit](https://store.arduino.cc/
 
 ## Still need help?
 
-- Check [If an Arduino Education kit component is missing or not working](https://support.arduino.cc/hc/en-us/articles/4406561528210-If-an-Arduino-Education-kit-component-is-missing-or-not-working).
-- If a component is not available in the online shop, please [contact us](https://www.arduino.cc/en/contact-us/).
+* Check [If an Arduino Education kit component is missing or not working](https://support.arduino.cc/hc/en-us/articles/4406561528210-If-an-Arduino-Education-kit-component-is-missing-or-not-working).
+* If a component is not available in the online shop, please [contact us](https://www.arduino.cc/en/contact-us/).
