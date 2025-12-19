@@ -1,5 +1,6 @@
 ---
 title: If Arduino App Lab shows an "Error checking for updates" message
+id: 24359619949084
 ---
 
 When Arduino App Lab is checking for software updates, you may encounter an "Error checking for updates" message. Learn how to resolve the issue.
