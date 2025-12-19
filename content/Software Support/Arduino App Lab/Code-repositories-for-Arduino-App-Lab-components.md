@@ -1,5 +1,6 @@
 ---
-title: "Code repositories for Arduino App Lab components"
+title: Code repositories for Arduino App Lab components
+id: 24358702846748
 ---
 
 The Arduino App Lab is composed of several software components, each with its own code repository on GitHub. There, you can browse and download the source code for any component. You can also track ongoing issues and report bugs or propose enhancements.
