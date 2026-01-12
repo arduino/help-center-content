@@ -1,5 +1,6 @@
 ---
-title: "Register your Arduino Starter Kit R4"
+title: Register your Arduino Starter Kit R4
+id: 24775562011036
 ---
 
 By registering Arduino Starter Kit R4 you can access extra projects and multi-language content.
