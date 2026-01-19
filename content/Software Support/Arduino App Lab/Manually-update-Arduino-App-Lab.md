@@ -21,3 +21,5 @@ Follow these steps:
 1. Launch Arduino App Lab to confirm the update was successful. You can see the version number by the title bar of the Arduino App Lab window. For example, if you are running version 0.3.0, the window title will be **Arduino App Lab - 0.3.0**.
 
 To learn more about how to install and set up Arduino App Lab, see [Getting Started with Arduino App Lab](https://docs.arduino.cc/software/app-lab/tutorials/getting-started).
+
+For more information about the software components, see [Code repositories for Arduino App Lab components](https://support.arduino.cc/hc/en-us/articles/24358702846748-Code-repositories-for-Arduino-App-Lab-components).
