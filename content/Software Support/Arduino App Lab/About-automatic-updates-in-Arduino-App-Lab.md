@@ -9,35 +9,18 @@ In this article:
 
 <!-- TOC -->
 
-- [Updates are required](#updates-are-required)
+- [Manage automatic updates](#manage-automatic-updates)
 - [What is updated](#what-is-updated)
-- [Trigger an automatic update in Arduino App Lab](#trigger-an-automatic-update-in-arduino-app-lab)
+- [Skipping updates](#skipping-updates)
 - [Troubleshooting](#troubleshooting)
 
 <!-- /TOC -->
 
 ---
 
-## Updates are required
+## Manage automatic updates
 
-To ensure compatibility and prevent issues, App Lab needs to check for updates when you connect a board or start App Lab in standalone mode. This process requires an internet connection. An option to skip updates is planned for a future Arduino App Lab release.
-
----
-
-## What is updated
-
-It's important to understand the difference between updating Arduino App Lab and updating the software on your Arduino board.
-
-- **Board software update:** The software that runs on your Arduino board (like the Arduino UNO Q). This include the Arduino App Lab installation on the board, which can be run standalone mode.
-- **Arduino App Lab (on PC):** The application running on your computer. Updates for App Lab bring new features, bug fixes, and performance improvements to the application itself.
-
-[Learn more about the software components for Arduino App Lab](https://support.arduino.cc/hc/en-us/articles/24358702846748-Code-repositories-for-Arduino-App-Lab-components){.link-chevron-right}
-
----
-
-## Trigger an automatic update in Arduino App Lab
-
-When you connect to a board in Arduino App Lab, it automatically checks for updates. This process updates both the Arduino App Lab installation on your computer, and the installation on the board.
+When you connect to a board in Arduino App Lab, it automatically checks for updates. This process requires an Internet connection.
 
 ### On your computer
 
@@ -49,9 +32,7 @@ When you connect to a board in Arduino App Lab, it automatically checks for upda
 
 1. If Arduino App Lab detects new updates, they will be displayed.
 
-   ![App Lab update available](img/app-lab-update.png)
-
-1. Click **Install Updates** to confirm.
+1. Click **Install Updates** to confirm or **Next Time** to skip.
 
 ### In standalone mode
 
@@ -68,9 +49,29 @@ When you connect to a board in Arduino App Lab, it automatically checks for upda
 
 1. If Arduino App Lab detects new updates, they will be displayed.
 
-   ![App Lab update available](img/app-lab-update.png)
+1. Click **Install Updates** to confirm or **Next Time** to skip.
 
-1. Click **Install Updates** to confirm.
+---
+
+## What is updated
+
+It's important to understand the difference between updating Arduino App Lab and updating the software on your Arduino board.
+
+- **Board software update:** The software that runs on your Arduino board (like the Arduino UNO Q). This include the Arduino App Lab installation on the board, which can be run standalone mode.
+- **Arduino App Lab (on PC):** The application running on your computer. Updates for App Lab bring new features, bug fixes, and performance improvements to the application itself.
+
+You can see details about the updates in the updates prompt window.
+
+[Learn more about the software components for Arduino App Lab](https://support.arduino.cc/hc/en-us/articles/24358702846748-Code-repositories-for-Arduino-App-Lab-components){.link-chevron-right}
+
+---
+
+## Skipping updates
+
+> [!INFO]
+> To ensure compatibility and prevent issues, some updates may be mandatory and cannot be skipped.
+
+With App Lab version 0.3.1 and later, you can skip non-mandatory updates for both App Lab and board software. When prompted to update, click the **Next Time** button to skip the update. You'll be asked again next time you connect to the board or launch Arduino App Lab in standalone mode.
 
 ---
 
