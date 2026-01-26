@@ -56,7 +56,7 @@ Many online courses and content for Arduino products that previously required an
 
 Find the course or online content for your product below.
 
-> ![INFO]
+> [!NOTE]
 > You may need to sign in to an Arduino account to access the page.
 
 | Product                                | Course                                                                                                                                                                                                                    |
