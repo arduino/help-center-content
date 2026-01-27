@@ -3,7 +3,7 @@ title: "About activation codes for Arduino products"
 id: 4402999992850
 ---
 
-Many Arduino products that previously required an activation code to access online content now offer free access. However, some products still use codes to unlock additional features, software, or Arduino Cloud plans.
+Many courses and online content for Arduino products that previously required an activation code is now available for free. However, some products still use codes to unlock additional features, software, or Arduino Cloud plans. Learn which products still use activation codes and what they unlock.
 
 In this article:
 
@@ -54,29 +54,6 @@ Many online courses and content for Arduino products that previously required an
 
 ## Access online content for your product
 
-Find the course or online content for your product below.
+To find the online course or content for your specific Arduino product, please refer to this support article:
 
-> [!NOTE]
-> You may need to sign in to an Arduino account to access the page.
-
-| Product                                | Course                                                                                                                                                                                                                    |
-|----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Arduino Alvik                          | [Block Based Coding and Robotics](https://courses.arduino.cc/block-based-coding-robotics/){.link-external}<br>[Explore Robotics in MicroPython](https://courses.arduino.cc/explore-robotics-micropython/){.link-external} |
-| Arduino Braccio ++                     | [Course](https://braccio.arduino.cc/){.link-external}                                                                                                                                                                     |
-| Arduino CTC 101                        | [Course](https://ctc101.arduino.cc/){.link-external}                                                                                                                                                                      |
-| Arduino CTC GO! Core Module            | [Course](https://ctc-go.arduino.cc/ctc-go/ctcgo/module/digital-i-o/){.link-external}                                                                                                                                      |
-| Arduino CTC GO! Motions Expansion Pack | [Course](https://ctc-go.arduino.cc/ctc-go/ctcgomotion/module/motions){.link-external}                                                                                                                                     |
-| Arduino Education Starter Kit          | [Course](https://aesk.arduino.cc/){.link-external}                                                                                                                                                                        |
-| Arduino Engineering Kit                | [Course](https://aek.arduino.cc/){.link-external}                                                                                                                                                                         |
-| Arduino Engineering Kit R2             | [Course](https://engineeringkit.arduino.cc/){.link-external}                                                                                                                                                              |
-| Arduino Explore IoT Kit Rev1           | [Course](https://explore-iot.arduino.cc/){.link-external}                                                                                                                                                                 |
-| Arduino Explore IoT Kit Rev2           | [Course](https://courses.arduino.cc/explore-iot/){.link-external}<br>_Cloud School plan required to access full course._                                                                                                  |
-| Arduino Greenhouse Kit                 | [Course](https://greenhouse-kit.arduino.cc/){.link-external}                                                                                                                                                              |
-| Arduino Oplà IoT Kit                   | [Course](https://opla.arduino.cc/){.link-external}                                                                                                                                                                        |
-| Arduino PLC Starter Kit                | [Course](https://courses.arduino.cc/explore-plc/){.link-external}                                                                                                                                                         |
-| Arduino Plug and Make Kit              | [Course](https://courses.arduino.cc/plugandmake/){.link-external}                                                                                                                                                         |
-| Arduino Science Kit                    | [Course](https://physics-lab.arduino.cc/){.link-external}                                                                                                                                                                 |
-| Arduino Science Kit Rev2               | [Course](https://physics-lab.arduino.cc/){.link-external}                                                                                                                                                                 |
-| Arduino Science Kit R3                 | [Course](https://courses.arduino.cc/explore-physics/){.link-external}                                                                                                                                                     |
-| Arduino Starter Kit R4                 | [Course](https://courses.arduino.cc/starter-kit-r4/){.link-external}                                                                                                                                                      |
-| Arduino Student Kit                    | [Course](https://studentkit.arduino.cc/){.link-external}                                                                                                                                                                  |
+[Find the course for your Arduino product](https://support.arduino.cc/hc/en-us/articles/360021587259){.link-chevron-right}
