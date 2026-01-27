@@ -3,7 +3,7 @@ title: "About activation codes for Arduino products"
 id: 4402999992850
 ---
 
-Many Arduino products that previously required an activation code to access online content now offer free access. However, some products still use codes to unlock additional features, software, or Arduino Cloud plans.
+Many courses and online content for Arduino products that previously required an activation code is now available for free. However, some products still use codes to unlock additional features, software, or Arduino Cloud plans. Learn which products still use activation codes and what they unlock.
 
 In this article:
 
