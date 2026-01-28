@@ -68,7 +68,7 @@ You can see details about the updates in the updates prompt window.
 
 ## Skipping updates
 
-> [!INFO]
+> [!NOTE]
 > To ensure compatibility and prevent issues, some updates may be mandatory and cannot be skipped.
 
 With App Lab version 0.3.1 and later, you can skip non-mandatory updates for both App Lab and board software. When prompted to update, click the **Next Time** button to skip the update. You'll be asked again next time you connect to the board or launch Arduino App Lab in standalone mode.

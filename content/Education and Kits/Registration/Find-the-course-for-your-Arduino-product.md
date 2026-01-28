@@ -32,7 +32,7 @@ If you don't know which course to use, see [List of courses by product](#list-of
 
 Here you can find the course or online content for each product.
 
-> [!INFO]
+> [!NOTE]
 > You may need to sign in to an Arduino account to access the course.
 
 | Product                                | Course                                                                                                                                                                                                                    |
