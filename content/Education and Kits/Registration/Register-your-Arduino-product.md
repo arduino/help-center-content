@@ -65,14 +65,14 @@ Follow these steps:
 
 1. Go to [arduino.cc/start](https://arduino.cc/start).
 
-2. Find the **Arduino Starter Kit R4** on the page and click on it.
+2. Find the **Arduino UNO R4 WiFi** on the page and click on it.
 
    > [!NOTE]
-   > Do not use the "Pick your board or kit" dropdown menu, as it does not list the Starter Kit R4.
+   > Do not use the "Pick your board or kit" dropdown menu, as it does not list the Arduino UNO R4 WiFi.
 
 3. You may be prompted to sign up for the Arduino newsletter. Choose **Sign me up** or **Skip**.
 
-4. Find the product code on a sticker on the Starter Kit R4 box. Type it into the **Product code** field.
+4. Find the product code on a sticker on the Arduino UNO R4 WiFi box. Type it into the **Product code** field.
 
    > [!TIP]
    > The sticker has a QR code and the text "SCAN THE QR". The product code is labeled "serial".
