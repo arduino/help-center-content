@@ -1,5 +1,6 @@
 ---
-title: "About teacher notes in Arduino Education courses"
+title: About teacher notes in Arduino Education courses
+id: 25188714096284
 ---
 
 Teacher notes are supplementary materials available with many Arduino Education products and courses. They are designed to assist educators in the classroom by providing valuable guidance, lesson plans, and project solutions.
