@@ -25,7 +25,7 @@ In this article:
 
 ---
 
-## About product registration on arduino\.cc/start
+## About product registration
 
 You can register supported products to add them to your personal collection at [id.arduino.cc/boards](https://id.arduino.cc/boards). This gives you easy access to documentation on Arduino Docs. For some products, registration also unlocks exclusive features or content.
 
