@@ -14,7 +14,7 @@ In this article:
 
 <!-- TOC -->
 
-- [About product registration on arduino.cc/start](#about-product-registration-on-arduinoccstart)
+- [About product registration](#about-product-registration)
 - [Products that support registration](#products-that-support-registration)
 - [Register an Arduino Starter Kit R4](#register-an-arduino-starter-kit-r4)
 - [Register an Arduino UNO R4 WiFi](#register-an-arduino-uno-r4-wifi)
