@@ -3,7 +3,7 @@ title: "Register your Arduino product"
 id: 4407393580818
 ---
 
-Registering your product can give you access to exclusive content, special features, and extended Arduino Cloud plans. It also adds the board to your personal collection for quick access to its documentation.
+You can register supported products to add them to your personal collection at [id.arduino.cc/boards](https://id.arduino.cc/boards), for easy access to its documentation. For some products, registration also unlocks exclusive features or content.
 
 > [!IMPORTANT]
 > Kits released before November 2025 no longer use registration to unlock online courses, but some may include features that are activated in other ways. For more information, see [About activation codes for Arduino products](https://support.arduino.cc/hc/en-us/articles/4402999992850-About-activation-codes-for-Arduino-products).
