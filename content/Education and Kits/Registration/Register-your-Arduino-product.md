@@ -71,7 +71,7 @@ You can register supported products to add them to your personal collection at [
 - Portenta H7
 - Portenta H7 Lite
 - Portenta H7 Lite Connected
-- Portenta X8
+<!-- - Portenta X8 --- Does not work as of 2025-02-02 -->
 - Starter Kit R4
 - Stella
 - UNO Mini Limited Edition
