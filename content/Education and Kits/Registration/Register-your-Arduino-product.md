@@ -87,7 +87,7 @@ The following products can be registered:
 
 The following products may appear on the registration page, but are currently not supported:
 
-- Portenta X8 <!--- Does not work as of 2025-02-02 -->
+- Portenta X8 <!--- Does not work as of 2026-02-02 -->
 
 ---
 
