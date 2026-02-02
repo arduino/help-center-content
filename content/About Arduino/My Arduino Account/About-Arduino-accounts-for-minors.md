@@ -54,5 +54,4 @@ The browsing activity of Restricted Accounts will not be visible to Arduino.
 
 * [Create an Arduino account for a minor](https://support.arduino.cc/hc/en-us/articles/360022234360#junior-request)
 * [Delete an Arduino account](https://support.arduino.cc/hc/en-us/articles/360017090920)
-* [Children's Privacy Policy](https://www.arduino.cc/en/privacy-policy/children-privacy-policy)
 * [Privacy Policy](https://www.arduino.cc/en/privacy-policy)

@@ -5,6 +5,18 @@ id: 4409205367186
 
 Most components for the Arduino kits can be found in the [Arduino Store](https://store.arduino.cc/). Learn more about specific options below.
 
+* [Arduino Replacement Pack](#arduino-replacement-pack)
+* [Motors and servos](#motors-and-servos)
+* [Boards and accessories](#boards-and-accessories)
+* [Arduino Starter Kit project book](#arduino-starter-kit-project-book)
+* [Still need help?](#still-need-help)
+
+---
+
+## Replacement boards
+
+[Purchase individual boards in the Arduino Store](https://store.arduino.cc/collections/boards?page=1&grid_list=list-view){link-chevron-right}
+
 ## Arduino Replacement Pack
 
 The [Arduino Replacement Pack](https://store.arduino.cc/collections/accessories/products/arduino-replacements-pack) includes the most common electronic components like jump wires, LEDs, resistors, transistors, and sensors for the Arduino Starter Kit Classroom Pack, Arduino Student Kit, Arduino Education Starter Kit, Arduino CTC 101, and ARDUINO CTC GO! - CORE MODULE.
@@ -12,22 +24,24 @@ The [Arduino Replacement Pack](https://store.arduino.cc/collections/accessories/
 > [!NOTE]
 > the Arduino Replacement Pack does not include motors or servos.
 
-## Motors and servos
+## Motors and servos for Engineering Kit Rev2
 
-- You can find various motors and servos [here](https://store.arduino.cc/collections/motors-servos).
-- Replacement motors for the Arduino Engineering Kit Rev2 are available in the [Engineering Kit Motors Backup](https://store.arduino.cc/collections/accessories/products/engineering-kit-motors-backup).
+[Engineering Kit Motors Backup](https://store.arduino.cc/collections/accessories/products/engineering-kit-motors-backup) contains replacement motors for the Arduino Engineering Kit Rev2.
 
-## Boards and accessories
+## Project book from Arduino Starter Kit
 
-- View our collection of boards [here](https://store.arduino.cc/collections/boards?page=1&grid_list=list-view).
-- Other accessories can be found [here](https://store.arduino.cc/collections/accessories?page=1&grid_list=list-view).
+The project book included in the [Arduino Starter Kit](https://store.arduino.cc/products/arduino-starter-kit-multi-language) is not available for sale individually. If you encounter any issues with the project book included in your Arduino Starter Kit, please [contact us](https://www.arduino.cc/en/contact-us/).
 
-## Arduino Starter Kit project book
+## Project board
 
-- The project book is used in connection to the board and components included in the [Arduino Starter Kit](https://store.arduino.cc/products/arduino-starter-kit-multi-language). Therefore, it is not possible to purchase the project book separately.
-- [Contact us](https://www.arduino.cc/en/contact-us/) if you encounter any issues with the project book included in your [Arduino Starter Kit](https://store.arduino.cc/products/arduino-starter-kit-multi-language).
+* The plastic sheet for the **project board** (included in Arduino Starter Kit, Education Starter Kit, and Arduino Student kit) is not available for sale individually.
+* These are the specifications for the nuts and screws:
+  * 3 x nuts (M3)
+  * 3 x screws (M3 x 12 mm)
+
+---
 
 ## Still need help?
 
-- Check [If an Arduino Education kit component is missing or not working](https://support.arduino.cc/hc/en-us/articles/4406561528210-If-an-Arduino-Education-kit-component-is-missing-or-not-working).
-- If a component is not available in the online shop, please [contact us](https://www.arduino.cc/en/contact-us/).
+* Check [If an Arduino Education kit component is missing or not working](https://support.arduino.cc/hc/en-us/articles/4406561528210-If-an-Arduino-Education-kit-component-is-missing-or-not-working).
+* If a component is not available in the online shop, please [contact us](https://www.arduino.cc/en/contact-us/).
