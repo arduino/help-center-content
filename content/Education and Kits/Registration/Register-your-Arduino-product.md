@@ -6,7 +6,7 @@ id: 4407393580818
 Registering your product can give you access to exclusive content, special features, and extended Arduino Cloud plans. It also adds the board to your personal collection for quick access to its documentation.
 
 > [!IMPORTANT]
-> Kits released before November 2025 no longer use registration for to unlock online courses, but some may include features that are activated in other ways. For more information, see [About activation codes for Arduino products](https://support.arduino.cc/hc/en-us/articles/4402999992850-About-activation-codes-for-Arduino-products).
+> Kits released before November 2025 no longer use registration to unlock online courses, but some may include features that are activated in other ways. For more information, see [About activation codes for Arduino products](https://support.arduino.cc/hc/en-us/articles/4402999992850-About-activation-codes-for-Arduino-products).
 
 Avoid using the QR code to open the registration page, as it may not load the page correctly.
 
@@ -85,7 +85,7 @@ The following products can be registered:
 - Zero
 {.multi-col-list}
 
-The following products may appear on on the registration page, but are currently not supported:
+The following products may appear on the registration page, but are currently not supported:
 
 - Portenta X8 <!--- Does not work as of 2025-02-02 -->
 
