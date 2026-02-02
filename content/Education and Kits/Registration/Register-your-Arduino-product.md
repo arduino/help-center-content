@@ -3,10 +3,10 @@ title: "Register your Arduino product"
 id: 4407393580818
 ---
 
-Registering your product can give you access to exclusive content, special features, and extended Arduino Cloud plans. It also adds the board to your personal collection for quick access to its documentation.
+You can register supported products to add them to your personal collection at [id.arduino.cc/boards](https://id.arduino.cc/boards), for easy access to its documentation. For some products, registration also unlocks exclusive features or content.
 
 > [!IMPORTANT]
-> Kits released before November 2025 no longer use registration for to unlock online courses, but some may include features that are activated in other ways. For more information, see [About activation codes for Arduino products](https://support.arduino.cc/hc/en-us/articles/4402999992850-About-activation-codes-for-Arduino-products).
+> Kits released before November 2025 no longer use registration to unlock online courses, but some may include features that are activated in other ways. For more information, see [About activation codes for Arduino products](https://support.arduino.cc/hc/en-us/articles/4402999992850-About-activation-codes-for-Arduino-products).
 
 Avoid using the QR code to open the registration page, as it may not load the page correctly.
 
@@ -14,7 +14,7 @@ In this article:
 
 <!-- TOC -->
 
-- [About product registration on arduino.cc/start](#about-product-registration-on-arduinoccstart)
+- [About product registration](#about-product-registration)
 - [Products that support registration](#products-that-support-registration)
 - [Register an Arduino Starter Kit R4](#register-an-arduino-starter-kit-r4)
 - [Register an Arduino UNO R4 WiFi](#register-an-arduino-uno-r4-wifi)
@@ -36,6 +36,8 @@ You can register supported products to add them to your personal collection at [
 | Other products that support registration |                      | ✔                |
 
 ## Products that support registration
+
+The following products can be registered:
 
 - Alvik
 - Due
@@ -71,7 +73,6 @@ You can register supported products to add them to your personal collection at [
 - Portenta H7
 - Portenta H7 Lite
 - Portenta H7 Lite Connected
-- Portenta X8
 - Starter Kit R4
 - Stella
 - UNO Mini Limited Edition
@@ -83,6 +84,10 @@ You can register supported products to add them to your personal collection at [
 - Yún Rev2
 - Zero
 {.multi-col-list}
+
+The following products may appear on the registration page, but are currently not supported:
+
+- Portenta X8 <!--- Does not work as of 2026-02-02 -->
 
 ---
 
@@ -140,7 +145,12 @@ Follow these steps:
 
 1. Go to [arduino.cc/start](https://arduino.cc/start).
 
-2. Select your product from the **Pick your board or kit** dropdown menu.
+2. Select your product:
+
+   - If your product is listed under Popular Choices, click on it.
+   - Otherwise, select your product from the "Pick your board or kit" dropdown menu. Note that products listed as "popular choices" may not appear in this list.
+
+   ![Popular choices.](img/register-product-popular-choices.png)
 
 3. Follow the on-screen instructions. You may be asked to sign up for the newsletter before proceeding.
 
