@@ -63,7 +63,7 @@ You can add supported devices via Bluetooth if they are running the preflashed [
 
 Supported boards:
 
-- Arduino Opta WiFi
+- Arduino GIGA R1 WiFi
 - Arduino UNO R4 WiFi
 
 Follow these steps:
@@ -86,8 +86,8 @@ Follow these steps:
 
    - Ensure that your device is powered.
    - Reset the board's Cloud configuration:
+     - GIGA R1 WiFi: Connect Pin 7 and GND, until the LED turns off.
      - UNO R4 WiFi: Connect Pin 2 and GND, until the LED turns off.
-     - Opta: Press and hold the user button (BTN_USER) until the led (LED_USER) turns off.
    - Add the board via Serial (USB) instead.
 
 7. Confirm that the LED on your device is solid and select **Continue**.
