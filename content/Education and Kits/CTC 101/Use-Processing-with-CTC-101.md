@@ -55,7 +55,7 @@ If you can’t install Processing, you can still code Processing or p5.js projec
 
 ## Get started with Processing in CTC 101
 
-When you've [registered your kit](https://support.arduino.cc/hc/en-us/articles/4407393580818-Register-an-Arduino-Education-Kit), you can learn about how to install and use Processing in the CTC 101 kit resources:
+Install and use Processing in the CTC 101 kit resources:
 
 1. Go to [ctc101.arduino.cc/resources](https://ctc101.arduino.cc/resources).
 2. Type "Processing" in the search field.
