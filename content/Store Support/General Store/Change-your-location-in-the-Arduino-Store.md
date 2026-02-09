@@ -9,7 +9,7 @@ When viewing items in the Arduino Store, the prices and availability of products
 
 Follow these steps:
 
-1. Open [store.arduino.cc](https://support.arduino.cc/hc/en-us/articles/15529764047516-Change-your-location-in-the-Arduino-Store) in your browser.
+1. Open [store.arduino.cc](https://store.arduino.cc/) in your browser.
 
 1. Your currently selected location is displayed in the bottom-left corner:
 
