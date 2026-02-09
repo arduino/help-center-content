@@ -33,7 +33,7 @@ Resolve the issue by installing the library:
 
 1. Try launching App Lab again.
 
-If the library was already installed, check for other errors by [launching App Lab in Terminal](#try-launching-app-lab-in-terminal).
+If the library was already installed, check for other errors by [launching App Lab in Terminal](#launch-app-lab-in-terminal).
 
 ## Launch App Lab in Terminal
 

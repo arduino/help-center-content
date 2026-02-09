@@ -9,7 +9,7 @@ In this article:
 
 <!-- TOC -->
 
-- [Use Processing in your browser](#use-processing-in-your-browser)
+- [Get the Processing IDE](#get-the-processing-ide)
 - [Can I use processing in Chromebooks?](#can-i-use-processing-in-chromebooks)
 - [Get started with Processing in CTC 101](#get-started-with-processing-in-ctc-101)
 - [How to work with the projects that use Processing-Arduino communication in Chromebook](#how-to-work-with-the-projects-that-use-processing-arduino-communication-in-chromebook)
@@ -21,23 +21,9 @@ In this article:
 
 ---
 
-## Use Processing in your browser
+## Get the Processing IDE
 
-Processing is a programming language with multiple possibilities, thanks to the effort of its community. To display your projects to this community we suggest two ways to upload and share your projects.
-
-These tools could also help you create a collaborative environment to write your code in.
-
-- [OpenProcessing](https://openprocessing.org/){.link-external}
-
-   OpenProcessing is an open gallery for your projects, just create an account and you can upload and execute your Processing sketches in the browser.
-
-   This website has the option to render your sketch using [p5js](https://p5js.org/) or [processingJS](http://processingjs.org/). These two modes have some different syntaxes however the processingJS mode uses the same syntax as the one you use in the Processing IDE.
-
-- [SketchPad](https://sketchpad.cc/){.link-external}
-
-  SketchPad will help you create a collaborative environment to write code between multiple users by just sharing the URL of the project. It also allows to share code and embed it in websites.
-
-  An interesting feature is that you can keep track of your code's versions, useful when you want to go back to any of the past interactions.
+To use Processing, we recommend downloading and installing the official Processing IDE from the [Processing Foundation website](https://processing.org/).
 
 ---
 
@@ -48,8 +34,6 @@ Yes, you can use Processing on Chromebooks that support Linux on ChromeOS. Most 
 To check if your Chromebook supports Linux, visit [ChromeOS Systems Supporting Linux](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux/).
 
 If you're using a Chromebook from a school or workplace, Linux may be disabled. In that case, ask [your administrator](https://support.google.com/accounts/answer/6208960?sjid=7209928928643098082-EU) for help.
-
-If you can’t install Processing, you can still code Processing or p5.js projects online. See [Use Processing in your browser](https://support.arduino.cc/hc/en-us/articles/360017098499).
 
 ---
 
