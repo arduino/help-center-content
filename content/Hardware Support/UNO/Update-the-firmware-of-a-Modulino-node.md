@@ -3,7 +3,7 @@ title: "Update the firmware of a Modulino node"
 id: 16205756022172
 ---
 
-Learn how to update the firmware of a [Modulino node](https://store-usa.arduino.cc/products/plug-and-make-kit?srsltid=AfmBOopomr-DZVLRzl_VhXSSemiNa75qfABCHjqhvLQs7vz9_2PLgQN9#:~:text=technology%20%E2%80%93%20and%20yours.-,What%20are%20Modulino%C2%AE%3F,-Modulino%C2%AE%20are%20sensors).
+Learn how to update the firmware of a [Modulino node](https://store-usa.arduino.cc/products/plug-and-make-kit).
 
 Updating the firmware may be necessary to resolve issues with Modulino nodes.
 
@@ -20,7 +20,7 @@ In this article:
 
 2. Connect the board to your computer and open Arduino IDE.
 
-3. [Go to the Library Manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE) and install the [Modulino](https://docs.arduino.cc/libraries/modulino/) and [ArduinoGraphics](https://docs.arduino.cc/libraries/arduinographics/) libraries.
+3. [Go to the Library Manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE) and install the [Modulino](https://docs.arduino.cc/libraries/arduino_modulino) and [ArduinoGraphics](https://docs.arduino.cc/libraries/arduinographics/) libraries.
 
 4. In the top menu bar, open **File > Examples > Modulino > Utilities > FirmwareUpdater**.
 
