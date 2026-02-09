@@ -26,6 +26,11 @@ https://digital-store.arduino.cc/subscriptions/plans
 https://id.arduino.cc/security
 https://id.arduino.cc/minors
 http://app.arduino.cc/minors
+https://junior.arduino.cc/
+https://id.arduino.cc/boards
+
+# [403] Failed: Network error: Forbidden
+https://www.microchip.com/en-us/development-tool/flip
 
 
 # "Network error: Forbidden" despite working redirect
