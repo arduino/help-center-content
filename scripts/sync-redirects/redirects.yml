@@ -1,0 +1,80 @@
+
+redirects:
+  # --- Support Hubs (Root Level) ---
+  - redirect_from: "/ide"
+    redirect_to: "/hc/en-us/articles/9207690465436-IDE-Support"
+    redirect_status: 301
+
+  - redirect_from: "/hardware"
+    redirect_to: "/hc/en-us/articles/9264736457500-Hardware-Support"
+    redirect_status: 301
+
+  - redirect_from: "/cloud-editor"
+    redirect_to: "/hc/en-us/articles/9393241841308-Cloud-Editor-Support"
+    redirect_status: 301
+
+  - redirect_from: "/cloud"
+    redirect_to: "/hc/en-us/articles/9347128757660-Cloud-Support"
+    redirect_status: 301
+
+  - redirect_from: "/education"
+    redirect_to: "/hc/en-us/articles/9277054133148-Education-Support"
+    redirect_status: 301
+
+  - redirect_from: "/account"
+    redirect_to: "/hc/en-us/articles/9293587511452-Account-Support"
+    redirect_status: 301
+
+  - redirect_from: "/cancel"
+    redirect_to: "/hc/en-us/articles/4401881299090-Reviewchange-or-cancel-an-Arduino-Cloud-plan"
+    redirect_status: 301
+
+  # --- Support Hubs (hc/en-us/ path variants) ---
+  - redirect_from: "/hc/en-us/ide"
+    redirect_to: "/hc/en-us/articles/9207690465436-IDE-Support"
+    redirect_status: 301
+
+  - redirect_from: "/hc/en-us/hardware"
+    redirect_to: "/hc/en-us/articles/9264736457500-Hardware-Support"
+    redirect_status: 301
+
+  - redirect_from: "/hc/en-us/cloud-editor"
+    redirect_to: "/hc/en-us/articles/9393241841308-Cloud-Editor-Support"
+    redirect_status: 301
+
+  - redirect_from: "/hc/en-us/cloud"
+    redirect_to: "/hc/en-us/articles/9347128757660-Cloud-Support"
+    redirect_status: 301
+
+  - redirect_from: "/hc/en-us/education"
+    redirect_to: "/hc/en-us/articles/9277054133148-Education-Support"
+    redirect_status: 301
+
+  - redirect_from: "/hc/en-us/account"
+    redirect_to: "/hc/en-us/articles/9293587511452-Account-Support"
+    redirect_status: 301
+
+  # Migrated Trademark & Legal articles
+  - redirect_from: "/hc/en-us/articles/10598087334428-Trademarks-Licensing"
+    redirect_to: "https://www.arduino.cc/en/trademark/"
+    redirect_status: 301
+
+  - redirect_from: "/hc/en-us/articles/4679102084892-Arduino-and-community-logos"
+    redirect_to: "https://www.arduino.cc/en/trademark/guides/arduino-and-community-logos/"
+    redirect_status: 301
+
+  - redirect_from: "/hc/en-us/articles/4677964202908-Trademark-guide-for-compatible-products"
+    redirect_to: "https://www.arduino.cc/en/trademark/guides/trademark-guide-for-compatible-products/"
+    redirect_status: 301
+
+  - redirect_from: "/hc/en-us/articles/13369290163740-Trademark-guide-for-courses-workshops-and-tutorials"
+    redirect_to: "https://www.arduino.cc/en/trademark/guides/trademark-guide-for-courses-workshops-and-tutorials/"
+    redirect_status: 301
+
+  - redirect_from: "/hc/en-us/articles/4678810384540-Trademark-guide-for-social-media-content"
+    redirect_to: "https://www.arduino.cc/en/trademark/guides/trademark-guide-for-social-media-content/"
+    redirect_status: 301
+
+  - redirect_from: "/hc/en-us/articles/13369309872028-Trademark-guide-for-websites-and-publications"
+    redirect_to: "https://www.arduino.cc/en/trademark/guides/trademark-guide-for-websites-and-publications/"
+    redirect_status: 301

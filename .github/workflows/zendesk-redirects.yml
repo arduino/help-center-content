@@ -1,0 +1,31 @@
+name: Sync Zendesk Redirects
+
+on:
+  push:
+    paths:
+      - 'scripts/sync-redirects/sync_redirects.py'
+      - 'scripts/sync-redirects/redirects.yml'
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: pip install requests pyyaml
+
+      - name: Run Sync Script
+        env:
+          ZENDESK_EMAIL: ${{ secrets.ZENDESK_EMAIL }}
+          ZENDESK_TOKEN: ${{ secrets.ZENDESK_TOKEN }}
+          ZENDESK_SUBDOMAIN: ${{ secrets.ZENDESK_SUBDOMAIN }}
+        run: python scripts/sync-redirects/sync_redirects.py scripts/sync-redirects/redirects.yaml
