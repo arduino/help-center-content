@@ -32,4 +32,4 @@ jobs:
           ZENDESK_EMAIL: ${{ secrets.ZENDESK_EMAIL }}
           ZENDESK_TOKEN: ${{ secrets.ZENDESK_TOKEN }}
           ZENDESK_SUBDOMAIN: ${{ secrets.ZENDESK_SUBDOMAIN }}
-        run: python scripts/sync-redirects/sync_redirects.py scripts/sync-redirects/redirects.yaml
+        run: python scripts/sync-redirects/sync_redirects.py scripts/sync-redirects/redirects.yml
