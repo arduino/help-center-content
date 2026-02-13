@@ -1,5 +1,8 @@
 name: Sync Zendesk Redirects
 
+permissions:
+  contents: read
+
 on:
   push:
     paths:
