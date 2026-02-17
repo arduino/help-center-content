@@ -26,13 +26,13 @@ The FirmwareUpdater sketch can be used with the following Modulino nodes:
 * Modulino Joystick
 * Modulino Knob
 * Modulino Latch Relay
-* Modulino Light
 * Modulino Pixels
 * Modulino Vibro
 
 The firmware for the following Modulino nodes cannot be updated:
 
 * Modulino Distance
+* Modulino Light
 * Modulino Movement
 * Modulino Thermo
 
