@@ -14,6 +14,32 @@ In this article:
 
 ---
 
+## Supported Modulino nodes
+
+> [!WARNING]
+> Do not use the FirmwareUpdater sketch with an unsupported Modulino node.
+
+The FirmwareUpdater sketch can be used with the following Modulino nodes:
+
+* Modulino Buttons
+* Modulino Buzzer
+* Modulino Joystick
+* Modulino Knob
+* Modulino Latch Relay
+* Modulino Light
+* Modulino Pixels
+* Modulino Vibro
+
+The firmware for the following Modulino nodes cannot be updated:
+
+* Modulino Distance
+* Modulino Movement
+* Modulino Thermo
+
+If you experience issues with your Modulino node after running the FirmwareUpdater sketch, please [contact us](https://www.arduino.cc/en/contact-us/).
+
+---
+
 ## Update Modulino firmware in Arduino IDE {#ide}
 
 1. Connect the Modulino to your Arduino UNO R4 WiFi.
