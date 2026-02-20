@@ -9,6 +9,7 @@ In this article:
 
 - [Add an Arduino board via serial (USB)](#add-an-arduino-board-via-serial-usb)
 - [Add an Arduino board via Bluetooth](#add-an-arduino-board-via-bluetooth)
+- [Add an Arduino UNO Q](#add-an-arduino-uno-q)
 - [Add a compatible ESP32, ESP8266, or LoRaWAN device](#add-a-compatible-esp32-esp8266-or-lorawan-device)
 - [Add a manually configured device running Python, MicroPython, or Node.js](#add-a-manually-configured-device-running-python-micropython-or-nodejs)
 
@@ -18,7 +19,10 @@ For troubleshooting, see [If your device can't be added to Arduino Cloud](https:
 
 ## Add an Arduino board via serial (USB) {#add-an-arduino-board-via-serial-usb}
 
-All Arduino boards supported by Arduino Cloud can be added via USB from a computer running the [Arduino Cloud Agent](https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Cloud-Agent).
+> [!IMPORTANT]
+> If you're setting up an UNO Q, see [Add an Arduino UNO Q](#add-an-arduino-uno-q).
+
+The [Arduino Cloud Agent](https://support.arduino.cc/hc/en-us/articles/360014869820) lets you automatically configure most Cloud-supported Arduino boards via USB.
 
 Follow these steps:
 
@@ -59,11 +63,17 @@ Follow these steps:
 
 ## Add an Arduino board via Bluetooth
 
-You can add supported devices via Bluetooth if they are running the preflashed [provisioning sketch](https://docs.arduino.cc/arduino-cloud/hardware/device-provisioning/). When this sketch is active, the onboard LED blinks in a heartbeat pattern (one long pulse followed by two short pulses). If your board is running a different sketch, [add it via USB instead](#add-an-arduino-board-via-serial-usb).
+You can add supported devices via Bluetooth if they are running the preflashed [provisioning sketch](https://docs.arduino.cc/arduino-cloud/hardware/device-provisioning/). When this sketch is active, the onboard LED blinks in a heartbeat pattern (one long pulse followed by two short pulses).
+
+> [!TIP]
+> If your board is running a different sketch, you can [add it via USB instead](#add-an-arduino-board-via-serial-usb), or [manually flash the provisioning sketch](https://docs.arduino.cc/arduino-cloud/hardware/device-provisioning/#make-your-board-compatible-with-ble-provisioning).
 
 Supported boards:
 
 - Arduino GIGA R1 WiFi
+- Arduino Nicla Vision
+- Arduino Opta WiFi
+- Arduino Portenta H7
 - Arduino UNO R4 WiFi
 
 Follow these steps:
@@ -99,6 +109,31 @@ Follow these steps:
    - _Device Setup / Device Provisioning._
 
 9. After completing the device configuration, the device status page will open automatically. The device will connect to Arduino Cloud and appear as ONLINE after a few seconds.
+
+---
+
+## Add an Arduino UNO Q {#add-an-arduino-uno-q}
+
+Set up your UNO Q like a Python board on Arduino Cloud, then use Arduino App Lab to add the Cloud brick, combine Python and Sketch, and start building smarter projects.
+
+1. Open the [Devices tab](https://app.arduino.cc/devices) in Arduino Cloud.
+
+2. Click on the **Add Device** button.
+
+3. Under **Manual device**, select **Arduino UNO Q**.
+
+4. Select **Arduino UNO Q** and click **Continue**.
+
+5. **Device configuration:**
+
+   - _Give a name to the Device._ Use the default name, or change it. The device name can be changed later.
+   - _Set up device._ Copy or download **Device ID** and **Secret Key**.
+
+6. Tick the checkbox to confirm and click **Continue**.
+
+7. After the configuration is complete, the device details page will open automatically. The device will be OFFLINE until you've configured the connection on your UNO Q. This can be done in **Arduino App Lab** by configuring the [Arduino Cloud Brick with your Device ID and Secret Key](https://docs.arduino.cc/tutorials/uno-q/arduino-cloud/#program-the-uno-q-cloud-example).
+
+[Learn more about connecting UNO Q to Arduino Cloud](https://docs.arduino.cc/tutorials/uno-q/arduino-cloud/){.link-cheveron-right}
 
 ---
 
