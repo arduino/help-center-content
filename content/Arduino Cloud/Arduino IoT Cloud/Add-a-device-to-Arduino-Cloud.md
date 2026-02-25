@@ -71,6 +71,9 @@ You can add supported devices via Bluetooth if they are running the preflashed [
 Supported boards:
 
 - Arduino GIGA R1 WiFi
+- Arduino MKR WiFi 1010
+- Arduino Nano 33 IoT
+- Arduino Nano RP2040 Connect
 - Arduino Nicla Vision
 - Arduino Opta WiFi
 - Arduino Portenta H7
