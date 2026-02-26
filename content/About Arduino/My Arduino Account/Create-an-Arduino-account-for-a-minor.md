@@ -9,6 +9,7 @@ In this article:
 
 * [Create a junior account for your child](#adult-create)
 * [Request an account from your parent](#junior-request)
+* [Sign into the new account](#sign-in)
 
 ---
 
@@ -81,16 +82,33 @@ An email will be sent to your parent with instructions on how to finalize your a
 
 ### Instructions for the parent
 
-Once the child has requested an account, the parent must follow these steps to finalize it:
+Once the child has requested an account, the parent must provide their consent.
+
+**Confirming a Junior Account:**
 
 1. Open the email from Arduino and click **FINALIZE JUNIOR ACCOUNT**.
 
-2. You will be redirected to the [Junior Accounts page](https://id.arduino.cc/minors) on id.arduino.cc. Log in with your own account if prompted.
+2. You will be redirected to [id.arduino.cc](https://id.arduino.cc). Log in with your own account if prompted.
 
-3. Locate the new account in the list. 
+The account is now confirmed and ready to be used.
 
-4. **Hover your mouse cursor** over the row of the account to reveal the **CONFIRM ACCOUNT** link.
+**Confirming a Restricted Account:**
 
-5. Click **CONFIRM ACCOUNT**.
+1. Open the email from Arduino and click **FINALIZE JUNIOR ACCOUNT**.
 
-The junior account is now confirmed and ready to be used.
+2. You will be redirected to [id.arduino.cc](https://id.arduino.cc). Log in with your own account if prompted.
+
+3. Select the **Junior Accounts** tab.
+
+4. Locate the new account in the list. 
+
+5. **Hover your mouse cursor** over the row of the account to reveal the **CONFIRM ACCOUNT** link.
+
+6. Click **CONFIRM ACCOUNT**.
+
+The account is now confirmed and ready to be used.
+
+## Sign into the account {#sign-in}
+
+* For Junior Accounts, go to [junior.arduino.cc](https://junior.arduino.cc).
+* For Restricted Account, go to [login.arduino.cc/login](https://login.arduino.cc/login).
