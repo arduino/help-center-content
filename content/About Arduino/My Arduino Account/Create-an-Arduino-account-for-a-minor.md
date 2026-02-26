@@ -100,7 +100,7 @@ The account is now confirmed and ready to be used.
 
 3. Select the **Junior Accounts** tab.
 
-4. Locate the new account in the list. 
+4. Locate the new account in the list.
 
 5. **Hover your mouse cursor** over the row of the account to reveal the **CONFIRM ACCOUNT** link.
 

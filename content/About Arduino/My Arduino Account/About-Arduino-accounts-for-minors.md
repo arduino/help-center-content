@@ -37,7 +37,6 @@ After turning 14, users of Junior accounts will be prompted to upgrade to a [Res
 > [!IMPORTANT]
 > A Restricted Account cannot be created by a parent on behalf of the minor. The request flow at **[junior.arduino.cc](https://junior.arduino.cc)** is currently only available for Junior Accounts (under 14).
 
-
 <a id="Regular-accounts"></a><!-- Legacy id-->
 
 ## Restricted Accounts {#Restricted-accounts}
