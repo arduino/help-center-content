@@ -27,7 +27,7 @@ Supported components are only those downloaded from the official Arduino softwar
 
 In accordance with our commitment to product longevity, Arduino will provide security updates for a period defined considering two dates:
 
-* At least **two (2) years** from the official **release date** of the associated product (Release Date + 5 years)
+* At least **two (2) years** from the official **release date** of the associated product (Release Date + 2 years)
 * At least **two (2) years** after the last date that the product is **distributed** by Arduino to the market (End of Distribution + 2 years)
 
 **Arduino will provide support until whichever date is later (End of Support).**
