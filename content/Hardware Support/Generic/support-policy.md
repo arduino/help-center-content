@@ -3,7 +3,7 @@ title: 'Arduino Support Policy for Products with Digital Elements'
 
 ---
 
-At Arduino, we are committed to the security and longevity of our hardware products. 
+At Arduino, we are committed to the security and longevity of our hardware products.
 
 This policy outlines our commitment to providing security updates and maintenance for products that include or are used in combination with Arduino official Firmware or Linux software.
 
@@ -12,7 +12,7 @@ This policy outlines our commitment to providing security updates and maintenanc
 This policy applies to **official Arduino hardware boards** capable of running an Operating System or Firmware and in particular:
 
 * Micro-controller (MCU) based devices running a firmware based on an official **Arduino Core**
-* Micro-processor (MPU) based devices running **Arduino Debian Linux**, which is Arduino official Linux distribution, based on Debian Linux  
+* Micro-processor (MPU) based devices running **Arduino Debian Linux**, which is Arduino official Linux distribution, based on Debian Linux
 * Micro-processor (MPU) based devices running **Linux LmP (Yocto-based)** distribution
 
 Support covers in particular the following components:
@@ -21,9 +21,9 @@ Support covers in particular the following components:
 * **Operating System (OS):** Security patches for the Linux kernel and OS components
 * **Any additional Arduino component** if included in the distributed Linux image (for example Arduino cores, Arduino IDEs, tooling or similar components)
 
-Supported components are only those downloaded from the official Arduino software page at https://www.arduino.cc/en/software/ 
+Supported components are only those downloaded from the official Arduino software page at [https://www.arduino.cc/en/software/](https://www.arduino.cc/en/software/)
 
-## Support Duration  
+## Support Duration
 
 In accordance with our commitment to product longevity, Arduino will provide security updates for a period defined considering two dates:
 
@@ -47,7 +47,7 @@ According to the specific fixing strategy decided for a vulnerability, Arduino m
 
 Arduino monitors vulnerabilities for third parties included in the Firmware/Linux distributions used. In addition, Arduino monitors vulnerabilities in the specific Arduino-provided components, and in particular prioritizes fixes for Critical and High-severity vulnerabilities.
 
-If you want to report vulnerabilities in Arduino components, please review our Coordinated Vulnerability Disclosure policy at https://www.arduino.cc/en/security_cvd/ 
+If you want to report vulnerabilities in Arduino components, please review our Coordinated Vulnerability Disclosure policy at [https://www.arduino.cc/en/security_cvd/](https://www.arduino.cc/en/security_cvd/).
 
 ## End-of-Life (EOL) Transparency
 
