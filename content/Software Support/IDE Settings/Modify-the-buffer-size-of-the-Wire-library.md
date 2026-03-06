@@ -1,6 +1,7 @@
 ---
 title: "Modify the buffer size of the Wire library"
 id: 4406686928786
+draft: true
 ---
 
 The Wire library is used to communicate with I2C/TWI devices. Being able to change/modify it’s buffer size is very useful for I2C/TWI device communication.

@@ -17,7 +17,7 @@ As announced in a previous bulletin [ASEC-24-002](https://support.arduino.cc/hc/
 As a consequence, we took the following actions:
 
 * We immediately responded to the incident and identified the root cause of the attack, which was related to an API key from one of the SaaS providers involved in providing Arduino services. Furthermore, we conducted thorough internal security analysis and forensic investigations to ensure that no unmanaged risks remained from the leaked data.
-* We informed the GDPR authority about the exfiltrated user data.
+* We informed the Data Protection Authority about the exfiltrated user data.
 * We informed via email all users affected by the issue related to Arduino Cloud IoT devices. An update was provided, instructing them to regenerate device credentials for Arduino Cloud.
 
 ## What happens now?

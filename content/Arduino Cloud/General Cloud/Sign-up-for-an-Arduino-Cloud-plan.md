@@ -11,7 +11,7 @@ Learn how to review and sign up for Arduino Cloud plans.
 
 1. Go to [cloud.arduino.cc/plans](https://cloud.arduino.cc/plans).
 2. Use the top-level tabs to switch between individual, school, and business plans.
-3. Select between yearly and monthly billing cycles (school plans and the individual Entry plan is only available with yearly billing).
+3. Select between yearly and monthly billing cycles (school plans are only available with yearly billing).
 4. Review the feature summaries and prices for the available plans. Scroll down to the **Features** table for a detailed comparison.
 5. Click **Get started** or **Purchase** to proceed.
 6. If you're not signed into an Arduino account, you will be asked to do so.

@@ -19,7 +19,7 @@ Related articles:
 
 ## About Cloud plans{#about-cloud-plans}
 
-* A Cloud plan is active in a particular space. Individual plans (Entry, Maker, and Maker Plus) increase the features of your Private Space, while School and Enterprise plans increase the features of a shared School or Enterprise space.
+* A Cloud plan is active in a particular space. The Maker plan[^cloud-plans-2025] enhances the features of your Private Space, while School and Enterprise plans expand the features of a shared School or Enterprise space.
 * When creating a new Thing or Trigger, they are added to the currently selected space and are counted against the space's plan usage. A Maker plan (or any individual plan) will not increase the limits of an Enterprise space, and an Enterprise plan will not increase the features of your Private space.
 
 ---
@@ -58,7 +58,7 @@ Follow these steps:
 
 1. Go to [digital-store.arduino.cc/subscriptions/plans](https://digital-store.arduino.cc/subscriptions/plans)
 2. Review the active plans:
-   * Individual plans (Entry, Maker, and Maker Plus) increase the limits of your **Private Space**. If you're not subscribing to any paid Individual plan, the Free plan will be active.
+   * The Maker plan increase the limits of your **Private Space**. If no paid plan is active in your Private Space, the Free plan will be active.
    * Enterprise plans increase the limits of the shared Enterprise space displayed below the text "Enterprise Plan".
    * School plans increase the limits of the shared School space under "Plan details".
 
@@ -67,3 +67,5 @@ Follow these steps:
 ## If you need help
 
 If you need help with your Arduino Cloud plan, please [contact us](https://www.arduino.cc/en/contact-us/).
+
+[^cloud-plans-2025]: The Entry and Maker Plus individual plans are no longer offered to new customers.

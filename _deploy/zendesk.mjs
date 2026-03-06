@@ -831,7 +831,7 @@ function getPositionRow(zendeskCategories, zendeskSections, dirPath) {
             category: positionLevels[0],
             section: positionLevels[1],
             source: clc.green(dirPath),
-            target: clc.green(zendeskCategory.html_url.split('-').slice(0, 2).join('-'))
+            target: clc.green(zendeskSection.html_url.split('-').slice(0, 2).join('-'))
         };
     }
 }
@@ -865,7 +865,7 @@ function getPositionRows(zendeskCategories, zendeskSections, localDirPaths) {
                 category: category_name,
                 section: section_name,
                 source: clc.red('Not found'),
-                target: clc.yellow(zendeskCategory.html_url.split('-').slice(0, 2).join('-'))
+                target: clc.yellow(zendeskSection.html_url.split('-').slice(0, 2).join('-'))
             })
         }
     }

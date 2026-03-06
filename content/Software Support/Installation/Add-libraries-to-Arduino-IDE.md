@@ -14,7 +14,7 @@ In this article:
 
 ---
 
-## Using the Library Manager{#library-manager}
+## Using the Library Manager {#library-manager}
 
 1. Do one of the following:
 
@@ -36,7 +36,7 @@ In this article:
 
 ---
 
-## Importing a .zip library{zip-library}
+## Importing a .zip library {#zip-library}
 
 1. In the menu bar, go to _Sketch > Include Library > Add .ZIP Library..._
 
@@ -44,7 +44,7 @@ In this article:
 
 ---
 
-## Manual installation{manual-installation}
+## Manual installation {#manual-installation}
 
 1. Go to the directory where you have downloaded the .zip library file.
 

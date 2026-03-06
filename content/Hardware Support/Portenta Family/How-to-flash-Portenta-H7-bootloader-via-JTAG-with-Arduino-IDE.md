@@ -11,7 +11,7 @@ The bootloader is a small program that runs when you turn the Arduino on or pres
 
 * Portenta H7
 * A compatible carrier:
-  * [Portenta Breakout](https://store.arduino.cc/products/arduino-portenta-breakout)
+  * [Portenta Breakout](https://store.arduino.cc/products/portenta-breakout)
   * [Portenta Max Carrier](https://store.arduino.cc/products/portenta-max-carrier)
 * [STLINK programmer for STM32](https://www.st.com/en/development-tools/stlink-v3set.html)
 * JTAG connector cable (STLINK programmer to the carrier)

@@ -35,6 +35,7 @@ In this article:
 * Arduino Portenta H7 Lite Connected
 * Arduino Portenta X8
 * Arduino UNO R4 WiFi
+* Arduino UNO Q
 
 ## Third-party devices with Arduino Cloud support
 

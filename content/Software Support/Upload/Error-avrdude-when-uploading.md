@@ -220,7 +220,7 @@ Make sure you have [selected the right board and port](https://support.arduino.c
 
 ## Still need help?
 
-* Visit the [Avrdude, stk500, Bootloader issues category](https://forum.arduino.cc/c/using-arduino/avrdude-stk500-bootloader-issues/81) in the Arduino forum.
+* Visit the [Uploading](https://forum.arduino.cc/c/development-tools/uploading/81) in the Arduino forum.
 
 * [Contact us](https://www.arduino.cc/en/contact-us/).
 

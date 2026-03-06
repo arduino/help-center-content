@@ -29,7 +29,7 @@ Most educational kits include a *Troubleshooting* or *Not Working* section on ea
 
 ## Still need help?
 
-* Visit the [Arduino Education Kits category](https://forum.arduino.cc/c/hardware/arduino-education-kits/83) in the Arduino forum. Start by reading the pinned threads, which contain useful information on how to best post a question.
+* Visit the [Arduino Education Kits category](https://forum.arduino.cc/c/official-hardware/education/83) in the Arduino forum. Start by reading the pinned threads, which contain useful information on how to best post a question.
 
 * [Contact us](https://www.arduino.cc/en/contact-us/).
 

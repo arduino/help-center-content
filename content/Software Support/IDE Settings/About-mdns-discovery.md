@@ -3,10 +3,39 @@ title: "About mdns-discovery"
 id: 4506515275548
 ---
 
-Arduino IDE includes an [mDNS discovery tool](https://github.com/arduino/mdns-discovery) used to identify the ports of boards that support the Over-The-Air (OTA) feature. This tool helps Arduino IDE communicate with compatible network-connected boards for tasks like OTA uploads. It detects the addition and removal of these ports on the local network, allowing the IDE to keep the list of available ports updated. This ensures that the port listings, such as those found in the _Tools > Port_ menu and the board selector in the IDE, are up-to-date.
+Some Arduino software use an [mDNS discovery tool](https://github.com/arduino/mdns-discovery) to identify and communicate with compatible network-connected boards for tasks like OTA uploads. mDNS is used to detect the addition and removal of these ports on the local network.
 
-When a new version of mdns-discovery is available, it will automatically be installed by Arduino IDE. The new version may be treated as a new application by your computer. For this reason, you may have to allow the application to communicate on the network after an update. You can see the [release history for mdns-discovery here](https://github.com/arduino/mdns-discovery/releases).
+The following software application uses mDNS discovery:
+
+- Arduino CLI
+- Arduino IDE
+- Arduino App Lab
+
+## If you are prompted to allow mdns-discovery.exe
+
+You may be asked to allow **mdns-discovery.exe** to communicate on the network when:
+
+- You install Arduino software for the first time
+- A new mDNS version is included in an update for your Arduino software
+
+Allow mdns-discovery.exe to access the network if you want to use network-connected boards.
+
+## Manually allow mdns-discovery through Windows Firewall {#allow-manually}
+
+If you declined the Windows Defender Firewall prompt when the tool first ran, or if network discovery isn't working, Windows may be blocking the application. You can fix this by manually allowing the app:
+
+1. Press the **Windows Key**, type **Allow an app through Windows Firewall**, and press Enter.
+
+2. Click the **Change settings** button at the top right (you may be prompted for administrator privileges).
+
+3. Scroll down the list of apps and features to find **mdns-discovery.exe** (or **mdns-discovery**).
+
+4. Check the box to the left of its name to allow it.
+
+5. Check the box under the **Private** column (checking **Public** is generally not recommended unless you are on a trusted public network).
+
+6. Click **OK** to save your changes.
 
 ## Further reading
 
-* [mdns-discovery (GitHub)](https://github.com/arduino/mdns-discovery)
+You can see the [release history for mdns-discovery here](https://github.com/arduino/mdns-discovery/releases).

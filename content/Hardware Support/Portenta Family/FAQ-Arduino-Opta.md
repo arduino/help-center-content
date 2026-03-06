@@ -77,7 +77,7 @@ The frequently asked questions covered in this article are focused on providing 
 
 - **What interface is required for programming Opta®? Can programs be updated remotely?**
 
-    Opta® can be programmed using the USB-C® port when connected locally. After an initial local setup, program updates can be performed remotely via OTA (Over-The-Air) through Arduino Cloud.
+    Opta® can be programmed using the USB-C® port when connected locally. When configured as an Arduino device in Arduino Cloud, the sketch can be updates remotely using [Over-the-Air (OTA) updates](https://docs.arduino.cc/arduino-cloud/features/ota-getting-started/) over a wireless or wired connection. OTA updates are currently not available in Arduino PLC IDE.
 
 - **What are the main Opta® applications?**
 
