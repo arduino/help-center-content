@@ -23,7 +23,7 @@ Yes, you can upload your own Arduino project to Arduino Project Hub. To do so, y
 
 ### Is Arduino Project Hub only for Arduino boards?
 
-Arduino Project Hub is primarily focused on projects made with Arduino boards, but you can also share projects made with other microcontroller boards as long as they are compatible with the Arduino ecosystem.
+Arduino Project Hub primarily features projects built with Arduino boards, but projects using other microcontroller platforms are also welcome as long as they are compatible with the broader Arduino ecosystem. This includes projects developed with Arduino software or Arduino Cloud, those using Edge Impulse, or hardware based on Qualcomm chips. Third-party hardware platforms such as ESP32, Raspberry Pi, and others are also supported.
 
 ---
 
