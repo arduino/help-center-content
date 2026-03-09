@@ -9,6 +9,13 @@ on:
     branches:
       - main
 
+# Prevents concurrency with itself AND any other workflows 
+# using the the Zendesk API, to avoid breaching request limits.
+
+concurrency:
+  group: zendesk-api
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest

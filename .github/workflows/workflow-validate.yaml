@@ -31,6 +31,14 @@ jobs:
   zendesk:
     if: github.repository_owner == 'arduino'
     runs-on: ubuntu-latest
+
+    # Prevents concurrency with itself AND any other workflows 
+    # using the the Zendesk API, to avoid breaching request limits.
+
+    concurrency:
+      group: zendesk-api
+      cancel-in-progress: false
+
     env:
       ZENDESK_USER: ${{ secrets.ZENDESK_USER }}
       ZENDESK_PASS: ${{ secrets.ZENDESK_TOKEN }}

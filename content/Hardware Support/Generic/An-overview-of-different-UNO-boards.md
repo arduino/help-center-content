@@ -178,7 +178,7 @@ The only UNO board that comes with an ATmega4809 microprocessor instead of an AT
 
 <hr style="height:2px">
 
-<img src="img/a000099_featured_1.jpg" alt="Photo of Arduino UNO WiFi" width=400px>
+<img src="img/a000133_featured.jpg" alt="Photo of Arduino UNO WiFi" width=400px>
 
 **Arduino UNO WiFi**\
 Microcontroller: ATmega328P\

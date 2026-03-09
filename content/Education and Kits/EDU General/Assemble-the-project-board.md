@@ -36,11 +36,11 @@ The project board is included with the following kits:
 In this section:
 
 1. [Separate the plastic pieces](#separate-the-plastic-pieces)
-2. [Add the feet](#add-the-feet)
+2. [Attach the feet](#attach-the-feet)
 3. [Place the UNO and breadboard on the plastic base](#place-the-uno-and-breadboard-on-the-plastic-base)
 4. [Attach the UNO and breadboard to the plastic base](#attach-the-uno-and-breadboard-to-the-plastic-base)
 
-### 1. Separate the plastic pieces
+### 1. Separate the plastic pieces {#separate-the-plastic-pieces}
 
 1. Take the plastic sheet and carefully separate the pieces from the sheet by twisting and pressing on them.
 
@@ -53,7 +53,7 @@ In this section:
    > [!TIP]
    > Trim off any plastic that is remaining where the pieces connect to the sheet.
 
-### 2. Attach the feet
+### 2. Attach the feet {#attach-the-feet}
 
 1. Flip the plastic base over so the Arduino logo is face-down.
 2. Insert the four plastic feet (marked "A") into the holes at each corner of the base.
@@ -62,7 +62,7 @@ In this section:
 
 3. Turn the base right-side up again.
 
-### 3. Place the UNO and breadboard on the plastic base
+### 3. Place the UNO and breadboard on the plastic base {#place-the-uno-and-breadboard-on-the-plastic-base}
 
 Before you continue, understand how the UNO board and breadboard should be placed on the plastic base:
 
@@ -74,7 +74,7 @@ Before you continue, understand how the UNO board and breadboard should be place
 
    <img src="img/project-board-graphic-align-a1.png" alt="The reset button, a1 pin connector, and Arduino logo on the project board." width="500px">
 
-### 4. Attach the UNO and breadboard to the plastic base
+### 4. Attach the UNO and breadboard to the plastic base {#attach-the-uno-and-breadboard-to-the-plastic-base}
 
 * **Attach the UNO board**
   Secure your Arduino UNO to the base using the three M3 bolts and nuts. The screw holes on the UNO should align with the three holes on the project board. Be careful not to overtighten.
