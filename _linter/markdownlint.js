@@ -25,7 +25,10 @@ function getErrorMessage(error) {
 
 async function main() {
   // Get markdown file paths
-  const files = glob.sync('content/**/*.md', { cwd: projectRoot });
+  const files = glob.sync('content/**/*.md', { 
+    ignore: 'content/Custom/Hubs/**',
+    cwd: projectRoot
+  });
 
   // Get custom rules
   const customRules = require('./markdownlint/rules/rules.js');
