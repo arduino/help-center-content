@@ -3,7 +3,7 @@
 "use strict";
 
 const markdownlintRulesDir = "../..//node_modules/markdownlint/lib/"
-const { addError, addErrorContext, frontMatterHasTitle } = require(markdownlintRulesDir + "../helpers");
+const { addError } = require(markdownlintRulesDir + "../helpers");
 
 module.exports = {
   "names": [ "HC004", "front-matter-variables-required" ],

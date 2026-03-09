@@ -6,10 +6,7 @@
 //  includesSorted } = require("../helpers");
 // const { lineMetadata } = require("./cache");
 
-const markdownlintRulesDir = "../..//node_modules/markdownlint/lib/"
-const { addError, filterTokens, forEachHeading, forEachLine,
-  includesSorted } = require(markdownlintRulesDir + "../helpers");
-const { lineMetadata } = require(markdownlintRulesDir + "./cache");
+const { addError, filterTokens } = require("markdownlint/helpers");
 
 const longLineRePrefix = "^.{";
 const longLineRePostfixRelaxed = "}.*\\s.*$";
@@ -45,7 +42,10 @@ module.exports = {
     // console.log(longHeadingLineRe);
     // process.exit();
 
-    filterTokens(params, "heading_open", function forToken(token) {
+    const headings = params.parsers.markdownit.tokens.
+      filter((token => token.type === "heading_open"));
+
+    for (const token of headings) {
       const line = token.line;
       const lineNumber = token.lineNumber;
       const lengthRe = longHeadingLineRe;
@@ -60,6 +60,6 @@ module.exports = {
           null,
           line);
       }
-    });
+    }
   }
 };

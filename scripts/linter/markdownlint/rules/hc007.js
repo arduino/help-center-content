@@ -19,13 +19,17 @@ module.exports = {
     if (foundFrontMatterTitle) {
       prevLevel = 1;
     }
-    filterTokens(params, "heading_open", function forToken(token) {
+    
+    const headings = params.parsers.markdownit.tokens.
+      filter((token => token.type === "heading_open"));
+
+    for (const token of headings) {
       const level = Number.parseInt(token.tag.slice(1), 10);
       if (prevLevel && (level > prevLevel)) {
         addErrorDetailIf(onError, token.lineNumber,
           "h" + (prevLevel + 1), "h" + level, null, token.line);
       }
       prevLevel = level;
-    });
+    };
   }
 };
