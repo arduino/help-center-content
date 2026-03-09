@@ -8,10 +8,10 @@ const path = require('path');
 const YAML = require('yaml');
 const markdownIt = require('markdown-it');
 
-const projectRoot = path.join(__dirname, '..');
+const projectRoot = path.join(__dirname, '../..');
 
 const ruleURLs = Object.freeze({
-  'hc': 'https://github.com/arduino/help-center-content/blob/main/_linter/markdownlint/Rules.md',
+  'hc': 'https://github.com/arduino/help-center-content/blob/main/scripts/linter/markdownlint/Rules.md',
   'md': 'https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md'
 });
 

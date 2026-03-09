@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/arduino/help-center-content/issues"
   },
-  "homepage": "https://github.com/arduino/help-center-content/blob/main/_linter",
+  "homepage": "https://github.com/arduino/help-center-content/blob/main/scripts/linter",
   "dependencies": {
     "glob": "^13.0.6",
     "markdown-it": "^14.1.1",
