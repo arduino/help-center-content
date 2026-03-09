@@ -27,7 +27,7 @@ Follow these steps:
 2. Find the line that starts with "SHA256" or "Board error".
 3. Find the instructions for that error in the [error reference](#errors).
 
-<img src="img/ota-error-sha.png" width=800px/>
+![Screenshot of SHA256 Unknown error in Arduino Cloud.](img/ota-error-sha.png)
 
 ---
 

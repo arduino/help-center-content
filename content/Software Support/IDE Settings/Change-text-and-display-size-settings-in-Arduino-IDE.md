@@ -27,7 +27,7 @@ In this article:
    * **Editor: Font Size** – Controls the editor and output console text size in pixels (default: 12).
    * **Interface scale** – Changes the size of all UI elements (default: 100%)
 
-   <img src="img/IDE-2-preferences.png" width=800px>
+   ![Screenshot of Arduino IDE 2 preferences with Editor font size and Interface scale settings highlighted.](img/IDE-2-preferences.png)
 
 3. Click the **OK** button to confirm the changes.
 
@@ -78,7 +78,7 @@ For more advanced settings, you need to use the
    * **Editor: Font Size** – Controls the editor and output console text size in pixels (default: 12).
    * **Interface scale** – Changes the size of all UI elements (default: 100%).
 
-   <img src="img/IDE-preferences.png" width=800px%>
+   ![Screenshot of Arduino IDE 1 preferences with Editor font size and Interface scale settings highlighted.](img/IDE-preferences.png)
 
 3. Click the **OK** button to confirm the changes.
 
