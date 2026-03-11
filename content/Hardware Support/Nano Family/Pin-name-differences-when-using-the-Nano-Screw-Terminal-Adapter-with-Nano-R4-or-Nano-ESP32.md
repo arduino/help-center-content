@@ -29,7 +29,7 @@ The Arduino Nano ESP32 has several pins with labels that differ from the silk-sc
 | :-------- | :------------ |
 |     B0    |     REF       |
 |     VBUS  |     5V        |
-|      B1   |     RST       |
+|     B1    |     RST       |
 
 ![Arduino Nano ESP32 with the Nano Screw Terminal Adapter](img/nano-esp32-screw-terminal-adapter.png)
 
