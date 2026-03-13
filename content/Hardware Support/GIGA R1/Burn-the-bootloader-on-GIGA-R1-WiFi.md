@@ -104,7 +104,7 @@ If you prefer to use a graphical interface, you can use <a class="link-external"
 
 1. Open STM32CubeProgrammer and click on **Open file**.
 
-   <img src="https://content.arduino.cc/assets/stm32cube-open-file.png" width=800px>
+   <img src="https://content.arduino.cc/assets/stm32cube-open-file.png" alt="Screenshot of STM32CubeProgrammer, highlighting the Open file option." width=800px>
 
 1. Select the bootloader from one of the following locations:
 
@@ -122,22 +122,22 @@ If you prefer to use a graphical interface, you can use <a class="link-external"
 
 1. Set the programmer selection (default: ST-LINK) to **USB**.
 
-   <img src="img/stm32cube-usb-mode.png" width=800px>
+   <img src="img/stm32cube-usb-mode.png" alt="Screenshot of STM32CubeProgrammer, highlighting the programmer selection, which is set to the USB option." width=800px>
 
 1. For the **Port** selection, select your board. To refresh the list, click the update button.
 
-   <img src="img/stm32cube-port-selection.png" width=800px>
+   <img src="img/stm32cube-port-selection.png" alt="Screenshot of STM32CubeProgrammer, highlighting the Port menu and Port Refresh button." width=800px>
 
 1. Click on **Connect** button. The connection status should change from "Not connected" to "Connected".
 
-   <img src="img/stm32cube-connect.png" width=800px>
+   <img src="img/stm32cube-connect.png" alt="Screenshot of STM32CubeProgrammer, highlighting the Connect button." width=800px>
 
 1. Click on the **Download** button. If you get another warning message, close it by selecting OK.
 
    > [!NOTE]
    > Click on the left part of the button where it says "Download" (not the arrow, which opens a context menu)
 
-   <img src="img/stm32cube-download.png" width=800px>
+   <img src="img/stm32cube-download.png" alt="Screenshot of STM32CubeProgrammer, highlighting the Download button." width=800px>
 
 1. The message "File download complete" will appear as a pop-up notification when the download is complete.
 

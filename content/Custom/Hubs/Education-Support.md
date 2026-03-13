@@ -5,9 +5,9 @@ id: 9277054133148
 
 <div class="actions-wrapper">
   <div class="actions-item">
-    <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/4407393580818-Register-an-Arduino-Education-Kit"></a>
+    <a id="keep" href="https://support.arduino.cc/hc/en-us/articles/360021587259-Find-the-course-for-your-Arduino-product"></a>
     <img src="https://content.arduino.cc/assets/hc-toolbox.svg">
-    <span class="link-chevron-right">Register an Education Kit</span>
+    <span class="link-chevron-right">View courses</span>
   </div>
   <div class="actions-item">
     <img src="https://content.arduino.cc/assets/hc-translation.svg">
@@ -32,30 +32,25 @@ id: 9277054133148
     <p class="info-title">Chromebook</p>
     <p>
       Learn how to write and upload sketches on Chrome OS using the Cloud Editor
-      in Arduino Cloud:
+      in Arduino Cloud.
     </p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016495639-Use-Arduino-with-Chromebook">Use Arduino with Chromebook</a>
   </div>
   <div class="info-item">
-    <img src="https://content.arduino.cc/assets/hc-key.svg">
-    <p class="info-title">Activation code</p>
+    <img src="https://content.arduino.cc/assets/hc-toolbox.svg">
+    <p class="info-title">Find the course for your kit</p>
     <p>
-      Find the activation code for your kit or certification, and learn how
-      to activate licenses:
+      Many courses and online content for Arduino products that previously required an activation code is now available for free.
     </p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4402999992850-Where-is-the-activation-code-for-my-kit-">Find the activation code for your kit</a>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4406437015186-Activate-the-Engineering-Kit-MATLAB-and-Simulink-license">Activate the MATLAB and Simulink licenses</a>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360017549580-If-the-kit-activation-code-does-not-work">If the activation code does not work</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360021587259-Find-the-course-for-your-Arduino-product">Find the course for your Arduino product</a>
   </div>
   <div class="info-item">
-    <p class="info-title">Whitelist Arduino’s URL</p>
+    <img src="https://content.arduino.cc/assets/hc-key.svg">
+    <p class="info-title">Activate additional features</p>
     <p>
-      Depending on the system’s security, you might need to add some URLs or
-      websites to the security “whitelist” (a list of URLs that are safe to
-      access by installed programs). To download and install the IDE’s libraries
-      and board cores, your system will need to have
-      <em>downloads.arduino.cc </em> whitelisted.
+      Some products still use codes to unlock additional features, software, or Arduino Cloud plans.
     </p>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/4402999992850-About-activation-codes-for-Arduino-products">About activation codes for Arduino products</a>
   </div>
   <div class="info-item">
     <p class="info-title">Arduino's Educators Community</p>

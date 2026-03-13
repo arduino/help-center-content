@@ -105,7 +105,7 @@ id: 9264736457500
     <p>General advice on how to keep your Arduino board clean.</p>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360020366540-Keeping-your-board-clean">Read the article</a>
   </div>
-  <div class="info-item info-big">
+  <div class="info-item">
     <img src="https://content.arduino.cc/assets/hc-Speed.svg">
     <p class="info-title">Multimeter basics</p>
     <p>
@@ -113,6 +113,12 @@ id: 9264736457500
       to use this essential tool.
     </p>
     <a class="link-up-right" href="https://docs.arduino.cc/learn/electronics/multimeter-basics?queryID=5bfebedf54f04a501afc34882bfd017f">Visit the article in Arduino Docs</a>
+  </div>
+  <div class="info-item">
+    <img src="https://content.arduino.cc/assets/hc-cross.svg">
+    <p class="info-title ">Spot a counterfeit</p>
+    <p>Practical guides to help you identify counterfeit products.</p>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360020652100-How-to-spot-a-counterfeit-Arduino">How to spot a counterfeit Arduino</a>
   </div>
 </div>
 <h2 class="center hub">Search other topics</h2>

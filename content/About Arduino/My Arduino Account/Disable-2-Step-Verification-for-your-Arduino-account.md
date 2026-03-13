@@ -10,16 +10,14 @@ If you need to change your mobile device or perform a factory reset, you can dis
 
 ---
 
-1. Go to your [Arduino account profile](https://id.arduino.cc/).
+Follow these steps:
 
-2. Click on **Disable** under the Security section. A message will be displayed stating that you will receive an email. It will send the email to the address listed in the account settings section.
+1. Sign into [id.arduino.cc/security](https://id.arduino.cc/security).
 
-   ![Security section highlighted in the profile page](img/2factorAuth1.png)
+2. Find the _2 steps verification_ section.
 
-3. Check your email for a message with the subject **Disable Arduino 2-step verification**. Click the link.
+3. Click on **Disable**.
 
-   !["Disable Arduino 2-step verification" email containing deactivation link](img/2factorAuth2.png)
+4. Check the email inbox linked to your Arduino account and open the message from **noreply<!-- nolink-->@arduino.cc**.
 
-4. After clicking on the link, 2-step verification will be disabled.
-
-   !["The Two Factor authentication has been successfully disabled" written in profile page](img/2factorAuth3.png)
+5. Follow the instructions in the email to disable 2-step verification for your Arduino account.

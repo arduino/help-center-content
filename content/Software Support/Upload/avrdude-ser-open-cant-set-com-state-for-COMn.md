@@ -11,7 +11,7 @@ An "`avrdude: ser_open(): can't set com-state for COMn`" error can occur when up
 
 Follow these steps:
 
-1. Download [version 3.7.2022.01 of the driver](https://www.wch-ic.com/downloads/file/65.html?time=2023-03-16%2022:57:59){.link-download}.
+1. Download [version 3.7.2022.01 of the driver](https://web.archive.org/web/20220519153932/https://www.wch-ic.com/downloads/file/65.html){.link-download} (from the Internet Archive).
 
 1. Run the downloaded `CH341SER.EXE` file.
 

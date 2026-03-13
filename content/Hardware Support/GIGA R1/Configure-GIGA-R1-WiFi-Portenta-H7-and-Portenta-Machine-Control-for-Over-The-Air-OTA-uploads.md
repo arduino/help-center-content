@@ -5,87 +5,76 @@ id: 12370721200540
 
 Learn how to enable [Over-The-Air (OTA) uploads](https://docs.arduino.cc/arduino-cloud/features/ota-getting-started/) for:
 
-* GIGA R1 WiFi
-* Portenta H7
-* Portenta H7 Lite
-* Portenta Machine Control
+- GIGA R1 WiFi
+- Portenta H7
+- Portenta H7 Lite
+- Portenta Machine Control
 
 Follow these steps if you experience any of these errors when attempting an OTA upload:
 
-* `Error while mounting the filesystem. Err = -5`
-* `Arduino_Portenta_OTA::begin() failed with error code -3`
+- `Error while mounting the filesystem. Err = -5`
+- `Arduino_Portenta_OTA::begin() failed with error code -3`
 
 ---
 
-## 1. Connect your board to Arduino IDE
+Follow these steps to partition memory and install the Wi-Fi firmware required for OTA uploads:
 
-1. Open Arduino IDE.
+1. Open the memory partitioning sketch:
 
-1. Connect the board to your computer with a USB-C cable.
+   - Arduino IDE: Ensure that you are using the [latest version of the board package](https://support.arduino.cc/hc/en-us/articles/4404691106066-Update-board-packages-in-Arduino-IDE), then select File > Examples > STM32H747_System > QSPIFormat.
 
-1. Select your board in the board selector, or use the _Tools > Port_ and _Tools > Board_ menus.
+   - Arduino Cloud Editor: Open the [QSPIFormat example](https://app.arduino.cc/sketches/examples?eid=arduino%2Fhardware%2Fmbed_opta%2F4.4.1%2Flibraries%2FSTM32H747_System%2Fexamples%2FQSPIFormat&slid=mbed_opta%3A4.4.1%3Astm32h747_system){.link-chevron-external} in the Cloud Editor.
 
----
+1. Connect your device to your computer and select the device in the editor.
 
-## 2. Format the flash memory
+1. Click ![Upload button](img/symbol_upload2.png) **Upload** to upload the sketch to the device.
 
-Format the board's Quad Serial Peripheral Interface (QSPI) flash memory.
+1. Click the ![Serial Monitor button](img/symbol_monitor.png) **Serial Monitor** button in the top-right corner or select Tools > Serial Monitor (Arduino IDE only).
 
-**Follow these steps:**
+1. You should see the text below in the serial monitor. If the serial monitor is empty, ensure the sketch has finished uploading and press the RST button on the device to restart the sketch.
 
-1. In the top menu bar, open **File > Examples > STM32H747_System > QSPIFormat**.
+   ```
+   WARNING! Running the sketch all the content of the QSPI flash will be erased.
+   The following partitions will be created:
+   Partition 1: WiFi firmware and certificates 1MB
+   Partition 2: OTA 5MB
+   Partition 3: Provisioning KVStore 1MB
+   Partition 4: User data / OPTA PLC runtime 7MB
+   Do you want to proceed? Y/[n]
+   ```
 
-1. Click ![Upload button](img/symbol_upload2.png) **Upload** to upload the sketch.
+1. Type "Y" into the Serial Monitor and press <kbd>Enter</kbd> to proceed.
 
-1. Open the Serial Monitor using one of these methods:
+1. The following should now appear in the serial monitor:
 
-   * Click the ![Serial Monitor button](img/symbol_monitor.png) button in the top-right corner.
+   ```
+   Do you want to perform a full erase of the QSPI flash before proceeding? Y/[n]
+   Note: Full flash erase can take up to one minute.
+   ```
 
-   * Select _Tools > Serial Monitor_ in the menu bar.
+   Type "Y" into the Serial Monitor and press <kbd>Enter</kbd> to confirm.
 
-1. If the Serial Monitor is empty, run the sketch again by pressing the **RST** button on the board.
+1. The following should now appear in the serial monitor:
 
-1. This message should appear:
+   ```
+   Do you want to restore the WiFi firmware and certificates? Y/[n]
+   ```
 
-   `Do you want to use partition scheme 1? Y/[n]`
-   `If No, partition scheme 2 will be used.`
+   Type "Y" into the Serial Monitor and press <kbd>Enter</kbd> to confirm.
 
-   If you do, type `Y` into the text field and press <kbd>Enter</kbd> to send.
+1. The following should now appear in the serial monitor:
 
-1. Followed by this message:
+   ```
+   Do you want to use LittleFS to format user data partition? Y/[n]
+   If No, FatFS will be used to format user partition.
+   Note: LittleFS is not supported by the OPTA PLC runtime.
+   ```
 
-   `WARNING! Running the sketch all the content of the QSPI flash will be erased. Do you want to proceed? Y/[n]`
+   Type "Y" into the Serial Monitor and press <kbd>Enter</kbd> to confirm.
 
-   If you do, type `Y` into the text field and press <kbd>Enter</kbd> to send.
+1. The process is complete when this message appears in the serial monitor:
 
-1. Wait until `QSPI Flash formatted!` appears in the Serial Monitor output.
-
----
-
-<a id="flash-the-wi-fi-firmware"></a>
-
-## 3. Flash the Wi-Fi firmware
-
-Flash the latest Wi-Fi firmware version to the board.
-
-**Follow these steps:**
-
-1. In the top menu bar, open **File > Examples > STM32H747_System > WiFiFirmwareUpdater**.
-
-1. Click ![Upload button](img/symbol_upload2.png) **Upload** to upload the sketch.
-
-1. Open the Serial Monitor using one of these methods:
-
-   * Click the ![Serial Monitor button](img/symbol_monitor.png) button in the top-right corner.
-
-   * Select _Tools > Serial Monitor_ in the menu bar.
-
-1. If the Serial Monitor is empty, run the sketch again by pressing the **RST** button on the board.
-
-1. If you get this message:
-
-   `A WiFi firmware is already installed. Do you want to install the firmware anyway? Y/[n]`
-
-   If you do, type `Y` into the text field and press <kbd>Enter</kbd> to send.
-
-1. Wait until `Firmware and certificates updated!` appears in the Serial Monitor output.
+   ```
+   QSPI Flash formatted!
+   It's now safe to reboot or disconnect your board.
+   ```

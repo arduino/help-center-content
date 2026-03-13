@@ -1,0 +1,26 @@
+{
+  "name": "markdownlint",
+  "version": "1.0.0",
+  "description": "Linter for the Arduino Help Center repository",
+  "main": "markdownlint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "node markdownlint.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arduino/help-center-content.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arduino/help-center-content/issues"
+  },
+  "homepage": "https://github.com/arduino/help-center-content/blob/main/scripts/linter",
+  "dependencies": {
+    "glob": "^13.0.6",
+    "markdown-it": "^14.1.1",
+    "markdownlint": "^0.40.0",
+    "yaml": "^2.8.2"
+  }
+}

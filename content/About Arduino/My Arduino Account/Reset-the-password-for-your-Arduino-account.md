@@ -17,8 +17,6 @@ Follow these steps:
 
 2. Click on **Forgot your password?**
 
-   ![Login page](img/forgot-your-password.png)
-
 3. Type in the email for your Arduino account and click **Recover**
 
 4. Open your email inbox and look for an email from **auth** (auth@arduino.cc) with the subject "Reset your password".

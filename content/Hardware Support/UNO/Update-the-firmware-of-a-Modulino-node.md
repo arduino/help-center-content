@@ -3,7 +3,7 @@ title: "Update the firmware of a Modulino node"
 id: 16205756022172
 ---
 
-Learn how to update the firmware of a [Modulino node](https://store-usa.arduino.cc/products/plug-and-make-kit?srsltid=AfmBOopomr-DZVLRzl_VhXSSemiNa75qfABCHjqhvLQs7vz9_2PLgQN9#:~:text=technology%20%E2%80%93%20and%20yours.-,What%20are%20Modulino%C2%AE%3F,-Modulino%C2%AE%20are%20sensors).
+Learn how to update the firmware of a [Modulino node](https://store-usa.arduino.cc/products/plug-and-make-kit).
 
 Updating the firmware may be necessary to resolve issues with Modulino nodes.
 
@@ -14,13 +14,39 @@ In this article:
 
 ---
 
+## Supported Modulino nodes
+
+> [!WARNING]
+> Do not use the FirmwareUpdater sketch with an unsupported Modulino node.
+
+The FirmwareUpdater sketch can be used with the following Modulino nodes:
+
+* Modulino Buttons
+* Modulino Buzzer
+* Modulino Joystick
+* Modulino Knob
+* Modulino Latch Relay
+* Modulino Pixels
+* Modulino Vibro
+
+The firmware for the following Modulino nodes cannot be updated:
+
+* Modulino Distance
+* Modulino Light
+* Modulino Movement
+* Modulino Thermo
+
+If you experience issues with your Modulino node after running the FirmwareUpdater sketch, please [contact us](https://www.arduino.cc/en/contact-us/).
+
+---
+
 ## Update Modulino firmware in Arduino IDE {#ide}
 
 1. Connect the Modulino to your Arduino UNO R4 WiFi.
 
 2. Connect the board to your computer and open Arduino IDE.
 
-3. [Go to the Library Manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE) and install the [Modulino](https://docs.arduino.cc/libraries/modulino/) and [ArduinoGraphics](https://docs.arduino.cc/libraries/arduinographics/) libraries.
+3. [Go to the Library Manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE) and install the [Modulino](https://docs.arduino.cc/libraries/arduino_modulino) and [ArduinoGraphics](https://docs.arduino.cc/libraries/arduinographics/) libraries.
 
 4. In the top menu bar, open **File > Examples > Modulino > Utilities > FirmwareUpdater**.
 

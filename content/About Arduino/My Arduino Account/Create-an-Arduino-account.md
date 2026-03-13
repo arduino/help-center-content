@@ -5,87 +5,71 @@ id: 360016724040
 
 An Arduino account gives you full access to all Arduino websites, apps, and services.
 
-There are two ways to sign up for an account:
-
-* [Email](#email)
-* [SSO (Single Sign On)](#sso)
-
 > [!NOTE]
-> Users under the age of 14 need to [sign up for a junior account](https://support.arduino.cc/hc/en-us/articles/360022234360).
+> Users under the age of 18 need to [sign up for an Arduino account for minors](https://support.arduino.cc/hc/en-us/articles/360022234360).
+
+In this article:
+
+- [Sign up with email](#email)
+- [Sign up with your Google, GitHub, or Apple account](#sso)
+- [Next steps](#next-steps)
 
 ---
 
-<h2 id="email">Sign up with email</h2>
+## Sign up with email {#email}
 
-1. Go to [arduino.cc](https://www.arduino.cc/) and click Sign In in the top-right to open the [sign-in page](https://login.arduino.cc/login).
+Follow these steps:
 
-   ![The sign in button on arduino.cc](img/arduino-cc-sign-in-button.png)
+1. Go to [login.arduino.cc/login](https://login.arduino.cc/login).
 
-   > [!NOTE]
-   > If another account is signed in, click the ![Profile icon](img/symbol_profile.png) profile button and select 'Sign Out' first.
+1. Click on the **Create your account** link.
 
-2. Below the **Sign In** button, find the text "Don't have an account yet?", and click on **Create one** to proceed.
+1. Enter the following information:
 
-   ![The arduino.cc sign in page. An arrow highlights the link for signing up with email,.](img/arduino-account-sign-in-create-button.png)
+   - _Email_
+   - _Password_
+   - _Username_
 
-3. Enter your date of birth, then click on Next.
+1. Confirm that you've read the _Privacy Policy_ and accept the _Terms of Service_.
 
-   ![Entering date of birth.](img/arduino-account-sign-up-dob.png)
+1. Click **Next** to proceed.
 
-   > [!NOTE]
-   > Users under the age of 14 need to [sign up for a junior account](https://support.arduino.cc/hc/en-us/articles/360022234360).
+1. Enter your date of birth (DD/MM/YYYY) and click **Next**.
 
-4. Enter the following:
+1. Optionally choose to receive news or commercial offers and click **Confirm your choice**.
 
-   * The email address you want to be linked to your account
-   * A username
-   * A password
+1. Open your email inbox and look for an email from **auth@arduino.cc** with the subject "Verify your email".
 
-   You also need to accept the **Privacy Policy** and **Terms of Service**.
+1. Open the email and click the **Confirm Now** button to complete the account registration.
 
-   ![Signing up to Arduino.](img/arduino-account-info.png)
-
-5. Click the **Sign Up** button. You will be redirected to the main website.
-
-6. You will now receive a confirmation email with an account activation link.
-
-   Click the CONFIRM NOW button to finish setting up the account.
-
-   ![Email confirming account creation.](img/arduino-account-welcome-email.png)
-
-   > [!TIP]
-   > If you don't see the email in your main inbox, please check the spam folder.
-
-You can review your account and configure your account on [the profile page](https://id.arduino.cc/).
+> [!WARNING]
+> Your account will be automatically deleted if your email is not verified. Please verify your email address to avoid losing access. If you need help, see [Verify your email address](https://support.arduino.cc/hc/en-us/articles/360016822039-Verify-your-email-address).
 
 ---
 
-<h2 id="sso">Sign up with SSO (Single Sign On)</h2>
+## Sign up with your Google, GitHub, or Apple account {#sso}
 
-Alternatively, you can sign in using an identity provider such as Google or Facebook.
+Follow these steps:
 
-1. Go to [arduino.cc](https://www.arduino.cc/) and click Sign In in the top-right to open the [sign-in page](https://login.arduino.cc/login).
+1. Go to [login.arduino.cc/login](https://login.arduino.cc/login).
 
-   > [!NOTE]
-   > If another account is signed in, click the ![Profile icon](img/symbol_profile.png) profile button and select 'Sign Out'.
+1. Select one of these single sign-on (SSO) options:
 
-   ![Sign-in button highlighted](img/arduino-cc-sign-in-button.png)
+   - Google
+   - GitHub
+   - Apple
 
-2. Select one of the SSO options.
+1. Follow the instructions to authenticate with the SSO provider.
 
-   ![Sign In services](img/arduino-account-sign-up-sso.png)
+1. Select a username.
 
-3. Follow the instructions to authenticate with your identity provider.
+1. Confirm that you've read the _Privacy Policy_ and accept the _Terms of Service_.
 
-4. Select a username and approve the required  click **Create Account**.
-
-   ![createAccount](img/arduino-account-sso-username.png)
-
-You can review your account and configure your account on [the profile page](https://id.arduino.cc/).
+1. Click **Create Account** to complete the account registration.
 
 ---
 
-## Further reading
+## Next steps
 
-* [Create an Arduino account for juniors](https://support.arduino.cc/hc/en-us/articles/360022234360)
-* [Delete an Arduino account](https://support.arduino.cc/hc/en-us/articles/360017090920)
+- You can review and configure your account settings on [id.arduino.cc](https://id.arduino.cc/).
+- To start using Arduino Cloud, go to [app.arduino.cc](https://app.arduino.cc/).

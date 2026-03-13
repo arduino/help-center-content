@@ -3,8 +3,11 @@ title: "An overview of different UNO boards"
 id: 7901453165724
 ---
 
+Since the release of the original AVR-based Arduino UNO, the UNO family has expanded to include a wide range of boards that share the same pin layout.
+
 In this article:
 
+* [UNO Q](#uno-q)
 * [UNO R4 Boards](#r4)
 * [UNO (R3 and earlier revisions, SMD variant)](#uno)
 * [UNO WiFi, UNO WiFi Rev2](#uno-wifi)
@@ -13,11 +16,24 @@ In this article:
 
 ---
 
-<a id="r4"></a>
+## UNO Q {#uno-q}
 
-## UNO R4 boards
+The **Arduino UNO Q** is a powerful single-board computer (SBC) that runs a full Linux environment (Debian OS), powered by the **Qualcomm Dragonwing™ QRB2210** system-on-chip (SoC).
 
-The new **Arduino UNO R4 Boards** use a **Renesas RA4M1 32-bit Arm® Cortex®-M4 processor**.
+<img src="img/ABX00162_03.front.jpg" alt="Photo of Arduino UNO Q." width=400px>
+
+**Arduino UNO Q**\
+Microprocessor: Qualcomm Dragonwing™ QRB2210\
+Microcontroller: R7FA4M1AB3C\
+Board core: `Arduino UNO Q (Arduino Zephyr Boards)`\
+Store page: [Arduino UNO Q](https://store.arduino.cc/products/uno-q)\
+Documentation: [UNO Q](https://docs.arduino.cc/hardware/uno-q)
+
+---
+
+## UNO R4 boards {#r4}
+
+The **Arduino UNO R4 Boards** use a **Renesas RA4M1 32-bit Arm® Cortex®-M4 processor**.
 
 * Unlike previous UNO boards, they do not use 8-bit AVR processors.
 * They use a different board package (Arduino UNO R4 Boards).
@@ -28,7 +44,7 @@ The new **Arduino UNO R4 Boards** use a **Renesas RA4M1 32-bit Arm® Cortex®-M4
 
 <!-- ### Arduino UNO R4 WiFi <!-- SKU: ABX00087 -->
 
-<img src="img/ABX00087_00.front_643x483.png" width=400px>
+<img src="img/ABX00087_00.front_643x483.png" alt="Photo of Arduino UNO R4 WiFi." width=400px>
 
 **Arduino UNO R4 WiFi**\
 Microcontroller: R7FA4M1AB3C\
@@ -40,7 +56,7 @@ Documentation: [UNO R4 WiFi](https://docs.arduino.cc/hardware/uno-r4-wifi)
 
 <!-- ### Arduino UNO R4 Minima <!-- SKU: ABX00080 -->
 
-<img src="img/ABX00080_00.default_643x483.png" width=400px>
+<img src="img/ABX00080_00.default_643x483.png" alt="Photo of Arduino UNO Minima." width=400px>
 
 **Arduino UNO R4 Minima**\
 Microcontroller: R7FA4M1AB3C\
@@ -50,9 +66,7 @@ Documentation: [UNO R4 Minima](https://docs.arduino.cc/hardware/uno-r4-minima)
 
 ---
 
-<a id="uno"></a>
-
-## UNO R3 (inc. older revisions, SMD)
+## UNO R3 (inc. older revisions, SMD) {#uno}
 
 While "Arduino UNO" was also the name of the [first Arduino UNO board model](#arduino-uno), it is now more often used to refer to any board with these characteristics:
 
@@ -68,7 +82,7 @@ Today, the [Arduino UNO R3](#arduino-uno-r3) is the main successor to this line 
 
 <!-- ### Arduino UNO R3 <!-- SKU: A000066 -->
 
-<img src="img/A000066_03.front_1000x750.png" width=400px>
+<img src="img/A000066_03.front_1000x750.png" alt="Photo of Arduino UNO R3." width=400px>
 
 **Arduino UNO R3**\
 Microcontroller: ATmega328P\
@@ -88,7 +102,7 @@ See also: [Overview of the Arduino UNO Components](https://docs.arduino.cc/tutor
 
 <!-- ### Arduino UNO R3 SMD <!-- SKU: A000073 -->
 
-<img src="img/Arduino_UNO_R3_SMD_Front.png" width=400px>
+<img src="img/Arduino_UNO_R3_SMD_Front.png" alt="Photo of Arduino UNO R3 SMD" width=400px>
 
 **Arduino UNO R3 SMD**\
 Microcontroller: ATmega328P\
@@ -102,7 +116,7 @@ On the **SMD (Surface Mounted Device)** version of the UNO R3, the ATmega328 mic
 
 <!-- ### Arduino UNO Rev3 with Long Pins -->
 
-<img src="https://docs.arduino.cc/static/59be648a9bc0da11bc1e642ff77db6cb/a207c/a000099_featured_1.jpg" width=400px>
+<img src="img/a000099_featured_1.jpg" alt="Photo of Arduino UNO Rev3 with Long Pins." width=400px>
 
 **Arduino UNO Rev3 with Long Pins**\
 Microcontroller: ATmega328P\
@@ -115,7 +129,7 @@ A version of the UNO R3 with longer pins on the bottom.
 
 <!-- ### Arduino UNO Rev2 -->
 
-<img src="img/ArduinoUno_r2_front.png" width=400px>
+<img src="img/ArduinoUno_r2_front.png" alt="Photo of Arduino UNO Rev2." width=400px>
 
 **Arduino UNO Rev2**\
 Microcontroller: ATmega328P\
@@ -131,7 +145,7 @@ This revision added a resistor pulling the ATmega8U2 HWB line to ground, making 
 
 <!-- ### Arduino UNO -->
 
-<img src="img/ArduinoUnoFront.png" width=400px>
+<img src="img/ArduinoUnoFront.png" alt="Photo of Arduino UNO." width=400px>
 
 **Arduino UNO**\
 Microcontroller: ATmega328P\
@@ -140,11 +154,9 @@ Documentation: [ARDUINO UNO](https://docs.arduino.cc/retired/other/arduino-older
 
 The original UNO board. It is sometimes referred to as the "R1" or "Rev1" version to distinguish it from later versions.
 
-<a id="uno-wifi"></a>
-
 ---
 
-## UNO WiFi, UNO WiFi Rev2
+## UNO WiFi, UNO WiFi Rev2 {#uno-wifi}
 
 See also: [Arduino UNO R4 WiFi](#r4-wifi).
 
@@ -152,7 +164,7 @@ See also: [Arduino UNO R4 WiFi](#r4-wifi).
 
 <hr style="height:2px">
 
-<img src="img/ABX00021_03.front_78bd33e4-a4f4-44f6-894b-404212477ec4_643x483.png" width=400px>
+<img src="img/ABX00021_03.front_78bd33e4-a4f4-44f6-894b-404212477ec4_643x483.png" alt="Photo of Arduino UNO WiFi Rev2" width=400px>
 
 **UNO WiFi Rev2**\
 Microcontroller: ATmega4809\
@@ -166,7 +178,7 @@ The only UNO board that comes with an ATmega4809 microprocessor instead of an AT
 
 <hr style="height:2px">
 
-<img src="https://docs.arduino.cc/static/930b385bbd2ce6ad9123deb95fe1b3cf/6aca1/a000133_featured.jpg" width=400px>
+<img src="img/a000133_featured.jpg" alt="Photo of Arduino UNO WiFi" width=400px>
 
 **Arduino UNO WiFi**\
 Microcontroller: ATmega328P\
@@ -177,15 +189,13 @@ A version of the UNO R3 with an ESP8266 Wi-Fi module.
 
 Not to be confused with the **Arduino UNO WiFi Rev2**.
 
-<a id="uno-mini"></a>
-
 ---
 
-## UNO Mini Limited Edition
+## UNO Mini Limited Edition {#uno-mini}
 
 <!-- ### UNO Mini Limited Edition -->
 
-<img src="img/ABX00062_01.front_643x483.png" width=200px>
+<img src="img/ABX00062_01.front_643x483.png" alt="Photo of Arduino UNO Mini Limited Edition." width=200px>
 
 **UNO Mini Limited Edition**\
 Microcontroller: ATmega328P\
@@ -195,11 +205,9 @@ Documentation: [UNO Mini Limited Edition](https://docs.arduino.cc/hardware/uno-m
 
 This limited edition UNO board comes in a smaller form factor, and has a USB-C connector.
 
-<a id="compatible"></a>
-
 ---
 
-## Arduino-compatible "UNO" boards by other manufacturers
+## Arduino-compatible "UNO" boards by other manufacturers {#compatible}
 
 There exists a variety of clone and derivative boards, as well as other products marketed as "Arduino-compatible", with "UNO" in the name.
 

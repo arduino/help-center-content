@@ -29,6 +29,7 @@ In this article:
 * Arduino Portenta H7
 * Arduino Portenta H7 Lite Connected
 * Arduino Portenta X8
+* Arduino UNO Q
 * Arduino UNO R4 WiFi
 * Arduino UNO WiFi Rev2
 
@@ -56,6 +57,7 @@ In this article:
 * Arduino Portenta H7
 * Arduino Portenta H7 Lite Connected
 * Arduino Portenta X8
+* Arduino UNO Q
 * Arduino UNO R4 WiFi
 
 > [!NOTE]

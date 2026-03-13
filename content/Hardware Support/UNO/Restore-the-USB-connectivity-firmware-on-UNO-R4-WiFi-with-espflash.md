@@ -15,9 +15,11 @@ You may want to use this procedure if:
 Follow these steps:
 
 1. Unplug UNO R4 WiFi and any non-essential USB devices from your computer.
+
 1. On the board, find the **GND** and **Download** pins on the 6-pin header next to the USB-C connector:
 
    ![The GND and Download ESP32 pins.](img/esp32-data-pins.png)
+
 1. Connect the board to your computer while shorting the GND and Download pins.
 
    * This can easily be done by connecting a female-to-female jumper wire between the two pins.
@@ -31,14 +33,14 @@ Follow these steps:
    * [unor4wifi-update-linux.zip](https://github.com/arduino/uno-r4-wifi-usb-bridge/releases/latest/download/unor4wifi-update-linux.zip){.link-download}
 1. Open your system's command line application inside the extracted folder.
    * **Windows:** Hold <kbd>⇧Shift</kbd> and right-click any blank space inside the extracted folder. In the context menu, select **Open command window here / Open PowerShell window here**.
-   * **macOS:** Control-click on the extracted `unor4wifi-update-macos` folder and select "**New Terminal at Folder**" from the context menu. A terminal window will open.
+   * **macOS:** Control-click on the extracted `unor4wifi-update-macos` folder and select "**Services > New Terminal at Folder**" from the context menu. A terminal window will open.
    * **Linux:** Open [a command line terminal](https://ubuntu.com/tutorials/command-line-for-beginners) in the extracted folder.
 1. Run the command:
    * **Windows:** `bin\espflash write-bin -b 115200 0x0 (Get-Item .\firmware\UNOR4-WIFI-S3-*.bin).FullName`
    * **macOS/Linux:** `./bin/espflash write-bin -b 115200 0x0 firmware/UNOR4-WIFI-S3-*.bin`
 
    > [!NOTE]
-   > If you're using macOS, you may need to adjust your system's security settings to allow this command if you encounter a warning pop-up. To proceed, go to _System Settings > Privacy & Security_, and under _Security_, click _Allow Anyway_ to allow espflash to run.
+   > If you're using macOS, you may need to adjust your system's security settings to allow this command if you encounter a warning pop-up. In the System Settings app, select _Privacy & Security_ and scroll down to the _Security_ section. Click _Allow Anyway_ to allow espflash to run, and repeat the previous step.
 
 1. The terminal window might now show a list of the serial ports present on your computer. Use the arrow keys on your keyboard to select the port for the board and then press the <kbd>**Enter**</kbd> key.
    * **Windows:** The board will have a name like "USB Serial Device".
@@ -67,5 +69,5 @@ Follow these steps:
 
 1. Close the terminal window.
 1. Disconnect the USB cable of the **UNO R4 WiFi** board from your computer.
-1. Ensure that the Download pin is no longer shorted.
+1. Ensure that the Download and GND pins are no longer shorted.
 1. Connect the **UNO R4 WiFi** board to your computer with the USB cable again.
