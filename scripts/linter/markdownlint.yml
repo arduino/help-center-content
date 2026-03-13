@@ -32,3 +32,11 @@ HC006:
   title_line_length: 124
 HC008: true
 MD045: true
+
+# Added 2026-03-09
+MD034: false
+MD039: false
+MD059: false
+MD051: false
+MD053: false
+MD007: false

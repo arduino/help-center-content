@@ -1,0 +1,43 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Sync Redirects",
+            "type": "shell",
+            "command": "export $(grep -v '^#' .env | xargs) && python3 scripts/sync-redirects/sync_redirects.py scripts/sync-redirects/redirects.yml",
+            "problemMatcher": [],
+            "group": "none",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            }
+        },
+        {
+            "label": "markdownlint",
+            "type": "shell",
+            
+            // Default (Windows fallback): Just run Node
+            "command": "node markdownlint.js",
+            "options": {
+                "cwd": "${workspaceFolder}/scripts/linter"
+            },
+            
+            // macOS / Linux: Run the wrapper script
+            "osx": {
+                "command": "bash run.sh"
+            },
+            "linux": {
+                "command": "bash run.sh"
+            },
+
+            "problemMatcher": [],
+            "group": "none",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            }
+        }
+    ]
+}

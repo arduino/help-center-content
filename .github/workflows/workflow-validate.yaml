@@ -23,10 +23,10 @@ jobs:
 
       - name: Markdownlint
         run: |
-          cd _linter
+          cd scripts/linter
           npm install
-          cd ..
-          node _linter/markdownlint.js
+          cd ../..
+          node scripts/linter/markdownlint.js
 
   zendesk:
     if: github.repository_owner == 'arduino'

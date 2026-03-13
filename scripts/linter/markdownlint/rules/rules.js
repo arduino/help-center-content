@@ -20,7 +20,7 @@ rules.forEach((rule) => {
   const name = rule.names[0].toLowerCase();
   // eslint-disable-next-line dot-notation
   rule["information"] =
-    new URL(`${homepage}/blob/master/markdownlint/Rules.md#${name}`);
+    new URL(`${homepage}/markdownlint/Rules.md#${name}`);
 });
 
 module.exports = rules;
