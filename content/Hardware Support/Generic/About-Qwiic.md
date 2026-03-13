@@ -45,7 +45,7 @@ One of the most powerful features of Qwiic is the ability to "daisy chain" multi
 ## Compatible Arduino products{#compatible-arduino-products}
 
 - [Alvik](https://docs.arduino.cc/tutorials/alvik/user-manual/#qwiic-connectors)
-- [Modulinos (included in the Plug and Make Kit)](https://docs.arduino.cc/hardware/plug-and-make-kit/#features:~:text=Qwiic%20Connectors,building%20complex%20circuits.)
+- [Modulino Nodes (included in the Plug and Make Kit)](https://docs.arduino.cc/hardware/plug-and-make-kit/#features:~:text=Qwiic%20Connectors,building%20complex%20circuits.)
 - [Nano Connector Carrier](https://docs.arduino.cc/tutorials/nano-connector-carrier/getting-started-nano-connector-carrier/#qwiic-connector)
 - [Nano R4](https://docs.arduino.cc/tutorials/nano-r4/user-manual/#qwiic-connector)
 - [UNO R4 WiFi](https://docs.arduino.cc/tutorials/uno-r4-wifi/qwiic/#qwiic)
