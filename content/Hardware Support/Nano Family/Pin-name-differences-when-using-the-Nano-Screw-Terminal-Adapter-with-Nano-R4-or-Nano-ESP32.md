@@ -10,7 +10,7 @@ While the adapter is compatible with all boards in the Nano family, it was origi
 
 ## Arduino Nano R4
 
-On the Arduino Nano R4, the pins located at the **REF** and **RST** positions on the screw terminal adapter correspond to pins **B0** and **B1** on the board. The table below shows the corresponding labels between the board pins and the screw terminal adapter.
+On this board, the pins located at the **REF** and **RST** positions on the screw terminal adapter correspond to pins **B0** and **B1**. The table below shows the corresponding labels between the board pins and the screw terminal adapter.
 
 | Nano R4 pin | Nano Screw Terminal Adapter |
 |:------------|:-----------------------------|
@@ -21,7 +21,7 @@ On the Arduino Nano R4, the pins located at the **REF** and **RST** positions on
 
 ## Arduino Nano ESP32
 
-On the Arduino Nano ESP32, some pin names differ from the silk-screen labels on the screw terminal adapter. The table below shows the corresponding labels between the board pins and the screw terminal adapter.
+On this board, the **B0**, **VBUS**, and **B1** pins use different names than the labels shown on the screw terminal adapter. The table below shows the corresponding labels between the board pins and the screw terminal adapter.
 
 | Nano ESP32 pin | Nano Screw Terminal Adapter |
 |:---------------|:-----------------------------|
