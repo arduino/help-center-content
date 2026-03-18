@@ -10,28 +10,24 @@ While the adapter is compatible with all boards in the Nano family, it was origi
 
 ## Arduino Nano R4
 
-On the Arduino Nano R4, the pins located at the **REF** and **RST** positions on the screw terminal adapter are labeled **B0** and **B1** on the board itself:
+On the Arduino Nano R4, the pins located at the **REF** and **RST** positions on the screw terminal adapter correspond to pins **B0** and **B1** on the board. The table below shows the corresponding labels between the board pins and the screw terminal adapter.
 
-| Board pin | Adapter label |
-| :-------- | :------------ |
-|     B0    |      REF      |
-|     B1    |      RST      |
-
-![Arduino Nano R4 with the Nano Screw Terminal Adapter](img/nano-r4-screw-terminal-adapter.png)
+| Nano R4 pin | Nano Screw Terminal Adapter |
+|:------------|:-----------------------------|
+| B0          | REF                          |
+| B1          | RST                          |
 
 ---
 
 ## Arduino Nano ESP32
 
-The Arduino Nano ESP32 has several pins with labels that differ from the silk-screen markings on the screw terminal adapter:
+On the Arduino Nano ESP32, some pin names differ from the silk-screen labels on the screw terminal adapter. The table below shows the corresponding labels between the board pins and the screw terminal adapter.
 
-| Board pin | Adapter label |
-| :-------- | :------------ |
-|     B0    |     REF       |
-|     VBUS  |     5V        |
-|     B1    |     RST       |
-
-![Arduino Nano ESP32 with the Nano Screw Terminal Adapter](img/nano-esp32-screw-terminal-adapter.png)
+| Nano ESP32 pin | Nano Screw Terminal Adapter |
+|:---------------|:-----------------------------|
+| B0             | REF                          |
+| VBUS           | 5V                           |
+| B1             | RST                          |
 
 > [!NOTE]
 > On the Nano ESP32, the **B1** and **B0** pins are strapping pins used for the bootloader. For more information, see [About the B1 and B0 pins on the Nano ESP32](https://support.arduino.cc/hc/en-us/articles/9625819325212).
