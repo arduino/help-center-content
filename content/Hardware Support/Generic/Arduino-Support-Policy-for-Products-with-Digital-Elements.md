@@ -1,6 +1,5 @@
 ---
 title: 'Arduino Support Policy for Products with Digital Elements'
-
 ---
 
 At Arduino, we are committed to the security and longevity of our hardware products.
