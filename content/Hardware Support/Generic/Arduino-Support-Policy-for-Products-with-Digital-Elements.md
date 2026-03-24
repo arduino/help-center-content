@@ -30,7 +30,7 @@ In accordance with our commitment to product longevity, Arduino will provide sec
 * At least **two (2) years** from the official **release date** of the associated product (Release Date + 2 years)
 * At least **two (2) years** after the last date that the product is **distributed** by Arduino to the market (End of Distribution + 2 years)
 
-**Arduino will provide support until whichever date is later (End of Support).**
+**Arduino will provide support until whichever date is later (End of Product Support).**
 
 > **Example:** If a product is launched in January 2024 and ceases distribution in January 2030, security updates will be provided until at least January 2032.
 
@@ -51,6 +51,6 @@ If you want to report vulnerabilities in Arduino components, please review our C
 
 ## End-of-Life (EOL) Transparency
 
-When a product reaches its end-of-support date, Arduino will update the product's documentation page to reflect its "**End-Of-Life**" or “**End-Of-Support**” status. While the hardware may continue to function, no further security updates will be provided, and users are encouraged to isolate these devices from their networks or public networks, or execute an update. Software releases will have the indication “End-Of-Life” or “End-Of-Support” with the same meaning, when applicable.
+When a product reaches its end-of-product-support date, Arduino will update the product's documentation page to reflect its "**End-Of-Life**" or “**End-Of-Product-Support**” status. While the hardware may continue to function, no further security updates will be provided, and users are encouraged to isolate these devices from their networks or public networks, or execute an update. Software releases will have the indication “End-Of-Life” or “End-Of-Product-Support” with the same meaning, when applicable.
 
-On software components, such as specific versions of libraries or firmware or other components, the indication “**Deprecated**” might be provided to suggest that the specific software version is still supported, but users are recommended to migrate to a more recent version because the version marked “Deprecated” is planned for End-Of-Support. This marker is not mandatory.
+On software components, such as specific versions of libraries or firmware or other components, the indication “**Deprecated**” might be provided to suggest that the specific software version is still supported, but users are recommended to migrate to a more recent version because the version marked “Deprecated” is planned for End-Of-Product-Support. This marker is not mandatory.
