@@ -1,5 +1,6 @@
 ---
 title: Pin name differences when using the Nano Screw Terminal Adapter with Nano R4 or Nano ESP32
+id: 26381753951260
 ---
 
 The [Arduino Nano Screw Terminal Adapter](https://store.arduino.cc/nano-screw-terminal-adapter) allows you to easily connect Arduino Nano boards to external sensors, actuators, and other components using screw terminals.
