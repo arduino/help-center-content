@@ -18,6 +18,8 @@ In this article:
 - [Available partition schemes](#available-partition-schemes)
 - [Use the default partition scheme](#use-the-default-partition-scheme)
 - [Use the partition scheme for Arduino PLC IDE](#use-the-partition-scheme-for-arduino-plc-ide)
+	- [Arduino Opta](#arduino-opta)
+	- [Portenta Machine Control](#portenta-machine-control)
 - [Troubleshooting](#troubleshooting)
 
 <!-- /TOC -->
@@ -54,17 +56,15 @@ Follow these steps:
 
    - Arduino IDE: Ensure that you are using the [latest version of the board package](https://support.arduino.cc/hc/en-us/articles/4404691106066-Update-board-packages-in-Arduino-IDE), then select File > Examples > STM32H747_System > QSPIFormat.
 
-   - Arduino Cloud Editor: Open the [QSPIFormat example](https://app.arduino.cc/sketches/examples?eid=arduino%2Fhardware%2Fmbed_opta%2F4.4.1%2Flibraries%2FSTM32H747_System%2Fexamples%2FQSPIFormat&slid=mbed_opta%3A4.4.1%3Astm32h747_system){.link-chevron-external} in the Cloud Editor.
-
    - GitHub: Download the [QSPIFormat example](https://github.com/arduino/ArduinoCore-mbed/blob/main/libraries/STM32H747_System/examples/QSPIFormat/QSPIFormat.ino){.link-chevron-external} and open it on Arduino IDE or Arduino Cloud.
 
-1. Connect your device to your computer and select the device in the editor.
+2. Connect your device to your computer and select the device in the editor.
 
-1. Click ![Upload button](img/symbol_upload2.png) **Upload** to upload the sketch to the device.
+3. Click ![Upload button](img/symbol_upload2.png) **Upload** to upload the sketch to the device.
 
-1. Click the ![Serial Monitor button](img/symbol_monitor.png) **Serial Monitor** button in the top-right corner or select Tools > Serial Monitor (Arduino IDE only).
+4. Click the ![Serial Monitor button](img/symbol_monitor.png) **Serial Monitor** button in the top-right corner or select Tools > Serial Monitor (Arduino IDE only).
 
-1. You should see the text below in the serial monitor. If the serial monitor is empty, ensure the sketch has finished uploading and press the RST button on the device to restart the sketch.
+5. You should see the text below in the serial monitor. If the serial monitor is empty, ensure the sketch has finished uploading and press the RST button on the device to restart the sketch.
 
    ```
    WARNING! Running the sketch all the content of the QSPI flash will be erased.
@@ -76,9 +76,9 @@ Follow these steps:
    Do you want to proceed? Y/[n]
    ```
 
-1. Type "Y" into the Serial Monitor and press <kbd>Enter</kbd> to proceed.
+6. Type "Y" into the Serial Monitor and press <kbd>Enter</kbd> to proceed.
 
-1. The following should now appear in the serial monitor:
+7. The following should now appear in the serial monitor:
 
    ```
    Do you want to perform a full erase of the QSPI flash before proceeding? Y/[n]
@@ -87,7 +87,7 @@ Follow these steps:
 
    Type "Y" into the Serial Monitor and press <kbd>Enter</kbd> to confirm (recommended).
 
-1. The following should now appear in the serial monitor:
+8. The following should now appear in the serial monitor:
 
    ```
    Do you want to restore the WiFi firmware and certificates? Y/[n]
@@ -95,7 +95,7 @@ Follow these steps:
 
    Type "Y" into the Serial Monitor and press <kbd>Enter</kbd> to confirm (recommended).
 
-1. The following should now appear in the serial monitor:
+9. The following should now appear in the serial monitor:
 
    ```
    Do you want to use LittleFS to format user data partition? Y/[n]
@@ -105,7 +105,7 @@ Follow these steps:
 
    Type "Y" into the Serial Monitor and press <kbd>Enter</kbd> to confirm (recommended).
 
-1. The process is complete when this message appears in the serial monitor:
+10. The process is complete when this message appears in the serial monitor:
 
    ```
    QSPI Flash formatted!
