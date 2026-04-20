@@ -56,7 +56,7 @@ Follow these steps:
 
    - Arduino IDE: Ensure that you are using the [latest version of the board package](https://support.arduino.cc/hc/en-us/articles/4404691106066-Update-board-packages-in-Arduino-IDE), then select File > Examples > STM32H747_System > QSPIFormat.
 
-   - GitHub: Download the [QSPIFormat example](https://github.com/arduino/ArduinoCore-mbed/blob/main/libraries/STM32H747_System/examples/QSPIFormat/QSPIFormat.ino){.link-chevron-external} and open it on Arduino IDE or Arduino Cloud.
+   - GitHub: Download the [QSPIFormat example](https://github.com/arduino/ArduinoCore-mbed/blob/main/libraries/STM32H747_System/examples/QSPIFormat/QSPIFormat.ino) and open it on Arduino IDE or Arduino Cloud.
 
 2. Connect your device to your computer and select the device in the editor.
 
