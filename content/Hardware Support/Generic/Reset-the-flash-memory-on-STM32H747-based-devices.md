@@ -18,8 +18,8 @@ In this article:
 - [Available partition schemes](#available-partition-schemes)
 - [Use the default partition scheme](#use-the-default-partition-scheme)
 - [Use the partition scheme for Arduino PLC IDE](#use-the-partition-scheme-for-arduino-plc-ide)
-	- [Arduino Opta](#arduino-opta)
-	- [Portenta Machine Control](#portenta-machine-control)
+  - [Arduino Opta](#arduino-opta)
+  - [Portenta Machine Control](#portenta-machine-control)
 - [Troubleshooting](#troubleshooting)
 
 <!-- /TOC -->
