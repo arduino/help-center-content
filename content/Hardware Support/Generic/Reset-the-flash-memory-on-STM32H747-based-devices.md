@@ -153,7 +153,7 @@ If you are using a **Portenta Machine Control**, follow these steps:
    It's now safe to reboot or disconnect your board.
    ```
 
-Note that resetting the flash memory will remove the PLC IDE runtime. To continue using PLC IDE with your device, you need to [reinstall the runtime](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license/#3-download-the-runtime).
+Note that resetting the flash memory will remove the PLC IDE runtime. To continue using PLC IDE with your device, you need to [reinstall the runtime](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license/#3-download-the-runtime). After seeing the completion message, if you plan to reinstall the runtime, it is recommended to put the board in bootloader mode by double-tapping the **RST** button before opening the PLC IDE. If you reboot or reconnect the board normally while the partitioning sketch is still loaded, it will automatically format the memory again without asking for confirmation.
 
 ---
 
