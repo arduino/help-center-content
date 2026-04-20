@@ -100,7 +100,7 @@ Follow these steps:
    ```
    Do you want to use LittleFS to format user data partition? Y/[n]
    If No, FatFS will be used to format user partition.
-   Note: LittleFS is not supported by the OPTA PLC runtime.
+   Note: Arduino PLC IDE is using LittleFS to store runtime data on this partition.
    ```
 
    Type "Y" into the Serial Monitor and press <kbd>Enter</kbd> to confirm (recommended).
@@ -116,16 +116,17 @@ Follow these steps:
 
 ## Use the partition scheme for Arduino PLC IDE
 
-This partition scheme is compatible with Arduino PLC IDE 1.1.0.
+This partition scheme is compatible with Arduino PLC IDE 1.1.0. The partitioning process depends on your device:
 
-Supported devices:
+### Arduino Opta
 
-- Arduino Opta Lite
-- Arduino Opta RS485
-- Arduino Opta WiFi
-- Arduino Portenta Machine Control
+If you are using an **Arduino Opta** (Lite, RS485, or WiFi), you can use the same procedure as the [default partition scheme](#use-the-default-partition-scheme).
 
-Follow these steps:
+Follow the steps in [Use the default partition scheme](#use-the-default-partition-scheme) and ensure you type **"Y"** for all four confirmation prompts in the Serial Monitor (including the prompt for LittleFS).
+
+### Portenta Machine Control
+
+If you are using a **Portenta Machine Control**, follow these steps:
 
 1. Download the following sketch:
 
