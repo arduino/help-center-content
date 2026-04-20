@@ -29,7 +29,7 @@ In this article:
 | Partition scheme | Description                                                                                               |
 |---------------------|--------------------------------------------------------------------------------------------------------|
 | [Default partition scheme](#use-the-default-partition-scheme)    | Required for full Arduino Cloud support.                  |
-| [Arduino PLC IDE](#use-the-partition-scheme-for-arduino-plc-ide) | Compatible with Arduino PLC IDE 1.0.8.                    |
+| [Arduino PLC IDE](#use-the-partition-scheme-for-arduino-plc-ide) | Compatible with Arduino PLC IDE 1.1.0.                    |
 
 ---
 
@@ -55,6 +55,8 @@ Follow these steps:
    - Arduino IDE: Ensure that you are using the [latest version of the board package](https://support.arduino.cc/hc/en-us/articles/4404691106066-Update-board-packages-in-Arduino-IDE), then select File > Examples > STM32H747_System > QSPIFormat.
 
    - Arduino Cloud Editor: Open the [QSPIFormat example](https://app.arduino.cc/sketches/examples?eid=arduino%2Fhardware%2Fmbed_opta%2F4.4.1%2Flibraries%2FSTM32H747_System%2Fexamples%2FQSPIFormat&slid=mbed_opta%3A4.4.1%3Astm32h747_system){.link-chevron-external} in the Cloud Editor.
+
+   - GitHub: Download the [QSPIFormat example](https://github.com/arduino/ArduinoCore-mbed/blob/main/libraries/STM32H747_System/examples/QSPIFormat/QSPIFormat.ino){.link-chevron-external} and open it on Arduino IDE or Arduino Cloud.
 
 1. Connect your device to your computer and select the device in the editor.
 
@@ -114,7 +116,7 @@ Follow these steps:
 
 ## Use the partition scheme for Arduino PLC IDE
 
-This partition scheme is compatible with Arduino PLC IDE 1.0.8.
+This partition scheme is compatible with Arduino PLC IDE 1.1.0.
 
 Supported devices:
 
