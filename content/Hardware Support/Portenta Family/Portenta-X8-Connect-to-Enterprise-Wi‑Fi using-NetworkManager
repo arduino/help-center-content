@@ -1,6 +1,6 @@
-# X8 – Connect to Enterprise Wi‑Fi using NetworkManager
-
-## Overview
+---
+title: "Portenta X8 – Connect to Enterprise Wi‑Fi using NetworkManager"
+---
 
 This article explains how to manually connect an Arduino Portenta X8 to a Wi‑Fi network using NetworkManager from the command line. The focus is on Enterprise (802.1X) Wi‑Fi networks, which are commonly used in corporate or institutional environments.
 
