@@ -17,8 +17,7 @@ In this article:
 
 - [Available partition schemes](#available-partition-schemes)
 - [Use the default partition scheme](#use-the-default-partition-scheme)
-- [Use the partition scheme for Arduino PLC IDE](#use-the-partition-scheme-for-arduino-plc-ide)
-  - [Arduino Opta](#arduino-opta)
+- [Use the partition scheme for Arduino PLC IDE (Legacy)](#use-the-partition-scheme-for-arduino-plc-ide-legacy)
   - [Portenta Machine Control](#portenta-machine-control)
 - [Troubleshooting](#troubleshooting)
 
@@ -30,14 +29,14 @@ In this article:
 
 | Partition scheme | Description                                                                                               |
 |---------------------|--------------------------------------------------------------------------------------------------------|
-| [Default partition scheme](#use-the-default-partition-scheme)    | Required for full Arduino Cloud support.                  |
-| [Arduino PLC IDE](#use-the-partition-scheme-for-arduino-plc-ide) | Compatible with Arduino PLC IDE 1.1.0.                    |
+| [Default partition scheme](#use-the-default-partition-scheme)    | Required for full Arduino Cloud support. Supports PLC IDE on Arduino Opta. |
+| [Arduino PLC IDE (Legacy)](#use-the-partition-scheme-for-arduino-plc-ide-legacy) | Use this scheme to make Portenta Machine Control compatible with PLC IDE. |
 
 ---
 
 ## Use the default partition scheme
 
-This partition scheme supports the latest Arduino Cloud features, and is recommended unless you are using your device with Arduino PLC IDE.
+This partition scheme supports the latest Arduino Cloud features, and is recommended for all supported devices (including Arduino Opta when used with PLC IDE).
 
 Supported devices:
 
@@ -114,15 +113,9 @@ Follow these steps:
 
 ---
 
-## Use the partition scheme for Arduino PLC IDE
+## Use the partition scheme for Arduino PLC IDE (Legacy)
 
-This partition scheme is compatible with Arduino PLC IDE 1.1.0. The partitioning process depends on your device:
-
-### Arduino Opta
-
-If you are using an **Arduino Opta** (Lite, RS485, or WiFi), you can use the same procedure as the [default partition scheme](#use-the-default-partition-scheme).
-
-Follow the steps in [Use the default partition scheme](#use-the-default-partition-scheme) and ensure you type **"Y"** for all four confirmation prompts in the Serial Monitor (including the prompt for LittleFS).
+This partition scheme is for Portenta Machine Control users that want to use the board with Arduino PLC IDE.
 
 ### Portenta Machine Control
 
