@@ -2,12 +2,7 @@
 title: "Portenta X8 – Connect to Enterprise Wi‑Fi using NetworkManager"
 ---
 
-This article explains how to manually connect an Arduino Portenta X8 to a Wi‑Fi network using NetworkManager from the command line. The focus is on Enterprise (802.1X) Wi‑Fi networks, which are commonly used in corporate or institutional environments.
-
-Two approaches are covered:
-
-- Using nmcli (command-line interface)
-- Using nmtui (text-based interactive interface)
+This article explains how to manually connect an Arduino Portenta X8 to a Wi‑Fi network using NetworkManager from the command line using nmcli. The focus is on Enterprise (802.1X) Wi‑Fi networks, which are commonly used in corporate or institutional environments.
 
 For simpler WPA/WPA2‑PSK networks, refer to the [Portenta X8 User Manual](https://docs.arduino.cc/tutorials/portenta-x8/user-manual/#manage-your-network-via-cli).
 
@@ -77,25 +72,6 @@ Delete a saved connection:
 
     nmcli connection delete "$connectionName"
 
-## Alternative: Using nmtui (Interactive Mode)
-
-If you prefer a guided interface, NetworkManager provides a text-based UI.
-
-Launch it with:
-
-    nmtui
-
-### Suggested workflow
-
-1. Select Activate a connection or Edit a connection
-2. Create a new Wi‑Fi connection
-3. Set the SSID
-4. Under Wi‑Fi Security, select WPA & WPA2 Enterprise
-5. Configure the 802.1X settings (EAP method, username, password)
-6. Save and activate the connection
-
-Note: nmtui does not expose all advanced options, but it is sufficient for most common Enterprise setups.
-
 ## Troubleshooting
 
 If the network does not appear, rescan the access points:
@@ -105,7 +81,7 @@ If the network does not appear, rescan the access points:
 Check connection status and logs if authentication fails:
 
     nmcli device
-    journalctl -u NetworkManager
+    sudo journalctl -u NetworkManager
 
 Remove and recreate the connection if settings were incorrect.
 
