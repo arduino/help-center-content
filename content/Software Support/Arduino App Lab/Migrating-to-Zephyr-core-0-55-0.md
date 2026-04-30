@@ -68,5 +68,5 @@ When compiling your sketch, you may encounter this error:
 When compiling your sketch, you may encounter this error:
 
 `#error "Please update the Arduino_RouterBridge library to the latest version to ensure Serial support on this board."`
-  
+
 **Solution:** Open the **Library Manager**, search for `Arduino_RouterBridge`, and update it to the latest version.
