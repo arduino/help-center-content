@@ -1,34 +1,27 @@
 ---
-title: Migrating to Zephyr core 0.55.0
+title: Migrating to Zephyr core 0.55.0 on UNO Q
 ---
 
-The Arduino Zephyr core version 0.55.0 introduces significant improvements and changes. This update streamlines how Serial communication works and adds support for new libraries, but also requires specific tooling and library updates for a smooth transition.
+The Arduino Zephyr core version 0.55.0 introduces significant improvements and changes for Arduino UNO Q. This update streamlines how Serial communication works and adds support for new libraries, but also requires specific tooling and library updates for a smooth transition.
 
 In this article:
 
-* [Key improvements](#key-improvements)
-* [Breaking changes](#breaking-changes)
-* [How to update](#how-to-update)
-* [Troubleshooting](#troubleshooting)
+<!-- TOC -->
 
-## Key improvements
+- [What's changing](#whats-changing)
+- [Migrating to 0.55.0](#migrating-to-0550)
+- [Troubleshooting](#troubleshooting)
 
-* **Unified Serial:** Printing to `Serial` or `Monitor` will now give the expected results, printing to the Serial Monitor in both Arduino IDE 2 and App Lab.
-* **Redundant inclusions:** Compiling with this new core makes the manual inclusion of `Arduino_RouterBridge.h` redundant for basic Serial usage.
-* Initial support has been added for the following libraries:
-  * `RTC` (Real-Time Clock)
-  * `CAN` (Controller Area Network)
+<!-- /TOC -->
 
-## Breaking changes
+## What's changing
 
-* The core now enforces the inclusion and usage of the following libraries for proper Serial support:
-  * `Arduino_RouterBridge`
-  * `Arduino_RPCLite`
-* **UART communication.** You must now explicitly use `Serial1` if you want to print directly to the hardware UART pins (pins 0 and 1) on the UNO Q.
+* `Serial` as now an alias for `Monitor`, and `Serial` will print to the Serial Monitor, consistent with other Arduino cores. To print directly to the hardware UART pins (pins 0 and 1) on the UNO Q, you must now explicitly use `Serial1` instead `Serial`.
+* The core now enforces the inclusion and usage of the `Arduino_RouterBridge` and `Arduino_RPCLite` libraries for Serial support. Compiling with this new core makes the manual inclusion of `Arduino_RouterBridge.h` redundant for basic Serial usage.
 * If you are using cores manually placed in your sketchbook, it is now mandatory to use `zephyr` as the local core name for the UNO Q.
 * The `flash_mode` option has been removed from the board settings.
 
-## How to update
+## What you need to do
 
 ### Arduino App Lab
 
@@ -44,7 +37,7 @@ To manually initiate the update:
 
 Follow these steps:
 
-1. Open the **Boards Manager** in Arduino IDE 2 or App Lab.
+1. Open the **Boards Manager** in Arduino IDE 2.
 2. Search for **Arduino Zephyr Boards**.
 3. Update to version **0.55.0**.
 4. Arduino IDE will automatically detect and prompt you to install the required `Arduino_RouterBridge` and `Arduino_RPCLite` libraries.
