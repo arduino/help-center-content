@@ -16,10 +16,10 @@ In this article:
 
 ## What's changing
 
-* `Serial` as now an alias for `Monitor`, and `Serial` will print to the Serial Monitor, consistent with other Arduino cores. To print directly to the hardware UART pins (pins 0 and 1) on the UNO Q, you must now explicitly use `Serial1` instead `Serial`.
-* The core now enforces the inclusion and usage of the `Arduino_RouterBridge` and `Arduino_RPCLite` libraries for Serial support. Compiling with this new core makes the manual inclusion of `Arduino_RouterBridge.h` redundant for basic Serial usage.
-* If you are using cores manually placed in your sketchbook, it is now mandatory to use `zephyr` as the local core name for the UNO Q.
-* The `flash_mode` option has been removed from the board settings.
+- `Serial` as now an alias for `Monitor`, and `Serial` will print to the Serial Monitor, consistent with other Arduino cores. To print directly to the hardware UART pins (pins 0 and 1) on the UNO Q, you must now explicitly use `Serial1` instead `Serial`.
+- The core now enforces the inclusion and usage of the `Arduino_RouterBridge` and `Arduino_RPCLite` libraries for Serial support. Compiling with this new core makes the manual inclusion of `Arduino_RouterBridge.h` redundant for basic Serial usage.
+- If you are using cores manually placed in your sketchbook, it is now mandatory to use `zephyr` as the local core name for the UNO Q.
+- The `flash_mode` option has been removed from the board settings.
 
 ## What you need to do
 
