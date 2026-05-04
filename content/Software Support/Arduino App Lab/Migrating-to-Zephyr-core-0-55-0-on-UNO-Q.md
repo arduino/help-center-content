@@ -40,7 +40,9 @@ Follow these steps:
 1. Open the **Boards Manager** in Arduino IDE.
 2. Search for **Arduino Zephyr Boards**.
 3. Update to version **0.55.0**.
-4. Arduino IDE will automatically detect and prompt you to install the required `Arduino_RouterBridge` and `Arduino_RPCLite` libraries.
+4. Open the **Library Manager**.
+5. Search for `Arduino_RouterBridge`, and install the latest version.
+6. Search for `Arduino_RPCLite`, and install the latest version.
 
 ## Troubleshooting
 
