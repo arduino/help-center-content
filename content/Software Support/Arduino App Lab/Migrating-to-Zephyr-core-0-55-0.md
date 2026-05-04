@@ -42,10 +42,6 @@ To manually initiate the update:
 
 ### Arduino IDE
 
-Requirements:
-
-* The latest release (required for automatic installation of bridge libraries).
-
 Follow these steps:
 
 1. Open the **Boards Manager** in Arduino IDE 2 or App Lab.
