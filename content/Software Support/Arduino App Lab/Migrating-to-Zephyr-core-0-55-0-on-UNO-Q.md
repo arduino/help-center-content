@@ -35,6 +35,8 @@ To manually initiate the update:
 
 ### Arduino IDE
 
+If you're using Arduino IDE, you need to manually update the core, install the latest libraries, and flash the bootloader.
+
 Follow these steps:
 
 1. Open the **Boards Manager** in Arduino IDE.
@@ -43,6 +45,8 @@ Follow these steps:
 4. Open the **Library Manager**.
 5. Search for `Arduino_RouterBridge`, and install the latest version.
 6. Search for `Arduino_RPCLite`, and install the latest version.
+7. Select **Tools > Programmer > JLink**.
+8. Select **Tools > Burn Bootloader**.
 
 ## Troubleshooting
 
