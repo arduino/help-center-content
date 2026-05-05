@@ -44,7 +44,7 @@ Follow these steps:
 3. Update to version **0.55.0**.
 4. Open the **Library Manager**.
 5. Search for `Arduino_RouterBridge`, and install the latest version.
-6. Search for `Arduino_RPCLite`, and install the latest version.
+6. An **Install library dependencies** dialog will open. Click the **INSTALL ALL** button in the dialog.
 7. Select **Tools > Programmer > JLink**.
 8. Select **Tools > Burn Bootloader**.
 
