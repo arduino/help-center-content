@@ -1,5 +1,6 @@
 ---
 title: Migrating to Zephyr core 0.55.0 on UNO Q
+id: 27251870677916
 ---
 
 The Arduino Zephyr core version 0.55.0 introduces significant improvements and changes for Arduino UNO Q. This update streamlines how Serial communication works and adds support for new libraries, but also requires specific tooling and library updates for a smooth transition.
