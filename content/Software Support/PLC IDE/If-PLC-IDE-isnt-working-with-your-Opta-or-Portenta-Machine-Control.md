@@ -33,15 +33,19 @@ There are two contexts where you need to specify a serial port target.
 - _When installing the runtime._
 - _When configuring the Modbus protocol in 'Set up communication'._
 
-When the runtime has been installed, two serial ports may appear. The choice of port during installation doesn't doesn't matter. However, when configuring the Modbus protocol, it is generally recommended to select the **lower-numbered** port as the target, although in some cases, the port numbering may not follow this order.
+When the runtime has been installed, the number of serial ports depends on the device:
+
+- **Opta:** Starting with Opta package version 1.3 (available in PLC IDE 1.1.0 and later), only **one serial port** is exposed. This single port is used for both installing the runtime and connecting via Modbus.
+- **Portenta Machine Control:** This device typically exposes **two serial ports**. The choice of port during installation doesn't matter, but when configuring the Modbus protocol, it is generally recommended to select the **lower-numbered** port as the target.
 
 ### If you don't know which port to use
 
 In some cases, it may be challenging to determine which serial port belongs to your PLC device. This is especially true if other devices or interfaces have ports open on your computer.
 
-1. If two ports are open, and they are numbered COM<N> and COM<N+1> (for example, COM20 and COM21), it's likely that both are created by your PLC device. Choose the **lower-numbered port** when configuring PLC IDE.
-2. If many ports are available, try disconnecting other USB devices that may be using serial communication and select **Project > Refresh current target** to refresh the list of ports.
-3. If you're still unsure what port to choose, see [Identify the serial port of your PLC device](https://support.arduino.cc/hc/en-us/articles/16724283965596).
+1. If two ports are open (common with Portenta Machine Control), and they are numbered COM<N> and COM<N+1> (for example, COM20 and COM21), it's likely that both are created by your PLC device. Choose the **lower-numbered port** when configuring PLC IDE.
+2. If only one port appears (common with Opta using package 1.3 or later), use that port for both runtime installation and Modbus communication.
+3. If many ports are available, try disconnecting other USB devices that may be using serial communication and select **Project > Refresh current target** to refresh the list of ports.
+4. If you're still unsure what port to choose, see [Identify the serial port of your PLC device](https://support.arduino.cc/hc/en-us/articles/16724283965596).
 
 ### If your device does not appear on any port
 
