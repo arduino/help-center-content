@@ -85,5 +85,4 @@ Check connection status and logs if authentication fails:
 
 Remove and recreate the connection if settings were incorrect.
 
-
 Enterprise networks can vary significantly in configuration. If your network uses certificates, TLS, or custom EAP methods, consult your network administrator and the NetworkManager documentation for advanced configuration options.
