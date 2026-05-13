@@ -41,7 +41,7 @@ You'll need a way to connect your programmer to these points (also called "pads"
 ### What you'll need
 
 * **A debugging probe** that is CMSIS-DAP compliant and that supports Serial Wire Debug, like this [open source debugger (US only)](https://www.tindie.com/products/ataradov/cmsis-dap-compliant-swd-debugger/).
-* Many debug probes use a 2x5 0.05" pitch header/cable. You may need a breakout board, like [this one from Adafruit](https://www.adafruit.com/product/2743).
+* Many debug probes use a 2x5 0.05" pitch header/cable. You may need a breakout board, like [this one from Adafruit®](https://www.adafruit.com/product/2743).
 * A way to connect your programmer to your Nano 33 IoT board. See [Connecting to the test points on the Nano 33 IoT](#connecting-to-the-test-points).
 
 ### Instructions
@@ -117,9 +117,9 @@ You'll need a way to connect your programmer to these points (also called "pads"
 
 1. Open Arduino IDE.
 
-1. [Use the Library Manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE#library-manager) to install the **Adafruit DAP library** by Adafruit. If asked whether to install library dependencies, choose **Install all**.
+1. [Use the Library Manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE#library-manager) to install the **Adafruit® DAP library** by Adafruit®. If asked whether to install library dependencies, choose **Install all**.
 
-1. When the library download is complete, select **File > Examples > Adafruit DAP library > samd21 > flash_from_SD** from the Arduino IDE's menus.
+1. When the library download is complete, select **File > Examples > Adafruit® DAP library > samd21 > flash_from_SD** from the Arduino IDE's menus.
 
 1. Prepare the sketch:
 

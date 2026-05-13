@@ -41,7 +41,7 @@ These issues have been fixed in 2.0.11 and later. **[Upgrade the board package](
   >: -c: line 1: unexpected EOF while looking for matching `''
   >: -c: line 2: syntax error: unexpected end of file
   exit status 2
-  Error compiling for board Adafruit ESP32 Feather.
+  Error compiling for board Adafruit® ESP32 Feather.
   ```
 
 ---
