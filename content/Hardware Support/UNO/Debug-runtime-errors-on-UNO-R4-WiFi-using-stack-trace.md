@@ -25,7 +25,7 @@ Follow these steps:
 
    ![Serial output.](img/addr2line-example-serial.png)
 
-6. Following the "Registers information" table, the type of fault will be specified. You can read more about the types [here](https://wiki.segger.com/Cortex-M_Fault#Cortex-M_Fault_Exceptions).
+6. Following the "Registers information" table, the type of fault will be specified. You can read more about the [Cortex-M fault exception types](https://wiki.segger.com/Cortex-M_Fault#Cortex-M_Fault_Exceptions).
 7. The last line includes a command for the `addr2line` utility. See [Running addr2line for more information](#running-addr2line).
 
 ---
