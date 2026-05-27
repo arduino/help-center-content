@@ -1,5 +1,6 @@
 ---
 title: About Qwiic
+id: 27742264847260
 ---
 
 Qwiic is a system of breakout modules and development boards that use a specific connector for easy I2C communication.
