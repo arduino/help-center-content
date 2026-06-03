@@ -1,5 +1,6 @@
 ---
 title: ASEC-26-003 Vulnerabilities Resolved in ArduinoCore-AVR v1.8.8 and ArduinoBLE v2.0.2
+id: 27903303955100
 ---
 
 Bulletin ID: ASEC-26-003
