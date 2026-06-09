@@ -17,7 +17,7 @@ In this article:
 ## Supported Modulino nodes
 
 > [!WARNING]
-> Do not use the FirmwareUpdater sketch with an unsupported Modulino node.
+> Do not use the FirmwareUpdater sketch with unsupported Modulino nodes.
 
 The FirmwareUpdater sketch can be used with the following Modulino nodes:
 
@@ -28,6 +28,7 @@ The FirmwareUpdater sketch can be used with the following Modulino nodes:
 * Modulino Latch Relay
 * Modulino Pixels
 * Modulino Vibro
+* Modulino LED Matrix
 
 The firmware for the following Modulino nodes cannot be updated:
 
