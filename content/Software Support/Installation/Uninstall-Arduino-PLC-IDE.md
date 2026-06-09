@@ -2,11 +2,9 @@
 title: "Uninstall Arduino PLC IDE"
 ---
 
-This article explains how to completely uninstall the Arduino PLC IDE from a Windows system.
+This article explains how to completely uninstall the Arduino PLC IDE from your system.
 
 The process involves removing both the main application and its associated tools, as well as deleting residual files stored in the user directory.
-
-Note: Arduino PLC IDE is only supported on Windows.
 
 ---
 
