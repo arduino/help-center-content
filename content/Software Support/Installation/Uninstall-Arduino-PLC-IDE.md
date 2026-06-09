@@ -10,7 +10,7 @@ Note: Arduino PLC IDE is only supported on Windows.
 
 ---
 
-## Uninstall the Application
+## Uninstall the application
 
 To uninstall Arduino PLC IDE, remove both components using the Windows uninstall tool:
 
@@ -50,11 +50,12 @@ For example, it may contain:
 
 Removing this folder ensures that all cached data and installed components are fully cleared from the system.
 
-Note: The **AppData** folder is hidden by default. Enable hidden files in File Explorer from the **View** menu if needed.
+> [!NOTE]
+> The **AppData** folder is hidden by default. Enable hidden files in File Explorer from the **View** menu if needed.
 
 ---
 
-## Projects Created with PLC IDE
+## Projects created with PLC IDE
 
 Uninstalling Arduino PLC IDE does **not** remove any projects created with the software.
 
