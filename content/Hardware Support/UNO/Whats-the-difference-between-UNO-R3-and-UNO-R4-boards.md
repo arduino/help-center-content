@@ -32,7 +32,7 @@ The UNO R4 boards maintain the same form factor, pinout and 5 V operating voltag
 | USB Connector            |               USB-B              |             USB-C             |             USB-C             |
 | Mouse/keyboard emulation |                No                |              Yes              |              Yes              |
 | Real-Time Clock          |                No                |              Yes              |              Yes              |
-| Built-in LED Pin         |                13                |               No              |               No              |
+| Built-in LED Pin         |               Yes                |              Yes              |              Yes              |
 | Digital I/O Pins         |                14                |               14              |               14              |
 | Analog input pins        |                 6                |               6               |               6               |
 | PWM pins                 |                 6                |               6               |               6               |
