@@ -17,7 +17,7 @@ In this article:
 
 - [Available partition schemes](#available-partition-schemes)
 - [Use the default partition scheme](#use-the-default-partition-scheme)
-- [Use the partition scheme for Arduino PLC IDE (Legacy)](#use-the-partition-scheme-for-arduino-plc-ide-legacy)
+- [Use the partition scheme for Arduino PLC IDE (Legacy)](#use-the-partition-scheme-for-arduino-plc-ide-(legacy))
 - [Troubleshooting](#troubleshooting)
 
 <!-- /TOC -->
@@ -29,7 +29,7 @@ In this article:
 | Partition scheme | Description                                                                                               |
 |---------------------|--------------------------------------------------------------------------------------------------------|
 | [Default partition scheme](#use-the-default-partition-scheme)    | Required for full Arduino Cloud support. Supports PLC IDE on Arduino Opta. |
-| [Arduino PLC IDE (Legacy)](#use-the-partition-scheme-for-arduino-plc-ide-legacy) | Use this scheme to make Portenta Machine Control compatible with PLC IDE. |
+| [Arduino PLC IDE (Legacy)](#use-the-partition-scheme-for-arduino-plc-ide-(legacy)) | Use this scheme to make Portenta Machine Control compatible with PLC IDE. |
 
 ---
 
@@ -149,4 +149,4 @@ Note that resetting the flash memory will remove the PLC IDE runtime. To continu
 
 - If you're using an **Arduino Opta** and still encounter issues, the memory may have write protection enabled. Follow the instructions in [Recover an Arduino Opta with read-only flash memory](https://support.arduino.cc/hc/en-us/articles/16289852333212-Recover-an-Arduino-Opta-with-read-only-flash-memory), then partition the memory again.
 
-- If you are using a **Portenta Machine Control** and experience connection issues with the PLC IDE (for example, a blinking red LED), try the [Legacy partition scheme](#use-the-partition-scheme-for-arduino-plc-ide-legacy).
+- If you are using a **Portenta Machine Control** and experience connection issues with the PLC IDE (for example, a blinking red LED), try the [Legacy partition scheme](#use-the-partition-scheme-for-arduino-plc-ide-(legacy)).
