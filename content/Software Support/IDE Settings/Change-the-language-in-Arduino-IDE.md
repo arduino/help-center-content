@@ -25,26 +25,6 @@ The original language for the Arduino IDE interface is English, but other langua
 
 ---
 
-## Change the language by editing preferences.txt
-
-Alternatively, you can edit the `preferences.txt` file directly.
-
-1. Close Arduino IDE.
-
-2. [Open the Arduino15 folder](https://support.arduino.cc/hc/en-us/articles/360018448279-Open-the-Arduino15-folder).
-
-3. Open `preferences.txt`.
-
-4. Find the `editor.languages.current` line.
-
-5. Edit the value to read `editor.languages.current=en`.
-
-6. Save the file.
-
-7. Open Arduino IDE to see the changes.
-
----
-
 ## Troubleshooting
 
 ### If some text is not translated
