@@ -1,5 +1,6 @@
 ---
-title: "Uninstall Arduino PLC IDE"
+title: Uninstall Arduino PLC IDE
+id: 28059660738972
 ---
 
 This article explains how to completely uninstall the Arduino PLC IDE from your system.
