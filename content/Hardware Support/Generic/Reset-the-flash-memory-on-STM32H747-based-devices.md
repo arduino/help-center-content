@@ -17,7 +17,7 @@ In this article:
 
 - [Available partition schemes](#available-partition-schemes)
 - [Use the default partition scheme](#use-the-default-partition-scheme)
-- [Use the partition scheme for Arduino PLC IDE](#use-the-partition-scheme-for-arduino-plc-ide)
+- [Use the partition scheme for Arduino PLC IDE (Legacy)](#use-the-partition-scheme-for-arduino-plc-ide-legacy)
 - [Troubleshooting](#troubleshooting)
 
 <!-- /TOC -->
@@ -28,14 +28,14 @@ In this article:
 
 | Partition scheme | Description                                                                                               |
 |---------------------|--------------------------------------------------------------------------------------------------------|
-| [Default partition scheme](#use-the-default-partition-scheme)    | Required for full Arduino Cloud support.                  |
-| [Arduino PLC IDE](#use-the-partition-scheme-for-arduino-plc-ide) | Compatible with Arduino PLC IDE 1.0.8.                    |
+| [Default partition scheme](#use-the-default-partition-scheme)    | Required for full Arduino Cloud support. Supports PLC IDE on Arduino Opta. |
+| [Arduino PLC IDE (Legacy)](#use-the-partition-scheme-for-arduino-plc-ide-legacy) | Use this scheme to make Portenta Machine Control compatible with PLC IDE. |
 
 ---
 
 ## Use the default partition scheme
 
-This partition scheme supports the latest Arduino Cloud features, and is recommended unless you are using your device with Arduino PLC IDE.
+This partition scheme supports the latest Arduino Cloud features, and is recommended for all supported devices (including Arduino Opta when used with PLC IDE).
 
 Supported devices:
 
@@ -54,15 +54,15 @@ Follow these steps:
 
    - Arduino IDE: Ensure that you are using the [latest version of the board package](https://support.arduino.cc/hc/en-us/articles/4404691106066-Update-board-packages-in-Arduino-IDE), then select File > Examples > STM32H747_System > QSPIFormat.
 
-   - Arduino Cloud Editor: Open the [QSPIFormat example](https://app.arduino.cc/sketches/examples?eid=arduino%2Fhardware%2Fmbed_opta%2F4.4.1%2Flibraries%2FSTM32H747_System%2Fexamples%2FQSPIFormat&slid=mbed_opta%3A4.4.1%3Astm32h747_system){.link-chevron-external} in the Cloud Editor.
+   - GitHub: Download the [QSPIFormat example](https://github.com/arduino/ArduinoCore-mbed/blob/main/libraries/STM32H747_System/examples/QSPIFormat/QSPIFormat.ino) and open it on Arduino IDE or Arduino Cloud.
 
-1. Connect your device to your computer and select the device in the editor.
+2. Connect your device to your computer and select the device in the editor.
 
-1. Click ![Upload button](img/symbol_upload2.png) **Upload** to upload the sketch to the device.
+3. Click ![Upload button](img/symbol_upload2.png) **Upload** to upload the sketch to the device.
 
-1. Click the ![Serial Monitor button](img/symbol_monitor.png) **Serial Monitor** button in the top-right corner or select Tools > Serial Monitor (Arduino IDE only).
+4. Click the ![Serial Monitor button](img/symbol_monitor.png) **Serial Monitor** button in the top-right corner or select Tools > Serial Monitor (Arduino IDE only).
 
-1. You should see the text below in the serial monitor. If the serial monitor is empty, ensure the sketch has finished uploading and press the RST button on the device to restart the sketch.
+5. You should see the text below in the serial monitor. If the serial monitor is empty, ensure the sketch has finished uploading and press the RST button on the device to restart the sketch.
 
    ```
    WARNING! Running the sketch all the content of the QSPI flash will be erased.
@@ -74,9 +74,9 @@ Follow these steps:
    Do you want to proceed? Y/[n]
    ```
 
-1. Type "Y" into the Serial Monitor and press <kbd>Enter</kbd> to proceed.
+6. Type "Y" into the Serial Monitor and press <kbd>Enter</kbd> to proceed.
 
-1. The following should now appear in the serial monitor:
+7. The following should now appear in the serial monitor:
 
    ```
    Do you want to perform a full erase of the QSPI flash before proceeding? Y/[n]
@@ -85,7 +85,7 @@ Follow these steps:
 
    Type "Y" into the Serial Monitor and press <kbd>Enter</kbd> to confirm (recommended).
 
-1. The following should now appear in the serial monitor:
+8. The following should now appear in the serial monitor:
 
    ```
    Do you want to restore the WiFi firmware and certificates? Y/[n]
@@ -93,17 +93,17 @@ Follow these steps:
 
    Type "Y" into the Serial Monitor and press <kbd>Enter</kbd> to confirm (recommended).
 
-1. The following should now appear in the serial monitor:
+9. The following should now appear in the serial monitor:
 
    ```
    Do you want to use LittleFS to format user data partition? Y/[n]
    If No, FatFS will be used to format user partition.
-   Note: LittleFS is not supported by the OPTA PLC runtime.
+   Note: Arduino PLC IDE is using LittleFS to store runtime data on this partition.
    ```
 
    Type "Y" into the Serial Monitor and press <kbd>Enter</kbd> to confirm (recommended).
 
-1. The process is complete when this message appears in the serial monitor:
+10. The process is complete when this message appears in the serial monitor:
 
    ```
    QSPI Flash formatted!
@@ -112,18 +112,9 @@ Follow these steps:
 
 ---
 
-## Use the partition scheme for Arduino PLC IDE
+## Use the partition scheme for Arduino PLC IDE (Legacy)
 
-This partition scheme is compatible with Arduino PLC IDE 1.0.8.
-
-Supported devices:
-
-- Arduino Opta Lite
-- Arduino Opta RS485
-- Arduino Opta WiFi
-- Arduino Portenta Machine Control
-
-Follow these steps:
+This partition scheme is for **Portenta Machine Control** users that want to use the board with Arduino PLC IDE:
 
 1. Download the following sketch:
 
@@ -150,10 +141,12 @@ Follow these steps:
    It's now safe to reboot or disconnect your board.
    ```
 
-Note that resetting the flash memory will remove the PLC IDE runtime. To continue using PLC IDE with your device, you need to [reinstall the runtime](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license/#3-download-the-runtime).
+Note that resetting the flash memory will remove the PLC IDE runtime. To continue using PLC IDE with your device, you need to [reinstall the runtime](https://docs.arduino.cc/software/plc-ide/tutorials/plc-ide-setup-license/#3-download-the-runtime). After seeing the completion message, if you plan to reinstall the runtime, it is recommended to put the board in bootloader mode by double-tapping the **RST** button before opening the PLC IDE. If you reboot or reconnect the board normally while the partitioning sketch is still loaded, it will automatically format the memory again without asking for confirmation.
 
 ---
 
 ## Troubleshooting
 
-If you're using an Arduino Opta and still encounter issues, the memory may have write protection enabled. Follow the instructions in [Recover an Arduino Opta with read-only flash memory](https://support.arduino.cc/hc/en-us/articles/16289852333212-Recover-an-Arduino-Opta-with-read-only-flash-memory), then partition the memory again.
+- If you're using an **Arduino Opta** and still encounter issues, the memory may have write protection enabled. Follow the instructions in [Recover an Arduino Opta with read-only flash memory](https://support.arduino.cc/hc/en-us/articles/16289852333212-Recover-an-Arduino-Opta-with-read-only-flash-memory), then partition the memory again.
+
+- If you are using a **Portenta Machine Control** and experience connection issues with the PLC IDE (for example, a blinking red LED), try the [Legacy partition scheme](#use-the-partition-scheme-for-arduino-plc-ide-legacy).
