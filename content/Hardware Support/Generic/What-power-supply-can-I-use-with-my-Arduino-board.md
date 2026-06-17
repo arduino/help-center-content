@@ -3,45 +3,74 @@ title: "What power supply can I use with my Arduino board?"
 id: 360018922259
 ---
 
-All Arduino boards need electric power to function. A power supply is what is used to provide electric power to the boards and typically can be a battery, USB cable, AC adapter or a regulated power source device.
+All Arduino boards need electric power to function. A power supply is what is used to provide electric power to the boards and typically can be a battery, USB cable, DC power adapter or a regulated power source device.
 
 There are different ways to power your Arduino board. The most common way is through the USB connector available on every board, but there are a few other possibilities to power your board. If you like to know more about this, the different ways to supply power to your board are listed below:
 
 > [!NOTE]
-> Incorrect input voltage can damage your board. Never connect an external power supply before checking the input voltage limits. Look for technical specifications in [Arduino Docs](https://docs.arduino.cc/).
+> Incorrect input voltage can damage your board. Never connect an external power supply before checking the input voltage limits. Look for technical specifications in [Arduino Documentation](https://docs.arduino.cc/).
 
-## USB
+---
 
-Arduino boards can operate satisfactorily on power that is available from the USB port. It provides 5V DC voltage and can be sourced from the port from a PC, wall socket adapter or portable power bank.
+## 1. USB
 
-## AC socket
+The most common way to power an Arduino is through the USB connector.
+* **Voltage:** 5V DC.
+* **Source:** Can be powered by a computer USB port, a USB wall adapter (like a phone charger), or a portable power bank.
+* **Compatibility:** Every Arduino board features a USB port for both programming and power.
 
-Some Arduino boards like UNO, MEGA and DUE, come with an AC socket that can be used to power the boards and to supply additional voltage if needed. A power supply adapter that provides from 7 to 12V (Volts) of DC (Direct Current) is required. The adapter is plugged onto the wall socket and the other end goes directly onto the board's AC socket.
+---
+
+## 2. DC Barrel Jack
+Some Arduino boards (such as the **Uno, Mega, and Due**) feature a dedicated barrel jack for external power. This allows the board to operate independently of a computer.
+* **Voltage:** 7V to 12V DC is recommended.
+* **Connector Type:** 5.5mm cylindrical plug with a 2.1mm center pin hole.
+* **Polarity:** The adapter **must** be **Center-Positive** (the inside pin is positive, and the outside sleeve is negative/ground).
 
 **Make sure the power adapter complies with your Arduino board specifications.**
 
 If you find that additional power is required from your Arduino board to operate it properly, or if you need to operate the Arduino board disconnected from a USB port.
 
-The AC adapters are commonly available in retail stores for use with consumer products are often suitable, but make sure that it has the proper connector for plugging into the power socket on your Arduino board: **5.5mm** diameter cylindrical plug with **2.1mm** pin hole, and that provides Positive voltage on the inside pin hole and Negative (or common/ground) voltage on the outside cylindrical sleeve of the connector plug.
+**Important:** While the adapter plugs into an AC wall outlet, it must be a **DC Power Adapter** that converts high-voltage AC into the low-voltage DC required by the board. Never connect AC voltage directly to the board.
 
-## Battery
+---
 
-Some boards come with a Li-Po (Lithium-ion Polymer) battery socket that fits this kind of batteries. For example, MKR boards (except MKR FOX and WAN 1300) come with this feature. These types of batteries supply 3.7V, are rechargeable and they can provide higher energy than other lithium batteries.
+## 3. Battery Socket (Li-Po)
 
-Please make sure the battery connector suits your board's battery connector. For MKRs the connector is [JST PHR-2](https://www.digikey.se/product-detail/en/jst-sales-america-inc/PHR-2/455-1165-ND/608607).
+Many modern and portable boards, such as the **MKR family** (excluding MKR FOX and WAN 1300), include a dedicated battery connector.
+* **Voltage:** 3.7V (standard for Lithium-ion Polymer batteries).
+* **Connector Type:** JST PHR-2.
+* **Feature:** These boards typically include a built-in charging circuit, allowing the battery to charge whenever the board is plugged into USB.
 
-## VIN
+---
 
-Another way to power your board is by supplying voltage from a regulated power source directly to the VIN pin. Just need to connect the positive wire from your power supply to VIN and the negative to GND. Follow your board power specifications to figure out the voltage range that your board can handle.
+## 4. VIN Pin
 
-VIN pin is an INPUT only.
+The **VIN** pin allows you to power the board using a regulated power source or a battery pack by connecting directly to the board's internal voltage regulator.
+* **Connection:** Connect the positive (+) wire to **VIN** and the negative (-) wire to **GND**.
+* **Voltage:** Check your specific board's documentation for the allowed VIN range (usually 7-12V for boards like the Uno).
+* **Warning:** The VIN pin is an **INPUT only**. Never connect a power source here while also providing power through the Barrel Jack, as they are often connected to the same circuit.
 
-## Screw terminal (only MKR FOX and WAN 1300)
+---
 
-These boards come with a screw terminal for a pair of either AA or AAA batteries where to plug a 3V battery pack (not included). Make sure you respect the polarity of the connector as labeled on the board.
+## 5. Screw terminal (MKR FOX and WAN 1300)
 
-For most applications, 1A (Amp) of current supply capacity is sufficient, but you may find that you’ll need more if you have a specific Shield module that needs it, or a stack of several Shield modules that along with the Arduino board draws a higher total current.
+These specific boards feature screw terminals designed for a 3V battery pack (usually 2x AA or AAA batteries). 
+* **Note:** Ensure you respect the polarity (+/-) labeled on the board's silk-screen.
 
-You should sum the rated Input power current requirement for each Shield you are using along with your Arduino board to get the total needed, and acquire a power adapter/supply that provides a minimum of that total (higher current power supply current capacity has no ill effects).
+---
 
-You also have to remember that the on-board 5V regulator cannot supply an infinite current (actually 800mA is a good choice in order to not overheat the board) so if one of your project need a large amount of power you can consider to provide the needed 5V (or what ever) selectively to the various equipment (using an appropriate number of power supplies and regulators if needed) and make them working together connecting all the GNDs in the same point
+## Current Requirements (Amperage)
+For most basic applications, a power supply capable of providing **1A (Ampere)** is sufficient. However, you may need more current if your project includes:
+* Multiple Shields stacked on top of the board.
+* High-power components like motors, servos, or large LED strips.
+**Total Current Calculation:**
+You should sum the current requirements of the Arduino board (roughly 50mA) plus the maximum draw of every component or Shield attached. Choose a power supply that meets or exceeds this total. 
+> **Tip:** Using a power supply with a *higher* current capacity (e.g., a 2A supply for a 1A project) is perfectly safe; the board will only "draw" what it needs.
+
+---
+
+## Thermal Limitations
+The on-board 5V regulator handles the task of stepping down higher voltages (like 12V) to the 5V the chips need. This process generates heat. 
+* To prevent the board from overheating, it is best to keep the total current draw from the on-board 5V pin below **800mA**. 
+* If your project requires significant power (e.g., several servos), use an external power supply for those components and connect the grounds (GND) of all power supplies together to ensure a common reference point.
