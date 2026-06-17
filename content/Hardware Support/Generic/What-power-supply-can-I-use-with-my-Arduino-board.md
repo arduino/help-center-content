@@ -15,6 +15,7 @@ There are different ways to power your Arduino board. The most common way is thr
 ## 1. USB
 
 The most common way to power an Arduino is through the USB connector.
+
 * **Voltage:** 5V DC.
 * **Source:** Can be powered by a computer USB port, a USB wall adapter (like a phone charger), or a portable power bank.
 * **Compatibility:** Every Arduino board features a USB port for both programming and power.
@@ -22,7 +23,9 @@ The most common way to power an Arduino is through the USB connector.
 ---
 
 ## 2. DC Barrel Jack
+
 Some Arduino boards (such as the **Uno, Mega, and Due**) feature a dedicated barrel jack for external power. This allows the board to operate independently of a computer.
+
 * **Voltage:** 7V to 12V DC is recommended.
 * **Connector Type:** 5.5mm cylindrical plug with a 2.1mm center pin hole.
 * **Polarity:** The adapter **must** be **Center-Positive** (the inside pin is positive, and the outside sleeve is negative/ground).
@@ -38,6 +41,7 @@ If you find that additional power is required from your Arduino board to operate
 ## 3. Battery Socket (Li-Po)
 
 Many modern and portable boards, such as the **MKR family** (excluding MKR FOX and WAN 1300), include a dedicated battery connector.
+
 * **Voltage:** 3.7V (standard for Lithium-ion Polymer batteries).
 * **Connector Type:** JST PHR-2.
 * **Feature:** These boards typically include a built-in charging circuit, allowing the battery to charge whenever the board is plugged into USB.
@@ -47,6 +51,7 @@ Many modern and portable boards, such as the **MKR family** (excluding MKR FOX a
 ## 4. VIN Pin
 
 The **VIN** pin allows you to power the board using a regulated power source or a battery pack by connecting directly to the board's internal voltage regulator.
+
 * **Connection:** Connect the positive (+) wire to **VIN** and the negative (-) wire to **GND**.
 * **Voltage:** Check your specific board's documentation for the allowed VIN range (usually 7-12V for boards like the Uno).
 * **Warning:** The VIN pin is an **INPUT only**. Never connect a power source here while also providing power through the Barrel Jack, as they are often connected to the same circuit.
@@ -55,22 +60,29 @@ The **VIN** pin allows you to power the board using a regulated power source or 
 
 ## 5. Screw terminal (MKR FOX and WAN 1300)
 
-These specific boards feature screw terminals designed for a 3V battery pack (usually 2x AA or AAA batteries). 
+These specific boards feature screw terminals designed for a 3V battery pack (usually 2x AA or AAA batteries).
+
 * **Note:** Ensure you respect the polarity (+/-) labeled on the board's silk-screen.
 
 ---
 
 ## Current Requirements (Amperage)
+
 For most basic applications, a power supply capable of providing **1A (Ampere)** is sufficient. However, you may need more current if your project includes:
+
 * Multiple Shields stacked on top of the board.
 * High-power components like motors, servos, or large LED strips.
 **Total Current Calculation:**
-You should sum the current requirements of the Arduino board (roughly 50mA) plus the maximum draw of every component or Shield attached. Choose a power supply that meets or exceeds this total. 
+
+You should sum the current requirements of the Arduino board (roughly 50mA) plus the maximum draw of every component or Shield attached. Choose a power supply that meets or exceeds this total.
+
 > **Tip:** Using a power supply with a *higher* current capacity (e.g., a 2A supply for a 1A project) is perfectly safe; the board will only "draw" what it needs.
 
 ---
 
 ## Thermal Limitations
-The on-board 5V regulator handles the task of stepping down higher voltages (like 12V) to the 5V the chips need. This process generates heat. 
+
+The on-board 5V regulator handles the task of stepping down higher voltages (like 12V) to the 5V the chips need. This process generates heat.
+
 * To prevent the board from overheating, it is best to keep the total current draw from the on-board 5V pin below **800mA**. 
 * If your project requires significant power (e.g., several servos), use an external power supply for those components and connect the grounds (GND) of all power supplies together to ensure a common reference point.
