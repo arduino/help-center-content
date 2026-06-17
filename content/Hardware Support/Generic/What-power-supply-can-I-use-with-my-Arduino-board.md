@@ -84,5 +84,5 @@ You should sum the current requirements of the Arduino board (roughly 50mA) plus
 
 The on-board 5V regulator handles the task of stepping down higher voltages (like 12V) to the 5V the chips need. This process generates heat.
 
-* To prevent the board from overheating, it is best to keep the total current draw from the on-board 5V pin below **800mA**. 
+* To prevent the board from overheating, it is best to keep the total current draw from the on-board 5V pin below **800mA**.
 * If your project requires significant power (e.g., several servos), use an external power supply for those components and connect the grounds (GND) of all power supplies together to ensure a common reference point.
