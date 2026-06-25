@@ -3,194 +3,90 @@ title: Fix udev rules on Linux
 id: 9005041052444
 ---
 
-On Linux, missing udev[^1] rules can result in failed uploads, as Arduino IDE (and other development tools) will not be able to access the board when it resets to bootloader mode.
+On Linux, the `udev` subsystem manages access to connected USB devices. By default, standard user accounts do not have permission to write directly to serial, USB, or DFU (Device Firmware Upgrade) interfaces of connected hardware.
 
-The board package typically includes a script that is run during installation, which sets the appropriate udev rules. If this script didn't run correctly, or if the rules were removed, they can be configured by running the script manually:
+`udev` rules configure the system to recognize Arduino boards and grant your user account the necessary permissions to access, upload code, and debug. Missing or incorrect `udev` rules can result in failed uploads, as Arduino IDE and other development tools will not be able to access the board (especially when it resets to bootloader or DFU mode).
 
-[^1]: <https://manpages.ubuntu.com/manpages/questing/en/man7/udev.7.html>
-
-<table style="display: table;">
-<thead>
-  <tr style="display: table-row;">
-    <th>Boards</th>
-    <th>Related error output</th>
-    <th>Instructions</th>
-  </tr>
-</thead>
-<tbody>
-  <tr style="display: table-row;">
-    <td>Nano RP2040 Connect</td>
-    <td><code>Failed uploading: uploading error: exit status 1</code></td>
-    <td rowspan="4"><a href="#mbed-os">Set udev rules for Arduino Mbed OS boards</a></td>
-  </tr>
-  <tr style="display: table-row;">
-    <td>GIGA R1 WiFi</td>
-    <td>
-      <code>dfu-util: Cannot open DFU device 2341:0366 found on devnum 24 (LIBUSB_ERROR_ACCESS)</code><br>
-      <code>dfu-util: No DFU capable USB device available</code><br>
-      <code>Failed uploading: uploading error: exit status 74</code>
-    </td>
-  </tr>
-  <tr style="display: table-row;">
-    <td>Nicla Sense ME</td>
-    <td>
-      <code>Error: unable to open CMSIS-DAP device 0x2341:0x60</code><br>
-      <code>Error: unable to find a matching CMSIS-DAP device</code><br>
-      <code>Failed uploading: uploading error: exit status 1</code>
-    </td>
-  </tr>
-  <tr style="display: table-row;">
-    <td>
-      Portenta H7<br>
-      Portenta H7 Lite<br>
-      Portenta H7 Lite Connected
-    </td>
-    <td>
-      <code>dfu-util: Cannot open DFU device 2341:035b found on devnum 26 (LIBUSB_ERROR_ACCESS)</code><br>
-      <code>dfu-util: No DFU capable USB device available</code><br>
-      <code>Failed uploading: uploading error: exit status 74</code>
-    </td>
-  </tr>
-  <tr style="display: table-row;">
-    <td>Nano Every</td>
-    <td>
-      <code>avrdude: jtagmkII_getsync(): sign-on command: status -1</code><br>
-      <code>avrdude: jtagmkII_getsync(): timeout/error communicating with programmer (status -1)</code><br>
-      <code>Failed uploading: uploading error: exit status 1</code>
-    </td>
-    <td rowspan="2"><a href="#megaAVR">Set udev rules for Arduino megaAVR boards</a></td>
-  </tr>
-  <tr style="display: table-row;">
-    <td>UNO WiFi Rev2</td>
-    <td>
-      <code>avrdude: usbdev_open(): cannot open device: Permission denied</code><br>
-      <code>avrdude: jtag3_open_common(): Did not find any device matching VID 0x03eb and PID list: 0x2145</code><br>
-      <code>Failed uploading: uploading error: exit status 1</code>
-    </td>
-  </tr>
-  <tr style="display: table-row;">
-    <td>
-      UNO R4 WiFi<br>
-      UNO R4 Minima<br>
-      Portenta C33
-    </td>
-    <td>
-      <code>Failed uploading: uploading error: exit status 1</code><br>
-      <code>dfu-util: Cannot open DFU device PID:VID found on devnum X (LIBUSB_ERROR_ACCESS)</code><br>
-      <code>dfu-util: No DFU capable USB device available</code><br>
-      <code>Failed uploading: uploading error: exit status 74</code>
-    </td>
-    <td rowspan="2"><a href="#renesas">Set udev rules for Arduino Renesas boards</a></td>
-  </tr>
-</tbody>
-</table>
+If you encounter failed uploads, you can resolve the issue by installing the unified Arduino `udev` rules script.
 
 ---
 
-<a id="mbed-os"></a>
+## Related Error Messages
 
-## Set udev rules for Arduino Mbed OS boards
+If your `udev` rules are missing or configured incorrectly, you may see errors similar to the following depending on your board:
 
-The following boards require udev rules:
-
-* Nano RP2040 Connect (mbed_nano)
-* GIGA R1 WiFi (mbed_giga)
-* Nicla Sense ME (mbed_nicla)
-* Portenta H7 (mbed_portenta)
-* Portenta H7 Lite (mbed_portenta)
-* Portenta H7 Lite Connected (mbed_portenta)
-
-You can set the udev rules by running `post_install.sh` as root.
-
-Follow these steps:
-
-1. Go to the [post_install.sh file for Arduino Mbed OS Boards on GitHub](https://github.com/arduino/ArduinoCore-mbed/blob/main/post_install.sh).
-
-2. Download the file to your computer.
-
-   ![The "Download raw file" button on github.com](img/github-udev-download.png)
-
-3. Open your Download folder in Terminal:
-   * **On Ubuntu:** Open the Files application and navigate to your Download folder. Right-click on an empty area inside the folder (not on a file) and select **Open in Terminal**.
-   * Open Terminal, and navigate to your Download folder:
-
-     `cd ~/Downloads`
-
-4. Run this command:
-
-   `sudo ./post_install.sh`
-
-5. If prompted, enter your password, and press Enter again.
-
-Try uploading your sketch again.
+| Boards | Related error output |
+| :--- | :--- |
+| **GIGA R1 WiFi / Portenta H7 / Portenta C33 / UNO R4** | `dfu-util: Cannot open DFU device 2341:0366 found on devnum X (LIBUSB_ERROR_ACCESS)`<br>`dfu-util: No DFU capable USB device available`<br>`Failed uploading: uploading error: exit status 74` |
+| **Nicla Sense ME** | `Error: unable to open CMSIS-DAP device 0x2341:0x60`<br>`Error: unable to find a matching CMSIS-DAP device`<br>`Failed uploading: uploading error: exit status 1` |
+| **Nano Every / UNO WiFi Rev2** | `avrdude: jtagmkII_getsync(): sign-on command: status -1`<br>`avrdude: usbdev_open(): cannot open device: Permission denied`<br>`Failed uploading: uploading error: exit status 1` |
+| **Nano RP2040 Connect** | `Failed uploading: uploading error: exit status 1` |
 
 ---
 
-<a id="megaAVR"></a>
+## How to Install the Unified udev Rules Script
 
-## Set udev rules for Arduino megaAVR boards
+We have created a unified script that configures `udev` rules for all supported Arduino boards in one step.
 
-The following boards require udev rules:
+Follow these steps to download and run the script:
 
-* UNO WiFi Rev2
-* Nano Every
+### Step 1: Download the script
 
-You can set the udev rules by running `post_install.sh` as root.
+You can download the script either using your web browser or directly in the terminal:
 
-Follow these steps:
+* **Option A (Web Browser):** Go to the [unified-arduino-udev-rules.sh file on GitHub](https://github.com/arduino/help-center-content/blob/main/utilities/unified-arduino-udev-rules.sh). Click the **Download raw file** button (the download icon on the top right) to save the file to your computer.
 
-1. Go to the [post_install.sh file for Arduino megaAVR Boards on GitHub](https://github.com/arduino/ArduinoCore-megaavr/blob/master/post_install.sh).
+  ![The "Download raw file" button on github.com](img/github-udev-download.png)
 
-2. Download the file to your computer.
+* **Option B (Terminal):** Open your terminal and run one of the following command to download the file directly into your current directory:
 
-   ![The "Download raw file" button on github.com](img/github-udev-download.png)
+  ```bash
+  wget https://raw.githubusercontent.com/arduino/help-center-content/main/utilities/unified-arduino-udev-rules.sh
+  ```
 
-3. Open your Download folder in Terminal:
-   * **On Ubuntu:** Open the Files application and navigate to your Download folder. Right-click on an empty area inside the folder (not on a file) and select **Open in Terminal**.
-   * Open Terminal, and navigate to your Download folder:
+  *or*
 
-     `cd ~/Downloads`
+  ```bash
+  curl -O https://raw.githubusercontent.com/arduino/help-center-content/main/utilities/unified-arduino-udev-rules.sh
+  ```
 
-4. Run this command:
+### Step 2: Open the terminal and navigate to the file
 
-   `sudo ./post_install.sh`
+If you downloaded the file via Web Browser:
 
-5. If prompted, enter your password, and press Enter again.
+Open your Terminal and navigate to your downloads folder manually:
 
-Try uploading your sketch again.
+  ```bash
+  cd ~/Downloads
+  ```
 
----
+### Step 3: Grant execution permissions
 
-<a id="renesas"></a>
+Before running the script, you must grant it execution permissions so the operating system knows it is allowed to run.
 
-## Set udev rules for Arduino Renesas boards
+Run the following command:
 
-The following boards require udev rules:
+```bash
+chmod +x unified-arduino-udev-rules.sh
+```
 
-* UNO R4 WiFi (Arduino UNO R4 Boards)
-* UNO R4 Minima (Arduino UNO R4 Boards)
-* Portenta C33 (Arduino Renesas Portenta Boards)
+### Step 4: Run the script as root
 
-You can set the udev rules by running `post_install.sh` as root.
+The script needs to create a configuration file in a system directory (`/etc/udev/rules.d/`) and reload the `udev` service, which requires administrator (root) privileges.
 
-Follow these steps:
+Run the script using `sudo`:
 
-1. Go to the [post_install.sh file for Arduino Renesas Boards on GitHub](https://github.com/arduino/ArduinoCore-renesas/blob/main/post_install.sh).
+```bash
+sudo ./unified-arduino-udev-rules.sh
+```
 
-2. Download the file to your computer.
+When prompted, enter your Linux user password and press **Enter**.
 
-   ![The "Download raw file" button on github.com](img/github-udev-download.png)
+### Step 5: Reconnect your board
 
-3. Open your Download folder in Terminal:
-   * **On Ubuntu:** Open the Files application and navigate to your Download folder. Right-click on an empty area inside the folder (not on a file) and select **Open in Terminal**.
-   * Open Terminal, and navigate to your Download folder:
+Once the script completes successfully:
 
-     `cd ~/Downloads`
+1. Unplug your Arduino board from the USB port.
+2. Plug the board back into the USB port.
 
-4. Run this command:
-
-   `sudo ./post_install.sh`
-
-5. If prompted, enter your password, and press Enter again.
-
-Try uploading your sketch again.
+This forces the system to reload and apply the new `udev` rules to your device. Try uploading your sketch again in the Arduino IDE!
