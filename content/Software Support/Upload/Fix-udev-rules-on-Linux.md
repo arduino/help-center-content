@@ -38,7 +38,7 @@ You can download the script either using your web browser or directly in the ter
 
   ![The "Download raw file" button on github.com](img/github-udev-download.png)
 
-* **Option B (Terminal):** Open your terminal and run one of the following command to download the file directly into your current directory:
+* **Option B (Terminal):** Open your terminal and run one of the following commands to download the file directly into your current directory:
 
   ```bash
   wget https://raw.githubusercontent.com/arduino/help-center-content/main/utilities/unified-arduino-udev-rules.sh
