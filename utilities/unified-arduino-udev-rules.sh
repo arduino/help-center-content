@@ -56,8 +56,27 @@ fi
 # -----------------------------
 # Install
 # -----------------------------
+RULES_FILE="/etc/udev/rules.d/60-arduino-combined.rules"
+
 echo "Installing Arduino udev rules..."
-rules > /etc/udev/rules.d/60-arduino-combined.rules
+
+if [ -f "$RULES_FILE" ]; then
+    echo "An existing rules file was found at:"
+    echo "$RULES_FILE"
+    echo ""
+    read -p "Do you want to overwrite it and create a backup? [y/N]: " CONFIRM
+
+    if [[ ! "$CONFIRM" =~ ^[Yy]$ ]]; then
+        echo "Operation cancelled."
+        exit 0
+    fi
+
+    BACKUP_FILE="${RULES_FILE}.$(date +%Y%m%d-%H%M%S).bak"
+    echo "Creating backup at: $BACKUP_FILE"
+    cp "$RULES_FILE" "$BACKUP_FILE"
+fi
+
+rules > "$RULES_FILE"
 
 # -----------------------------
 # Reload
