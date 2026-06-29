@@ -60,14 +60,23 @@ Open your Terminal and navigate to your downloads folder manually:
   cd ~/Downloads
   ```
 
-### Step 3: Grant execution permissions
+### Step 3: Run the script
 
-Before running the script, you must grant it execution permissions so the operating system knows it is allowed to run.
+You can run the script directly without modifying permissions by using bash:
 
-Run the following command:
+```bash
+sudo bash unified-arduino-udev-rules.sh
+```
+
+When prompted, enter your Linux user password and press Enter.
+
+#### Optional: Make the script executable
+
+If you prefer, you can make the script executable and run it directly:
 
 ```bash
 chmod +x unified-arduino-udev-rules.sh
+sudo ./unified-arduino-udev-rules.sh
 ```
 
 ### Step 4: Run the script as root
