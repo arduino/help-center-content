@@ -34,20 +34,18 @@ Follow these steps to download and run the script:
 
 You can download the script either using your web browser or directly in the terminal:
 
-* **Option A (Web Browser):** Go to the [unified-arduino-udev-rules.sh file on GitHub](https://github.com/arduino/help-center-content/blob/main/utilities/unified-arduino-udev-rules.sh). Click the **Download raw file** button (the download icon on the top right) to save the file to your computer.
-
-  ![The "Download raw file" button on github.com](img/github-udev-download.png)
+* **Option A (Web Browser):** Download [arduino-udev-setup.sh](https://content.arduino.cc/assets/arduino-udev-setup.sh){.link-download} directly.
 
 * **Option B (Terminal):** Open your terminal and run one of the following commands to download the file directly into your current directory:
 
   ```bash
-  wget https://raw.githubusercontent.com/arduino/help-center-content/main/utilities/unified-arduino-udev-rules.sh
+  wget https://content.arduino.cc/assets/arduino-udev-setup.sh
   ```
 
   *or*
 
   ```bash
-  curl -O https://raw.githubusercontent.com/arduino/help-center-content/main/utilities/unified-arduino-udev-rules.sh
+  curl -O https://content.arduino.cc/assets/arduino-udev-setup.sh
   ```
 
 ### Step 2: Open the terminal and navigate to the file
@@ -65,7 +63,7 @@ Open your Terminal and navigate to your downloads folder manually:
 You can run the script directly without modifying permissions by using bash:
 
 ```bash
-sudo bash unified-arduino-udev-rules.sh
+sudo bash arduino-udev-setup.sh
 ```
 
 When prompted, enter your Linux user password and press Enter.
@@ -75,8 +73,8 @@ When prompted, enter your Linux user password and press Enter.
 If you prefer, you can make the script executable and run it directly:
 
 ```bash
-chmod +x unified-arduino-udev-rules.sh
-sudo ./unified-arduino-udev-rules.sh
+chmod +x arduino-udev-setup.sh
+sudo ./arduino-udev-setup.sh
 ```
 
 ### Step 4: Run the script as root
@@ -86,7 +84,7 @@ The script needs to create a configuration file in a system directory (`/etc/ude
 Run the script using `sudo`:
 
 ```bash
-sudo ./unified-arduino-udev-rules.sh
+sudo ./arduino-udev-setup.sh
 ```
 
 When prompted, enter your Linux user password and press **Enter**.
@@ -99,3 +97,9 @@ Once the script completes successfully:
 2. Plug the board back into the USB port.
 
 This forces the system to reload and apply the new `udev` rules to your device. Try uploading your sketch again in the Arduino IDE!
+
+---
+
+## Resources
+
+* View the [script source code on GitHub](https://github.com/arduino/help-center-content/blob/main/utilities/arduino-udev-setup.sh) to inspect or contribute to the code.
