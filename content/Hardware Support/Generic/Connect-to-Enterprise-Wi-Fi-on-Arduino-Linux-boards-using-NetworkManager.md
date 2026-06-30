@@ -1,21 +1,21 @@
 ---
-title: "Portenta X8 – Connect to Enterprise Wi‑Fi using NetworkManager"
+title: "Connect to Enterprise Wi-Fi on Arduino Linux boards using NetworkManager"
 ---
 
-This article explains how to manually connect an Arduino Portenta X8 to a Wi‑Fi network using NetworkManager from the command line using nmcli. The focus is on Enterprise (802.1X) Wi‑Fi networks, which are commonly used in corporate or institutional environments.
+This article explains how to manually connect an Arduino board running Linux (such as the Portenta X8 or Arduino UNO Q) to a Wi-Fi network using NetworkManager from the command line with nmcli. The focus is on Enterprise (802.1X) Wi-Fi networks, which are commonly used in corporate or institutional environments.
 
-For simpler WPA/WPA2‑PSK networks, refer to the [Portenta X8 User Manual](https://docs.arduino.cc/tutorials/portenta-x8/user-manual/#manage-your-network-via-cli).
+For simpler WPA/WPA2-PSK networks, refer to your board's documentation, such as the [Portenta X8 User Manual](https://docs.arduino.cc/tutorials/portenta-x8/user-manual/#manage-your-network-via-cli).
 
 ## Requirements
 
-- Arduino Portenta X8
-- Shell access to the device (ADB shell or Web Shell)
-- A Wi‑Fi interface available (typically wlan0)
-- Enterprise Wi‑Fi credentials (SSID, username, password, and authentication method)
+- An Arduino board running a Linux-based operating system (such as the Portenta X8 or Arduino UNO Q)
+- Shell access to the device (via ADB, SSH, or Web Shell)
+- A Wi-Fi interface available (typically wlan0)
+- Enterprise Wi-Fi credentials (SSID, username, password, and authentication method)
 
-## Check Wi‑Fi Status and Available Networks
+## Check Wi-Fi Status and Available Networks
 
-Before configuring a connection, verify that Wi‑Fi is enabled and list available access points:
+Before configuring a connection, verify that Wi-Fi is enabled and list available access points:
 
     nmcli radio wifi on
     nmcli device wifi rescan
@@ -25,11 +25,11 @@ To check the overall NetworkManager status:
 
     nmcli device
 
-## Connect to an Enterprise Wi‑Fi Network Using nmcli
+## Connect to an Enterprise Wi-Fi Network Using nmcli
 
 Enterprise networks require creating a connection profile and configuring 802.1X parameters explicitly.
 
-### Example: WPA‑Enterprise (PEAP + MSCHAPv2)
+### Example: WPA-Enterprise (PEAP + MSCHAPv2)
 
 First, define the required variables in your shell. These values will be reused in the following commands.
 
@@ -40,7 +40,7 @@ Replace the placeholders with your actual network settings:
     myUser="<USERNAME>"
     myPass="<PASSWORD>"
 
-Create the Wi‑Fi connection:
+Create the Wi-Fi connection:
 
     nmcli connection add type wifi ifname wlan0 con-name "$connectionName" ssid "$mySSID"
 
