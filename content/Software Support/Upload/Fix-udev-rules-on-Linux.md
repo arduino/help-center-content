@@ -25,9 +25,9 @@ If your `udev` rules are missing or configured incorrectly, you may see errors s
 
 ---
 
-## How to Install the Unified udev Rules Script
+## Automatic configuration
 
-We have created a unified script that configures `udev` rules for all supported Arduino boards in one step.
+You can configure rules for all Arduino boards by downloading and running `arduino-udev-setup.sh`.
 
 Follow these steps to download and run the script:
 
@@ -97,7 +97,7 @@ Once the script completes successfully:
 1. Unplug your Arduino board from the USB port.
 2. Plug the board back into the USB port.
 
-This forces the system to reload and apply the new `udev` rules to your device. Try uploading your sketch again in the Arduino IDE!
+This forces the system to reload and apply the new `udev` rules to your device. Try uploading your sketch again in Arduino IDE!
 
 ---
 
