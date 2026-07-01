@@ -21,6 +21,7 @@ If your `udev` rules are missing or configured incorrectly, you may see errors s
 | **Nicla Sense ME** | `Error: unable to open CMSIS-DAP device 0x2341:0x60`<br>`Error: unable to find a matching CMSIS-DAP device`<br>`Failed uploading: uploading error: exit status 1` |
 | **Nano Every / UNO WiFi Rev2** | `avrdude: jtagmkII_getsync(): sign-on command: status -1`<br>`avrdude: usbdev_open(): cannot open device: Permission denied`<br>`Failed uploading: uploading error: exit status 1` |
 | **Nano RP2040 Connect** | `Failed uploading: uploading error: exit status 1` |
+| **UNO Q** | `Error: exit status 1: adb: insufficient permissions for device: missing udev rules? user is in the plugdev group`<br>`Failed uploading: uploading error: exit status 1` |
 
 ---
 
