@@ -1,5 +1,6 @@
 ---
-title: "Connect to Enterprise Wi-Fi on Arduino Linux boards using NetworkManager"
+title: Connect to Enterprise Wi-Fi on Arduino Linux boards using NetworkManager
+id: 28585259202716
 ---
 
 This article explains how to manually connect an Arduino board running Linux (such as the Portenta X8 or Arduino UNO Q) to a Wi-Fi network using NetworkManager from the command line with nmcli. The focus is on Enterprise (802.1X) Wi-Fi networks, which are commonly used in corporate or institutional environments.
