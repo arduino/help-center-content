@@ -65,12 +65,12 @@ If you experience issues with your Modulino node after running the FirmwareUpdat
 
 2. Connect the board to your computer.
 
-3. Open the FirmwareUpdater example:
+3. [Open the Cloud Editor](https://app.arduino.cc/sketches/examples?nav=Examples&eid=01.Basics%2FBlink).
 
-    Open the Cloud Editor, go to **Examples > From Libraries**, search for **"Modulino,"** and open **Modulino > Utilities > FirmwareUpdater**.
+4. Open the FirmwareUpdater example. Go to **Examples > From Libraries**, search for **"Modulino,"** and open **Modulino > Utilities > FirmwareUpdater**.
 
-4. Click ![Upload button](img/symbol_upload_cloud.png) **Upload** to upload the sketch to your Arduino board.
+5. Click ![Upload button](img/symbol_upload_cloud.png) **Upload** to upload the sketch to your Arduino board.
 
-5. The firmware update is complete when the sketch is successfully uploaded to the board. If your board has an LED matrix, the text `PAS` will be displayed.
+6. The firmware update is complete when the sketch is successfully uploaded to the board. If your board has an LED matrix, the text `PAS` will be displayed.
 
-6. You can now test the Modulino by [importing a Modulino Template](https://support.arduino.cc/hc/en-us/articles/14826942993308-Import-an-Arduino-Cloud-Template).
+7. You can now test the Modulino by [importing a Modulino Template](https://support.arduino.cc/hc/en-us/articles/14826942993308-Import-an-Arduino-Cloud-Template).
