@@ -3,7 +3,7 @@ title: Fix udev rules on Linux
 id: 9005041052444
 ---
 
-On Linux, the `udev` subsystem manages access to connected USB devices. By default, standard user accounts do not have permission to write directly to serial, USB, or DFU (Device Firmware Upgrade) interfaces of connected hardware.
+On Linux, `udev` rules configure the system to recognize Arduino boards and grant your user account the necessary permissions to access, upload code, and debug. Missing or incorrect `udev` rules can result in failed board detection or uploads, as Arduino IDE and other development tools will not be able to access the board.
 
 `udev` rules configure the system to recognize Arduino boards and grant your user account the necessary permissions to access, upload code, and debug. Missing or incorrect `udev` rules can result in failed uploads, as Arduino IDE and other development tools will not be able to access the board (especially when it resets to bootloader or DFU mode).
 
@@ -59,9 +59,11 @@ Open your Terminal and navigate to your downloads folder manually:
   cd ~/Downloads
   ```
 
-### Step 3: Run the script
+### Step 3: Run the script as root
 
-You can run the script directly without modifying permissions by using bash:
+The script needs to create a configuration file in a system directory (`/etc/udev/rules.d/`) and reload the `udev` service, which requires administrator (root) privileges.
+
+Run the script using bash:
 
 ```bash
 sudo bash arduino-udev-setup.sh
