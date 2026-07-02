@@ -62,6 +62,8 @@ By default, the **User** tab is selected. This means the settings will apply glo
 
 ## Change settings in Arduino IDE 1 {#ide1}
 
+> [!NOTE]
+> **Display issues with Arduino IDE 1 on Linux:** The interface scaling feature may not properly scale menu fonts on some Linux distributions (such as Debian or Fedora) due to [known limitations with HiDPI displays](https://github.com/arduino/Arduino/issues/6472). If the interface remains too small, consider [upgrading to Arduino IDE 2](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE).
 
 ### Change settings in Preferences
 
