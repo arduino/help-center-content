@@ -12,9 +12,7 @@ In this article:
 
 ---
 
-<a id="ide2"></a>
-
-## Change settings in Arduino IDE 2
+## Change settings in Arduino IDE 2 {#ide2}
 
 ### Change settings in Preferences
 
@@ -63,9 +61,8 @@ For more advanced settings, you need to use the
 
 ---
 
-<a id="ide1"></a>
+## Change settings in Arduino IDE 1 {#ide1}
 
-## Change settings in Arduino IDE 1
 
 ### Change settings in Preferences
 
