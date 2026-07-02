@@ -3,7 +3,21 @@ title: Reset your board
 id: 5779192727068
 ---
 
-Learn about the different ways you can reset an Arduino.
+Learn about the different ways you can reset an Arduino board.
+
+In this article:
+
+<!-- TOC -->
+
+- [Reset single press](#reset-single-press)
+- [Bootloader mode double-press](#bootloader-mode-double-press)
+- [Reset the board's sketch](#reset-the-sketch-in-memory)
+- [Reset EEPROM Memory](#reset-eeprom-memory)
+- [Reset the bootloader](#reset-the-bootloader)
+- [Software reset](#software-reset)
+- [Further reading](#further-reading)
+
+<!-- /TOC -->
 
 ---
 
@@ -27,19 +41,40 @@ This procedure does not in itself remove the stored sketch or otherwise change t
 
 ---
 
-## Reset the sketch in memory
+## Reset the board's sketch {#reset-the-sketch-in-memory}
 
-When uploading a sketch it will overwrite any sketch currently saved to the board's flash memory, so there is generally no need to clear or otherwise manage the flash storage manually. But if you want to remove the compiled sketch and not have the Arduino execute any instructions when powered, you can upload an "empty" sketch.
+When uploading a new sketch, it will automatically overwrite any sketch currently saved to the board's flash memory. Therefore, there is generally no need to clear or manually manage the flash storage.
+
+> [!NOTE]
+> Arduino boards always store the last flashed sketched in memory, and will run it when powered. A sketch cannot be "removed", but it can be flashed with the pre-flashed factory sketch or an "empty" Sketch without instructions.
+
+If you want to "factory reset" your board to its original state or ensure it does not run any custom code, you have two primary options:
+
+### Restore the pre-flashed factory sketch
+
+Most Arduino boards come pre-flashed from the factory with the `Blink` sketch, which blinks the primary built-in LED (usually labeled **L**) on and off. Restoring this sketch is the best way to return your board to its default state and visually confirm that it is working correctly.
+
+To upload the `Blink` sketch in Arduino IDE:
 
 1. Connect the board to your computer and open Arduino IDE.
+2. Select your board in the **Board Selector** or **Tools > Board**/**Tools > Port** in the menu bar.
+3. In the menu bar, select **File > Examples > 01.Basics > Blink**.
+4. Click ![The Upload button in Arduino IDE.](img/symbol_upload.png) **Upload** to upload the sketch.
 
-2. In the menu bar, select _File > Examples > 01.Basics > BareMinimum_ to open the `BareMinimum` sketch.
+Once the upload is complete, the built-in LED on your board should start blinking, confirming that the default sketch is running.
 
-3. Select your board in _Tools > Board_.
+> [!NOTE]
+> UNO R4 WiFi has a special pre-flashed sketch that plays an animation on the LED matrix. To restore that sketch, upload the `MatrixIntro` example (File > Examples > LED_Matrix > MatrixIntro).
 
-4. Select the port with your board in _Tools > Port_.
 
-5. Click ![The Upload button in Arduino IDE.](img/symbol_upload.png) **Upload** to upload the sketch.
+If you want the board to execute no instructions at all, you can upload the `BareMinimum` sketch. This sketch contains only the empty `setup()` and `loop()` functions required by the compiler.
+
+To upload the `BareMinimum` sketch in Arduino IDE:
+
+1. Connect the board to your computer and open Arduino IDE.
+2. Select your board in the **Board Selector** or **Tools > Board**/**Tools > Port** in the menu bar.
+3. In the menu bar, select **File > Examples > 01.Basics > BareMinimum** to open the **BareMinimum** sketch.
+4. Click ![The Upload button in Arduino IDE.](img/symbol_upload.png) **Upload** to upload the sketch.
 
 ---
 
@@ -97,11 +132,9 @@ To learn more, see [A guide to EEPROM](https://docs.arduino.cc/learn/programming
 
 A more persistent change to the board's configuration is changing or removing the bootloader. Restoring it requires burning (also called flashing) a new bootloader. The method and required equipment will vary depending on the board, start by checking these resources:
 
-* [Burn the bootloader on UNO, Mega, and classic Nano using another Arduino](https://support.arduino.cc/hc/en-us/articles/4841602539164-Burn-the-bootloader-on-UNO-Mega-and-classic-Nano-using-another-Arduino)
-* [Burning sketches to the Arduino board with an external programmer](https://docs.arduino.cc/hacking/software/Programmer)
 
 ---
 
 ## Further reading
 
-* [Arduino Memory Guide](https://docs.arduino.cc/learn/programming/memory-guide#measuring-memory-usage-in-arduino-boards)
+- [Arduino Memory Guide](https://docs.arduino.cc/learn/programming/memory-guide#measuring-memory-usage-in-arduino-boards)
