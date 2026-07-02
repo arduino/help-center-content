@@ -1,5 +1,6 @@
 ---
-title: "Compiler warnings being treated as errors"
+title: Compiler warnings being treated as errors
+id: 28623514596764
 ---
 
 If your sketch compilation fails and the output contains the message `cc1plus: some warnings being treated as errors`, it may be caused by the **Compiler warnings** setting in Arduino IDE.
