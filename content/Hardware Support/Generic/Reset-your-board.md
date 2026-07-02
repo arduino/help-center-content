@@ -66,6 +66,7 @@ Once the upload is complete, the built-in LED on your board should start blinkin
 > [!NOTE]
 > UNO R4 WiFi has a special pre-flashed sketch that plays an animation on the LED matrix. To restore that sketch, upload the `MatrixIntro` example (File > Examples > LED_Matrix > MatrixIntro).
 
+### Upload an empty sketch
 
 If you want the board to execute no instructions at all, you can upload the `BareMinimum` sketch. This sketch contains only the empty `setup()` and `loop()` functions required by the compiler.
 
@@ -132,6 +133,74 @@ To learn more, see [A guide to EEPROM](https://docs.arduino.cc/learn/programming
 
 A more persistent change to the board's configuration is changing or removing the bootloader. Restoring it requires burning (also called flashing) a new bootloader. The method and required equipment will vary depending on the board, start by checking these resources:
 
+- [Burn the bootloader on UNO, Mega, and classic Nano using another Arduino](https://support.arduino.cc/hc/en-us/articles/4841602539164-Burn-the-bootloader-on-UNO-Mega-and-classic-Nano-using-another-Arduino)
+- [Burning sketches to the Arduino board with an external programmer](https://docs.arduino.cc/hacking/software/Programmer)
+
+---
+
+## Software reset
+
+Depending on the microcontroller architecture of your board, it can be possible to reset the board programmatically from within your sketch.
+
+> [!TIP]
+> Performing an intentional software reset is generally considered a bad programming pattern. In most cases, it is better to handle the state of your application using proper programming logic and state machines rather than forcing the microcontroller to restart.
+
+### ARM-based boards (e.g., Nano 33 BLE, Portenta, UNO R4)
+
+For boards featuring an ARM Cortex-M processor you can use `NVIC_SystemReset()`.
+
+These boards can be found in packages like:
+
+- **Arduino SAMD Boards (32-bits ARM Cortex-M0+)** (e.g., Zero, MKR family, Nano 33 IoT)
+- **Arduino SAM Boards (32-bits ARM Cortex-M3)** (Due)
+- **Arduino UNO R4 Boards** (UNO R4 Minima/WiFi)
+- **Arduino Renesas Portenta Boards** (Portenta C33)
+- **Arduino Mbed OS ... Boards** (Nano 33 BLE, Nano RP2040 Connect, Giga R1, Portenta H7, Nicla, Opta)
+- **Silicon Labs** (Nano Matter)
+
+`NVIC_SystemReset()` is a standard hardware-level function provided by the **CMSIS** (Cortex Microcontroller Software Interface Standard) library. When called, it immediately triggers a system reset request at the core hardware level, restarting the microcontroller as if the physical reset button was pressed.
+
+To implement a software reset on ARM boards:
+
+```arduino
+NVIC_SystemReset();
+```
+
+You do not need to import any libraries to use this function.
+
+### AVR-based boards (e.g., UNO R3, Mega 2560)
+
+AVR-based microcontrollers do not have a built-in software reset instruction. The most reliable and standard way to trigger a reset programmatically is to use the **Watchdog Timer (WDT)**.
+
+By enabling the Watchdog Timer with a very short timeout (e.g., 15 milliseconds) and entering an infinite loop, you force the hardware timer to expire, which triggers a complete hardware reset of the microcontroller.
+
+> [!CAUTION]
+> If your board is running an old bootloader, using the Watchdog Timer can cause an infinite reset loop. This happens because the older bootloader does not disable the watchdog after a reset, causing it to trigger again before your sketch starts. Disable the watchdog at the very beginning of your `setup()` function to prevent this (see the example below).
+
+To implement a software reset on AVR boards:
+
+```arduino
+#include <avr/wdt.h>
+
+void setup() {
+  // Clear the reset flag and disable the watchdog immediately 
+  // to prevent infinite reset loops in older bootloaders.
+  MCUSR = 0;
+  wdt_disable();
+  
+  // Your other setup code...
+}
+
+void loop() {
+  // ...
+}
+
+// Call this function to reset the board
+void softwareReset() {
+  wdt_enable(WDTO_15MS);
+  while (1) {}
+}
+```
 
 ---
 
