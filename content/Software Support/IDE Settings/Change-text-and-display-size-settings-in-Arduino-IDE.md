@@ -12,9 +12,7 @@ In this article:
 
 ---
 
-<a id="ide2"></a>
-
-## Change settings in Arduino IDE 2
+## Change settings in Arduino IDE 2 {#ide2}
 
 ### Change settings in Preferences
 
@@ -56,16 +54,16 @@ For more advanced settings, you need to use the
 
 5. When you're finished, close the Preferences tab to return to your sketch.
 
-> [!NOTE]
-> By default, the **User** tab is selected. This means the settings will apply globally to any instance of Arduino IDE. Alternatively, you can edit settings the **Workspace** tab, which will apply only to sketch that's open when making the change.
+By default, the **User** tab is selected. This means the settings will apply globally to any instance of Arduino IDE. Alternatively, you can edit settings the **Workspace** tab, which will apply only to sketch that's open when making the change.
 
-**[Learn more about user and workspace settings in Visual Studio Code Docs.](https://code.visualstudio.com/docs/getstarted/settings)**
+[Learn more about user and workspace settings in Visual Studio Code Docs](https://code.visualstudio.com/docs/getstarted/settings){.link-external}
 
 ---
 
-<a id="ide1"></a>
+## Change settings in Arduino IDE 1 {#ide1}
 
-## Change settings in Arduino IDE 1
+> [!NOTE]
+> **Display issues with Arduino IDE 1 on Linux:** The interface scaling feature may not properly scale menu fonts on some Linux distributions (such as Debian or Fedora) due to [known limitations with HiDPI displays](https://github.com/arduino/Arduino/issues/6472). If the interface remains too small, consider [upgrading to Arduino IDE 2](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE).
 
 ### Change settings in Preferences
 
