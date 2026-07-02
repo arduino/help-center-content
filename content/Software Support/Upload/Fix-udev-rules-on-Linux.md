@@ -5,9 +5,7 @@ id: 9005041052444
 
 On Linux, `udev` rules configure the system to recognize Arduino boards and grant your user account the necessary permissions to access, upload code, and debug. Missing or incorrect `udev` rules can result in failed board detection or uploads, as Arduino IDE and other development tools will not be able to access the board.
 
-`udev` rules configure the system to recognize Arduino boards and grant your user account the necessary permissions to access, upload code, and debug. Missing or incorrect `udev` rules can result in failed uploads, as Arduino IDE and other development tools will not be able to access the board (especially when it resets to bootloader or DFU mode).
-
-If you encounter failed uploads, you can resolve the issue by installing the unified Arduino `udev` rules script.
+You can resolve the issue by configuring the required rules using an [automated bash script](#automatic-configuration).
 
 ---
 
@@ -71,28 +69,7 @@ sudo bash arduino-udev-setup.sh
 
 When prompted, enter your Linux user password and press Enter.
 
-#### Optional: Make the script executable
-
-If you prefer, you can make the script executable and run it directly:
-
-```bash
-chmod +x arduino-udev-setup.sh
-sudo ./arduino-udev-setup.sh
-```
-
-### Step 4: Run the script as root
-
-The script needs to create a configuration file in a system directory (`/etc/udev/rules.d/`) and reload the `udev` service, which requires administrator (root) privileges.
-
-Run the script using `sudo`:
-
-```bash
-sudo ./arduino-udev-setup.sh
-```
-
-When prompted, enter your Linux user password and press **Enter**.
-
-### Step 5: Reconnect your board
+### Step 4: Reconnect your board
 
 Once the script completes successfully:
 
