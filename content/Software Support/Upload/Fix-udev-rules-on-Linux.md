@@ -9,17 +9,39 @@ You can resolve the issue by configuring the required rules using an [automated 
 
 ---
 
+In this article:
+
+<!-- TOC -->
+
+- [Related Error Messages](#related-error-messages)
+- [Automatic configuration](#automatic-configuration)
+- [Resources](#resources)
+
+<!-- /TOC -->
+
+---
+
 ## Related Error Messages
 
 If your `udev` rules are missing or configured incorrectly, you may see errors similar to the following depending on your board:
 
-| Boards | Related error output |
-| :--- | :--- |
-| **GIGA R1 WiFi / Portenta H7 / Portenta C33 / UNO R4** | `dfu-util: Cannot open DFU device 2341:0366 found on devnum X (LIBUSB_ERROR_ACCESS)`<br>`dfu-util: No DFU capable USB device available`<br>`Failed uploading: uploading error: exit status 74` |
-| **Nicla Sense ME** | `Error: unable to open CMSIS-DAP device 0x2341:0x60`<br>`Error: unable to find a matching CMSIS-DAP device`<br>`Failed uploading: uploading error: exit status 1` |
-| **Nano Every / UNO WiFi Rev2** | `avrdude: jtagmkII_getsync(): sign-on command: status -1`<br>`avrdude: usbdev_open(): cannot open device: Permission denied`<br>`Failed uploading: uploading error: exit status 1` |
-| **Nano RP2040 Connect** | `Failed uploading: uploading error: exit status 1` |
-| **UNO Q** | `Error: exit status 1: adb: insufficient permissions for device: missing udev rules? user is in the plugdev group`<br>`Failed uploading: uploading error: exit status 1` |
+- **GIGA R1 WiFi / Portenta H7 / Portenta C33 / UNO R4**
+  - `dfu-util: Cannot open DFU device 2341:0366 found on devnum X (LIBUSB_ERROR_ACCESS)`
+  - `dfu-util: No DFU capable USB device available`
+  - `Failed uploading: uploading error: exit status 74`
+- **Nicla Sense ME**
+  - `Error: unable to open CMSIS-DAP device 0x2341:0x60`
+  - `Error: unable to find a matching CMSIS-DAP device`
+  - `Failed uploading: uploading error: exit status 1`
+- **Nano Every / UNO WiFi Rev2**
+  - `avrdude: jtagmkII_getsync(): sign-on command: status -1`
+  - `avrdude: usbdev_open(): cannot open device: Permission denied`
+  - `Failed uploading: uploading error: exit status 1`
+- **Nano RP2040 Connect**
+  - `Failed uploading: uploading error: exit status 1`
+- **UNO Q**
+  - `Error: exit status 1: adb: insufficient permissions for device: missing udev rules? user is in the plugdev group`
+  - `Failed uploading: uploading error: exit status 1`
 
 ---
 
@@ -33,9 +55,9 @@ Follow these steps to download and run the script:
 
 You can download the script either using your web browser or directly in the terminal:
 
-* **Option A (Web Browser):** Download [arduino-udev-setup.sh](https://content.arduino.cc/assets/arduino-udev-setup.sh){.link-download} directly.
+- **Option A (Web Browser):** Download [arduino-udev-setup.sh](https://content.arduino.cc/assets/arduino-udev-setup.sh){.link-download} directly.
 
-* **Option B (Terminal):** Open your terminal and run one of the following commands to download the file directly into your current directory:
+- **Option B (Terminal):** Open your terminal and run one of the following commands to download the file directly into your current directory:
 
   ```bash
   wget https://content.arduino.cc/assets/arduino-udev-setup.sh
@@ -82,4 +104,4 @@ This forces the system to reload and apply the new `udev` rules to your device. 
 
 ## Resources
 
-* View the [script source code on GitHub](https://github.com/arduino/help-center-content/blob/main/utilities/arduino-udev-setup.sh) to inspect or contribute to the code.
+- View the [script source code on GitHub](https://github.com/arduino/help-center-content/blob/main/utilities/arduino-udev-setup.sh) to inspect or contribute to the code.
