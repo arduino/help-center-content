@@ -23,25 +23,15 @@ In this article:
 
 ## Related Error Messages
 
-If your `udev` rules are missing or configured incorrectly, you may see errors similar to the following depending on your board:
+If your `udev` rules are missing or configured incorrectly, you may see one of these error messages:
 
-- **GIGA R1 WiFi / Portenta H7 / Portenta C33 / UNO R4**
-  - `dfu-util: Cannot open DFU device 2341:0366 found on devnum X (LIBUSB_ERROR_ACCESS)`
-  - `dfu-util: No DFU capable USB device available`
-  - `Failed uploading: uploading error: exit status 74`
-- **Nicla Sense ME**
-  - `Error: unable to open CMSIS-DAP device 0x2341:0x60`
-  - `Error: unable to find a matching CMSIS-DAP device`
-  - `Failed uploading: uploading error: exit status 1`
-- **Nano Every / UNO WiFi Rev2**
-  - `avrdude: jtagmkII_getsync(): sign-on command: status -1`
-  - `avrdude: usbdev_open(): cannot open device: Permission denied`
-  - `Failed uploading: uploading error: exit status 1`
-- **Nano RP2040 Connect**
-  - `Failed uploading: uploading error: exit status 1`
-- **UNO Q**
-  - `Error: exit status 1: adb: insufficient permissions for device: missing udev rules? user is in the plugdev group`
-  - `Failed uploading: uploading error: exit status 1`
+- `dfu-util: Cannot open DFU device 2341:0366 found on devnum X (LIBUSB_ERROR_ACCESS)`
+- `dfu-util: No DFU capable USB device available`
+- `Error: unable to open CMSIS-DAP device 0x2341:<Product_ID>`
+- `Error: unable to find a matching CMSIS-DAP device`
+- `avrdude: jtagmkII_getsync(): sign-on command: status -1`
+- `avrdude: usbdev_open(): cannot open device: Permission denied`
+- `Error: exit status 1: adb: insufficient permissions for device: missing udev rules? user is in the plugdev group`
 
 ---
 
