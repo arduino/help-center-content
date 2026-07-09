@@ -19,8 +19,6 @@ In this article:
 
 <!-- /TOC -->
 
----
-
 ## Related Error Messages
 
 If your `udev` rules are missing or configured incorrectly, you may see one of these error messages:
