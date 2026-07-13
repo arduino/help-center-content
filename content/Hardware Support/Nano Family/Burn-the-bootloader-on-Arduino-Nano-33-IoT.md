@@ -166,3 +166,5 @@ You'll need a way to connect your programmer to these points (also called "pads"
 ## Further reading
 
 * [Guide to Arduino & Secure Digital (SD) Storage](https://docs.arduino.cc/learn/programming/sd-guide/)
+
+<!-- markdownlint-disable-file HC001 -->
