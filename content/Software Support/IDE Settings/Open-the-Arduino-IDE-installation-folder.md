@@ -1,5 +1,5 @@
 ---
-title: "Open the Arduino IDE installation folder"
+title: "Default installation paths for Arduino IDE"
 id: 4412943340178
 ---
 
