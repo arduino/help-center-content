@@ -153,3 +153,17 @@ Starting with the article title, the filename is determined by following these s
 4. Append the `.md` extension
 
 Resolve the error by renaming the file to the expected filename.
+
+<a name="hc009"></a>
+
+## HC009 - Front matter blank lines
+
+Tags: front-matter, blank_lines
+
+Aliases: front-matter-repeated-blank-lines
+
+This rule is triggered when there is not exactly one empty line immediately following the front matter.
+
+Exactly one blank line is required immediately after the front matter.
+
+Rationale: Extraneous or missing blank lines after the front matter clutter the document structure or reduce readability. This rule is specifically needed because the standard MD012 rule does not catch empty lines immediately following front matter.
