@@ -9,19 +9,25 @@ This problem can be solved by one of the methods described below:
 
 ## If your Mac computer has an Apple Silicon processor
 
-Some of the tools used by the Arduino development software are built for use on x86-64 processors, like those in Intel-based Macs. These can still be used on the [Apple Silicon](https://support.apple.com/en-us/HT211814) Mac computers thanks to a program named **Rosetta** that Apple provides.
+Using a native Apple Silicon version of the software is highly recommended and bypasses the need for Rosetta entirely.
 
-**Rosetta** is not pre-installed with macOS. If you have not already installed **Rosetta**, the tools built for use on x86-64 processors processors will fail to run with a "`bad CPU type in executable`" error.
+### Check for a Native Apple Silicon Version
 
-The solution is to install **Rosetta** by one of the following methods:
+If you are using an [Apple Silicon](https://support.apple.com/en-us/HT211814) (M1/M2/M3) Mac, verify that you have downloaded the native version of the software. For example, when downloading from the [Software page](https://www.arduino.cc/en/software), select the **macOS Apple Silicon** option instead of the Intel version.
 
-### Installation Dialog
+### Install Rosetta for Intel-based tools
+
+Some tools used by the Arduino development software are built for x86-64 processors (Intel-based Macs). These can still run on Apple Silicon thanks to a translation tool named **Rosetta**, which is not pre-installed on macOS. If Rosetta is missing, these tools will fail with a "`bad CPU type in executable`" error.
+
+If a native version of your tool is not available, you can install **Rosetta** by one of the following methods:
+
+#### Installation Dialog
 
 When you start an application that requires it, macOS will show [a dialog offering installation of **Rosetta**](https://support.apple.com/en-us/HT211861). If you are presented with this dialog when starting the Arduino development software, click the ![Install button](img/symbol_install-rosetta.png) button and complete the installation.
 
-### Manual Installation
+#### Manual Installation
 
-If the tool requiring it is run by the Arduino development software as a subprocess, macOS does not show a dialog offering installation of **Rosetta**. In this case you must manually install **Rosetta**:
+If the tool requiring Rosetta is run as a background subprocess, macOS does not show a dialog. In this case, you must manually install **Rosetta**:
 
 1. Open **Terminal** (instructions [here](https://support.apple.com/en-ca/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac#trml663c6997)).
 1. Type the following command in the **Terminal** window:
