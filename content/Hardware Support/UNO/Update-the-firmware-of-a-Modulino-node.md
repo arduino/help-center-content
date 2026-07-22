@@ -17,7 +17,7 @@ In this article:
 ## Supported Modulino nodes
 
 > [!WARNING]
-> Do not use the FirmwareUpdater sketch with an unsupported Modulino node.
+> Do not use the FirmwareUpdater sketch with unsupported Modulino nodes.
 
 The FirmwareUpdater sketch can be used with the following Modulino nodes:
 
@@ -28,6 +28,7 @@ The FirmwareUpdater sketch can be used with the following Modulino nodes:
 * Modulino Latch Relay
 * Modulino Pixels
 * Modulino Vibro
+* Modulino LED Matrix
 
 The firmware for the following Modulino nodes cannot be updated:
 
@@ -42,17 +43,17 @@ If you experience issues with your Modulino node after running the FirmwareUpdat
 
 ## Update Modulino firmware in Arduino IDE {#ide}
 
-1. Connect the Modulino to your Arduino UNO R4 WiFi.
+1. Connect the Modulino to your Arduino board.
 
 2. Connect the board to your computer and open Arduino IDE.
 
-3. [Go to the Library Manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE) and install the [Modulino](https://docs.arduino.cc/libraries/arduino_modulino) and [ArduinoGraphics](https://docs.arduino.cc/libraries/arduinographics/) libraries.
+3. Ensure that the **Modulino** and **ArduinoGraphics** libraries are installed [in the Library Manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE).
 
 4. In the top menu bar, open **File > Examples > Modulino > Utilities > FirmwareUpdater**.
 
-5. Click ![Upload button](img/symbol_upload2.png) **Upload** to upload the sketch to your Arduino UNO R4 WiFi.
+5. Click ![Upload button](img/symbol_upload2.png) **Upload** to upload the sketch to your Arduino board.
 
-6. The firmware update is complete when the sketch is successfully uploaded to the board and the text `PAS` is displayed on the LED matrix.
+6. The firmware update is complete when the sketch is successfully uploaded to the board. If your board has an LED matrix, the text `PAS` will be displayed.
 
 7. You can now test the Modulino by uploading an example from **File > Examples > Modulino**.
 
@@ -60,17 +61,16 @@ If you experience issues with your Modulino node after running the FirmwareUpdat
 
 ## Update Modulino firmware in Arduino Cloud Editor {#iot}
 
-1. Connect the Modulino to your Arduino UNO R4 WiFi.
+1. Connect the Modulino to your Arduino board.
 
 2. Connect the board to your computer.
 
-3. Open the FirmwareUpdater example:
+3. [Open the Cloud Editor](https://app.arduino.cc/sketches/examples?nav=Examples&eid=01.Basics%2FBlink).
 
-    * Click [here to open it directly](https://app.arduino.cc/sketches/examples?nav=Examples&eid=modulino_0_4_2%2Fexamples%2FUtilities%2FFirmwareUpdater&slid=modulino_0_4_2){.link-external}
-    * Alternatively, open the Cloud Editor, go to **Examples > From Libraries**, search for "Modulino," and open **Modulino > Utilities > FirmwareUpdater**.
+4. Open the FirmwareUpdater example. Go to **Examples > From Libraries**, search for **"Modulino,"** and open **Modulino > Utilities > FirmwareUpdater**.
 
-4. Click ![Upload button](img/symbol_upload_cloud.png) **Upload** to upload the sketch to your Arduino UNO R4 WiFi.
+5. Click ![Upload button](img/symbol_upload_cloud.png) **Upload** to upload the sketch to your Arduino board.
 
-5. The firmware update is complete when the sketch is successfully uploaded to the board and the text `PAS` is displayed on the LED matrix.
+6. The firmware update is complete when the sketch is successfully uploaded to the board. If your board has an LED matrix, the text `PAS` will be displayed.
 
-6. You can now test the Modulino by [importing a Modulino Template](https://support.arduino.cc/hc/en-us/articles/14826942993308-Import-an-Arduino-Cloud-Template).
+7. You can now test the Modulino by [importing a Modulino Template](https://support.arduino.cc/hc/en-us/articles/14826942993308-Import-an-Arduino-Cloud-Template).
