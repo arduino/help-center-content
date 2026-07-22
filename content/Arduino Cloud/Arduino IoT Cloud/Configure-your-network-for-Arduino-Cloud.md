@@ -3,7 +3,7 @@ title: "Configure your network for Arduino Cloud"
 id: 360017279260
 ---
 
-Learn the network requirements for Arduino Cloud.
+If you are using Arduino Cloud on a restricted network (such as a school, office, or highly secure private network) or are experiencing connectivity issues, you may need to whitelist specific domains and ports in your firewall.
 
 ---
 
@@ -48,3 +48,71 @@ The WPA2 (Enterprise) RADIUS combination affords networks the highest level of c
 * Reach out to your school administrator and recommend creating a subnetwork specifically for connecting your Arduino devices using WEP/WEP2. This network would have limited access and can only be used for IoT purposes.
 
 * If you don't have access to or can't create a separate WEP/WEP2 network, you can create a hotspot using your mobile device and try to connect your devices to it. Keep in mind that this solution is temporary and restrictive, primarily suitable for testing purposes. It's not intended for prolonged deployment.
+
+---
+
+## Test your network
+
+If you are experiencing connectivity issues, you can test if your network allows access to the required endpoints using built-in command-line tools. When running the tests, make sure you are connected to the same network that your Arduino board is using.
+
+### Windows (PowerShell)
+
+On Windows, you can use the `Test-NetConnection` in PowerShell.
+
+1. Open the Windows Start menu, search for **PowerShell**, and open it.
+2. Run these commands below to test the TCP connections for Arduino Cloud:
+
+   ```powershell
+   Test-NetConnection mqtts-up.iot.arduino.cc -Port 8884
+   Test-NetConnection mqtts-sa.iot.arduino.cc -Port 8885
+   Test-NetConnection wss.iot.arduino.cc -Port 8443
+   Test-NetConnection boards-int.arduino.cc -Port 443
+   Test-NetConnection boards-v2.arduino.cc -Port 443
+   ```
+
+   Look at the **TcpTestSucceeded** value in the output:
+
+   * **True:** The connection was successful.
+   * **False:** Your firewall is blocking the connection.
+
+3. You can test the UDP NTP server (`time.arduino.cc` on port 123) using the Windows Time tool (`Test-NetConnection` only tests TCP connections):
+
+   ```cmd
+   w32tm /stripchart /computer:time.arduino.cc /samples:1 /dataonly
+   ```
+
+   If it successfully returns a time offset, UDP port 123 is open.
+
+### macOS and Linux (Terminal)
+
+On macOS and Linux, you can use the `nc` (netcat) utility in the Terminal.
+
+1. Open your **Terminal** application.
+2. Run these commands below to test the TCP connections for Arduino Cloud:
+
+   ```bash
+   nc -zv mqtts-up.iot.arduino.cc 8884
+   nc -zv mqtts-sa.iot.arduino.cc 8885
+   nc -zv wss.iot.arduino.cc 8443
+   nc -zv boards-int.arduino.cc 443
+   nc -zv boards-v2.arduino.cc 443
+   ```
+
+   Check the output message:
+
+   * **Success:** The terminal will show a message like `succeeded!` or `open`.
+   * **Failure:** The terminal will show `Connection refused` or hang until it times out.
+
+3. You can test the UDP NTP server (`time.arduino.cc` on port 123) using netcat's UDP mode:
+
+   ```bash
+   nc -zuv time.arduino.cc 123
+   ```
+
+   Check the output message:
+
+   * **Success:** The terminal will show a message like `succeeded!` or `open`.
+   * **Failure:** The terminal will show `Connection refused` or hang until it times out.
+
+> [!NOTE]
+> On highly restrictive networks (such as enterprise or university networks), you may also need to whitelist your board's MAC address. Check with your network administrator if you continue to experience issues after opening the required ports.

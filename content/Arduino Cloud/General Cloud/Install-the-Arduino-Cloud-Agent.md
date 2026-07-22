@@ -49,6 +49,7 @@ Try launching Arduino Cloud Agent again.
 
 ## Further reading
 
+* [If the Arduino Cloud Agent isn't detected](https://support.arduino.cc/hc/en-us/articles/360016466600-If-the-Arduino-Cloud-Agent-isn-t-detected)
 * [List of releases on GitHub](https://github.com/arduino/arduino-create-agent/releases)
 
 <p style="display:none;">

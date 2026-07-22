@@ -4,7 +4,7 @@
   "description": "Linter for the Arduino Help Center repository",
   "main": "markdownlint.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node test-hc009.js",
     "lint": "node markdownlint.js"
   },
   "repository": {

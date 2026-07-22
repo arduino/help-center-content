@@ -16,9 +16,7 @@ In this article:
 
 ---
 
-<a id="connecting-to-the-test-points"></a>
-
-## Connecting to the test points on the Nano 33 IoT
+## Connecting to the test points on the Nano 33 IoT {#connecting-to-the-test-points}
 
 > [!NOTE]
 > Improper soldering can void the warranty. [Contact us](https://www.arduino.cc/en/contact-us/) before soldering if your board is under warranty.
@@ -34,9 +32,7 @@ You'll need a way to connect your programmer to these points (also called "pads"
 
 ---
 
-<a id="debugger"></a>
-
-## Burn the bootloader with a debugger
+## Burn the bootloader with a debugger {#debugger}
 
 ### What you'll need
 
@@ -81,9 +77,7 @@ You'll need a way to connect your programmer to these points (also called "pads"
 
 ---
 
-<a id="sd-card"></a>
-
-## Burn the bootloader using another Arduino board as a programmer
+## Burn the bootloader using another Arduino board as a programmer {#sd-card}
 
 ### What you'll need
 
@@ -123,11 +117,13 @@ You'll need a way to connect your programmer to these points (also called "pads"
 
 1. Prepare the sketch:
 
-   * If you've using a connected SD module, either make sure that the **CS (Chip Select)** pin is connected to pin 4, or edit this line to match the actual connection:
+   * If you're using a connected [SD module](https://docs.arduino.cc/learn/programming/sd-guide), either make sure that the **CS (Chip Select)** pin is connected to pin 28, or edit this line to match your actual connection:
 
      ```
-     #define SD_CS 4
+     #define SD_CS 28
      ```
+
+   * Ensure that the `SWDIO`, `SWCLK`, and `RST` pins defined in the sketch match the wiring in the connection table below. If they differ, update the sketch definitions to match your wiring.
 
    * If your board has a built-in SD slot, then you can change this line:
 
@@ -166,3 +162,9 @@ You'll need a way to connect your programmer to these points (also called "pads"
 1. Select **Tools > Serial Monitor** to see the Serial Monitor output as the programmer board flashes the bootloader file.
 
 1. Wait until the process finishes, then disconnect the programmer board.
+
+## Further reading
+
+* [Guide to Arduino & Secure Digital (SD) Storage](https://docs.arduino.cc/learn/programming/sd-guide/)
+
+<!-- markdownlint-disable-file HC001 -->
