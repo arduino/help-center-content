@@ -10,14 +10,10 @@ This article applies to the following boards:
 - Arduino Portenta C33
 - Arduino Opta
 - Arduino GIGA R1 WiFi
-- Arduino Nano Matter
 - Arduino Nano RP2040 Connect
-- Arduino Nano 33 BLE
 - Arduino Nano 33 BLE Sense
-- Arduino Nano 33 IoT
 - Arduino Nicla Sense ME
 - Arduino Nicla Vision
-- Arduino UNO Q
 
 > [!NOTE]
 > This guide requires the **Arduino Core on Zephyr** version `0.90.0` or later.
