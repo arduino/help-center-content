@@ -1,5 +1,5 @@
 ---
-title: "Zephyr first-time setup"
+title: "Install the Zephyr loader on your board"
 ---
 
 Learn how to prepare supported Arduino boards to run applications built on the Zephyr RTOS by installing the Zephyr loader.
@@ -16,7 +16,7 @@ This article applies to the following boards:
 - Arduino Nicla Vision
 
 > [!NOTE]
-> This guide requires the **Arduino Core on Zephyr** version `0.90.0` or later.
+> This guide requires the **Arduino Zephyr Boards** core version `0.90.0` or later.
 
 In this article:
 
@@ -41,14 +41,14 @@ This guide walks you through the initial setup process in Arduino IDE.
 Before you begin, ensure you have the following:
 
 - **Arduino IDE 2.x** installed.
-- **ArduinoCore-zephyr (v0.90.0 or later)** installed via _Tools > Board > Boards Manager_.
+- **Arduino Zephyr Boards (v0.90.0 or later)** installed via _Tools > Board > Boards Manager_.
 - A data-compatible USB cable to connect your board directly to your computer.
 
 ---
 
 ## Automatic loader updates {#automatic-loader-updates}
 
-Starting with ArduinoCore-zephyr v0.90.0, the core includes automatic loader sync across all supported boards. During every sketch upload, the loader version is checked and updated behind the scenes if required.
+Starting with Arduino Zephyr Boards v0.90.0, the core includes automatic loader sync across all supported boards. During every sketch upload, the loader version is checked and updated behind the scenes if required.
 
 This includes boards that have no Zephyr loader installed; uploading any sketch will automatically install the loader the very first time the board is used with a Zephyr-based core.
 
@@ -65,7 +65,7 @@ Follow these steps to prepare your board for Zephyr for the first time, or to ma
 
 2. **Put the board in bootloader mode:** Quickly double-click the physical **RESET** button on your board. The built-in LED will pulse or blink, indicating the board is in bootloader mode.
 
-3. **Select your board and port:** In the Arduino IDE menu, go to _Tools > Board_ and select your board under the **Arduino Core on Zephyr** platform. Then, select the correct port under _Tools > Port_.
+3. **Select your board and port:** In the Arduino IDE menu, go to _Tools > Board_ and select your board under the **Arduino Zephyr Boards** platform. Then, select the correct port under _Tools > Port_.
 
 4. **Select a programmer:** Go to _Tools > Programmer_ and choose **Factory Programmer** (or any other available option specified for your board).
 
