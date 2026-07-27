@@ -1,5 +1,6 @@
 ---
-title: "Install the Zephyr loader on your board"
+title: Install the Zephyr loader on your board
+id: 29180434600476
 ---
 
 Learn how to prepare supported Arduino boards to run applications built on the Zephyr RTOS by installing the Zephyr loader.
