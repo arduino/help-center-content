@@ -3,7 +3,6 @@ title: "Find your receipt or invoice"
 id: 360016121859
 ---
 
-
 Learn how to find a receipt or invoice for your purchase.
 
 In this article:
