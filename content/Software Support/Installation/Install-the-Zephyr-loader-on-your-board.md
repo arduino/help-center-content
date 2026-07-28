@@ -21,15 +21,19 @@ This article applies to the following boards:
 
 In this article:
 
-- [Overview {#overview}](#overview-overview)
-- [Prerequisites {#prerequisites}](#prerequisites-prerequisites)
-- [Automatic loader updates {#automatic-loader-updates}](#automatic-loader-updates-automatic-loader-updates)
-- [Flash the Zephyr loader manually {#flash-manually}](#flash-the-zephyr-loader-manually-flash-manually)
-- [Still need help? {#still-need-help}](#still-need-help-still-need-help)
+<!-- TOC -->
+
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Automatic loader updates](#automatic-loader-updates)
+- [Flash the Zephyr loader manually](#flash-the-zephyr-loader-manually)
+- [Still need help?](#still-need-help)
+
+<!-- /TOC -->
 
 ---
 
-## Overview {#overview}
+## Overview
 
 Arduino is transitioning its high-performance board cores from the deprecated Arm Mbed OS to the modern, open-source **Zephyr RTOS**. Before running Zephyr-based sketches on a supported Arduino board for the first time, you must install the **Zephyr loader** onto your hardware. The loader is a small firmware utility that allows the board to accept and run applications built on the Zephyr RTOS architecture.
 
@@ -37,7 +41,7 @@ This guide walks you through the initial setup process in Arduino IDE.
 
 ---
 
-## Prerequisites {#prerequisites}
+## Prerequisites
 
 Before you begin, ensure you have the following:
 
@@ -47,18 +51,18 @@ Before you begin, ensure you have the following:
 
 ---
 
-## Automatic loader updates {#automatic-loader-updates}
+## Automatic loader updates
 
 Starting with Arduino Zephyr Boards v0.90.0, the core includes automatic loader sync across all supported boards. During every sketch upload, the loader version is checked and updated behind the scenes if required.
 
 This includes boards that have no Zephyr loader installed; uploading any sketch will automatically install the loader the very first time the board is used with a Zephyr-based core.
 
 > [!IMPORTANT]
-> **For Portenta C33 users:** Due to a required bootloader update on the Portenta C33, you **must** complete the [manual loader flashing process](#flash-manually) below at least once. After completing this initial update manually, automatic loader updates will work seamlessly on the Portenta C33 as well.
+> **For Portenta C33 users:** Due to a required bootloader update on the Portenta C33, you **must** complete the [manual loader flashing process](#flash-the-zephyr-loader-manually) below at least once. After completing this initial update manually, automatic loader updates will work seamlessly on the Portenta C33 as well.
 
 ---
 
-## Flash the Zephyr loader manually {#flash-manually}
+## Flash the Zephyr loader manually
 
 Follow these steps to prepare your board for Zephyr for the first time, or to manually sync the loader with the core version:
 
@@ -85,7 +89,7 @@ Follow these steps to prepare your board for Zephyr for the first time, or to ma
 
 ---
 
-## Still need help? {#still-need-help}
+## Still need help?
 
 If you encounter errors during the *Burn Bootloader* step:
 
