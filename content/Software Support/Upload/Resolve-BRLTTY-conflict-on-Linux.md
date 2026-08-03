@@ -10,10 +10,10 @@ In this article:
 
 - [Symptoms](#symptoms)
 - [Solutions](#solutions)
-  - [Option 1: Uninstall BRLTTY](#uninstall)
-  - [Option 2: Mask the udev rules](#mask-udev)
-  - [Option 3: Disable the systemd service](#disable-service)
-  - [Option 4: Exclude specific chips](#exclude-chips)
+	- [Option 1: Uninstall BRLTTY {#uninstall}](#option-1-uninstall-brltty-uninstall)
+	- [Option 2: Mask the udev rules {#mask-udev}](#option-2-mask-the-udev-rules-mask-udev)
+	- [Option 3: Disable the systemd service {#disable-service}](#option-3-disable-the-systemd-service-disable-service)
+	- [Option 4: Exclude specific chips {#exclude-chips}](#option-4-exclude-specific-chips-exclude-chips)
 
 ---
 
@@ -116,15 +116,31 @@ On modern Linux distributions that manage BRLTTY via `systemd` (like Ubuntu 22.0
 
 If you actually use a Braille display and need to keep BRLTTY active, you can modify its rule list so it ignores only the generic USB-to-serial chips used by Arduino boards.
 
+To ensure your changes are persistent and won't be overwritten by future package updates, copy the BRLTTY rule file to the administrative `/etc/udev/rules.d/` directory and edit the copy. Files in `/etc/udev/rules.d/` take precedence over those in system directories.
+
 1. Open your terminal.
 
-2. Find the rule file for BRLTTY in your system's `udev` directory (typically `/usr/lib/udev/rules.d/85-brltty.rules` or `/lib/udev/rules.d/85-brltty.rules`) and open it with root privileges in a text editor like `nano`:
+2. Copy the BRLTTY rule file to the `/etc/udev/rules.d/` directory.
+
+   - If the rule file is in `/usr/lib/udev/rules.d/`:
+
+     ```bash
+     sudo cp /usr/lib/udev/rules.d/85-brltty.rules /etc/udev/rules.d/
+     ```
+
+   - If the rule file is instead in `/lib/udev/rules.d/`:
+
+     ```bash
+     sudo cp /lib/udev/rules.d/85-brltty.rules /etc/udev/rules.d/
+     ```
+
+3. Open the newly copied file with root privileges in a text editor like `nano`:
 
    ```bash
-   sudo nano /usr/lib/udev/rules.d/85-brltty.rules
+   sudo nano /etc/udev/rules.d/85-brltty.rules
    ```
 
-3. Look for the lines that define the Vendor and Product IDs of the USB-to-serial chip your Arduino uses, and comment them out by adding `#` at the beginning of each line:
+4. Look for the lines that define the Vendor and Product IDs of the USB-to-serial chip your Arduino uses, and comment them out by adding `#` at the beginning of each line:
 
    - **FTDI FT232R** (used on classic Nano):
 
@@ -144,12 +160,12 @@ If you actually use a Braille display and need to keep BRLTTY active, you can mo
      # ENV{PRODUCT}=="10c4/ea60/*", ...
      ```
 
-4. Save the file (in nano, press <kbd>Ctrl</kbd> + <kbd>O</kbd>, then <kbd>Enter</kbd> to save, and <kbd>Ctrl</kbd> + <kbd>X</kbd> to exit).
+5. Save the file (in nano, press <kbd>Ctrl</kbd> + <kbd>O</kbd>, then <kbd>Enter</kbd> to save, and <kbd>Ctrl</kbd> + <kbd>X</kbd> to exit).
 
-5. Reload the rules to apply the changes:
+6. Reload the rules to apply the changes:
 
    ```bash
    sudo udevadm control --reload-rules
    ```
 
-6. Disconnect your Arduino board and reconnect it to the USB port.
+7. Disconnect your Arduino board and reconnect it to the USB port.
