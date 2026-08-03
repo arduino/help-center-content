@@ -1,5 +1,6 @@
 ---
-title: "Resolve BRLTTY conflict on Linux"
+title: Resolve BRLTTY conflict on Linux
+id: 29350073597468
 ---
 
 Some Linux distributions have a pre-installed background service named **BRLTTY** that provides access to the console for blind users using a Braille display. These Braille displays connect to the computer using a serial port interface.
