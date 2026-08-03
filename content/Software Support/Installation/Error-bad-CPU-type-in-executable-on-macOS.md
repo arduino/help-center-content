@@ -13,7 +13,7 @@ Using a native Apple Silicon version of the software is highly recommended and b
 
 ### Check for a Native Apple Silicon Version
 
-If you are using an [Apple Silicon](https://support.apple.com/en-us/HT211814) (M1/M2/M3) Mac, verify that you have downloaded the native version of the software. For example, when downloading from the [Software page](https://www.arduino.cc/en/software), select the **macOS Apple Silicon** option instead of the Intel version.
+If you are using an [Apple Silicon](https://support.apple.com/en-us/HT211814) Mac, verify that you have downloaded the native version of the software. For example, when downloading from the [Software page](https://www.arduino.cc/en/software), select the **macOS Apple Silicon** option instead of the Intel version.
 
 ### Install Rosetta for Intel-based tools
 
