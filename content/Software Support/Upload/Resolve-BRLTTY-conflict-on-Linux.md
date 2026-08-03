@@ -10,10 +10,10 @@ In this article:
 
 - [Symptoms](#symptoms)
 - [Solutions](#solutions)
-	- [Option 1: Uninstall BRLTTY {#uninstall}](#option-1-uninstall-brltty-uninstall)
-	- [Option 2: Mask the udev rules {#mask-udev}](#option-2-mask-the-udev-rules-mask-udev)
-	- [Option 3: Disable the systemd service {#disable-service}](#option-3-disable-the-systemd-service-disable-service)
-	- [Option 4: Exclude specific chips {#exclude-chips}](#option-4-exclude-specific-chips-exclude-chips)
+  - [Option 1: Uninstall BRLTTY](#uninstall)
+  - [Option 2: Mask the udev rules](#mask-udev)
+  - [Option 3: Disable the systemd service](#disable-service)
+  - [Option 4: Exclude specific chips](#exclude-chips)
 
 ---
 
