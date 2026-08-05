@@ -32,7 +32,7 @@ Arduino IDE can be used to install the required drivers:
 
 2. Install the **Arduino SAMD Boards** package. If you need help, see [Add boards to Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360016119519-Add-boards-to-Arduino-IDE).
 
-3. Install the **ArduinoMotorCarrier** library. If you need help, see [Add libraries to Arduino IDE](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE).
+3. Install the **ArduinoMotorCarrier** library. If you need help, see [Install libraries in the Arduino IDE](https://support.arduino.cc/hc/en-us/articles/5145457742236-Install-libraries-in-the-Arduino-IDE).
 
 4. Restart your computer.
 

@@ -76,7 +76,7 @@ To use the Science Journal, it is necessary to use different libraries and examp
 
 3. Check the [Board configuration overview table](#board-configuration) for information about the required library and example for your board.
 
-4. [Install the library](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE) for your board.
+4. [Install the library](https://support.arduino.cc/hc/en-us/articles/5145457742236-Install-libraries-in-the-Arduino-IDE) for your board.
 
    > [!NOTE]
    > Ensure that the `Arduino_ScienceJournal` and `Arduino_BMI270_BMM150` libraries are updated to their latest versions, as outdated libraries may cause connectivity issues.

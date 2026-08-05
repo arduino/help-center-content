@@ -111,7 +111,7 @@ You'll need a way to connect your programmer to these points (also called "pads"
 
 1. Open Arduino IDE.
 
-1. [Use the Library Manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE#library-manager) to install the **Adafruit DAP library** by Adafruit. If asked whether to install library dependencies, choose **Install all**.
+1. [Use the Library Manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Install-libraries-in-the-Arduino-IDE#library-manager) to install the **Adafruit DAP library** by Adafruit. If asked whether to install library dependencies, choose **Install all**.
 
 1. When the library download is complete, select **File > Examples > Adafruit DAP library > samd21 > flash_from_SD** from the Arduino IDE's menus.
 

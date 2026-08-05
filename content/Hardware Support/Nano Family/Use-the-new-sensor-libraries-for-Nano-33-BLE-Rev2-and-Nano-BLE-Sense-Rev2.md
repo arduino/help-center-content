@@ -16,7 +16,7 @@ In this article:
 
 ## Use the new IMU sensor library for Nano 33 BLE Rev2 and Nano 33 BLE Sense Rev2
 
-To use the IMU (inertial measurement unit) in Nano 33 BLE Rev2 and Nano 33 BLE Sense Rev2, you need to use the **Arduino_BMI270_BMM150** library instead of Arduino_LSM9DS1. If you're using the Arduino IDE, you can [install the libraries using the library manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE).
+To use the IMU (inertial measurement unit) in Nano 33 BLE Rev2 and Nano 33 BLE Sense Rev2, you need to use the **Arduino_BMI270_BMM150** library instead of Arduino_LSM9DS1. If you're using the Arduino IDE, you can [install the libraries using the library manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Install-libraries-in-the-Arduino-IDE).
 
 ### Modify an existing sketch for Rev2
 
@@ -45,7 +45,7 @@ After making the modifications, save the changes and upload the modified sketch 
 
 ## Use the temperature and humidity sensor library for Nano 33 BLE Sense Rev2
 
-To use the temperature and humidity sensor in Nano 33 BLE Sense Rev2, you need to use the **Arduino_HS300X** library instead of Arduino_HTS221. If you're using the Arduino IDE, you can [install the libraries using the library manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE).
+To use the temperature and humidity sensor in Nano 33 BLE Sense Rev2, you need to use the **Arduino_HS300X** library instead of Arduino_HTS221. If you're using the Arduino IDE, you can [install the libraries using the library manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Install-libraries-in-the-Arduino-IDE).
 
 ### Modify an existing sketch for Rev2
 

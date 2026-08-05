@@ -30,4 +30,4 @@ Here are some tips to find an IMU library for a non-Arduino board:
 
 ## Further reading
 
-* <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE">Add libraries to Arduino IDE</a>
+* <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/5145457742236-Install-libraries-in-the-Arduino-IDE">Install libraries in the Arduino IDE</a>
