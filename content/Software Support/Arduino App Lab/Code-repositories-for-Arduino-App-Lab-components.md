@@ -20,6 +20,7 @@ The table below lists each component, its purpose, and a link to its GitHub repo
 | Arduino_RouterBridge       | Arduino library for sketch communication w/ Linux     | [arduino-libraries/Arduino_RouterBridge](https://github.com/arduino-libraries/Arduino_RouterBridge) |
 | Arduino_RPClite            | Arduino library for sketch communication w/ Linux     | [arduino-libraries/Arduino_RPClite](https://github.com/arduino-libraries/Arduino_RPClite)           |
 | Arduino Flasher CLI        | Manual Linux image updates                            | [arduino/arduino-flasher-cli](https://github.com/arduino/arduino-flasher-cli)                       |
+| Arduino Cloud Connector    | Arduino IoT Cloud connector for Linux boards          | [arduino/arduino-cloud-connector](https://github.com/arduino/arduino-cloud-connector)               |
 | arduino/linux-qcom         | Linux kernel                                          | [arduino/linux-qcom](https://github.com/arduino/linux-qcom)                                         |
 | arduino/arduino-deb-images | Linux image infrastructure                            | [arduino/arduino-deb-images](https://github.com/arduino/arduino-deb-images)                         |
 | u-boot                     | Linux bootloader                                      | [arduino/u-boot](https://github.com/arduino/u-boot)                                                 |
