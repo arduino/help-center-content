@@ -1,9 +1,9 @@
 ---
-title: "Add libraries to Arduino IDE"
+title: "Install libraries in the Arduino IDE"
 id: 5145457742236
 ---
 
-Libraries are a collection of code that provide extra functionality for use in sketches, for example when working with hardware or manipulating data. Learn how to add libraries to Arduino IDE.
+Libraries are a collection of code that provide extra functionality for use in sketches, for example when working with hardware or manipulating data. Learn how to install libraries in the Arduino IDE.
 
 In this article:
 
@@ -40,7 +40,7 @@ In this article:
 
 1. In the menu bar, go to _Sketch > Include Library > Add .ZIP Library..._
 
-2. You will be prompted to select the library you want to add. Navigate to the .zip file's location and open it.
+2. You will be prompted to select the library you want to install. Navigate to the .zip file's location and open it.
 
 ---
 
@@ -55,7 +55,7 @@ In this article:
 4. Restart Arduino IDE.
 
 > [!NOTE]
-> Adding a library to the "libraries" folder in the sketchbook will override other previously installed library versions.
+> Installing a library into the "libraries" folder in the sketchbook will override other previously installed library versions.
 
 ---
 

@@ -77,7 +77,7 @@ id: 9207690465436
     <img src="https://content.arduino.cc/assets/hc-library.svg">
     <p class="info-title">Libraries</p>
     <p>Learn more about managing libraries:</p>
-    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE">Add libraries to Arduino IDE</a>
+    <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/5145457742236-Install-libraries-in-the-Arduino-IDE">Install libraries in the Arduino IDE</a>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360016077340-Uninstall-a-library-from-Arduino-IDE">Uninstall a library from Arduino IDE</a>
     <a class="link-chevron-right" href="https://support.arduino.cc/hc/en-us/articles/360012175419-How-to-submit-a-third-party-library-to-the-Arduino-Library-Manager">Submit a 3rd-part library to the manager</a>
   </div>

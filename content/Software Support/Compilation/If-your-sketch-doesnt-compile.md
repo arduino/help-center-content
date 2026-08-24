@@ -30,7 +30,7 @@ In this article:
 
 * A sketch always needs to include a `setup()` and `loop()` function, even if they're not being used. You can use _File > Examples > 1.Basics > BareMinimum_ as a template.
 
-* Libraries added with `#include` need to be installed. Learn how to [add libraries to Arduino IDE](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE).
+* Libraries added with `#include` need to be installed. Learn how to [install libraries in the Arduino IDE](https://support.arduino.cc/hc/en-us/articles/5145457742236-Install-libraries-in-the-Arduino-IDE).
 
 ---
 

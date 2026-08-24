@@ -47,7 +47,7 @@ If you experience issues with your Modulino node after running the FirmwareUpdat
 
 2. Connect the board to your computer and open Arduino IDE.
 
-3. Ensure that the **Modulino** and **ArduinoGraphics** libraries are installed [in the Library Manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE).
+3. Ensure that the **Modulino** and **ArduinoGraphics** libraries are installed [in the Library Manager](https://support.arduino.cc/hc/en-us/articles/5145457742236-Install-libraries-in-the-Arduino-IDE).
 
 4. In the top menu bar, open **File > Examples > Modulino > Utilities > FirmwareUpdater**.
 
