@@ -76,7 +76,7 @@ If Arduino IDE still hangs, start it from a terminal to view its diagnostic outp
 
 1. Press <kbd>**Enter**</kbd>.
 
-## Review the logs
+### Review the logs
 
 Return to the terminal or PowerShell window. Wait until Arduino IDE appears to be hanging. This may be indicated by:
 
