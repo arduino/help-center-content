@@ -3,13 +3,16 @@ title: "Take an Arduino Certification exam"
 id: 4405108078354
 ---
 
-Arduino Certification is an online exam that provides official certification on your knowledge of Arduino-related electronics, programming, and physical computing. Learn how to purchase and take the exam. Learn how to purchase, activate, and start your exam.
+Arduino Certification is an online exam that provides official certification on your knowledge of Arduino-related electronics, programming, and physical computing. Learn how to purchase, activate, and start your exam.
 
 ---
 
 ## Purchase an exam activation code
 
 To attempt the exam, you need an exam activation code.
+
+> [!IMPORTANT]
+> Each activation code is valid for exactly one exam attempt.
 
 Exam codes can be purchased individually or as part of a bundle:
 
