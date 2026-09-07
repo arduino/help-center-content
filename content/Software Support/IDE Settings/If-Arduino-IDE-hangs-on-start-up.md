@@ -1,5 +1,6 @@
 ---
-title: "If Arduino IDE hangs on start-up"
+title: If Arduino IDE hangs on start-up
+id: 30128610551964
 ---
 
 If Arduino IDE stops responding or never finishes opening, follow these steps to troubleshoot the problem.
