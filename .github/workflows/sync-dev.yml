@@ -13,7 +13,7 @@ jobs:
       ALGOLIA_INDEX: ${{ secrets.ALGOLIA_DEV_INDEX }}
 
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v5
 
       - name: Sync
         run: |
