@@ -21,14 +21,12 @@ const {
   ZENDESK_FEDERATED_SOURCE_ID,
   ZENDESK_FEDERATED_TYPE_ID,
   ALGOLIA_APPLICATION_ID,
-  ALGOLIA_DEV_INDEXER_KEY, 
   ALGOLIA_INDEXER_KEY,
-  ALGOLIA_DEV_INDEX,
   ALGOLIA_INDEX
 } = process.env;
 
-const apiKey = ALGOLIA_INDEXER_KEY || ALGOLIA_DEV_INDEXER_KEY;
-const indexName = ALGOLIA_INDEX || ALGOLIA_DEV_INDEX;
+const apiKey = ALGOLIA_INDEXER_KEY;
+const indexName = ALGOLIA_INDEX;
 
 if (!ZENDESK_USER || !apiKey || !indexName || !ZENDESK_FEDERATED_SOURCE_ID || !ZENDESK_FEDERATED_TYPE_ID) {
   console.error("Missing required environment variables.");
