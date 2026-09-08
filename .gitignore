@@ -5,3 +5,4 @@ data/
 # do not commit secrets file :)
 .env
 .envrc
+.env.local
