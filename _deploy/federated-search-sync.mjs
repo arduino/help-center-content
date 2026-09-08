@@ -59,8 +59,7 @@ function extractText(val) {
 
 function normalizeTitle(str) {
   return String(str || '')
-    .replace(/<[^>]*>/g, '') // Zendesk strips HTML tags
-    .replace(/</g, '')        // Zendesk strips raw < characters in titles
+    .replace(/[<>]/g, '')     // Strip angle brackets to prevent HTML element injection
     .replace(/\s+/g, ' ')
     .trim();
 }
