@@ -20,7 +20,7 @@ In this article:
 ## About Arduino Cloud plans {#about}
 
 > [!NOTE]
-> All premium features for individual users are now consolidated into a single **Maker plan**. Arduino Cloud can still be used with the Free plan, but Entry and Maker Plus plans are no longer offered to new customers.
+> All premium features for individual users are now consolidated into a single **Maker plan**. Arduino Cloud can still be used with the Free plan, but Entry and Maker Plus plans are no longer offered to new customers. For details on legacy plans, see [About legacy Arduino Cloud plans (Entry and Maker Plus)](https://support.arduino.cc/hc/en-us/articles/About-legacy-Arduino-Cloud-plans-Entry-and-Maker-Plus).
 
 Cloud plans enable or improve the features of a single space in Arduino Cloud:
 
