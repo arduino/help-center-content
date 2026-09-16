@@ -1,5 +1,6 @@
 ---
-title: "About legacy Arduino Cloud plans (Entry and Maker Plus)"
+title: About legacy Arduino Cloud plans (Entry and Maker Plus)
+id: 30359855741084
 ---
 
 Arduino Cloud plans underwent a restructuring to simplify the options available to makers and enterprises. As part of this update, the **Entry** and **Maker Plus** plans have been retired and are no longer available for new subscriptions.
