@@ -42,6 +42,6 @@ Comparing legacy plans with our current offerings highlights how upgrading can i
 Upgrading to our current plan structure expands your limits and enables collaboration:
 
 * **From Entry to Maker:** Upgrading to the current **Maker plan** increases your capacity to 25 Things, expands data retention to 90 days, and unlocks unlimited variables per Thing to support more complex projects.
-* **From Maker Plus to Team:** Moving to the **Team plan** introduces multi-user collaboration (allowing up to 50 members to build and manage projects together) and removes strict API rate limits.
+* **From Maker Plus to Team:** Moving to the **Team plan** introduces [multi-user collaboration](https://docs.arduino.cc/arduino-cloud/business/arduino-cloud-for-business/#manage-your-spaces) (allowing up to 50 members to build and manage projects together) and removes strict API rate limits.
 
 To upgrade or change your active plan, visit the [Arduino Cloud Plans page](https://cloud.arduino.cc/plans) or follow the step-by-step instructions in [Review, change, or cancel an Arduino Cloud plan](https://support.arduino.cc/hc/en-us/articles/4401881299090).
