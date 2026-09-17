@@ -205,13 +205,11 @@ Do one of the following:
   1. Close PLC IDE.
   2. Right-click PLC IDE and select **Run as administrator**.
   3. Continue using the same admin credentials that were used when installing PLC IDE.
-- Copy the files to configure a non-admin user for PLC IDE:
+- Copy the files to configure a non-admin user for PLC IDE (for detailed steps, see [Configure PLC IDE for a standard user](Configure-PLC-IDE-for-a-standard-user.md)):
   1. Sign in as an admin.
   2. Copy the `C:\Users\ADMIN-USERNAME\AppData\Local\T` folder.
   3. Paste the folder into the `C:\Users\REGULAR-USERNAME\AppData\Local\T` directory.
-  4. Open the `C:\Users\REGULAR-USERNAME\AppData\Local\T\arduino-cli.yaml` file in a text editor.
-  5. Replace `ADMIN-USERNAME` with `REGULAR-USERNAME` in all file paths inside the file.
-  6. Save the changes to `arduino-cli.yaml`.
+  4. Delete the file `C:\Users\REGULAR-USERNAME\AppData\Local\T\arduino-cli.yaml`. Deleting this file is required; if left intact, compiling will fail with a path configuration error because it points to the admin user's paths. PLC IDE will automatically generate a new `arduino-cli.yaml` file with the correct paths when the standard user compiles a project.
 
 ### Error: invalid path creating config dir
 
