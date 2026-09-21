@@ -18,7 +18,20 @@ This happens because the required `T` folder is missing from the standard user's
 
 ---
 
-## Solution 1: Copy the T folder (Recommended)
+## Solution 1: Run the configuration script (Recommended)
+
+You can automatically set up the required configuration for your standard user using a batch script. This method is the simplest and does not require access to the administrator's user profile folders (which may be restricted in some corporate or managed IT environments).
+
+1. Download [configure-plc-ide-standard-user.bat](https://content.arduino.cc/assets/configure-plc-ide-standard-user.bat){.link-download} or view the [script source code on GitHub](https://github.com/arduino/help-center-content/blob/main/utilities/configure-plc-ide-standard-user.bat).
+1. Double-click the downloaded `.bat` file to run it.
+1. Open PLC IDE as the standard user and select **Project > Compile**.
+1. Since the script configures a clean environment, Arduino CLI will automatically download and install the required tools and libraries upon your first compilation (requires an internet connection).
+
+---
+
+## Solution 2: Copy the T folder (Manual alternative)
+
+If you do not have an internet connection during the first compilation or cannot run batch files, you can copy the files manually:
 
 1. Sign into Windows or open File Explorer as the **administrator** account that installed PLC IDE.
 1. Navigate to:
@@ -43,7 +56,7 @@ This happens because the required `T` folder is missing from the standard user's
 
 ---
 
-## Solution 2: Run PLC IDE as administrator
+## Solution 3: Run PLC IDE as administrator
 
 If copying the folder is not possible, the standard user can run PLC IDE with administrator credentials:
 
