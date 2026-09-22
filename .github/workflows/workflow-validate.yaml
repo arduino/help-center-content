@@ -1,12 +1,15 @@
 name: validate content
 
+permissions:
+  contents: read
+
 on:
   workflow_dispatch:
   repository_dispatch:
     types: deploy
   push:
     branches:
-      - master
+      - main
     paths:
       - 'content/**'
   pull_request:
@@ -20,6 +23,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
 
       - name: Markdownlint
         run: |
@@ -29,7 +34,9 @@ jobs:
           node scripts/linter/markdownlint.js
 
   zendesk:
-    if: github.repository_owner == 'arduino'
+    # The dry run needs Zendesk secrets and ~450 API calls: run it on PRs and
+    # manual runs only, not on every push to main (deploy-prod covers that).
+    if: github.repository_owner == 'arduino' && github.event_name != 'push'
     runs-on: ubuntu-latest
 
     # Prevents concurrency with itself AND any other workflows 
@@ -45,6 +52,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
 
       - name: Preview changes
         run: |

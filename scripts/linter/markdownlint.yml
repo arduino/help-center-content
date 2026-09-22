@@ -14,7 +14,6 @@ whitespace: true
 MD009:
   strict: true
 links: true
-MDX001: true
 HC001:
   heading_line_length: 60
 HC002: true
