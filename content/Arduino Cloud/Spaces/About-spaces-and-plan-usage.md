@@ -68,4 +68,4 @@ Follow these steps:
 
 If you need help with your Arduino Cloud plan, please [contact us](https://www.arduino.cc/en/contact-us/).
 
-[^cloud-plans-2025]: The Entry and Maker Plus individual plans are no longer offered to new customers. See [About legacy Arduino Cloud plans (Entry and Maker Plus)](https://support.arduino.cc/hc/en-us/articles/About-legacy-Arduino-Cloud-plans-Entry-and-Maker-Plus).
+[^cloud-plans-2025]: The Entry and Maker Plus individual plans are no longer offered to new customers. See [About legacy Arduino Cloud plans (Entry and Maker Plus)](https://support.arduino.cc/hc/en-us/articles/30359855741084-About-legacy-Arduino-Cloud-plans-Entry-and-Maker-Plus).
