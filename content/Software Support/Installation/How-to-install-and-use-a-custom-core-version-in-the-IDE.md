@@ -12,11 +12,12 @@ In this guide, we'll create the appropriate folder structure and install a core.
 > [!NOTE]
 > You can skip this step if you already have the correct folder structure created.
 
-In this guide, `<sketchbook>` refers to the location of your sketchbook folder. 
+In this guide, `<sketchbook>` refers to the location of your sketchbook folder.
 
 ### Finding your sketchbook location
 
 If you're not sure where your sketchbook is, follow these steps:
+
 1. Open the Arduino IDE.
 2. Open the Preferences/Settings:
    - **On Windows/Linux:** Go to **File > Preferences**.
@@ -24,6 +25,7 @@ If you're not sure where your sketchbook is, follow these steps:
 3. Find the path listed under the **Sketchbook location** field.
 
 By default, the sketchbook folder is located here:
+
 - **Windows:** `C:\Users\<username>\Documents\Arduino`
 - **macOS:** `/Users/<username>/Documents/Arduino`
 - **Linux:** `/home/<username>/Arduino`
@@ -40,6 +42,7 @@ To ensure proper library compatibility and resource loading, custom cores must b
 - **`<architecture>`**: The target board architecture (e.g., `avr`, `samd`, `mbed`, or `esp32`). For Arduino cores, this typically matches the `x` in `ArduinoCore-x`.
 
 For example, a custom AVR core under the `arduino` vendor would look like:
+
 ```text
 Arduino/hardware/arduino/avr/
 ```
@@ -127,6 +130,7 @@ mklink /D "<core_path>\cores\arduino\api" "<ArduinoCore-API_path>\api"
 If the Arduino IDE is open, **you must restart it** to load and register the newly installed custom core.
 
 Once the IDE restarts, the new core and its associated boards will be available in the board selector:
+
 - **Arduino IDE 2.x:** Select your board from the board dropdown or go to **Tools > Board**. The custom core boards will appear grouped under a category indicating they are located in the sketchbook.
 - **Arduino IDE 1.x:** Go to **Tools > Board > [core_name] (in sketchbook)**.
 
