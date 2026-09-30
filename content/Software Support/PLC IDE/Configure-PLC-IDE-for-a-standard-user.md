@@ -1,5 +1,6 @@
 ---
 title: Configure PLC IDE for a standard user
+id: 30690604854428
 ---
 
 When the Arduino PLC IDE is installed on Windows, the installer requires administrator privileges (UAC). As a result, the tool folder containing background tools (such as Arduino CLI) is created under the administrator's profile at:
