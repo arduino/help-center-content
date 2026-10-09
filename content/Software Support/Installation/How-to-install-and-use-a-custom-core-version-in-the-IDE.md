@@ -12,7 +12,7 @@ In this guide, we'll create the appropriate folder structure and install a core.
 > [!NOTE]
 > You can skip this step if you already have the correct folder structure created.
 
-In this guide, `<sketchbook>` refers to the location of your sketchbook folder.
+We will use `<sketchbook>` to refer to the location of your sketchbook folder.
 
 ### Finding your sketchbook location
 
