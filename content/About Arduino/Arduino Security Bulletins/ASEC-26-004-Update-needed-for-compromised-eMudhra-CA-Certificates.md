@@ -1,5 +1,5 @@
 ---
-title: ASEC-26-004 Mitigation for Compromised eMudhra CA Certificates in Arduino Components
+title: ASEC-26-004 - Update needed for compromised eMudhra CA Certificates
 ---
 
 Bulletin ID: ASEC-26-004
