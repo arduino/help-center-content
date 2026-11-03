@@ -3,8 +3,8 @@ title: ASEC-26-004 - Update needed for compromised eMudhra CA Certificates
 id: 31530185009820
 ---
 
-Bulletin ID: ASEC-26-004
-Date: Nov 03, 2026
+Bulletin ID: ASEC-26-004  
+Date: Nov 03, 2026  
 Impact: Potential Man-in-the-Middle (MitM) / TLS spoofing
 
 Products/Components:
