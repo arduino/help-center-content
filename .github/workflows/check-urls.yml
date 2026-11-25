@@ -1,5 +1,8 @@
 name: URLs
 
+permissions:
+  contents: read
+
 on:
   workflow_dispatch:
   schedule:
@@ -10,10 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
 
       - name: Link Checker
         id: lychee
-        uses: lycheeverse/lychee-action@v1
+        uses: lycheeverse/lychee-action@2b973e86fc7b1f6b36a93795fe2c9c6ae1118621 # v1.10.0
         with:
           args: --no-progress --verbose --require-https --include-fragments 'content/*/*/*.md' --max-retries 0 --max-concurrency 1
           fail: true
